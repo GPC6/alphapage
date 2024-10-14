@@ -21,13 +21,13 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossorigin="anonymous"></script>
         <script>
-            // function alert_button(number, how, what) {
-            //     document.getElementById('alert_con'+number).innerHTML=what;
-            //     document.getElementById('alert'+number).style.display=how;
-            // };
-            // document.getElementById("close").addEventListener("click",function(){
-            //     alert_button('1','none','');
-            // });
+            function alert_button(number, how, what) {
+                 document.getElementById('alert_con'+number).innerHTML=what;
+                 document.getElementById('alert'+number).style.display=how;
+             };
+             document.getElementById("close").addEventListener("click",function(){
+                 alert_button('1','none','');
+             });
             $('#test').on("click",function(){
                 $('#hello').addClass('yellow-bg')
             });
