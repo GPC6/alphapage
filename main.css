@@ -1,0 +1,11 @@
+.container {
+    background: rgb(160, 160, 233);
+    color: rgb(13, 13, 97);
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.yellow-bg {
+    background: yellow;
+}
