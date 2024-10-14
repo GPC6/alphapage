@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> document </title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 id="hello"> 안녕하쇼</h1>
+        <button id="test">이거눌러봐</button>    
+
+
+        <div class="container" id="alert1">
+            <p id="alert_con1">기본 경고창입니다</p>
+            <button id="close">X</button>
+        </div>
+        <button onclick="alert_button('1','block','아이디')"> 버튼1 </button>
+        <button onclick="alert_button('1','block','비밀번호')"> 버튼2 </button>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+        <script>
+            // function alert_button(number, how, what) {
+            //     document.getElementById('alert_con'+number).innerHTML=what;
+            //     document.getElementById('alert'+number).style.display=how;
+            // };
+            // document.getElementById("close").addEventListener("click",function(){
+            //     alert_button('1','none','');
+            // });
+            $('#test').on("click",function(){
+                $('#hello').addClass('yellow-bg')
+            });
+            // $('#hello').addClass('yellow-bg') //$로 요소 고르기 $를 이용
+        </script>
+
+    </body>
+</html>
