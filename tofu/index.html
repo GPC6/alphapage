@@ -60,13 +60,10 @@ tw-hook[name="title"] {
 /* 4. 중간에 띄울 웹툰 컷 스타일 */
 .scene-image {
     display: block;
-    max-width: 90%;       
-    margin: 20px auto; 
-  	margin-left: 0px; 
-    margin-bottom: 0px;
+ 	position: fixed;
+  	left: 10%;
     border: 3px solid #333; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-
 }
 
 .image_change {
@@ -263,7 +260,7 @@ tw-link, .enchantment-link {
     .overlay-image {
         position: absolute; /* 컨테이너 기준으로 자유롭게 배치 가능 */
         bottom: -60px;       /* 아래에서 20px 떨어진 위치 */
-        right: 100px;        /* 오른쪽에서 20px 떨어진 위치 */
+        right: 250px;        /* 오른쪽에서 20px 떨어진 위치 */
         width: 150px;       /* 위에 올라가는 이미지 크기 */
         height: auto;        
         /* 애니메이션 적용 */
@@ -709,7 +706,7 @@ window.shockImage = function() {
 
 
 |imgarea&gt;[&lt;div class=&quot;image-container&quot;&gt;
-    &lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹.png&quot; class=&quot;scene-image base-image&quot; &gt;
+    &lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹.png&quot; class=&quot;scene-image&quot; &gt;
     &lt;img src=&quot;https://gpc6.github.io/alphapage/assets/손가락꾸욱.png&quot; class=&quot;overlay-image&quot;&gt;
 &lt;/div&gt;]
 
@@ -785,8 +782,9 @@ window.shockImage = function() {
                            &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
                           &quot;깨갱!!!&quot;&lt;br&gt;&lt;br&gt;
                           타다다닥!&lt;br&gt;&lt;br&gt;
-                          녀석이 거실을 질주하기 시작했다. &lt;br&gt;
-                          하얀 장판 위에 새빨간 발자국이 도장처럼 찍혀 나간다.&lt;br&gt;&lt;br&gt;
+                          녀석이 거실을 질주하기 시작했다. &lt;br&gt;}
+                          (link-reveal:)[(replace:?talkText)[
+                          {하얀 장판 위에 새빨간 발자국이 도장처럼 찍혀 나간다.&lt;br&gt;&lt;br&gt;
                           &quot;안 돼!!! 거기 러그 깔았단 말이야!!!&quot;&lt;br&gt;&lt;br&gt;
                           녀석은 내 비명은 들리지도 않는지, 베이지색 러그 위에서 몸을 비비며 김치를 닦아내기 시작했다.&lt;br&gt;&lt;br&gt;
                           &quot;으아아아악!!!!&quot;}
@@ -796,7 +794,7 @@ window.shockImage = function() {
                           거실 구석에서 녀석을 겨우 낚아챘다.&lt;br&gt;
                           손안에 잡힌 녀석은 미끌미끌하고, 고소한 참기름 냄새와 개 냄새가 진동한다.&lt;br&gt;
                           [[▶-&gt;D61]]
-                          }]]
+                          }]]]]
                           ]]
                         ]
                 ]
@@ -894,7 +892,7 @@ window.shockImage = function() {
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
-|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부윙크.png&quot; class=&quot;scene-image&quot;&gt;]
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부윙크.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
 
 |dialoguebox&gt;[|talkText&gt;[ {
         다음 날 아침. 녀석은 어제 무슨 일이 있었냐는 듯 밥그릇을 싹 비웠다. &lt;br&gt;
@@ -914,7 +912,7 @@ window.shockImage = function() {
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
-|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부떨기.png&quot; class=&quot;scene-image&quot;&gt;]
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부떨기.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px;&quot;&gt;]
 
 |dialoguebox&gt;[|talkText&gt;[ {
         (병원 문을 열자마자 훅 끼쳐오는 소독약 냄새와 짐승들의 냄새.)&lt;br&gt;&lt;br&gt;
@@ -984,13 +982,14 @@ window.shockImage = function() {
                             그녀는 프로페셔널하게 내 손에서 &#39;두부&#39;를 낚아챘다.&lt;br&gt;&lt;br&gt;
                             &lt;span class=&quot;char-name&quot;&gt;간호사&lt;/span&gt;
                             &quot;일단 진료실로 오세요. 원장님이 엑스레이 먼저 찍자고 하시네요.&quot;&lt;br&gt;
-                             &quot;장은 보셨나 봐요? 이건 제가 잠깐 엑스레이실 선반에 올려둘게요. 강아지 얼른 데려오세요~&quot;&lt;br&gt;&lt;br&gt;
+                             &quot;장은 보셨나 봐요? 이건 제가 잠깐 엑스레이실 선반에 올려둘게요. 강아지 얼른 데려오세요~&quot;}
+                             (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
                              &quot;?!!!!!!&quot;&lt;br&gt;&lt;br&gt;
                              그녀가 내 **[강아지]**를 **[저녁 장거리]**로 착각하고 가져가 버렸다!&lt;br&gt;
                              심지어 엑스레이실로?!&lt;br&gt;
                              [[▶-&gt;H5]]
                             }
-                            ]]
+                            ]]]]
                             ]]
                             
                             ]]]]]]|talkText2&gt;[]
@@ -1013,11 +1012,11 @@ window.shockImage = function() {
         &quot;장난 아니라고요!&lt;br&gt;
         걔는 겁을 먹으면 생체 조직이 두부로 변하는 특이 체질이라니까요?!&quot; &lt;br&gt;&lt;br&gt;
         &quot;지금 선생님 눈엔 마트에서 파는 부침용 두부로 보이겠지만, &lt;br&gt;
-        그게 제 강아지 &#39;두부&#39;입니다!&quot;&lt;br&gt;&lt;br&gt;
-        대기실의 모든 시선이 나에게 꽂혔다. &lt;br&gt;
-        &#39;미친 사람인가 봐...&#39; 하는 수군거림이 들려왔다.
+        그게 제 강아지 &#39;두부&#39;입니다!&quot;
         }
-        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {대기실의 모든 시선이 나에게 꽂혔다. &lt;br&gt;
+        &#39;미친 사람인가 봐...&#39; 하는 수군거림이 들려왔다.&lt;br&gt;&lt;br&gt;
         &lt;span class=&quot;char-name&quot;&gt;의사&lt;/span&gt;
          &quot;......경찰 부를까요?&quot; &lt;br&gt;&lt;br&gt;
          &lt;span class=&quot;char-name&quot;&gt;나&lt;/span&gt;
@@ -1025,15 +1024,17 @@ window.shockImage = function() {
          &quot;만약 그게 진짜 두부라면 그냥 하얗게 나오겠죠. &lt;br&gt;
          하지만 제 말이 맞다면, 뼈가 없는 특이한 생명체 반응이 나올 거라고요!&quot;&lt;br&gt;&lt;br&gt;
          나는 내가 내 무덤을 파고 있다는 사실도 모른 채,&lt;br&gt; 
-         억울함을 증명하고 싶다는 일념으로 소리쳤다. &lt;br&gt;&lt;br&gt;
-         &lt;span class=&quot;char-name&quot;&gt;의사&lt;/span&gt;
+         억울함을 증명하고 싶다는 일념으로 소리쳤다.
+        }
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        { &lt;span class=&quot;char-name&quot;&gt;의사&lt;/span&gt;
          &quot;허... 참나.&quot;&lt;br&gt;
          &quot;좋아요. 그렇게까지 말씀하시니 찍어드리죠. &lt;br&gt;
          대신, 엑스레이에 그냥 &#39;두부&#39;가 찍히면 업무방해죄로 고소 들어갑니다.&quot;&lt;br&gt;&lt;br&gt;
          의사는 코웃음을 치며 엑스레이 촬영실로 들어갔다. &lt;br&gt;
          나는 침을 꼴깍 삼켰다. 제발... 뭔가 다르게 나와라.&lt;br&gt;
         [[▶-&gt;H71]]
-        }]]
+        }]]]]
         
                 ]
  ]</tw-passagedata><tw-passagedata pid="27" name="H71" tags="" position="1125,625" size="100,100">&lt;script&gt;
@@ -1088,7 +1089,8 @@ window.shockImage = function() {
         &lt;span class=&quot;char-name&quot;&gt;의사&lt;/span&gt;
         &quot;강아지? 하! 이 무식한 양반아. &lt;br&gt;
         이건 인류의 식량난과 세포 재생 기술을 혁명적으로 바꿀 **[바이오 오가닉 큐브]**야! &lt;br&gt;
-        개인이 소유할 레벨이 아니라고!!&quot;&lt;br&gt;&lt;br&gt;
+        개인이 소유할 레벨이 아니라고!!&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
         [쿠구구구....] &lt;br&gt;&lt;br&gt;
         멀리서 헬리콥터 프로펠러 소리가 들려오기 시작했다. &lt;br&gt;
         너무 빠르다. &lt;br&gt;
@@ -1129,7 +1131,7 @@ window.shockImage = function() {
         (물론 두부는 눈물이 없어서 간수가 흐르겠지만.)&lt;br&gt;
 		[[▶-&gt;H91]]
         }]]
-
+]]
         ]]
         
                 ]
@@ -1148,15 +1150,16 @@ window.shockImage = function() {
         바닥에는 녀석이 겁먹어서 흘린 털 몇 가닥과, &lt;br&gt;두부로 변했을 때 떨어진 물기 자국만이 남아 있었다.&lt;br&gt;
 나는 텅 빈 목줄을 쥐고 멍하니 하늘을 올려다보았다. &lt;br&gt;
 저녁 하늘이... 젠장, 오늘따라 유난히 네모나게 보인다.&lt;br&gt;
-TV 뉴스에서는 속보가 흘러나오고 있었다. &lt;br&gt;&lt;br&gt;
+TV 뉴스에서는 속보가 흘러나오고 있었다.}
+(link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
 &lt;h4&gt;[속보] 국내 연구진, 무한 재생 가능한 단백질 생명체 발견... 식량난 해결의 열쇠 되나?&lt;/h4&gt;&lt;br&gt;
 &quot;실험실 수조에 갇혀 둥둥 떠다니는 저 하얀 네모. &lt;br&gt;저것이 내 강아지의, 내 가족의 마지막 모습이었다.&quot;&lt;br&gt;
 [[▶-&gt;badend1]]}
-]]
+]]]]
 </tw-passagedata><tw-passagedata pid="30" name="badend1" tags="" position="1500,625" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 01〉&lt;br&gt;실험실의 강아지... 아니, 두부&lt;/h1&gt;
 &lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
 &lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;교훈&lt;br&gt;세상에는 알아도 모른 척해야 하는 비밀이 있다. &lt;br&gt;특히 내 강아지가 식재료로 변할 때는 더더욱.&lt;/h4&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;H4]]&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;H5]]&lt;/p&gt;
 </tw-passagedata><tw-passagedata pid="31" name="H5" tags="" position="875,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     
@@ -1388,13 +1391,15 @@ TV 뉴스에서는 속보가 흘러나오고 있었다. &lt;br&gt;&lt;br&gt;
         &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
         &quot;왈!(배고파!)&quot;&lt;br&gt;&lt;br&gt;
         그래도 다행이다.&lt;br&gt;
-        비록 &#39;진료비 먹튀범&#39;이라는 오명은 썼지만, 녀석의 비밀도 지켰고, 다시 따뜻한 강아지로 돌아왔으니까.
+        비록 &#39;진료비 먹튀범&#39;이라는 오명은 썼지만, 녀석의 비밀도 지켰고, 다시 따뜻한 강아지로 돌아왔으니까.}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
         &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
         &quot;...집에 가자. &lt;br&gt;
         가서 문자 오면 진료비랑 죄송하다고 기프티콘이나 보내야겠다.&quot;&lt;br&gt;&lt;br&gt;
         나는 다시 돌아온 털뭉치를 꼭 껴안고 터덜터덜 집으로 향했다.
         }
         (link:&quot;▶&quot;)[(go-to:&quot;3장&quot;)]
+        ]]
         ]]
         ]]
         
