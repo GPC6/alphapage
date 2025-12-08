@@ -9,7 +9,88 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 두부네모.</tw-noscript></noscript></tw-story>
-<tw-storydata name="두부네모" startnode="10" creator="Twine" creator-version="2.11.0" format="Harlowe" format-version="3.3.9" ifid="B3A3B3BA-F7C3-4D88-8546-933A395DBD11" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar {
+<tw-storydata name="두부네모" startnode="6" creator="Twine" creator-version="2.11.0" format="Harlowe" format-version="3.3.9" ifid="B3A3B3BA-F7C3-4D88-8546-933A395DBD11" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.name-card-popup {
+    /* 1. 크기 고정 (핵심) */
+    width: 450px;         /* 너비를 450px로 고정 (적당한 직사각형) */
+    max-width: 90%;       /* 모바일에서는 화면 안 넘치게 */
+    
+    background-color: #fff;
+    border: 3px solid #333;
+    border-radius: 8px;   /* 모서리 살짝만 둥글게 */
+    padding: 30px 20px;   /* 내부 여백 */
+    
+    /* 2. 디자인 */
+    text-align: center;
+    color: #333;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.2); /* 깔끔한 그림자 */
+    
+    /* 3. 등장 애니메이션 (작은 크기에서 톡 튀어나옴) */
+    animation: card-pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes card-pop {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* 좌우로 촥! 펼쳐지는 애니메이션 키프레임 */
+@keyframes expand-width {
+    0% { transform: scaleX(0.1) scaleY(0.1); opacity: 0; }
+    60% { transform: scaleX(1.1) scaleY(1.0); } /* 가로로 살짝 더 커졌다가 */
+    100% { transform: scaleX(1) scaleY(1); opacity: 1; } /* 제자리 */
+}
+
+
+/* 트와인 입력창(input) 디자인 변경 */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%; /* 팝업창 너비의 80% */
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* 입력창을 클릭했을 때 강조 효과 */
+input[type="text"]:focus {
+    background-color: #fff;
+    border-color: #00A5CF; /* 원하는 포인트 색상 */
+    outline: none;
+}
+
+
+.title-screen {
+    position: fixed;      /* 화면에 고정 (스크롤 무시) */
+    top: 0;
+    left: 0;
+    width: 100%;          /* 너비 100% */
+    height: 100%;         /* 높이 100% */
+    
+    /* [핵심] 중앙 정렬을 위한 Flexbox 설정 */
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center;     /* 세로 중앙 정렬 */
+    
+    background-color: #f0f0f0; /* 배경색 (원하는 색이나 이미지로 변경 가능) */
+    color: black;            /* 글자색 */
+    z-index: 2000;           /* 다른 모든 요소보다 위에 오도록 설정 */
+    text-align: center;      /* 글자가 두 줄 이상일 때도 가운데 정렬 */
+    margin: 0;               /* 기본 여백 제거 */
+}
+
+/* (선택사항) 글자 크기나 폰트 꾸미기 */
+.title-screen h1 {
+    font-size: 4rem;       /* 글자 크기 (키우고 싶으면 숫자 변경) */
+    font-weight: bold;
+    letter-spacing: 5px;   /* 자간 넓게 */
+    animation: fadein 3s;  /* 스르륵 나타나는 효과 */
+}
+
+
+
+tw-sidebar {
     display: none !important;
 }
 
@@ -61,6 +142,7 @@ tw-hook[name="title"] {
 .scene-image {
     display: block;
  	position: fixed;
+  	top: 10%;
   	left: 10%;
     border: 3px solid #333; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -68,6 +150,10 @@ tw-hook[name="title"] {
 
 .image_change {
     animation: fadein 1s;  /* 스르륵 나타나는 효과 */
+}
+
+.image_change_slide {
+    animation: fly-in-from-left 3s ease-out;  /* 스르륵 나타나는 효과 */
 }
 
 
@@ -78,6 +164,20 @@ tw-link, .enchantment-link {
     text-decoration: none;
     cursor: pointer;
 }
+
+@keyframes fly-in-from-left {
+    0% {
+        /* 화면 왼쪽 바깥으로 멀리 보내고, 투명하게 시작 */
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    100% {
+        /* 원래 자리로 돌아오고, 선명해짐 */
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 @keyframes fadein { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -259,8 +359,8 @@ tw-link, .enchantment-link {
     /* 3. 위에 올라가는 이미지 (움직일 사진) */
     .overlay-image {
         position: absolute; /* 컨테이너 기준으로 자유롭게 배치 가능 */
-        bottom: -60px;       /* 아래에서 20px 떨어진 위치 */
-        right: 250px;        /* 오른쪽에서 20px 떨어진 위치 */
+        bottom: 60px;       /* 아래에서 20px 떨어진 위치 */
+        right: 280px;        /* 오른쪽에서 20px 떨어진 위치 */
         width: 150px;       /* 위에 올라가는 이미지 크기 */
         height: auto;        
         /* 애니메이션 적용 */
@@ -283,13 +383,42 @@ tw-link, .enchantment-link {
             /* 끝: 다시 원래 위치로 복귀 */
             transform: translate(0, 0);
         }
-    }</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* =========================================
+    }
+
+
+/* 3번 흔들리고 멈추는 키프레임 정의 */
+@keyframes shake-three-times-motion {
+    0% { transform: translate(0, 0); }
+    
+    /* 첫 번째 흔들림 (크게) */
+    10% { transform: translate(-10px, 0); }
+    20% { transform: translate(10px, 0); }
+    
+    /* 두 번째 흔들림 (중간) */
+    30% { transform: translate(-6px, 0); }
+    40% { transform: translate(6px, 0); }
+    
+    /* 세 번째 흔들림 (작게) */
+    50% { transform: translate(-3px, 0); }
+    60% { transform: translate(3px, 0); }
+    
+    /* 멈춤 */
+    100% { transform: translate(0, 0); }
+}
+
+/* 적용할 클래스 */
+.apply-shake-3 {
+    /* 0.8초 동안 위에서 정의한 동작을 1번 실행 */
+    animation: shake-three-times-motion 0.8s ease-in-out 3;
+    overflow-x: hidden;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* =========================================
    [통합 오디오 시스템: BGM + 효과음 최종수정]
    ========================================= */
 
 /* 1. BGM 목록 */
 window.musicList = {
     "동물병원": "https://gpc6.github.io/alphapage/assets/브금/동물병원ep(MP_Battle of Boss).mp3",
+  "순두부": "https://gpc6.github.io/alphapage/assets/브금/순두부ep(MP_궁금한 게 많아요).mp3",
     "두부변신": "https://gpc6.github.io/alphapage/assets/브금/두부변신ep(MP_선과 악).mp3",
     "두유": "https://gpc6.github.io/alphapage/assets/브금/두유ep(MP_고양이 집에 몰래 들어가자).mp3",
     "산책비극": "https://gpc6.github.io/alphapage/assets/브금/산책ep(MP_차분한 비극).mp3",
@@ -348,6 +477,7 @@ window.changeBGM = function(trackName) {
     if (newUrl) {
         window.bgmPlayer.pause();
         window.bgmPlayer.src = newUrl;
+        window.bgmPlayer.loop = true
         var playPromise = window.bgmPlayer.play();
         if (playPromise !== undefined) {
             playPromise.catch(function(error) { console.log("BGM 재생 대기"); });
@@ -429,6 +559,28 @@ window.shockImage = function() {
             img.classList.remove('apply-flinch');
         }, 200);
     }
+};
+
+
+/* =========================================
+   [화면 3번 흔들기 함수]
+   ========================================= */
+window.shakeScreen3 = function() {
+    var storyElement = document.querySelector('tw-story');
+    
+    if (storyElement) {
+        // 1. 혹시 기존에 흔들리고 있었다면 초기화
+        storyElement.classList.remove('apply-shake-3');
+        void storyElement.offsetWidth; // 강제 리셋
+        
+        // 2. 클래스 부착 (애니메이션 시작)
+        storyElement.classList.add('apply-shake-3');
+        
+        // 3. 애니메이션 시간(0.8초) 후 클래스 제거
+        setTimeout(function() {
+            storyElement.classList.remove('apply-shake-3');
+        }, 800);
+    }
 };</script><tw-passagedata pid="1" name="Op1" tags="" position="375,175" size="100,100">&lt;script&gt;
 	changeBGM(&quot;첫만남&quot;);
 	playSFX(&quot;빗소리&quot;,0, true);
@@ -452,35 +604,7 @@ window.shockImage = function() {
             } ]
         ]
      ]
-]</tw-passagedata><tw-passagedata pid="2" name="sel" tags="" position="1275,425" size="100,100">|popup_area&gt;[]
-
-&lt;img src=&quot;https://i.imgur.com/ZA4pq0t.jpg&quot; class=&quot;scene-image&quot;&gt;
-
-|dialoguebox&gt;[
-    |text&gt;[ {
-        &lt;span class=&quot;char-name&quot;&gt;주인공&lt;/span&gt;
-        가게 문 앞에 섰다.
-        유리문 너머로 누군가 나를 쳐다보고 있는 것 같다.
-        &lt;br&gt;
-        (link: &quot;▶ 행동 결정하기&quot;)[
-            (replace: ?popup_area)[
-                &lt;div class=&quot;popup-overlay&quot;&gt;
-                    &lt;div class=&quot;popup-box&quot;&gt;
-                        &lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
-                        
-                        &lt;div class=&quot;choice-container&quot;&gt;
-                            [[🔔 문을 열고 들어간다-&gt;가게안]]
-                        &lt;/div&gt;
-
-                        &lt;div class=&quot;choice-container&quot;&gt;
-                            [[🏃 무시하고 지나친다-&gt;골목길]]
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            ]
-        ]
-    } ]
-]</tw-passagedata><tw-passagedata pid="3" name="가게안" tags="" position="1300,375" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="골목길" tags="" position="1300,300" size="100,100"></tw-passagedata><tw-passagedata pid="5" name="Op2" tags="" position="500,175" size="100,100">
+]</tw-passagedata><tw-passagedata pid="2" name="Op2" tags="" position="500,175" size="100,100">
 |imgarea&gt;[&lt;div class=&quot;camera-frame&quot;&gt;
     &lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그2.jpg&quot; class=&quot;zoom-img&quot; style=&quot;transform-origin: 55% 80%;&quot;&gt;
 &lt;/div&gt;]
@@ -490,7 +614,7 @@ window.shockImage = function() {
        &quot;...뭐지, 저거?&quot;&lt;br&gt;
        [[가까이 가본다▶-&gt;Op3]]} ]
         ]
-      </tw-passagedata><tw-passagedata pid="6" name="Op3" tags="" position="625,175" size="100,100">|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그3.jpg&quot; class=&quot;scene-image&quot;&gt;]
+      </tw-passagedata><tw-passagedata pid="3" name="Op3" tags="" position="625,175" size="100,100">|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그3.jpg&quot; class=&quot;scene-image&quot;&gt;]
 
 |dialoguebox&gt;[|talkText&gt;[ {
         전봇대 아래, 젖은 종이 박스가 하나 놓여 있다.&lt;br&gt; 
@@ -517,27 +641,9 @@ window.shockImage = function() {
     	]
     ]
 ]
-      </tw-passagedata><tw-passagedata pid="7" name="제목 없는 구절" tags="" position="1350,425" size="100,100">|imgarea&gt;[&lt;img src=&quot;https://i.imgur.com/ZA4pq0t.jpg&quot; class=&quot;scene-image&quot;&gt;]
+      </tw-passagedata><tw-passagedata pid="4" name="Op4" tags="" position="750,175" size="100,100">&lt;script&gt;stopSFX(&quot;낑낑&quot;)&lt;/script&gt;
 
-|dialoguebox&gt;[|talkText&gt;[ {
-        &lt;span class=&quot;char-name&quot;&gt;주인공&lt;/span&gt;
-        비가 억수같이 쏟아진다. &lt;br&gt;
-        좁은 자취방에 가봤자 반겨줄 사람 하나 없고, 기다리는 건 며칠 전에 널어놓은 눅눅한 빨래뿐이겠지.
-        }
-        (link-reveal: &quot;후 인생 ▶&quot;)[
-        	(replace: ?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그.jpg&quot; class=&quot;scene-image image_change&quot;&gt;]))
-            (replace: ?talkText)[ {
-                &lt;span class=&quot;char-name&quot;&gt;주인공&lt;/span&gt;
-                하지만 상관없다. 나에겐 이것이 있으니까. &lt;br&gt;
-                &quot;크... 이걸 990원에 건지다니. 나 좀 천재인가?&quot; &lt;br&gt;
-                손에 들린 봉투를 흐뭇하게 내려다봤다. &lt;br&gt;
-                마감 세일 전쟁에서 쟁취한 [찌개용 두부]. &lt;br&gt;
-                오늘 저녁은 두부김치다. 이거면 가난한 자취생의 저녁치곤 성공이지. &lt;br&gt;
-                
-            } ]
-        ]
-     ]
-]</tw-passagedata><tw-passagedata pid="8" name="Op4" tags="" position="750,175" size="100,100">&lt;script&gt;stopSFX(&quot;낑낑&quot;)&lt;/script&gt;
+|popup_area&gt;[]
 |imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그4.jpg&quot; class=&quot;scene-image&quot;&gt;]
 
 |dialoguebox&gt;[|talkText&gt;[ {
@@ -553,16 +659,39 @@ window.shockImage = function() {
         (replace: ?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/프롤로그3.jpg&quot; class=&quot;scene-image image_change&quot;&gt;]
         	(replace: ?talkText)[{
            &lt;h1&gt; &quot;두부.&quot;&lt;/h1&gt;}
-            (link-reveal:&quot;▶&quot;)[
-            (replace:?talkText)[{
+           (link-reveal:&quot;▶&quot;)[
+            (replace:?talkText)[
+            내 이름은...
+            (link: &quot;▶ 이름 입력하기&quot;)[
+    (replace: ?popup_area)[
+        &lt;div class=&quot;popup-overlay&quot;&gt;
+            &lt;div class=&quot;name-card-popup&quot;&gt;
+                &lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;이름을 입력해주세요&lt;/h3&gt;
+                
+                &lt;div style=&quot;color: black;&quot;&gt; (input-box: bind $name, &quot;X&quot;, 1, &quot;플레이어&quot;)
+                &lt;/div&gt;
+                &lt;br&gt;
+                
+                &lt;div class=&quot;choice-container&quot;&gt;
+                    (link: &quot;결정했습니다&quot;)[
+                        (if: $name is &quot;&quot;)[ (set: $name to &quot;나&quot;) ]
+                        (replace: ?popup_area)[]
+                        (replace:?talkText)[{
             &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
             &quot;끄응...&quot;&lt;br&gt;
             [[&quot;그래, 가자. 우리 집으로.&quot;▶ -&gt;메인 화면 ]]
-            }]]]
+            }]
+                    ]
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    ]
+]
+ ]]]
     	]
     ]
 ]
-      </tw-passagedata><tw-passagedata pid="9" name="메인 화면 " tags="" position="875,175" size="100,100">&lt;script&gt;
+      </tw-passagedata><tw-passagedata pid="5" name="메인 화면 " tags="" position="875,175" size="100,100">&lt;script&gt;
 	stopSFX(&quot;빗소리&quot;);
     stopBGM();
 &lt;/script&gt;
@@ -570,7 +699,7 @@ window.shockImage = function() {
 
 (live: 4s)[
 	(go-to: &quot;1장&quot;)
-]</tw-passagedata><tw-passagedata pid="10" name="시작화면" tags="" position="200,175" size="100,100">|title&gt;[
+]</tw-passagedata><tw-passagedata pid="6" name="시작화면" tags="" position="200,175" size="100,100">|title&gt;[
 &lt;span class=&quot;char-name&quot;&gt;시스템&lt;/span&gt;
 원활한 플레이를 위해 사운드를 켜는 것을 권장드립니다.
 아래의 버튼을 누르면 게임이 시작 됩니다.
@@ -581,8 +710,13 @@ window.shockImage = function() {
 ]
 ]
 
-
-(set:$name to &quot;나&quot;)</tw-passagedata><tw-passagedata pid="11" name="D1" tags="" position="375,400" size="100,100">&lt;script&gt;
+(set: $bad1 to 0)
+(set: $bad2 to 0)
+(set: $bad3 to 0)
+(set: $bad4 to 0)
+(set: $bad5 to 0)
+(set: $end to &quot;None&quot;)
+(set:$name to &quot;나&quot;)</tw-passagedata><tw-passagedata pid="7" name="D1" tags="" position="375,400" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -617,7 +751,7 @@ window.shockImage = function() {
                         ]
                 ]
             ]
-        ]</tw-passagedata><tw-passagedata pid="12" name="D2" tags="" position="500,400" size="100,100">&lt;script&gt;
+        ]</tw-passagedata><tw-passagedata pid="8" name="D2" tags="" position="500,400" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
     playSFX(&quot;황당&quot;);
 &lt;/script&gt;
@@ -672,10 +806,12 @@ window.shockImage = function() {
             ]
         ]
      ]
-]</tw-passagedata><tw-passagedata pid="13" name="1장" tags="" position="200,400" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈제1장〉&lt;br&gt;평범한 공대생인 내가 주워온 강아지가 사실은 콩 단백질 덩어리였던 건에 대하여&lt;/h1&gt;
+]</tw-passagedata><tw-passagedata pid="9" name="1장" tags="" position="200,400" size="100,100">&lt;h1 class=&quot;title-screen&quot;&gt;〈제1장〉&lt;br&gt;평범한 공대생인 &lt;br&gt;
+내가 주워온 강아지가 &lt;br&gt;
+사실은 콩 단백질 덩어리였던 건에 대하여&lt;/h1&gt;
 &lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
-(live:3s)[
-(go-to:&quot;D1&quot;)]</tw-passagedata><tw-passagedata pid="14" name="D31" tags="" position="625,325" size="100,100">&lt;script&gt;
+(live:5s)[
+(go-to:&quot;D1&quot;)]</tw-passagedata><tw-passagedata pid="10" name="D31" tags="" position="625,325" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -700,7 +836,7 @@ window.shockImage = function() {
         |talkText2&gt;[]
         |talkText3&gt;[]
      ]
-</tw-passagedata><tw-passagedata pid="15" name="D32" tags="" position="625,475" size="100,100">&lt;script&gt;
+</tw-passagedata><tw-passagedata pid="11" name="D32" tags="" position="625,475" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -725,7 +861,7 @@ window.shockImage = function() {
                             }]]]]|talkText2&gt;[]
        |link2&gt;[]|talkText3&gt;[]
      ]
-</tw-passagedata><tw-passagedata pid="16" name="D41" tags="" position="750,325" size="100,100">&lt;script&gt;
+</tw-passagedata><tw-passagedata pid="12" name="D41" tags="" position="750,325" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -759,7 +895,7 @@ window.shockImage = function() {
                         ]
                 ]
             ]
-        ]</tw-passagedata><tw-passagedata pid="17" name="D51" tags="" position="875,325" size="100,100">&lt;script&gt;
+        ]</tw-passagedata><tw-passagedata pid="13" name="D51" tags="" position="875,325" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -799,7 +935,7 @@ window.shockImage = function() {
                         ]
                 ]
             ]
-        ]</tw-passagedata><tw-passagedata pid="18" name="D61" tags="" position="1000,325" size="100,100">&lt;script&gt;
+        ]</tw-passagedata><tw-passagedata pid="14" name="D61" tags="" position="1000,325" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -822,7 +958,7 @@ window.shockImage = function() {
                         ]
                 ]
             ]
-        ]</tw-passagedata><tw-passagedata pid="19" name="D42" tags="" position="750,475" size="100,100">&lt;script&gt;
+        ]</tw-passagedata><tw-passagedata pid="15" name="D42" tags="" position="750,475" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
 &lt;/script&gt;
 
@@ -859,7 +995,7 @@ window.shockImage = function() {
             ]] 
             ]
      ]
-</tw-passagedata><tw-passagedata pid="20" name="D52" tags="" position="875,475" size="100,100">&lt;script&gt;
+</tw-passagedata><tw-passagedata pid="16" name="D52" tags="" position="875,475" size="100,100">&lt;script&gt;
 	changeBGM(&quot;두부변신&quot;);
     playSFX(&quot;퐁&quot;);
 &lt;/script&gt;
@@ -888,7 +1024,7 @@ window.shockImage = function() {
             (link:&quot;떨리는 손으로 녀석을 다시 안아든다▶&quot;)[((go-to:&quot;2장&quot;)]
             }]
             ]
-            ]] </tw-passagedata><tw-passagedata pid="21" name="H1" tags="" position="375,750" size="100,100">&lt;script&gt;
+            ]] </tw-passagedata><tw-passagedata pid="17" name="H1" tags="" position="375,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -905,10 +1041,15 @@ window.shockImage = function() {
         그런데... 이걸 의사 선생님한테 말해야 하나?&lt;br&gt;
 [[ 동물병원으로 출발한다▶-&gt;H2]]}
                 ]
- ]</tw-passagedata><tw-passagedata pid="22" name="2장" tags="" position="200,750" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈제2장〉&lt;br&gt;저기 선생님, 우리 애가 좀 네모나긴 해도 아픈 건 아닙니다만!?? &lt;br&gt;(제발 믿어줘)&lt;/h1&gt;
+ ]</tw-passagedata><tw-passagedata pid="18" name="2장" tags="" position="200,750" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제2장〉&lt;br&gt;저기 선생님, &lt;br&gt;
+우리 애가 좀 네모나긴 해도 &lt;br&gt;
+아픈 건 아닙니다만!?? &lt;br&gt;(제발 믿어줘)&lt;/h1&gt;
 &lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
-(live:3s)[
-(go-to:&quot;H1&quot;)]</tw-passagedata><tw-passagedata pid="23" name="H2" tags="" position="500,750" size="100,100">&lt;script&gt;
+(live:5s)[
+(go-to:&quot;H1&quot;)]</tw-passagedata><tw-passagedata pid="19" name="H2" tags="" position="500,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -925,7 +1066,7 @@ window.shockImage = function() {
          (부들부들부들)&lt;br&gt;
 [[이 녀석... 오늘 괜찮겠지?▶-&gt;H3]]}
                 ]
- ]</tw-passagedata><tw-passagedata pid="24" name="H3" tags="" position="625,750" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="20" name="H3" tags="" position="625,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     playSFX(&quot;컹컹&quot;)
 &lt;/script&gt;
@@ -944,7 +1085,7 @@ window.shockImage = function() {
         }]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="25" name="H4" tags="" position="750,750" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="21" name="H4" tags="" position="750,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     
 &lt;/script&gt;
@@ -996,7 +1137,7 @@ window.shockImage = function() {
        |link2&gt;[]
        |talkText3&gt;[]
        ]
-     ]</tw-passagedata><tw-passagedata pid="26" name="H61" tags="" position="1000,625" size="100,100">&lt;script&gt;
+     ]</tw-passagedata><tw-passagedata pid="22" name="H61" tags="" position="1000,625" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1037,7 +1178,7 @@ window.shockImage = function() {
         }]]]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="27" name="H71" tags="" position="1125,625" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="23" name="H71" tags="" position="1125,625" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     playSFX(&quot;찰칵&quot;);
 &lt;/script&gt;
@@ -1066,7 +1207,7 @@ window.shockImage = function() {
         }]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="28" name="H81" tags="" position="1250,625" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="24" name="H81" tags="" position="1250,625" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     playSFX(&quot;전화연결&quot;);
 &lt;/script&gt;
@@ -1135,7 +1276,7 @@ window.shockImage = function() {
         ]]
         
                 ]
- ]]]</tw-passagedata><tw-passagedata pid="29" name="H91" tags="" position="1375,625" size="100,100">&lt;script&gt;
+ ]]]</tw-passagedata><tw-passagedata pid="25" name="H91" tags="" position="1375,625" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1156,11 +1297,12 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
 &quot;실험실 수조에 갇혀 둥둥 떠다니는 저 하얀 네모. &lt;br&gt;저것이 내 강아지의, 내 가족의 마지막 모습이었다.&quot;&lt;br&gt;
 [[▶-&gt;badend1]]}
 ]]]]
-</tw-passagedata><tw-passagedata pid="30" name="badend1" tags="" position="1500,625" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 01〉&lt;br&gt;실험실의 강아지... 아니, 두부&lt;/h1&gt;
+</tw-passagedata><tw-passagedata pid="26" name="badend1" tags="" position="1500,625" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 01〉&lt;br&gt;실험실의 강아지... 아니, 두부&lt;/h1&gt;
 &lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
 &lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;교훈&lt;br&gt;세상에는 알아도 모른 척해야 하는 비밀이 있다. &lt;br&gt;특히 내 강아지가 식재료로 변할 때는 더더욱.&lt;/h4&gt;
 &lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;H5]]&lt;/p&gt;
-</tw-passagedata><tw-passagedata pid="31" name="H5" tags="" position="875,750" size="100,100">&lt;script&gt;
+
+(set: $bad1 to 1)</tw-passagedata><tw-passagedata pid="27" name="H5" tags="" position="875,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     
 &lt;/script&gt;
@@ -1196,7 +1338,7 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
 
 
 
-</tw-passagedata><tw-passagedata pid="32" name="H62" tags="" position="1000,750" size="100,100">&lt;script&gt;
+</tw-passagedata><tw-passagedata pid="28" name="H62" tags="" position="1000,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1230,7 +1372,7 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
         }]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="33" name="H63" tags="" position="1000,875" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="29" name="H63" tags="" position="1000,875" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1264,7 +1406,7 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
         ]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="34" name="H72" tags="" position="1125,750" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="30" name="H72" tags="" position="1125,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1313,7 +1455,7 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
         }]]]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="35" name="H82" tags="" position="1250,750" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="31" name="H82" tags="" position="1250,750" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
     playSFX(&quot;의심&quot;);
 &lt;/script&gt;
@@ -1353,7 +1495,7 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
         ]]]]
         
                 ]
- ]</tw-passagedata><tw-passagedata pid="36" name="H73" tags="" position="1125,875" size="100,100">&lt;script&gt;
+ ]</tw-passagedata><tw-passagedata pid="32" name="H73" tags="" position="1125,875" size="100,100">&lt;script&gt;
 	changeBGM(&quot;동물병원&quot;);
 &lt;/script&gt;
 
@@ -1404,7 +1546,2961 @@ TV 뉴스에서는 속보가 흘러나오고 있었다.}
         ]]
         
                 ]
- ]</tw-passagedata></tw-storydata>
+ ]</tw-passagedata><tw-passagedata pid="33" name="3장" tags="" position="200,1025" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제3장〉&lt;br&gt;젠장. 환청인 줄 알았는데, &lt;br&gt;텔레파시라니. 이세계 전생도 아니고 &lt;br&gt;이게 무슨 전개냐고! &lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;S1&quot;)]</tw-passagedata><tw-passagedata pid="34" name="S1" tags="" position="375,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부윙크.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ {
+        동물병원에서 미친 사람처럼 도망쳐 나온 지도 벌써 3일이 지났다. &lt;br&gt;
+        다행히 병원 블랙리스트엔 오르지 않은 것 같다.&lt;br&gt;&lt;br&gt;
+        그때는 몰랐다. &lt;br&gt;그 탈출극이 고작 **&#39;예고편&#39;**에 불과했다는 걸.
+        }
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
+        두부와의 동거 3일 차.&lt;br&gt; 
+        녀석은 꽤 귀엽고, 조용하고, 밥도 잘 먹는다. &lt;br&gt;
+        하지만 나는 이 녀석에게 치명적인 하자가 있다는 걸 뼈저리게 실감하는 중이다.&lt;br&gt;&lt;br&gt;
+        녀석은 겁을 먹으면 **[진짜 두부]**로 변한다. &lt;br&gt;
+        쿨타임도 없다. 그냥 시도 때도 없이 변한다.}
+        (link-reveal:&quot;▶&quot;)[&lt;script&gt;
+        playSFX(&quot;띵동&quot;);
+        playSFX(&quot;퐁&quot;, 2);
+        &lt;/script&gt;
+        (live:2s)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/네모두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;](stop:)]
+        (replace:?talkText)[{
+        딩동-&lt;br&gt;&lt;br&gt;
+        &#39;펑!&#39;&lt;br&gt;&lt;br&gt;
+        택배 기사님 목소리만 들려도 저 모양이다. &lt;br&gt;
+        현관 앞에 두부 한 모가 덩그러니 놓여 있다..&lt;br&gt;
+        볼 때마다 적응 안 되는 비주얼이다.&lt;br&gt;
+        [[익숙하게 대처한다▶-&gt;S2]]
+}
+                ]]]]]
+ ]</tw-passagedata><tw-passagedata pid="35" name="S2" tags="" position="500,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/네모두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ {
+        처음엔 기절초풍해서 119에 신고할 뻔했지만, 인간은 적응의 동물이다. &lt;br&gt;
+        이젠 그냥 그러려니 한다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;두부야. 택배 갔어. 나와.&quot;&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         ...... (아직 무서운지 미동도 없다)&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;안 나오면 내가 찌개 끓여 먹는다?&quot;
+        }
+        (link-reveal:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부윙크.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        &lt;script&gt;
+        playSFX(&quot;퐁&quot;);
+        &lt;/script&gt;(replace:?talkText)[{
+        &#39;퐁!&#39;&lt;br&gt;&lt;br&gt;
+        녀석은 그제야 강아지로 돌아와 내 발등 위에 털썩 주저앉는다. &lt;br&gt;
+        휴, 다행이다. 하마터면 오늘 저녁 반찬이 늘어날 뻔했다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;일어나. 목마르다.&quot;&lt;br&gt;&lt;br&gt;
+        내가 부엌 쪽으로 걸어가자, 녀석이 쫄래쫄래 내 뒤꿈치를 밟으며 따라온다..&lt;br&gt;
+        [[냉장고를 연다-&gt;S3]]}
+       
+                ]]]]</tw-passagedata><tw-passagedata pid="36" name="S3" tags="" position="625,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두유.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ {
+        냉장고를 열었다. 생수가 다 떨어졌다. &lt;br&gt;
+        보이는 건 며칠 전에 사다 놓은 검은콩 두유 뿐이다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;뭐, 이거라도 마셔야지.&quot;
+        }
+        (link-reveal:&quot;두유를 꺼내 뒤로 돈다▶&quot;)[
+(replace:?talkText)[{
+        두유를 꺼내고 냉장고 문을 닫으며 뒤로 돌았다.&#39;&lt;br&gt;&lt;br&gt;
+        (link:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹 확대.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;](replace:?talkText2)[{
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;으악?!&quot;&lt;br&gt;&lt;br&gt;
+        발밑에 뭔가 하얀 게 있다. 하마터면 밟을 뻔했다.&lt;br&gt;
+        언제 따라왔는지, 두부가 내 발소리에 놀라 그새 변신해버렸다.&lt;br&gt;
+        &#39;펑!&#39; 소리도 없이 조용히도 변했다.&lt;br&gt;
+        차가운 부엌 타일 위에 **[찌개용 두부]**가 덩그러니 놓여 있다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;아오... 인기척 좀 내라니까.&quot;&lt;br&gt;
+        [[뭐, 놔두면 알아서 돌아오겠지▶-&gt;S4]]
+        }]]
+        |talkText2&gt;[]}
+       
+                ]]]]</tw-passagedata><tw-passagedata pid="37" name="S4" tags="" position="750,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두유.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ {
+        녀석이 진정될 때까지 기다리기로 했다. &lt;br&gt;
+        나는 식탁 위에 있던 검은콩 두유 빨대를 입에 물었다.&lt;br&gt;&lt;br&gt;
+        쪽-&lt;br&gt;&lt;br&gt;
+        달달하고 고소한 액체가 혀에 닿는 순간.
+        }
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
+        &lt;span class=&quot;char-name&quot;&gt;???&lt;/span&gt;
+        &lt;p style=&quot;font-size:10px&quot;&gt;&quot;...아, 차가워.&quot;&lt;/p&gt;&lt;br&gt;&lt;br&gt;
+        ......? 잘못 들었나? &lt;br&gt;
+        입에서 빨대를 떼자 소리가 멈췄다.}
+        (link-reveal:&quot;다시 마셔본다▶&quot;)[(replace:?talkText)[{
+        다시 빨대를 물고 조심스럽게 빨았다.&lt;br&gt;&lt;br&gt;
+        쪽-&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;???&lt;/span&gt;
+        &lt;p style=&quot;font-size:10px&quot;&gt;&quot;주인 놈은 왜 안 주워 주지... &lt;br&gt;
+        나 지금 바닥 타일에 닿아서 등짝 시려운데...&quot;&lt;/p&gt;
+         }
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[{
+         &quot;푸웁!!!!!&quot;&lt;br&gt;&lt;br&gt;
+         나는 사레가 들려 켁켁거렸다.&lt;br&gt;
+         미친, 방금 뭐지? 환청인가? &lt;br&gt;
+         내가 요즘 너무 피곤해서 헛소리가 들리나? &lt;br&gt;
+         아니면 이 두유에 마약이라도 들었나?
+         }
+         (link-reveal:&quot;다시 한번 마셔본다▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/텔레파시.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;](replace:?talkText)[{
+         나는 떨리는 손으로 다시 한 모금 마셔봤다.&lt;br&gt;&lt;br&gt;
+        쪽-&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;???&lt;/span&gt;
+        &quot;입 돌아가겠네... &lt;br&gt;
+        보일러라도 틀어주던가...&quot;&lt;br&gt;&lt;br&gt;
+        ....허&lt;br&gt;
+        마시면 들리고, 멈추면 안 들린다. 기가 막혀서 웃음만 나온다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;이게... 말이 돼?&quot;
+         }
+         (link-reveal:&quot;다시 한번 마셔본다▶&quot;)[(replace:?talkText)[{
+         나는 멍하니 바닥에 있는 두부를 내려다봤다. &lt;br&gt;
+         설마 하는 마음으로, 두유를 입에 문 채 속으로 생각했다.&lt;br&gt;&lt;br&gt;
+         &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;...야. 바닥 차갑냐?(텔레파시) &quot;&lt;br&gt;&lt;br&gt;
+         &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;어. 엄청 차가워. 얼어 죽을 것 같아.&quot;&lt;br&gt;&lt;br&gt;
+         대답이 돌아왔다. 너무나도 자연스럽게.&lt;br&gt;&lt;br&gt;
+         &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;......어? 잠깐만. 방금 누구세요?&quot;&lt;br&gt;
+         [[나다 인마▶-&gt;S5]]
+         }]]
+         ]]
+         ]]
+         ]]]
+       
+                ]]]</tw-passagedata><tw-passagedata pid="38" name="S5" tags="" position="875,1025" size="100,100">
+&lt;script&gt;
+	shakeScreen3();
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부흔들.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ {
+		&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;누구긴. 나야.&quot;&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;......!!!!!&quot;&lt;br&gt;&lt;br&gt;
+        두부의 표면이 격렬하게 출렁거렸다. &lt;br&gt;
+        놀라 굳어버린 녀석의 당황스러움이 뇌로 전해진다.&lt;br&gt;&lt;br&gt;
+        &lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;너... 내 말이 들려?&quot;
+        }
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;히익?! 말도 안 돼! 내가 미쳤나 봐!
+        두부가 되더니 헛것이 들려!&quot;}
+        
+        녀석도 나도, 할 말을 잃었다.
+        마치 외계인과 교신에 성공한 기분이다.
+        물론 상대는 쭈글쭈글한 두부지만.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        한참의 정적 끝에, 두부가 먼저 입(아니, 뇌)을 열었다.
+        비명을 지를 줄 알았는데, 목소리가 의외로 차분하다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;...잠깐. 테스트 좀 해볼게.&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;(텔레파시) &quot;테스트?&quot;}
+        
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;내가 마음속으로 숫자를 셀 테니까, 네가 맞춰봐.&quot;}
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         녀석은 지금 이 초자연적인 현상을 검증하려 하고 있다.
+         나는 헛웃음을 삼키며 고개를 끄덕였다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         (하나... 둘... 셋...)}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;하나, 둘, 셋.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;......헐.&quot;}
+         (link-reveal:&quot;이게 진짜라고??▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두유능력.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;](replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;진짜 들리네...  혹시 손에 그거 마셔서 그래?&quot;}
+         
+         녀석은 내 손에 들린 **[검은콩 두유]**를 지목했다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;그런 것 같아. 이거 마시니까 네 목소리가 들려.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;그렇구나... 역시.&quot;}
+         
+         녀석은 뭔가 알겠다는 듯 비장하게 중얼거렸다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;나도 콩(두부)이고, 그것도 콩(두유)이잖아.&lt;br&gt;
+         우리는 지금 &#39;콩의 의지&#39;로 하나가 된 거야.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;......&quot;}
+         
+         말도 안 되는 소리인데 묘하게 설득력 있다.
+         녀석은 두부 주제에 이상한 데서 눈치가 빠르다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+          &quot;...저기.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         (텔레파시) &quot;어.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;그럼... 내 목소리, 진짜 잘 들리는 거지?&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;잘 들린다니까.&quot;}
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         녀석은 안심한 듯 한숨을 내쉬더니, 아주 조심스럽게(하지만 절박하게) 본론을 꺼냈다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;다행이다... 사실 아까부터 말하고 싶었거든.&quot;}
+         [[뭔데?▶-&gt;S6]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]]
+       
+                ]]]</tw-passagedata><tw-passagedata pid="39" name="S6" tags="" position="1000,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부흔들.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+			{&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+			&quot;나 좀 들어줘. &lt;br&gt;
+            여기 타일 틈새에... 내 살이 꼈어.&quot;}
+            
+            {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+            &quot;......&quot;}
+            
+            {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+            &quot;아까부터 아팠는데 꾹 참았단 말이야... &lt;br&gt;
+            계속 이러고 있으면 나 모양 망가질 것 같아.&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        비장하게 &#39;콩의 의지&#39;를 논하더니, 결국 하고 싶은 말이 이거였냐.
+        녀석은 울먹거리는 목소리로 덧붙였다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;제발 살살 들어줘... 나 지금 연두부급으로 약해졌어.&quot;}
+         (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[두부를 옮겨준다-&gt;S71]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[&quot;싫은데?&quot; (거절한다)-&gt;S72]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+]]
+       
+                ]]</tw-passagedata><tw-passagedata pid="40" name="S71" tags="" position="1125,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부흔들.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		{&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;알았어. 숨 참아라.&quot;}
+        
+        나는 세상에서 가장 비싼 도자기를 다루듯,
+        두 손을 두부 밑으로 밀어 넣어 녀석을 들어 올렸다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;으으으... 흔들려! 손이 너무 많이 흔들려! 지진 난 것 같아!&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         (텔레파시) &quot;가만히 좀 있어. 네가 떠니까 흔들리지.&quot;}
+        
+        녀석은 내 손바닥 위에서 젤리처럼 파르르 떨고 있다.
+        이 짧은 이동 거리가 녀석에겐 롤러코스터인가 보다.
+        나는 숨도 크게 쉬지 않고 소파까지 걸어갔다.
+         [[소파에 두부를 내려놓는다-&gt;S81]]
+         ]]
+         ]]
+</tw-passagedata><tw-passagedata pid="41" name="S72" tags="" position="1250,1175" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부흔들.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		나는 장난기가 발동했다.
+        주도권이 나한테 있는데, 굳이 순순히 들어줄 필요 없잖아?
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        (텔레파시) //&quot;싫은데? 남자가 강하게 커야지.&quot;//}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        //&#39;&#39;&quot;......뭐?&quot;&#39;&#39;//}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        //&quot;거기서 버텨 봐. 정신 수양도 되고 좋겠네.// &lt;br&gt;//냉수마찰 한다고 생각해.&quot;//}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        //&#39;&#39;&quot;진심이야...?&quot;&#39;&#39;//}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        녀석의 목소리가 싸늘하게 가라앉았다.
+        공포심이나 서러움이 아니다. 이건 명백한 **[빈정 상함]**이다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        //&#39;&#39;&quot;그래... 알았어. 네가 그렇다면 나도 생각이 있어.&quot;&#39;&#39;//}
+         (link-reveal:&quot;뭐 할 건데?▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         //&#39;&#39;&quot;나 안 돌아가&quot;&#39;&#39;//}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;어?&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         //&#39;&#39;&quot;따뜻한 소파에 올려주기 전까지, 절대 변신 안 풀어. &lt;br&gt;
+         평생 여기서 네모난 단백질로 살 거야.&quot;&#39;&#39;//}
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;야, 웃기지 마. 배고프면 돌아오겠지.&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        //&#39;&#39;&quot;흥. 두고 봐. 난 똥오줌도 안 싸고 버틸 수 있어. 난 두부니까.&quot;&#39;&#39;//}
+         
+         &#39;깡-!&#39;
+         (link-reveal:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/냉동두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;](replace:?talkText)[
+         녀석은 그 말을 끝으로 마음의 문을 닫아버렸다.
+         동시에 두부의 표면이 &#39;&#39;냉동 두부&#39;&#39;처럼 깡깡하게 굳어버렸다.
+         
+         아무리 찔러도, 간식으로 유혹해도 녀석은 미동도 하지 않는다.
+         완벽한 **[식재료 모드]**다.
+         (link-reveal:&quot;(3시간 후...)▶&quot;)[(replace:?talkText)[
+         &#39;&#39;3시간 뒤.&#39;&#39;
+         
+         녀석은 진짜로 돌아오지 않았다.
+         깡깡 얼어버린 녀석은 이제 강아지라기보단 &#39;&#39;하얀 벽돌&#39;&#39;에 가깝다.
+         
+         밥을 줘도 무시, 산책 가자고 해도 무시.
+         결국 나는 이 딱딱한 녀석을 들어다가...
+         **[현관문 받침대(Dostop)]**로 쓰고 있다.
+         (link-reveal:&quot;▶&quot;)[
+         &lt;script&gt;
+         playSFX(&quot;배드엔딩&quot;)
+         &lt;/script&gt;
+         (replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;야. 환기 다 됐다. 이제 그만 풀지?&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         (......)}
+         녀석은 묵비권을 행사하며 현관문을 굳건히 지키고 있다.
+         지나가던 택배 아저씨가 &quot;두부를 왜 바닥에 두세요?&quot;라고 물어봤지만, 대답할 수 없었다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         &#39;&#39;&#39;두부와의 소통, 대실패.&#39;&#39;&#39;
+         녀석의 삐짐을 풀려면, 최고급 한우 스테이크 정도는 바쳐야 할 것 같다.
+         [[▶-&gt;badend2]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]]
+       
+                ]]]</tw-passagedata><tw-passagedata pid="42" name="badend2" tags="" position="1000,1175" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 02〉&lt;br&gt;두부 파업&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;(팁: 녀석은 생각보다 뒤끝이 깁니다. 잘해주세요.)&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;S6]]&lt;/p&gt;
+
+(set: $bad2 to 1)</tw-passagedata><tw-passagedata pid="43" name="S81" tags="" position="1250,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부소파.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		폭신한 소파 위에 녀석을 내려놓았다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;휴... 살았다.&quot;}
+        
+        녀석은 안도하는가 싶더니, 곧바로 다음 민원을 넣었다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;근데 나 지금 알몸이라 좀 추운 것 같아.&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;......&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;거기 그 보들보들한 담요 있잖아.&lt;br&gt;
+        그걸로 나 좀 감싸줘. 김밥처럼.&quot;}
+         (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[부탁을 들어준다-&gt;S91]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[&quot;싫은데?&quot; (거절한다)-&gt;S72]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+         ]]
+         ]]
+</tw-passagedata><tw-passagedata pid="44" name="S91" tags="" position="1375,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부소파.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		나는 군말 없이 무릎 담요를 가져와 녀석을 돌돌 말아줬다.
+        하얀 두부가 담요 속에 파묻히니 제법 안락해 보인다.
+        
+        담요로 둘둘 말아줬는데도, 녀석은 뭔가 마음에 안 드는 눈치다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;... 근데 여기 너무 밝아.&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;불 꺼줄까?&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;아니. 어두운 건 무서워. &lt;br&gt;
+        그냥... 내 눈 위에만 좀 가려줘. 수분 날아가면 안 되니까.&quot;}
+        
+        가지가지 한다. 나는 옆에 있던 쿠션을 가져와 두부 위에 지붕처럼 만들어줬다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;음. 조도는 완벽해.&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         (어이없음) &quot;이제 됐냐?&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;아니. 하나만 더.&quot;}
+         (link: &quot;▶ 뭔데?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;뭔데?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[또 뭐?-&gt;S101]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[&quot;적당히 해&quot; (거절한다)-&gt;S72]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+        ]]
+         ]]
+         ]]
+</tw-passagedata><tw-passagedata pid="45" name="S101" tags="" position="1500,1025" size="100,100">&lt;script&gt;
+	changeBGM(&quot;두유&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부소파.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		{&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+		&quot;나 좀 눌러줘.&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        (텔레파시) &quot;뭐? 찌그러진다며.&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;아니, 꽉 말고. 형 손바닥으로 넓게... 지그시.&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        녀석의 설명은 구체적이었다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;지금 몸이 너무 가벼워서 불안해. &lt;br&gt;
+        누가 잡아주는 느낌이 필요해. 주인 손으로 뚜껑처럼 덮어줘.&quot;}
+        
+        나는 녀석의 요구대로 손바닥을 펴서 담요 위를 덮었다.
+        그리고 아주 살짝, 무게를 실어 눌러주었다.
+         (link-reveal:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부감싸.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+         (replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;...오.&quot;}
+         
+         처음엔 잔뜩 긴장해서 벽돌처럼 딱딱하던 녀석의 몸이,
+         내 손바닥 온도에 반응해 조금씩 달라지기 시작했다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;그래... 이거야... 안정감 있어... 수비드 되는 기분이야.&quot;}
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         내 손바닥 온도 때문일까.
+         잔뜩 힘을 주고 있던 녀석의 표면이 서서히 부드러워진다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         (......으음......)}
+         
+         녀석의 불평이 멈췄다.
+         머릿속을 채우던 텔레파시 소음도 잦아들고, 규칙적인 숨소리만 남았다.
+         (link-reveal:&quot;기다려준다▶&quot;)[(replace:?talkText)[
+         &#39;벽돌&#39; 같았던 딱딱한 촉감이, **&#39;순두부&#39;**처럼 말랑말랑하게 변해간다.
+         
+         녀석은 이제 완전히 힘을 빼고 내 손에 무게를 맡겼다.
+         (link-reveal:&quot;조용히 기다린다▶&quot;)[(replace:?talkText)[
+         녀석은 내 손바닥을 베개 삼아 곯아떨어졌다.
+         나는 녀석이 깰까 봐 다른 한 손으로 빈 두유 팩을 들어 올렸다.
+         
+         팩 뒷면에 적힌 깨알 같은 글씨들이 눈에 들어온다.
+         [원재료명: 검은콩 100% / 함유 성분: 고칼슘, 이소플라본...]
+         
+         순간, 내 머릿속에서 퍼즐 조각이 맞춰졌다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         &#39;......가만 보자.&#39;
+         
+         녀석은 겁먹으면 **[두부(콩)]**가 된다.
+         
+         내가 **[두유(콩)]**를 마시면, 체내 이소플라본 농도가 급상승한다.
+         그 순간, 서로의 단백질 파장이 일치하며 접속된다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;......이소플라본 동기화.&quot;}
+         
+         미친 소리 같지만, 이과적(혹은 논리적)으로 접근하면 묘하게 설득력 있다.
+         아니, 그거 말고는 설명할 방법이 없다.
+         (link-reveal:&quot;....허▶&quot;)[
+         &lt;script&gt;
+         playSFX(&quot;띵&quot;)
+         &lt;/script&gt;
+         (replace:?talkText)[
+         결론은 간단하다.
+         이 녀석의 속마음을 듣고 싶으면, 계속해서 **&#39;콩물&#39;**을 주입해야 한다는 것.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;완전 유료 서비스네, 이거.&quot;}
+         
+         나는 한숨을 쉬며 쿠팡 장바구니에 **[두유 48팩 번들]**을 담았다.
+         (link:&quot;▶&quot;)[(go-to:&quot;4장&quot;)]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+</tw-passagedata><tw-passagedata pid="46" name="5장" tags="" position="200,1800" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제5장〉&lt;br&gt;우리 집 두부는&lt;br&gt; 밖에서도 최강인 줄 알지만, &lt;br&gt;사실 산책 5분 만에 유통기한 임박?! &lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;W1&quot;)]</tw-passagedata><tw-passagedata pid="47" name="P1" tags="" position="375,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/현관.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		----며칠 후----
+        &#39;&#39;&quot;띵동- 택배요!&quot;&#39;&#39;
+        
+        로켓 배송은 빨랐다.
+        현관문 앞에 내 키만 한 &#39;&#39;두유 박스 탑&#39;&#39;이 쌓였다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;아... 맞다. 나 48팩 시켰지.&quot;}
+        이걸 다 어디다 두냐. 신발장도 꽉 찼는데.
+        하지만 고민할 시간이 없다.
+        오늘은 대망의 &#39;&#39;집들이&#39;&#39; 날이다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        나는 두유 박스를 옷장 깊숙이 쑤셔 박았다.
+        혹시라도 들키면 설명하기 복잡해지니까.
+        쌓여있는 옷무덤은 세탁기에 쳐박았고,
+        바닥에 굴러다니는 머리카락도 돌돌이로 밀어버렸다.
+        창문 활짝 열어 환기까지 완료.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;휴... 세이프.&quot;}
+일단 겉보기엔 &#39;사람 사는 방&#39;의 구색은 갖춘 것 같다.
+완벽해.
+         (link-reveal:&quot;...가 아니라...▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부갸웃.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+         (replace:?talkText)[
+         녀석을 어쩐다... 친구 앞에서 갑자기 두부로 변하면 진짜 곤란한데.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;너... 또 갑자기 두부로 변하고 그러면 안 된다? 알았지?&quot;}
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;헥, 헥.&quot;}
+         (link-reveal:&quot;▶&quot;)[
+         &lt;script&gt;
+         playSFX(&quot;띵동&quot;);
+         &lt;/script&gt;
+         (replace:?talkText)[
+         //딩동- 딩동-//
+         그때, 경쾌한 초인종 소리가 적막을 깼다.
+         약속 시간보다 무려 20분이나 빠르다.
+         예상치 못한 습격에 심장이 철렁 내려앉는데, 정작 두부는 태평하기만 하다.
+         
+         이 녀석을 케어하다 보니, 어째 나만 점점 겁쟁이가 되어가는 기분이다.
+         (link-reveal:&quot;문을 연다▶&quot;)[(replace:?talkText)[
+         &quot;야!! 친구야!!! 이게 얼마 만이냐!!!&quot;
+         
+         문이 열리자마자 세상에서 제일 시끄러운 친구 놈이 고막을 강타한다.
+         순식간에 방 안이 시장통처럼 시끌벅적해졌다.
+         
+         아, 불길한 예감은 틀린 적이 없지.
+         엄청난 데시벨에 놀란 탓일까? 
+         &#39;&#39;두부는 순식간에 하얀 직육면체 덩어리가 되어버렸다.&#39;&#39;
+         [[▶-&gt;P2]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+
+</tw-passagedata><tw-passagedata pid="48" name="P2" tags="" position="500,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹 확대.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;야, 손님 불렀으면 청소 좀 해라! 바닥에 저게 뭐냐?&lt;br&gt;
+        먹다 남은 걸 흘리고 다녀?&quot;}
+        친구가 혀를 차며 못 말리겠다는 듯 두부 쪽으로 성큼성큼 다가간다.
+        안 돼.
+        그건 내 강아지라고!
+        (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[(다급하게) 만지지 마!!! 갈!!!-&gt;P31]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[(동공지진) 어어... 내, 내가 치울게. 냅둬.-&gt;P32]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+]]
+
+
+</tw-passagedata><tw-passagedata pid="49" name="P31" tags="" position="625,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹 확대.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;악!!! 만지지 마!!!&quot;}
+        너무 당황한 나머지 나도 모르게 &#39;갈!&#39;을 시전해버렸다.
+        방 안에 정적이 흐른다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;어...? 어... 미안. 난 그냥 치워주려고...&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        친구가 머쓱한 표정으로 슬그머니 손을 거둔다.
+        힐끗 보니 두부도 내 고함소리에 놀라 움찔한 것 같다...
+        
+        아니, 두부 모서리가 미세하게 떨린 건 기분 탓인가?
+        이 썰렁한 분위기, 그리고 두부 쪽으로 쏠린 관심을 빨리 돌려야 한다
+         [[야야, 우리 게임이나 하자! 나 새 게임 샀어.▶-&gt;P4]]
+         ]]
+         ]]
+
+
+</tw-passagedata><tw-passagedata pid="50" name="P32" tags="" position="625,1525" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/코믹 확대.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		당황… 했지만 애써 침착하게 말했다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        “응? 그래? 알겠어 ㅋㅋ 아니 너 청소했다며..”}
+
+의아해하는 친구지만 일단 어떻게든 두부를 지켰다.
+두부를 조심히 들어 락앤락 통 안에 넣었다.
+
+친구들의 주의를 돌려야 한다.
+         [[야야, 우리 게임이나 하자! 나 새 게임 샀어.▶-&gt;P4]]
+         ]]
+ 
+
+
+</tw-passagedata><tw-passagedata pid="51" name="P4" tags="" position="750,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부쓰담.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		한바탕 게임을 하며 소리를 질렀더니,
+        어느새 두부는 다시 귀여운 강아지의 모습으로 돌아와 있었다.
+        
+        구석에 박혀있기 심심했는지, 녀석이 슬그머니 우리 쪽으로 다가온다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;헐, 대박. 야!! 너 강아지 키우고 있었어?!&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구2&lt;/span&gt;
+        &quot;와 미친! 왜 말을 안 했어? 진짜 귀엽다!&quot;}
+        
+        순식간에 모든 관심이 두부에게 쏠렸다.
+        두부는 처음엔 좀 쭈뼛거리는가 싶더니,
+        쏟아지는 &quot;귀여워&quot; 세례에 기분이 좋아진 모양이다.
+        꼬리가 프로펠러처럼 돌아간다.
+        다행이다. 녀석도 긴장이 풀렸는지 두부로 변할 기미는 안 보인다.
+        나도 몰래 한시름 놓으려던 찰나...
+         (link-reveal:&quot;▶&quot;)[
+         &lt;script&gt;
+         playSFX(&quot;찰칵&quot;);
+         &lt;/script&gt;
+         (replace:?talkText)[
+                 {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;야, 이건 못 참지. 인생샷 하나 건져준다. 여기 봐봐~ 옳지!&quot;}
+        
+        //찰칵-//
+        
+        친구가 핸드폰을 들이대자, 셔터 소리와 함께 &#39;&#39;강력한 플래시가 터졌다.&#39;&#39;
+         (link-reveal:&quot;▶&quot;)[
+         (replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;악!! 내 눈!&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;아, 미안 미안! 플래시가 왜 켜져 있었지? ㅎㅎ&quot;}
+         (link-reveal:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부변신중.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+         (replace:?talkText)[
+         하지만 문제는 내 눈이 아니었다.
+         방금 찍힌 사진 속 두부의 상태가... 이상하다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;엥? 뭐야 이게...&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구2&lt;/span&gt;
+        &quot;야, 너 폰 맛갔냐? 무슨 필터를 씌운 거야? 픽셀이 왜 이래?&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;아니야, 나 기본 카메라인데? 야, 얘 좀 봐봐!&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        친구가 사진과 실물을 번갈아 보더니, 바닥에 있는 두부를 손가락으로 가리킨다.
+        두부는... 정확히 사진에 찍힌 그 모습 그대로, 엉거주춤하게 굳어 있다.
+        
+        아. 망했다. 들켰다.
+         [[이실직고 하는 수 밖에..▶-&gt;P5]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+
+</tw-passagedata><tw-passagedata pid="52" name="P5" tags="" position="875,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부변신중.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		친구들은 잠시 뇌 정지가 온 듯하더니, 곧 두부의 진실을 받아들였다.
+        아니, 받아들인 정도가 아니다.
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;야... 이거 인스타에 올리자. 릴스 각이다. &lt;br&gt;
+        이건 무조건 떡상해.&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        친구의 눈이 자본주의의 광기로 빛난다.
+        ...어? 가만, 생각해보니 나쁘지 않은데?
+        
+        &#39;두부 계정이 유명해지면... 협찬도 들어오고...
+        나중엔 두부 굿즈로 공구도 진행하고...&#39;
+        
+        그러면 두부에게 최고급 유기농 간식도 사주고,
+        캣타워... 아니 개타워도 사줄 수 있지 않을까?
+        (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[(솔깃) &quot;...그, 그럴까?&quot;-&gt;P61]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[에이... 그건 좀. 올리지는 마.-&gt;P62]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+        ]]
+]]
+
+
+</tw-passagedata><tw-passagedata pid="53" name="P61" tags="" position="800,1525" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부변신중.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+        {&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;야, 미쳤어!! 조회수 100만 찍었어! 팔로워 늘어나는 속도 봐라!&quot;}
+        
+        알고리즘의 신이 강림하셨다.
+        
+        &#39;놀라면 두부로 변하는 강아지&#39; 영상은 밤사이 인터넷을 강타했다.
+        댓글창은 &quot;귀엽다&quot;, &quot;CG 아니냐&quot;, &quot;합성이네&quot;라며 갑론을박이 벌어졌고,
+        덕분에 두부는 하루아침에 슈퍼 스타견이 되었다.
+        
+        DM함이 폭발한다.
+        각종 사료 회사, 장난감 브랜드의 협찬 제의가 쏟아진다. 
+        
+        이게... 자본주의의 맛인가?
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;PD&lt;/span&gt;
+        &quot;네, 두부 견주님! 이번엔 좀 더 리얼하게 놀라는 장면 가볼게요!&quot;}
+        
+        결국 공중파까지 진출했다.
+        &lt;세상에 이런 일이&gt;, &lt;TV 동물농장&gt;에서 섭외 전화가 빗발쳤고,
+        내 좁은 자취방은 어느새 방송국 스튜디오가 되었다.
+        
+        통장 잔고는 하루가 다르게 불어났다.
+        나는 더 이상 두유 박스를 숨기지 않는다.
+        
+        아니, 오히려 두유 박스를 배경으로 깔아놓는다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        하지만 문제는 &#39;콘텐츠&#39;였다.
+        사람들은 더 이상 평범한 강아지 두부를 원하지 않았다.
+        그들이 원하는 건 **&#39;네모난 두부&#39;**였다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;두부야, 미안해. 이거 한 번만 찍고 맛있는 거 줄게. 알지?&quot;}
+         
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         나는 조회수를 위해, 방송 분량을 위해 매일 두부를 놀래켜야 했다.
+         문 뒤에 숨어있다가 튀어나오기, 풍선 터트리기, 꽹과리 치기...
+         
+         처음엔 금방 강아지로 돌아오던 두부가,
+         언젠가부터 두부 상태로 있는 시간이 점점 길어졌다.
+         
+         하지만 나는 멈출 수 없었다.
+         이미 계약된 광고가 너무 많았으니까.
+         (link-reveal:&quot;▶&quot;)[(replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부소파.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+         (replace:?talkText)[
+         그날은 유난히 큰 폭죽을 터트린 날이었다.
+         두부는 여느 때처럼 펑- 소리와 함께 하얀 두부로 변했다.
+         
+         아주 각이 살아있는, 완벽한 두부였다.
+         PD님도, 친구들도 &quot;역대급 리액션&quot;이라며 박수를 쳤다.
+         
+         하지만 촬영이 끝나고, 조명이 꺼지고, 사람들이 모두 돌아간 뒤에도... 
+         &#39;&#39;두부는 돌아오지 않았다.&#39;&#39;
+         (link-reveal:&quot;▶&quot;)[
+         (replace:?talkText)[
+         1시간이 지나고, 하루가 지나고, 일주일이 지났다.
+         
+         유통기한이 지나 표면이 조금씩 마르기 시작했지만,
+         녀석은 꼬리를 흔들지도, 헥헥거리지도 않는다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;...두부야? 밥 먹어야지... 한우 사왔는데...&quot;}
+         [[▶-&gt;badend3]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+         ]]
+
+</tw-passagedata><tw-passagedata pid="54" name="P62" tags="" position="1000,1375" size="100,100">&lt;script&gt;
+	changeBGM(&quot;집들이&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부변신중.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;솔직히... 조금 솔깃하긴 했는데.&quot;}
+        
+        머릿속에서 &#39;협찬&#39;, &#39;슈퍼스타&#39;, &#39;건물주&#39; 단어가 춤을 췄지만,
+        고개를 저어 떨쳐냈다. 인터넷 세상은 험하다.
+        
+        내 소중한 두부가 실험실로 끌려가거나, 악플에 시달리게 할 순 없다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;미안, 그건 좀 무리일 것 같아. 알다시피 얘가 좀 특이체질이라... &lt;br&gt;
+        인터넷에 퍼지면 곤란해지거든.&quot;}
+
+{&lt;span class=&quot;char-name&quot;&gt;친구&lt;/span&gt;
+        &quot;아... 까비. 대박 감인데. 뭐, 네가 싫다면 어쩔 수 없지.&quot;}
+        
+        친구는 입맛을 다시며 아쉬워했지만, 이내 내 뜻을 존중해 주었다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;대신 너희가 좀 도와주라. &lt;br&gt;
+        두부가 겁이 진짜 많아서 큰 소리 내거나 갑자기 만지면 안 돼. &lt;br&gt;
+        살살 쓰다듬어 주면 금방 좋아할 거야.&quot;}
+        
+        내 당부에 친구들은 언제 시끄러웠냐는 듯 &#39;매너 모드&#39;를 켰다.
+        조심스레 손길이 닿자, 두부의 표정이 한결 편안해진다.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         친구들이 돌아가고, 다시 방 안에 평화가 찾아왔다.
+         녀석은 친구들의 손길이 꽤 마음에 들었는지, 자면서도 꼬리를 살랑거린다.
+         
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;다행이다. 사회성이 좀 길러졌나?&quot;}
+         
+         겁쟁이인 줄만 알았던 녀석이 낯선 사람들과 어울리다니.
+         조금은 용감해진 것 같아 가슴 한구석이 뿌듯해졌다.
+         
+         하지만 그때는 몰랐다.
+         이 녀석의 &#39;자신감&#39;이 전혀 예상치 못한 방향으로 폭주하게 될 줄은.
+         (link:&quot;▶&quot;)[(go-to:&quot;5장&quot;)]
+         ]]
+         ]]
+         ]]
+         ]]
+
+
+</tw-passagedata><tw-passagedata pid="55" name="badend3" tags="" position="950,1525" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 03〉&lt;br&gt;세상에 이런 일이&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;대답 없는 두부 덩어리를 보며 나는 깨달았다. &lt;br&gt;내 욕심이, 세상에서 제일 특별했던 내 친구를 &lt;br&gt;그냥 **&#39;식재료&#39;**로 &lt;br&gt;만들어버렸다는 것을.&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;P5]]&lt;/p&gt;
+
+(set: $bad3 to 1)</tw-passagedata><tw-passagedata pid="56" name="4장" tags="" position="200,1375" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제4장〉&lt;br&gt;인싸들의 집들이란 원래 이렇게 &lt;br&gt;목숨(주로 두부의 목숨)을 &lt;br&gt;걸고 하는 건가요? &lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;P1&quot;)]</tw-passagedata><tw-passagedata pid="57" name="W1" tags="" position="375,1800" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책도둑&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/신나두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		다음 날 아침.
+        
+        툭-
+        
+        묵직한 무언가가 내 무릎 위로 떨어졌다.
+        내려다보니 두부가 입에 **&#39;하네스(산책줄)&#39;**를 문 채 툭 던져놓고 나를 올려다보고 있다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;멍! (나가자!)&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        꼬리를 흔드는 각도와 눈빛이 예사롭지 않다.
+        마치,
+        &quot;어제의 쫄보 두부는 잊어라. 나는 이제 친구가 셋이나 있는 &#39;인싸견&#39;이다.&quot;
+        라고 온몸으로 외치는 듯한 저 패기.
+        
+        어제 친구들의 칭찬 세례에 뽕(?)이 차도 단단히 찬 게 분명하다.
+      (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[오늘 과제가 너무 많다… 산책은 어려울 것 같은데.!-&gt;W21]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[......그래. 기세 좋을 때 나가보자.-&gt;W22]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+         ]]
+         ]]
+
+
+</tw-passagedata><tw-passagedata pid="58" name="W21" tags="" position="450,1675" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책도둑&quot;);
+    playSFX(&quot;끼잉&quot;)
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/서운두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		그렇게 바라보면 안갈 수 가 없네..
+        [[▶-&gt;W22]]
+         ]]
+
+
+</tw-passagedata><tw-passagedata pid="59" name="W22" tags="" position="525,1800" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책도둑&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/신나두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;헥! 헥! (빨리! 문 열어!)&quot;}
+       
+       엘리베이터가 1층으로 내려가는 동안,
+       두부는 내 다리를 긁으며 안달이 났다.
+       줄이 팽팽하다 못해 끊어질 것 같다.
+       
+       누가 보면 산책 못 나가서 3년은 굶주린 맹수인 줄 알겠네.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;알았어, 알았어. 진정해. 너 오늘 컨디션 진짜 좋아 보인다?&quot;}
+        
+        나는 피식 웃으며 1층 공동현관 문을 밀었다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        문이 열리고,
+        바깥세상의 눈부신 햇살과 차가운 바람이 훅- 하고 들어온다.
+        
+        자, 나가자! 위풍당당 인싸견!
+        
+        ...어?
+        
+        두부가... &#39;&#39;현관문 문지방에서 &#39;급브레이크&#39;를 밟았다.&#39;&#39;
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        방금 전까지 줄을 끌어당기던 패기는 어디 가고,
+        녀석은 열린 문밖을  심각하게 노려보고 있다.
+        
+        지나가는 오토바이 소리. //부아앙-//
+        어디선가 들려오는 아이들의 비명. //꺄아악-//
+        
+        두부의 귀가 쫑긋거리더니, 슬그머니 뒷걸음질을 친다.
+        꼬리는 이미 다리 사이로 말려 들어가서 &#39;겸손 모드&#39;가 되었다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;야... 너 아까 하네스 물고 올 땐 언제고. 안 나갈 거야?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;......&quot; (먼 산을 본다)}
+       
+       결국 나는 버티는 녀석의 엉덩이를 발로 툭툭 밀어
+       억지로 밖으로 내보내야 했다. 시작부터 험난하다.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/산책두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+       (replace:?talkText)[
+       두부는 내 다리에 딱 풀처럼 붙어서 걷는다.
+       
+       말은 &#39;인싸견&#39;이라지만,
+       실상은 바스락거리는 낙엽에도 움찔,
+       지나가는 자전거에도 흠칫,
+       심지어 맨홀 뚜껑조차 무서워서 피해 다닌다.
+       
+       그래도 꼬리만큼은 헬리콥터처럼 돌리며
+       &#39;난 지금 엄청 즐거운 산책 중이야&#39;라고
+       자기 최면을 걸고 있다. 허세가 아주 귀엽다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       가만, 생각해보니...  오늘도 변신하는거 아니지...?
+       내가 걱정스런 눈빛을 보내자,
+       
+       두부는 &#39;주인 놈, 겁먹었냐? 나만 믿어!&#39;라는
+       표정으로 위풍당당하게 앞장선다. 
+       
+       그래, 아무 일도 없을 거야.
+       이 평화로운 오후에 무슨 일이 있겠어.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/개만난두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px; top: 10%&quot;&gt;]
+       (replace:?talkText)[
+       하지만 불행은 언제나 코너를 도는 순간 찾아온다.
+       
+       스윽-
+       
+       골목 모퉁이를 돌자마자 마주친 것은, 근육질의 핏불이었다.
+       느슨한 리드줄을 하고 여유롭게 걸어오는 저 압도적인 피지컬.
+       보스 몹(Boss Mob)의 등장이다.
+       
+       두부는 그 거대한 실루엣을 보는 순간 얼어 붙어 버렸다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       핏불의 발자국 소리가 가까워진다.
+       
+       뚜벅, 뚜벅.
+       
+       두부는 사시나무 떨듯 떨리는 눈으로 나를 한 번 애처롭게 쳐다봤다.
+       
+       그리고 그 다음—
+       (link-reveal:&quot;▶&quot;)[
+       &lt;script&gt;
+       playSFX(&quot;퐁&quot;);
+       &lt;/script&gt;
+       (replace:?talkText)[
+       //&#39;&#39;&quot;퐁!&quot;&#39;&#39;//
+       
+       마치 닌자가 연막탄을 터트리듯 경쾌한 소리와 함께,
+       눈 깜짝할 사이에 두부의 형체가 사라졌다. 
+       
+       그리고 그 자리, 화단 테두리 위에는...
+       
+       &#39;&#39;하얀 모두부 한 모가 덩그러니 놓여 있다.&#39;&#39;
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야!!! 괜찮아!? 야!! 이게... 너지!?&quot;}
+       
+       나는 비명을 지르며 두부(였던 것)에게 달려갔다.
+       핏불 견주 분도 놀라서 허겁지겁 개를 말린다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;핏불 주인&lt;/span&gt;
+       &quot;아이고, 죄송해요! 우리 애가 덩치만 크지 순한데... &lt;br&gt;
+       어? 근데... 저거 두부 아니에요?&quot;}
+       
+       핏불 주인은 바닥에 놓인,
+       김이 모락모락 나는 두부를 보며 황당하다는 표정을 짓는다.
+       
+       상식적으로 왜 산책로에 두부가 떨어져 있냐고.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/맛있겠두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+       &lt;script&gt;
+       changeBGM(&quot;산책비극&quot;);
+       &lt;/script&gt;
+       (replace:?talkText)[
+       하지만 핏불은 상식보다 본능이 앞선다.
+       킁킁.
+       녀석이 두부에 코를 박고 냄새를 맡더니, 입맛을 다시며 입을 크게 벌린다.
+       
+       덥석-
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;안 돼!!! 먹으면 안 돼!!! 그거 내 개라고!!!&quot;}
+              (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/숨어있두부.png&quot; class=&quot;scene-image image_change_slide&quot; style=&quot;width:460px&quot;&gt;]
+       (replace:?talkText)[
+       나는 패닉 상태에 빠져 주머니에 있던 두유 팩을 뜯어 급하게 들이켰다.
+       (이걸 마셔야 두부 목소리가 들리니까!)
+       
+       두유가 목구멍으로 넘어가는 순간,
+       작고 미세한 목소리가 귓가에 닿았다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;???(두부)&lt;/span&gt;
+       &quot;...나 여기... 뒤에 있어...&quot;}
+       (link-reveal:&quot;▶&quot;)[
+       &lt;script&gt;
+       playSFX(&quot;끼잉&quot;);
+       &lt;/script&gt;
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/빤히본두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+       (replace:?talkText)[
+       어?
+       천천히 뒤를 돌아보자,
+       가로수 나무 뒤에 **두부(강아지 본체)**가 쭈그려 앉아 바들바들 떨고 있다
+       
+       저기 있는 두부는... **미끼(Decoy)**였어?!
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       핏불과 멀어진 후...
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;하... 두부야... 너 진짜... 심장에 안 좋아...&quot;}
+       
+       다리에 힘이 풀려 주저앉자,
+       두부는 여전히 떨리는 걸음으로 다가와 내 콧잔등에 얼굴을 비빈다.
+       
+       이 녀석, 겁에 질려서 순간이동이라도 한 건가.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       결국 나는 지친 두부를 안아 들고 집으로 향했다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;도망치다가 변한 줄 알았더니... 미끼를 쓰고 숨어? 오늘 하루 대체 뭐냐, 진짜...&quot;}
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       내 품에 안긴 두부가 부끄러운 듯 눈을 살짝 내리깔며,
+       기어들어 가는 목소리로 묻는다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+      &quot;나... 잘 숨었어...?&quot;}
+      
+      나는 멍하니 녀석을 내려다보다가, 결국 피식 웃고 말았다.
+      그래, 변해서 먹히는 것보단 숨는 게 백배 낫지.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;그래. 기가 막히게 잘 숨더라.&quot;}
+       
+       칭찬(?)을 들은 두부가 꼬리를 한 번 살랑 흔든다.
+       
+       오늘의 산책은... 뭐, 그럭저럭 무사히(물리적 피해 없이) 끝났다.
+       [[▶-&gt;W3]]
+      ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+       ]]
+        ]]
+        ]]
+        ]]
+         ]]
+         ]]
+
+
+</tw-passagedata><tw-passagedata pid="60" name="W3" tags="" position="650,1800" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책비극&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/녹초두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		집에 도착하자마자 두부는 현관에 철푸덕 엎드려 혀를 내민다.
+        
+        자세히 보니 발바닥에는 흙과 낙엽 부스러기가 잔뜩 붙어 있고
+        털은 땀과 침으로 약간 눅눅하다.
+        
+        저 꼬질꼬질한 발바닥을 보니 깊은 고민이 밀려온다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;으음... 씻겨야 하나...? 말까...?&quot;}
+      (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[씻기자. 깨끗하게 하자.-&gt;W42]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[괜찮아. 오늘은 안 씻어도 돼.-&gt;W41]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+         ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="61" name="W41" tags="" position="575,1925" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책비극&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/행복의굴렁쇠두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		&quot;그래, 오늘은 너무 고생했으니까... 그냥 자자. 씻지 마.&quot;
+        나의 자비로운 선언이 떨어지자마자,
+        두부의 표정은 그야말로 천국을 영접한 수도승처럼 환해졌다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;!! ...흐헤헤!!!&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        꼬리가 헬리콥터처럼 돌아가더니,
+        녀석은 곧바로 패브릭 소파로 뛰어들었다.
+        
+        그러고는 온몸을 비틀며 **&#39;행복의 굴렁쇠&#39;**를 시전한다.
+        산책의 흔적(흙, 먼지, 땀)을 소파에 골고루 양념 치듯 비벼대고 있지만... 
+        
+        뭐, 행복하다니 됐다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      그러나, 평화는 길지 않았다.
+      몇 분 뒤.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;킁킁...?&quot;}
+      
+      거실 어디선가 기묘하고 쿰쿰한 냄새가 피어오르기 시작했다.
+      단순한 개 냄새가 아니다.
+      
+      이건 마치... 
+      한여름 락커룸에 방치된 축구화와 청국장을 섞어서 끓인 듯한...
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;무슨 냄새야???!!!!&quot;}
+       
+       범인은 소파 위에 있었다.
+       세상 모르고 자고 있는 두부의 몸 주변으로,
+       만화에서나 볼 법한 
+       
+       **보랏빛의 불길한 아우라(Aura)**가
+       
+       몽글몽글 피어오르고 있었다.
+       그리고—
+       (link-reveal:&quot;▶&quot;)[
+       &lt;script&gt;
+       playSFX(&quot;띠로리&quot;)
+       &lt;/script&gt;
+       (replace:?talkText)[
+       //&#39;&#39; &quot;뿌-욱...&quot;&#39;&#39;//
+       
+       마치 반죽이 부풀어 오르는 듯한 소리와 함께,
+       두부의 뽀얗던 털 색깔이 변하기 시작했다.
+       
+       거무튀튀하고 누르스름한, 
+       **완벽한 &#39;삭힌 색&#39;**으로.
+       
+       동시에 코끝을 마비시키는 강력한 악취가 방 안을 가득 채웠다.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/취두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px; top: 10%&quot;&gt;]
+       (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;......형아...?&quot;}
+       
+       자기 냄새에 깬 걸까?
+       두부가 비몽사몽 눈을 떴다.
+       
+       하지만 녀석의 상태가 심상치 않다.
+       눈이 따가운지 눈물을 그렁그렁 매달고 있다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;나... 왜... 발효됐어......?&quot; (기절 직전)}
+       
+       그렇다. 이것은 과학이다.
+       
+       [스트레스 제로(이완)] + [산책 후 땀과 노폐물] + [밀폐된 실내 온도]
+       
+       이 세 가지 조건이 완벽하게 결합하여
+       두부는 알 수 없는 기묘한 화학 작용을 통해
+       **&#39;걸어 다니는 취두부&#39;**로
+       진화해버린 것이다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;으악!! 두부야!!! 너 무슨 냄새야!!! 창문 열어!!!&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+      &quot;나도... 몰라... 킁... 윽... 내 냄새에 내가 죽을 것 같아...&quot;}
+       [[▶-&gt;badend4]]
+       ]]
+       ]]
+       ]]
+       ]]
+      ]]
+      ]]
+        ]]
+         ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="62" name="W42" tags="" position="775,1800" size="100,100">&lt;script&gt;
+	changeBGM(&quot;산책비극&quot;);
+    playSFX(&quot;끼잉&quot;);
+&lt;/script&gt;
+
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/녹초두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[ 
+		내가 “씻자”라고 말하는 순간,
+        두부는 작게 “히잉…” 하며 몸을 웅크린다.
+        
+        하지만 얌전히 안겨 욕실로 향한다.
+        
+        발바닥에서 시커먼 물 나옴
+        털을 말리는 동안 두부는 ‘삐죽’ 표정
+        하지만 금세 따뜻해지고 뽀송뽀송해짐
+        씻기고 난 두부는 나를 흘끔 쳐다보며 살짝 꼬리를 흔든다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       (꾸벅... 꾸벅...)}
+       
+       녀석은 개운한지 내 무릎에 턱을 괴고 졸기 시작한다.
+       나도 그 옆에 늘어져서 TV 리모컨을 집어 들었다.
+       
+      &#39;&#39;&quot;하... 이제야 좀 쉴 수 있겠네.&quot;&#39;&#39;
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      주말 오후의 완벽한 평화.
+      이 고요함이 영원할 줄 알았다.
+      
+      &#39;&#39;단 3분 동안은.&#39;&#39;
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      //딩동-! 딩동-! 딩동-!//
+      평범한 초인종 소리가 아니다.
+      누군가 벨을 **연타**하고 있다. 불길한 예감이 엄습한다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;누구세요...?&quot;}
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       인터폰 화면을 확인한 순간, 나는 얼어붙었다.
+       우리 집의 최종 보스, 누나다.
+       
+       그리고 그 옆에는... **인간 에너자이저(7세, 조카)**가 서 있다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       (번쩍!)}
+       
+       자다 깬 두부의 귀가 쫑긋 섰다.
+       녀석의 **[겁쟁이 레이더]**가 위기 상황을 감지했다.
+       (link:&quot;▶&quot;)[(go-to:&quot;6장&quot;)]
+       ]]
+      ]]
+      ]]
+        ]]
+
+         ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="63" name="badend4" tags="" position="725,1925" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 04〉&lt;br&gt;극한의 발효 과학 - 달성&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;당신은 두부를 씻기지 않았고, 두부는 발효의 경지에 도달했습니다.&quot; &lt;br&gt;
+[상태 이상]: 집 전체가 **&#39;취두부 향(S등급)&#39;**으로 오염되었습니다. &lt;br&gt;
+[지속 시간]: 환기를 해도 24시간 동안 냄새가 빠지지 않습니다. &lt;br&gt;
+[이웃의 민원]: 곧 옆집에서 항의 방문이 올 예정입니다.&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;W3]]&lt;/p&gt;
+
+(set: $bad4 to 1)</tw-passagedata><tw-passagedata pid="64" name="6장" tags="" position="200,2075" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제6장〉&lt;br&gt;우리 집에&lt;br&gt; S급 잼민이 몬스터가 침공했다&lt;br&gt; ~두부 멘탈 붕괴까지 카운트다운 3초~ &lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;M1&quot;)]</tw-passagedata><tw-passagedata pid="65" name="M1" tags="" position="375,2075" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/조카하이.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		{&lt;span class=&quot;char-name&quot;&gt;누나&lt;/span&gt;
+       &quot;야! 문 좀 빨리 열어! 나 급해!&quot;}
+       
+       문을 열자마자 누나가 신발도 벗기 전에 다급하게 외쳤다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;누나&lt;/span&gt;
+       &quot;엄마가 너 개 키운다며? 급한 일 생겨서 민준이 좀 맡긴다! 간다!&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 누나? 야!!&quot;}
+       
+       누나는 바람처럼 사라졌고,
+       현관에는 시한폭탄 하나만 남겨졌다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;강아지!!!!!!! 강아지 어딨어!!!!!&quot;}
+       
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;히익... 민준아, 목소리 좀...&quot;}
+      
+      녀석의 고막 테러급 샤우팅에 자취방 창문이 미세하게 떨렸다.
+      평화로웠던 주말은, 이걸로 끝났다.
+		[[▶-&gt;M2]]
+       ]]
+      ]]
+      ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="66" name="M2" tags="" position="500,2075" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+(set: $str to 3)
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/조카하이.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		폭주 기관차 모드가 된 조카는 두부를 찾아 집안을 뒤집기 시작했다.
+        
+        [스킬: 소파 쿠션 날리기] 퍽! 퍽!
+        [스킬: 층간소음 유발 탭댄스] 쿵! 쿵! 쿵!
+        [무기: 장난감 총] &quot;빵야! 빵야! 다 나와!!&quot;
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        숨을 곳을 찾아 헤매던 두부는 구석에서 절망적인 눈빛으로 나를 바라본다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부(속삭임)&lt;/span&gt;
+       &quot;형아... 나 죽어... 제발...&quot;}
+       
+       눈동자가 지진 난 것처럼 흔들린다.
+       미안해 두부야, 상대는 **&#39;7세 남자아이&#39;**야.
+       
+       나도 무서워.
+       (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					(link: &quot;민준아, 두부 놀라니까 조용히 하자.&quot;)[
+                                                (set: $str to $str - 1)
+                                                (goto: &quot;M3&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;두부야 괜찮아~ 나와봐.&quot;)[
+                                                (set: $str to $str +1)
+                                                (goto: &quot;M3&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;그냥 방치한다.&quot;)[
+                                                (set: $str to $str + 3)
+                                                (goto: &quot;M3&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+      ]]
+      ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="67" name="M3" tags="" position="625,2075" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부잡아라.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		그때, 소파 밑을 들여다보던 조카의 레이더망에 두부가 걸렸다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;&#39;&#39;찾았다 요놈!!!&#39;&#39; 잡는다!!!!&quot;}
+        (link-reveal:&quot;▶&quot;)[
+        &lt;script&gt;
+        playSFX(&quot;발소리&quot;);
+        &lt;/script&gt;
+        (replace:?talkText)[
+        두부는 비명도 지르지 못하고 혼비백산하여 도주를 시작했다.
+        
+        소파 아래 → 주방 문 뒤 → 침대 밑 → 다시 소파 뒤.
+        
+        마치 &lt;톰과 제리&gt;를 보는 듯한 초고속 지그재그 러닝.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+		{&lt;span class=&quot;char-name&quot;&gt;두부(속삭임)&lt;/span&gt;
+       &quot;끼잉—!! (살려줘!!)&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+        &quot;뛰지 마!! 거기 안 서?! 우와하하하!!!&quot;}
+        
+        녀석은 사냥 본능이 깨어난 맹수처럼 두부를 쫓는다.
+       (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					(link: &quot;멈춰! 다쳐!! 여기까지!&quot;)[
+                                                (set: $str to $str - 1)
+                                                (goto: &quot;M4&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;조카를 안아서 다른 놀이로 유도한다.&quot;)[
+                                                (set: $str to $str - 2)
+                                                (goto: &quot;M4&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;둘이 잘 놀고 있네&quot;)[
+                                                (set: $str to $str + 5)
+                                                (goto: &quot;M4&quot;)
+                                                ]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+      ]]
+      ]]
+     ]]
+
+
+</tw-passagedata><tw-passagedata pid="68" name="M4" tags="" position="750,2075" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/각두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		결국 구석에 몰린 두부.
+        
+        조카는 한 손엔 장난감 칼,
+        한 손엔 로봇을 들고 최후의 일격을 준비한다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;&#39;&#39;우어어어어!!! 받아라, 필살기!!!&#39;&#39;&quot;}
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        녀석이 두부 앞으로 돌진하는 순간.
+        
+        //달그락- 달그락-//
+        
+        두부의 몸에서 뼈가 맞춰지는 듯한 기괴한 소리가 났다.
+        복슬복슬하던 털이 순식간에 매끈하게 다려지고,
+        둥그스름했던 몸매에 날카로운 **각**이 잡히기 시작한다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+		{&lt;span class=&quot;char-name&quot;&gt;두부(속삭임)&lt;/span&gt;
+       &quot;그르르르.... (시스템 오류...)&quot;}
+       
+       으르렁거리는 게 아니다.
+       공포에 질려 몸이 진동 모드로 바뀌면서 나는 소리다.
+       
+       안 돼. 여기서 변하면...
+       
+       민준이가 널 장난감 블록인 줄 알고 던질지도 몰라!!
+       (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					(link: &quot;그만!!! 두부 무서워하잖아!!!&quot;)[
+                                                (set: $str to $str - 1)
+                                                (if: $str &gt;=5)[
+                                               	 (goto: &quot;M51&quot;)
+                                                ] (else:) [
+                                                	(goto: &quot;M52&quot;)
+                                                ]
+                                                ]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;두부를 안아서 보호한다.&quot;)[
+                                                (set: $str to $str - 2)
+                                                (if: $str &gt;=5)[
+                                               	 (goto: &quot;M51&quot;)
+                                                ] (else:) [
+                                                	(goto: &quot;M52&quot;)
+                                                ]
+                                                ]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 (link: &quot;그냥 본다.&quot;)[
+                                                (set: $str to $str + 100)
+                                                (if: $str &gt;=5)[
+                                               	 (goto: &quot;M51&quot;)
+                                                ] (else:) [
+                                                	(goto: &quot;M52&quot;)
+                                                ]
+                                                ]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+        ]
+      ]]
+      ]]
+     ]]
+
+
+</tw-passagedata><tw-passagedata pid="69" name="M51" tags="" position="750,2200" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/흐물두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		두부는 더 이상 버티지 못했다.
+        녀석의 몸이 부들부들 떨리더니, 체내 온도가 급격히 상승하기 시작했다.
+
+       //&#39;&#39;&quot;보글... 보글...&quot;&#39;&#39;//
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 두부야? 소리가 좀 이상한데?&quot;}
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        두부는 네 발을 힘없이 접으며 바닥으로 무너져 내렸다.
+        
+        단단했던 형태가 허물어지고,
+        진짜 연두부처럼 흐물흐물한 하얀 덩어리로 변해간다.
+        
+        하지만 이번엔 무언가 다르다.
+        하얀 표면 위로 송글송글 맺히는 땀... 아니, 저건?
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/마파가되는두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;두부야...? 너 지금... 몸에서 뭐 나오는 거야...?&quot;}
+       
+      믿을 수 없게도,
+      두부의 모공(?)에서 시뻘건 액체가 배어 나오고 있었다.
+      
+      매콤하고 알싸한 향기.
+      그것은 **&#39;고추기름&#39;**이었다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      극도의 스트레스가 만들어낸 열기가
+      두부 내부의 수분과 결합하여,
+      
+      녀석을 **&#39;사천식 마파두부&#39;**로 조리해버리고 있는 것이다!
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;...형아... 나... 속이... 타들어 가... 너무 매워...&quot; }
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;안 돼!!! 정신 차려!!!&quot;}
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/마파두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;어? 강아지 어디 갔어? 맛있는 냄새 나!!&quot;}
+       
+       조카는 순수하게 입맛을 다시며 숟가락을 찾으러 부엌으로 달려간다.
+       
+       나는 바닥에 퍼진,
+       한때 내 강아지였던 **&#39;그것&#39;**을 보며 망연자실 주저앉았다.
+       
+       다진 고기 토핑까지 완벽하게 구현된, 슬픈 걸작이었다.
+       [[▶-&gt;badend5]]
+        ]]
+      ]]
+      ]]
+       ]]
+      ]]
+      ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="70" name="M52" tags="" position="875,2075" size="100,100">&lt;script&gt;
+	changeBGM(&quot;조카&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/힘들두부.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;잠깐!! 민준아, 스톱! 얼음!!&quot;}
+        
+        나의 필사적인 &#39;얼음&#39; 선언에 민준이가 멈칫했다.
+        그 순간, 두부의 몸에서 들리던 기괴한 달그락 소리가 멈췄다.
+        
+        날카롭게 솟았던 모서리의 각이 풀리고,
+        딱딱해지려던 표면이 다시 보드라운 털로 돌아온다.
+        (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+        두부는 후들거리는 다리로 내 뒤로 숨더니,
+        엉덩이를 찰싹 붙이고 나에게 온 체중을 기댄다.
+        
+        &#39;형아, 나 살려줘&#39;라는 무언의 압박이다.
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/핥짝두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;민준아, 두부는 겁쟁이라서 그렇게 크게 소리 지르면 무서워서 숨어버려.&lt;br&gt; 슉! 하고 사라진다?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;진짜...?&quot;}
+       
+      아이의 눈이 동그라졌다.
+      나는 녀석의 흥미를 돌리는 데 성공했다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;응. 그러니까 우리가 조용히... &lt;br&gt;살살 만져주면 두부가 친구 해줄 거야. 쉿.&quot;}
+        
+        조카가 숨을 죽이고 조심스레 손을 뻗자,
+        두부도 용기를 내어 다가간다.
+        
+        할짝.
+        
+        두부가 조카의 손등을 수줍게 핥았다.
+        &#39;&#39;평화 협정 체결이다&#39;&#39;
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/녹초두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        &#39;&#39;~ 2시간 후 ~&#39;&#39;
+       
+       {&lt;span class=&quot;char-name&quot;&gt;조카(민준)&lt;/span&gt;
+       &quot;안녕히 계세요~ 두부야 또 올게! &lt;br&gt; 형아 안녕!&quot;}
+       
+       현관문이 닫히고, 자취방을 뒤흔들던 태풍이 떠났다.
+       공간을 꽉 채우던 고음의 데시벨이 사라지자,
+       귀가 먹먹할 정도의 완벽한 적막이 찾아왔다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;......하얗게... 불태웠어...&quot;}
+         
+         나는 현관 앞에 대자로 뻗어버렸다.
+         손가락 하나 까딱할 힘이 없다.
+         
+         옆을 보니 두부도 마찬가지다.
+         녀석은 러그 위에 떡실신해서 혀를 반쯤 빼물고 녹아내린 치즈처럼 늘어져 있다.
+         
+         우리는 살아남았다. 그거면 된 거야.
+         (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+         {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+         &quot;두부야... 자자...&quot;}
+         
+         {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+         &quot;끄응...&quot;}
+         
+         우리는 씻을 힘도,
+         불을 끄을 힘도 없었다.
+         
+         마치 좀비처럼 네 발로 기어서 침대 위로 올라가 그대로 기절해버렸다.
+         
+         내일 1교시 수업이 있다는 사실도,
+         알람을 맞춰야 한다는 사실도 까맣게 잊은 채.
+         (link:&quot;▶&quot;)[(go-to:&quot;7장&quot;)]
+         ]]
+       ]]
+        ]]
+      ]]
+      ]]
+       ]]
+      ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="71" name="badend5" tags="" position="500,2200" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 05〉&lt;br&gt;마파두부(Mapo Tofu) - 달성&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;);
+playSFX(&quot;이게진짜&quot;)&lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;당신은 조카로부터 두부를 지켜주지 못했습니다.&quot;&lt;br&gt;
+[결과]: 두부는 스트레스와 분노를 이기지 못하고 스스로를 볶아버렸습니다.&lt;br&gt;
+[맛]: 혀가 아릴 정도의 마라(Mala)맛. &lt;br&gt;
+[교훈]: 애개육아(아이와 개를 함께 키움)는 함부로 시도하는 것이 아닙니다.&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;[[ ↺ 시간을 되돌려 다시 선택하기 -&gt;M2]]&lt;/p&gt;
+
+(set: $bad5 to 1)</tw-passagedata><tw-passagedata pid="72" name="7장" tags="" position="200,2350" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제7장〉&lt;br&gt;내 강아지가&lt;br&gt;순두부일 리 없어&lt;br&gt; ~충격!  두부가 &#39;액상화&#39;된 건에 대하여~&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;F1&quot;)]</tw-passagedata><tw-passagedata pid="73" name="F1" tags="" position="375,2350" size="100,100">(set: $a to 0)
+(set: $b to 0)
+&lt;script&gt;
+	changeBGM(&quot;순두부&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두부폭신.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		눈을 떴다. 개운하다.
+        새소리가 들리고 햇살이 따스하다.
+        정말 완벽한 아침이다.
+        
+        &quot;......잠깐.&quot;
+        
+        쎄한 느낌에 시계를 봤다.
+        수업 시작 30분 전. 학교까지 소요 시간 40분.
+        
+        &quot;으아아아악!!!! 망했다!!!!&quot;
+        
+        나는 비명을 지르며 침대에서 튀어 나갔다.
+        (link-reveal:&quot;초고속 준비▶&quot;)[(replace:?talkText)[
+        세수와 양치를 동시에 해결하고
+        바지는 입으면서 신발을 신었다.
+        
+        현관문을 열며 방구석에 앉아 있는 두부에게 소리쳤다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야! 형아 갔다 올게! &lt;br&gt;집 잘 보고 있어!!&quot;}
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      평소 같으면 꼬리를 흔들며 마중 나왔을 녀석인데,
+      오늘은 자기 방석에 푹 파묻혀서 나를 빤히 바라보기만 한다.
+      
+      &#39;뭐지? 삐졌나? 어디 아픈가?&#39;
+      하지만 고민할 시간이 없다.
+      
+      1분 1초가 급하다.
+      나는 그대로 문을 박차고 나갔다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      엘리베이터를 기다리며 문득 불안한 생각이 스쳤다.
+      
+      &#39;아, 맞다. 오늘 춥다고 해서 어제 보일러 빵빵하게 틀고 잤는데...&#39;
+      
+      급하게 나오느라 보일러 끄는 걸 깜빡한 것 같다.
+      가스비가 좀 걱정되긴 하지만... 뭐, 두부 혼자 있으면 추울 텐데 오히려 잘됐지.
+      
+      따뜻하게 지지고 있어라
+      나는 그렇게 합리화하며 학교로 전력 질주했다.
+      이것이 대참사의 시작인 줄도 모르고.
+      (link-reveal:&quot;약 7시간 뒤▶&quot;)[(replace:?talkText)[
+      &#39;&#39;~ 수업 종료 후 귀가 ~&#39;&#39;
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야~ 형 왔다! 밥 먹자!&quot;}
+       
+       현관문을 열었는데 반겨주는 소리가 없다.
+       방 안은 후끈한 열기로 가득 차 있었다.
+       
+       마치 찜질방 불가마에 들어온 기분이다.
+       &#39;너무 덥게 해놓고 나갔나?&#39;
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/물렁두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+       (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부? 두부야?&quot;}
+       
+       두부를 찾아 두리번거렸지만, 녀석이 보이지 않는다.
+       마지막으로 봤던 두부의 방석 쪽으로 다가가 보았다.
+       
+       그곳에는... 두부라고 하기에는 너무 묽고,
+       콩물이라 하기에는 약간 되직한... 하얀 무언가가 퍼져 있었다.
+       
+       이건... 각진 &#39;모두부&#39;가 아니다.
+       형체를 잃고 몽글몽글하게 풀어진 **&#39;순두부&#39;**다.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두유들.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+       (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;야!!! 두부야!!!!&quot;}
+       
+       나는 사태의 심각성을 깨닫고 냉장고 문을 열어젖혔다.
+       두유 한 팩을 뜯어 원샷 때린다.
+       (link-reveal:&quot;(통신 연결!)▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야, 들려? 저거 너야? 괜찮아?&quot;}
+       
+       그러자 머릿속에서 아주 미세한, 끊어질 듯한 목소리가 들려왔다.
+       (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;두부(전파 약함)&lt;/span&gt;
+       &quot;...형....... 나.... 더워어....&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;뭐라고?? 안 들려!! 크게 말해봐!&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부(지지직)&lt;/span&gt;
+        &quot;뜨.... 거.... 워..... 녹는.... 다....&quot;}
+        [[▶-&gt;F2]]
+       ]]
+       ]]
+       ]]
+       ]]
+      ]]
+      ]]
+       ]]
+      ]]
+      ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="74" name="F2" tags="" position="500,2350" size="100,100">&lt;script&gt;
+	changeBGM(&quot;순두부&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/두유들.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		젠장, 통신 상태가 왜 이래?
+        
+        아무래도 두부의 밀도가 낮아져서(묽어져서)
+        텔레파시 주파수가 제대로 안 잡히는 모양이다.
+        
+        목소리가 먼 우주에서 들려오는 메아리처럼 희미하다.
+        이런 적은 처음이다.
+        
+        겁먹어서 두부로 변한 적은 많지만, 더워서 녹아내린 적은 없었다고!
+        당황한 나는 신발도 못 벗고 컴퓨터 전원을 켰다.
+        어디서 정보를 찾아야 할까?
+        (link: &quot;▶ 어떻게 할까?&quot;)[
+                    (if: $a is 0 and $b is 0)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[네이버 블로그: &lt;br&gt;&quot;우리 멍멍이도 순두부 됐었는데 &lt;br&gt;이렇게 했더니 완치~^^ (광고 포함)&quot;-&gt;F31]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[위키하우 (WikiHow): &lt;br&gt;&quot;강아지를 응고시키는 3가지 방법&quot;-&gt;F32]]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[지식인: &quot;내공 100겁니다. 급해요.&quot;-&gt;F33]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+           ]
+           (else-if: $a is 1 and $b is 0)[
+           (replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[위키하우 (WikiHow): &lt;br&gt;&quot;강아지를 응고시키는 3가지 방법&quot;-&gt;F32]]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[지식인: &quot;내공 100겁니다. 급해요.&quot;-&gt;F33]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+           ]
+          (else-if: $a is 0 and $b is 1) [
+          (replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[네이버 블로그: &lt;br&gt;&quot;우리 멍멍이도 순두부 됐었는데 이렇게 했더니 완치~^^ (광고 포함)&quot;-&gt;F31]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[위키하우 (WikiHow): &lt;br&gt;&quot;강아지를 응고시키는 3가지 방법&quot;-&gt;F32]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+          ]
+          (else-if: $a is 1 and $b is 1)[
+          (replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[위키하우 (WikiHow): &lt;br&gt;&quot;강아지를 응고시키는 3가지 방법&quot;-&gt;F32]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+          ]
+        ]
+       ]]
+
+     
+
+
+</tw-passagedata><tw-passagedata pid="75" name="F31" tags="" position="425,2475" size="100,100">(set: $a to 1)
+&lt;script&gt;
+	changeBGM(&quot;순두부&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/블로그.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		나는 떨리는 손으로 마우스를 움직여
+        가장 상단에 뜬 블로그를 클릭했다.
+        
+        제목부터 신뢰가 간다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;그래! 이거야!&quot;}
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/스테이크.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        하지만 화면에 뜬 것은... 현란한 이모티콘의 향연이었다.
+        
+🌸 샤랄라 맘의 행복 일기 🌸
+잇님들~ 안녕하세요~!! 샤랄라 맘이에요~ ^^ 
+🤗 오늘 날씨가 너~무 좋죠? 햇살이 쨍쨍한 게 빨래하기 딱 좋은 날씨! 
+☀️ 저는 아침에 아아(아이스 아메리카노) 한 잔 때리고 시작했답니다~ ☕
+아, 참! 우리 잇님들도 혹시... 강아지가 순두부로 변해서 당황하신 적 있나요?? 
+🐶💦 저도 어제 우리 &#39;뽀삐&#39;가 갑자기 흐물흐물해져서 정~말 놀랐는데요! ㅠㅠ
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/라인어머.jpg&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;아니, 서론이 왜 이렇게 길어! 본론!! 본론 어딨어!!&quot;}
+        
+      나는 미친 듯이 마우스 휠을 굴렸다.
+      
+      ...그래서 순두부가 몸에 좋은 건 다들 아시죠? 단백질이 풍부하고~
+      웅얼웅얼... ...우리 남편도 순두부찌개 참 좋아하는데요~ 
+      🥘 ...자, 그럼 강아지 순두부 복구하는 방법! 바로 공개합니다!! 👇👇
+      
+      오! 드디어 나온다! 나는 모니터에 얼굴을 처박았다.
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/라인따봉.jpg&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      블로그 본문 방법은 정~말 간단한데요! 
+      하지만 잘못하면 강아지가 **&#39;비지찌개&#39;**가 될 수도 있어서 주의해야 해요!
+      😱 더 자세한 정보는 제 &#39;서로이웃&#39; 분들에게만 공개하고 있답니다~ &gt;_&lt;
+      아래 공감❤️ 누르시고 서로이웃 추가부탁드려요~!
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;......야 이 개......!!!!&quot;}
+      육성으로 욕이 터져 나왔다.
+      낚였다.
+      완벽하게 낚였다.
+      
+      이 긴박한 상황에 서로이웃 신청을 하고 수락을 기다리라고?
+      장난해?
+      
+      그때, 게시글 밑에 달린 댓글 하나가 눈에 들어왔다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      [댓글]개사랑(2025.12.04): 저기요 급해요!! 
+      지금 저희 개가 간수 빠진 두부처럼 퍼졌는데 방법 좀 알려주세요 제발요 ㅠㅠㅠ
+      
+      오! 나랑 똑같은 상황이다! 분명 답글이 달려있다!
+      
+      ↳ 샤랄라 맘(주인장): 🔒 (비밀 댓글입니다. 작성자와 운영자만 볼 수 있습니다.)
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+      &quot;으아아아아악!!!! 뭔데!!! 뭐라고 썼는데!!!!&quot;}
+       
+       모니터를 부수고 싶은 충동을 억누르며 머리를 감싸 쥐었다.
+       이 쓸모없는 블로그를 읽느라 금쪽같은 5분을 허비했다.
+       
+       그사이 방바닥에 퍼진 두부(순두부 Ver.)는 점점 더 투명해지며, 
+       이제는 **&#39;순두부 젤리&#39;**가 되기 일보 직전이다.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?talkText)[
+       더 이상 지체할 시간이 없다. 
+       블로그는 글렀다. 
+       남은 건 두 가지뿐이다.
+        [[▶-&gt;F2]]
+        ]]
+       ]]
+       ]]
+       ]]
+       ]]
+      ]]
+      ]]
+       ]]
+
+     
+
+
+</tw-passagedata><tw-passagedata pid="76" name="F32" tags="" position="625,2350" size="100,100">&lt;script&gt;
+	changeBGM(&quot;순두부&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/위키하우.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		나는 서둘러 [위키하우]를 클릭했다.
+        
+        전 세계의 모든 엉뚱한 문제들을 해결해 주는 집단지성의 성지.
+        이곳이라면 답이 있을 것이다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        &#39;&#39;WikiHow 순두부화된 강아지를 능숙하게 다루는 법&#39;&#39;
+        개요: 가끔 하얀 강아지가 두부가 되는 경우가 있습니다. 
+        특히 &#39;순두부&#39;가 되어버렸다면, 이는 100% 과도한 열기(보일러) 때문입니다. 
+        당황하지 말고 아래 단계를 따르세요.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;역시...! 보일러 때문이었어! &lt;br&gt;젠장, 내가 미쳤지!&quot;}
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/순두부그릇.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      &#39;&#39;단계 1: 물렁해진 순두부를 그릇에 모아 담으세요.&#39;&#39;
+      나는 부엌으로 달려가 제일 큰 양푼을 가져왔다. 
+      그리고 바닥에 퍼진 두부(였던 것)를 조심스럽게... 국자로 떴다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;으악... 미안해 두부야... 형이 진짜 미안해...&quot;}
+        
+        //철푸덕. 철퍽.// 
+        
+        두부는 따뜻하고 몽글몽글한 질감이었다. 
+        의식은 있는지 국자로 떠질 때마다 미세하게 &quot;끄응...&quot; 하는 소리가 났다. 
+        나는 눈물을 머금고 두부 한 마리를 남김없이 양푼에 긁어모았다.
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?talkText)[
+      &#39;&#39;단계 2: 재응고를 위해 네모난 용기에 담으세요.&#39;&#39;
+      &#39;&#39;단계 3: 창문을 열어 환기하고, 용기를 창가에 두세요.&#39;&#39;
+      동그란 양푼에 두면 두부가 동그랗게 굳을 수도 있다. 
+      
+      나는 급하게 **김치통(특대형)**을 씻어와서, 
+      양푼에 담긴 두부를 김치통에 조심스럽게 부었다. 
+      
+      //주르륵-//
+      
+      그리고 활짝 열린 창가 앞에 김치통을 안치했다.
+      겨울바람이 //휘이잉-// 하고 들어오자,
+      뜨거웠던 김치통의 열기가 식기 시작했다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      &#39;&#39;단계 4: 식으면서 모양이 잡히는 과정을 지켜보세요. (중요!)&#39;&#39;
+      &#39;&#39;※경고&#39;&#39;: 너무 차가워지면 **&#39;얼린 두부(동두부)&#39;**가 되어
+      식감이 퍼석해질 수 있으니 주의하세요.
+      
+      나는 숨도 쉬지 않고 김치통 속을 노려봤다.
+      찬 바람을 맞은 두부 표면에 얇은 막이 생기기 시작한다.
+      흐물거렸던 입자가 서로 엉겨 붙으며, 서서히 **&#39;강아지의 형태&#39;**를 갖춰가기 시작한다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;된다... 된다...! 굳는다!!&quot;}
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/김치통두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      약 5분 뒤. 김치통 안에서 하얀 연기가 피어오르더니, 
+      &#39;&#39;&quot;퐁!&quot;&#39;&#39; 하는 경쾌한 소리와 함께 녀석이 튀어 올랐다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+      &quot;아취!!! (에취!!!)&quot;}
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+      &quot;두부야!!!&quot;}
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?talkText)[
+       두부는 김치통 모양 그대로 네모난 큐브 형태로 웅크리고 있었지만,
+       털은 뽀송뽀송하게 돌아와 있었다.
+       
+       녀석은 추운지 콧물을 훌쩍거리며 덜덜 떤다.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;형아... 나... 찜질방 갔다가... 냉탕 들어간 기분이야...&quot;}
+       
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;다행이다... 진짜 다행이야...&quot;}
+       
+       나는 꽁꽁 언(하지만 다시 굳은) 두부를 와락 껴안았다.
+       차갑고, 단단하고, 네모난 나의 강아지.
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/멍멍유치원.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        녀석의 각진 몸을 주물러주며 모니터를 봤다.
+        아까 검색했던 창 옆에, 소름 돋는 맞춤형 광고가 떠 있다.
+        
+        &#39;&#39;광고&#39;&#39; 우리 아이가 너무 소심한가요? 순두부 멘탈을 돌처럼 단단하게!
+        &#39;멍멍 유치원&#39; 입학 문의
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;......이거다.&quot;}
+               (link-reveal:&quot;▶&quot;)[
+       (replace:?talkText)[
+        이번엔 운 좋게 락앤락으로 살렸지만, 다음엔 물이 되어 증발할지도 모른다.
+        근본적인 해결책이 필요하다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야. 너 내일부터 학교 가자.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       (못 들은 척 뒷다리를 긁는다)}
+       
+       나는 비장하게 유치원 입학 신청 버튼을 눌렀다.
+       목표는 하나. **[두부 멘탈 개조]**다.
+       (link:&quot;▶&quot;)[(go-to:&quot;8장&quot;)]
+]]
+        ]]
+        ]]
+       ]]
+       ]]
+       ]]
+       ]]
+      ]]
+      ]]
+
+     
+
+
+</tw-passagedata><tw-passagedata pid="77" name="F33" tags="" position="575,2475" size="100,100">(set: $b to 1)
+&lt;script&gt;
+	changeBGM(&quot;순두부&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/지식인.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		나는 지푸라기라도 잡는 심정으로 [지식인]에 접속했다.
+        내공 100. 아니, 내 전 재산을 걸어서라도 답을 얻어야 한다.
+        
+        &lt;질문&gt; 강아지가 녹아서 순두부가 됐는데 어떻게 하나요? (내공 100)
+        작성자: 급한견주 | 마감률: 99%
+        
+        제발요. 지금 형태가 거의 없습니다.
+        숟가락으로 떠질 정도예요.
+        살려주세요.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        놀랍게도 1분 만에 답변이 달렸다.
+        등급이 무려 **[태양신]**이다. 믿음이 간다!
+        
+        &lt;답변&gt; 간단합니다. 수분을 날리면 됩니다.답변자: 드라이기장인 (태양신)
+        질문자님, 당황하지 마세요. 원리는 간단합니다. 
+        고체가 액체가 된 것은 &#39;결합력&#39;이 약해졌기 때문이죠. 
+        헤어 드라이기의 **&#39;강한 열풍&#39;**으로 수분을 싹 날려주시면, 
+        다시 뽀송한 강아지로 돌아옵니다. 채택 부탁드립니다. 
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;그래! 수분을 날리면 다시 굳겠지! 역시 태양신이야!&quot;}
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/순두부드라이기.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      나는 당장 화장실에서 헤어 드라이기를 가져왔다. 
+      전원 코드를 꽂고, 최대 풍속 모드로 설정했다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;두부야, 조금만 참아! 내가 뽀송하게 말려줄게!&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부(액체)&lt;/span&gt;
+        &quot;......뜨거울 것... 가튼데......&quot;}
+        
+      //위이이잉—!!!//
+      
+      강력한 열풍이 양푼에 담긴 두부를 강타했다.
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?talkText)[
+      하지만, 1분이 지나자 상황이 이상하게 돌아가기 시작했다.
+      두부가 강아지로 변하는 게 아니라... 표면이 쭈글쭈글해지기 시작했다.
+      
+      몽글몽글했던 순두부의 표면이 말라비틀어지면서, 
+      마치 마라탕에 들어가는 **&#39;푸주(건두부)&#39;**처럼 질긴 막이 형성되기 시작한 것이다!
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;으아아악!!! 형아!!! 내 피부!!! 내 수분!!! 쩍쩍 갈라져!!!&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;어?! 어어?!&quot;}
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/튀김두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      나는 기겁하며 드라이기 코드를 뽑아 던졌다.
+      두부의 표면은 수분이 다 날아가서 버석버석한 &#39;&#39;&#39;튀김 두부&#39;&#39;&#39; 꼴이 되어 있었다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;두부(바스락)&lt;/span&gt;
+      &quot;......형아... 나... 목말라... 바삭거려...&quot;}
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+      &quot;미, 미안해!!! 이 돌팔이 지식인 놈!!!&quot;}
+       (link-reveal:&quot;▶&quot;)[
+       (replace:?talkText)[
+       이 방법은 틀렸다. 
+       열을 가하면 안 된다. 
+       
+       오히려 상황이 더 악화되었다.
+       두부가 완전히 말라비틀어지기 전에 다른 방법을 찾아야 한다!
+        [[▶-&gt;F2]]
+        ]]
+       ]]
+       ]]
+       ]]
+       ]]
+      ]]
+      ]]
+
+     
+
+
+</tw-passagedata><tw-passagedata pid="78" name="8장" tags="" position="200,2750" size="100,100">&lt;script&gt;
+stopBGM();
+&lt;/script&gt;
+&lt;h1 class=&quot;title-screen&quot;&gt;〈제8장〉&lt;br&gt;레벨 1 쫄보 두부,&lt;br&gt;S급 엘리트 유치원에 입학하다. &lt;br&gt;(feat. 선생님 제발 쫓아내지 마세요)&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;)&lt;/script&gt;
+(live:5s)[
+(go-to:&quot;K1&quot;)]</tw-passagedata><tw-passagedata pid="79" name="K1" tags="" position="375,2750" size="100,100">&lt;script&gt;
+	changeBGM(&quot;유치원모험&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/멍멍유치원.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+		다음 날 아침.
+        
+        나는 녀석을 데리고 **[멍멍 유치원]**에 도착했다.
+        
+        운동장에는 이미 &#39;인싸견&#39;들이 가득하다. 
+        비숑은 날아다니고, 리트리버는 웃고 있고, 웰시코기는 엉덩이를 흔든다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;자, 두부야. 너도 가서 친구 좀 사귀고 그래.&quot;}
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/개들.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        하지만 내 다리 뒤에는 아무런 반응이 없다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       (바들바들...)}
+       
+       녀석은 내 종아리 뒤에 찰싹 달라붙어 있다.
+       마치 &#39;&#39;다리에 붙은 껌&#39;&#39;처럼 떨어질 생각을 안 한다.
+       녀석의 표정은 &quot;&#39;&#39;집에 가자... 제발 집에 가자...&#39;&#39;&quot; 라고 외치고 있다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;유치원 선생님&lt;/span&gt;
+       &quot;어머, 두부가 사회성이 좀... 아니, 많이 부족하네요. 하하.&quot;}
+      선생님은 내 다리 뒤에 거머리처럼 붙어 떨어지지 않는
+      두부를 보며 난처한 듯 웃었다.
+      
+      주변에는 &#39;인싸&#39; 강아지들이 공을 물고 날아다니는데,
+      두부는 이미 영혼이 가출한 상태다.
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      {&lt;span class=&quot;char-name&quot;&gt;유치원 선생님&lt;/span&gt;
+       &quot;원래 보호자님이 계시면 더 어리광부려요. &lt;br&gt;눈 딱 감고 가시면, 오히려 친구들이랑 잘 놀 수도 있어요. &lt;br&gt;믿고 맡겨보시겠어요?&quot;}
+      
+      고민된다. 
+      저 솜뭉치 같은 녀석을 두고 가는 게 맞나?
+      아니면 내가 강의를 결석하고 옆에서 지켜봐야 하나? 
+      
+      하지만 언제까지고 내 품 안에서만 키울 순 없다.
+      (link: &quot;▶ 어떻게 할까?&quot;)[
+            				(replace: ?popup_area)[
+                			&lt;div class=&quot;popup-overlay&quot;&gt;
+                    			&lt;div class=&quot;popup-box&quot;&gt;
+                        			&lt;h3 style=&quot;margin-bottom:20px;&quot;&gt;어떻게 할까?&lt;/h3&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                            					[[선생님께 두부를 믿고 맡긴다-&gt;K21]]
+                        				&lt;/div&gt;
+                        				&lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[떠나지 않고 두부를 옆에서 케어한다-&gt;K22]]
+                        				&lt;/div&gt;
+                                        &lt;div class=&quot;choice-container&quot;&gt;
+                                                 [[강아지로 위장해 다른 강아지들로부터 두부 곁을 지킨다-&gt;K23]]
+                        				&lt;/div&gt;
+                    			&lt;/div&gt;
+                			&lt;/div&gt;
+            ]
+           ]
+       ]]
+      ]]
+      ]]
+       ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="80" name="K21" tags="" position="500,2625" size="100,100">&lt;script&gt;
+	changeBGM(&quot;유치원모험&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/보더콜리.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;알겠습니다. 선생님 말씀대로 할게요. &lt;br&gt;
+       두부야, 친구들이랑 재밌게 놀고 있어! &lt;br&gt;
+       형 금방 올게!&quot;}
+       
+       나는 뒤도 돌아보지 않고 쿨하게 퇴장했다... 
+       는 훼이크고, 문밖에서 몰래 지켜봤다. 
+       
+       내가 사라지자마자, 저 멀리서 **&#39;유치원 일진(노는 무리)&#39;**의 리더, 
+       보더콜리가 눈을 번뜩이며 달려들었다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;보더콜리&lt;/span&gt;
+       &quot;멍!! (신입생? 신고식 해야지? 놀자!!)&quot;}
+       
+       그 압도적인 에너지와 속도에 두부는 동공이 확장되었다. 
+       그리고— //퐁! //
+      (link-reveal:&quot;▶&quot;)[
+      &lt;script&gt;
+      	playSFX(&quot;퐁&quot;);
+      &lt;/script&gt;
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/개와두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      바닥에 하얗고 몽글몽글한 연두부 한 덩이가 철푸덕 퍼졌다.
+      문제는 그다음이었다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;보더콜리&lt;/span&gt;
+       &quot;킁킁? (어? 갑자기 어디서 맛있는 냄새가 나는데?)&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;리트리버&lt;/span&gt;
+       &quot;멍? (고단백 간식이다!)&quot;}
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      강아지들이 네모난 두부 주변으로 떼로 몰려들어 핥으려고 한다.
+      두부는 잡아먹히지 않기 위해 필사적으로 
+      
+      **&#39;나는 맛없는 돌멩이다&#39;, &#39;나는 콩 비린내 나는 식물이다&#39;**라고 
+      
+      자기암시를 걸며 숨을 참는다. 
+      절체절명의 위기!
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        &#39;&#39;~ 10분 후 ~&#39;&#39;
+        
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;안 돼!!!! 먹지 마세요!!!!&quot;}
+       
+       혹시나 해서(사실 쌔해서) 다시 들어와 본 나는,
+       내 소중한 연두부를 핥기 직전인 보더콜리를 막아섰다.
+       
+       결국 두부는 10분 만에 조퇴 처리되었다.
+       (link-reveal:&quot;▶&quot;)[
+       &lt;script&gt;
+      	changeBGM(&quot;유치원Dream&quot;);
+      &lt;/script&gt;
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/잠든두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        집으로 돌아온 두부는 하얗게 불태웠는지,
+        현관에 들어오자마자 떡실신해서 잠이 들었다.
+        
+        나도 긴장이 풀려 녀석의 침대 옆에 엎드렸다.
+        새근거리는 숨소리를 들으며 등을 쓰다듬다 보니...
+        
+        나도 모르게 스르르 눈이 감긴다
+        .
+        .
+        .
+         (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/훌쩍두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        어디선가 훌쩍거리는 소리가 들린다.
+        고개를 돌려보니, 두부가 구름 위에 앉아 울고 있다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;형아...&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 두부야? 너 말할 줄 알아?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;형아... 나는 왜 이렇게 약할까? &lt;br&gt;
+       딴 애들은 씩씩하고 멋진데...&lt;br&gt;
+       나는 겁만 나면 자꾸 부서질 것 같아. &lt;br&gt;
+나도 단단해지고 싶은데...&quot;}
+         (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        꿈속이라는 게 느껴졌지만,
+        축 처진 녀석의 어깨가 너무 짠해서 견딜 수가 없었다.
+        
+        나는 있는 힘껏, 부서지지 않을 정도로만 꽉 녀석을 안아주었다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;바보야. 굳이 단단해질 필요 없어.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;...정말?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;그럼. 너는 두부잖아. &lt;br&gt;
+       딱딱한 돌멩이보다, 부드럽고 말랑말랑한 두부를 사람들이 얼마나 좋아하는데. &lt;br&gt;
+       네가 약해서가 아니라, 다정해서 그런 거야.&quot;}
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        나는 녀석의 젖은 눈가를 닦아주며 말했다.
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;무서우면 언제든 변해도 돼. &lt;br&gt;
+       네가 두부가 되든, 순두부가 되든, 취두부가 되든... 내가 다 지켜줄게. &lt;br&gt;
+       아무도 널 못 먹게 할 거야.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;진짜? 나 평생 물렁물렁하게 살아도 돼?&lt;br&gt;
+       무서우면 그냥 숨어버려도 돼?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+        &quot;당연하지. 그게 너다운 거야. &lt;br&gt;
+        무서워하는 건 나쁜 게 아니야. &lt;br&gt;
+        내 앞에서만큼은, 언제든 쫄보여도 괜찮아.&quot;}
+               (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        잠에서 깬 두부는 여전히 겁쟁이다.
+        
+        오토바이 소리에 놀라고,
+        비둘기를 무서워하고,
+        산책하다 큰 개를 만나면 얼어붙는다.
+        
+        하지만 달라진 게 있다면, 이제는 억지로 참지 않는다는 것이다.
+        //펑- //
+        산책 중에 놀란 두부가 하얀 모서리의 두부로 변했다.
+        나는 익숙하게 그 &#39;두부&#39;를 집어 들어 내 후드티 주머니에 쏙 넣었다.
+        두부에게는 이곳이 세상에서 제일 안전한 방공호이자 도피처다.
+        [[▶-&gt;normalend]]
+        ]]
+        ]]
+       ]]
+        ]]
+        ]]
+        ]]
+        ]]
+       ]]
+      ]]
+      ]]
+       ]]
+     
+
+
+</tw-passagedata><tw-passagedata pid="81" name="K22" tags="" position="500,2750" size="100,100">&lt;script&gt;
+	changeBGM(&quot;유치원모험&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/보더콜리.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;잠깐! 거기 스톱! 우리 애 놀라잖아! 저리 가!&quot;}
+       
+       나는 두부를 유치원에 던져두는 대신, **&#39;극성 매니저 모드&#39;**를 발동했다.
+       
+       두부의 뒤를 졸졸 쫓아다니며,
+       에너지가 넘치다 못해 폭발하는 대형견들을 몸으로 막아내는
+       &#39;철통 경호&#39; 임무 수행 중이다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;두부야, 저기 봐. 저쪽에 있는 시츄 친구는 좀 순해 보인다. &lt;br&gt;
+       가서 엉덩이 냄새 한 번 맡아봐. &lt;br&gt;
+       형이 딱 뒤에 버티고 있을게. 걱정 마.&quot;}
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/개와두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      나의 든든한 등짝을 확인한 덕분일까? 
+      두부가 조심스럽게 발을 뗀다. 
+      //킁킁. //기적적으로 두부가 시츄와 코 인사를 나눴다!
+      
+      {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       (꼬리 살랑) &quot;멍! (안녕!)&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;시츄&lt;/span&gt;
+       &quot;멍! (반가워!)&quot;}
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      성공이다!!!
+      첫 단추가 풀리자 마법 같은 일이 일어났다.
+      
+      시츄랑 친해진 두부가 용기를 얻었는지,
+      조금씩 다른 강아지들 틈에도 끼기 시작한 것이다!
+      
+      두부가 친구들과 신나게 뛰어놀다 보니 어느새 하원 시간.
+      선생님이 웃으며 마이크를 잡는다.
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;유치원 선생님&lt;/span&gt;
+       &quot;자, 오늘 가장 인기가 많았던 친구에게 주는 &#39;인기 강아지상&#39; 시상식이 있겠습니다! &lt;br&gt;
+       주인공은 바로... &#39;&#39;두부&#39;&#39;입니다!&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 우리 두부가?&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;유치원 선생님&lt;/span&gt;
+       &quot;강아지들이 두부한테서 맛있는 냄새(?)가 난다면서 졸졸 쫓아다니더라고요~ &lt;br&gt;
+       인기 만점이었어요! &lt;br&gt;
+       부상으로 보호자님을 위한 **&#39;최고급 100% 서리태 콩물&#39;**을 드립니다!&quot;}
+       (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/잠든두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        역시... 녀석의 &#39;콩 향기&#39;는 강아지들에게도 통하는 모양이다.
+        나는 상품으로 받은 묵직한 콩물을 받아들고 쾌재를 불렀다.
+        
+        나이스!
+        
+        이게 그렇게 비싸다는 서리태 콩물?
+        오늘 저녁은 이거다.
+         (link-reveal:&quot;▶&quot;)[
+                &lt;script&gt;
+      	changeBGM(&quot;유치원Dream&quot;);
+      &lt;/script&gt;
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/훌쩍두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+         집에 와서 씻고 나오자마자,
+         상품으로 받은 진한 콩물을 컵에 따라 원샷했다.
+        
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;크어... 진하다. 식도가 코팅되는 기분이야.&quot;}
+       
+       그때였다.
+       머릿속에서 띠링- 하는 맑은 소리와 함께,
+       텔레파시가 강력하게 연결된 듯한 느낌이 들었다.
+       
+       평소의 끊길 듯한 모기 같은 소리가 아니다.
+       이건 마치 5G 광대역 통신이다!
+         (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부(선명함)&lt;/span&gt;
+       &quot;형...&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 야, 두부야. 너 목소리 완전 잘 들려. &lt;br&gt;
+       오늘 재밌었어?&quot;}
+       
+        나는 신기해하며 두부를 바라봤다.
+        녀석이 내 무릎에 턱을 괴어 온다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;응. 근데 나 사실... 아까 좀 무서웠어. &lt;br&gt;
+       그 리트리버 덩치가 집채만 했거든.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어? 근데 왜 두부로 안 변했어? &lt;br&gt;
+       아까는 잘 놀던데?&quot;}
+       
+       두부가 촉촉한 눈망울로 나를 올려다보며 말한다.
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+      &quot;형이 뒤에 있어줬잖아.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;......&quot;}
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;내가 무서워서 네모난 두부로 변해버리면... &lt;br&gt;
+       나 들고 오느라 무겁잖아.  &lt;br&gt;
+       그리고 형 냄새 맡으면, 이상하게 용기가 나.&quot;}
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;야... 두부 너 진짜...&quot;}
+       
+       콧잔등이 시큰해진다.
+       고작 이 작은 생명체가 나를 배려하고 있었다니.
+       
+       {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+        &quot;나 이제 안 변할래. &lt;br&gt;
+        그냥 두부 말고, 형 동생 &#39;두부&#39; 할래.&lt;br&gt;
+        강아지로 있어야 같이 더 많이 놀 수 있잖아. 그치?&quot;}
+        [[▶-&gt;bestend]]
+        ]]
+        ]]
+        ]]
+       ]]
+        ]]
+        ]]
+        ]]
+        ]]
+       ]]
+      ]]
+      ]]
+    
+
+
+</tw-passagedata><tw-passagedata pid="82" name="K23" tags="" position="500,2875" size="100,100">&lt;script&gt;
+	changeBGM(&quot;유치원모험&quot;);
+&lt;/script&gt;
+|popup_area&gt;[]
+
+|imgarea&gt;[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/보더콜리.png&quot; class=&quot;scene-image&quot; style=&quot;width:460px&quot;&gt;]
+
+|dialoguebox&gt;[|talkText&gt;[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;잠시만요. 이럴 줄 알고 준비한 게 있죠.&quot;}
+       
+       나는 가방 지퍼를 열고 비장의 무기를 꺼냈다.
+       그것은 일본 돈키호테에서 산 **&#39;전신 달마시안 털 잠옷(모자 포함)&#39;**이었다.
+       
+       두부가 낯선 환경을 무서워한다면,
+       내가 강아지가 되어 곁에 있어 주면 되는 것이다.
+       완벽한 논리다.
+       
+       나는 순식간에 파자마를 착용하고,
+       네 발로 기어서 강아지 울타리 안으로 진입했다.
+        (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;월! 월월! 컹컹! (두부야, 걱정 마! 형이야! 형이 같이 놀아줄게!)&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;유치원 선생님&lt;/span&gt;
+       &quot;보... 보호자님...?! 지, 지금 뭐 하시는...&lt;br&gt;
+       여기서 이러시면 안 됩니다! ㅠㅠㅠㅠ&quot;}
+       
+       선생님의 비명 섞인 만류도 나의 &#39;견(犬)심&#39;을 막을 순 없었다.
+      (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/개와두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+      (replace:?talkText)[
+      유치원에 흐르던 평화로운 공기가 순식간에 얼어붙었다.
+      
+      모든 강아지가 하던 일을 멈추고,
+      네 발로 기어 다니는 거대한 달마시안(나)을 응시한다.
+      
+      {&lt;span class=&quot;char-name&quot;&gt;불독&lt;/span&gt;
+       &quot;멍? (저 인간 뭐임? 아픈가?)&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;보더콜리&lt;/span&gt;
+       &quot;멍! (야, 가까이 가지 마. 눈을 봐. 저건 광견병이야. 100%다.)&quot;}
+      (link-reveal:&quot;▶&quot;)[(replace:?talkText)[
+      강아지들의 눈빛에서 경멸과 공포가 읽힌다.
+      
+      소위 &#39;일진&#39; 강아지들조차 나의 압도적인 광기에 기가 눌려 뒷걸음질 친다.
+      음, 내 작전이 먹힌 건가?
+      
+      두부를 건드리지 못하게 위협하는 데 성공한 건가?
+       (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        그때였다.
+        어디선가 내 뇌를 강타하는 강렬한 텔레파시가 들려왔다.
+
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;아... 형아... 제발... 제발 그만해... &lt;br&gt;
+       사람들이랑 강아지들이 다 쳐다보잖아... 나 죽고 싶어...&quot;}
+       
+       두부는 &#39;공포심&#39; 따위는 잊은 지 오래였다.
+       녀석의 뇌를 지배한 건 밀려오는 거대한 **&#39;쪽팔림(Social Death)&#39;**이었다
+       
+       두부는 부들거리는 다리로 구석에서 벌떡 일어났다.
+       (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/잠든두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;왈!! 왈왈!! 으르렁!! &lt;br&gt;
+       (우리 형아 이상한 사람 아니야!! 그냥 좀 모자란 거야!! 다들 비켜!!)&quot;}
+        
+        두부는 필사적이었다.
+        
+        저 미친 인간이 내 주인이라는 사실을 들키기 전에,
+        빨리 이 상황을 수습해야 한다.
+        
+        두부는 앞장서서 다른 개들을 쫓아내고 나를 보호(라기보단 격리)하기 시작했다.
+         (link-reveal:&quot;▶&quot;)[
+      (replace:?imgarea)[&lt;img src=&quot;https://gpc6.github.io/alphapage/assets/훌쩍두부.png&quot; class=&quot;scene-image image_change&quot; style=&quot;width:460px&quot;&gt;]
+        (replace:?talkText)[
+        &#39;&#39;~ 귀가 후 ~&#39;&#39;
+        집에 돌아와 씻고 난 뒤, 나는 두유 한 팩을 원샷했다.
+        오늘의 기묘한 성공에 대해 두부와 이야기를 나눠봐야겠다.
+        
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;...형아&quot;}
+        
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어, 두부야. 형 덕분에 오늘 진짜 잘 놀았지? &lt;br&gt;
+       웬일로 다른 개들한테 짖기도 하고. 형은 감동했다.&quot;}
+       
+       정적이 흐른다. 
+        두부가 한심하다는 눈빛으로 나를 쳐다본다.
+         (link-reveal:&quot;▶&quot;)[
+        (replace:?talkText)[
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+       &quot;...다시는 그러지 마.&quot;}
+       
+       {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;어?&quot;}
+       
+        {&lt;span class=&quot;char-name&quot;&gt;두부&lt;/span&gt;
+      &quot;나 견생(犬生) 통틀어 오늘처럼 용감했던 적이 없어. &lt;br&gt;
+      형아가 너무... 너무 부끄러워서 무서운 줄도 몰랐단 말이야.&lt;br&gt;
+      제발... 밖에서 그러지 마...&quot;}
+      
+      {&lt;span class=&quot;char-name&quot;&gt;$name&lt;/span&gt;
+       &quot;.....&quot;}
+        [[▶-&gt;gagend]]
+        ]]
+        ]]
+        ]]
+       ]]
+        ]]
+        ]]
+        ]]
+        ]]
+    
+
+
+</tw-passagedata><tw-passagedata pid="83" name="normalend" tags="" position="625,2625" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈Normal Ending〉&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;);&lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;우리는 깨달았다. &lt;br&gt;
+굳이 강해지지 않아도, 서로가 있으면 충분하다는 것을. &lt;br&gt;
+세상은 험하지만, 우리는 말랑말랑하게 이겨나갈 것이다.&lt;/h4&gt;
+
+&lt;h3 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;겁먹으면 어때? 귀엽고 말랑한 게 최고야.&quot;&lt;/h3&gt;
+
+(set: $end to &quot;노말&quot;)
+(live:15s)[(go-to:&quot;credit&quot;)]
+</tw-passagedata><tw-passagedata pid="84" name="bestend" tags="" position="625,2750" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈Best Ending〉&lt;br&gt;사랑은 콩물보다 진하다&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;); &lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;그날 이후, 두부는 더 이상 &#39;식재료&#39;로 변하지 않는다.&lt;br&gt;
+물론 여전히 천둥이 치면 놀라고, 큰 개를 보면 무서워한다. &lt;br&gt;
+하지만 이제는 차가운 두부가 되어버리는 대신, 따뜻한 내 품으로 파고든다. &lt;br&gt;
+우리는 서로를 꼭 껴안았다. &lt;br&gt;
+피는 물보다 진하다지만, &lt;br&gt;
+우리 사이는 그보다 더 걸쭉하고 고소한 무언가로 이어져 있다.&lt;/h4&gt;
+
+&lt;h3 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;사랑은 콩물보다 진하고, 두부보다 단단하다.&quot;&lt;/h3&gt;
+
+
+(set: $end to &quot;베스트&quot;)
+(live:15s)[(go-to:&quot;credit&quot;)]
+</tw-passagedata><tw-passagedata pid="85" name="gagend" tags="" position="625,2875" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈Gag Ending〉&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;); &lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;두부는 여전히 겁이 많다. &lt;br&gt;
+세상 모든 것이 무섭다. &lt;br&gt;
+하지만 주인이 밖에서 이상한 짓(ex. 네 발로 걷기, 강아지 성대모사)을 하려고 폼을 잡으면, &lt;br&gt;
+누구보다 용감하게 짖어서 말린다.&lt;br&gt;
+두부는 깨달았다. &lt;br&gt;
+세상에 공포보다 무서운 것이 있다는 것을. &lt;br&gt;
+그것은 바로 **&#39;내 주인의 흑역사&#39;**다.&lt;/h4&gt;
+
+&lt;h3 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;쪽팔림은 공포를 이긴다.&quot;&lt;/h3&gt;
+
+
+(set: $end to &quot;개그&quot;)
+(live:15s)[(go-to:&quot;credit&quot;)]
+</tw-passagedata><tw-passagedata pid="86" name="credit" tags="" position="750,2750" size="100,100">&lt;h1 style=&quot;text-align:center; color:#000;&quot;&gt;〈인터랙티브 스토리텔링 7조〉&lt;/h1&gt;
+&lt;script&gt;playSFX(&quot;두둥&quot;); &lt;/script&gt;
+&lt;h4 style=&quot;text-align:center; color:#000;&quot;&gt;〈제작〉&lt;br&gt;
+우석훈&lt;br&gt;
+최선우 &lt;br&gt;
+이다혜 &lt;br&gt;
+박찬영 &lt;br&gt;&lt;/h4&gt;
+
+&lt;h3 style=&quot;text-align:center; color:#000;&quot;&gt;&quot;플레이 해 주셔서 감사합니다.&quot;&lt;/h3&gt;
+
+&lt;p style=&quot;text-align:center; color:#000&quot;&gt;수집한 배드엔딩&lt;/p&gt;
+(if: $bad1 is 1)[
+	&lt;p style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 01〉실험실의 강아지... 아니, 두부&lt;/p&gt;
+]
+(if: $bad2 is 1)[
+	&lt;p style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 02〉두부 파업&lt;/p&gt;
+]
+(if: $bad3 is 1)[
+	&lt;p style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 03〉세상에 이런 일이&lt;/p&gt;
+]
+(if: $bad4 is 1)[
+	&lt;p style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 04〉극한의 발효 과학&lt;/p&gt;
+]
+(if: $bad5 is 1)[
+	&lt;p style=&quot;text-align:center; color:#000;&quot;&gt;〈BAD END 06〉마파두부(Mapo Tofu)&lt;/p&gt;
+]
+
+(if: $bad1 + $bad2 + $bad3 + $bad4 + $bad5 is 5)[
+&lt;p style=&quot;text-align:center;&quot;&gt;[[특전]]&lt;/p&gt;
+]
+(else:)[
+&lt;p style=&quot;text-align:center;&quot;&gt;배드엔딩을 다 모은다면 무슨 일이?&lt;/p&gt;
+]
+
+
+</tw-passagedata><tw-passagedata pid="87" name="특전" tags="" position="750,2875" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
