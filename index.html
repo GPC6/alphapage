@@ -1,15 +1,621 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> 두부두부 </title>
-        <link rel="stylesheet" href="./alphapage/main.css">
-        <link rel="icon" href="./assets/favcon/alphafavcon.png">
-    </head>
-    <body>
-        <h1><a href="./tofu">두부게임 하러가기</a></h1>
-    </body>
-</html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>서울대 스트릿댄스 장르 테스트</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Nanum Gothic', sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #111;
+      color: white;
+    }
 
+    h1 {
+      margin-bottom: 30px;
+    }
+
+
+    
+.question {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+
+  /* 기본 애니메이션 속성 */
+  opacity: 0;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button {
+  display: block;
+  margin: 12px auto;
+  padding: 14px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  width: 450px;
+
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  font-weight: bold;
+
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  color: black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+}
+    #result {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+
+    #result p, #result ul {
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px; /* 가독성 좋게 폭 제한 */
+    }
+
+  </style>
+
+  
+
+  <style>
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: top;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>💃🏻 스트릿댄스 장르 테스트 🕺🏻</h1>
+
+  <!-- ✅ 시작 화면 추가 -->
+  <div id="start-screen">
+  <img src="start_screen.jpg" style="width:300px; border-radius:15px; margin-top:30px;">
+  
+  <p style="margin-top:30px; font-size:20px;">
+    당신에게 어울리는 스트릿댄스 장르는?
+  </p>
+
+  <button onclick="startQuiz()" style="margin-top:30px;">
+    🖋️ 테스트 시작하기
+  </button>
+</div>
+
+  <!-- ✅ 처음에는 숨김 -->
+  <div id="quiz" style="display:none;">
+    <div class="question" id="question"></div>
+    <div id="answers"></div>
+  </div>
+
+  <div id="result"></div>
+
+  <script>
+const questions = [
+  {
+    text: "Q1. 당신의 무대 에너지는?",
+    answers: [
+      {
+        text: "폭발적이고 강렬",
+        scores: {
+          locking: 0.4,
+          waacking: 0.3,
+          hiphop: 0.0,
+          girlshiphop: 0.5,
+          popping: 0.3,
+          breaking: 1.0,
+          house: 0.8,
+          krump: 1.0
+        }
+      },
+      {
+        text: "부드럽고 묵직함",
+        scores: {
+          locking: 0.4,
+          waacking: 0.6,
+          hiphop: 0.0,
+          girlshiphop: 0.7,
+          popping: 0.6,
+          breaking: 0.3,
+          house: 0.4,
+          krump: 0.2
+        }
+      }
+    ]
+  },
+  {
+    text: "Q2. 춤추는 당신을 상상해보자! 당신이 더 신경쓰는 것은?",
+    answers: [
+      {
+        text: "그루브와 리듬을 타는 느낌",
+        scores: {
+          locking: 0.4,
+          waacking: 0.3,
+          hiphop: 0.0,
+          girlshiphop: 0.9,
+          popping: 0.7,
+          breaking: 0.4,
+          house: 0.8,
+          krump: 0.3
+        }
+      },
+      {
+        text: "기술과 동작의 완성도",
+        scores: {
+          locking: 0.8,
+          waacking: 0.9,
+          hiphop: 0.0,
+          girlshiphop: 0.2,
+          popping: 0.6,
+          breaking: 1.0,
+          house: 0.2,
+          krump: 0.5
+        }
+      }
+    ]
+  },
+  {
+    text: "Q3. 춤추는 당신의 추구미는?",
+    answers: [
+      {
+        text: "카리스마 있고 강렬함",
+        scores: {
+          locking: 0.4,
+          waacking: 0.6,
+          hiphop: 0.0,
+          girlshiphop: 0.4,
+          popping: 0.8,
+          breaking: 1.0,
+          house: 0.8,
+          krump: 1.0
+        }
+      },
+      {
+        text: "자유롭고 유연함",
+        scores: {
+          locking: 0.8,
+          waacking: 0.6,
+          hiphop: 0.0,
+          girlshiphop: 0.8,
+          popping: 0.5,
+          breaking: 0.3,
+          house: 0.3,
+          krump: 0.3
+        }
+      }
+    ]
+  },
+  {
+    text: "Q4. 나는 노래를 들을 때?",
+    answers: [
+      {
+        text: "하이햇처럼 높은 리듬에 집중하게 된다.",
+        scores: {
+          locking: 1.0,
+          waacking: 1.0,
+          hiphop: 0.0,
+          girlshiphop: 0.0,
+          popping: 0.0,
+          breaking: 0.5,
+          house: 1.0,
+          krump: 0.0
+        }
+      },
+      {
+        text: "베이스처럼 깊고 울림있는 소리에 집중하게 된다.",
+        scores: {
+          locking: 0.0,
+          waacking: 0.0,
+          hiphop: 0.0,
+          girlshiphop: 1.0,
+          popping: 1.0,
+          breaking: 0.3,
+          house: 0.0,
+          krump: 1.0
+        }
+      }
+    ]
+  },
+  {
+    text: "Q5. 내 플레이리스트에 더 많이 있는 음악은?",
+    answers: [
+      {
+        text: "빠른 노래!",
+        scores: {
+          locking: 1.0,
+          waacking: 0.9,
+          hiphop: 0.0,
+          girlshiphop: 0.3,
+          popping: 0.4,
+          breaking: 1.0,
+          house: 1.0,
+          krump: 0.3
+        }
+      },
+      {
+        text: "느린 노래.",
+        scores: {
+          locking: 0.1,
+          waacking: 0.1,
+          hiphop: 0.0,
+          girlshiphop: 0.9,
+          popping: 0.9,
+          breaking: 0.0,
+          house: 0.0,
+          krump: 0.8
+        }
+      }
+    ]
+  },
+  {
+    text: "Q6. 춤을 처음 배우러 갔다! 당신이 춰보고 싶은 춤은?",
+    answers: [
+      {
+        text: "기본기 종류는 적지만, 응용이 많은 스타일",
+        scores: {
+          locking: 1.0,
+          waacking: 1.0,
+          hiphop: 0.0,
+          girlshiphop: 0.0,
+          popping: 0.1,
+          breaking: 0.2,
+          house: 0.5,
+          krump: 0.6
+        }
+      },
+      {
+        text: "기본기 종류가 많고, 탄탄하게 쌓아가는 대기만성형 스타일",
+        scores: {
+          locking: 0.0,
+          waacking: 0.0,
+          hiphop: 0.0,
+          girlshiphop: 1.0,
+          popping: 1.0,
+          breaking: 0.6,
+          house: 0.5,
+          krump: 0.7
+        }
+      }
+    ]
+  }
+];  
+
+
+const score = {
+    locking: 0,
+    waacking: 0,
+    hiphop: 0,
+    girlshiphop: 0,
+    popping: 0,
+    breaking: 0,
+    house: 0,
+    krump: 0
+};
+
+let currentQuestion = 0;
+
+let lastResultGenre = null;
+
+const genreDescriptions = {
+    locking: `
+    <img src="https://i.imgur.com/47qPDXU.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto;">
+
+    <p><strong>락킹(Locking)</strong>은 1960~70년대 미국 로스앤젤레스에서 탄생한 펑크(Funk) 기반의 스트릿 댄스 스타일입니다.</p>
+    <p>클럽에서 춤을 추던 돈 캠벨(Don Campbell)이 동작을 삐끗하면서 자물쇠가 잠기듯 몸이 멈추었던 것에서 유래했다는 설이 있습니다.</p>
+    <p>빠르고 리드미컬한 움직임에서 급작스럽게 멈추는 ‘Lock(락)’ 동작이 특징이며, 익살스러운 표정과 제스쳐로 유머와 즐거운 에너지를 표현하는 장르입니다.</p>
+
+    <p><strong>락킹의 기본동작</strong></p>
+    <ul>
+    <li>다운락 (down lock)</li>
+    <li>업락 (up lock)</li>
+    <li>뤼스트롤 (wrist roll)</li>
+    <li>포인트 (point)</li>
+    <li>페이싱 (pacing)</li>
+    <li>클랩 (clap)</li>
+    </ul>
+    `,
+    waacking: `
+    <img src="https://i.imgur.com/8beEx4Z.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto;">
+
+    <p><strong>왁킹(Waacking)</strong>은 1970년대 미국 로스앤젤레스(LA)의 언더그라운드 클럽 문화에서 시작된 스트릿 댄스 스타일입니다.</p>
+    <p>주로 디스코(Disco) 음악에 맞춰 추는 왁킹은 빠르고 힘있게 팔을 움직이며, 극적인 포즈와 표정 표현이 특징입니다.</p>
+    <p>역동적으로 팔을 돌리거나 뻗는 동작이 중심이 되며, 스스로를 여왕처럼 생각하는 강한 애티튜드가 매력적인 장르입니다. 음악과 감정을 과감하면서 절제되게 표현하는 것이 중요합니다.</p>
+
+    <p><strong>왁킹의 기본동작</strong></p>
+    <ul>
+    <li>트월 (twirl)</li>
+    <li>익스텐션 (extension)</li>
+    <li>포징 (posing)</li>
+    <li>왁 (waack)</li>
+    <li>애티튜드 (attitude)</li>
+    </ul>
+    `,
+    hiphop: `
+    <img src="https://i.imgur.com/sSdf0eh.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>힙합 댄스(Hip-hop dance)</strong>는 1980~90년대 힙합 음악과 함께 발전한 스트릿댄스 기반의 춤 스타일입니다. 자연스럽고 음악적인 그루브와 프리스타일 표현이 특징적입니다.</p>
+    <p>힙합의 기본은 <strong>업다운 바운스</strong>에서 시작됩니다. 리듬에 맞춰 몸을 자연스럽게 흔들며, 아이솔레이션과 다양한 힙합 스텝을 활용해 음악을 표현합니다.</p>
+    <p><strong>올드스쿨 힙합</strong>은 파티 댄스로 시작했으며, 런닝맨(Running Man), 로저 래빗(Roger Rabbit)과 같은 대표적인 스텝을 포함합니다.</p>
+    <p><strong>뉴스쿨 힙합</strong>은 하우스, 브레이킹, 크럼프 등 다양한 장르의 영향을 받아 발전했으며, 특정한 테크닉보다 음악적 감각과 흐름, 자신만의 스타일을 중요하게 여깁니다.</p>
+
+    <p><strong>힙합의 기본동작</strong></p>
+    <ul>
+    <li>바운스 (bounce)</li>
+    <li>업&다운 (up & down)</li>
+    <li>아이솔레이션 (isolation)</li>
+    <li>런닝맨 (running man)</li>
+    <li>로저래빗 (roger rabbit)</li>
+    <li>크랩 (crab)</li>
+    </ul>
+    `,
+    girlshiphop: `
+    <img src="https://i.imgur.com/mCRDk8q.gif" style="width:400px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>걸스힙합(Girls Hip-hop)</strong>은 힙합 댄스에서 파생된 여성 중심의 스트릿댄스 스타일입니다. 기존 힙합의 리듬과 움직임을 바탕으로, 스텝을 단순화하는 대신 신체 안에서의 흐름을 더욱 세밀하고 묵직하게 표현합니다.</p>
+    <p>힙합과 마찬가지로 <strong>바운스</strong>를 기본으로 사용하지만, 가슴과 골반의 움직임을 더 강조하며, 보다 분절된 아이솔레이션과 웨이브를 적극적으로 활용합니다.</p>
+    
+    <p><strong>걸스힙합의 기본동작</strong></p>
+    <ul>
+    <li>바운스 (bounce)</li>
+    <li>업&다운 (up & down)</li>
+    <li>아이솔레이션 (isolation)</li>
+    <li>암웨이브 (arm wave)</li>
+    <li>웨이브 (wave)</li>
+    </ul>
+    `,
+    popping: `
+    <img src="https://i.imgur.com/OzAifEB.gif" style="width:300px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>팝핑(Popping)</strong>은 1970년대 미국 캘리포니아에서 펑크(Funk) 댄스 문화에서 발전한 스트릿댄스 스타일입니다. 몸의 특정 근육을 <strong>빠르게 수축·이완</strong>하며 “팝(pop)”이라 불리는 쾅! 하는 움직임을 만들어 내는 것이 핵심입니다. 이 기술을 음악의 리듬과 비트에 맞춰 반복하면서 춤을 추는 것이 팝핑의 본질입니다.</p>
+    <p>팝핑에는 여러 스타일이 존재합니다. 로봇처럼 움직이는 <strong>로보팅(roboting)</strong>, 몸 전체를 유연하게 굴리는 <strong>부갈루(boogaloo)</strong>, 프레임 단위로 움직이는 연출을 하는 <strong>애니메이션(animation)</strong> 등 다양한 스타일로 나뉩니다.</p>
+
+    <p><strong>팝핑의 기본동작</strong></p>
+    <ul>
+    <li>팝 (pop)</li>
+    <li>웨이브 (wave)</li>
+    <li>아이솔레이션 (isolation)</li>
+    <li>워크아웃 (walk out)</li>
+    <li>프레즈노 (fresno)</li>
+    <li>플렉스 (flex)</li>
+    <li>올드맨 (old man)</li>
+    </ul>
+    `,
+    breaking: `
+    <img src="https://i.imgur.com/TrNg9qJ.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>브레이킹(Breaking)</strong>은 1970년대 미국 뉴욕 브롱크스(The Bronx)에서 힙합 문화의 일부로 탄생한 스트릿댄스 스타일입니다. 브레이킹 댄스는 음악의 브레이크 비트(break beat)에 맞춰 즉흥적으로 전개되며, 에너지 넘치는 움직임, 창의적 발상, 배틀 문화 등을 통해 자신의 스타일을 표현하는 것이 핵심입니다.</p>
+    <p>브레이킹은 음악의 단절된 비트에 맞춰 <strong>탑락(toprock)</strong>, <strong>풋워크(footwork)</strong>, <strong>프리즈(freeze)</strong>, <strong>파워무브(power move)</strong> 등 다양한 기술을 조합하여 춤을 선보이는 장르입니다.</p>
+
+    <p><strong>브레이킹의 기본동작</strong></p>
+    <ul>
+    <li>탑락 (toprock)</li>
+    <li>절크 (jerk)</li>
+    <li>고다운 (go down)</li>
+    <li>풋워크 (footwork)</li>
+    <li>프리즈 (freeze)</li>
+    <li>파워무브 (power move)</li>
+    </ul>
+`,
+    house: `
+    <img src="https://i.imgur.com/YqQUvVT.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>하우스 댄스(House dance)</strong>는 1980년대 미국 시카고와 뉴욕의 언더그라운드 클럽 문화에서 하우스 음악과 함께 자연스럽게 발전한 프리스타일 스트릿댄스 스타일입니다. 하우스 음악의 리듬, 베이스, 그루브에 몸을 맡기며 빠르고 현란한 스텝과 유연한 몸의 흐름을 강조하는 움직임이 특징적입니다.</p>
+    <p>다른 장르와 달리 스텝의 비율이 압도적으로 높아 상체 활용은 상대적으로 적지만, 그만큼 발끝과 발동작을 통한 표현의 영역이 넓다는 특징이 있습니다.</p>
+
+    <p><strong>하우스의 기본동작</strong></p>
+    <ul>
+    <li>잭킹 (jacking)</li>
+    <li>루즈레그 (loose leg)</li>
+    <li>쓰리스템 (three step)</li>
+    <li>셔플 (shuffle)</li>
+    <li>파드브레 (Pas de bourrée)</li>
+    <li>사이드스텝 (side step)</li>
+    <li>살사 (salsa)</li>
+    <li>스월 (swirl)</li>
+    <li>파머 (farmer)</li>
+    </ul>
+`,
+    krump: `
+    <img src="https://i.imgur.com/z9V71yk.gif" style="width:600px; border-radius:15px; display:block; margin:20px auto; box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+    
+    <p><strong>크럼프(Krump)</strong>는 1990년대 말~2000년대 초 미국 로스앤젤레스, 특히 사우스 센트럴 LA에서 힙합 문화의 스트릿댄스로 탄생한 춤입니다. 크럼프는 파워풀하고 에너제틱하며 과장된 움직임으로 감정을 표현하는 것이 특징입니다.</p>
+    <p>크럼프의 이름 <strong>KRUMP</strong>는 Kingdom Radically Uplifted Mighty Praise(왕국을 높이는 강력한 찬양)의 약어로 해석되며, 강렬한 움직임으로 자신을 표현하는 춤임을 나타냅니다.</p>
+
+    <p><strong>크럼프의 기본동작</strong></p>
+    <ul>
+    <li>스텀프 (stomp)</li>
+    <li>암 스윙 (arm swing)</li>
+    <li>체스트 팝 (chest pop)</li>
+    <li>햇트릭 (hat trick)</li>
+    </ul>
+`
+};
+
+const genreImages = {
+  locking: "locking.jpg",
+  waacking: "waacking.jpg",
+  hiphop: "hiphop.jpg",
+  girlshiphop: "girlshiphop.jpg",
+  popping: "popping.jpg",
+  breaking: "breaking.jpg",
+  house: "house.jpg",
+  krump: "krump.jpg"
+};
+
+    function showQuestion() {
+      const questionEl = document.getElementById("question");
+      const answersEl = document.getElementById("answers");
+
+      if (currentQuestion >= questions.length) {
+        showResult();
+        return;
+      }
+
+      const current = questions[currentQuestion];
+      questionEl.innerText = current.text;
+      answersEl.innerHTML = "";
+      
+      questionEl.classList.remove("fadeIn");
+      void questionEl.offsetWidth; // 리플로우 강제
+      questionEl.classList.add("fadeIn");
+
+      current.answers.forEach(answer => {
+        const btn = document.createElement("button");
+        btn.innerText = answer.text;
+        btn.onclick = () => selectAnswer(answer.scores);
+        answersEl.appendChild(btn);
+      });
+    }
+
+    function selectAnswer(answerScores) {
+      for (let key in answerScores) {
+        score[key] += answerScores[key];
+      }
+
+      currentQuestion++;
+      showQuestion();
+    }
+
+function showResult() {
+  const resultEl = document.getElementById("result");
+  const quizEl = document.getElementById("quiz");
+  quizEl.style.display = "none";
+
+  let dots = 0;
+
+  const loadingInterval = setInterval(() => {
+    dots = (dots + 1) % 6;
+    resultEl.innerHTML =
+      "🔎 당신에게 추천할 장르를 분석 중입니다" + ".".repeat(dots);
+  }, 250);
+
+  
+  // 2~4초 후 결과 출력
+  const randomDelay = Math.floor(Math.random() * 1201) + 2000;
+  setTimeout(() => {
+    clearInterval(loadingInterval);
+    calculateResult();
+  }, randomDelay);
+}
+
+function calculateResult() {
+  const resultEl = document.getElementById("result");
+
+  const genreNames = {
+    locking: "락킹",
+    waacking: "왁킹",
+    hiphop: "힙합",
+    girlshiphop: "걸스힙합",
+    popping: "팝핑",
+    breaking: "브레이킹",
+    house: "하우스",
+    krump: "크럼프"
+  };
+
+  for (let key in score) {
+    score[key] = Math.round(score[key] * 10) / 10;
+  }
+
+  let maxScore = Math.max(...Object.values(score));
+
+  let topGenres = [];
+  for (let key in score) {
+    if (score[key] === maxScore) {
+      topGenres.push(key);
+    }
+  }
+
+  let resultGenre =
+    topGenres[Math.floor(Math.random() * topGenres.length)];
+
+  
+
+  lastResultGenre = resultGenre;
+
+resultEl.innerHTML = `
+  🎉 당신에게 어울리는 장르는! 🎉 <br><br>
+
+  <strong style="font-size:28px;">
+    ${genreNames[resultGenre]}
+  </strong>
+
+  <br><br>
+
+  <img src="${resultGenre}.png" 
+       style="width:800px; display:block; margin:20px auto; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.3);">
+
+  <br>
+
+  <button onclick="restartQuiz()">🔁 다시하기</button>
+  <button onclick="showDescription()">📖 장르 설명 보기</button>
+`;
+}
+
+function restartQuiz() {
+  currentQuestion = 0;
+
+  for (let key in score) {
+    score[key] = 0;
+  }
+
+  document.getElementById("result").innerHTML = "";
+  document.getElementById("quiz").style.display = "none";
+  document.getElementById("start-screen").style.display = "block";
+}
+
+function startQuiz() {
+  document.getElementById("start-screen").style.display = "none";
+  document.getElementById("quiz").style.display = "block";
+
+  showQuestion();
+}
+
+function showDescription() {
+  const resultEl = document.getElementById("result");
+
+  resultEl.innerHTML = `
+    <h2>🔥 ${lastResultGenre.toUpperCase()}</h2>
+    <p style="margin-top:20px;">
+      ${genreDescriptions[lastResultGenre]}
+    </p>
+
+    <br><br>
+    <button onclick="restartQuiz()">🔁 다시하기</button>
+  `;
+}
+
+    //showQuestion();
+  </script>
+
+</body>
+
+</html>
 
 
