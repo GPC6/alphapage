@@ -1,0 +1,38 @@
+{
+  "completed_boards": 18,
+  "completed_panels": 144,
+  "estimated_image_api_calls": 130,
+  "by_mode": {
+    "draft": {
+      "boards": 6,
+      "panels": 48,
+      "average_elapsed_seconds": 240.61,
+      "average_panel_kb": 327.9,
+      "average_luminance": 84.69,
+      "average_ink_coverage": 0.9757,
+      "reference_sheets": 0,
+      "estimated_image_api_calls": 6
+    },
+    "standard": {
+      "boards": 6,
+      "panels": 48,
+      "average_elapsed_seconds": 276.28,
+      "average_panel_kb": 2694.6,
+      "average_luminance": 100.35,
+      "average_ink_coverage": 0.9052,
+      "reference_sheets": 0,
+      "estimated_image_api_calls": 48
+    },
+    "reference": {
+      "boards": 6,
+      "panels": 48,
+      "average_elapsed_seconds": 371.84,
+      "average_panel_kb": 2977.0,
+      "average_luminance": 96.67,
+      "average_ink_coverage": 0.9525,
+      "reference_sheets": 28,
+      "estimated_image_api_calls": 76
+    }
+  },
+  "comparison_note": "Each HTTP request drafts a new treatment and panel design. Mode comparisons therefore include both image-generation differences and stochastic design differences."
+}
