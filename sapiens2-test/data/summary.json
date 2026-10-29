@@ -1,0 +1,335 @@
+{
+  "tempo_bpm": 109.33884297520662,
+  "analysis_fps": 14.985014985014985,
+  "inference_frames": 1422,
+  "segments": [
+    {
+      "label": "A",
+      "description": "첫 번째 댄서, 회색 상의",
+      "start": 8.0,
+      "end": 55.5,
+      "seed_x": 0.57,
+      "seed_bottom_y": 0.68,
+      "max_center_x": 0.9,
+      "analyzed_frames": 712,
+      "detected_frames": 712,
+      "review_excluded_frames": 0,
+      "motion_valid_fraction": 0.9957865168539326,
+      "angles": {
+        "left_elbow_deg": {
+          "valid_fraction": 0.9957865168539326,
+          "p05": 42.28777830109432,
+          "median": 138.54656700308928,
+          "p95": 176.90708851970146
+        },
+        "left_knee_deg": {
+          "valid_fraction": 1.0,
+          "p05": 101.33004271027355,
+          "median": 156.9709976188077,
+          "p95": 177.85798789676983
+        },
+        "left_shoulder_deg": {
+          "valid_fraction": 1.0,
+          "p05": 2.318785046748833,
+          "median": 21.812968591910092,
+          "p95": 80.97402897871659
+        },
+        "left_hip_deg": {
+          "valid_fraction": 1.0,
+          "p05": 119.22131736497731,
+          "median": 162.3368203353412,
+          "p95": 178.33678716057696
+        },
+        "right_elbow_deg": {
+          "valid_fraction": 0.9957865168539326,
+          "p05": 28.799475311288877,
+          "median": 142.16551560071383,
+          "p95": 176.68582614213253
+        },
+        "right_knee_deg": {
+          "valid_fraction": 0.9985955056179775,
+          "p05": 102.14906119490152,
+          "median": 159.82189699832034,
+          "p95": 178.6166906702054
+        },
+        "right_shoulder_deg": {
+          "valid_fraction": 1.0,
+          "p05": 2.9142452340775926,
+          "median": 27.29443911421636,
+          "p95": 125.69566212529996
+        },
+        "right_hip_deg": {
+          "valid_fraction": 1.0,
+          "p05": 120.47225479586199,
+          "median": 165.32269368216237,
+          "p95": 178.7790622293603
+        }
+      }
+    },
+    {
+      "label": "B",
+      "description": "두 번째 댄서, 검은 상의",
+      "start": 57.5,
+      "end": 105.0,
+      "seed_x": 0.48,
+      "seed_bottom_y": 0.89,
+      "max_center_x": 0.78,
+      "min_bottom_y": 0.8,
+      "exclude_ranges": [
+        [
+          67.3,
+          68.3
+        ]
+      ],
+      "exclusion_reason": "댄서와 관객의 겹침으로 관절이 섞인 구간을 수동 검토 후 제외",
+      "analyzed_frames": 712,
+      "detected_frames": 710,
+      "review_excluded_frames": 15,
+      "motion_valid_fraction": 0.9508426966292135,
+      "angles": {
+        "left_elbow_deg": {
+          "valid_fraction": 0.9311797752808989,
+          "p05": 61.68916468611981,
+          "median": 147.044984132258,
+          "p95": 177.09395937922824
+        },
+        "left_knee_deg": {
+          "valid_fraction": 0.976123595505618,
+          "p05": 85.57161614621265,
+          "median": 158.48988739274898,
+          "p95": 179.023500702085
+        },
+        "left_shoulder_deg": {
+          "valid_fraction": 0.9564606741573034,
+          "p05": 2.6792726958171014,
+          "median": 36.33056181166979,
+          "p95": 125.03625065581019
+        },
+        "left_hip_deg": {
+          "valid_fraction": 0.976123595505618,
+          "p05": 96.31864188718662,
+          "median": 162.0697705210553,
+          "p95": 179.09777092611355
+        },
+        "right_elbow_deg": {
+          "valid_fraction": 0.9367977528089888,
+          "p05": 71.29848639995878,
+          "median": 151.46724093044563,
+          "p95": 177.18180702236492
+        },
+        "right_knee_deg": {
+          "valid_fraction": 0.9747191011235955,
+          "p05": 83.21417982575568,
+          "median": 153.27118961878975,
+          "p95": 178.16949996871452
+        },
+        "right_shoulder_deg": {
+          "valid_fraction": 0.952247191011236,
+          "p05": 3.7677424505953554,
+          "median": 33.345185886170796,
+          "p95": 127.49974294125077
+        },
+        "right_hip_deg": {
+          "valid_fraction": 0.9705056179775281,
+          "p05": 97.91963479566652,
+          "median": 157.9963555190488,
+          "p95": 178.22447271633777
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "frame_slot": 333,
+      "actor": 0,
+      "time_seconds": 22.2222,
+      "motion_speed": 5.0355410380112815,
+      "nearest_beat_offset_ms": 62.56281179138412,
+      "nearest_onset_offset_ms": 82.51746031746165
+    },
+    {
+      "frame_slot": 350,
+      "actor": 0,
+      "time_seconds": 23.356666666666666,
+      "motion_speed": 4.735274554847128,
+      "nearest_beat_offset_ms": 99.52380952380935,
+      "nearest_onset_offset_ms": -768.5034013605439
+    },
+    {
+      "frame_slot": 399,
+      "actor": 0,
+      "time_seconds": 26.6266,
+      "motion_speed": 5.445507709513667,
+      "nearest_beat_offset_ms": 106.87210884353604,
+      "nearest_onset_offset_ms": 116.84943310657658
+    },
+    {
+      "frame_slot": 546,
+      "actor": 0,
+      "time_seconds": 36.4364,
+      "motion_speed": 4.521512466442918,
+      "nearest_beat_offset_ms": 89.00770975056815,
+      "nearest_onset_offset_ms": 89.00770975056815
+    },
+    {
+      "frame_slot": 561,
+      "actor": 0,
+      "time_seconds": 37.437400000000004,
+      "motion_speed": 5.248836860372999,
+      "nearest_beat_offset_ms": 2.4793650793668576,
+      "nearest_onset_offset_ms": 12.456689342407401
+    },
+    {
+      "frame_slot": 637,
+      "actor": 0,
+      "time_seconds": 42.50913333333333,
+      "motion_speed": 5.279909298344682,
+      "nearest_beat_offset_ms": 245.18775510203739,
+      "nearest_onset_offset_ms": -133.9505668934251
+    },
+    {
+      "frame_slot": 645,
+      "actor": 0,
+      "time_seconds": 43.043,
+      "motion_speed": 4.612346841292295,
+      "nearest_beat_offset_ms": 150.4829931972793,
+      "nearest_onset_offset_ms": -158.81405895691358
+    },
+    {
+      "frame_slot": 661,
+      "actor": 0,
+      "time_seconds": 44.110733333333336,
+      "motion_speed": 5.2089177883348965,
+      "nearest_beat_offset_ms": 130.68798185940977,
+      "nearest_onset_offset_ms": 140.66530612245032
+    },
+    {
+      "frame_slot": 670,
+      "actor": 0,
+      "time_seconds": 44.711333333333336,
+      "motion_speed": 5.379333937695223,
+      "nearest_beat_offset_ms": 252.3764172335632,
+      "nearest_onset_offset_ms": 282.3083900226777
+    },
+    {
+      "frame_slot": 677,
+      "actor": 0,
+      "time_seconds": 45.178466666666665,
+      "motion_speed": 5.296035013817439,
+      "nearest_beat_offset_ms": 100.91564625849969,
+      "nearest_onset_offset_ms": 100.91564625849969
+    },
+    {
+      "frame_slot": 735,
+      "actor": 0,
+      "time_seconds": 49.049,
+      "motion_speed": 5.923371816000164,
+      "nearest_beat_offset_ms": 219.9750566893428,
+      "nearest_onset_offset_ms": -159.16326530611968
+    },
+    {
+      "frame_slot": 800,
+      "actor": 0,
+      "time_seconds": 53.38666666666667,
+      "motion_speed": 5.350174600040699,
+      "nearest_beat_offset_ms": 197.55102040817007,
+      "nearest_onset_offset_ms": 57.86848072562378
+    },
+    {
+      "frame_slot": 997,
+      "actor": 1,
+      "time_seconds": 66.53313333333334,
+      "motion_speed": 5.141325289388931,
+      "nearest_beat_offset_ms": 243.7909297052272,
+      "nearest_onset_offset_ms": -135.3473922902424
+    },
+    {
+      "frame_slot": 1028,
+      "actor": 1,
+      "time_seconds": 68.60186666666667,
+      "motion_speed": 7.4207130726521635,
+      "nearest_beat_offset_ms": 47.67165532879858,
+      "nearest_onset_offset_ms": -481.12653061224364
+    },
+    {
+      "frame_slot": 1134,
+      "actor": 1,
+      "time_seconds": 75.6756,
+      "motion_speed": 6.256177305029136,
+      "nearest_beat_offset_ms": 37.50476190477059,
+      "nearest_onset_offset_ms": 57.459410430837465
+    },
+    {
+      "frame_slot": 1144,
+      "actor": 1,
+      "time_seconds": 76.34293333333333,
+      "motion_speed": 4.518376356297903,
+      "nearest_beat_offset_ms": 146.1079365079314,
+      "nearest_onset_offset_ms": 156.08526077097906
+    },
+    {
+      "frame_slot": 1168,
+      "actor": 1,
+      "time_seconds": 77.94453333333334,
+      "motion_speed": 4.957833426904948,
+      "nearest_beat_offset_ms": 131.38140589569502,
+      "nearest_onset_offset_ms": 151.3360544217761
+    },
+    {
+      "frame_slot": 1199,
+      "actor": 1,
+      "time_seconds": 80.01326666666667,
+      "motion_speed": 5.959023402391755,
+      "nearest_beat_offset_ms": 15.08072562357654,
+      "nearest_onset_offset_ms": 25.05804988662419
+    },
+    {
+      "frame_slot": 1227,
+      "actor": 1,
+      "time_seconds": 81.8818,
+      "motion_speed": 5.086863545568912,
+      "nearest_beat_offset_ms": 237.35555555555266,
+      "nearest_onset_offset_ms": -51.986848072559155
+    },
+    {
+      "frame_slot": 1285,
+      "actor": 1,
+      "time_seconds": 85.75233333333334,
+      "motion_speed": 6.528917353945957,
+      "nearest_beat_offset_ms": -162.4058956916059,
+      "nearest_onset_offset_ms": -2.768707482985633
+    },
+    {
+      "frame_slot": 1294,
+      "actor": 1,
+      "time_seconds": 86.35293333333334,
+      "motion_speed": 4.706710733317107,
+      "nearest_beat_offset_ms": -190.37732426302512,
+      "nearest_onset_offset_ms": 49.07845804989108
+    },
+    {
+      "frame_slot": 1329,
+      "actor": 1,
+      "time_seconds": 88.68860000000001,
+      "motion_speed": 6.440957937459999,
+      "nearest_beat_offset_ms": -49.72199546485001,
+      "nearest_onset_offset_ms": -49.72199546485001
+    },
+    {
+      "frame_slot": 1522,
+      "actor": 1,
+      "time_seconds": 101.56813333333334,
+      "motion_speed": 4.559318882996672,
+      "nearest_beat_offset_ms": -260.4380952380865,
+      "nearest_onset_offset_ms": -30.959637188203715
+    },
+    {
+      "frame_slot": 1530,
+      "actor": 1,
+      "time_seconds": 102.102,
+      "motion_speed": 4.47374279168887,
+      "nearest_beat_offset_ms": 273.4285714285818,
+      "nearest_onset_offset_ms": -25.89115646257767
+    }
+  ]
+}

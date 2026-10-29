@@ -1,0 +1,81 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>테스트 영상 1 · 춤 동작 분석</title><style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f6f7fa;color:#182333;max-width:1120px;margin:auto;padding:24px;line-height:1.7}
+    h1{font-size:30px}h2{font-size:22px}section{background:white;padding:24px;margin:24px 0;border-radius:14px}
+    video,img{width:100%;border-radius:8px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:8px;border-bottom:1px solid #e5e8ed}
+    button{cursor:pointer;border:1px solid #bdc8d7;background:#f6f9ff;padding:6px 12px;border-radius:6px}a{color:#175c9f}.note{color:#526174}.scroll{overflow-x:auto}
+    </style></head><body><h1>한 영상의 동작·관절 각도·박자 분석</h1>
+    <p>테스트 영상 1 · Sapiens2 0.4B · 모델 입력 1024×768 · 약 14.99 FPS 분석</p>
+    <section><video id="video" src="assets/annotated.mp4" controls playsinline preload="metadata"></video>
+    <p>녹색 선은 추정 관절, 파란 상자는 추적 대상입니다. 상단의 BEAT는 음악에서 추정한 비트입니다. 아래 동작 후보의 시각을 누르면 해당 장면으로 이동합니다.</p>
+    <p><strong>기본 템포 추정: 109.3 BPM</strong> · 반박/배박 해석과 현장 소음에 따라 다른 결과가 나올 수 있습니다.</p></section>
+    <section><h2>읽는 방법</h2><ul>
+    <li>각도는 화면에 투영된 2D 값입니다. 팔꿈치·무릎은 180°에 가까울수록 화면상 곧게 펴진 모습이며, 회전·원근·가림에 따라 실제 3D 관절 각도와 다릅니다.</li>
+    <li>속도는 골반 중심과 몸통 길이로 정규화한 양손·양발의 상대 움직임입니다. 이동 거리·힘·신체 에너지 또는 춤의 완성도를 뜻하지 않습니다.</li>
+    <li>속도에는 3샘플 중앙값 필터를 적용했습니다. 후보 시각은 약 0.1–0.2초 규모로 장면을 찾는 용도이며, 짧은 팝·히트의 정확한 순간을 확정하지 않습니다. 원시 좌표와 원시 속도도 보존했습니다.</li>
+    <li>저신뢰도 관절과 추적 단절은 빈 값으로 남겼습니다. 그래프의 빈 구간을 정지 동작으로 읽으면 안 됩니다. 카메라 회전·가림·모델의 순간적인 오인식은 남을 수 있습니다.</li>
+    <li>A/B는 영상 속 두 퍼포먼스 구간을 구분하는 표기입니다. 구간은 화면 확인을 바탕으로 수동 지정했고, 대기·교대 구간은 분석에서 제외했습니다.</li></ul></section>
+    <section><h2>첫 번째 댄서, 회색 상의 · A</h2>
+        <p>분석 구간 8.0–55.5초 · 사람 검출 712/712 프레임 · 손·발 속도 산출 가능 99.6%</p>
+        
+        <img src="assets/angles_motion_A.png" alt="관절 각도 및 움직임 그래프">
+        <table><thead><tr><th>관절</th><th>관측 각도 5–95백분위 / 중앙값</th><th>유효 관측 비율</th></tr></thead><tbody><tr><td>왼쪽 팔꿈치</td><td>42°–177° / 중앙값 139°</td><td>99.6%</td></tr><tr><td>왼쪽 무릎</td><td>101°–178° / 중앙값 157°</td><td>100.0%</td></tr><tr><td>왼쪽 어깨</td><td>2°–81° / 중앙값 22°</td><td>100.0%</td></tr><tr><td>왼쪽 고관절</td><td>119°–178° / 중앙값 162°</td><td>100.0%</td></tr><tr><td>오른쪽 팔꿈치</td><td>29°–177° / 중앙값 142°</td><td>99.6%</td></tr><tr><td>오른쪽 무릎</td><td>102°–179° / 중앙값 160°</td><td>99.9%</td></tr><tr><td>오른쪽 어깨</td><td>3°–126° / 중앙값 27°</td><td>100.0%</td></tr><tr><td>오른쪽 고관절</td><td>120°–179° / 중앙값 165°</td><td>100.0%</td></tr></tbody></table></section><section><h2>두 번째 댄서, 검은 상의 · B</h2>
+        <p>분석 구간 57.5–105.0초 · 사람 검출 710/712 프레임 · 손·발 속도 산출 가능 95.1%</p>
+        <p class='note'><strong>67.3–68.3초 수치 제외:</strong> 댄서와 관객의 겹침으로 관절이 섞인 구간을 수동 검토 후 제외. 원시 좌표는 보존했고 그래프·각도·동작 후보에는 사용하지 않았습니다.</p>
+        <img src="assets/angles_motion_B.png" alt="관절 각도 및 움직임 그래프">
+        <table><thead><tr><th>관절</th><th>관측 각도 5–95백분위 / 중앙값</th><th>유효 관측 비율</th></tr></thead><tbody><tr><td>왼쪽 팔꿈치</td><td>62°–177° / 중앙값 147°</td><td>93.1%</td></tr><tr><td>왼쪽 무릎</td><td>86°–179° / 중앙값 158°</td><td>97.6%</td></tr><tr><td>왼쪽 어깨</td><td>3°–125° / 중앙값 36°</td><td>95.6%</td></tr><tr><td>왼쪽 고관절</td><td>96°–179° / 중앙값 162°</td><td>97.6%</td></tr><tr><td>오른쪽 팔꿈치</td><td>71°–177° / 중앙값 151°</td><td>93.7%</td></tr><tr><td>오른쪽 무릎</td><td>83°–178° / 중앙값 153°</td><td>97.5%</td></tr><tr><td>오른쪽 어깨</td><td>4°–127° / 중앙값 33°</td><td>95.2%</td></tr><tr><td>오른쪽 고관절</td><td>98°–178° / 중앙값 158°</td><td>97.1%</td></tr></tbody></table></section>
+    <section><h2>움직임 속도 피크 후보</h2><p>각 구간에서 속도가 두드러지는 후보를 최대 12개 표시했습니다. 자동 동작 분류나 춤 평가 점수가 아닙니다. 먼저 장면을 재생해 실제 동작과 관절 추적을 확인하세요.</p>
+    <p class="note">시간 차이 = 동작 후보 시각 − 가장 가까운 추정 비트/소리 시작점. +는 이후, −는 이전입니다. 댄서가 세부 리듬·보컬·엇박에 반응할 수 있으므로 0에 가까울수록 좋은 춤이라는 뜻은 아닙니다. 오디오와 영상 사이의 녹화 지연은 별도로 보정하지 않았습니다.</p>
+    <div class="scroll"><table><thead><tr><th>장면 이동</th><th>댄서</th><th>상대 속도</th><th>비트와 차이</th><th>소리 시작점과 차이</th></tr></thead><tbody><tr><td><button onclick="seek(22.222)">22.22초 ▶</button></td>
+        <td>A</td><td>5.04</td><td>+63 ms</td>
+        <td>+83 ms</td></tr><tr><td><button onclick="seek(23.357)">23.36초 ▶</button></td>
+        <td>A</td><td>4.74</td><td>+100 ms</td>
+        <td>-769 ms</td></tr><tr><td><button onclick="seek(26.627)">26.63초 ▶</button></td>
+        <td>A</td><td>5.45</td><td>+107 ms</td>
+        <td>+117 ms</td></tr><tr><td><button onclick="seek(36.436)">36.44초 ▶</button></td>
+        <td>A</td><td>4.52</td><td>+89 ms</td>
+        <td>+89 ms</td></tr><tr><td><button onclick="seek(37.437)">37.44초 ▶</button></td>
+        <td>A</td><td>5.25</td><td>+2 ms</td>
+        <td>+12 ms</td></tr><tr><td><button onclick="seek(42.509)">42.51초 ▶</button></td>
+        <td>A</td><td>5.28</td><td>+245 ms</td>
+        <td>-134 ms</td></tr><tr><td><button onclick="seek(43.043)">43.04초 ▶</button></td>
+        <td>A</td><td>4.61</td><td>+150 ms</td>
+        <td>-159 ms</td></tr><tr><td><button onclick="seek(44.111)">44.11초 ▶</button></td>
+        <td>A</td><td>5.21</td><td>+131 ms</td>
+        <td>+141 ms</td></tr><tr><td><button onclick="seek(44.711)">44.71초 ▶</button></td>
+        <td>A</td><td>5.38</td><td>+252 ms</td>
+        <td>+282 ms</td></tr><tr><td><button onclick="seek(45.178)">45.18초 ▶</button></td>
+        <td>A</td><td>5.30</td><td>+101 ms</td>
+        <td>+101 ms</td></tr><tr><td><button onclick="seek(49.049)">49.05초 ▶</button></td>
+        <td>A</td><td>5.92</td><td>+220 ms</td>
+        <td>-159 ms</td></tr><tr><td><button onclick="seek(53.387)">53.39초 ▶</button></td>
+        <td>A</td><td>5.35</td><td>+198 ms</td>
+        <td>+58 ms</td></tr><tr><td><button onclick="seek(66.533)">66.53초 ▶</button></td>
+        <td>B</td><td>5.14</td><td>+244 ms</td>
+        <td>-135 ms</td></tr><tr><td><button onclick="seek(68.602)">68.60초 ▶</button></td>
+        <td>B</td><td>7.42</td><td>+48 ms</td>
+        <td>-481 ms</td></tr><tr><td><button onclick="seek(75.676)">75.68초 ▶</button></td>
+        <td>B</td><td>6.26</td><td>+38 ms</td>
+        <td>+57 ms</td></tr><tr><td><button onclick="seek(76.343)">76.34초 ▶</button></td>
+        <td>B</td><td>4.52</td><td>+146 ms</td>
+        <td>+156 ms</td></tr><tr><td><button onclick="seek(77.945)">77.94초 ▶</button></td>
+        <td>B</td><td>4.96</td><td>+131 ms</td>
+        <td>+151 ms</td></tr><tr><td><button onclick="seek(80.013)">80.01초 ▶</button></td>
+        <td>B</td><td>5.96</td><td>+15 ms</td>
+        <td>+25 ms</td></tr><tr><td><button onclick="seek(81.882)">81.88초 ▶</button></td>
+        <td>B</td><td>5.09</td><td>+237 ms</td>
+        <td>-52 ms</td></tr><tr><td><button onclick="seek(85.752)">85.75초 ▶</button></td>
+        <td>B</td><td>6.53</td><td>-162 ms</td>
+        <td>-3 ms</td></tr><tr><td><button onclick="seek(86.353)">86.35초 ▶</button></td>
+        <td>B</td><td>4.71</td><td>-190 ms</td>
+        <td>+49 ms</td></tr><tr><td><button onclick="seek(88.689)">88.69초 ▶</button></td>
+        <td>B</td><td>6.44</td><td>-50 ms</td>
+        <td>-50 ms</td></tr><tr><td><button onclick="seek(101.568)">101.57초 ▶</button></td>
+        <td>B</td><td>4.56</td><td>-260 ms</td>
+        <td>-31 ms</td></tr><tr><td><button onclick="seek(102.102)">102.10초 ▶</button></td>
+        <td>B</td><td>4.47</td><td>+273 ms</td>
+        <td>-26 ms</td></tr></tbody></table></div></section>
+    <section><h2>원본 데이터와 재현</h2><p><a href="data/measurements.csv" download>각도·속도 CSV</a> · <a href="data/keypoints.csv" download>63개 관절 좌표·신뢰도 CSV</a> · <a href="data/motion_events.csv" download>동작 후보 CSV</a> · <a href="data/summary.json" download>요약 JSON</a> · <a href="data/metadata.json" download>분석 설정</a> · <a href="assets/annotated.mp4">분석 영상</a></p>
+    <p><a href="data/pose_data.npz" download>원시 포즈 NPZ</a> · <a href="data/measurements.npz" download>필터 전후 속도 NPZ</a> · <a href="data/audio_features.json" download>박자·소리 시작점 JSON</a> · <a href="data/audio_features.npz" download>오디오 특징 NPZ</a></p><p>모델은 308개 키포인트를 예측하고, 이 결과에는 몸·손·발 및 얼굴 방향 기준점인 앞 63개를 저장했습니다. 신뢰도 값은 히트맵 점수이며 확률이 아닙니다. 채택 임계값은 0.3입니다.</p>
+    <p><a href="https://huggingface.co/facebook/sapiens2-pose-0.4b">Sapiens2 공식 모델</a> · <a href="https://github.com/facebookresearch/sapiens2">공식 코드</a></p></section>
+    <script>function seek(t){const v=document.getElementById('video');v.currentTime=Math.max(0,t-1);v.play();v.scrollIntoView({behavior:'smooth',block:'center'});}</script></body></html>

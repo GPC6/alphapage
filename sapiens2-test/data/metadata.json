@@ -1,0 +1,122 @@
+{
+  "video": "테스트 영상 1.mp4",
+  "video_size": 54501532,
+  "source_fps": 59.94005994005994,
+  "analysis_fps": 14.985014985014985,
+  "width": 1280,
+  "height": 720,
+  "total_frames": 6360,
+  "segments": [
+    {
+      "label": "A",
+      "description": "첫 번째 댄서, 회색 상의",
+      "start": 8.0,
+      "end": 55.5,
+      "seed_x": 0.57,
+      "seed_bottom_y": 0.68,
+      "max_center_x": 0.9
+    },
+    {
+      "label": "B",
+      "description": "두 번째 댄서, 검은 상의",
+      "start": 57.5,
+      "end": 105.0,
+      "seed_x": 0.48,
+      "seed_bottom_y": 0.89,
+      "max_center_x": 0.78,
+      "min_bottom_y": 0.8,
+      "exclude_ranges": [
+        [
+          67.3,
+          68.3
+        ]
+      ],
+      "exclusion_reason": "댄서와 관객의 겹침으로 관절이 섞인 구간을 수동 검토 후 제외"
+    }
+  ],
+  "keypoints": [
+    "nose",
+    "left_eye",
+    "right_eye",
+    "left_ear",
+    "right_ear",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle",
+    "left_big_toe",
+    "left_small_toe",
+    "left_heel",
+    "right_big_toe",
+    "right_small_toe",
+    "right_heel",
+    "right_thumb4",
+    "right_thumb3",
+    "right_thumb2",
+    "right_thumb_third_joint",
+    "right_forefinger4",
+    "right_forefinger3",
+    "right_forefinger2",
+    "right_forefinger_third_joint",
+    "right_middle_finger4",
+    "right_middle_finger3",
+    "right_middle_finger2",
+    "right_middle_finger_third_joint",
+    "right_ring_finger4",
+    "right_ring_finger3",
+    "right_ring_finger2",
+    "right_ring_finger_third_joint",
+    "right_pinky_finger4",
+    "right_pinky_finger3",
+    "right_pinky_finger2",
+    "right_pinky_finger_third_joint",
+    "right_wrist",
+    "left_thumb4",
+    "left_thumb3",
+    "left_thumb2",
+    "left_thumb_third_joint",
+    "left_forefinger4",
+    "left_forefinger3",
+    "left_forefinger2",
+    "left_forefinger_third_joint",
+    "left_middle_finger4",
+    "left_middle_finger3",
+    "left_middle_finger2",
+    "left_middle_finger_third_joint",
+    "left_ring_finger4",
+    "left_ring_finger3",
+    "left_ring_finger2",
+    "left_ring_finger_third_joint",
+    "left_pinky_finger4",
+    "left_pinky_finger3",
+    "left_pinky_finger2",
+    "left_pinky_finger_third_joint",
+    "left_wrist"
+  ],
+  "model": "facebook/sapiens2-pose-0.4b",
+  "input_size": [
+    1024,
+    768
+  ],
+  "score_threshold": 0.3,
+  "completed": true,
+  "repaired_from_seconds": 57.5,
+  "repair_history": [
+    {
+      "start": 80.0,
+      "end": null
+    },
+    {
+      "start": 57.5,
+      "end": 80.0
+    }
+  ],
+  "inference_frames": 1422,
+  "elapsed_seconds": 1346.3518522919621
+}
