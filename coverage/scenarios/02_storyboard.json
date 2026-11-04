@@ -1,0 +1,743 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "\r\nS#3. 복도 → 계단 → 상가 — 브이로그 추격 · 17~24초\r\n아이가 캠코더를 쥔 채 격렬하게 뛰는 1인칭 화면. 화면이 마구 흔들리고 기울어지며 벽과 바닥, 천장이 정신없이 스친다. 숨소리와 발소리가 가깝게 들린다. 복도엔 평범하고 친근한 동네 이웃들. 빨래를 널던 아주머니, 계단에 앉은 아이들, 상가 앞 할아버지. 아무 낌새도 없는 따뜻한 일상이다.\r\n주인공 콩아아! 으악, 죄송합니다아~!\r\n계단을 뛰어 내려가면 반짝이는 상가 간판들. 멀리 정문 쪽으로 달려가는 콩이의 뒷모습을 카메라가 겨우 따라간다.\r\n형 (O.S., 멀리서) 야! 거기 서!\r\nS#4. 1층 정문 — 영화 연출 · 24~37초\r\n화면 전환: 캠코더 프레임이 사라지고 영화 화면으로. 주인공이 캠코더를 손에 쥔 채 정문 앞에 멈춰 선다. 콩이가 쇠사슬 감긴 유리 정문 앞에 앉아 있다. 문은 손가락 한 마디만큼 벌어져 있다.\r\n주인공이 문틈에 얼굴을 바짝 댄다.\r\n(주인공 POV) 틈 너머로 눈부신 햇살과 끝없는 꽃밭. 그 빛 속에서 누나가 웃으며 주인공을 내려다본다.\r\n누나 야, 너 여기서 뭐 하고 있어? 같이 놀자. 나와.\r\n주인공 …응.\r\n(주인공 POV) 화면 아래에서 주인공의 작은 손이 프레임 안으로 들어와 문틈 사이로 뻗는다. 누나의 손이 천천히 다가온다. 손끝이 닿기 직전,\r\nS#5. 같은 곳 — 낚아챔 · 37~43초\r\n(주인공 POV 그대로) 화면이 뒤로 확 낚아채진다. 시야가 휙 돌아가며 흔들린다.\r\n형 (O.S., 다급하게 소리치며) 야…!! 뭐 해!! 빨리 가자!!\r\n바닥에 떨어진 캠코더. 빨간 녹화 불이 아직 깜빡인다. 옆으로 누운 화면엔 두 사람의 발만 보인다. 형의 운동화가 다급한 스텝으로 주인공을 끌고 가려 하고, 주인공의 작은 발은 버티듯 멈칫거리며 문 쪽으로 돌아선다.\r\n주인공 (O.S.) 근데… 누나가….\r\n형의 발이 잠깐 멈춘다. 그리고 더 단호하게 주인공을 이끈다. 작은 발이 끝까지 문 쪽을 향한 채 마지못해 끌려간다. 형의 손이 화면 안으로 들어와 캠코더를 집어 든다. 삐빅, 녹화 종료. 암전.\r\nS#6. 302호, 밤 — 재생 (현실) · 43~53초\r\n촛불 하나 켜진 어두운 거실. 잠든 주인공 곁에서 형이 캠코더 액정을 연다. 지지직, 재생. 카메라가 형의 손에 들린 작은 액정 화면 쪽으로 서서히 줌인한다.\r\n컷은 캠코더 화면과 형의 얼굴을 번갈아 보여준다. 영상 전체가 아니라 결정적인 장면만 짧게 끊어서 보여준다.\r\n• 캠코더 화면: 같은 셀카 구도. 하지만 잿빛 폐허가 된 거실, 쓰레기 더미 속에서 아무도 없는 의자에 대고 웃으며 말하는 주인공.\r\n• 형의 얼굴: 굳은 표정. 액정 스피커에서 주인공의 신난 목소리가 흘러나온다. \"우리 누나는… 지금 잠깐 나갔나 봐요!\"\r\n• 캠코더 화면: 텅 빈 폐허 복도를 혼자 달리는 1인칭 화면. 이웃은 한 명도 없다.\r\n• 형의 얼굴: 눈을 질끈 감는다. 소리로만 \"콩아아! 죄송합니다아~!\"\r\n• 캠코더 화면 (반전 이미지): 바닥에 떨어진 캠코더가 찍은 정문. 주인공은 유리문 쪽을 향해 선 채, 아까 누나와 나눈 대화를 혼자 중얼거린다. \"응… 같이 놀자. 나 갈게.\" 대답하는 목소리는 녹음되어 있지 않다. 유리문 너머에선 괴물들이 쿵… 쿵… 몸을 처박고, 유리엔 핏자국 같은 얼룩이 번져 있다. 문틈으로 들어와 있는 건 누나의 손이 아니라 괴물의 손이다.\r\n형이 액정을 탁 닫는다. 그리고 박스테이프로 덕지덕지 막아 둔 창문의 틈새로 잠깐 밖을 내다본다. (1~2초)",
+	"draft_prompt": "\r\nS#3. 복도 → 계단 → 상가 — 브이로그 추격 · 17~24초\r\n아이가 캠코더를 쥔 채 격렬하게 뛰는 1인칭 화면. 화면이 마구 흔들리고 기울어지며 벽과 바닥, 천장이 정신없이 스친다. 숨소리와 발소리가 가깝게 들린다. 복도엔 평범하고 친근한 동네 이웃들. 빨래를 널던 아주머니, 계단에 앉은 아이들, 상가 앞 할아버지. 아무 낌새도 없는 따뜻한 일상이다.\r\n주인공 콩아아! 으악, 죄송합니다아~!\r\n계단을 뛰어 내려가면 반짝이는 상가 간판들. 멀리 정문 쪽으로 달려가는 콩이의 뒷모습을 카메라가 겨우 따라간다.\r\n형 (O.S., 멀리서) 야! 거기 서!\r\nS#4. 1층 정문 — 영화 연출 · 24~37초\r\n화면 전환: 캠코더 프레임이 사라지고 영화 화면으로. 주인공이 캠코더를 손에 쥔 채 정문 앞에 멈춰 선다. 콩이가 쇠사슬 감긴 유리 정문 앞에 앉아 있다. 문은 손가락 한 마디만큼 벌어져 있다.\r\n주인공이 문틈에 얼굴을 바짝 댄다.\r\n(주인공 POV) 틈 너머로 눈부신 햇살과 끝없는 꽃밭. 그 빛 속에서 누나가 웃으며 주인공을 내려다본다.\r\n누나 야, 너 여기서 뭐 하고 있어? 같이 놀자. 나와.\r\n주인공 …응.\r\n(주인공 POV) 화면 아래에서 주인공의 작은 손이 프레임 안으로 들어와 문틈 사이로 뻗는다. 누나의 손이 천천히 다가온다. 손끝이 닿기 직전,\r\nS#5. 같은 곳 — 낚아챔 · 37~43초\r\n(주인공 POV 그대로) 화면이 뒤로 확 낚아채진다. 시야가 휙 돌아가며 흔들린다.\r\n형 (O.S., 다급하게 소리치며) 야…!! 뭐 해!! 빨리 가자!!\r\n바닥에 떨어진 캠코더. 빨간 녹화 불이 아직 깜빡인다. 옆으로 누운 화면엔 두 사람의 발만 보인다. 형의 운동화가 다급한 스텝으로 주인공을 끌고 가려 하고, 주인공의 작은 발은 버티듯 멈칫거리며 문 쪽으로 돌아선다.\r\n주인공 (O.S.) 근데… 누나가….\r\n형의 발이 잠깐 멈춘다. 그리고 더 단호하게 주인공을 이끈다. 작은 발이 끝까지 문 쪽을 향한 채 마지못해 끌려간다. 형의 손이 화면 안으로 들어와 캠코더를 집어 든다. 삐빅, 녹화 종료. 암전.\r\nS#6. 302호, 밤 — 재생 (현실) · 43~53초\r\n촛불 하나 켜진 어두운 거실. 잠든 주인공 곁에서 형이 캠코더 액정을 연다. 지지직, 재생. 카메라가 형의 손에 들린 작은 액정 화면 쪽으로 서서히 줌인한다.\r\n컷은 캠코더 화면과 형의 얼굴을 번갈아 보여준다. 영상 전체가 아니라 결정적인 장면만 짧게 끊어서 보여준다.\r\n• 캠코더 화면: 같은 셀카 구도. 하지만 잿빛 폐허가 된 거실, 쓰레기 더미 속에서 아무도 없는 의자에 대고 웃으며 말하는 주인공.\r\n• 형의 얼굴: 굳은 표정. 액정 스피커에서 주인공의 신난 목소리가 흘러나온다. \"우리 누나는… 지금 잠깐 나갔나 봐요!\"\r\n• 캠코더 화면: 텅 빈 폐허 복도를 혼자 달리는 1인칭 화면. 이웃은 한 명도 없다.\r\n• 형의 얼굴: 눈을 질끈 감는다. 소리로만 \"콩아아! 죄송합니다아~!\"\r\n• 캠코더 화면 (반전 이미지): 바닥에 떨어진 캠코더가 찍은 정문. 주인공은 유리문 쪽을 향해 선 채, 아까 누나와 나눈 대화를 혼자 중얼거린다. \"응… 같이 놀자. 나 갈게.\" 대답하는 목소리는 녹음되어 있지 않다. 유리문 너머에선 괴물들이 쿵… 쿵… 몸을 처박고, 유리엔 핏자국 같은 얼룩이 번져 있다. 문틈으로 들어와 있는 건 누나의 손이 아니라 괴물의 손이다.\r\n형이 액정을 탁 닫는다. 그리고 박스테이프로 덕지덕지 막아 둔 창문의 틈새로 잠깐 밖을 내다본다. (1~2초)",
+	"request":
+	{
+		"cut_count": 10,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 10,
+		"duration_seconds": 36
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.",
+			"location_type": "Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.",
+			"zones": [
+				{
+					"name": "Public descent",
+					"description": "A short residential gallery corridor opens directly onto an open stairwell descending into a ground-floor shopping passage; plaster walls, laundry rails, concrete steps, metal handrails, tiled flooring, and illuminated shop signs establish the route. At the corridor mouth, the Laundry neighbor is a broad woman in a light apron hanging sheets; the Stair children are two small children in rounded, mid-gray jackets seated against the stair wall; the Shop grandfather is a stooped man in a dark vest beside a storefront. In the later recorded view, the same recognizable architecture is deserted, with broken sign faces, peeling plaster, and scattered debris.",
+					"connects_to": [
+						"Chained entrance"
+					]
+				},
+				{
+					"name": "Chained entrance",
+					"description": "A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.",
+					"connects_to": [
+						"Public descent",
+						"Beyond the glass"
+					]
+				},
+				{
+					"name": "Beyond the glass",
+					"description": "Immediately outside the entrance, the child perceives brilliant sunlight and a seemingly endless field of pale flowers, with Sister standing close enough to offer her hand through the opening. The recorded view instead shows a bare exterior landing pressed by Monsters, with dark, bloodlike smears on the glass. These are two presentations of the same view through the doorway, not separate destinations.",
+					"connects_to": [
+						"Chained entrance"
+					]
+				},
+				{
+					"name": "Room 302",
+					"description": "A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.",
+					"connects_to": []
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "clear, dry weather",
+				"lighting": "soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A child chases Kong through an apparently friendly apartment block and nearly follows a sister’s invitation through a chained entrance, until an older brother intervenes and the recovered camcorder reveals the abandoned building and monsters concealed by the child’s perception.",
+			"beats": [
+				{
+					"summary": "The child’s frantic pursuit of Kong passes through a neighborhood that appears reassuringly ordinary",
+					"emotion": "playful urgency"
+				},
+				{
+					"summary": "Kong stops at a chained entrance, bringing the pursuit to an abrupt halt",
+					"emotion": "curiosity"
+				},
+				{
+					"summary": "The child sees a welcoming sister beyond the narrow opening and reaches toward her",
+					"emotion": "entrancement"
+				},
+				{
+					"summary": "The brother pulls the child away before contact and retrieves the still-recording camcorder",
+					"emotion": "alarm"
+				},
+				{
+					"summary": "Nighttime playback reveals the child addressing an empty chair in a ruined room",
+					"emotion": "unease"
+				},
+				{
+					"summary": "The brother’s expression hardens as the child’s cheerful recorded explanation continues",
+					"emotion": "dread"
+				},
+				{
+					"summary": "Playback reveals that the supposedly populated passage was empty",
+					"emotion": "isolation"
+				},
+				{
+					"summary": "The brother closes his eyes against the sound of the child greeting nonexistent neighbors",
+					"emotion": "grief"
+				},
+				{
+					"summary": "The fallen-camera recording exposes monsters at the entrance and a monstrous hand in the opening",
+					"emotion": "horror"
+				},
+				{
+					"summary": "The brother shuts the recording away and checks the barricaded window",
+					"emotion": "protective vigilance"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Child",
+				"kind": "Young child",
+				"appearance": "short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers",
+				"signature_features": [
+					"oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction."
+				]
+			},
+			{
+				"name": "Brother",
+				"kind": "Older teenage boy",
+				"appearance": "tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers",
+				"signature_features": [
+					"markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear."
+				]
+			},
+			{
+				"name": "Kong",
+				"kind": "Small dog",
+				"appearance": "compact, low body; pale coat, dark triangular ears, tightly curled tail",
+				"signature_features": [
+					"short-legged proportions and a high curled tail identify the dog from any angle."
+				]
+			},
+			{
+				"name": "Camcorder",
+				"kind": "Small handheld video camera",
+				"appearance": "light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator",
+				"signature_features": [
+					"the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle."
+				]
+			},
+			{
+				"name": "Sister",
+				"kind": "Apparition of an older teenage girl",
+				"appearance": "slender, taller than Child; pale knee-length dress, dark shoulder-length hair, bare forearms",
+				"signature_features": [
+					"a broad triangular skirt silhouette beneath a compact head of hair remains recognizable without seeing her face; her expression is warmly inviting."
+				]
+			},
+			{
+				"name": "Monsters",
+				"kind": "Two human-sized creatures",
+				"appearance": "gaunt charcoal bodies, disproportionately long forearms, angular shoulders, irregular skin surfaces",
+				"signature_features": [
+					"severely hunched torsos and arms hanging below the knees distinguish them from any direction; their hands have elongated, crooked fingers."
+				]
+			}
+		],
+		"run_id": "storyboard_20261021_120959_c472d10c"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Child pursuing Kong through the neighbors",
+				"beat": 1,
+				"zone": "Public descent",
+				"shot_size": "wide",
+				"angle": "child-eye-level first-person, pitching downward on the stairs",
+				"camera_move": "handheld forward movement with abrupt rolls and downward jolts",
+				"subjects_present": [
+					"Kong",
+					"Laundry neighbor",
+					"Stair children",
+					"Shop grandfather"
+				],
+				"subject_states": [],
+				"backdrop": "The corridor’s laundry sheets and plaster wall give way along the visible descent to concrete steps, seated children, metal railings, and bright shop signs above the grandfather.",
+				"action": "The camcorder view rushes past the Laundry neighbor and down the stairs after Kong. The woman continues hanging laundry; the children remain seated; the grandfather watches without alarm. Walls, floor, and ceiling sweep through the frame during the jolts. Child’s close breathing and footfalls accompany “Kooong! Aah, I’m sooorry~!” Brother calls from far behind, “Hey! Stop right there!” Minimal recording brackets and a small recording symbol identify this as camcorder footage.",
+				"emotion": "Breathless excitement within an apparently safe, familiar world.",
+				"transition": "Hard cut to a stable cinematic image; the recording overlay disappears.",
+				"atmosphere": null,
+				"duration_seconds": 7
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Public descent: A short residential gallery corridor opens directly onto an open stairwell descending into a ground-floor shopping passage; plaster walls, laundry rails, concrete steps, metal handrails, tiled flooring, and illuminated shop signs establish the route. At the corridor mouth, the Laundry neighbor is a broad woman in a light apron hanging sheets; the Stair children are two small children in rounded, mid-gray jackets seated against the stair wall; the Shop grandfather is a stooped man in a dark vest beside a storefront. In the later recorded view, the same recognizable architecture is deserted, with broken sign faces, peeling plaster, and scattered debris.\nBackdrop, behind the action: The corridor’s laundry sheets and plaster wall give way along the visible descent to concrete steps, seated children, metal railings, and bright shop signs above the grandfather.\nShot size: wide\nCamera angle: child-eye-level first-person, pitching downward on the stairs\nCamera move: handheld forward movement with abrupt rolls and downward jolts\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small dog): compact, low body; pale coat, dark triangular ears, tightly curled tail Signature, drawn only where this angle exposes it: short-legged proportions and a high curled tail identify the dog from any angle.\n- Laundry neighbor\n- Stair children\n- Shop grandfather\nAction: The camcorder view rushes past the Laundry neighbor and down the stairs after Kong. The woman continues hanging laundry; the children remain seated; the grandfather watches without alarm. Walls, floor, and ceiling sweep through the frame during the jolts. Child’s close breathing and footfalls accompany “Kooong! Aah, I’m sooorry~!” Brother calls from far behind, “Hey! Stop right there!” Minimal recording brackets and a small recording symbol identify this as camcorder footage.\nMood: Breathless excitement within an apparently safe, familiar world.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Public descent: A short residential gallery corridor opens directly onto an open stairwell descending into a ground-floor shopping passage; plaster walls, laundry rails, concrete steps, metal handrails, tiled flooring, and illuminated shop signs establish the route. At the corridor mouth, the Laundry neighbor is a broad woman in a light apron hanging sheets; the Stair children are two small children in rounded, mid-gray jackets seated against the stair wall; the Shop grandfather is a stooped man in a dark vest beside a storefront. In the later recorded view, the same recognizable architecture is deserted, with broken sign faces, peeling plaster, and scattered debris.\nBackdrop, behind the action: The corridor’s laundry sheets and plaster wall give way along the visible descent to concrete steps, seated children, metal railings, and bright shop signs above the grandfather.\nShot size: wide\nCamera angle: child-eye-level first-person, pitching downward on the stairs\nCamera move: handheld forward movement with abrupt rolls and downward jolts\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small dog): compact, low body; pale coat, dark triangular ears, tightly curled tail Signature, drawn only where this angle exposes it: short-legged proportions and a high curled tail identify the dog from any angle.\n- Laundry neighbor\n- Stair children\n- Shop grandfather\nAction: The camcorder view rushes past the Laundry neighbor and down the stairs after Kong. The woman continues hanging laundry; the children remain seated; the grandfather watches without alarm. Walls, floor, and ceiling sweep through the frame during the jolts. Child’s close breathing and footfalls accompany “Kooong! Aah, I’m sooorry~!” Brother calls from far behind, “Hey! Stop right there!” Minimal recording brackets and a small recording symbol identify this as camcorder footage.\nMood: Breathless excitement within an apparently safe, familiar world.",
+					"spec":
+					{
+						"shot_name": "Child pursuing Kong through the neighbors",
+						"beat": 1,
+						"zone": "Public descent",
+						"shot_size": "wide",
+						"angle": "child-eye-level first-person, pitching downward on the stairs",
+						"camera_move": "handheld forward movement with abrupt rolls and downward jolts",
+						"subjects_present": [
+							"Kong",
+							"Laundry neighbor",
+							"Stair children",
+							"Shop grandfather"
+						],
+						"subject_states": [],
+						"backdrop": "The corridor’s laundry sheets and plaster wall give way along the visible descent to concrete steps, seated children, metal railings, and bright shop signs above the grandfather.",
+						"action": "The camcorder view rushes past the Laundry neighbor and down the stairs after Kong. The woman continues hanging laundry; the children remain seated; the grandfather watches without alarm. Walls, floor, and ceiling sweep through the frame during the jolts. Child’s close breathing and footfalls accompany “Kooong! Aah, I’m sooorry~!” Brother calls from far behind, “Hey! Stop right there!” Minimal recording brackets and a small recording symbol identify this as camcorder footage.",
+						"emotion": "Breathless excitement within an apparently safe, familiar world.",
+						"transition": "Hard cut to a stable cinematic image; the recording overlay disappears.",
+						"atmosphere": null,
+						"duration_seconds": 7
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Child stopping beside Kong at the chained doors",
+				"beat": 2,
+				"zone": "Chained entrance",
+				"shot_size": "wide",
+				"angle": "eye level, three-quarter rear view",
+				"camera_move": "slow dolly forward",
+				"subjects_present": [
+					"Child",
+					"Kong",
+					"Camcorder"
+				],
+				"subject_states": [],
+				"backdrop": "Tall glass doors, metal handles bound with chain, the narrow bright opening between the door leaves, and pale vestibule tiles.",
+				"action": "Child stops with Camcorder still in the right hand and its LCD open. Kong sits beside the narrow opening, facing outward. Child’s attention rises from the dog to the light between the doors; the chain remains clearly visible.",
+				"emotion": "Sudden stillness and growing curiosity.",
+				"transition": "Eyeline cut to Child’s view through the opening.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Tall glass doors, metal handles bound with chain, the narrow bright opening between the door leaves, and pale vestibule tiles.\nShot size: wide\nCamera angle: eye level, three-quarter rear view\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Kong (Small dog): compact, low body; pale coat, dark triangular ears, tightly curled tail Signature, drawn only where this angle exposes it: short-legged proportions and a high curled tail identify the dog from any angle.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle.\nAction: Child stops with Camcorder still in the right hand and its LCD open. Kong sits beside the narrow opening, facing outward. Child’s attention rises from the dog to the light between the doors; the chain remains clearly visible.\nMood: Sudden stillness and growing curiosity.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Tall glass doors, metal handles bound with chain, the narrow bright opening between the door leaves, and pale vestibule tiles.\nShot size: wide\nCamera angle: eye level, three-quarter rear view\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Kong (Small dog): compact, low body; pale coat, dark triangular ears, tightly curled tail Signature, drawn only where this angle exposes it: short-legged proportions and a high curled tail identify the dog from any angle.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle.\nAction: Child stops with Camcorder still in the right hand and its LCD open. Kong sits beside the narrow opening, facing outward. Child’s attention rises from the dog to the light between the doors; the chain remains clearly visible.\nMood: Sudden stillness and growing curiosity.",
+					"spec":
+					{
+						"shot_name": "Child stopping beside Kong at the chained doors",
+						"beat": 2,
+						"zone": "Chained entrance",
+						"shot_size": "wide",
+						"angle": "eye level, three-quarter rear view",
+						"camera_move": "slow dolly forward",
+						"subjects_present": [
+							"Child",
+							"Kong",
+							"Camcorder"
+						],
+						"subject_states": [],
+						"backdrop": "Tall glass doors, metal handles bound with chain, the narrow bright opening between the door leaves, and pale vestibule tiles.",
+						"action": "Child stops with Camcorder still in the right hand and its LCD open. Kong sits beside the narrow opening, facing outward. Child’s attention rises from the dog to the light between the doors; the chain remains clearly visible.",
+						"emotion": "Sudden stillness and growing curiosity.",
+						"transition": "Eyeline cut to Child’s view through the opening.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Child reaching toward Sister’s offered hand",
+				"beat": 3,
+				"zone": "Chained entrance",
+				"shot_size": "close-up",
+				"angle": "first-person at Child’s eye level, looking slightly upward through the door opening",
+				"camera_move": "very slow forward creep",
+				"subjects_present": [
+					"Child",
+					"Sister"
+				],
+				"subject_states": [],
+				"backdrop": "Soft metal door edges bracket a luminous view of pale flowers extending toward an indistinct horizon; Sister stands immediately outside.",
+				"action": "Sister smiles down into the opening and says, “Hey, what are you doing here? Let’s play together. Come out.” Child answers softly, “…Okay.” Child’s small left hand rises from the bottom of frame, turns edgewise, and extends its fingertips through the opening. Sister lowers her hand toward them. The cut ends with a visible sliver of space still separating their fingertips.",
+				"emotion": "Tender reassurance shading into dangerous surrender.",
+				"transition": "Abrupt hard cut before the fingers touch.",
+				"atmosphere": "Sunlight beyond the opening blooms toward white, overwhelming the baseline daylight.",
+				"duration_seconds": 10
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Sunlight beyond the opening blooms toward white, overwhelming the baseline daylight.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Soft metal door edges bracket a luminous view of pale flowers extending toward an indistinct horizon; Sister stands immediately outside.\nShot size: close-up\nCamera angle: first-person at Child’s eye level, looking slightly upward through the door opening\nCamera move: very slow forward creep\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Sister (Apparition of an older teenage girl): slender, taller than Child; pale knee-length dress, dark shoulder-length hair, bare forearms Signature, drawn only where this angle exposes it: a broad triangular skirt silhouette beneath a compact head of hair remains recognizable without seeing her face; her expression is warmly inviting.\nAction: Sister smiles down into the opening and says, “Hey, what are you doing here? Let’s play together. Come out.” Child answers softly, “…Okay.” Child’s small left hand rises from the bottom of frame, turns edgewise, and extends its fingertips through the opening. Sister lowers her hand toward them. The cut ends with a visible sliver of space still separating their fingertips.\nMood: Tender reassurance shading into dangerous surrender.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Sunlight beyond the opening blooms toward white, overwhelming the baseline daylight.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Soft metal door edges bracket a luminous view of pale flowers extending toward an indistinct horizon; Sister stands immediately outside.\nShot size: close-up\nCamera angle: first-person at Child’s eye level, looking slightly upward through the door opening\nCamera move: very slow forward creep\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Sister (Apparition of an older teenage girl): slender, taller than Child; pale knee-length dress, dark shoulder-length hair, bare forearms Signature, drawn only where this angle exposes it: a broad triangular skirt silhouette beneath a compact head of hair remains recognizable without seeing her face; her expression is warmly inviting.\nAction: Sister smiles down into the opening and says, “Hey, what are you doing here? Let’s play together. Come out.” Child answers softly, “…Okay.” Child’s small left hand rises from the bottom of frame, turns edgewise, and extends its fingertips through the opening. Sister lowers her hand toward them. The cut ends with a visible sliver of space still separating their fingertips.\nMood: Tender reassurance shading into dangerous surrender.",
+					"spec":
+					{
+						"shot_name": "Child reaching toward Sister’s offered hand",
+						"beat": 3,
+						"zone": "Chained entrance",
+						"shot_size": "close-up",
+						"angle": "first-person at Child’s eye level, looking slightly upward through the door opening",
+						"camera_move": "very slow forward creep",
+						"subjects_present": [
+							"Child",
+							"Sister"
+						],
+						"subject_states": [],
+						"backdrop": "Soft metal door edges bracket a luminous view of pale flowers extending toward an indistinct horizon; Sister stands immediately outside.",
+						"action": "Sister smiles down into the opening and says, “Hey, what are you doing here? Let’s play together. Come out.” Child answers softly, “…Okay.” Child’s small left hand rises from the bottom of frame, turns edgewise, and extends its fingertips through the opening. Sister lowers her hand toward them. The cut ends with a visible sliver of space still separating their fingertips.",
+						"emotion": "Tender reassurance shading into dangerous surrender.",
+						"transition": "Abrupt hard cut before the fingers touch.",
+						"atmosphere": "Sunlight beyond the opening blooms toward white, overwhelming the baseline daylight.",
+						"duration_seconds": 10
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother pulling Child away and recovering Camcorder",
+				"beat": 4,
+				"zone": "Chained entrance",
+				"shot_size": "close-up",
+				"angle": "floor level, oblique to the doorway",
+				"camera_move": "static",
+				"subjects_present": [
+					"Child",
+					"Brother",
+					"Camcorder"
+				],
+				"subject_states": [],
+				"backdrop": "Vestibule tiles, the lower metal door rail, and a shallow-focus strip of glass that reveals no readable exterior detail.",
+				"action": "Brother’s bulky sneakers plant beside Child’s small shoes as Child is jerked backward. Camcorder drops into the foreground, landing on its side with the red recording indicator blinking; its sideways LCD shows the pair’s feet. Brother shouts, “Hey…!! What are you doing!! Hurry, let’s go!!” Child’s toes turn stubbornly toward the door: “But… my sister….” Brother’s feet pause, then pull away more decisively while Child’s shoes drag reluctantly. Brother’s hand enters, lifts Camcorder, and presses its recording control. A double beep ends the recording.",
+				"emotion": "Violent interruption followed by frightened resistance.",
+				"transition": "Brief blackout on the recording-stop beep, then a hard cut into nighttime playback.",
+				"atmosphere": null,
+				"duration_seconds": 6
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Vestibule tiles, the lower metal door rail, and a shallow-focus strip of glass that reveals no readable exterior detail.\nShot size: close-up\nCamera angle: floor level, oblique to the doorway\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle.\nAction: Brother’s bulky sneakers plant beside Child’s small shoes as Child is jerked backward. Camcorder drops into the foreground, landing on its side with the red recording indicator blinking; its sideways LCD shows the pair’s feet. Brother shouts, “Hey…!! What are you doing!! Hurry, let’s go!!” Child’s toes turn stubbornly toward the door: “But… my sister….” Brother’s feet pause, then pull away more decisively while Child’s shoes drag reluctantly. Brother’s hand enters, lifts Camcorder, and presses its recording control. A double beep ends the recording.\nMood: Violent interruption followed by frightened resistance.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Late afternoon, clear, dry weather, soft daylight in the common passage, with small shop-sign highlights and stronger daylight at the entrance.\nThis cut happens at Chained entrance: A small tiled vestibule contains tall, metal-framed glass entrance doors, their handles bound together with a heavy chain. One leaf stands open only a finger-joint’s width. The interior side provides standing space beside the doors and an unobstructed floor where the camcorder can fall. The shopping passage is visible through the vestibule’s open interior approach.\nBackdrop, behind the action: Vestibule tiles, the lower metal door rail, and a shallow-focus strip of glass that reveals no readable exterior detail.\nShot size: close-up\nCamera angle: floor level, oblique to the doorway\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle.\nAction: Brother’s bulky sneakers plant beside Child’s small shoes as Child is jerked backward. Camcorder drops into the foreground, landing on its side with the red recording indicator blinking; its sideways LCD shows the pair’s feet. Brother shouts, “Hey…!! What are you doing!! Hurry, let’s go!!” Child’s toes turn stubbornly toward the door: “But… my sister….” Brother’s feet pause, then pull away more decisively while Child’s shoes drag reluctantly. Brother’s hand enters, lifts Camcorder, and presses its recording control. A double beep ends the recording.\nMood: Violent interruption followed by frightened resistance.",
+					"spec":
+					{
+						"shot_name": "Brother pulling Child away and recovering Camcorder",
+						"beat": 4,
+						"zone": "Chained entrance",
+						"shot_size": "close-up",
+						"angle": "floor level, oblique to the doorway",
+						"camera_move": "static",
+						"subjects_present": [
+							"Child",
+							"Brother",
+							"Camcorder"
+						],
+						"subject_states": [],
+						"backdrop": "Vestibule tiles, the lower metal door rail, and a shallow-focus strip of glass that reveals no readable exterior detail.",
+						"action": "Brother’s bulky sneakers plant beside Child’s small shoes as Child is jerked backward. Camcorder drops into the foreground, landing on its side with the red recording indicator blinking; its sideways LCD shows the pair’s feet. Brother shouts, “Hey…!! What are you doing!! Hurry, let’s go!!” Child’s toes turn stubbornly toward the door: “But… my sister….” Brother’s feet pause, then pull away more decisively while Child’s shoes drag reluctantly. Brother’s hand enters, lifts Camcorder, and presses its recording control. A double beep ends the recording.",
+						"emotion": "Violent interruption followed by frightened resistance.",
+						"transition": "Brief blackout on the recording-stop beep, then a hard cut into nighttime playback.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother discovering the empty chair on Camcorder",
+				"beat": 5,
+				"zone": "Room 302",
+				"shot_size": "medium close-up",
+				"angle": "high over Brother’s shoulder toward the open LCD",
+				"camera_move": "slow push toward the LCD",
+				"subjects_present": [
+					"Brother",
+					"Child",
+					"Camcorder"
+				],
+				"subject_states": [
+					{
+						"subject": "Child",
+						"state": "The present-day Child sleeps beneath a dark blanket; the Child visible inside the recorded image is awake and wears the original clothing."
+					},
+					{
+						"subject": "Camcorder",
+						"state": "LCD is in playback mode; the red recording indicator is off."
+					}
+				],
+				"backdrop": "A candle and the edge of the low mattress frame the physical LCD; inside the recording, damaged plaster, rubbish heaps, and an empty wooden chair fill the living room.",
+				"action": "Brother holds the open Camcorder beside sleeping Child. Playback crackles into a selfie composition: recorded Child smiles and speaks toward the visibly empty chair. The cheerful recorded phrase “My sister…” begins.",
+				"emotion": "The first unmistakable fracture between the child’s experience and reality.",
+				"transition": "Hard cut from the LCD to Brother’s face; the recorded sentence continues uninterrupted.",
+				"atmosphere": "Present-day night with one candle; the LCD shows earlier daylight with a cold, gray cast.",
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night with one candle; the LCD shows earlier daylight with a cold, gray cast.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A candle and the edge of the low mattress frame the physical LCD; inside the recording, damaged plaster, rubbish heaps, and an empty wooden chair fill the living room.\nShot size: medium close-up\nCamera angle: high over Brother’s shoulder toward the open LCD\nCamera move: slow push toward the LCD\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction. Current state in this cut: The present-day Child sleeps beneath a dark blanket; the Child visible inside the recorded image is awake and wears the original clothing.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD is in playback mode; the red recording indicator is off.\nAction: Brother holds the open Camcorder beside sleeping Child. Playback crackles into a selfie composition: recorded Child smiles and speaks toward the visibly empty chair. The cheerful recorded phrase “My sister…” begins.\nMood: The first unmistakable fracture between the child’s experience and reality.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night with one candle; the LCD shows earlier daylight with a cold, gray cast.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A candle and the edge of the low mattress frame the physical LCD; inside the recording, damaged plaster, rubbish heaps, and an empty wooden chair fill the living room.\nShot size: medium close-up\nCamera angle: high over Brother’s shoulder toward the open LCD\nCamera move: slow push toward the LCD\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction. Current state in this cut: The present-day Child sleeps beneath a dark blanket; the Child visible inside the recorded image is awake and wears the original clothing.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD is in playback mode; the red recording indicator is off.\nAction: Brother holds the open Camcorder beside sleeping Child. Playback crackles into a selfie composition: recorded Child smiles and speaks toward the visibly empty chair. The cheerful recorded phrase “My sister…” begins.\nMood: The first unmistakable fracture between the child’s experience and reality.",
+					"spec":
+					{
+						"shot_name": "Brother discovering the empty chair on Camcorder",
+						"beat": 5,
+						"zone": "Room 302",
+						"shot_size": "medium close-up",
+						"angle": "high over Brother’s shoulder toward the open LCD",
+						"camera_move": "slow push toward the LCD",
+						"subjects_present": [
+							"Brother",
+							"Child",
+							"Camcorder"
+						],
+						"subject_states": [
+							{
+								"subject": "Child",
+								"state": "The present-day Child sleeps beneath a dark blanket; the Child visible inside the recorded image is awake and wears the original clothing."
+							},
+							{
+								"subject": "Camcorder",
+								"state": "LCD is in playback mode; the red recording indicator is off."
+							}
+						],
+						"backdrop": "A candle and the edge of the low mattress frame the physical LCD; inside the recording, damaged plaster, rubbish heaps, and an empty wooden chair fill the living room.",
+						"action": "Brother holds the open Camcorder beside sleeping Child. Playback crackles into a selfie composition: recorded Child smiles and speaks toward the visibly empty chair. The cheerful recorded phrase “My sister…” begins.",
+						"emotion": "The first unmistakable fracture between the child’s experience and reality.",
+						"transition": "Hard cut from the LCD to Brother’s face; the recorded sentence continues uninterrupted.",
+						"atmosphere": "Present-day night with one candle; the LCD shows earlier daylight with a cold, gray cast.",
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother stiffening at Child’s recorded explanation",
+				"beat": 6,
+				"zone": "Room 302",
+				"shot_size": "close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": "A small patch of damaged plaster recedes into darkness.",
+				"action": "Brother’s jaw tightens and his gaze fixes downward toward the off-frame LCD. Child’s bright recorded voice finishes, “seems to have just stepped out for a moment!”",
+				"emotion": "Contained dread.",
+				"transition": "Hard cut back to the LCD.",
+				"atmosphere": "Night; low candlelight and faint LCD spill shape Brother’s face.",
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; low candlelight and faint LCD spill shape Brother’s face.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A small patch of damaged plaster recedes into darkness.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\nAction: Brother’s jaw tightens and his gaze fixes downward toward the off-frame LCD. Child’s bright recorded voice finishes, “seems to have just stepped out for a moment!”\nMood: Contained dread.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; low candlelight and faint LCD spill shape Brother’s face.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A small patch of damaged plaster recedes into darkness.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\nAction: Brother’s jaw tightens and his gaze fixes downward toward the off-frame LCD. Child’s bright recorded voice finishes, “seems to have just stepped out for a moment!”\nMood: Contained dread.",
+					"spec":
+					{
+						"shot_name": "Brother stiffening at Child’s recorded explanation",
+						"beat": 6,
+						"zone": "Room 302",
+						"shot_size": "close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": "A small patch of damaged plaster recedes into darkness.",
+						"action": "Brother’s jaw tightens and his gaze fixes downward toward the off-frame LCD. Child’s bright recorded voice finishes, “seems to have just stepped out for a moment!”",
+						"emotion": "Contained dread.",
+						"transition": "Hard cut back to the LCD.",
+						"atmosphere": "Night; low candlelight and faint LCD spill shape Brother’s face.",
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Camcorder revealing the deserted descent",
+				"beat": 7,
+				"zone": "Room 302",
+				"shot_size": "insert",
+				"angle": "nearly square to the LCD",
+				"camera_move": "static",
+				"subjects_present": [
+					"Brother",
+					"Camcorder"
+				],
+				"subject_states": [
+					{
+						"subject": "Camcorder",
+						"state": "LCD remains in playback mode; the red recording indicator is off."
+					}
+				],
+				"backdrop": "A narrow border of Brother’s fingers and candlelit darkness surrounds the LCD; within it, the recognizable stair rail, corridor mouth, broken shop signs, and debris-lined floor are completely unoccupied.",
+				"action": "The LCD plays a brief, violently shaking first-person fragment of the empty descent. No neighbors appear anywhere in the recorded view. Child’s recorded call begins, “Kooong!”",
+				"emotion": "Abrupt isolation.",
+				"transition": "Hard cut to Brother as the recorded apology continues.",
+				"atmosphere": "Present-day night surrounds the LCD; recorded daylight is flat and gray.",
+				"duration_seconds": 1
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night surrounds the LCD; recorded daylight is flat and gray.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A narrow border of Brother’s fingers and candlelit darkness surrounds the LCD; within it, the recognizable stair rail, corridor mouth, broken shop signs, and debris-lined floor are completely unoccupied.\nShot size: insert\nCamera angle: nearly square to the LCD\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD remains in playback mode; the red recording indicator is off.\nAction: The LCD plays a brief, violently shaking first-person fragment of the empty descent. No neighbors appear anywhere in the recorded view. Child’s recorded call begins, “Kooong!”\nMood: Abrupt isolation.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night surrounds the LCD; recorded daylight is flat and gray.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: A narrow border of Brother’s fingers and candlelit darkness surrounds the LCD; within it, the recognizable stair rail, corridor mouth, broken shop signs, and debris-lined floor are completely unoccupied.\nShot size: insert\nCamera angle: nearly square to the LCD\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD remains in playback mode; the red recording indicator is off.\nAction: The LCD plays a brief, violently shaking first-person fragment of the empty descent. No neighbors appear anywhere in the recorded view. Child’s recorded call begins, “Kooong!”\nMood: Abrupt isolation.",
+					"spec":
+					{
+						"shot_name": "Camcorder revealing the deserted descent",
+						"beat": 7,
+						"zone": "Room 302",
+						"shot_size": "insert",
+						"angle": "nearly square to the LCD",
+						"camera_move": "static",
+						"subjects_present": [
+							"Brother",
+							"Camcorder"
+						],
+						"subject_states": [
+							{
+								"subject": "Camcorder",
+								"state": "LCD remains in playback mode; the red recording indicator is off."
+							}
+						],
+						"backdrop": "A narrow border of Brother’s fingers and candlelit darkness surrounds the LCD; within it, the recognizable stair rail, corridor mouth, broken shop signs, and debris-lined floor are completely unoccupied.",
+						"action": "The LCD plays a brief, violently shaking first-person fragment of the empty descent. No neighbors appear anywhere in the recorded view. Child’s recorded call begins, “Kooong!”",
+						"emotion": "Abrupt isolation.",
+						"transition": "Hard cut to Brother as the recorded apology continues.",
+						"atmosphere": "Present-day night surrounds the LCD; recorded daylight is flat and gray.",
+						"duration_seconds": 1
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother closing his eyes against the recording",
+				"beat": 8,
+				"zone": "Room 302",
+				"shot_size": "extreme close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "Brother squeezes his eyes shut. From the off-frame Camcorder, Child’s cheerful apology finishes: “I’m sooorry~!”",
+				"emotion": "Grief at the child’s uncomprehending loneliness.",
+				"transition": "Hard cut to the next recorded fragment.",
+				"atmosphere": "Night; a thin candle highlight and weak LCD glow remain on Brother’s eyelids.",
+				"duration_seconds": 1
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; a thin candle highlight and weak LCD glow remain on Brother’s eyelids.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\nAction: Brother squeezes his eyes shut. From the off-frame Camcorder, Child’s cheerful apology finishes: “I’m sooorry~!”\nMood: Grief at the child’s uncomprehending loneliness.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; a thin candle highlight and weak LCD glow remain on Brother’s eyelids.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\nAction: Brother squeezes his eyes shut. From the off-frame Camcorder, Child’s cheerful apology finishes: “I’m sooorry~!”\nMood: Grief at the child’s uncomprehending loneliness.",
+					"spec":
+					{
+						"shot_name": "Brother closing his eyes against the recording",
+						"beat": 8,
+						"zone": "Room 302",
+						"shot_size": "extreme close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "Brother squeezes his eyes shut. From the off-frame Camcorder, Child’s cheerful apology finishes: “I’m sooorry~!”",
+						"emotion": "Grief at the child’s uncomprehending loneliness.",
+						"transition": "Hard cut to the next recorded fragment.",
+						"atmosphere": "Night; a thin candle highlight and weak LCD glow remain on Brother’s eyelids.",
+						"duration_seconds": 1
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Camcorder exposing Monsters beyond Child’s reaching hand",
+				"beat": 9,
+				"zone": "Room 302",
+				"shot_size": "extreme close-up",
+				"angle": "square to the LCD; the image within it is sideways and floor-level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Camcorder",
+					"Child",
+					"Monsters"
+				],
+				"subject_states": [
+					{
+						"subject": "Camcorder",
+						"state": "LCD remains in playback mode; the red recording indicator is off."
+					}
+				],
+				"backdrop": "Inside the LCD, the chained entrance fills the fallen camera’s tilted composition: metal door frames, smeared glass, and the bare exterior landing beyond.",
+				"action": "Recorded Child stands facing the door, small fingers extended toward the opening, murmuring, “Okay… let’s play together. I’m coming.” No answering voice is recorded. Outside, the two Monsters strike the glass with slow, heavy impacts; dark, bloodlike smears spread beneath their bodies. One elongated, crooked hand protrudes through the narrow opening toward Child’s fingers. No flowers or Sister are visible.",
+				"emotion": "Horrified recognition.",
+				"transition": "Hard cut on a heavy impact to Brother shutting the LCD.",
+				"atmosphere": "Present-day night is limited to the dark bezel; the recorded entrance is exposed in cold daylight.",
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night is limited to the dark bezel; the recorded entrance is exposed in cold daylight.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: Inside the LCD, the chained entrance fills the fallen camera’s tilted composition: metal door frames, smeared glass, and the bare exterior landing beyond.\nShot size: extreme close-up\nCamera angle: square to the LCD; the image within it is sideways and floor-level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD remains in playback mode; the red recording indicator is off.\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Monsters (Two human-sized creatures): gaunt charcoal bodies, disproportionately long forearms, angular shoulders, irregular skin surfaces Signature, drawn only where this angle exposes it: severely hunched torsos and arms hanging below the knees distinguish them from any direction; their hands have elongated, crooked fingers.\nAction: Recorded Child stands facing the door, small fingers extended toward the opening, murmuring, “Okay… let’s play together. I’m coming.” No answering voice is recorded. Outside, the two Monsters strike the glass with slow, heavy impacts; dark, bloodlike smears spread beneath their bodies. One elongated, crooked hand protrudes through the narrow opening toward Child’s fingers. No flowers or Sister are visible.\nMood: Horrified recognition.",
+			"images": [
+				"cut_09_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Present-day night is limited to the dark bezel; the recorded entrance is exposed in cold daylight.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: Inside the LCD, the chained entrance fills the fallen camera’s tilted composition: metal door frames, smeared glass, and the bare exterior landing beyond.\nShot size: extreme close-up\nCamera angle: square to the LCD; the image within it is sideways and floor-level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: LCD remains in playback mode; the red recording indicator is off.\n- Child (Young child): short, slight build; light-gray hooded sweatshirt with the hood down, dark knee-length shorts, pale ankle socks, small dark sneakers Signature, drawn only where this angle exposes it: oversized rounded hood and narrow bare lower legs create a recognizable silhouette from any direction.\n- Monsters (Two human-sized creatures): gaunt charcoal bodies, disproportionately long forearms, angular shoulders, irregular skin surfaces Signature, drawn only where this angle exposes it: severely hunched torsos and arms hanging below the knees distinguish them from any direction; their hands have elongated, crooked fingers.\nAction: Recorded Child stands facing the door, small fingers extended toward the opening, murmuring, “Okay… let’s play together. I’m coming.” No answering voice is recorded. Outside, the two Monsters strike the glass with slow, heavy impacts; dark, bloodlike smears spread beneath their bodies. One elongated, crooked hand protrudes through the narrow opening toward Child’s fingers. No flowers or Sister are visible.\nMood: Horrified recognition.",
+					"spec":
+					{
+						"shot_name": "Camcorder exposing Monsters beyond Child’s reaching hand",
+						"beat": 9,
+						"zone": "Room 302",
+						"shot_size": "extreme close-up",
+						"angle": "square to the LCD; the image within it is sideways and floor-level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Camcorder",
+							"Child",
+							"Monsters"
+						],
+						"subject_states": [
+							{
+								"subject": "Camcorder",
+								"state": "LCD remains in playback mode; the red recording indicator is off."
+							}
+						],
+						"backdrop": "Inside the LCD, the chained entrance fills the fallen camera’s tilted composition: metal door frames, smeared glass, and the bare exterior landing beyond.",
+						"action": "Recorded Child stands facing the door, small fingers extended toward the opening, murmuring, “Okay… let’s play together. I’m coming.” No answering voice is recorded. Outside, the two Monsters strike the glass with slow, heavy impacts; dark, bloodlike smears spread beneath their bodies. One elongated, crooked hand protrudes through the narrow opening toward Child’s fingers. No flowers or Sister are visible.",
+						"emotion": "Horrified recognition.",
+						"transition": "Hard cut on a heavy impact to Brother shutting the LCD.",
+						"atmosphere": "Present-day night is limited to the dark bezel; the recorded entrance is exposed in cold daylight.",
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother closing Camcorder and checking the taped window",
+				"beat": 10,
+				"zone": "Room 302",
+				"shot_size": "medium close-up",
+				"angle": "eye level, three-quarter profile",
+				"camera_move": "static",
+				"subjects_present": [
+					"Brother",
+					"Camcorder"
+				],
+				"subject_states": [
+					{
+						"subject": "Camcorder",
+						"state": "Brother folds the LCD fully shut; the red recording indicator remains off."
+					}
+				],
+				"backdrop": "Overlapping packing tape covers the window behind Brother, leaving a narrow slit; damaged plaster and darkness surround the frame.",
+				"action": "Brother snaps the LCD closed, cutting off the recorded sound. Keeping Camcorder close to his body, he leans toward the narrow gap in the tape and looks outside for one tense second. The framing reveals his watchful eye but nothing beyond the window.",
+				"emotion": "Protective resolve under continuing threat.",
+				"transition": "Cut to black while Brother remains at the slit.",
+				"atmosphere": "Night; closing the LCD removes its glow, leaving only the candlelight.",
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; closing the LCD removes its glow, leaving only the candlelight.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: Overlapping packing tape covers the window behind Brother, leaving a narrow slit; damaged plaster and darkness surround the frame.\nShot size: medium close-up\nCamera angle: eye level, three-quarter profile\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: Brother folds the LCD fully shut; the red recording indicator remains off.\nAction: Brother snaps the LCD closed, cutting off the recorded sound. Keeping Camcorder close to his body, he leans toward the narrow gap in the tape and looks outside for one tense second. The framing reveals his watchful eye but nothing beyond the window.\nMood: Protective resolve under continuing threat.",
+			"images": [
+				"cut_10_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day Korean neighborhood setting combines modest concrete-and-glass architecture, worn plaster, metal, fabric, and vegetation in pale-gray highlights, domestic middle grays, and deep charcoal shadows.\nLocation: Apartment building with ground-floor shops, indoor common passage and entrance, an outdoor threshold view, and a private indoor living room.\nAtmosphere: Night; closing the LCD removes its glow, leaving only the candlelight.\nThis cut happens at Room 302: A cramped living room contains a low sleeping mattress, an empty wooden chair, accumulated rubbish, damaged plaster, and a window covered with overlapping strips of packing tape that leave one narrow viewing slit. Nighttime darkness obscures much of the decay; one candle stands beside the mattress. The earlier selfie recording exposes the rubbish and empty chair in daylight. No journey into this room is shown.\nBackdrop, behind the action: Overlapping packing tape covers the window behind Brother, leaving a narrow slit; damaged plaster and darkness surround the frame.\nShot size: medium close-up\nCamera angle: eye level, three-quarter profile\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lean build; charcoal zip jacket, medium-gray trousers, bulky pale sneakers Signature, drawn only where this angle exposes it: markedly longer limbs than Child and oversized pale footwear remain identifiable from front, side, or rear.\n- Camcorder (Small handheld video camera): light-gray rectangular body, dark side strap, hinged rectangular LCD, small red recording indicator Signature, drawn only where this angle exposes it: the offset flip-out screen and thick hand strap give it an asymmetric silhouette from any angle. Current state in this cut: Brother folds the LCD fully shut; the red recording indicator remains off.\nAction: Brother snaps the LCD closed, cutting off the recorded sound. Keeping Camcorder close to his body, he leans toward the narrow gap in the tape and looks outside for one tense second. The framing reveals his watchful eye but nothing beyond the window.\nMood: Protective resolve under continuing threat.",
+					"spec":
+					{
+						"shot_name": "Brother closing Camcorder and checking the taped window",
+						"beat": 10,
+						"zone": "Room 302",
+						"shot_size": "medium close-up",
+						"angle": "eye level, three-quarter profile",
+						"camera_move": "static",
+						"subjects_present": [
+							"Brother",
+							"Camcorder"
+						],
+						"subject_states": [
+							{
+								"subject": "Camcorder",
+								"state": "Brother folds the LCD fully shut; the red recording indicator remains off."
+							}
+						],
+						"backdrop": "Overlapping packing tape covers the window behind Brother, leaving a narrow slit; damaged plaster and darkness surround the frame.",
+						"action": "Brother snaps the LCD closed, cutting off the recorded sound. Keeping Camcorder close to his body, he leans toward the narrow gap in the tape and looks outside for one tense second. The framing reveals his watchful eye but nothing beyond the window.",
+						"emotion": "Protective resolve under continuing threat.",
+						"transition": "Cut to black while Brother remains at the slit.",
+						"atmosphere": "Night; closing the LCD removes its glow, leaving only the candlelight.",
+						"duration_seconds": 2
+					}
+				}
+			]
+		}
+	]
+}

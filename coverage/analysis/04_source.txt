@@ -1,0 +1,280 @@
+PROJECT 2026-10-14 18:34
+
+S#1 윤호 방 (밤 / 안)
+어둡고 새벽. 윤호, 침대 속에서 깊은 잠을 자고 있다.
+어둠 속에서 바닥에서 웅덩이가 번져나온다.
+웅덩이 위로 반투명한 손이 천천히 솟아오른다.
+이어 여러 물고기 인간들이 나타나 방 안을 가득 채운다.
+몸은 인간과 유사하지만 빛 맞으면 무지개빛 나는 비늘로 가득하고, 머리는 누가봐도 물고기.
+비늘 위에는 액이 떨어지는데, 물에 나와 공기로부터 보호해주는 역할을 하는 것 같다.
+그들의 피부는 유리처럼 빛나고, 움직임은 느리고 유영하는 듯하다.
+
+S#2 윤호 방 (밤 / 안)
+윤호, 눈을 크게 뜨고 몸을 굳힌 채 침대에 누워 있다.
+주변 소리, 모두 수중처럼 왜곡된다.
+그때, 꿈에서 봤던 물고기 인간들이 침대를 동그랗게 둘러싼다.
+그들의 눈동자가 반짝인다.
+윤호는 공포가 가득한 눈으로 물고기 인간들을 쳐다본다. 너무 놀래서 소리가 나오지 않는다.
+물고기 인간들이 말을 하는데 물속에서 말하는 것처럼 웅얼 거리는 언어다.
+적어도 해치러 오지 않았다는 것을 느낀 윤호, 무슨 말을 하는지 궁금해한다.
+중앙에 있는 물고기 인간이 손끝을 들어올린다.
+윤호의 머릿속에 전자음 같은 울림이 번진다.
+마치 물고기 인간이 부르는 것 같다.
+윤호는 망설이다가 용기를 내서 손끝을 내민다.
+윤호와 물고기 인간이 악수 하는 순간, 물고기 인간은 윤호의 손목을 확잡고 화면이 왜곡되며 흰색 플래시.
+
+PANELS
+[
+  {
+    "shot_name": "Puddle spreading beside sleeping Yunho",
+    "beat": 1,
+    "zone": "Window-side clearing",
+    "shot_size": "wide",
+    "angle": "high, oblique",
+    "camera_move": "slow dolly toward the floor",
+    "subjects_present": [
+      "Yunho",
+      "Puddle"
+    ],
+    "subject_states": [
+      {
+        "subject": "Puddle",
+        "state": "Manifested as several nearly black, shallow, mirrorlike pools scattered across the visible floor, each edged in thin silver. The main pool beside the bed spreads from pillow-width toward small-rug width, retaining its irregular oval body and two narrow trailing lobes. Small clear bubbles swell across the pools' surfaces, with rounded droplets briefly rising above them and concentric ripples catching the cold light."
+      }
+    ],
+    "backdrop": "Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.",
+    "action": "Yunho sleeps beneath the duvet while the main puddle’s silver-edged perimeter creeps outward across the boards. Throughout the visible floor, several smaller pools gently bubble: clear droplets rise, fall back, and send overlapping concentric ripples across their surfaces, giving the floor the uncanny feeling of a lake disturbed by falling water droplets.",
+    "emotion": "Quiet unease intruding on vulnerability.",
+    "transition": "Hard cut to the puddle’s surface.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Central visitor raising a hand through the Puddle",
+    "beat": 2,
+    "zone": "Window-side clearing",
+    "shot_size": "close-up",
+    "angle": "low, just above floor level",
+    "camera_move": "slow tilt upward following the hand",
+    "subjects_present": [
+      "Central visitor",
+      "Puddle",
+      "Fish circle"
+    ],
+    "subject_states": [
+      {
+        "subject": "Puddle",
+        "state": "Expanded to approximately small-rug width, retaining its two trailing lobes."
+      },
+      {
+        "subject": "Central visitor",
+        "state": "Only one translucent webbed hand and the beginning of its elongated forearm emerge above the liquid; its head and body remain completely submerged."
+      },
+      {
+        "subject": "Fish circle",
+        "state": "Only one member's translucent webbed fingertips begin to emerge behind the Central visitor's hand. That member's remaining body and all four other members remain completely submerged and invisible."
+      }
+    ],
+    "backdrop": "Dark floorboards and the softly blurred lower portion of the pale curtain.",
+    "action": "At first, no visitors are visible above the liquid. The Central visitor’s translucent webbed hand breaks the surface and slowly rises vertically, clear coating stretching into thin strands between its fingers. Only after its wrist clears the surface do a second visitor’s fingertips begin breaking through slightly behind it. The staggered emergence makes the visitors feel as though they are coming up one by one, rather than already occupying the room; no heads or torsos are revealed in this cut.",
+    "emotion": "Uncanny anticipation.",
+    "transition": "Hard cut as the hand reaches its full height.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "Central visitor and Fish circle emerging into the room",
+    "beat": 3,
+    "zone": "Window-side clearing",
+    "shot_size": "wide",
+    "angle": "eye level",
+    "camera_move": "slow dolly backward",
+    "subjects_present": [
+      "Central visitor",
+      "Fish circle",
+      "Puddle",
+      "Yunho"
+    ],
+    "subject_states": [
+      {
+        "subject": "Puddle",
+        "state": "Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge."
+      }
+    ],
+    "backdrop": "The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.",
+    "action": "The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing. On the adjoining bed, Yunho remains asleep with his eyes closed, intermittently giving small involuntary flinches at the sounds of their emergence without waking.",
+    "emotion": "Wonder becoming oppressive.",
+    "transition": "Hard cut to Yunho.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Yunho waking without a voice",
+    "beat": 4,
+    "zone": "Bed island",
+    "shot_size": "close-up",
+    "angle": "high, nearly perpendicular to the pillow",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [],
+    "backdrop": "Pale pillow and a narrow strip of rumpled duvet.",
+    "action": "Yunho’s eyes snap open; his neck and shoulders remain locked against the bedding, and his parted lips produce no visible attempt at a cry.",
+    "emotion": "Immediate, immobilizing terror.",
+    "transition": "Hard cut to the space surrounding the bed.",
+    "atmosphere": null,
+    "duration_seconds": 2.5
+  },
+  {
+    "shot_name": "Central visitor and Fish circle enclosing Yunho’s bed",
+    "beat": 5,
+    "zone": "Bed island",
+    "shot_size": "wide",
+    "angle": "high, oblique from the foot of the bed",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Central visitor",
+      "Fish circle"
+    ],
+    "subject_states": [],
+    "backdrop": "The bed, its surrounding walking space, the plain headboard, and the blank rear wall; the window-side floor is outside the frame.",
+    "action": "The visitors finish taking positions around the bed; the Central visitor occupies Yunho’s left side while the five others complete the ring at the foot, opposite side, and behind the headboard, their eyes flashing with small reflections.",
+    "emotion": "Claustrophobic exposure.",
+    "transition": "Hard cut toward Yunho and the Central visitor.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "Yunho’s POV scanning the fish-headed visitors",
+    "beat": 6,
+    "zone": "Bed island",
+    "shot_size": "medium",
+    "angle": "Yunho’s eye-level POV from his position in bed",
+    "camera_move": "Tentative side-to-side pans following Yunho’s searching gaze, settling on the Central visitor at his left.",
+    "subjects_present": [
+      "Central visitor",
+      "Fish circle"
+    ],
+    "subject_states": [],
+    "backdrop": "Bare plaster walls, portions of the plain headboard, and the bed’s surrounding walking space, shifting behind the visitors as the POV turns.",
+    "action": "Through Yunho’s eyes, the view looks from members of the Fish circle at the foot and opposite side of the bed toward the Central visitor at his left. The visitors make small, restrained gestures and move their fish mouths in muffled speech, keeping their hands low and relaxed. The hesitant scanning slows and settles on the Central visitor’s face, beginning to study it rather than recoil.",
+    "emotion": "Fear giving way to cautious curiosity.",
+    "transition": "Hard cut to the visitor’s hand.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Central visitor offering its fingertips",
+    "beat": 7,
+    "zone": "Bed island",
+    "shot_size": "insert",
+    "angle": "eye level with the raised hand",
+    "camera_move": "static",
+    "subjects_present": [
+      "Central visitor"
+    ],
+    "subject_states": [],
+    "backdrop": "A softly blurred middle-gray patch of duvet.",
+    "action": "The visitor lifts its right hand, turns the palm slightly inward, and presents its long translucent fingertips toward frame right; a suspended bead of coating catches a silver highlight.",
+    "emotion": "An invitation whose meaning remains uncertain.",
+    "transition": "Hard cut to Yunho’s reaction.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Yunho recoiling from the summons",
+    "beat": 8,
+    "zone": "Bed island",
+    "shot_size": "extreme close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [],
+    "backdrop": null,
+    "action": "Yunho’s pupils shift toward frame left, his brow contracts, and his eyelids tremble while the rest of his face holds unnaturally still.",
+    "emotion": "An intimate, disorienting intrusion.",
+    "transition": "Hard cut to his upper body.",
+    "atmosphere": null,
+    "duration_seconds": 2.5
+  },
+  {
+    "shot_name": "Yunho choosing to answer the Central visitor",
+    "beat": 9,
+    "zone": "Bed island",
+    "shot_size": "medium",
+    "angle": "eye level from the foot-side of the established axis",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Central visitor"
+    ],
+    "subject_states": [],
+    "backdrop": "Pillow, headboard, blank rear wall, and the upper surface of the duvet.",
+    "action": "Yunho looks from the visitor’s offered hand to its face, closes his parted lips, and releases his right hand from its tight fist on the duvet; the visitor holds its invitation steady at frame left.",
+    "emotion": "Fragile courage overcoming hesitation.",
+    "transition": "Match cut on Yunho’s opening hand.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Yunho reaching toward the Central visitor",
+    "beat": 10,
+    "zone": "Bed island",
+    "shot_size": "close-up",
+    "angle": "slightly high over the bed edge",
+    "camera_move": "short lateral tracking move with Yunho’s hand",
+    "subjects_present": [
+      "Yunho",
+      "Central visitor"
+    ],
+    "subject_states": [],
+    "backdrop": "The middle-gray duvet and a narrow strip of dark wooden bed rail.",
+    "action": "Yunho’s right hand enters from frame right and extends across the remaining gap toward the visitor’s stationary fingertips at frame left; the fingers remain just short of touching.",
+    "emotion": "Vulnerability at the threshold of trust.",
+    "transition": "Hard cut closer as the gap closes.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Yunho hesitating just before touching the Central visitor’s hand",
+    "beat": 10,
+    "zone": "Bed island",
+    "shot_size": "medium close-up",
+    "angle": "eye level with Yunho",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Central visitor"
+    ],
+    "subject_states": [],
+    "backdrop": "Softly blurred cotton duvet.",
+    "action": "The Central visitor remains off screen except for its offered hand at frame left; its hesitant off-screen voice calls, 'Yunho.' Yunho’s tense face and extended right hand share the frame. Unsure what will happen, he watches the translucent fingertips and hesitates with his fingers just short of touching them; no contact occurs in this cut.",
+    "emotion": "Tense uncertainty and vulnerable hesitation before contact.",
+    "transition": "Hard cut forward across the moment of contact to the first tightening movement.",
+    "atmosphere": null,
+    "duration_seconds": 2
+  },
+  {
+    "shot_name": "Yunho’s hand meeting the Central visitor’s hand in a white flash",
+    "beat": 12,
+    "zone": "Bed island",
+    "shot_size": "close-up",
+    "angle": "low beside the bed rail",
+    "camera_move": "brief handheld jolt",
+    "subjects_present": [
+      "Yunho",
+      "Central visitor"
+    ],
+    "subject_states": [],
+    "backdrop": "The duvet and bed rail, their contours bending around the point of contact.",
+    "action": "The close-up is tightly cropped to show only Yunho’s right hand and the Central visitor’s translucent hand; their faces, bodies, and arms remain outside the frame. Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.",
+    "emotion": "Violent betrayal and sensory rupture.",
+    "transition": "End on a full-frame white flash; no additional panel.",
+    "atmosphere": "A sudden source-less white flash overwhelms the baseline night lighting.",
+    "duration_seconds": 1.5
+  }
+]

@@ -1,0 +1,754 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "S#1. 미니멀한 도심 광장 / 늦은 오후\n\n[캐릭터 고정 설정]\n\n성인 남성 캐릭터 한 명. 키 약 185cm, 머리는 몸 전체 높이의 약 1/7.5인 슬림하고 키가 큰 체형. 어깨는 넓고 허리는 좁으며, 팔다리는 길고 자연스럽게 균형 잡혀 있다. 머리와 얼굴, 손은 각진 다각형 형태로 표현된 로우폴리 3D 캐릭터. 짧은 노란 머리, 각진 턱선, 무표정한 얼굴.\n\n의상은 블랙 오버사이즈 패딩 재킷, 흰색 티셔츠, 블랙 와이드 카고 팬츠, 두꺼운 흰색 미드솔이 있는 블랙 청키 스니커즈, 실버 체인 목걸이로 고정한다.\n\n모든 장면에서 동일한 캐릭터의 얼굴, 헤어스타일, 키, 체형, 팔다리 비율, 의상 디자인과 색상을 유지한다. 현실적인 인간이 아닌 각진 로우폴리 3D 게임 캐릭터 스타일을 유지한다.\n---\n\n로우폴리 3D 그래픽으로 구현된 현대적인 도심 광장. \n회색 콘크리트 바닥과 기하학적인 건축물, 강한 오후 햇빛이 만드는 선명한 그림자.\n\n짧은 반삭스타일의 노랗게 탈색 된 머리와 각진 얼굴을 가진 남성 캐릭터가 광장 한쪽에서 걸어 나온다.\n\n캐릭터는 넓은 어깨와 짧은 기장이 특징인 블랙 오버사이즈 패딩 재킷을 착용하고 있다. 재킷은 각진 패널과 부풀어 오른 볼륨감으로 구성되어 있으며, 앞면에는 큼직한 지퍼와 사각형 포켓이 배치되어 있다. 안에는 흰색 티셔츠를 레이어드하고, 목에는 짧은 실버 체인 목걸이를 착용한다.\n\n하의는 허리부터 발목까지 넓게 떨어지는 블랙 와이드 카고 팬츠. 양옆에는 큼직한 사각형 포켓과 긴 스트랩이 달려 있다. 발에는 두꺼운 흰색 미드솔이 강조된 블랙 청키 스니커즈를 신었다. 전체적인 스타일은 절제된 색상과 과장된 실루엣이 돋보이는 하이엔드 스트릿 패션이다.\n\n카메라가 바닥 가까이에서 캐릭터의 스니커즈를 따라간다. 캐릭터가 천천히 한 걸음 내딛는다. 팬츠 밑단이 신발 위에서 흔들린다.\n\n컷 전환.\n\n카메라가 팬츠의 큼직한 카고 포켓과 스트랩을 클로즈업한다. 캐릭터가 걸음을 멈추고 재킷 주머니에 양손을 넣는다.\n\n카메라가 아래에서 위로 빠르게 틸트하며 재킷의 볼륨감과 넓은 어깨 실루엣을 강조한다.\n\n캐릭터가 고개를 살짝 돌린다. 실버 체인에 햇빛이 반사된다.\n\n카메라가 캐릭터 주위를 빠르게 180도 회전한다. 강한 햇빛과 각진 그림자가 바닥 위로 길게 드리워진다.\n\n캐릭터가 카메라를 정면으로 바라보며 정지한다.\n\n마지막 장면. 캐릭터의 전신 실루엣이 화면 중앙에 배치된다. 미니멀한 흰색 타이포그래피로 브랜드 로고가 나타난다.\n\n컷 투 블랙.",
+	"draft_prompt": "S#1. 미니멀한 도심 광장 / 늦은 오후\n\n[캐릭터 고정 설정]\n\n성인 남성 캐릭터 한 명. 키 약 185cm, 머리는 몸 전체 높이의 약 1/7.5인 슬림하고 키가 큰 체형. 어깨는 넓고 허리는 좁으며, 팔다리는 길고 자연스럽게 균형 잡혀 있다. 머리와 얼굴, 손은 각진 다각형 형태로 표현된 로우폴리 3D 캐릭터. 짧은 노란 머리, 각진 턱선, 무표정한 얼굴.\n\n의상은 블랙 오버사이즈 패딩 재킷, 흰색 티셔츠, 블랙 와이드 카고 팬츠, 두꺼운 흰색 미드솔이 있는 블랙 청키 스니커즈, 실버 체인 목걸이로 고정한다.\n\n모든 장면에서 동일한 캐릭터의 얼굴, 헤어스타일, 키, 체형, 팔다리 비율, 의상 디자인과 색상을 유지한다. 현실적인 인간이 아닌 각진 로우폴리 3D 게임 캐릭터 스타일을 유지한다.\n---\n\n로우폴리 3D 그래픽으로 구현된 현대적인 도심 광장. \n회색 콘크리트 바닥과 기하학적인 건축물, 강한 오후 햇빛이 만드는 선명한 그림자.\n\n짧은 반삭스타일의 노랗게 탈색 된 머리와 각진 얼굴을 가진 남성 캐릭터가 광장 한쪽에서 걸어 나온다.\n\n캐릭터는 넓은 어깨와 짧은 기장이 특징인 블랙 오버사이즈 패딩 재킷을 착용하고 있다. 재킷은 각진 패널과 부풀어 오른 볼륨감으로 구성되어 있으며, 앞면에는 큼직한 지퍼와 사각형 포켓이 배치되어 있다. 안에는 흰색 티셔츠를 레이어드하고, 목에는 짧은 실버 체인 목걸이를 착용한다.\n\n하의는 허리부터 발목까지 넓게 떨어지는 블랙 와이드 카고 팬츠. 양옆에는 큼직한 사각형 포켓과 긴 스트랩이 달려 있다. 발에는 두꺼운 흰색 미드솔이 강조된 블랙 청키 스니커즈를 신었다. 전체적인 스타일은 절제된 색상과 과장된 실루엣이 돋보이는 하이엔드 스트릿 패션이다.\n\n카메라가 바닥 가까이에서 캐릭터의 스니커즈를 따라간다. 캐릭터가 천천히 한 걸음 내딛는다. 팬츠 밑단이 신발 위에서 흔들린다.\n\n컷 전환.\n\n카메라가 팬츠의 큼직한 카고 포켓과 스트랩을 클로즈업한다. 캐릭터가 걸음을 멈추고 재킷 주머니에 양손을 넣는다.\n\n카메라가 아래에서 위로 빠르게 틸트하며 재킷의 볼륨감과 넓은 어깨 실루엣을 강조한다.\n\n캐릭터가 고개를 살짝 돌린다. 실버 체인에 햇빛이 반사된다.\n\n카메라가 캐릭터 주위를 빠르게 180도 회전한다. 강한 햇빛과 각진 그림자가 바닥 위로 길게 드리워진다.\n\n캐릭터가 카메라를 정면으로 바라보며 정지한다.\n\n마지막 장면. 캐릭터의 전신 실루엣이 화면 중앙에 배치된다. 미니멀한 흰색 타이포그래피로 브랜드 로고가 나타난다.\n\n컷 투 블랙.",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 20.200000762939453
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.",
+			"location_type": "Minimalist civic plaza, outdoor.",
+			"zones": [
+				{
+					"name": "Entry Walk",
+					"description": "A broad concrete walkway with straight expansion joints, a tall blank concrete wall, a rectangular pedestrian opening through that wall, a square structural pier beside the opening, and clear sky above the wall",
+					"connects_to": [
+						"Open Court"
+					]
+				},
+				{
+					"name": "Open Court",
+					"description": "An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side",
+					"connects_to": [
+						"Entry Walk"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "clear, dry, windless",
+				"lighting": "hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A tall, impassive low-poly man asserts his streetwear silhouette against an austere urban plaza through a deliberate entrance, precise clothing reveals, a rapid orbit, and a final branded pose.",
+			"beats": [
+				{
+					"summary": "The man emerges into the empty plaza, introducing his exaggerated silhouette",
+					"emotion": "anticipation"
+				},
+				{
+					"summary": "One slow footfall reveals the chunky sneaker and the movement of the wide trouser hem",
+					"emotion": "tactile fascination"
+				},
+				{
+					"summary": "He stops and places both hands in his jacket pockets, settling into a deliberate pose",
+					"emotion": "composure"
+				},
+				{
+					"summary": "An upward reveal establishes the jacket’s inflated volume and broad shoulders",
+					"emotion": "power"
+				},
+				{
+					"summary": "A slight head turn catches sunlight on his silver chain",
+					"emotion": "restrained allure"
+				},
+				{
+					"summary": "A rapid half-orbit reveals his silhouette in depth against a long angular shadow",
+					"emotion": "kinetic intensity"
+				},
+				{
+					"summary": "His gaze fixes directly on the viewer",
+					"emotion": "confrontation"
+				},
+				{
+					"summary": "His centered full-body pose becomes a minimal branded end image",
+					"emotion": "resolution"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Man",
+				"kind": "Adult male low-poly 3D game character",
+				"appearance": "approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace",
+				"signature_features": [
+					"unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition."
+				]
+			}
+		],
+		"run_id": "storyboard_20261019_093327_866b8efd"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Man emerging into the plaza",
+				"beat": 1,
+				"zone": "Entry Walk",
+				"shot_size": "full-body wide shot",
+				"angle": "near ground level, frontal, looking slightly upward",
+				"camera_move": "smooth backward dolly just above the paving, retreating ahead of his slow approach while maintaining a constant low camera height and centered framing",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.",
+				"action": "Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. His full silhouette remains centered against the pale wall during a brief glimpse of his entrance.",
+				"emotion": "Anticipation and curiosity.",
+				"transition": "Hard cut to the moving footwear.",
+				"atmosphere": "Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.",
+				"duration_seconds": 1.2
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.\nThis cut happens at Entry Walk: A broad concrete walkway with straight expansion joints, a tall blank concrete wall, a rectangular pedestrian opening through that wall, a square structural pier beside the opening, and clear sky above the wall\nBackdrop, behind the action: The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.\nShot size: full-body wide shot\nCamera angle: near ground level, frontal, looking slightly upward\nCamera move: smooth backward dolly just above the paving, retreating ahead of his slow approach while maintaining a constant low camera height and centered framing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. His full silhouette remains centered against the pale wall during a brief glimpse of his entrance.\nMood: Anticipation and curiosity.",
+			"images": [
+				"cut_01_001.jpg",
+				"cut_01_002.jpg",
+				"cut_01_003.jpg"
+			],
+			"current": 2,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Entry Walk: A broad concrete walkway with straight expansion joints, a tall blank concrete wall, a rectangular pedestrian opening through that wall, a square structural pier beside the opening, and clear sky above the wall\nBackdrop, behind the action: The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.\nShot size: wide\nCamera angle: eye level, front three-quarter\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man steps clear of the opening toward the adjoining court, his full figure isolated against the pale wall; his arms hang naturally beside the oversized jacket.\nMood: Anticipation and curiosity.",
+					"spec":
+					{
+						"shot_name": "Man emerging into the plaza",
+						"beat": 1,
+						"zone": "Entry Walk",
+						"shot_size": "wide",
+						"angle": "eye level, front three-quarter",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.",
+						"action": "Man steps clear of the opening toward the adjoining court, his full figure isolated against the pale wall; his arms hang naturally beside the oversized jacket.",
+						"emotion": "Anticipation and curiosity.",
+						"transition": "Hard cut to the moving footwear.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				},
+				{
+					"modification": "캐릭터는 카메라를 향해 천천히 걸어온다. 카메라는 바닥 가까이 낮은 위치에서 캐릭터의 움직임에 맞춰 부드럽게 뒤로 이동한다. 신발부터 전신까지 자연스럽게 보여준다. 캐릭터는 화면 중앙에 유지한다. 영화 같은 패션 광고. 분위기.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.\nThis cut happens at Entry Walk: A broad concrete walkway with straight expansion joints, a tall blank concrete wall, a rectangular pedestrian opening through that wall, a square structural pier beside the opening, and clear sky above the wall\nBackdrop, behind the action: The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.\nShot size: shoe detail opening into a full-body wide shot\nCamera angle: near ground level, frontal, looking slightly upward\nCamera move: smooth backward dolly coordinated with his slow approach, gently tilting upward to reveal the figure from sneakers to full body while maintaining centered framing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. The shot begins on his moving sneakers and progressively reveals his full silhouette against the pale wall, keeping him centered throughout.\nMood: Anticipation and curiosity.",
+					"spec":
+					{
+						"shot_name": "Man emerging into the plaza",
+						"beat": 1,
+						"zone": "Entry Walk",
+						"shot_size": "shoe detail opening into a full-body wide shot",
+						"angle": "near ground level, frontal, looking slightly upward",
+						"camera_move": "smooth backward dolly coordinated with his slow approach, gently tilting upward to reveal the figure from sneakers to full body while maintaining centered framing",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.",
+						"action": "Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. The shot begins on his moving sneakers and progressively reveals his full silhouette against the pale wall, keeping him centered throughout.",
+						"emotion": "Anticipation and curiosity.",
+						"transition": "Hard cut to the moving footwear.",
+						"atmosphere": "Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.",
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				},
+				{
+					"modification": "카메라를 바닥 가까이에 두고 캐릭터가 걸어오는 방향으로 부드럽게 후진해. 아주 짧게하고 다음 컷 이동.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.\nThis cut happens at Entry Walk: A broad concrete walkway with straight expansion joints, a tall blank concrete wall, a rectangular pedestrian opening through that wall, a square structural pier beside the opening, and clear sky above the wall\nBackdrop, behind the action: The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.\nShot size: full-body wide shot\nCamera angle: near ground level, frontal, looking slightly upward\nCamera move: smooth backward dolly just above the paving, retreating ahead of his slow approach while maintaining a constant low camera height and centered framing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. His full silhouette remains centered against the pale wall during a brief glimpse of his entrance.\nMood: Anticipation and curiosity.",
+					"spec":
+					{
+						"shot_name": "Man emerging into the plaza",
+						"beat": 1,
+						"zone": "Entry Walk",
+						"shot_size": "full-body wide shot",
+						"angle": "near ground level, frontal, looking slightly upward",
+						"camera_move": "smooth backward dolly just above the paving, retreating ahead of his slow approach while maintaining a constant low camera height and centered framing",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "The rectangular pedestrian opening, its blank concrete wall and square pier, scored paving, and a narrow band of pale sky.",
+						"action": "Man steps clear of the opening and walks slowly toward the retreating camera and the adjoining court, his arms hanging naturally beside the oversized jacket. His full silhouette remains centered against the pale wall during a brief glimpse of his entrance.",
+						"emotion": "Anticipation and curiosity.",
+						"transition": "Hard cut to the moving footwear.",
+						"atmosphere": "Cinematic minimalist fashion advertisement: deliberate movement, sculptural streetwear volume, hard late-afternoon sunlight, and crisp elongated shadows.",
+						"duration_seconds": 1.2
+					},
+					"based_on": 1
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+				"beat": 2,
+				"zone": "Open Court",
+				"shot_size": "insert",
+				"angle": "extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective",
+				"camera_move": "rapid forward push skimming just above the paving toward the advancing sneaker; brake to a brief near-still hold precisely as the sole contacts the concrete, letting the slow-motion footfall convey its weight",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.",
+				"action": "Continue the entrance from the preceding cut with only a very brief glimpse of his approaching stride as the camera rushes toward one advancing chunky sneaker. Its underside briefly looms in the foreground before the shot ramps into pronounced slow motion at ground contact. As the camera briefly settles, linger on the sole planting firmly and his weight transferring onto the foot, with the thick white midsole prominent and the wide trouser hem swinging forward before settling above it. The other shoe remains visible farther behind; do not extend into another walking cycle.",
+				"emotion": "Tactile fascination with weight and fabric.",
+				"transition": "Hard cut upward to the pockets and hands.",
+				"atmosphere": null,
+				"duration_seconds": 3.1000000000000001
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.\nShot size: insert\nCamera angle: extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective\nCamera move: rapid forward push skimming just above the paving toward the advancing sneaker; brake to a brief near-still hold precisely as the sole contacts the concrete, letting the slow-motion footfall convey its weight\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Continue the entrance from the preceding cut with only a very brief glimpse of his approaching stride as the camera rushes toward one advancing chunky sneaker. Its underside briefly looms in the foreground before the shot ramps into pronounced slow motion at ground contact. As the camera briefly settles, linger on the sole planting firmly and his weight transferring onto the foot, with the thick white midsole prominent and the wide trouser hem swinging forward before settling above it. The other shoe remains visible farther behind; do not extend into another walking cycle.\nMood: Tactile fascination with weight and fabric.",
+			"images": [
+				"cut_02_001.jpg",
+				"cut_02_002.jpg",
+				"cut_02_003.jpg",
+				"cut_02_004.jpg",
+				"cut_02_005.jpg"
+			],
+			"current": 4,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Mid-gray concrete paving and a dark expansion joint immediately behind the shoes.\nShot size: insert\nCamera angle: ground-level, side three-quarter\nCamera move: tracking parallel to the advancing sneaker over one short step\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: One chunky sneaker settles onto the concrete, exposing its thick white midsole; the wide trouser hem swings above it while the other shoe remains partially visible behind.\nMood: Tactile fascination with weight and fabric.",
+					"spec":
+					{
+						"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+						"beat": 2,
+						"zone": "Open Court",
+						"shot_size": "insert",
+						"angle": "ground-level, side three-quarter",
+						"camera_move": "tracking parallel to the advancing sneaker over one short step",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Mid-gray concrete paving and a dark expansion joint immediately behind the shoes.",
+						"action": "One chunky sneaker settles onto the concrete, exposing its thick white midsole; the wide trouser hem swings above it while the other shoe remains partially visible behind.",
+						"emotion": "Tactile fascination with weight and fabric.",
+						"transition": "Hard cut upward to the pockets and hands.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				},
+				{
+					"modification": "카메라는 바닥 가까이에서 캐릭터의 신발을 향해 빠르게 전진한다. 캐릭터가 한 걸음 내딛고 발을 바닥에 단단히 디딘다. 신발이 바닥에 닿는 순간 카메라가 짧게 멈춘다. 두꺼운 신발 밑창과 와이드 팬츠의 움직임을 강조한다. 강렬한 그림자와 역동적인 구도.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Hard late-afternoon sunlight casts strong, sharply defined elongated shadows across the paving; dynamic diagonal framing and exaggerated near-ground perspective emphasize the thick sole and moving wide trouser hem.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Mid-gray concrete paving and a dark expansion joint immediately behind the shoes.\nShot size: insert\nCamera angle: ground-level, side three-quarter\nCamera move: rapid forward dolly just above the paving toward the advancing sneaker, stopping briefly at the exact moment the sole contacts the ground\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man takes one step forward and plants his chunky sneaker firmly on the concrete. The camera's brief stop on contact emphasizes the thick white midsole and the weight of the footfall; the wide trouser hem swings above the shoe and settles while the other shoe remains partially visible behind.\nMood: Tactile fascination with weight and fabric.",
+					"spec":
+					{
+						"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+						"beat": 2,
+						"zone": "Open Court",
+						"shot_size": "insert",
+						"angle": "ground-level, side three-quarter",
+						"camera_move": "rapid forward dolly just above the paving toward the advancing sneaker, stopping briefly at the exact moment the sole contacts the ground",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Mid-gray concrete paving and a dark expansion joint immediately behind the shoes.",
+						"action": "Man takes one step forward and plants his chunky sneaker firmly on the concrete. The camera's brief stop on contact emphasizes the thick white midsole and the weight of the footfall; the wide trouser hem swings above the shoe and settles while the other shoe remains partially visible behind.",
+						"emotion": "Tactile fascination with weight and fabric.",
+						"transition": "Hard cut upward to the pockets and hands.",
+						"atmosphere": "Hard late-afternoon sunlight casts strong, sharply defined elongated shadows across the paving; dynamic diagonal framing and exaggerated near-ground perspective emphasize the thick sole and moving wide trouser hem.",
+						"duration_seconds": 2
+					},
+					"based_on": 0
+				},
+				{
+					"modification": "카메라는 바닥에 가까운 낮은 위치에 고정되어 남자를 아래에서 위로 올려다본다. 남자는 카메라를 향해 한 발씩 천천히 걸어온다. 발을 내디딜 때 신발 밑창이 자연스럽게 보이도록 한다. 신발이 화면을 지나치게 크게 차지하지 않도록 하고, 양쪽 다리와 와이드 카고 팬츠, 상체까지 함께 보이게 한다. 남자의 걸음에 따라 바지 밑단이 자연스럽게 흔들린다. 카메라는 앞으로 이동하거나 신발에 과도하게 확대하지 않는다. 로우 앵글, 역동적인 원근감, 흑백 로우폴리 3D 패션 필름 스타일.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Black-and-white low-poly 3D fashion film styling, rendered through monochrome grading without changing the subject's design. Hard late-afternoon sunlight casts strong, sharply defined elongated shadows across the paving; the low angle creates dynamic perspective while preserving balanced body proportions and avoiding exaggerated shoe enlargement.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Mid-gray concrete paving with a dark expansion joint, the adjoining Entry Walk's blank concrete wall, rectangular pedestrian opening and square pier, and a narrow band of pale sky.\nShot size: full-body shot\nCamera angle: near ground level, frontal, looking upward\nCamera move: static camera fixed just above the paving; no forward movement or zoom\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man walks slowly toward the fixed camera with measured, alternating steps, his arms hanging naturally beside his jacket. Each advancing sneaker briefly reveals its outsole through the natural walking motion before planting on the concrete. His wide cargo trouser hems sway with each step and settle around the shoes. Maintain enough distance to keep both legs, the wide cargo trousers, and his upper body visible throughout; neither shoe approaches closely enough to dominate the frame.\nMood: Tactile fascination with weight and fabric.",
+					"spec":
+					{
+						"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+						"beat": 2,
+						"zone": "Open Court",
+						"shot_size": "full-body shot",
+						"angle": "near ground level, frontal, looking upward",
+						"camera_move": "static camera fixed just above the paving; no forward movement or zoom",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Mid-gray concrete paving with a dark expansion joint, the adjoining Entry Walk's blank concrete wall, rectangular pedestrian opening and square pier, and a narrow band of pale sky.",
+						"action": "Man walks slowly toward the fixed camera with measured, alternating steps, his arms hanging naturally beside his jacket. Each advancing sneaker briefly reveals its outsole through the natural walking motion before planting on the concrete. His wide cargo trouser hems sway with each step and settle around the shoes. Maintain enough distance to keep both legs, the wide cargo trousers, and his upper body visible throughout; neither shoe approaches closely enough to dominate the frame.",
+						"emotion": "Tactile fascination with weight and fabric.",
+						"transition": "Hard cut upward to the pockets and hands.",
+						"atmosphere": "Black-and-white low-poly 3D fashion film styling, rendered through monochrome grading without changing the subject's design. Hard late-afternoon sunlight casts strong, sharply defined elongated shadows across the paving; the low angle creates dynamic perspective while preserving balanced body proportions and avoiding exaggerated shoe enlargement.",
+						"duration_seconds": 4
+					},
+					"based_on": 1
+				},
+				{
+					"modification": "카메라는 바닥에서 위를 올려다본다. 남자는 한 발씩 걸어오며 신발 밑창이 보이도록 한다. 과감한 로우 앵글, 역동적인 원근감.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.\nShot size: insert\nCamera angle: extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective\nCamera move: backward tracking at paving level directly ahead of his approaching feet, keeping the sneakers close to the lens\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man walks toward the camera one foot at a time. Each advancing chunky sneaker presents its underside to the floor-level lens before planting on the concrete, making the sole loom in the foreground. The thick white midsole remains prominent as the wide trouser hem swings above it, with the other shoe visible farther behind.\nMood: Tactile fascination with weight and fabric.",
+					"spec":
+					{
+						"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+						"beat": 2,
+						"zone": "Open Court",
+						"shot_size": "insert",
+						"angle": "extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective",
+						"camera_move": "backward tracking at paving level directly ahead of his approaching feet, keeping the sneakers close to the lens",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.",
+						"action": "Man walks toward the camera one foot at a time. Each advancing chunky sneaker presents its underside to the floor-level lens before planting on the concrete, making the sole loom in the foreground. The thick white midsole remains prominent as the wide trouser hem swings above it, with the other shoe visible farther behind.",
+						"emotion": "Tactile fascination with weight and fabric.",
+						"transition": "Hard cut upward to the pockets and hands.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					},
+					"based_on": 0
+				},
+				{
+					"modification": "신발을 향해 카메라가 바닥을 스치듯 빠르게 전진해. 발이 바닥에 닿는 순간 살짝 멈추면서 무게감을 강조해. 컷01이랑 이어지는 거기 때문에 걸어오는 장면은 아주 짧게. 대신 바닥에서 무게감은 확실하게 슬로우 걸기",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.\nShot size: insert\nCamera angle: extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective\nCamera move: rapid forward push skimming just above the paving toward the advancing sneaker; brake to a brief near-still hold precisely as the sole contacts the concrete, letting the slow-motion footfall convey its weight\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Continue the entrance from the preceding cut with only a very brief glimpse of his approaching stride as the camera rushes toward one advancing chunky sneaker. Its underside briefly looms in the foreground before the shot ramps into pronounced slow motion at ground contact. As the camera briefly settles, linger on the sole planting firmly and his weight transferring onto the foot, with the thick white midsole prominent and the wide trouser hem swinging forward before settling above it. The other shoe remains visible farther behind; do not extend into another walking cycle.\nMood: Tactile fascination with weight and fabric.",
+					"spec":
+					{
+						"shot_name": "Man planting a sneaker beneath the swinging trouser hem",
+						"beat": 2,
+						"zone": "Open Court",
+						"shot_size": "insert",
+						"angle": "extreme ground-level, frontal worm’s-eye view looking upward beneath the approaching sneakers, with bold foreshortening and dynamic near-to-far perspective",
+						"camera_move": "rapid forward push skimming just above the paving toward the advancing sneaker; brake to a brief near-still hold precisely as the sole contacts the concrete, letting the slow-motion footfall convey its weight",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow strip of mid-gray concrete paving and a dark expansion joint below, with pale concrete architecture and clear pale sky behind the approaching feet.",
+						"action": "Continue the entrance from the preceding cut with only a very brief glimpse of his approaching stride as the camera rushes toward one advancing chunky sneaker. Its underside briefly looms in the foreground before the shot ramps into pronounced slow motion at ground contact. As the camera briefly settles, linger on the sole planting firmly and his weight transferring onto the foot, with the thick white midsole prominent and the wide trouser hem swinging forward before settling above it. The other shoe remains visible farther behind; do not extend into another walking cycle.",
+						"emotion": "Tactile fascination with weight and fabric.",
+						"transition": "Hard cut upward to the pockets and hands.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					},
+					"based_on": 3
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man casually tugging the back of his jacket collar",
+				"beat": 3,
+				"zone": "Open Court",
+				"shot_size": "close-up",
+				"angle": "front three-quarter, initially waist-level and becoming gently low-angle as the camera tilts toward his face",
+				"camera_move": "slow upward tilt from the trousers and waist, passing the jacket zipper and broad shoulders before settling into a tight upper-body close-up including his face",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "A pale concrete building façade.",
+				"action": "Man stops and settles into a relaxed pose, slipping one hand into a square front jacket pocket. As the framing travels upward from his wide trousers and waist along the large zipper, he raises the other hand to the back of the jacket neckline and gives the collar a natural, casual tug. The camera finishes tightly framing his upper torso, broad shoulders, and face as he maintains a confident expression.",
+				"emotion": "Chic, relaxed composure and quiet confidence.",
+				"transition": "Hard cut into an upward silhouette reveal.",
+				"atmosphere": null,
+				"duration_seconds": 3.3999999999999999
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale concrete building façade.\nShot size: close-up\nCamera angle: front three-quarter, initially waist-level and becoming gently low-angle as the camera tilts toward his face\nCamera move: slow upward tilt from the trousers and waist, passing the jacket zipper and broad shoulders before settling into a tight upper-body close-up including his face\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man stops and settles into a relaxed pose, slipping one hand into a square front jacket pocket. As the framing travels upward from his wide trousers and waist along the large zipper, he raises the other hand to the back of the jacket neckline and gives the collar a natural, casual tug. The camera finishes tightly framing his upper torso, broad shoulders, and face as he maintains a confident expression.\nMood: Chic, relaxed composure and quiet confidence.",
+			"images": [
+				"cut_03_001.jpg",
+				"cut_03_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale concrete building façade.\nShot size: close-up\nCamera angle: waist-level, front three-quarter\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Framed from lower chest to mid-thigh, Man slides both angular hands into the jacket’s square front pockets; the prominent cargo pocket and long strap on the nearer thigh settle against the wide trouser leg.\nMood: Deliberate composure.",
+					"spec":
+					{
+						"shot_name": "Man placing both hands into his jacket pockets",
+						"beat": 3,
+						"zone": "Open Court",
+						"shot_size": "close-up",
+						"angle": "waist-level, front three-quarter",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A pale concrete building façade.",
+						"action": "Framed from lower chest to mid-thigh, Man slides both angular hands into the jacket’s square front pockets; the prominent cargo pocket and long strap on the nearer thigh settle against the wide trouser leg.",
+						"emotion": "Deliberate composure.",
+						"transition": "Hard cut into an upward silhouette reveal.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				},
+				{
+					"modification": "카메라가 바지와 허리에서 시작해 재킷 지퍼와 어깨를 지나 얼굴까지 천천히 올라간다. 상반신을 더 크게 클로즈업한다. 캐릭터가 한 손을 재킷의 뒷목 부분에 가져다 대며 옷깃을 자연스럽게 잡아당긴다. 시크하고 여유로운 포즈. 캐릭터는 자신감 있는 표정 유지.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale concrete building façade.\nShot size: close-up\nCamera angle: front three-quarter, initially waist-level and becoming gently low-angle as the camera tilts toward his face\nCamera move: slow upward tilt from the trousers and waist, passing the jacket zipper and broad shoulders before settling into a tight upper-body close-up including his face\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man stops and settles into a relaxed pose, slipping one hand into a square front jacket pocket. As the framing travels upward from his wide trousers and waist along the large zipper, he raises the other hand to the back of the jacket neckline and gives the collar a natural, casual tug. The camera finishes tightly framing his upper torso, broad shoulders, and face as he maintains a confident expression.\nMood: Chic, relaxed composure and quiet confidence.",
+					"spec":
+					{
+						"shot_name": "Man casually tugging the back of his jacket collar",
+						"beat": 3,
+						"zone": "Open Court",
+						"shot_size": "close-up",
+						"angle": "front three-quarter, initially waist-level and becoming gently low-angle as the camera tilts toward his face",
+						"camera_move": "slow upward tilt from the trousers and waist, passing the jacket zipper and broad shoulders before settling into a tight upper-body close-up including his face",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A pale concrete building façade.",
+						"action": "Man stops and settles into a relaxed pose, slipping one hand into a square front jacket pocket. As the framing travels upward from his wide trousers and waist along the large zipper, he raises the other hand to the back of the jacket neckline and gives the collar a natural, casual tug. The camera finishes tightly framing his upper torso, broad shoulders, and face as he maintains a confident expression.",
+						"emotion": "Chic, relaxed composure and quiet confidence.",
+						"transition": "Hard cut into an upward silhouette reveal.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man presenting the jacket’s broad shoulder silhouette",
+				"beat": 4,
+				"zone": "Open Court",
+				"shot_size": "medium",
+				"angle": "low, frontal",
+				"camera_move": "fast upward tilt, settling on the shoulders and head",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "A pale building façade, its flat parapet, and a narrow strip of clear sky.",
+				"action": "Man holds his shoulders square and chin level; the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.",
+				"emotion": "Sculptural power.",
+				"transition": "Hard cut closer to the face and necklace.",
+				"atmosphere": null,
+				"duration_seconds": 1.333
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale building façade, its flat parapet, and a narrow strip of clear sky.\nShot size: medium\nCamera angle: low, frontal\nCamera move: fast upward tilt, settling on the shoulders and head\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man holds his shoulders square and chin level; the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.\nMood: Sculptural power.",
+			"images": [
+				"cut_04_001.jpg",
+				"cut_04_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale building façade, its flat parapet, and a narrow strip of clear sky.\nShot size: medium\nCamera angle: low, frontal\nCamera move: fast upward tilt, settling on the shoulders and head\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man holds his shoulders square and chin level; the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.\nMood: Sculptural power.",
+					"spec":
+					{
+						"shot_name": "Man presenting the jacket’s broad shoulder silhouette",
+						"beat": 4,
+						"zone": "Open Court",
+						"shot_size": "medium",
+						"angle": "low, frontal",
+						"camera_move": "fast upward tilt, settling on the shoulders and head",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A pale building façade, its flat parapet, and a narrow strip of clear sky.",
+						"action": "Man holds his shoulders square and chin level; the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.",
+						"emotion": "Sculptural power.",
+						"transition": "Hard cut closer to the face and necklace.",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					}
+				},
+				{
+					"modification": "카메라는 바닥에서 위를 올려다본다. 남자는 한 발씩 걸어오며 신발 밑창이 보이도록 한다. 과감한 로우 앵글, 역동적인 원근감.",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale building façade, its flat parapet, and a narrow strip of clear sky.\nShot size: full-body, tightening to medium as he approaches\nCamera angle: extreme low, frontal, looking steeply upward from paving level with exaggerated near-to-far perspective\nCamera move: fast upward tilt from the advancing sneaker soles, settling on the shoulders and head\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man walks toward the ground-level camera one step at a time, each advancing sneaker briefly exposing its sole toward the lens and looming large in the foreground. Both hands remain in his jacket pockets, his shoulders square and chin level. As the camera tilts upward, the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.\nMood: Sculptural power.",
+					"spec":
+					{
+						"shot_name": "Man approaching with exposed sneaker soles and broad shoulders",
+						"beat": 4,
+						"zone": "Open Court",
+						"shot_size": "full-body, tightening to medium as he approaches",
+						"angle": "extreme low, frontal, looking steeply upward from paving level with exaggerated near-to-far perspective",
+						"camera_move": "fast upward tilt from the advancing sneaker soles, settling on the shoulders and head",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A pale building façade, its flat parapet, and a narrow strip of clear sky.",
+						"action": "Man walks toward the ground-level camera one step at a time, each advancing sneaker briefly exposing its sole toward the lens and looming large in the foreground. Both hands remain in his jacket pockets, his shoulders square and chin level. As the camera tilts upward, the inflated angular jacket panels dominate the frame, with the bright T-shirt and large zipper dividing the dark torso.",
+						"emotion": "Sculptural power.",
+						"transition": "Hard cut closer to the face and necklace.",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man turning his head as the chain catches sunlight",
+				"beat": 5,
+				"zone": "Open Court",
+				"shot_size": "close-up",
+				"angle": "slightly low, front three-quarter",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "An uninterrupted pale concrete wall.",
+				"action": "Man turns his head slightly away from the lens without changing his neutral expression; a hard glint catches one exposed link of the silver chain above the white T-shirt.",
+				"emotion": "Restrained allure.",
+				"transition": "Hard cut to the orbit.",
+				"atmosphere": null,
+				"duration_seconds": 1.867
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: An uninterrupted pale concrete wall.\nShot size: close-up\nCamera angle: slightly low, front three-quarter\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man turns his head slightly away from the lens without changing his neutral expression; a hard glint catches one exposed link of the silver chain above the white T-shirt.\nMood: Restrained allure.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: An uninterrupted pale concrete wall.\nShot size: close-up\nCamera angle: slightly low, front three-quarter\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man turns his head slightly away from the lens without changing his neutral expression; a hard glint catches one exposed link of the silver chain above the white T-shirt.\nMood: Restrained allure.",
+					"spec":
+					{
+						"shot_name": "Man turning his head as the chain catches sunlight",
+						"beat": 5,
+						"zone": "Open Court",
+						"shot_size": "close-up",
+						"angle": "slightly low, front three-quarter",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "An uninterrupted pale concrete wall.",
+						"action": "Man turns his head slightly away from the lens without changing his neutral expression; a hard glint catches one exposed link of the silver chain above the white T-shirt.",
+						"emotion": "Restrained allure.",
+						"transition": "Hard cut to the orbit.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man walking across the plaza with a long angular shadow",
+				"beat": 6,
+				"zone": "Open Court",
+				"shot_size": "very wide, full body with generous surrounding space",
+				"angle": "low, right profile",
+				"camera_move": "lateral tracking from farther away, moving parallel to Man at his walking speed and maintaining a constant distance and right-profile view",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades; the adjoining Entry Walk wall, pedestrian opening, and square concrete structural pier remain visible, with the pier passing behind Man against the more distant façades to create depth through parallax.",
+				"action": "Man walks steadily with both hands in his jacket pockets, remaining consistently positioned in frame as the camera tracks alongside him; his boxy upper body, moving wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.",
+				"emotion": "Kinetic intensity around a steadily moving figure.",
+				"transition": "Hard cut from the lateral tracking shot to his face.",
+				"atmosphere": null,
+				"duration_seconds": 3.7999999999999998
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades; the adjoining Entry Walk wall, pedestrian opening, and square concrete structural pier remain visible, with the pier passing behind Man against the more distant façades to create depth through parallax.\nShot size: very wide, full body with generous surrounding space\nCamera angle: low, right profile\nCamera move: lateral tracking from farther away, moving parallel to Man at his walking speed and maintaining a constant distance and right-profile view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man walks steadily with both hands in his jacket pockets, remaining consistently positioned in frame as the camera tracks alongside him; his boxy upper body, moving wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.\nMood: Kinetic intensity around a steadily moving figure.",
+			"images": [
+				"cut_06_001.jpg",
+				"cut_06_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades.\nShot size: wide\nCamera angle: low, right profile at the orbit’s midpoint\nCamera move: fast 180-degree tracking arc at a constant radius, traveling from directly behind Man through his right profile to a frontal position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man remains planted with both hands in his jacket pockets; his boxy upper body, wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.\nMood: Kinetic intensity around an immovable figure.",
+					"spec":
+					{
+						"shot_name": "Man holding his silhouette above a long angular shadow",
+						"beat": 6,
+						"zone": "Open Court",
+						"shot_size": "wide",
+						"angle": "low, right profile at the orbit’s midpoint",
+						"camera_move": "fast 180-degree tracking arc at a constant radius, traveling from directly behind Man through his right profile to a frontal position",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades.",
+						"action": "Man remains planted with both hands in his jacket pockets; his boxy upper body, wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.",
+						"emotion": "Kinetic intensity around an immovable figure.",
+						"transition": "Hard cut from the orbit’s frontal endpoint to his face.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				},
+				{
+					"modification": "캐릭터가 걷는 동안 카메라가 옆에서 같은 속도로 따라가. 배경의 콘크리트 기둥이 지나가며 깊이감이 생겨. 좀 더 멀리서 찍어",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades; the adjoining Entry Walk wall, pedestrian opening, and square concrete structural pier remain visible, with the pier passing behind Man against the more distant façades to create depth through parallax.\nShot size: very wide, full body with generous surrounding space\nCamera angle: low, right profile\nCamera move: lateral tracking from farther away, moving parallel to Man at his walking speed and maintaining a constant distance and right-profile view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man walks steadily with both hands in his jacket pockets, remaining consistently positioned in frame as the camera tracks alongside him; his boxy upper body, moving wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.\nMood: Kinetic intensity around a steadily moving figure.",
+					"spec":
+					{
+						"shot_name": "Man walking across the plaza with a long angular shadow",
+						"beat": 6,
+						"zone": "Open Court",
+						"shot_size": "very wide, full body with generous surrounding space",
+						"angle": "low, right profile",
+						"camera_move": "lateral tracking from farther away, moving parallel to Man at his walking speed and maintaining a constant distance and right-profile view",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Open concrete paving, straight pavement joints, the low rectangular plinth, and the lower portions of the geometric building façades; the adjoining Entry Walk wall, pedestrian opening, and square concrete structural pier remain visible, with the pier passing behind Man against the more distant façades to create depth through parallax.",
+						"action": "Man walks steadily with both hands in his jacket pockets, remaining consistently positioned in frame as the camera tracks alongside him; his boxy upper body, moving wide trouser legs, and thick-soled shoes form a clear profile above a long, sharply edged shadow extending across the paving.",
+						"emotion": "Kinetic intensity around a steadily moving figure.",
+						"transition": "Hard cut from the lateral tracking shot to his face.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man fixing his gaze on the viewer",
+				"beat": 7,
+				"zone": "Open Court",
+				"shot_size": "medium, waist-up with the full jacket silhouette visible",
+				"angle": "eye level, beginning frontal and returning frontal after a complete orbit",
+				"camera_move": "one continuous 360-degree orbit around Man at a constant distance and height, ending at the starting frontal position",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "The pale concrete façade and dark rectangular recess begin and end the orbit; the surrounding geometric façades and open paving pass behind Man during the rotation, progressively falling into near-black.",
+				"action": "Man holds his head and torso motionless, his expression neutral and both hands inside his jacket pockets, while the camera circles him completely. His gaze meets the lens at the beginning and again as the orbit finishes, restoring direct confrontation before the cut. His broad, boxy jacket reads primarily in silhouette, while grazing highlights reveal its faceted surface texture, inflated angular panels, front zipper, and square pockets.",
+				"emotion": "Direct confrontation and confidence.",
+				"transition": "Hard cut to the centered full-body composition.",
+				"atmosphere": "During the orbit, illumination visibly falls away as though all surrounding lights have been switched off. Treat this as a cut-specific stylized lighting effect, not a change to nighttime: suppress the plaza's sunlight and ambient fill into near-black while retaining a narrow rim around Man and restrained grazing light across the near-black jacket. Keep the jacket's surface detail legible without flattening the silhouette or changing its material or design.",
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: During the orbit, illumination visibly falls away as though all surrounding lights have been switched off. Treat this as a cut-specific stylized lighting effect, not a change to nighttime: suppress the plaza's sunlight and ambient fill into near-black while retaining a narrow rim around Man and restrained grazing light across the near-black jacket. Keep the jacket's surface detail legible without flattening the silhouette or changing its material or design.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: The pale concrete façade and dark rectangular recess begin and end the orbit; the surrounding geometric façades and open paving pass behind Man during the rotation, progressively falling into near-black.\nShot size: medium, waist-up with the full jacket silhouette visible\nCamera angle: eye level, beginning frontal and returning frontal after a complete orbit\nCamera move: one continuous 360-degree orbit around Man at a constant distance and height, ending at the starting frontal position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man holds his head and torso motionless, his expression neutral and both hands inside his jacket pockets, while the camera circles him completely. His gaze meets the lens at the beginning and again as the orbit finishes, restoring direct confrontation before the cut. His broad, boxy jacket reads primarily in silhouette, while grazing highlights reveal its faceted surface texture, inflated angular panels, front zipper, and square pockets.\nMood: Direct confrontation and confidence.",
+			"images": [
+				"cut_07_001.jpg",
+				"cut_07_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: A pale concrete façade interrupted by one dark rectangular recess.\nShot size: close-up\nCamera angle: eye level, frontal\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man looks directly into the lens, his head motionless and expression neutral; the faceted jaw, pale buzz cut, jacket collar, and upper edge of the silver chain remain clearly visible.\nMood: Direct confrontation and confidence.",
+					"spec":
+					{
+						"shot_name": "Man fixing his gaze on the viewer",
+						"beat": 7,
+						"zone": "Open Court",
+						"shot_size": "close-up",
+						"angle": "eye level, frontal",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "A pale concrete façade interrupted by one dark rectangular recess.",
+						"action": "Man looks directly into the lens, his head motionless and expression neutral; the faceted jaw, pale buzz cut, jacket collar, and upper edge of the silver chain remain clearly visible.",
+						"emotion": "Direct confrontation and confidence.",
+						"transition": "Hard cut to the centered full-body composition.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				},
+				{
+					"modification": "캐릭터를 중심으로 카메라가 한바퀴 돌면서, 주위 모든 조명을 끈 것 처럼 어두워지고 캐릭터의 실루엣 위주로 보이게 한다. 자켓의 질감이 잘 보이도록 한다",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: During the orbit, illumination visibly falls away as though all surrounding lights have been switched off. Treat this as a cut-specific stylized lighting effect, not a change to nighttime: suppress the plaza's sunlight and ambient fill into near-black while retaining a narrow rim around Man and restrained grazing light across the near-black jacket. Keep the jacket's surface detail legible without flattening the silhouette or changing its material or design.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: The pale concrete façade and dark rectangular recess begin and end the orbit; the surrounding geometric façades and open paving pass behind Man during the rotation, progressively falling into near-black.\nShot size: medium, waist-up with the full jacket silhouette visible\nCamera angle: eye level, beginning frontal and returning frontal after a complete orbit\nCamera move: one continuous 360-degree orbit around Man at a constant distance and height, ending at the starting frontal position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man holds his head and torso motionless, his expression neutral and both hands inside his jacket pockets, while the camera circles him completely. His gaze meets the lens at the beginning and again as the orbit finishes, restoring direct confrontation before the cut. His broad, boxy jacket reads primarily in silhouette, while grazing highlights reveal its faceted surface texture, inflated angular panels, front zipper, and square pockets.\nMood: Direct confrontation and confidence.",
+					"spec":
+					{
+						"shot_name": "Man fixing his gaze on the viewer",
+						"beat": 7,
+						"zone": "Open Court",
+						"shot_size": "medium, waist-up with the full jacket silhouette visible",
+						"angle": "eye level, beginning frontal and returning frontal after a complete orbit",
+						"camera_move": "one continuous 360-degree orbit around Man at a constant distance and height, ending at the starting frontal position",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "The pale concrete façade and dark rectangular recess begin and end the orbit; the surrounding geometric façades and open paving pass behind Man during the rotation, progressively falling into near-black.",
+						"action": "Man holds his head and torso motionless, his expression neutral and both hands inside his jacket pockets, while the camera circles him completely. His gaze meets the lens at the beginning and again as the orbit finishes, restoring direct confrontation before the cut. His broad, boxy jacket reads primarily in silhouette, while grazing highlights reveal its faceted surface texture, inflated angular panels, front zipper, and square pockets.",
+						"emotion": "Direct confrontation and confidence.",
+						"transition": "Hard cut to the centered full-body composition.",
+						"atmosphere": "During the orbit, illumination visibly falls away as though all surrounding lights have been switched off. Treat this as a cut-specific stylized lighting effect, not a change to nighttime: suppress the plaza's sunlight and ambient fill into near-black while retaining a narrow rim around Man and restrained grazing light across the near-black jacket. Keep the jacket's surface detail legible without flattening the silhouette or changing its material or design.",
+						"duration_seconds": 2
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man holding center as the brand wordmark appears",
+				"beat": 8,
+				"zone": "Open Court",
+				"shot_size": "wide",
+				"angle": "eye level, frontal",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "Open concrete paving, a pale blank façade, the low rectangular plinth at the frame edge, and a thin band of clear sky.",
+				"action": "Man stands full-length at the exact horizontal center, feet planted, hands inside his jacket pockets, and face directed toward the viewer; a small white uppercase sans-serif wordmark reading “BRAND” appears at lower center over the paving, clear of his shoes and silhouette.",
+				"emotion": "Resolved, minimal confidence.",
+				"transition": "Hard cut to full black, ending the sequence.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Open concrete paving, a pale blank façade, the low rectangular plinth at the frame edge, and a thin band of clear sky.\nShot size: wide\nCamera angle: eye level, frontal\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man stands full-length at the exact horizontal center, feet planted, hands inside his jacket pockets, and face directed toward the viewer; a small white uppercase sans-serif wordmark reading “BRAND” appears at lower center over the paving, clear of his shoes and silhouette.\nMood: Resolved, minimal confidence.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary low-poly urban plaza combines pale and mid-gray concrete, severe geometric architecture, near-black recesses, and a clear pale sky under hard afternoon sunlight.\nLocation: Minimalist civic plaza, outdoor.\nAtmosphere: Late afternoon, clear, dry, windless, hard, low western sunlight with sharply defined elongated shadows and restrained ambient fill.\nThis cut happens at Open Court: An open expanse of square concrete paving with straight joints, a low rectangular concrete plinth along the far edge, two flat-roofed building façades with deep rectangular recesses, and clear sky; the adjoining Entry Walk wall and its pedestrian opening remain directly visible from the entrance side\nBackdrop, behind the action: Open concrete paving, a pale blank façade, the low rectangular plinth at the frame edge, and a thin band of clear sky.\nShot size: wide\nCamera angle: eye level, frontal\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult male low-poly 3D game character): approximately 185 cm tall, slim, with a head approximately one-seventh-and-a-half of his total height, broad shoulders, a narrow waist, and long, naturally balanced limbs; angular polygonal head, hands, and facial planes; short yellow-blond buzz cut reading as light gray, an angular jaw, and a neutral expression; near-black cropped oversized padded jacket with inflated angular panels, broad shoulders, a large front zipper, and square front pockets; white layered T-shirt; near-black wide cargo trousers falling broadly from waist to ankle, with large square side pockets and long hanging straps; near-black chunky sneakers with thick white midsoles; short silver chain necklace Signature, drawn only where this angle exposes it: unmistakable from every angle through the small head above a broad, boxy cropped jacket, long wide trouser silhouette, and oversized thick-soled footwear; pale buzz cut and faceted jaw provide additional recognition.\nAction: Man stands full-length at the exact horizontal center, feet planted, hands inside his jacket pockets, and face directed toward the viewer; a small white uppercase sans-serif wordmark reading “BRAND” appears at lower center over the paving, clear of his shoes and silhouette.\nMood: Resolved, minimal confidence.",
+					"spec":
+					{
+						"shot_name": "Man holding center as the brand wordmark appears",
+						"beat": 8,
+						"zone": "Open Court",
+						"shot_size": "wide",
+						"angle": "eye level, frontal",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Open concrete paving, a pale blank façade, the low rectangular plinth at the frame edge, and a thin band of clear sky.",
+						"action": "Man stands full-length at the exact horizontal center, feet planted, hands inside his jacket pockets, and face directed toward the viewer; a small white uppercase sans-serif wordmark reading “BRAND” appears at lower center over the paving, clear of his shoes and silhouette.",
+						"emotion": "Resolved, minimal confidence.",
+						"transition": "Hard cut to full black, ending the sequence.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		}
+	]
+}

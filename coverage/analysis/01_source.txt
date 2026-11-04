@@ -1,0 +1,225 @@
+PROJECT 야간 인수인계 - 스토리보드 8컷
+
+야간 인수인계
+
+등장인물
+지원 — 20대 후반의 회사원. 얇은 검은 문서 파우치와 스마트폰을 들고 있다.
+
+S#1. 도심 오피스 지구 / 저녁 / 비가 막 그친 직후
+
+유리 외벽의 사무실 건물 두 동이 나란히 서 있다.
+젖은 보도에는 간판과 창문 불빛이 길게 비친다.
+
+건물 A의 밝은 로비 출입구에서 지원이 나온다.
+프론트 미들샷.
+지원은 문서 파우치를 가슴에 안고 스마트폰 화면을 확인한다.
+
+화면에는 짧은 알림이 떠 있다.
+
+“B동 로비로 와.”
+
+지원은 고개를 들어 오른쪽의 건물 B를 본다.
+두 건물 사이에는 배송 차량과 재활용함이 놓인 좁은 서비스 통로가 있다.
+
+지원은 보도를 따라 걷기 시작한다.
+카메라는 뒤에서 지원을 따라간다.
+
+지원은 카페의 닫힌 테라스와 가로등을 지나 통로 입구로 들어간다.
+신발이 얕은 물웅덩이를 밟아 작은 물보라가 튄다.
+
+통로 안은 어둡고, 벽의 보안등만 푸른빛을 낸다.
+파란 재활용함과 검은 쓰레기통 옆에서 지원이 멈춘다.
+
+문서 파우치의 지퍼가 반쯤 열려 있는 것을 발견한 지원은 안을 확인한다.
+출입 카드가 없다.
+
+지원은 재활용함 윗면에 놓인 출입 카드를 발견하고 집어 든다.
+카드에는 빗방울이 맺혀 있다.
+
+지원의 스마트폰이 다시 울린다.
+지원은 카드를 파우치에 넣고 통로를 빠져나온다.
+
+지원은 처음 나왔던 건물 A의 출입구를 지나, 바로 옆 건물 B의 유리 로비로 걸어간다.
+
+카드를 리더기에 대자 녹색 불빛이 켜진다.
+지원이 건물 B 안으로 들어가고, 닫히는 유리문에 젖은 도시의 불빛이 비친다.
+
+컷 투 블랙.
+
+
+PANELS
+[
+  {
+    "shot_name": "지원이 A동을 나와 스마트폰 확인하기",
+    "beat": 1,
+    "zone": "A동 전면 보도",
+    "shot_size": "medium",
+    "angle": "eye level, frontal",
+    "camera_move": "static",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰"
+    ],
+    "subject_states": [],
+    "backdrop": "The bright glass lobby and entrance doors of Building A behind Jiwon, with warm reflections on the wet sidewalk extending to her feet.",
+    "action": "Jiwon stands one step outside the bright entrance, holding the document pouch to her chest as she looks down at the illuminated smartphone screen.",
+    "emotion": "Tension and curiosity that the workday is not yet over.",
+    "transition": "Hard cut following Jiwon's gaze toward the smartphone.",
+    "atmosphere": null,
+    "duration_seconds": 2.5
+  },
+  {
+    "shot_name": "지원이 메시지를 읽고 B동 바라보기",
+    "beat": 1,
+    "zone": "A동 전면 보도",
+    "shot_size": "close-up",
+    "angle": "over-the-shoulder",
+    "camera_move": "static",
+    "subjects_present": [
+      "지원",
+      "스마트폰"
+    ],
+    "subject_states": [],
+    "backdrop": "Beyond the smartphone, the glowing glass frontage of Building B on the right and the entrance to the narrow passage between the two buildings.",
+    "action": "The notification “Come to the Building B lobby.” is clearly visible on the smartphone screen in the foreground, and Jiwon raises her head from the screen to look at Building B in the background.",
+    "emotion": "Heightening urgency as the destination is confirmed.",
+    "transition": "Hard cut carrying Jiwon's rightward eyeline into her direction of travel.",
+    "atmosphere": null,
+    "duration_seconds": 2
+  },
+  {
+    "shot_name": "지원이 물웅덩이를 밟으며 서비스 통로로 들어가기",
+    "beat": 2,
+    "zone": "A동 전면 보도",
+    "shot_size": "wide",
+    "angle": "eye level, rear",
+    "camera_move": "tracking",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰"
+    ],
+    "subject_states": [],
+    "backdrop": "The closed café terrace and streetlights, long smeared reflections across the sidewalk, and the dark passage entrance ahead with part of a delivery vehicle visible inside.",
+    "action": "Jiwon walks quickly along the sidewalk and enters the passage, stepping into a shallow puddle with her black shoe and sending a small splash around her ankle.",
+    "emotion": "Anxiety as she crosses from the bright street into darkness.",
+    "transition": "Hard cut as the dark area of the passage fills the frame.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "지원이 열린 파우치에서 사라진 카드를 확인하기",
+    "beat": 3,
+    "zone": "서비스 통로",
+    "shot_size": "close-up",
+    "angle": "high, over-the-shoulder",
+    "camera_move": "handheld",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰",
+      "파란 재활용함"
+    ],
+    "subject_states": [
+      {
+        "subject": "문서 파우치",
+        "state": "The perimeter zipper is half open and the interior is spread apart."
+      }
+    ],
+    "backdrop": "The blue recycling bin and black trash bin at the edge of the frame, with blue security light bleeding across the wet wall.",
+    "action": "Jiwon spreads the pouch opening and searches inside with her fingers, but the transparent card pocket within is empty, and her brows tense.",
+    "emotion": "Sudden confusion and nervousness.",
+    "transition": "Hard cut shifting attention from Jiwon's frozen hand to the top of the recycling bin.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "지원이 재활용함 위의 출입 카드 집기",
+    "beat": 4,
+    "zone": "서비스 통로",
+    "shot_size": "insert",
+    "angle": "top-down",
+    "camera_move": "static",
+    "subjects_present": [
+      "지원",
+      "출입 카드",
+      "파란 재활용함"
+    ],
+    "subject_states": [],
+    "backdrop": "The flat, stepped lid of the recycling bin, stained with rainwater.",
+    "action": "The access card lies on top of the recycling bin with raindrops beaded on it, and Jiwon's fingers grasp the card by its diagonal corner and lift it.",
+    "emotion": "Immediate, sharp relief.",
+    "transition": "Match cut linking the motion of the rising card to the motion toward the pouch.",
+    "atmosphere": null,
+    "duration_seconds": 1.5
+  },
+  {
+    "shot_name": "지원이 울리는 스마트폰을 들고 카드를 챙기기",
+    "beat": 5,
+    "zone": "서비스 통로",
+    "shot_size": "medium",
+    "angle": "eye level, three-quarter side",
+    "camera_move": "pan",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰",
+      "출입 카드",
+      "파란 재활용함"
+    ],
+    "subject_states": [
+      {
+        "subject": "문서 파우치",
+        "state": "The zipper remains half open."
+      }
+    ],
+    "backdrop": "The blue recycling bin and blue security light behind Jiwon, with the front sidewalk exit opening brightly in the direction she is heading.",
+    "action": "The smartphone screen lights up and vibrates again, and Jiwon pushes the wet access card into the open pouch while turning her body toward the bright exit.",
+    "emotion": "A new summons pushing aside her relief.",
+    "transition": "Match cut carrying Jiwon's turn toward the exit onto the front sidewalk.",
+    "atmosphere": null,
+    "duration_seconds": 2.5
+  },
+  {
+    "shot_name": "지원이 A동 앞을 지나 B동으로 향하기",
+    "beat": 5,
+    "zone": "A동 전면 보도",
+    "shot_size": "wide",
+    "angle": "eye level, rear",
+    "camera_move": "tracking",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰"
+    ],
+    "subject_states": [],
+    "backdrop": "The bright Building A entrance on one side, the adjoining Building B glass lobby and card-access doors, the passage entrance receding behind, and long window-light reflections on the wet sidewalk.",
+    "action": "Holding the closed document pouch to her chest again, Jiwon passes the Building A entrance and approaches the Building B glass doors at a quick pace.",
+    "emotion": "Tension and anticipation with the destination in sight.",
+    "transition": "Hard cut as Jiwon reaches toward the card reader.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "지원이 출입 카드를 대고 B동 안으로 들어가기",
+    "beat": 6,
+    "zone": "B동 유리 출입구",
+    "shot_size": "medium",
+    "angle": "eye level, three-quarter rear",
+    "camera_move": "static",
+    "subjects_present": [
+      "지원",
+      "문서 파우치",
+      "스마트폰",
+      "출입 카드"
+    ],
+    "subject_states": [],
+    "backdrop": "The bright interior of the Building B lobby and the automatic glass doors layered with reflections of signage and window lights from the wet city.",
+    "action": "Jiwon crosses the threshold while holding the access card to the reader, and as the reader's green light comes on, the glass doors begin to close behind her.",
+    "emotion": "Relief at reaching the place where her task will continue, with a quiet lingering afterglow.",
+    "transition": "Cut to black.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  }
+]

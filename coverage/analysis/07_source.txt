@@ -1,0 +1,324 @@
+PROJECT 터널 효과의 이론과 실제 사이
+
+ 소인의 뒷모습이 사람들 사이로 사라져갔다. 똑같은 검은색 사이 얼핏 갈색으로 빛나는 그녀의 머리칼을 놓치지 않으려 나의 팔은 자꾸 앞으로 향했다. 
+
+서울역행 열차가 지금 들어옵니다.
+
+철도 소리가 내 고막에 메아리쳐 들린다. 나의 구두가 미끌거리는 계단을 용캐도 붙들며 달려갔다. 
+
+“소인아!”
+
+갈빛의 머리칼이 휘날리는 검은 실들 사이에 우두커니 서있었다. 오고가는 사람들 사이 소인의 검은 눈동자가 나를 반듯하게 향하고 있었다.
+
+“소인아..”
+
+그러나 나의 목소리는 그녀에게 향하지 않는 듯 했다. 너무나 검은 눈동자 속에는 내가 비치면서 담겨있지 않았다.
+
+“나 왜 부른거야.”
+
+“이렇게 헤어지지 말자 우리.”
+
+지하철 문이 닫힙니다. 다음 열차를 이용해주세요.
+
+바쁜 승강장에 멈춰 있는 것은 우리 둘 뿐이었다.
+
+“나랑 왜 계속 만나고 싶은데?”
+
+머릿속에 질문만 돌아다녔다. 그러게. 나는 왜 소인이와 계속 만나고 싶을까. 요즘들어 고민했지만, 늘 대답하지 못했던 질문이었다. 이 질문이 결국 나에게 족쇄로 다가올 줄 지금이 오기까지 나는 몰랐다.
+
+“...”
+
+소인의 눈이 허공을 향했다. 또 그렇듯 그녀의 눈물이 차오르는 것이 보였다.
+
+“넌 나한테서 마음이 떠난거야.”
+
+‘아니야-’ 라는 말이 차마 목구멍 위로 나오지 않았다. 이 울컥거림을 누를 수 있는 다른 말이 필요했다.
+
+“너는?”
+
+“하.”
+
+서울역행 열차가 지금 들어옵니다.
+
+ 소인의 머리카락이 기차의 바람에 흔들렸다. 그렇게나 닿고 싶었던 그녀였는데 어째서인지 다가갈 수 없었다. 
+
+문이 열립니다.
+
+ 소인이 다른 사람들과 함께 기차 안으로 밀려들어갔다.
+나의 고개도 소인을 따라 왼쪽을 향했다.
+
+지하철 문이 닫힙니다. 다음 열차를 이용해주세요.
+
+ 나의 눈은 소인을 바라보고 있었다.
+ 눈물이 났다.
+
+PANELS
+[
+  {
+    "shot_name": "Soin disappearing into the descending commuters",
+    "beat": 1,
+    "zone": "Wet stairwell",
+    "shot_size": "wide",
+    "angle": "high, looking down the stairs from behind the narrator",
+    "camera_move": "tracking forward",
+    "subjects_present": [
+      "Narrator",
+      "Soin",
+      "Commuters"
+    ],
+    "subject_states": [],
+    "backdrop": "Damp stair treads, converging steel handrails, pale tiled walls, and the lower landing’s amber repeater reading “Train bound for Seoul Station entering.”",
+    "action": "Soin descends ahead of the narrator with her back turned. Moving black coats repeatedly obscure her medium-gray bob. The narrator extends an arm through an opening between commuters, without reaching her.",
+    "emotion": "Panic at losing one recognizable person inside an anonymous crowd.",
+    "transition": "Hard cut to the narrator’s shoes.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Narrator’s shoes gripping the wet stairs",
+    "beat": 2,
+    "zone": "Wet stairwell",
+    "shot_size": "insert",
+    "angle": "steep high angle",
+    "camera_move": "tilt downward",
+    "subjects_present": [
+      "Narrator"
+    ],
+    "subject_states": [],
+    "backdrop": "Two glossy dark stair treads, their pale worn edges, and a narrow strip of tiled sidewall.",
+    "action": "A black shoe lands slightly sideways on a wet tread, catches against its edge, and pushes off. The other shoe immediately strikes the next step.",
+    "emotion": "Breathless urgency.",
+    "transition": "Hard cut on the downward footfall.",
+    "atmosphere": null,
+    "duration_seconds": 1.5
+  },
+  {
+    "shot_name": "Narrator calling Soin to a halt",
+    "beat": 3,
+    "zone": "Stair landing",
+    "shot_size": "wide",
+    "angle": "eye level, from the landward side of the platform",
+    "camera_move": "pan left",
+    "subjects_present": [
+      "Narrator",
+      "Soin",
+      "Commuters",
+      "Seoul-bound train"
+    ],
+    "subject_states": [],
+    "backdrop": "The tiled landing column and overhead directional sign; through the adjoining boarding bay, the first train stands with its doors open.",
+    "action": "The narrator emerges from the stairs at frame right and calls, “Soin!” Soin stops near the left edge of the landing with her back still turned. Commuters continue around her as the narrator strides toward the boarding bay.",
+    "emotion": "A sudden, precarious opening.",
+    "transition": "Hard cut, preserving Soin on the left and the narrator on the right.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Soin turning to question the narrator",
+    "beat": 4,
+    "zone": "Boarding bay",
+    "shot_size": "medium",
+    "angle": "eye level, oblique two-shot from the landward side",
+    "camera_move": "static",
+    "subjects_present": [
+      "Soin",
+      "Narrator",
+      "Commuters",
+      "Seoul-bound train"
+    ],
+    "subject_states": [],
+    "backdrop": "The first train’s open doorway and charcoal window band, with dark-coated commuters crossing the platform.",
+    "action": "Soin turns toward the narrator, who has stopped several paces away. Their eyes meet without a smile or welcoming movement. The narrator repeats, “Soin…” Soin asks, “Why did you call me?”",
+    "emotion": "Estrangement despite physical proximity.",
+    "transition": "Hard cut toward the narrator’s side of the exchange.",
+    "atmosphere": null,
+    "duration_seconds": 4.5
+  },
+  {
+    "shot_name": "Narrator asking Soin not to leave this way",
+    "beat": 5,
+    "zone": "Boarding bay",
+    "shot_size": "close-up",
+    "angle": "eye level, over Soin’s shoulder",
+    "camera_move": "slow dolly forward",
+    "subjects_present": [
+      "Narrator",
+      "Soin"
+    ],
+    "subject_states": [],
+    "backdrop": "The pale tiled platform column behind the narrator; Soin’s blunt bob and dark shoulder occupy the left foreground.",
+    "action": "The narrator’s outstretched hand drops to chest height. Looking directly at Soin, they say, “Let’s not break up like this.” Their fingers remain open, but they do not touch her.",
+    "emotion": "Exposed vulnerability.",
+    "transition": "Hard cut outward to restore the distance between them.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "Soin asking why the narrator wants to stay together",
+    "beat": 6,
+    "zone": "Boarding bay",
+    "shot_size": "wide",
+    "angle": "eye level, from the landward side",
+    "camera_move": "static",
+    "subjects_present": [
+      "Soin",
+      "Narrator",
+      "Commuters",
+      "Seoul-bound train"
+    ],
+    "subject_states": [],
+    "backdrop": "The first train’s paired doors, the ribbed platform edge, the tiled column, and the overhead amber board displaying “The doors are closing.”",
+    "action": "The train doors slide together behind Soin. Commuters cross around the stationary pair. Soin asks, “Why do you want to keep seeing me?” The narrator’s open hand becomes still.",
+    "emotion": "Dread as the plea becomes a question that demands an answer.",
+    "transition": "Hard cut to the narrator’s face.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Narrator failing to answer Soin",
+    "beat": 7,
+    "zone": "Boarding bay",
+    "shot_size": "close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Narrator"
+    ],
+    "subject_states": [],
+    "backdrop": "A softly resolved patch of the bay’s pale tiled column.",
+    "action": "The narrator’s lips part. Their jaw tightens, their eyes search briefly across Soin’s position, and their mouth closes without an answer.",
+    "emotion": "Helplessness and the shame of having no convincing words.",
+    "transition": "Elliptical hard cut across the unanswered pause.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Soin naming the love she believes has gone",
+    "beat": 8,
+    "zone": "Boarding bay",
+    "shot_size": "close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Soin"
+    ],
+    "subject_states": [
+      {
+        "subject": "Soin",
+        "state": "Tears pool visibly along both lower eyelids."
+      }
+    ],
+    "backdrop": "The dark tiled wall across the now-unoccupied track, softly out of focus.",
+    "action": "Soin’s gaze slips away from the narrator toward empty space beside them. Moisture gathers along her lower eyelids. With her chin held almost level, she says, “Your feelings for me are gone.”",
+    "emotion": "Hurt hardening into a conclusion.",
+    "transition": "Hard cut to both figures.",
+    "atmosphere": null,
+    "duration_seconds": 4.5
+  },
+  {
+    "shot_name": "Narrator turning Soin’s question back on her",
+    "beat": 9,
+    "zone": "Boarding bay",
+    "shot_size": "medium",
+    "angle": "eye level, oblique two-shot from the landward side",
+    "camera_move": "static",
+    "subjects_present": [
+      "Narrator",
+      "Soin",
+      "Commuters"
+    ],
+    "subject_states": [
+      {
+        "subject": "Soin",
+        "state": "Tears remain pooled along both lower eyelids."
+      }
+    ],
+    "backdrop": "Empty track, the dark wall beyond it, and dark-coated commuters passing at the outer edges of the frame.",
+    "action": "At frame right, the narrator swallows and asks, “What about you?” Soin remains at frame left. Her shoulders lift slightly; her lips open on a short, disbelieving “Ha.”",
+    "emotion": "The sting of a defensive answer arriving where reassurance was needed.",
+    "transition": "Hard cut wider as the next train enters the bay.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Soin’s hair lifting beside the arriving train",
+    "beat": 10,
+    "zone": "Boarding bay",
+    "shot_size": "wide",
+    "angle": "eye level, from the landward side",
+    "camera_move": "static",
+    "subjects_present": [
+      "Soin",
+      "Narrator",
+      "Commuters",
+      "Seoul-bound train"
+    ],
+    "subject_states": [
+      {
+        "subject": "Soin",
+        "state": "Tears remain pooled along both lower eyelids; the ends of her bob lift outward in the train’s slipstream."
+      }
+    ],
+    "backdrop": "The second train’s light metal side and charcoal windows moving right to left beside the ribbed platform edge.",
+    "action": "A second, identically styled train decelerates into position behind Soin. Its slipstream lifts her hair. The narrator raises a hand slightly toward her, but their feet remain planted and the space between them stays open.",
+    "emotion": "Paralysis at the last available chance.",
+    "transition": "Hard cut to the doorway as boarding begins.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Soin boarding while the narrator follows her with their gaze",
+    "beat": 11,
+    "zone": "Boarding bay",
+    "shot_size": "medium",
+    "angle": "eye level, from the landward side",
+    "camera_move": "pan left",
+    "subjects_present": [
+      "Soin",
+      "Narrator",
+      "Commuters",
+      "Seoul-bound train"
+    ],
+    "subject_states": [
+      {
+        "subject": "Soin",
+        "state": "Tears remain pooled along both lower eyelids; a narrow tear track marks her near cheek, and her hair ends remain wind-tossed."
+      }
+    ],
+    "backdrop": "An open train doorway at frame left, its bright interior, adjacent dark windows, and the platform safety strip.",
+    "action": "Commuters converge through the open doorway, carrying Soin forward within their movement. She crosses the threshold without reaching back. The narrator remains outside at frame right and turns their head left to follow her.",
+    "emotion": "Separation becoming physical.",
+    "transition": "Hard cut to the closing barrier between their faces.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Narrator crying as the doors close on Soin",
+    "beat": 12,
+    "zone": "Boarding bay",
+    "shot_size": "close-up",
+    "angle": "eye level, oblique profile along the train side",
+    "camera_move": "static",
+    "subjects_present": [
+      "Narrator",
+      "Soin",
+      "Seoul-bound train"
+    ],
+    "subject_states": [
+      {
+        "subject": "Narrator",
+        "state": "Eyes are wet, with a fresh tear running down the visible cheek."
+      },
+      {
+        "subject": "Soin",
+        "state": "Tears remain pooled along her lower eyelids, and the narrow tear track remains on her visible cheek; her hair has settled back into its blunt outline."
+      }
+    ],
+    "backdrop": "The train’s paired door windows and bright interior, with Soin’s three-quarter profile visible through the left window.",
+    "action": "The doors meet between them. The narrator fills the right foreground, facing left toward Soin through the glass. Soin looks inward along the carriage rather than back at the narrator. A tear crosses the narrator’s cheek while their gaze stays fixed on her.",
+    "emotion": "Irreversible loss.",
+    "transition": "Hold on the closed doors and the narrator’s tear, then cut to black.",
+    "atmosphere": null,
+    "duration_seconds": 4.5
+  }
+]

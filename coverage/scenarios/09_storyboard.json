@@ -1,0 +1,648 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "<배경>\n배경은 프랑스 파리 벨빌의 오래된 주거 골목이다. 좁은 일방통행 도로 양옆으로 오래된 4~6층 건물이 빽빽하게 붙어 있다. 건물 1층에는 작은 카페와 동네 상점이 있고, 외벽에는 낡은 간판과 에어컨 실외기가 설치되어 있다. 좁은 보도에는 전봇대와 주차된 스쿠터, 작은 벤치가 놓여 있다. 동네 주민들이 걸어 다니고 가게 앞에서 이야기를 나눈다. 도로는 넓고 텅 빈 공간이 아니라 건물과 사람, 생활용품으로 밀도 있게 채워져 있다. 자연스럽고 거친 필름 질감의 흑백 도시 풍경.\n<주인공>\n검은색 오버사이즈 재킷, 넓은 카고 팬츠, 두꺼운 스니커즈, 은색 체인을 착용한 젊은 남성. 모든 컷에서 동일한 인물과 의상을 유지한다.\n\n*S#1. 오래된 도심 골목 / 늦은 오후\n남자가 거친 콘크리트 바닥 위로 스케이트보드를 타고 좁은 골목을 미끄러지듯 통과한다. 건물의 수직선과 그림자가 인물의 움직임에 맞춰 흐른다.\n\n남자가 보드의 뒤쪽을 바닥에 튕겨 높이 점프한다. 점프 정점에서 보드가 발밑에 떠 있고, 무릎과 보드가 서로 다른 각도로 접힌다. 어안렌즈로 골목이 둥글게 휘어 보인다. 순간적으로 시간이 멈춘 듯한 장면.\n\n남자가 착지하고 주차된 스쿠터 옆을 아주 가까이 지나간다.\n\n남자는 골목을 따라 길게 이어진 콘크리트 벽을 향해 대각선으로 접근한다. 벽 가까이에 도달하는 순간 보드를 벽 쪽으로 기울이며, 보드의 바퀴가 벽면에 닿은 상태로 비스듬히 짧은 거리를 타고 이동한다. 몸은 벽 쪽으로 기울어져 있고, 양발은 보드 위에 단단히 올려져 있다. 보드가 벽면을 따라 미끄러지듯 움직이며 잠시 바닥에서 떠 있는 듯한 역동적인 모습을 만든다. 이후 벽에서 바닥 쪽으로 방향을 틀어 네 바퀴가 콘크리트 바닥에 다시 착지한다. 남자는 균형을 잃지 않고 자연스럽게 주행을 이어간다.\n\n골목 모퉁이에서 자전거가 갑자기 나타난다. 보드와 자전거가 마주치는 순간 남자가 몸을 옆으로 크게 기울인다. 바퀴가 서로 스칠 듯 가까워지고, 카메라는 두 사람의 얼굴을 화면에 가득 담는 익스트림 클로즈업으로 전환된다. 놀란 눈빛과 긴장한 표정, 서로에게 가까워지는 거리가 강조된다. 두 사람의 움직임에만 슬로모션이 적용되고 배경은 흐릿해진다. 두 사람은 서로를 피하기 위해 순간적으로 방향을 틀고, 간발의 차이로 충돌을 피한다.\n\n남자가 골목 끝의 강한 햇빛 속으로 사라진다. 잠시 뒤 스케이트보드 바퀴가 화면을 빠르게 스쳐 지나간다. 텅 빈 골목에는 길게 드리운 그림자만 남는다.",
+	"draft_prompt": "<배경>\n배경은 프랑스 파리 벨빌의 오래된 주거 골목이다. 좁은 일방통행 도로 양옆으로 오래된 4~6층 건물이 빽빽하게 붙어 있다. 건물 1층에는 작은 카페와 동네 상점이 있고, 외벽에는 낡은 간판과 에어컨 실외기가 설치되어 있다. 좁은 보도에는 전봇대와 주차된 스쿠터, 작은 벤치가 놓여 있다. 동네 주민들이 걸어 다니고 가게 앞에서 이야기를 나눈다. 도로는 넓고 텅 빈 공간이 아니라 건물과 사람, 생활용품으로 밀도 있게 채워져 있다. 자연스럽고 거친 필름 질감의 흑백 도시 풍경.\n<주인공>\n검은색 오버사이즈 재킷, 넓은 카고 팬츠, 두꺼운 스니커즈, 은색 체인을 착용한 젊은 남성. 모든 컷에서 동일한 인물과 의상을 유지한다.\n\n*S#1. 오래된 도심 골목 / 늦은 오후\n남자가 거친 콘크리트 바닥 위로 스케이트보드를 타고 좁은 골목을 미끄러지듯 통과한다. 건물의 수직선과 그림자가 인물의 움직임에 맞춰 흐른다.\n\n남자가 보드의 뒤쪽을 바닥에 튕겨 높이 점프한다. 점프 정점에서 보드가 발밑에 떠 있고, 무릎과 보드가 서로 다른 각도로 접힌다. 어안렌즈로 골목이 둥글게 휘어 보인다. 순간적으로 시간이 멈춘 듯한 장면.\n\n남자가 착지하고 주차된 스쿠터 옆을 아주 가까이 지나간다.\n\n남자는 골목을 따라 길게 이어진 콘크리트 벽을 향해 대각선으로 접근한다. 벽 가까이에 도달하는 순간 보드를 벽 쪽으로 기울이며, 보드의 바퀴가 벽면에 닿은 상태로 비스듬히 짧은 거리를 타고 이동한다. 몸은 벽 쪽으로 기울어져 있고, 양발은 보드 위에 단단히 올려져 있다. 보드가 벽면을 따라 미끄러지듯 움직이며 잠시 바닥에서 떠 있는 듯한 역동적인 모습을 만든다. 이후 벽에서 바닥 쪽으로 방향을 틀어 네 바퀴가 콘크리트 바닥에 다시 착지한다. 남자는 균형을 잃지 않고 자연스럽게 주행을 이어간다.\n\n골목 모퉁이에서 자전거가 갑자기 나타난다. 보드와 자전거가 마주치는 순간 남자가 몸을 옆으로 크게 기울인다. 바퀴가 서로 스칠 듯 가까워지고, 카메라는 두 사람의 얼굴을 화면에 가득 담는 익스트림 클로즈업으로 전환된다. 놀란 눈빛과 긴장한 표정, 서로에게 가까워지는 거리가 강조된다. 두 사람의 움직임에만 슬로모션이 적용되고 배경은 흐릿해진다. 두 사람은 서로를 피하기 위해 순간적으로 방향을 틀고, 간발의 차이로 충돌을 피한다.\n\n남자가 골목 끝의 강한 햇빛 속으로 사라진다. 잠시 뒤 스케이트보드 바퀴가 화면을 빠르게 스쳐 지나간다. 텅 빈 골목에는 길게 드리운 그림자만 남는다.",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 21.666999816894531
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.",
+			"location_type": "Old residential and neighborhood-shopping alley, outdoor.",
+			"zones": [
+				{
+					"name": "Café Passage",
+					"description": "A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line",
+					"connects_to": [
+						"Concrete Wall Stretch"
+					]
+				},
+				{
+					"name": "Concrete Wall Stretch",
+					"description": "The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base",
+					"connects_to": [
+						"Café Passage",
+						"Sunlit Corner"
+					]
+				},
+				{
+					"name": "Sunlit Corner",
+					"description": "A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route",
+					"connects_to": [
+						"Concrete Wall Stretch"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "dry, clear weather",
+				"lighting": "hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A young skateboarder seeks an uninterrupted run through Belleville’s cramped residential alley, turning street clutter into a route of jumps and wall rides before an unexpected cyclist forces a last-second swerve toward the sunlit exit.",
+			"beats": [
+				{
+					"summary": "The skateboarder establishes a fluid line through the densely occupied alley",
+					"emotion": "freedom"
+				},
+				{
+					"summary": "A sharp jump lifts him above the pavement into an apparently suspended instant",
+					"emotion": "exhilaration"
+				},
+				{
+					"summary": "He lands and threads the narrow clearance beside a parked scooter",
+					"emotion": "nervous relief"
+				},
+				{
+					"summary": "He redirects his momentum onto the concrete wall, riding briefly above the ground",
+					"emotion": "daring"
+				},
+				{
+					"summary": "All four wheels return to the pavement without breaking his run",
+					"emotion": "confidence"
+				},
+				{
+					"summary": "A cyclist emerges around the corner directly into his path",
+					"emotion": "alarm"
+				},
+				{
+					"summary": "Their startled encounter becomes a coordinated, last-instant avoidance",
+					"emotion": "acute tension releasing"
+				},
+				{
+					"summary": "The skateboarder clears the sunlight-washed exit, a final wheel flashes past, and the alley falls still",
+					"emotion": "release"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Skater",
+				"kind": "Young adult man",
+				"appearance": "lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain",
+				"signature_features": [
+					"a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers."
+				]
+			},
+			{
+				"name": "Skateboard",
+				"kind": "Street skateboard",
+				"appearance": "dark grip surface, medium-gray underside, pale wheels, exposed dark trucks",
+				"signature_features": [
+					"a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath."
+				]
+			},
+			{
+				"name": "Parked Scooter",
+				"kind": "Small motor scooter",
+				"appearance": "medium-gray body, black saddle, dark tires, and a pale rounded rear storage box",
+				"signature_features": [
+					"its short wheelbase and oversized domed storage box create a distinctive silhouette from every direction."
+				]
+			},
+			{
+				"name": "Café Neighbors",
+				"kind": "Two adult residents conversing together",
+				"appearance": "one short, broad person wears a light apron over a dark long skirt; the other is tall and narrow, wearing a dark cardigan and pale trousers",
+				"signature_features": [
+					"their strongly contrasting heights and widths identify the pair even from behind."
+				]
+			},
+			{
+				"name": "Cyclist",
+				"kind": "Adult woman riding an upright city bicycle",
+				"appearance": "slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket",
+				"signature_features": [
+					"her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline."
+				]
+			}
+		],
+		"run_id": "storyboard_20261020_173909_d6c59451"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Skater threading the café passage",
+				"beat": 1,
+				"zone": "Café Passage",
+				"shot_size": "wide",
+				"angle": "eye level, three-quarter side view",
+				"camera_move": "short lateral tracking move parallel to the riding line",
+				"subjects_present": [
+					"Skater",
+					"Skateboard",
+					"Parked Scooter",
+					"Café Neighbors"
+				],
+				"subject_states": [],
+				"backdrop": "Closely packed café and shop fronts, faded signs, exposed air-conditioning units, the recessed café doorway, a utility pole, and the small sidewalk bench.",
+				"action": "Skater rolls through the narrow roadway with knees relaxed and both feet planted on Skateboard. Parked Scooter crowds the curb while Café Neighbors converse inside the café recess. Building edges and their shadows slide behind his dark silhouette.",
+				"emotion": "Fluid freedom inside a convincingly crowded everyday space.",
+				"transition": "Hard cut timed to Skater lowering his weight for the jump.",
+				"atmosphere": null,
+				"duration_seconds": 3.367
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Closely packed café and shop fronts, faded signs, exposed air-conditioning units, the recessed café doorway, a utility pole, and the small sidewalk bench.\nShot size: wide\nCamera angle: eye level, three-quarter side view\nCamera move: short lateral tracking move parallel to the riding line\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Parked Scooter (Small motor scooter): medium-gray body, black saddle, dark tires, and a pale rounded rear storage box Signature, drawn only where this angle exposes it: its short wheelbase and oversized domed storage box create a distinctive silhouette from every direction.\n- Café Neighbors (Two adult residents conversing together): one short, broad person wears a light apron over a dark long skirt; the other is tall and narrow, wearing a dark cardigan and pale trousers Signature, drawn only where this angle exposes it: their strongly contrasting heights and widths identify the pair even from behind.\nAction: Skater rolls through the narrow roadway with knees relaxed and both feet planted on Skateboard. Parked Scooter crowds the curb while Café Neighbors converse inside the café recess. Building edges and their shadows slide behind his dark silhouette.\nMood: Fluid freedom inside a convincingly crowded everyday space.",
+			"images": [
+				"cut_01_016.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Closely packed café and shop fronts, faded signs, exposed air-conditioning units, the recessed café doorway, a utility pole, and the small sidewalk bench.\nShot size: wide\nCamera angle: eye level, three-quarter side view\nCamera move: short lateral tracking move parallel to the riding line\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Parked Scooter (Small motor scooter): medium-gray body, black saddle, dark tires, and a pale rounded rear storage box Signature, drawn only where this angle exposes it: its short wheelbase and oversized domed storage box create a distinctive silhouette from every direction.\n- Café Neighbors (Two adult residents conversing together): one short, broad person wears a light apron over a dark long skirt; the other is tall and narrow, wearing a dark cardigan and pale trousers Signature, drawn only where this angle exposes it: their strongly contrasting heights and widths identify the pair even from behind.\nAction: Skater rolls through the narrow roadway with knees relaxed and both feet planted on Skateboard. Parked Scooter crowds the curb while Café Neighbors converse inside the café recess. Building edges and their shadows slide behind his dark silhouette.\nMood: Fluid freedom inside a convincingly crowded everyday space.",
+					"spec":
+					{
+						"shot_name": "Skater threading the café passage",
+						"beat": 1,
+						"zone": "Café Passage",
+						"shot_size": "wide",
+						"angle": "eye level, three-quarter side view",
+						"camera_move": "short lateral tracking move parallel to the riding line",
+						"subjects_present": [
+							"Skater",
+							"Skateboard",
+							"Parked Scooter",
+							"Café Neighbors"
+						],
+						"subject_states": [],
+						"backdrop": "Closely packed café and shop fronts, faded signs, exposed air-conditioning units, the recessed café doorway, a utility pole, and the small sidewalk bench.",
+						"action": "Skater rolls through the narrow roadway with knees relaxed and both feet planted on Skateboard. Parked Scooter crowds the curb while Café Neighbors converse inside the café recess. Building edges and their shadows slide behind his dark silhouette.",
+						"emotion": "Fluid freedom inside a convincingly crowded everyday space.",
+						"transition": "Hard cut timed to Skater lowering his weight for the jump.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater hanging above the airborne skateboard",
+				"beat": 2,
+				"zone": "Café Passage",
+				"shot_size": "wide",
+				"angle": "extremely low, looking upward through pronounced fisheye distortion",
+				"camera_move": "static",
+				"subjects_present": [
+					"Skater",
+					"Skateboard"
+				],
+				"subject_states": [],
+				"backdrop": "Upper residential façades, projecting air-conditioning units, dark window openings, and a narrow strip of pale sky, all visibly bowed by the fisheye perspective.",
+				"action": "Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.",
+				"emotion": "Exhilaration and momentary disbelief.",
+				"transition": "Hard cut on the beginning of the downward movement.",
+				"atmosphere": null,
+				"duration_seconds": 2.4329999999999998
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Upper residential façades, projecting air-conditioning units, dark window openings, and a narrow strip of pale sky, all visibly bowed by the fisheye perspective.\nShot size: wide\nCamera angle: extremely low, looking upward through pronounced fisheye distortion\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.\nMood: Exhilaration and momentary disbelief.",
+			"images": [
+				"cut_02_015.jpg",
+				"cut_02_016.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Upper residential façades, projecting air-conditioning units, dark window openings, and a narrow strip of pale sky, all visibly bowed by the fisheye perspective.\nShot size: wide\nCamera angle: extremely low, looking upward through pronounced fisheye distortion\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.\nMood: Exhilaration and momentary disbelief.",
+					"spec":
+					{
+						"shot_name": "Skater hanging above the airborne skateboard",
+						"beat": 2,
+						"zone": "Café Passage",
+						"shot_size": "wide",
+						"angle": "extremely low, looking upward through pronounced fisheye distortion",
+						"camera_move": "static",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "Upper residential façades, projecting air-conditioning units, dark window openings, and a narrow strip of pale sky, all visibly bowed by the fisheye perspective.",
+						"action": "Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.",
+						"emotion": "Exhilaration and momentary disbelief.",
+						"transition": "Hard cut on the beginning of the downward movement.",
+						"atmosphere": null,
+						"duration_seconds": 1.8
+					}
+				},
+				{
+					"modification": "어안렌즈로 좁은 골목의 건물과 도로가 둥글게 휘어 보인다.",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: The narrow alley’s residential façades, projecting air-conditioning units, dark window openings, and narrow strip of pale sky bow into rounded curves under the fisheye perspective; the concrete roadway remains visible across the lower foreground, its edges bending into pronounced arcs.\nShot size: wide\nCamera angle: extremely low, looking upward through pronounced fisheye distortion while retaining the roadway across the lower foreground\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.\nMood: Exhilaration and momentary disbelief.",
+					"spec":
+					{
+						"shot_name": "Skater hanging above the airborne skateboard",
+						"beat": 2,
+						"zone": "Café Passage",
+						"shot_size": "wide",
+						"angle": "extremely low, looking upward through pronounced fisheye distortion while retaining the roadway across the lower foreground",
+						"camera_move": "static",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "The narrow alley’s residential façades, projecting air-conditioning units, dark window openings, and narrow strip of pale sky bow into rounded curves under the fisheye perspective; the concrete roadway remains visible across the lower foreground, its edges bending into pronounced arcs.",
+						"action": "Skater reaches the jump’s apex with knees folded at unequal angles and Skateboard floating beneath his separated soles. Its tilted deck contrasts with the angle of his legs. A brief speed ramp stretches this airborne instant, making the jump feel suspended rather than weightless indefinitely.",
+						"emotion": "Exhilaration and momentary disbelief.",
+						"transition": "Hard cut on the beginning of the downward movement.",
+						"atmosphere": null,
+						"duration_seconds": 1.8
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater landing beside the parked scooter",
+				"beat": 3,
+				"zone": "Café Passage",
+				"shot_size": "medium",
+				"angle": "low three-quarter view, framing Skater from the lower chest to the pavement",
+				"camera_move": "short tracking move beside the landing",
+				"subjects_present": [
+					"Skater",
+					"Skateboard",
+					"Parked Scooter",
+					"Café Neighbors"
+				],
+				"subject_states": [],
+				"backdrop": "Parked Scooter fills one side of the frame; the café’s lower doorway and Café Neighbors remain visible beyond its storage box.",
+				"action": "All four skateboard wheels meet the rough concrete as Skater compresses his knees. His trouser leg passes within a hand’s breadth of Parked Scooter’s bodywork, and the board continues through the narrow gap without contact.",
+				"emotion": "A quick jolt followed by relief.",
+				"transition": "Hard cut matching Skateboard’s forward direction.",
+				"atmosphere": null,
+				"duration_seconds": 2.3999999999999999
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Parked Scooter fills one side of the frame; the café’s lower doorway and Café Neighbors remain visible beyond its storage box.\nShot size: medium\nCamera angle: low three-quarter view, framing Skater from the lower chest to the pavement\nCamera move: short tracking move beside the landing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Parked Scooter (Small motor scooter): medium-gray body, black saddle, dark tires, and a pale rounded rear storage box Signature, drawn only where this angle exposes it: its short wheelbase and oversized domed storage box create a distinctive silhouette from every direction.\n- Café Neighbors (Two adult residents conversing together): one short, broad person wears a light apron over a dark long skirt; the other is tall and narrow, wearing a dark cardigan and pale trousers Signature, drawn only where this angle exposes it: their strongly contrasting heights and widths identify the pair even from behind.\nAction: All four skateboard wheels meet the rough concrete as Skater compresses his knees. His trouser leg passes within a hand’s breadth of Parked Scooter’s bodywork, and the board continues through the narrow gap without contact.\nMood: A quick jolt followed by relief.",
+			"images": [
+				"cut_03_014.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Café Passage: A narrow one-way concrete roadway between closely packed residential buildings; a small café and neighborhood shop occupy the ground floors beneath faded signs, exposed wiring, and wall-mounted air-conditioning units; shallow sidewalks hold a utility pole, a small bench, and parked scooters; the café doorway provides a recessed place for residents to converse without blocking the riding line\nBackdrop, behind the action: Parked Scooter fills one side of the frame; the café’s lower doorway and Café Neighbors remain visible beyond its storage box.\nShot size: medium\nCamera angle: low three-quarter view, framing Skater from the lower chest to the pavement\nCamera move: short tracking move beside the landing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Parked Scooter (Small motor scooter): medium-gray body, black saddle, dark tires, and a pale rounded rear storage box Signature, drawn only where this angle exposes it: its short wheelbase and oversized domed storage box create a distinctive silhouette from every direction.\n- Café Neighbors (Two adult residents conversing together): one short, broad person wears a light apron over a dark long skirt; the other is tall and narrow, wearing a dark cardigan and pale trousers Signature, drawn only where this angle exposes it: their strongly contrasting heights and widths identify the pair even from behind.\nAction: All four skateboard wheels meet the rough concrete as Skater compresses his knees. His trouser leg passes within a hand’s breadth of Parked Scooter’s bodywork, and the board continues through the narrow gap without contact.\nMood: A quick jolt followed by relief.",
+					"spec":
+					{
+						"shot_name": "Skater landing beside the parked scooter",
+						"beat": 3,
+						"zone": "Café Passage",
+						"shot_size": "medium",
+						"angle": "low three-quarter view, framing Skater from the lower chest to the pavement",
+						"camera_move": "short tracking move beside the landing",
+						"subjects_present": [
+							"Skater",
+							"Skateboard",
+							"Parked Scooter",
+							"Café Neighbors"
+						],
+						"subject_states": [],
+						"backdrop": "Parked Scooter fills one side of the frame; the café’s lower doorway and Café Neighbors remain visible beyond its storage box.",
+						"action": "All four skateboard wheels meet the rough concrete as Skater compresses his knees. His trouser leg passes within a hand’s breadth of Parked Scooter’s bodywork, and the board continues through the narrow gap without contact.",
+						"emotion": "A quick jolt followed by relief.",
+						"transition": "Hard cut matching Skateboard’s forward direction.",
+						"atmosphere": null,
+						"duration_seconds": 2.2000000000000002
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater riding onto the concrete wall",
+				"beat": 4,
+				"zone": "Concrete Wall Stretch",
+				"shot_size": "wide",
+				"angle": "low side view, framing Skater’s entire body, Skateboard, and the wall’s base",
+				"camera_move": "short forward tracking move",
+				"subjects_present": [
+					"Skater",
+					"Skateboard"
+				],
+				"subject_states": [],
+				"backdrop": "The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.",
+				"action": "Maintaining speed, Skater approaches the wall diagonally, bends his knees deeply, and inclines his hips and shoulders toward the wall in alignment with Skateboard’s trajectory. Both feet stay firmly planted on the deck, controlling it through his ankles and knees. As all four wheels contact the vertical concrete, his head, shoulders, hips, knees, and feet incline together with the board as one connected movement; his torso never remains independently upright or appears detached from the deck. Holding this low crouch, he rides diagonally upward for a short distance, then travels briefly along the wall with a smooth sideways-gliding appearance while the wheels maintain rolling contact. One hand reaches close to the wall for balance without taking his weight, and his upper body rotates naturally with the board’s changing orientation. The side view clearly shows the coordinated body-and-board lean and the gap above the roadway. The wall ride is brief and quick. Without lifting either foot, he directs the board’s leading end down toward the pavement and begins leaving the wall, knees remaining bent for the landing in the following cut.",
+				"emotion": "Daring, tactile exhilaration.",
+				"transition": "Hard cut as the board’s leading end turns downward.",
+				"atmosphere": null,
+				"duration_seconds": 2.2999999999999998
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Concrete Wall Stretch: The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base\nBackdrop, behind the action: The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.\nShot size: wide\nCamera angle: low side view, framing Skater’s entire body, Skateboard, and the wall’s base\nCamera move: short forward tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Maintaining speed, Skater approaches the wall diagonally, bends his knees deeply, and inclines his hips and shoulders toward the wall in alignment with Skateboard’s trajectory. Both feet stay firmly planted on the deck, controlling it through his ankles and knees. As all four wheels contact the vertical concrete, his head, shoulders, hips, knees, and feet incline together with the board as one connected movement; his torso never remains independently upright or appears detached from the deck. Holding this low crouch, he rides diagonally upward for a short distance, then travels briefly along the wall with a smooth sideways-gliding appearance while the wheels maintain rolling contact. One hand reaches close to the wall for balance without taking his weight, and his upper body rotates naturally with the board’s changing orientation. The side view clearly shows the coordinated body-and-board lean and the gap above the roadway. The wall ride is brief and quick. Without lifting either foot, he directs the board’s leading end down toward the pavement and begins leaving the wall, knees remaining bent for the landing in the following cut.\nMood: Daring, tactile exhilaration.",
+			"images": [
+				"cut_04_014.jpg",
+				"cut_04_015.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Concrete Wall Stretch: The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base\nBackdrop, behind the action: The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.\nShot size: wide\nCamera angle: low three-quarter view along the wall\nCamera move: short forward tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skater’s diagonal approach carries Skateboard onto the wall. All four wheels press against the vertical surface during a short, oblique wall ride; both feet remain firmly on the deck, his knees bend, and his body leans toward the wall. A visible gap separates the wheels from the roadway below.\nMood: Daring, tactile exhilaration.",
+					"spec":
+					{
+						"shot_name": "Skater riding onto the concrete wall",
+						"beat": 4,
+						"zone": "Concrete Wall Stretch",
+						"shot_size": "wide",
+						"angle": "low three-quarter view along the wall",
+						"camera_move": "short forward tracking move",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.",
+						"action": "Skater’s diagonal approach carries Skateboard onto the wall. All four wheels press against the vertical surface during a short, oblique wall ride; both feet remain firmly on the deck, his knees bend, and his body leans toward the wall. A visible gap separates the wheels from the roadway below.",
+						"emotion": "Daring, tactile exhilaration.",
+						"transition": "Hard cut as the board’s leading end turns downward.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				},
+				{
+					"modification": "골목 한쪽에 길게 이어진 낡은 콘크리트 벽이 나타난다. 남자는 보드의 속도를 유지한 채 벽을 향해 대각선으로 접근한다. 벽에 가까워지는 순간 무릎을 깊게 굽히고, 골반과 어깨를 보드의 진행 방향에 맞춰 벽 쪽으로 기울인다. 두 발은 보드에서 떨어지지 않고, 발목과 무릎으로 보드를 단단히 컨트롤한다.\n\n보드의 바퀴가 벽면에 닿는 순간 남자의 몸 전체가 보드와 함께 하나의 덩어리처럼 기울어진다. 머리부터 어깨, 골반, 무릎, 발까지 같은 방향으로 기울어져 있으며, 몸만 수직으로 서 있거나 보드와 분리되어 보이지 않는다. 남자는 무릎을 굽힌 낮은 자세를 유지한 채 보드를 벽면에 비스듬하게 붙이고, 벽을 따라 짧은 거리를 대각선으로 타고 올라갔다가 옆으로 미끄러지듯 이동한다. 한 손은 균형을 잡기 위해 벽 가까이 뻗고, 상체는 보드의 기울기를 따라 자연스럽게 회전한다. 카메라는 벽과 보드, 남자의 몸이 함께 기울어진 모습을 옆에서 포착한다.\n\n벽을 따라 이동하던 남자는 보드의 방향을 바닥 쪽으로 틀어 벽에서 빠져나온다. 보드의 네 바퀴가 콘크리트 바닥에 다시 닿는 순간 무릎을 굽혀 착지 충격을 흡수한다. 상체가 잠시 흔들리지만 곧 균형을 회복하고, 보드에서 발을 떼지 않은 채 자연스럽게 앞으로 질주한다. 벽타기는 짧고 빠르며, 실제 스케이트보드의 벽타기처럼 보드와 사람의 움직임이 완전히 연결되어 있다.",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Concrete Wall Stretch: The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base\nBackdrop, behind the action: The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.\nShot size: wide\nCamera angle: low side view, framing Skater’s entire body, Skateboard, and the wall’s base\nCamera move: short forward tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Maintaining speed, Skater approaches the wall diagonally, bends his knees deeply, and inclines his hips and shoulders toward the wall in alignment with Skateboard’s trajectory. Both feet stay firmly planted on the deck, controlling it through his ankles and knees. As all four wheels contact the vertical concrete, his head, shoulders, hips, knees, and feet incline together with the board as one connected movement; his torso never remains independently upright or appears detached from the deck. Holding this low crouch, he rides diagonally upward for a short distance, then travels briefly along the wall with a smooth sideways-gliding appearance while the wheels maintain rolling contact. One hand reaches close to the wall for balance without taking his weight, and his upper body rotates naturally with the board’s changing orientation. The side view clearly shows the coordinated body-and-board lean and the gap above the roadway. The wall ride is brief and quick. Without lifting either foot, he directs the board’s leading end down toward the pavement and begins leaving the wall, knees remaining bent for the landing in the following cut.\nMood: Daring, tactile exhilaration.",
+					"spec":
+					{
+						"shot_name": "Skater riding onto the concrete wall",
+						"beat": 4,
+						"zone": "Concrete Wall Stretch",
+						"shot_size": "wide",
+						"angle": "low side view, framing Skater’s entire body, Skateboard, and the wall’s base",
+						"camera_move": "short forward tracking move",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "The rough concrete wall dominates the frame, with its patched seams and horizontal stain; the wall’s base and a strip of roadway establish the separation beneath the board.",
+						"action": "Maintaining speed, Skater approaches the wall diagonally, bends his knees deeply, and inclines his hips and shoulders toward the wall in alignment with Skateboard’s trajectory. Both feet stay firmly planted on the deck, controlling it through his ankles and knees. As all four wheels contact the vertical concrete, his head, shoulders, hips, knees, and feet incline together with the board as one connected movement; his torso never remains independently upright or appears detached from the deck. Holding this low crouch, he rides diagonally upward for a short distance, then travels briefly along the wall with a smooth sideways-gliding appearance while the wheels maintain rolling contact. One hand reaches close to the wall for balance without taking his weight, and his upper body rotates naturally with the board’s changing orientation. The side view clearly shows the coordinated body-and-board lean and the gap above the roadway. The wall ride is brief and quick. Without lifting either foot, he directs the board’s leading end down toward the pavement and begins leaving the wall, knees remaining bent for the landing in the following cut.",
+						"emotion": "Daring, tactile exhilaration.",
+						"transition": "Hard cut as the board’s leading end turns downward.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater returning the skateboard to the roadway",
+				"beat": 5,
+				"zone": "Concrete Wall Stretch",
+				"shot_size": "medium",
+				"angle": "low three-quarter view, framing Skater from the waist to the pavement",
+				"camera_move": "tracking alongside the landing",
+				"subjects_present": [
+					"Skater",
+					"Skateboard"
+				],
+				"subject_states": [],
+				"backdrop": "The lower concrete wall, its stained base, and the rough roadway immediately beneath the wheels.",
+				"action": "Skateboard levels out from its wallward tilt and lands on all four wheels. Skater absorbs the impact through bent knees, with both feet maintaining their positions on the deck, and carries his momentum straight onward.",
+				"emotion": "Satisfaction at controlled recovery.",
+				"transition": "Hard cut into the restricted sightline at the corner.",
+				"atmosphere": null,
+				"duration_seconds": 1.9330000000000001
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Concrete Wall Stretch: The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base\nBackdrop, behind the action: The lower concrete wall, its stained base, and the rough roadway immediately beneath the wheels.\nShot size: medium\nCamera angle: low three-quarter view, framing Skater from the waist to the pavement\nCamera move: tracking alongside the landing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skateboard levels out from its wallward tilt and lands on all four wheels. Skater absorbs the impact through bent knees, with both feet maintaining their positions on the deck, and carries his momentum straight onward.\nMood: Satisfaction at controlled recovery.",
+			"images": [
+				"cut_05_012.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Concrete Wall Stretch: The same narrow roadway beside a long, rough concrete boundary wall on the north side; patched seams and a worn horizontal stain make the wall’s surface readable; opposite stand residential façades with shuttered windows, drainpipes, and shallow shop thresholds; a slim pavement strip runs along the wall’s base\nBackdrop, behind the action: The lower concrete wall, its stained base, and the rough roadway immediately beneath the wheels.\nShot size: medium\nCamera angle: low three-quarter view, framing Skater from the waist to the pavement\nCamera move: tracking alongside the landing\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skateboard levels out from its wallward tilt and lands on all four wheels. Skater absorbs the impact through bent knees, with both feet maintaining their positions on the deck, and carries his momentum straight onward.\nMood: Satisfaction at controlled recovery.",
+					"spec":
+					{
+						"shot_name": "Skater returning the skateboard to the roadway",
+						"beat": 5,
+						"zone": "Concrete Wall Stretch",
+						"shot_size": "medium",
+						"angle": "low three-quarter view, framing Skater from the waist to the pavement",
+						"camera_move": "tracking alongside the landing",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "The lower concrete wall, its stained base, and the rough roadway immediately beneath the wheels.",
+						"action": "Skateboard levels out from its wallward tilt and lands on all four wheels. Skater absorbs the impact through bent knees, with both feet maintaining their positions on the deck, and carries his momentum straight onward.",
+						"emotion": "Satisfaction at controlled recovery.",
+						"transition": "Hard cut into the restricted sightline at the corner.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Cyclist emerging into Skater’s path",
+				"beat": 6,
+				"zone": "Sunlit Corner",
+				"shot_size": "wide",
+				"angle": "low, oblique view across the junction",
+				"camera_move": "static",
+				"subjects_present": [
+					"Skater",
+					"Skateboard",
+					"Cyclist"
+				],
+				"subject_states": [],
+				"backdrop": "The projecting stone corner, the short side-passage mouth, the recessed residential door, and a strip of sunlight across the alley exit.",
+				"action": "Cyclist turns out from behind the corner toward Skater’s oncoming line. Her front bicycle wheel and Skateboard’s leading wheels converge with only a narrow strip of concrete between their paths. Skater banks his whole body sideways while Cyclist begins pulling her handlebar back toward the side-passage edge.",
+				"emotion": "Sudden collision alarm.",
+				"transition": "Hard cut from the narrowing wheel gap to the riders’ faces.",
+				"atmosphere": null,
+				"duration_seconds": 2.6669999999999998
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: The projecting stone corner, the short side-passage mouth, the recessed residential door, and a strip of sunlight across the alley exit.\nShot size: wide\nCamera angle: low, oblique view across the junction\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Cyclist (Adult woman riding an upright city bicycle): slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket Signature, drawn only where this angle exposes it: her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline.\nAction: Cyclist turns out from behind the corner toward Skater’s oncoming line. Her front bicycle wheel and Skateboard’s leading wheels converge with only a narrow strip of concrete between their paths. Skater banks his whole body sideways while Cyclist begins pulling her handlebar back toward the side-passage edge.\nMood: Sudden collision alarm.",
+			"images": [
+				"cut_06_013.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: The projecting stone corner, the short side-passage mouth, the recessed residential door, and a strip of sunlight across the alley exit.\nShot size: wide\nCamera angle: low, oblique view across the junction\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\n- Cyclist (Adult woman riding an upright city bicycle): slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket Signature, drawn only where this angle exposes it: her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline.\nAction: Cyclist turns out from behind the corner toward Skater’s oncoming line. Her front bicycle wheel and Skateboard’s leading wheels converge with only a narrow strip of concrete between their paths. Skater banks his whole body sideways while Cyclist begins pulling her handlebar back toward the side-passage edge.\nMood: Sudden collision alarm.",
+					"spec":
+					{
+						"shot_name": "Cyclist emerging into Skater’s path",
+						"beat": 6,
+						"zone": "Sunlit Corner",
+						"shot_size": "wide",
+						"angle": "low, oblique view across the junction",
+						"camera_move": "static",
+						"subjects_present": [
+							"Skater",
+							"Skateboard",
+							"Cyclist"
+						],
+						"subject_states": [],
+						"backdrop": "The projecting stone corner, the short side-passage mouth, the recessed residential door, and a strip of sunlight across the alley exit.",
+						"action": "Cyclist turns out from behind the corner toward Skater’s oncoming line. Her front bicycle wheel and Skateboard’s leading wheels converge with only a narrow strip of concrete between their paths. Skater banks his whole body sideways while Cyclist begins pulling her handlebar back toward the side-passage edge.",
+						"emotion": "Sudden collision alarm.",
+						"transition": "Hard cut from the narrowing wheel gap to the riders’ faces.",
+						"atmosphere": null,
+						"duration_seconds": 2.2999999999999998
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater and Cyclist recoiling past each other",
+				"beat": 7,
+				"zone": "Sunlit Corner",
+				"shot_size": "extreme close-up",
+				"angle": "eye level, side-on to their opposing paths",
+				"camera_move": "very short lateral tracking move",
+				"subjects_present": [
+					"Skater",
+					"Cyclist"
+				],
+				"subject_states": [],
+				"backdrop": "Defocused gray stonework and a soft bright band from the alley mouth.",
+				"action": "Their faces fill opposing halves of the frame. Skater turns his head to look at Cyclist, who looks directly back at him with startled, widened eyes. Their faces pass extremely close, with only a sliver of air between them; tense expressions, tight jaws, and gazes momentarily frozen in alarm are sharply visible. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.",
+				"emotion": "Peak tension turning into immediate relief.",
+				"transition": "Hard cut on the separation of their faces to the low exit viewpoint.",
+				"atmosphere": null,
+				"duration_seconds": 2.5670000000000002
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: Defocused gray stonework and a soft bright band from the alley mouth.\nShot size: extreme close-up\nCamera angle: eye level, side-on to their opposing paths\nCamera move: very short lateral tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Cyclist (Adult woman riding an upright city bicycle): slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket Signature, drawn only where this angle exposes it: her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline.\nAction: Their faces fill opposing halves of the frame. Skater turns his head to look at Cyclist, who looks directly back at him with startled, widened eyes. Their faces pass extremely close, with only a sliver of air between them; tense expressions, tight jaws, and gazes momentarily frozen in alarm are sharply visible. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.\nMood: Peak tension turning into immediate relief.",
+			"images": [
+				"cut_07_009.jpg",
+				"cut_07_010.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: Defocused gray stonework and a soft bright band from the alley mouth.\nShot size: extreme close-up\nCamera angle: eye level, side-on to their opposing paths\nCamera move: very short lateral tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Cyclist (Adult woman riding an upright city bicycle): slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket Signature, drawn only where this angle exposes it: her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline.\nAction: Their faces fill opposing halves of the frame, eyes widened and jaws tense, with only a sliver of air between their passing profiles. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.\nMood: Peak tension turning into immediate relief.",
+					"spec":
+					{
+						"shot_name": "Skater and Cyclist recoiling past each other",
+						"beat": 7,
+						"zone": "Sunlit Corner",
+						"shot_size": "extreme close-up",
+						"angle": "eye level, side-on to their opposing paths",
+						"camera_move": "very short lateral tracking move",
+						"subjects_present": [
+							"Skater",
+							"Cyclist"
+						],
+						"subject_states": [],
+						"backdrop": "Defocused gray stonework and a soft bright band from the alley mouth.",
+						"action": "Their faces fill opposing halves of the frame, eyes widened and jaws tense, with only a sliver of air between their passing profiles. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.",
+						"emotion": "Peak tension turning into immediate relief.",
+						"transition": "Hard cut on the separation of their faces to the low exit viewpoint.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				},
+				{
+					"modification": "화면이 두 사람의 얼굴을 가득 담은 익스트림 클로즈업으로 전환된다. 남자는 고개를 돌려 자전거를 탄 행인을 바라보고, 행인 역시 놀란 눈으로 남자를 바라본다. 서로의 얼굴이 매우 가까워지고, 긴장한 표정과 순간적으로 굳어지는 눈빛이 선명하게 보인다.",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: Defocused gray stonework and a soft bright band from the alley mouth.\nShot size: extreme close-up\nCamera angle: eye level, side-on to their opposing paths\nCamera move: very short lateral tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Cyclist (Adult woman riding an upright city bicycle): slender build, pale thigh-length coat, dark trousers, rounded medium-gray helmet; the bicycle has a dark step-through frame, thin pale-edged tires, and a tall rectangular front basket Signature, drawn only where this angle exposes it: her narrow, light-coated silhouette and rounded helmet remain recognizable from any direction; the bicycle’s high basket distinguishes its outline.\nAction: Their faces fill opposing halves of the frame. Skater turns his head to look at Cyclist, who looks directly back at him with startled, widened eyes. Their faces pass extremely close, with only a sliver of air between them; tense expressions, tight jaws, and gazes momentarily frozen in alarm are sharply visible. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.\nMood: Peak tension turning into immediate relief.",
+					"spec":
+					{
+						"shot_name": "Skater and Cyclist recoiling past each other",
+						"beat": 7,
+						"zone": "Sunlit Corner",
+						"shot_size": "extreme close-up",
+						"angle": "eye level, side-on to their opposing paths",
+						"camera_move": "very short lateral tracking move",
+						"subjects_present": [
+							"Skater",
+							"Cyclist"
+						],
+						"subject_states": [],
+						"backdrop": "Defocused gray stonework and a soft bright band from the alley mouth.",
+						"action": "Their faces fill opposing halves of the frame. Skater turns his head to look at Cyclist, who looks directly back at him with startled, widened eyes. Their faces pass extremely close, with only a sliver of air between them; tense expressions, tight jaws, and gazes momentarily frozen in alarm are sharply visible. Skater banks toward the roadway center while Cyclist recoils toward the side-passage edge; their faces separate toward opposite frame edges without contact. Only the riders’ movement is slowed, while the blurred background retains normal-speed drift.",
+						"emotion": "Peak tension turning into immediate relief.",
+						"transition": "Hard cut on the separation of their faces to the low exit viewpoint.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Skater’s trailing wheel flashing through the sunlit exit",
+				"beat": 8,
+				"zone": "Sunlit Corner",
+				"shot_size": "wide",
+				"angle": "pavement level at the alley mouth, looking back toward the corner",
+				"camera_move": "static",
+				"subjects_present": [
+					"Skater",
+					"Skateboard"
+				],
+				"subject_states": [],
+				"backdrop": "The vacant roadway behind the passing board, the chipped return wall, the recessed door, and the directly visible end of Concrete Wall Stretch; long building shadows stripe the concrete.",
+				"action": "Skateboard’s trailing wheel flashes across the extreme lower foreground into direct sunlight. Only Skater’s pale sneaker and a cropped section of trouser leg remain visible above the deck; his upper body is outside the frame. The alley behind this final passing detail is already empty.",
+				"emotion": "Release, followed by quiet.",
+				"transition": "Let the wheel clear the locked composition, hold the empty alley and its long shadows for one second, then hard cut to black.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: The vacant roadway behind the passing board, the chipped return wall, the recessed door, and the directly visible end of Concrete Wall Stretch; long building shadows stripe the concrete.\nShot size: wide\nCamera angle: pavement level at the alley mouth, looking back toward the corner\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skateboard’s trailing wheel flashes across the extreme lower foreground into direct sunlight. Only Skater’s pale sneaker and a cropped section of trouser leg remain visible above the deck; his upper body is outside the frame. The alley behind this final passing detail is already empty.\nMood: Release, followed by quiet.",
+			"images": [
+				"cut_08_009.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary Belleville, Paris, appears in coarse-grained black and white, with weathered four-to-six-storey masonry buildings, patched concrete, dark ironwork, faded painted surfaces, and pale late-afternoon sky.\nLocation: Old residential and neighborhood-shopping alley, outdoor.\nAtmosphere: Late afternoon, dry, clear weather, hard, low sunlight reaches the alley mouth while the enclosed roadway remains in cool-looking gray shade, crossed by long architectural shadows.\nThis cut happens at Sunlit Corner: A tight junction where a short side passage opens from the south behind a projecting building corner; chipped stonework, a metal drain cover, a recessed residential door, and a narrow shop shutter crowd the turn; immediately beyond it, the alley mouth receives direct sunlight; the end of the concrete wall remains visible when looking back along the route\nBackdrop, behind the action: The vacant roadway behind the passing board, the chipped return wall, the recessed door, and the directly visible end of Concrete Wall Stretch; long building shadows stripe the concrete.\nShot size: wide\nCamera angle: pavement level at the alley mouth, looking back toward the corner\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Skater (Young adult man): lean build inside a near-black oversized jacket, broad dark-gray cargo pants, thick pale-gray sneakers, and a bright silver chain Signature, drawn only where this angle exposes it: a compact head above a conspicuously broad jacket and wide trouser silhouette makes him recognizable from every direction; chunky sneaker soles and the loose chain provide secondary identifiers.\n- Skateboard (Street skateboard): dark grip surface, medium-gray underside, pale wheels, exposed dark trucks Signature, drawn only where this angle exposes it: a long, narrow silhouette with sharply upturned ends and unusually broad pale wheels remains identifiable from either side or underneath.\nAction: Skateboard’s trailing wheel flashes across the extreme lower foreground into direct sunlight. Only Skater’s pale sneaker and a cropped section of trouser leg remain visible above the deck; his upper body is outside the frame. The alley behind this final passing detail is already empty.\nMood: Release, followed by quiet.",
+					"spec":
+					{
+						"shot_name": "Skater’s trailing wheel flashing through the sunlit exit",
+						"beat": 8,
+						"zone": "Sunlit Corner",
+						"shot_size": "wide",
+						"angle": "pavement level at the alley mouth, looking back toward the corner",
+						"camera_move": "static",
+						"subjects_present": [
+							"Skater",
+							"Skateboard"
+						],
+						"subject_states": [],
+						"backdrop": "The vacant roadway behind the passing board, the chipped return wall, the recessed door, and the directly visible end of Concrete Wall Stretch; long building shadows stripe the concrete.",
+						"action": "Skateboard’s trailing wheel flashes across the extreme lower foreground into direct sunlight. Only Skater’s pale sneaker and a cropped section of trouser leg remain visible above the deck; his upper body is outside the frame. The alley behind this final passing detail is already empty.",
+						"emotion": "Release, followed by quiet.",
+						"transition": "Let the wheel clear the locked composition, hold the empty alley and its long shadows for one second, then hard cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		}
+	]
+}

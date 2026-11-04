@@ -1,0 +1,275 @@
+[
+  {
+    "id": "01",
+    "name": "야간 인수인계 - 스토리보드 8컷",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/chanyoung_야간 인수인계 - 스토리보드 8컷_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/01_chanyoung_야간 인수인계 - 스토리보드 8컷_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/01.mp4",
+    "hashes": {
+      "pvz": "ccbaa3669b21fe7384544a8b320df018e4b2d2f18f5fb135ed324ecd3be39c10",
+      "mp4": "dae21e765bed02e8ab3bb9805e39e48b5d3829a4d9037e1d52e999ee0ebd1692"
+    },
+    "duration": 23.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "02",
+    "name": "2026-10-21 21:09",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-01_2026-10-21 21-09_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/02_previz-01_2026-10-21 21-09_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/02.mp4",
+    "hashes": {
+      "pvz": "b34aab9fa57d08fb189843b8e4e5874ecc58fb8c3861eb172c5a538b426173d8",
+      "mp4": "d40d9d5d59980734aff589479421a6aac47f11263d844fccd5b271bcb77711c7"
+    },
+    "duration": 36.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": false,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "03",
+    "name": "박소윤",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-01_박소윤_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/03_previz-01_박소윤_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/03.mp4",
+    "hashes": {
+      "pvz": "506372c24b413dfb9bba3e7660b314404a2ef0d6ae446292da6fcf5e4e7f053b",
+      "mp4": "984530eb36b5d121ef0b0652612feda2a8534801a1b2f34502e240a8cf3cc31e"
+    },
+    "duration": 17.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": false,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "04",
+    "name": "2026-10-14 18:34",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-02_2026-10-14 18-34_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/04_previz-02_2026-10-14 18-34_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/04.mp4",
+    "hashes": {
+      "pvz": "38476ffd53f64719bd2ecc38ae5d025993f025f29957d85c1c119ca15ffc3380",
+      "mp4": "58f06a243962cfee2facbc078e2585cc3d212dfc7d805ace28882fd4ee148a9a"
+    },
+    "duration": 40.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "05",
+    "name": "2026-10-14 20:50",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-02_2026-10-14 20-50_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/05_previz-02_2026-10-14 20-50_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/05.mp4",
+    "hashes": {
+      "pvz": "4a14a06e0ca2b797401849f17cb8b5a07cc2b82cfee01985aab824cf8168095c",
+      "mp4": "c7cfadec7a8ecc0ecc1aeb94a27768e5bba2273caa390cc6d119ab6afe815ae0"
+    },
+    "duration": 40.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "06",
+    "name": "조하영",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-03_조하영_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/06_previz-03_조하영_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/06.mp4",
+    "hashes": {
+      "pvz": "2de9e6e93e3079e666d230257fa425b868490e0315308a01c8840f7e32e4409d",
+      "mp4": "23b34a0e12bb06c54557f0389329f7c4494056f63a60a61d366ed5fcf8e0bce5"
+    },
+    "duration": 32.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "07",
+    "name": "터널 효과의 이론과 실제 사이",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-03_터널 효과의 이론과 실제 사이_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/07_previz-03_터널 효과의 이론과 실제 사이_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/07.mp4",
+    "hashes": {
+      "pvz": "73821a4636ffe30fd7d723f19d0ed4672d9d3a3fd57dd031746eed839a6153dd",
+      "mp4": "01b05dd3b30109d98acc2f16d744dfff0395e111d5edf8bcc90c5617b755a9ae"
+    },
+    "duration": 47.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "08",
+    "name": "261019",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-04_261019_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/08_previz-04_261019_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/08.mp4",
+    "hashes": {
+      "pvz": "f1cfa163a4185c2c8eb7c5cf0eaef53225a652eb51a9bc42050f4c7be7eb332f",
+      "mp4": "2efcd04712705ebf73c6d7835721f08479b6ff12359e6c089d447c6748167cf0"
+    },
+    "duration": 20.2,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "09",
+    "name": "261020",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-04_261020_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/09_previz-04_261020_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/09.mp4",
+    "hashes": {
+      "pvz": "c0511b960af06b88597aa563f4d1f47f8d82525a2e90653f89b7faaa841ed8d9",
+      "mp4": "ef2196d89b6f9aa05dbac387cc8d9488b6fcd2785aca91f4053a7f28fda575b2"
+    },
+    "duration": 21.7,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "10",
+    "name": "test1",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-05_test1_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/10_previz-05_test1_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/10.mp4",
+    "hashes": {
+      "pvz": "949d8c6dc395a3fcc1b616f64f6e526fd64461c5b900580cea8286b0e9cffe52",
+      "mp4": "d24d24fae3db81da42fd7a2e01a587f3146037b762e3a205a6f1f894f4f250b1"
+    },
+    "duration": 25.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "11",
+    "name": "test2",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-05_test2_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/11_previz-05_test2_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/11.mp4",
+    "hashes": {
+      "pvz": "e6fcd7fe84bee3e5fa917b84ccbc8b24f021e0b8dbe57ce14f70f212bc4720d5",
+      "mp4": "f378632d019e47ad332c66d2fa380537e673cb776fbfeaa5a7dcb1d420089a10"
+    },
+    "duration": 16.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "12",
+    "name": "우주",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/previz-05_우주_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/12_previz-05_우주_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/12.mp4",
+    "hashes": {
+      "pvz": "082be7291ffb76c9fc02d12b1512dfa7c98ec90478acfc2656f7813a4fc33546",
+      "mp4": "e30aa0a74b216c0a781469215fcf54352a94bee6972348013432c6317c4ecb49"
+    },
+    "duration": 26.5,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": true,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  },
+  {
+    "id": "13",
+    "name": "The Last Light - 마지막 빛",
+    "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/2026-10-22/zihasoo_The Last Light - 마지막 빛_v1.pvz",
+    "source_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Renders_2026-10-26/13_zihasoo_The Last Light - 마지막 빛_v1.mp4",
+    "copied_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-02/media/13.mp4",
+    "hashes": {
+      "pvz": "2c6eba8d34df201ec6105ca4af1617470390fdaa8e5efca150318151de5d55a0",
+      "mp4": "ba11b8223a5a93ef0efde2a9c013adf67e106e12666929a31e04a59d4665587e"
+    },
+    "duration": 24.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "has_audio": false,
+    "render_document_hash_match": {
+      "storyboard.json": false,
+      "scene/timeline.json": false,
+      "scene/objects.json": false
+    }
+  }
+]

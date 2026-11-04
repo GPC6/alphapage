@@ -1,0 +1,706 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "가은(여자, 20대)은 기억을 지울 수 있는 능력이 있다. 기억을 지우는 방법은 간단하다. 상대방의 맨 살을 잡고 눈을 감으면 된다. 그럼 가은과 상대방 모두 경직 상태가 되며 상대의 기억이 가은에게 넘어온다.\n\n가은이  눈 앞 남자1(30)의 팔을 움켜쥔다. 경직된 남자. 가은은 눈을 감은 채 힘들다는 듯 꿈들거린다.\n\n이때, 멀리서 누군가를 찾는 듯 두리번거리는 해원(여자, 20대). 해원의 시야에 가은이 들어온다. \n\n가은은 남자의 팔을 놓고 장갑을 낀다. 남자가 혼란스러워 하는 사이 가은이 뒤를 돌자, 눈앞에 해원이 나타난다.\n해원과 가은은 서로를 응시한다. 해원이 저벅저벅 가은에게 다가간다.\n",
+	"draft_prompt": "가은(여자, 20대)은 기억을 지울 수 있는 능력이 있다. 기억을 지우는 방법은 간단하다. 상대방의 맨 살을 잡고 눈을 감으면 된다. 그럼 가은과 상대방 모두 경직 상태가 되며 상대의 기억이 가은에게 넘어온다.\n\n가은이  눈 앞 남자1(30)의 팔을 움켜쥔다. 경직된 남자. 가은은 눈을 감은 채 힘들다는 듯 꿈들거린다.\n\n이때, 멀리서 누군가를 찾는 듯 두리번거리는 해원(여자, 20대). 해원의 시야에 가은이 들어온다. \n\n가은은 남자의 팔을 놓고 장갑을 낀다. 남자가 혼란스러워 하는 사이 가은이 뒤를 돌자, 눈앞에 해원이 나타난다.\n해원과 가은은 서로를 응시한다. 해원이 저벅저벅 가은에게 다가간다.\n",
+	"request":
+	{
+		"cut_count": 10,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 10,
+		"duration_seconds": 32.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.",
+			"location_type": "Covered outdoor public walkway.",
+			"zones": [
+				{
+					"name": "Pillar Bay",
+					"description": "A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening",
+					"connects_to": [
+						"Long Walk"
+					]
+				},
+				{
+					"name": "Long Walk",
+					"description": "A straight pedestrian passage with a flat concrete canopy, repeating square supports, pale paving seams, and a low steel railing along its open side; overcast sky appears beyond the railing, and the Pillar Bay opening is visible between the supports",
+					"connects_to": [
+						"Pillar Bay"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "dry and overcast",
+				"lighting": "soft lateral daylight beneath the canopy, with gentle shadows and no direct sun."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "Gaeun tries to finish erasing a man’s memory through bare-skin contact despite the strain of absorbing it, but Haewon spots her, confronts her as she turns away, and advances into a silent standoff.",
+			"beats": [
+				{
+					"summary": "Gaeun seizes the man’s exposed forearm, establishing the contact her ability requires",
+					"emotion": "apprehension"
+				},
+				{
+					"summary": "Gaeun closes her eyes, and both bodies lock as the memory transfer begins",
+					"emotion": "unease"
+				},
+				{
+					"summary": "A small involuntary tremor reveals the transfer’s physical cost to Gaeun",
+					"emotion": "distress"
+				},
+				{
+					"summary": "Haewon enters view searching for someone, introducing the possibility of discovery",
+					"emotion": "anticipation"
+				},
+				{
+					"summary": "Haewon’s searching gaze settles on Gaeun",
+					"emotion": "alarm"
+				},
+				{
+					"summary": "Gaeun breaks contact, leaving the man visibly confused",
+					"emotion": "disorientation"
+				},
+				{
+					"summary": "Gaeun covers her bare hands with gloves, restoring a barrier against contact",
+					"emotion": "guarded relief"
+				},
+				{
+					"summary": "Gaeun turns and discovers Haewon directly in front of her",
+					"emotion": "shock"
+				},
+				{
+					"summary": "Neither woman looks away, transforming the encounter into a confrontation",
+					"emotion": "tension"
+				},
+				{
+					"summary": "Haewon walks toward Gaeun, collapsing the space between them",
+					"emotion": "dread"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Gaeun",
+				"kind": "Woman in her twenties",
+				"appearance": "short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob",
+				"signature_features": [
+					"compact triangular coat silhouette and short, blunt hair outline recognizable from every angle."
+				]
+			},
+			{
+				"name": "Man 1",
+				"kind": "Man aged thirty",
+				"appearance": "stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair",
+				"signature_features": [
+					"broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle."
+				]
+			},
+			{
+				"name": "Haewon",
+				"kind": "Woman in her twenties",
+				"appearance": "tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail",
+				"signature_features": [
+					"elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle."
+				]
+			},
+			{
+				"name": "Gloves",
+				"kind": "Pair of fitted gloves",
+				"appearance": "matte charcoal fabric, full fingers, short straight cuffs, no decoration",
+				"signature_features": [
+					"matching narrow five-finger silhouettes with sharply squared cuff edges."
+				]
+			}
+		],
+		"run_id": "storyboard_20261021_060932_fca2973d"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun seizing Man 1’s forearm",
+				"beat": 1,
+				"zone": "Pillar Bay",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Man 1"
+				],
+				"subject_states": [],
+				"backdrop": "The bay’s rear concrete wall and low bench, with the square pillar and a strip of the adjoining walkway at frame left.",
+				"action": "Gaeun stands between Man 1 and the bay opening, her back angled toward the opening. Her bare hand closes firmly around his exposed forearm below his rolled sleeve. He looks down at her grip.",
+				"emotion": "Apprehension at an intimate but forceful contact.",
+				"transition": "Hard cut closer along the same viewing axis.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay’s rear concrete wall and low bench, with the square pillar and a strip of the adjoining walkway at frame left.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun stands between Man 1 and the bay opening, her back angled toward the opening. Her bare hand closes firmly around his exposed forearm below his rolled sleeve. He looks down at her grip.\nMood: Apprehension at an intimate but forceful contact.",
+			"images": [
+				"cut_01_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay’s rear concrete wall and low bench, with the square pillar and a strip of the adjoining walkway at frame left.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun stands between Man 1 and the bay opening, her back angled toward the opening. Her bare hand closes firmly around his exposed forearm below his rolled sleeve. He looks down at her grip.\nMood: Apprehension at an intimate but forceful contact.",
+					"spec":
+					{
+						"shot_name": "Gaeun seizing Man 1’s forearm",
+						"beat": 1,
+						"zone": "Pillar Bay",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Man 1"
+						],
+						"subject_states": [],
+						"backdrop": "The bay’s rear concrete wall and low bench, with the square pillar and a strip of the adjoining walkway at frame left.",
+						"action": "Gaeun stands between Man 1 and the bay opening, her back angled toward the opening. Her bare hand closes firmly around his exposed forearm below his rolled sleeve. He looks down at her grip.",
+						"emotion": "Apprehension at an intimate but forceful contact.",
+						"transition": "Hard cut closer along the same viewing axis.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun closing her eyes as Man 1 stiffens",
+				"beat": 2,
+				"zone": "Pillar Bay",
+				"shot_size": "medium",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Man 1"
+				],
+				"subject_states": [],
+				"backdrop": "The plain concrete rear wall, with the bench’s upper edge low in frame.",
+				"action": "Gaeun closes her eyes without releasing the forearm. Her shoulders lock. Man 1’s torso becomes rigid, his free hand arrested with its fingers slightly spread and his gaze fixed.",
+				"emotion": "Unease as an ordinary gesture becomes unnatural.",
+				"transition": "Hard cut into Gaeun’s face.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The plain concrete rear wall, with the bench’s upper edge low in frame.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun closes her eyes without releasing the forearm. Her shoulders lock. Man 1’s torso becomes rigid, his free hand arrested with its fingers slightly spread and his gaze fixed.\nMood: Unease as an ordinary gesture becomes unnatural.",
+			"images": [
+				"cut_02_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The plain concrete rear wall, with the bench’s upper edge low in frame.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun closes her eyes without releasing the forearm. Her shoulders lock. Man 1’s torso becomes rigid, his free hand arrested with its fingers slightly spread and his gaze fixed.\nMood: Unease as an ordinary gesture becomes unnatural.",
+					"spec":
+					{
+						"shot_name": "Gaeun closing her eyes as Man 1 stiffens",
+						"beat": 2,
+						"zone": "Pillar Bay",
+						"shot_size": "medium",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Man 1"
+						],
+						"subject_states": [],
+						"backdrop": "The plain concrete rear wall, with the bench’s upper edge low in frame.",
+						"action": "Gaeun closes her eyes without releasing the forearm. Her shoulders lock. Man 1’s torso becomes rigid, his free hand arrested with its fingers slightly spread and his gaze fixed.",
+						"emotion": "Unease as an ordinary gesture becomes unnatural.",
+						"transition": "Hard cut into Gaeun’s face.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun straining against the transfer",
+				"beat": 3,
+				"zone": "Pillar Bay",
+				"shot_size": "close-up",
+				"angle": "eye level, three-quarter profile",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Man 1"
+				],
+				"subject_states": [],
+				"backdrop": "A narrow, softly focused patch of the bay’s concrete rear wall.",
+				"action": "Gaeun’s eyelids remain tightly shut. A fine tremor passes through her clenched jaw and taut shoulder without breaking her rigid posture. Her gripping hand and a cropped section of Man 1’s exposed forearm remain visible at the bottom edge.",
+				"emotion": "Distress at the effort she is containing.",
+				"transition": "Hard cut away to the searching Haewon.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: A narrow, softly focused patch of the bay’s concrete rear wall.\nShot size: close-up\nCamera angle: eye level, three-quarter profile\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun’s eyelids remain tightly shut. A fine tremor passes through her clenched jaw and taut shoulder without breaking her rigid posture. Her gripping hand and a cropped section of Man 1’s exposed forearm remain visible at the bottom edge.\nMood: Distress at the effort she is containing.",
+			"images": [
+				"cut_03_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: A narrow, softly focused patch of the bay’s concrete rear wall.\nShot size: close-up\nCamera angle: eye level, three-quarter profile\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun’s eyelids remain tightly shut. A fine tremor passes through her clenched jaw and taut shoulder without breaking her rigid posture. Her gripping hand and a cropped section of Man 1’s exposed forearm remain visible at the bottom edge.\nMood: Distress at the effort she is containing.",
+					"spec":
+					{
+						"shot_name": "Gaeun straining against the transfer",
+						"beat": 3,
+						"zone": "Pillar Bay",
+						"shot_size": "close-up",
+						"angle": "eye level, three-quarter profile",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Man 1"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow, softly focused patch of the bay’s concrete rear wall.",
+						"action": "Gaeun’s eyelids remain tightly shut. A fine tremor passes through her clenched jaw and taut shoulder without breaking her rigid posture. Her gripping hand and a cropped section of Man 1’s exposed forearm remain visible at the bottom edge.",
+						"emotion": "Distress at the effort she is containing.",
+						"transition": "Hard cut away to the searching Haewon.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Haewon searching the walkway",
+				"beat": 4,
+				"zone": "Long Walk",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "Slow pan following Haewon’s walking pace.",
+				"subjects_present": [
+					"Haewon"
+				],
+				"subject_states": [],
+				"backdrop": "Repeating concrete supports, the long canopy, paving seams, and the railing against pale overcast sky.",
+				"action": "Haewon walks along the passage, turning her head from the open railing side toward the recesses between the supports. Her searching eyes move ahead of her steps.",
+				"emotion": "Anticipation that someone is about to be found.",
+				"transition": "Hard cut along her new line of sight.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Long Walk: A straight pedestrian passage with a flat concrete canopy, repeating square supports, pale paving seams, and a low steel railing along its open side; overcast sky appears beyond the railing, and the Pillar Bay opening is visible between the supports\nBackdrop, behind the action: Repeating concrete supports, the long canopy, paving seams, and the railing against pale overcast sky.\nShot size: wide\nCamera angle: eye level\nCamera move: Slow pan following Haewon’s walking pace.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\nAction: Haewon walks along the passage, turning her head from the open railing side toward the recesses between the supports. Her searching eyes move ahead of her steps.\nMood: Anticipation that someone is about to be found.",
+			"images": [
+				"cut_04_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Long Walk: A straight pedestrian passage with a flat concrete canopy, repeating square supports, pale paving seams, and a low steel railing along its open side; overcast sky appears beyond the railing, and the Pillar Bay opening is visible between the supports\nBackdrop, behind the action: Repeating concrete supports, the long canopy, paving seams, and the railing against pale overcast sky.\nShot size: wide\nCamera angle: eye level\nCamera move: Slow pan following Haewon’s walking pace.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\nAction: Haewon walks along the passage, turning her head from the open railing side toward the recesses between the supports. Her searching eyes move ahead of her steps.\nMood: Anticipation that someone is about to be found.",
+					"spec":
+					{
+						"shot_name": "Haewon searching the walkway",
+						"beat": 4,
+						"zone": "Long Walk",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "Slow pan following Haewon’s walking pace.",
+						"subjects_present": [
+							"Haewon"
+						],
+						"subject_states": [],
+						"backdrop": "Repeating concrete supports, the long canopy, paving seams, and the railing against pale overcast sky.",
+						"action": "Haewon walks along the passage, turning her head from the open railing side toward the recesses between the supports. Her searching eyes move ahead of her steps.",
+						"emotion": "Anticipation that someone is about to be found.",
+						"transition": "Hard cut along her new line of sight.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Haewon spotting Gaeun",
+				"beat": 5,
+				"zone": "Long Walk",
+				"shot_size": "medium",
+				"angle": "Eye level, behind and beside Haewon’s shoulder",
+				"camera_move": "static",
+				"subjects_present": [
+					"Haewon",
+					"Gaeun",
+					"Man 1"
+				],
+				"subject_states": [],
+				"backdrop": "The Pillar Bay opening several metres ahead, bordered by its square pillar; its rear wall and bench are visible beyond Gaeun and Man 1.",
+				"action": "Haewon’s head stops scanning and fixes toward Gaeun while her body remains in a walking stride. Through the opening, Gaeun holds Man 1’s bare forearm with her eyes shut; both retain their rigid posture.",
+				"emotion": "Alarm at the moment of discovery.",
+				"transition": "Hard cut back inside the bay.",
+				"atmosphere": null,
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Long Walk: A straight pedestrian passage with a flat concrete canopy, repeating square supports, pale paving seams, and a low steel railing along its open side; overcast sky appears beyond the railing, and the Pillar Bay opening is visible between the supports\nBackdrop, behind the action: The Pillar Bay opening several metres ahead, bordered by its square pillar; its rear wall and bench are visible beyond Gaeun and Man 1.\nShot size: medium\nCamera angle: Eye level, behind and beside Haewon’s shoulder\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Haewon’s head stops scanning and fixes toward Gaeun while her body remains in a walking stride. Through the opening, Gaeun holds Man 1’s bare forearm with her eyes shut; both retain their rigid posture.\nMood: Alarm at the moment of discovery.",
+			"images": [
+				"cut_05_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Long Walk: A straight pedestrian passage with a flat concrete canopy, repeating square supports, pale paving seams, and a low steel railing along its open side; overcast sky appears beyond the railing, and the Pillar Bay opening is visible between the supports\nBackdrop, behind the action: The Pillar Bay opening several metres ahead, bordered by its square pillar; its rear wall and bench are visible beyond Gaeun and Man 1.\nShot size: medium\nCamera angle: Eye level, behind and beside Haewon’s shoulder\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Haewon’s head stops scanning and fixes toward Gaeun while her body remains in a walking stride. Through the opening, Gaeun holds Man 1’s bare forearm with her eyes shut; both retain their rigid posture.\nMood: Alarm at the moment of discovery.",
+					"spec":
+					{
+						"shot_name": "Haewon spotting Gaeun",
+						"beat": 5,
+						"zone": "Long Walk",
+						"shot_size": "medium",
+						"angle": "Eye level, behind and beside Haewon’s shoulder",
+						"camera_move": "static",
+						"subjects_present": [
+							"Haewon",
+							"Gaeun",
+							"Man 1"
+						],
+						"subject_states": [],
+						"backdrop": "The Pillar Bay opening several metres ahead, bordered by its square pillar; its rear wall and bench are visible beyond Gaeun and Man 1.",
+						"action": "Haewon’s head stops scanning and fixes toward Gaeun while her body remains in a walking stride. Through the opening, Gaeun holds Man 1’s bare forearm with her eyes shut; both retain their rigid posture.",
+						"emotion": "Alarm at the moment of discovery.",
+						"transition": "Hard cut back inside the bay.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun releasing the confused Man 1",
+				"beat": 6,
+				"zone": "Pillar Bay",
+				"shot_size": "medium",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Man 1"
+				],
+				"subject_states": [],
+				"backdrop": "The bay’s rear wall and the end of the low bench.",
+				"action": "Gaeun opens her eyes and lifts her bare hand clear of Man 1’s forearm. His shoulders sag; he studies the released arm with knitted brows and touches it with his free hand. Gaeun lowers her gaze toward her coat pocket.",
+				"emotion": "Disorientation, with an uneasy suggestion of something missing.",
+				"transition": "Hard cut to Gaeun’s hands.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay’s rear wall and the end of the low bench.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun opens her eyes and lifts her bare hand clear of Man 1’s forearm. His shoulders sag; he studies the released arm with knitted brows and touches it with his free hand. Gaeun lowers her gaze toward her coat pocket.\nMood: Disorientation, with an uneasy suggestion of something missing.",
+			"images": [
+				"cut_06_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay’s rear wall and the end of the low bench.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\nAction: Gaeun opens her eyes and lifts her bare hand clear of Man 1’s forearm. His shoulders sag; he studies the released arm with knitted brows and touches it with his free hand. Gaeun lowers her gaze toward her coat pocket.\nMood: Disorientation, with an uneasy suggestion of something missing.",
+					"spec":
+					{
+						"shot_name": "Gaeun releasing the confused Man 1",
+						"beat": 6,
+						"zone": "Pillar Bay",
+						"shot_size": "medium",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Man 1"
+						],
+						"subject_states": [],
+						"backdrop": "The bay’s rear wall and the end of the low bench.",
+						"action": "Gaeun opens her eyes and lifts her bare hand clear of Man 1’s forearm. His shoulders sag; he studies the released arm with knitted brows and touches it with his free hand. Gaeun lowers her gaze toward her coat pocket.",
+						"emotion": "Disorientation, with an uneasy suggestion of something missing.",
+						"transition": "Hard cut to Gaeun’s hands.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun pulling on her gloves",
+				"beat": 7,
+				"zone": "Pillar Bay",
+				"shot_size": "insert",
+				"angle": "High, oblique view of Gaeun’s hands",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Gloves"
+				],
+				"subject_states": [
+					{
+						"subject": "Gaeun",
+						"state": "Her right hand is fully gloved; her left hand is inside the second glove, whose cuff is being pulled over the wrist."
+					}
+				],
+				"backdrop": "Gaeun’s charcoal coat front and a small patch of pale bay paving.",
+				"action": "With her already gloved right hand, Gaeun draws the second glove’s cuff snugly over her left wrist, covering the remaining strip of bare skin.",
+				"emotion": "Guarded relief as she seals off contact.",
+				"transition": "Hard cut outward as she turns.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: Gaeun’s charcoal coat front and a small patch of pale bay paving.\nShot size: insert\nCamera angle: High, oblique view of Gaeun’s hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Her right hand is fully gloved; her left hand is inside the second glove, whose cuff is being pulled over the wrist.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: With her already gloved right hand, Gaeun draws the second glove’s cuff snugly over her left wrist, covering the remaining strip of bare skin.\nMood: Guarded relief as she seals off contact.",
+			"images": [
+				"cut_07_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: Gaeun’s charcoal coat front and a small patch of pale bay paving.\nShot size: insert\nCamera angle: High, oblique view of Gaeun’s hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Her right hand is fully gloved; her left hand is inside the second glove, whose cuff is being pulled over the wrist.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: With her already gloved right hand, Gaeun draws the second glove’s cuff snugly over her left wrist, covering the remaining strip of bare skin.\nMood: Guarded relief as she seals off contact.",
+					"spec":
+					{
+						"shot_name": "Gaeun pulling on her gloves",
+						"beat": 7,
+						"zone": "Pillar Bay",
+						"shot_size": "insert",
+						"angle": "High, oblique view of Gaeun’s hands",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Gloves"
+						],
+						"subject_states": [
+							{
+								"subject": "Gaeun",
+								"state": "Her right hand is fully gloved; her left hand is inside the second glove, whose cuff is being pulled over the wrist."
+							}
+						],
+						"backdrop": "Gaeun’s charcoal coat front and a small patch of pale bay paving.",
+						"action": "With her already gloved right hand, Gaeun draws the second glove’s cuff snugly over her left wrist, covering the remaining strip of bare skin.",
+						"emotion": "Guarded relief as she seals off contact.",
+						"transition": "Hard cut outward as she turns.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun turning to find Haewon",
+				"beat": 8,
+				"zone": "Pillar Bay",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Haewon",
+					"Man 1",
+					"Gloves"
+				],
+				"subject_states": [
+					{
+						"subject": "Gaeun",
+						"state": "Both hands are fully covered by the charcoal gloves."
+					}
+				],
+				"backdrop": "The bay opening, its bordering pillar, a short visible stretch of Long Walk, and the rear bench at the opposite edge.",
+				"action": "Gaeun pivots toward the opening and checks her movement. Haewon stands just inside the threshold, roughly three metres away, directly facing her. Gaeun occupies screen right and Haewon screen left. Farther back beside the bench, Man 1 looks down at his forearm.",
+				"emotion": "Shock at an encounter Gaeun has not prepared for.",
+				"transition": "Hard cut closer while preserving the women’s screen positions.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay opening, its bordering pillar, a short visible stretch of Long Walk, and the rear bench at the opposite edge.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands are fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Gaeun pivots toward the opening and checks her movement. Haewon stands just inside the threshold, roughly three metres away, directly facing her. Gaeun occupies screen right and Haewon screen left. Farther back beside the bench, Man 1 looks down at his forearm.\nMood: Shock at an encounter Gaeun has not prepared for.",
+			"images": [
+				"cut_08_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay opening, its bordering pillar, a short visible stretch of Long Walk, and the rear bench at the opposite edge.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands are fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Man 1 (Man aged thirty): stocky build; light-gray shirt with sleeves rolled above the elbows; dark trousers; short dark hair Signature, drawn only where this angle exposes it: broad, heavy torso and thick exposed forearms give him a distinctive bulky silhouette from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Gaeun pivots toward the opening and checks her movement. Haewon stands just inside the threshold, roughly three metres away, directly facing her. Gaeun occupies screen right and Haewon screen left. Farther back beside the bench, Man 1 looks down at his forearm.\nMood: Shock at an encounter Gaeun has not prepared for.",
+					"spec":
+					{
+						"shot_name": "Gaeun turning to find Haewon",
+						"beat": 8,
+						"zone": "Pillar Bay",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Haewon",
+							"Man 1",
+							"Gloves"
+						],
+						"subject_states": [
+							{
+								"subject": "Gaeun",
+								"state": "Both hands are fully covered by the charcoal gloves."
+							}
+						],
+						"backdrop": "The bay opening, its bordering pillar, a short visible stretch of Long Walk, and the rear bench at the opposite edge.",
+						"action": "Gaeun pivots toward the opening and checks her movement. Haewon stands just inside the threshold, roughly three metres away, directly facing her. Gaeun occupies screen right and Haewon screen left. Farther back beside the bench, Man 1 looks down at his forearm.",
+						"emotion": "Shock at an encounter Gaeun has not prepared for.",
+						"transition": "Hard cut closer while preserving the women’s screen positions.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Gaeun and Haewon holding each other’s gaze",
+				"beat": 9,
+				"zone": "Pillar Bay",
+				"shot_size": "medium",
+				"angle": "Eye level, side-on two-shot",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Haewon",
+					"Gloves"
+				],
+				"subject_states": [
+					{
+						"subject": "Gaeun",
+						"state": "Both hands remain fully covered by the charcoal gloves."
+					}
+				],
+				"backdrop": "The concrete pillar and pale paving at the bay mouth, with a narrow section of the adjoining walkway.",
+				"action": "Haewon holds Gaeun’s eyes without speaking. Gaeun remains screen right, facing left, her gloved hands motionless beside her coat. Haewon remains screen left, facing right, her chin level and shoulders square.",
+				"emotion": "Tension sustained by neither woman yielding.",
+				"transition": "Hard cut wider on the same side of their shared axis.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The concrete pillar and pale paving at the bay mouth, with a narrow section of the adjoining walkway.\nShot size: medium\nCamera angle: Eye level, side-on two-shot\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands remain fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Haewon holds Gaeun’s eyes without speaking. Gaeun remains screen right, facing left, her gloved hands motionless beside her coat. Haewon remains screen left, facing right, her chin level and shoulders square.\nMood: Tension sustained by neither woman yielding.",
+			"images": [
+				"cut_09_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The concrete pillar and pale paving at the bay mouth, with a narrow section of the adjoining walkway.\nShot size: medium\nCamera angle: Eye level, side-on two-shot\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands remain fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Haewon holds Gaeun’s eyes without speaking. Gaeun remains screen right, facing left, her gloved hands motionless beside her coat. Haewon remains screen left, facing right, her chin level and shoulders square.\nMood: Tension sustained by neither woman yielding.",
+					"spec":
+					{
+						"shot_name": "Gaeun and Haewon holding each other’s gaze",
+						"beat": 9,
+						"zone": "Pillar Bay",
+						"shot_size": "medium",
+						"angle": "Eye level, side-on two-shot",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Haewon",
+							"Gloves"
+						],
+						"subject_states": [
+							{
+								"subject": "Gaeun",
+								"state": "Both hands remain fully covered by the charcoal gloves."
+							}
+						],
+						"backdrop": "The concrete pillar and pale paving at the bay mouth, with a narrow section of the adjoining walkway.",
+						"action": "Haewon holds Gaeun’s eyes without speaking. Gaeun remains screen right, facing left, her gloved hands motionless beside her coat. Haewon remains screen left, facing right, her chin level and shoulders square.",
+						"emotion": "Tension sustained by neither woman yielding.",
+						"transition": "Hard cut wider on the same side of their shared axis.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Haewon walking directly toward Gaeun",
+				"beat": 10,
+				"zone": "Pillar Bay",
+				"shot_size": "wide",
+				"angle": "Slightly low",
+				"camera_move": "static",
+				"subjects_present": [
+					"Gaeun",
+					"Haewon",
+					"Gloves"
+				],
+				"subject_states": [
+					{
+						"subject": "Gaeun",
+						"state": "Both hands remain fully covered by the charcoal gloves."
+					}
+				],
+				"backdrop": "The bay-mouth pillar, the concrete canopy underside, and pale paving across the space between the women.",
+				"action": "Haewon takes two deliberate steps from screen left toward Gaeun at screen right, reducing the gap to approximately one metre. Gaeun stays planted, her gloved fingers held straight at her sides and her gaze fixed on Haewon.",
+				"emotion": "Dread as the confrontation becomes physically immediate.",
+				"transition": "Hard cut to black before either woman speaks or touches the other.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay-mouth pillar, the concrete canopy underside, and pale paving across the space between the women.\nShot size: wide\nCamera angle: Slightly low\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands remain fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Haewon takes two deliberate steps from screen left toward Gaeun at screen right, reducing the gap to approximately one metre. Gaeun stays planted, her gloved fingers held straight at her sides and her gaze fixed on Haewon.\nMood: Dread as the confrontation becomes physically immediate.",
+			"images": [
+				"cut_10_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary civic pedestrian arcade of weathered concrete, matte steel, and pale stone has a restrained silver-to-charcoal palette under flat, overcast daylight.\nLocation: Covered outdoor public walkway.\nAtmosphere: Late afternoon, dry and overcast, soft lateral daylight beneath the canopy, with gentle shadows and no direct sun.\nThis cut happens at Pillar Bay: A shallow recess with a bare concrete rear wall, a low stone bench, a broad square pillar at one edge, and pale paving extending through its open mouth; the adjoining walkway is directly visible through that opening\nBackdrop, behind the action: The bay-mouth pillar, the concrete canopy underside, and pale paving across the space between the women.\nShot size: wide\nCamera angle: Slightly low\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Gaeun (Woman in her twenties): short, slim build; charcoal, slightly flared mid-thigh coat over dark straight trousers; bare hands; blunt chin-length black bob Signature, drawn only where this angle exposes it: compact triangular coat silhouette and short, blunt hair outline recognizable from every angle. Current state in this cut: Both hands remain fully covered by the charcoal gloves.\n- Haewon (Woman in her twenties): tall, slender build; pale-gray, straight knee-length coat over charcoal trousers; dark hair tied in a low ponytail Signature, drawn only where this angle exposes it: elongated column-like silhouette, substantially taller than Gaeun, with a narrow coat outline recognizable from every angle.\n- Gloves (Pair of fitted gloves): matte charcoal fabric, full fingers, short straight cuffs, no decoration Signature, drawn only where this angle exposes it: matching narrow five-finger silhouettes with sharply squared cuff edges.\nAction: Haewon takes two deliberate steps from screen left toward Gaeun at screen right, reducing the gap to approximately one metre. Gaeun stays planted, her gloved fingers held straight at her sides and her gaze fixed on Haewon.\nMood: Dread as the confrontation becomes physically immediate.",
+					"spec":
+					{
+						"shot_name": "Haewon walking directly toward Gaeun",
+						"beat": 10,
+						"zone": "Pillar Bay",
+						"shot_size": "wide",
+						"angle": "Slightly low",
+						"camera_move": "static",
+						"subjects_present": [
+							"Gaeun",
+							"Haewon",
+							"Gloves"
+						],
+						"subject_states": [
+							{
+								"subject": "Gaeun",
+								"state": "Both hands remain fully covered by the charcoal gloves."
+							}
+						],
+						"backdrop": "The bay-mouth pillar, the concrete canopy underside, and pale paving across the space between the women.",
+						"action": "Haewon takes two deliberate steps from screen left toward Gaeun at screen right, reducing the gap to approximately one metre. Gaeun stays planted, her gloved fingers held straight at her sides and her gaze fixed on Haewon.",
+						"emotion": "Dread as the confrontation becomes physically immediate.",
+						"transition": "Hard cut to black before either woman speaks or touches the other.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		}
+	]
+}

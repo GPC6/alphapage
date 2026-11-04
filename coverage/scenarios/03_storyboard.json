@@ -1,0 +1,530 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "\r\nS#1. 302호 거실 — 브이로그 · 0~10초\r\n삐빅, 녹화 시작음. 렌즈 바로 앞에 아이 손바닥이 확 덮였다가 떨어진다. 초점이 안 맞았다 맞았다 하며, 화면 가득 주인공 얼굴. 팔을 쭉 뻗은 셀카 구도라 화면이 계속 기울고 흔들린다.\r\n주인공 안녕하세요! 행복아파트 119동, 오늘의 브이로그 시작합니다!\r\n카메라가 휙 돌아가 형을 찾는다. 창문 박스에 테이프를 붙이던 형이 화면에 잡힌다.\r\n주인공 여긴 우리 형이고요~\r\n형이 손바닥으로 렌즈를 확 막는다.\r\n형 형 찍지 마. (살짝 무심한 말투로)\r\n카메라가 바닥으로 확 떨어지듯 내려가 꼬리를 붕붕 흔드는 콩이를 잡는다. 콩이가 렌즈에 코를 들이밀며 킁킁거려서, 동그란 코와 까만 눈이 화면 가득 커다랗게 잡힌다.  \r\n(원근감 레퍼런스: 위 이미지처럼 광각으로 코와 얼굴은 크게, 몸은 작게 잡혀서 최대한 귀엽게~!)\r\n주인공 이건 우리 막내 콩이! 그리고 우리 누나는… 지금 잠깐 나갔나 봐요!\r\nS#2. 302호 현관 — 브이로그 · 10~17초\r\n주인공이 카메라를 든 채 형을 졸졸 따라다닌다. 카메라는 형 얼굴, 천장, 바닥을 오가며 정신없이 흔들린다.\r\n주인공 형, 오늘은 나 밖에서 놀아도 돼?\r\n형 안 돼.\r\n주인공 왜애~ 딱 한 번만!\r\n형 위험하다 했잖아. 안 되는 건 안 되는 거야.\r\n형의 마지막 대사가 들리는 동안, 카메라는 아래로 처져 화면 구석의 콩이를 잡고 있다. 콩이는 귀를 쫑긋 세우고 열린 현관문 너머를 노려본다.\r\n콩이 월! 월!\r\n콩이가 뛰쳐나간다.\r\n주인공 어?! 콩아!",
+	"draft_prompt": "\r\nS#1. 302호 거실 — 브이로그 · 0~10초\r\n삐빅, 녹화 시작음. 렌즈 바로 앞에 아이 손바닥이 확 덮였다가 떨어진다. 초점이 안 맞았다 맞았다 하며, 화면 가득 주인공 얼굴. 팔을 쭉 뻗은 셀카 구도라 화면이 계속 기울고 흔들린다.\r\n주인공 안녕하세요! 행복아파트 119동, 오늘의 브이로그 시작합니다!\r\n카메라가 휙 돌아가 형을 찾는다. 창문 박스에 테이프를 붙이던 형이 화면에 잡힌다.\r\n주인공 여긴 우리 형이고요~\r\n형이 손바닥으로 렌즈를 확 막는다.\r\n형 형 찍지 마. (살짝 무심한 말투로)\r\n카메라가 바닥으로 확 떨어지듯 내려가 꼬리를 붕붕 흔드는 콩이를 잡는다. 콩이가 렌즈에 코를 들이밀며 킁킁거려서, 동그란 코와 까만 눈이 화면 가득 커다랗게 잡힌다.  \r\n(원근감 레퍼런스: 위 이미지처럼 광각으로 코와 얼굴은 크게, 몸은 작게 잡혀서 최대한 귀엽게~!)\r\n주인공 이건 우리 막내 콩이! 그리고 우리 누나는… 지금 잠깐 나갔나 봐요!\r\nS#2. 302호 현관 — 브이로그 · 10~17초\r\n주인공이 카메라를 든 채 형을 졸졸 따라다닌다. 카메라는 형 얼굴, 천장, 바닥을 오가며 정신없이 흔들린다.\r\n주인공 형, 오늘은 나 밖에서 놀아도 돼?\r\n형 안 돼.\r\n주인공 왜애~ 딱 한 번만!\r\n형 위험하다 했잖아. 안 되는 건 안 되는 거야.\r\n형의 마지막 대사가 들리는 동안, 카메라는 아래로 처져 화면 구석의 콩이를 잡고 있다. 콩이는 귀를 쫑긋 세우고 열린 현관문 너머를 노려본다.\r\n콩이 월! 월!\r\n콩이가 뛰쳐나간다.\r\n주인공 어?! 콩아!",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 17
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.",
+			"location_type": "Apartment living room and entrance, indoors, adjoining an enclosed communal landing.",
+			"zones": [
+				{
+					"name": "Living Room",
+					"description": "Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape",
+					"connects_to": [
+						"Entryway"
+					]
+				},
+				{
+					"name": "Entryway",
+					"description": "A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame",
+					"connects_to": [
+						"Living Room",
+						"Communal Landing"
+					]
+				},
+				{
+					"name": "Communal Landing",
+					"description": "A plain enclosed corridor immediately outside the apartment, with light-gray walls, darker floor tiles, a concrete ceiling, and steady overhead lighting; no people or identifiable threat are visible",
+					"connects_to": [
+						"Entryway"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Daytime",
+				"weather": "dry, overcast weather",
+				"lighting": "soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "An exuberant child filming a family vlog wants permission to play outside, but an older brother’s firm refusal becomes sudden alarm when their little dog Kong bolts through the open apartment door.",
+			"beats": [
+				{
+					"summary": "The child starts recording and confidently introduces the apartment vlog",
+					"emotion": "exuberance"
+				},
+				{
+					"summary": "The child turns the family introduction toward an older brother occupied with taping a box",
+					"emotion": "affectionate curiosity"
+				},
+				{
+					"summary": "The brother blocks the lens and refuses to participate",
+					"emotion": "comic rejection"
+				},
+				{
+					"summary": "Kong becomes the enthusiastic subject of the family roll call, while the sister remains unaccounted for",
+					"emotion": "warmth"
+				},
+				{
+					"summary": "Following the brother into the entrance, the child asks permission to play outside",
+					"emotion": "hopeful anticipation"
+				},
+				{
+					"summary": "The brother refuses, and the child tries pleading instead",
+					"emotion": "frustration"
+				},
+				{
+					"summary": "As the brother reiterates the danger, Kong becomes fixated on the open doorway",
+					"emotion": "unease"
+				},
+				{
+					"summary": "Kong barks and escapes through the doorway, provoking the child’s alarm",
+					"emotion": "sudden panic"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Vlogger",
+				"kind": "Young child, approximately ten years old",
+				"appearance": "short, compact build; rounded bowl-cut dark hair; oversized pale sweatshirt with broad, loose cuffs; dark straight trousers",
+				"signature_features": [
+					"unusually broad sweatshirt silhouette on a small body, with oversized cuffs recognizable even when only a hand and forearm enter the frame."
+				]
+			},
+			{
+				"name": "Brother",
+				"kind": "Older teenage boy",
+				"appearance": "tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers",
+				"signature_features": [
+					"elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction."
+				]
+			},
+			{
+				"name": "Kong",
+				"kind": "Small companion dog",
+				"appearance": "compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose",
+				"signature_features": [
+					"low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens."
+				]
+			}
+		],
+		"run_id": "storyboard_20261021_114739_26cd01d3"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Vlogger uncovering the lens and greeting the audience",
+				"beat": 1,
+				"zone": "Living Room",
+				"shot_size": "close-up",
+				"angle": "eye level, slightly canted selfie perspective",
+				"camera_move": "handheld, with small wrist-driven rolls",
+				"subjects_present": [
+					"Vlogger"
+				],
+				"subject_states": [],
+				"backdrop": "A narrow, tilted strip of pale wall and the upper edge of the fabric sofa.",
+				"action": "The child’s withdrawing palm remains at the edge of the frame while their eager face fills the image. A recording beep sounds; focus briefly hunts before catching the eyes. The child says, “Hello! Happy Apartments, Building 119, today’s vlog starts now!”",
+				"emotion": "Immediate, infectious excitement.",
+				"transition": "Hard cut on the beginning of a fast turn toward the brother.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: A narrow, tilted strip of pale wall and the upper edge of the fabric sofa.\nShot size: close-up\nCamera angle: eye level, slightly canted selfie perspective\nCamera move: handheld, with small wrist-driven rolls\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Vlogger (Young child, approximately ten years old): short, compact build; rounded bowl-cut dark hair; oversized pale sweatshirt with broad, loose cuffs; dark straight trousers Signature, drawn only where this angle exposes it: unusually broad sweatshirt silhouette on a small body, with oversized cuffs recognizable even when only a hand and forearm enter the frame.\nAction: The child’s withdrawing palm remains at the edge of the frame while their eager face fills the image. A recording beep sounds; focus briefly hunts before catching the eyes. The child says, “Hello! Happy Apartments, Building 119, today’s vlog starts now!”\nMood: Immediate, infectious excitement.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: A narrow, tilted strip of pale wall and the upper edge of the fabric sofa.\nShot size: close-up\nCamera angle: eye level, slightly canted selfie perspective\nCamera move: handheld, with small wrist-driven rolls\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Vlogger (Young child, approximately ten years old): short, compact build; rounded bowl-cut dark hair; oversized pale sweatshirt with broad, loose cuffs; dark straight trousers Signature, drawn only where this angle exposes it: unusually broad sweatshirt silhouette on a small body, with oversized cuffs recognizable even when only a hand and forearm enter the frame.\nAction: The child’s withdrawing palm remains at the edge of the frame while their eager face fills the image. A recording beep sounds; focus briefly hunts before catching the eyes. The child says, “Hello! Happy Apartments, Building 119, today’s vlog starts now!”\nMood: Immediate, infectious excitement.",
+					"spec":
+					{
+						"shot_name": "Vlogger uncovering the lens and greeting the audience",
+						"beat": 1,
+						"zone": "Living Room",
+						"shot_size": "close-up",
+						"angle": "eye level, slightly canted selfie perspective",
+						"camera_move": "handheld, with small wrist-driven rolls",
+						"subjects_present": [
+							"Vlogger"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow, tilted strip of pale wall and the upper edge of the fabric sofa.",
+						"action": "The child’s withdrawing palm remains at the edge of the frame while their eager face fills the image. A recording beep sounds; focus briefly hunts before catching the eyes. The child says, “Hello! Happy Apartments, Building 119, today’s vlog starts now!”",
+						"emotion": "Immediate, infectious excitement.",
+						"transition": "Hard cut on the beginning of a fast turn toward the brother.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother taping the window-side box",
+				"beat": 2,
+				"zone": "Living Room",
+				"shot_size": "medium",
+				"angle": "slightly low, at the child’s standing height",
+				"camera_move": "pan, rapidly settling on the brother",
+				"subjects_present": [
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": "The broad window, flat gray sky, pale wall, and packing box immediately beside the window.",
+				"action": "The brother bends over the box, pressing a strip of sealing tape flat with his fingers. The child introduces him from behind the lens: “This is my older brother~”",
+				"emotion": "Casual domestic affection.",
+				"transition": "Hard cut as the brother reaches toward the lens.",
+				"atmosphere": null,
+				"duration_seconds": 1.3
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: The broad window, flat gray sky, pale wall, and packing box immediately beside the window.\nShot size: medium\nCamera angle: slightly low, at the child’s standing height\nCamera move: pan, rapidly settling on the brother\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother bends over the box, pressing a strip of sealing tape flat with his fingers. The child introduces him from behind the lens: “This is my older brother~”\nMood: Casual domestic affection.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: The broad window, flat gray sky, pale wall, and packing box immediately beside the window.\nShot size: medium\nCamera angle: slightly low, at the child’s standing height\nCamera move: pan, rapidly settling on the brother\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother bends over the box, pressing a strip of sealing tape flat with his fingers. The child introduces him from behind the lens: “This is my older brother~”\nMood: Casual domestic affection.",
+					"spec":
+					{
+						"shot_name": "Brother taping the window-side box",
+						"beat": 2,
+						"zone": "Living Room",
+						"shot_size": "medium",
+						"angle": "slightly low, at the child’s standing height",
+						"camera_move": "pan, rapidly settling on the brother",
+						"subjects_present": [
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": "The broad window, flat gray sky, pale wall, and packing box immediately beside the window.",
+						"action": "The brother bends over the box, pressing a strip of sealing tape flat with his fingers. The child introduces him from behind the lens: “This is my older brother~”",
+						"emotion": "Casual domestic affection.",
+						"transition": "Hard cut as the brother reaches toward the lens.",
+						"atmosphere": null,
+						"duration_seconds": 1.3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother blocking the vlog",
+				"beat": 3,
+				"zone": "Living Room",
+				"shot_size": "extreme close-up",
+				"angle": "frontal, at the child’s eye height",
+				"camera_move": "handheld, with a small backward recoil",
+				"subjects_present": [
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "The brother’s open palm fills almost the entire frame, with a charcoal cuff visible at its base. He says, mildly indifferent rather than angry, “Don’t film me.”",
+				"emotion": "A brief, comic rebuff.",
+				"transition": "Hard cut into a fast downward tilt.",
+				"atmosphere": null,
+				"duration_seconds": 0.90000000000000002
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nShot size: extreme close-up\nCamera angle: frontal, at the child’s eye height\nCamera move: handheld, with a small backward recoil\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother’s open palm fills almost the entire frame, with a charcoal cuff visible at its base. He says, mildly indifferent rather than angry, “Don’t film me.”\nMood: A brief, comic rebuff.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nShot size: extreme close-up\nCamera angle: frontal, at the child’s eye height\nCamera move: handheld, with a small backward recoil\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother’s open palm fills almost the entire frame, with a charcoal cuff visible at its base. He says, mildly indifferent rather than angry, “Don’t film me.”\nMood: A brief, comic rebuff.",
+					"spec":
+					{
+						"shot_name": "Brother blocking the vlog",
+						"beat": 3,
+						"zone": "Living Room",
+						"shot_size": "extreme close-up",
+						"angle": "frontal, at the child’s eye height",
+						"camera_move": "handheld, with a small backward recoil",
+						"subjects_present": [
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "The brother’s open palm fills almost the entire frame, with a charcoal cuff visible at its base. He says, mildly indifferent rather than angry, “Don’t film me.”",
+						"emotion": "A brief, comic rebuff.",
+						"transition": "Hard cut into a fast downward tilt.",
+						"atmosphere": null,
+						"duration_seconds": 0.90000000000000002
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Kong sniffing the lens during the family introduction",
+				"beat": 4,
+				"zone": "Living Room",
+				"shot_size": "close-up",
+				"angle": "very low, directly facing Kong at muzzle height",
+				"camera_move": "tilt downward, settling near the floor",
+				"subjects_present": [
+					"Kong"
+				],
+				"subject_states": [],
+				"backdrop": "Laminate flooring, the edge of the small rug, and the sofa’s lower front.",
+				"action": "Kong pushes its nose toward the wide-angle lens and sniffs. The rounded black nose and bright dark eyes loom large, while the short-legged body recedes behind them and the curled tail wags energetically. The child says offscreen, “This is our youngest, Kong! And my older sister… seems to have stepped out for a bit!”",
+				"emotion": "Maximum cuteness and unguarded affection.",
+				"transition": "Hard cut forward to the child following the brother into the entrance.",
+				"atmosphere": null,
+				"duration_seconds": 3.7999999999999998
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: Laminate flooring, the edge of the small rug, and the sofa’s lower front.\nShot size: close-up\nCamera angle: very low, directly facing Kong at muzzle height\nCamera move: tilt downward, settling near the floor\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong pushes its nose toward the wide-angle lens and sniffs. The rounded black nose and bright dark eyes loom large, while the short-legged body recedes behind them and the curled tail wags energetically. The child says offscreen, “This is our youngest, Kong! And my older sister… seems to have stepped out for a bit!”\nMood: Maximum cuteness and unguarded affection.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Living Room: Pale walls, a broad window showing a featureless light-gray sky, a low fabric sofa, a small rug, laminate flooring, and a packing box beside the window with a loose strip of sealing tape\nBackdrop, behind the action: Laminate flooring, the edge of the small rug, and the sofa’s lower front.\nShot size: close-up\nCamera angle: very low, directly facing Kong at muzzle height\nCamera move: tilt downward, settling near the floor\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong pushes its nose toward the wide-angle lens and sniffs. The rounded black nose and bright dark eyes loom large, while the short-legged body recedes behind them and the curled tail wags energetically. The child says offscreen, “This is our youngest, Kong! And my older sister… seems to have stepped out for a bit!”\nMood: Maximum cuteness and unguarded affection.",
+					"spec":
+					{
+						"shot_name": "Kong sniffing the lens during the family introduction",
+						"beat": 4,
+						"zone": "Living Room",
+						"shot_size": "close-up",
+						"angle": "very low, directly facing Kong at muzzle height",
+						"camera_move": "tilt downward, settling near the floor",
+						"subjects_present": [
+							"Kong"
+						],
+						"subject_states": [],
+						"backdrop": "Laminate flooring, the edge of the small rug, and the sofa’s lower front.",
+						"action": "Kong pushes its nose toward the wide-angle lens and sniffs. The rounded black nose and bright dark eyes loom large, while the short-legged body recedes behind them and the curled tail wags energetically. The child says offscreen, “This is our youngest, Kong! And my older sister… seems to have stepped out for a bit!”",
+						"emotion": "Maximum cuteness and unguarded affection.",
+						"transition": "Hard cut forward to the child following the brother into the entrance.",
+						"atmosphere": null,
+						"duration_seconds": 3.7999999999999998
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Vlogger following Brother and asking to go outside",
+				"beat": 5,
+				"zone": "Entryway",
+				"shot_size": "wide",
+				"angle": "slightly low, from behind and beside the brother",
+				"camera_move": "handheld tracking over the short distance into the entrance",
+				"subjects_present": [
+					"Vlogger",
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": "The shoe cabinet, recessed tiled floor, paired shoes, and open steel door, with a strip of the communal landing visible beyond.",
+				"action": "The brother steps into the tiled entrance. The child’s pale oversized cuff and small hand enter the lower edge, lightly catching his sleeve while following. The unsteady framing pitches between his torso and the doorway. The child asks, “Big brother, can I play outside today?”",
+				"emotion": "Hopeful persistence.",
+				"transition": "Hard cut as the brother turns toward the child.",
+				"atmosphere": null,
+				"duration_seconds": 1.7
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The shoe cabinet, recessed tiled floor, paired shoes, and open steel door, with a strip of the communal landing visible beyond.\nShot size: wide\nCamera angle: slightly low, from behind and beside the brother\nCamera move: handheld tracking over the short distance into the entrance\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Vlogger (Young child, approximately ten years old): short, compact build; rounded bowl-cut dark hair; oversized pale sweatshirt with broad, loose cuffs; dark straight trousers Signature, drawn only where this angle exposes it: unusually broad sweatshirt silhouette on a small body, with oversized cuffs recognizable even when only a hand and forearm enter the frame.\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother steps into the tiled entrance. The child’s pale oversized cuff and small hand enter the lower edge, lightly catching his sleeve while following. The unsteady framing pitches between his torso and the doorway. The child asks, “Big brother, can I play outside today?”\nMood: Hopeful persistence.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The shoe cabinet, recessed tiled floor, paired shoes, and open steel door, with a strip of the communal landing visible beyond.\nShot size: wide\nCamera angle: slightly low, from behind and beside the brother\nCamera move: handheld tracking over the short distance into the entrance\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Vlogger (Young child, approximately ten years old): short, compact build; rounded bowl-cut dark hair; oversized pale sweatshirt with broad, loose cuffs; dark straight trousers Signature, drawn only where this angle exposes it: unusually broad sweatshirt silhouette on a small body, with oversized cuffs recognizable even when only a hand and forearm enter the frame.\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother steps into the tiled entrance. The child’s pale oversized cuff and small hand enter the lower edge, lightly catching his sleeve while following. The unsteady framing pitches between his torso and the doorway. The child asks, “Big brother, can I play outside today?”\nMood: Hopeful persistence.",
+					"spec":
+					{
+						"shot_name": "Vlogger following Brother and asking to go outside",
+						"beat": 5,
+						"zone": "Entryway",
+						"shot_size": "wide",
+						"angle": "slightly low, from behind and beside the brother",
+						"camera_move": "handheld tracking over the short distance into the entrance",
+						"subjects_present": [
+							"Vlogger",
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": "The shoe cabinet, recessed tiled floor, paired shoes, and open steel door, with a strip of the communal landing visible beyond.",
+						"action": "The brother steps into the tiled entrance. The child’s pale oversized cuff and small hand enter the lower edge, lightly catching his sleeve while following. The unsteady framing pitches between his torso and the doorway. The child asks, “Big brother, can I play outside today?”",
+						"emotion": "Hopeful persistence.",
+						"transition": "Hard cut as the brother turns toward the child.",
+						"atmosphere": null,
+						"duration_seconds": 1.7
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Brother refusing the child’s request",
+				"beat": 6,
+				"zone": "Entryway",
+				"shot_size": "medium",
+				"angle": "low, looking up from the child’s height",
+				"camera_move": "handheld, briefly steadier on the brother’s face",
+				"subjects_present": [
+					"Brother"
+				],
+				"subject_states": [],
+				"backdrop": "The upper shoe cabinet, pale entrance wall, and a vertical section of the dark doorframe.",
+				"action": "The brother faces the lens with an economical, firm expression and says, “No.” The child immediately pleads from offscreen, “Whyyy~ Just this once!”",
+				"emotion": "The child’s disappointment meeting a familiar boundary.",
+				"transition": "Hard cut as the framing begins to sag.",
+				"atmosphere": null,
+				"duration_seconds": 1.7
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The upper shoe cabinet, pale entrance wall, and a vertical section of the dark doorframe.\nShot size: medium\nCamera angle: low, looking up from the child’s height\nCamera move: handheld, briefly steadier on the brother’s face\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother faces the lens with an economical, firm expression and says, “No.” The child immediately pleads from offscreen, “Whyyy~ Just this once!”\nMood: The child’s disappointment meeting a familiar boundary.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The upper shoe cabinet, pale entrance wall, and a vertical section of the dark doorframe.\nShot size: medium\nCamera angle: low, looking up from the child’s height\nCamera move: handheld, briefly steadier on the brother’s face\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Brother (Older teenage boy): tall, lanky build; short dark hair; plain charcoal long-sleeved shirt; light-gray straight trousers Signature, drawn only where this angle exposes it: elongated, narrow silhouette and strong dark-upper-body/light-lower-body division readable from any direction.\nAction: The brother faces the lens with an economical, firm expression and says, “No.” The child immediately pleads from offscreen, “Whyyy~ Just this once!”\nMood: The child’s disappointment meeting a familiar boundary.",
+					"spec":
+					{
+						"shot_name": "Brother refusing the child’s request",
+						"beat": 6,
+						"zone": "Entryway",
+						"shot_size": "medium",
+						"angle": "low, looking up from the child’s height",
+						"camera_move": "handheld, briefly steadier on the brother’s face",
+						"subjects_present": [
+							"Brother"
+						],
+						"subject_states": [],
+						"backdrop": "The upper shoe cabinet, pale entrance wall, and a vertical section of the dark doorframe.",
+						"action": "The brother faces the lens with an economical, firm expression and says, “No.” The child immediately pleads from offscreen, “Whyyy~ Just this once!”",
+						"emotion": "The child’s disappointment meeting a familiar boundary.",
+						"transition": "Hard cut as the framing begins to sag.",
+						"atmosphere": null,
+						"duration_seconds": 1.7
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Kong fixing its attention on the open doorway",
+				"beat": 7,
+				"zone": "Entryway",
+				"shot_size": "medium",
+				"angle": "high, steeply downward from the child’s drooping grip",
+				"camera_move": "tilt downward with slight handheld drift",
+				"subjects_present": [
+					"Kong"
+				],
+				"subject_states": [],
+				"backdrop": "Broad areas of entrance tile, the bottom of the open steel door, its threshold, and the directly visible strip of landing floor.",
+				"action": "Kong occupies a lower corner of the loose framing, ears pricked and body held still, staring through the open door. The brother remains offscreen as he says, “I told you it’s dangerous. No means no.”",
+				"emotion": "Quiet unease beneath the ordinary argument.",
+				"transition": "Hard cut on Kong’s first abrupt movement toward the threshold.",
+				"atmosphere": null,
+				"duration_seconds": 2.2999999999999998
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: Broad areas of entrance tile, the bottom of the open steel door, its threshold, and the directly visible strip of landing floor.\nShot size: medium\nCamera angle: high, steeply downward from the child’s drooping grip\nCamera move: tilt downward with slight handheld drift\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong occupies a lower corner of the loose framing, ears pricked and body held still, staring through the open door. The brother remains offscreen as he says, “I told you it’s dangerous. No means no.”\nMood: Quiet unease beneath the ordinary argument.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: Broad areas of entrance tile, the bottom of the open steel door, its threshold, and the directly visible strip of landing floor.\nShot size: medium\nCamera angle: high, steeply downward from the child’s drooping grip\nCamera move: tilt downward with slight handheld drift\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong occupies a lower corner of the loose framing, ears pricked and body held still, staring through the open door. The brother remains offscreen as he says, “I told you it’s dangerous. No means no.”\nMood: Quiet unease beneath the ordinary argument.",
+					"spec":
+					{
+						"shot_name": "Kong fixing its attention on the open doorway",
+						"beat": 7,
+						"zone": "Entryway",
+						"shot_size": "medium",
+						"angle": "high, steeply downward from the child’s drooping grip",
+						"camera_move": "tilt downward with slight handheld drift",
+						"subjects_present": [
+							"Kong"
+						],
+						"subject_states": [],
+						"backdrop": "Broad areas of entrance tile, the bottom of the open steel door, its threshold, and the directly visible strip of landing floor.",
+						"action": "Kong occupies a lower corner of the loose framing, ears pricked and body held still, staring through the open door. The brother remains offscreen as he says, “I told you it’s dangerous. No means no.”",
+						"emotion": "Quiet unease beneath the ordinary argument.",
+						"transition": "Hard cut on Kong’s first abrupt movement toward the threshold.",
+						"atmosphere": null,
+						"duration_seconds": 2.2999999999999998
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Kong bolting through the apartment door",
+				"beat": 8,
+				"zone": "Entryway",
+				"shot_size": "wide",
+				"angle": "low, aimed through the open doorway",
+				"camera_move": "handheld pan following Kong across the threshold",
+				"subjects_present": [
+					"Kong"
+				],
+				"subject_states": [],
+				"backdrop": "The dark doorframe, entrance tiles, metal threshold, and the communal landing’s tiled floor and blank wall directly beyond.",
+				"action": "Kong gives two sharp barks, “Woof! Woof!”, and springs across the threshold, front paws reaching the landing while the hind legs push off inside the apartment. The child cries from behind the jolting lens, “Huh?! Kong!”",
+				"emotion": "Sudden alarm and loss of control.",
+				"transition": "Abrupt cut to black on the child’s unfinished pursuit, ending the sequence without resolving the escape.",
+				"atmosphere": null,
+				"duration_seconds": 1.3
+			},
+			"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The dark doorframe, entrance tiles, metal threshold, and the communal landing’s tiled floor and blank wall directly beyond.\nShot size: wide\nCamera angle: low, aimed through the open doorway\nCamera move: handheld pan following Kong across the threshold\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong gives two sharp barks, “Woof! Woof!”, and springs across the threshold, front paws reaching the landing while the hind legs push off inside the apartment. The child cries from behind the jolting lens, “Huh?! Kong!”\nMood: Sudden alarm and loss of control.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary Korean apartment interior uses plaster walls, concrete construction, laminate flooring, painted cabinetry, and glass in pale-to-mid grays, with dark doorframes and soft overcast daylight.\nLocation: Apartment living room and entrance, indoors, adjoining an enclosed communal landing.\nAtmosphere: Daytime, dry, overcast weather, soft window daylight inside the apartment, supplemented by steady entrance and corridor ceiling lights.\nThis cut happens at Entryway: A recessed tiled shoe-removal area below the raised laminate floor, a tall closed shoe cabinet, a ceiling light, several neatly paired shoes, and an open steel apartment door in a dark frame\nBackdrop, behind the action: The dark doorframe, entrance tiles, metal threshold, and the communal landing’s tiled floor and blank wall directly beyond.\nShot size: wide\nCamera angle: low, aimed through the open doorway\nCamera move: handheld pan following Kong across the threshold\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Kong (Small companion dog): compact, rounded body on short legs; pale short coat; upright triangular ears; tightly curled tail; broad dark collar; dark eyes and rounded black nose Signature, drawn only where this angle exposes it: low, bean-shaped proportions and curled tail distinguish the dog from any angle; the oversized-looking nose becomes especially prominent near the wide-angle lens.\nAction: Kong gives two sharp barks, “Woof! Woof!”, and springs across the threshold, front paws reaching the landing while the hind legs push off inside the apartment. The child cries from behind the jolting lens, “Huh?! Kong!”\nMood: Sudden alarm and loss of control.",
+					"spec":
+					{
+						"shot_name": "Kong bolting through the apartment door",
+						"beat": 8,
+						"zone": "Entryway",
+						"shot_size": "wide",
+						"angle": "low, aimed through the open doorway",
+						"camera_move": "handheld pan following Kong across the threshold",
+						"subjects_present": [
+							"Kong"
+						],
+						"subject_states": [],
+						"backdrop": "The dark doorframe, entrance tiles, metal threshold, and the communal landing’s tiled floor and blank wall directly beyond.",
+						"action": "Kong gives two sharp barks, “Woof! Woof!”, and springs across the threshold, front paws reaching the landing while the hind legs push off inside the apartment. The child cries from behind the jolting lens, “Huh?! Kong!”",
+						"emotion": "Sudden alarm and loss of control.",
+						"transition": "Abrupt cut to black on the child’s unfinished pursuit, ending the sequence without resolving the escape.",
+						"atmosphere": null,
+						"duration_seconds": 1.3
+					}
+				}
+			]
+		}
+	]
+}

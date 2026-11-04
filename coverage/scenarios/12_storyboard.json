@@ -1,0 +1,462 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "1. 깜깜한 우주. 별들 만이 빛나고 있는데. 거대한 행성 하나가 지구를 향해 돌진하고 있다. 카메라는 행성을 앞에서 보여주다가 옆으로 돌아서 행성이 지구로 돌진하는 장면을 보여준다.\n2. 지상에서는 핵미사일 수백개가 하늘을 향해 발사 된다.\n3. 행성은 핵미사일에 맞아 크기가 점점 줄어들어서 결국 작은 돌멩이가 되어 땅에 떨어진다.\n4. 어떤 사람이 노상 카페에서 커피를 마시고 있는데, 잠깐 다른데 보는 사이에 땅에 떨어진 행성조각이 커피에 들어감.\n5. 커피를 마시고 그 사람이 벌떡 일어선다.\n6. 그리고 갑자기 하늘위로 직각으로 슈퍼맨 자세로 날아간다.",
+	"draft_prompt": "1. 깜깜한 우주. 별들 만이 빛나고 있는데. 거대한 행성 하나가 지구를 향해 돌진하고 있다. 카메라는 행성을 앞에서 보여주다가 옆으로 돌아서 행성이 지구로 돌진하는 장면을 보여준다.\n2. 지상에서는 핵미사일 수백개가 하늘을 향해 발사 된다.\n3. 행성은 핵미사일에 맞아 크기가 점점 줄어들어서 결국 작은 돌멩이가 되어 땅에 떨어진다.\n4. 어떤 사람이 노상 카페에서 커피를 마시고 있는데, 잠깐 다른데 보는 사이에 땅에 떨어진 행성조각이 커피에 들어감.\n5. 커피를 마시고 그 사람이 벌떡 일어선다.\n6. 그리고 갑자기 하늘위로 직각으로 슈퍼맨 자세로 날아간다.",
+	"request":
+	{
+		"cut_count": 6,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 6,
+		"duration_seconds": 26.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.",
+			"location_type": "Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.",
+			"zones": [
+				{
+					"name": "Space Approach",
+					"description": "Black vacuum scattered with sharp stars, Earth’s immense curved disk with pale clouds and darker continents, and unobstructed space along the incoming planet’s trajectory; no built structures",
+					"connects_to": [
+						"Earthward Sky"
+					]
+				},
+				{
+					"name": "Earthward Sky",
+					"description": "A continuous open-air corridor extending from Earth’s thin atmospheric rim down to the air above the café; blackness grades into pale sky with altitude, cloud layers stretch below the upper reaches, and stone rooflines border the lowest reaches",
+					"connects_to": [
+						"Space Approach",
+						"Launch Plateau",
+						"Café Terrace"
+					]
+				},
+				{
+					"name": "Launch Plateau",
+					"description": "An expansive concrete launch field containing hundreds of recessed launch openings, open hatch slabs, low protective berms, narrow service roads, and squat control bunkers beneath an unobstructed sky",
+					"connects_to": [
+						"Earthward Sky"
+					]
+				},
+				{
+					"name": "Café Terrace",
+					"description": "Pale paving beside a stone café frontage, broad windows, a shallow fabric awning, small round tables, lightweight chairs, and a curb bordering the street; the open edge of the terrace has clear sky overhead",
+					"connects_to": [
+						"Earthward Sky"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Daytime on the visible Earth locations",
+				"weather": "clear and dry, with vacuum beyond the atmosphere",
+				"lighting": "hard sunlight from upper left, crisp ground shadows, and visible stars against black space."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "As a rogue planet hurtles toward Earth, hundreds of nuclear missiles reduce it to a pebble that drops unnoticed into a café patron’s coffee, turning an ordinary sip into a sudden, vertically launched superhero flight.",
+			"beats": [
+				{
+					"summary": "A vast approaching planet is revealed to be on a collision course with Earth",
+					"emotion": "cosmic dread"
+				},
+				{
+					"summary": "Hundreds of nuclear missiles launch in a coordinated defense",
+					"emotion": "desperate determination"
+				},
+				{
+					"summary": "Nuclear impacts shrink the planet into a single falling pebble",
+					"emotion": "astonished relief"
+				},
+				{
+					"summary": "The pebble enters a café patron’s coffee while the patron looks away",
+					"emotion": "comic anticipation"
+				},
+				{
+					"summary": "The patron drinks the coffee and abruptly springs upright",
+					"emotion": "startled recognition"
+				},
+				{
+					"summary": "The patron shoots vertically into the sky in a rigid superhero flying pose",
+					"emotion": "absurd exhilaration"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Rogue Planet",
+				"kind": "Rocky celestial body",
+				"appearance": "enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt",
+				"signature_features": [
+					"blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle."
+				]
+			},
+			{
+				"name": "Nuclear Missiles",
+				"kind": "Repeated missile group",
+				"appearance": "long pale-gray cylindrical bodies, dark pointed noses, four short tail fins, and bright exhaust plumes",
+				"signature_features": [
+					"extremely slender proportions and four-fin tail silhouettes remain recognizable from front, side, or rear."
+				]
+			},
+			{
+				"name": "Café Patron",
+				"kind": "Adult person",
+				"appearance": "tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes",
+				"signature_features": [
+					"exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle."
+				]
+			},
+			{
+				"name": "Coffee Cup",
+				"kind": "Ceramic drinking cup",
+				"appearance": "pale, thick-walled cylindrical cup with a broad loop handle, filled with dark coffee",
+				"signature_features": [
+					"unusually broad body with a heavy projecting rim, recognizable even when the handle is hidden."
+				]
+			}
+		],
+		"run_id": "storyboard_20261016_025343_4a5901a2"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Rogue Planet bearing down on Earth",
+				"beat": 1,
+				"zone": "Space Approach",
+				"shot_size": "wide",
+				"angle": "equatorial height, finishing side-on to the planet’s travel",
+				"camera_move": "smooth orbital arc from ahead of the approaching planet to its side",
+				"subjects_present": [
+					"Rogue Planet"
+				],
+				"subject_states": [],
+				"backdrop": "Sharp stars against black space, with Earth’s cloud-covered curved disk occupying the right side of the composition.",
+				"action": "The immense, knobbled planet advances toward Earth. The lateral reveal places the planet and Earth on the same unmistakable collision line.",
+				"emotion": "Cosmic dread, with the threat becoming suddenly comprehensible.",
+				"transition": "Hard cut from the advancing planet to the defensive launch.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Space Approach: Black vacuum scattered with sharp stars, Earth’s immense curved disk with pale clouds and darker continents, and unobstructed space along the incoming planet’s trajectory; no built structures\nBackdrop, behind the action: Sharp stars against black space, with Earth’s cloud-covered curved disk occupying the right side of the composition.\nShot size: wide\nCamera angle: equatorial height, finishing side-on to the planet’s travel\nCamera move: smooth orbital arc from ahead of the approaching planet to its side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle.\nAction: The immense, knobbled planet advances toward Earth. The lateral reveal places the planet and Earth on the same unmistakable collision line.\nMood: Cosmic dread, with the threat becoming suddenly comprehensible.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Space Approach: Black vacuum scattered with sharp stars, Earth’s immense curved disk with pale clouds and darker continents, and unobstructed space along the incoming planet’s trajectory; no built structures\nBackdrop, behind the action: Sharp stars against black space, with Earth’s cloud-covered curved disk occupying the right side of the composition.\nShot size: wide\nCamera angle: equatorial height, finishing side-on to the planet’s travel\nCamera move: smooth orbital arc from ahead of the approaching planet to its side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle.\nAction: The immense, knobbled planet advances toward Earth. The lateral reveal places the planet and Earth on the same unmistakable collision line.\nMood: Cosmic dread, with the threat becoming suddenly comprehensible.",
+					"spec":
+					{
+						"shot_name": "Rogue Planet bearing down on Earth",
+						"beat": 1,
+						"zone": "Space Approach",
+						"shot_size": "wide",
+						"angle": "equatorial height, finishing side-on to the planet’s travel",
+						"camera_move": "smooth orbital arc from ahead of the approaching planet to its side",
+						"subjects_present": [
+							"Rogue Planet"
+						],
+						"subject_states": [],
+						"backdrop": "Sharp stars against black space, with Earth’s cloud-covered curved disk occupying the right side of the composition.",
+						"action": "The immense, knobbled planet advances toward Earth. The lateral reveal places the planet and Earth on the same unmistakable collision line.",
+						"emotion": "Cosmic dread, with the threat becoming suddenly comprehensible.",
+						"transition": "Hard cut from the advancing planet to the defensive launch.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Nuclear Missiles erupting from the launch field",
+				"beat": 2,
+				"zone": "Launch Plateau",
+				"shot_size": "extreme wide",
+				"angle": "elevated oblique view across the launch rows",
+				"camera_move": "slow upward tilt following the rising formation",
+				"subjects_present": [
+					"Nuclear Missiles"
+				],
+				"subject_states": [],
+				"backdrop": "Repeating concrete launch openings, displaced hatch slabs, low berms, narrow service roads, and squat bunkers beneath pale sky.",
+				"action": "Hundreds of missiles rise simultaneously from the field, their bright exhaust columns forming a dense forest of vertical lines that bend toward a common destination overhead.",
+				"emotion": "Desperate determination expressed through overwhelming scale.",
+				"transition": "Directional match cut from the ascending missiles to their convergence around the planet.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Launch Plateau: An expansive concrete launch field containing hundreds of recessed launch openings, open hatch slabs, low protective berms, narrow service roads, and squat control bunkers beneath an unobstructed sky\nBackdrop, behind the action: Repeating concrete launch openings, displaced hatch slabs, low berms, narrow service roads, and squat bunkers beneath pale sky.\nShot size: extreme wide\nCamera angle: elevated oblique view across the launch rows\nCamera move: slow upward tilt following the rising formation\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Nuclear Missiles (Repeated missile group): long pale-gray cylindrical bodies, dark pointed noses, four short tail fins, and bright exhaust plumes Signature, drawn only where this angle exposes it: extremely slender proportions and four-fin tail silhouettes remain recognizable from front, side, or rear.\nAction: Hundreds of missiles rise simultaneously from the field, their bright exhaust columns forming a dense forest of vertical lines that bend toward a common destination overhead.\nMood: Desperate determination expressed through overwhelming scale.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Launch Plateau: An expansive concrete launch field containing hundreds of recessed launch openings, open hatch slabs, low protective berms, narrow service roads, and squat control bunkers beneath an unobstructed sky\nBackdrop, behind the action: Repeating concrete launch openings, displaced hatch slabs, low berms, narrow service roads, and squat bunkers beneath pale sky.\nShot size: extreme wide\nCamera angle: elevated oblique view across the launch rows\nCamera move: slow upward tilt following the rising formation\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Nuclear Missiles (Repeated missile group): long pale-gray cylindrical bodies, dark pointed noses, four short tail fins, and bright exhaust plumes Signature, drawn only where this angle exposes it: extremely slender proportions and four-fin tail silhouettes remain recognizable from front, side, or rear.\nAction: Hundreds of missiles rise simultaneously from the field, their bright exhaust columns forming a dense forest of vertical lines that bend toward a common destination overhead.\nMood: Desperate determination expressed through overwhelming scale.",
+					"spec":
+					{
+						"shot_name": "Nuclear Missiles erupting from the launch field",
+						"beat": 2,
+						"zone": "Launch Plateau",
+						"shot_size": "extreme wide",
+						"angle": "elevated oblique view across the launch rows",
+						"camera_move": "slow upward tilt following the rising formation",
+						"subjects_present": [
+							"Nuclear Missiles"
+						],
+						"subject_states": [],
+						"backdrop": "Repeating concrete launch openings, displaced hatch slabs, low berms, narrow service roads, and squat bunkers beneath pale sky.",
+						"action": "Hundreds of missiles rise simultaneously from the field, their bright exhaust columns forming a dense forest of vertical lines that bend toward a common destination overhead.",
+						"emotion": "Desperate determination expressed through overwhelming scale.",
+						"transition": "Directional match cut from the ascending missiles to their convergence around the planet.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Nuclear Missiles crushing Rogue Planet into a pebble",
+				"beat": 3,
+				"zone": "Earthward Sky",
+				"shot_size": "wide",
+				"angle": "side-on above Earth’s curved atmospheric rim",
+				"camera_move": "static",
+				"subjects_present": [
+					"Rogue Planet",
+					"Nuclear Missiles"
+				],
+				"subject_states": [
+					{
+						"subject": "Rogue Planet",
+						"state": "Reduced to a pea-sized, dark, rough pebble, visible as a tiny descending speck within the much larger blast pattern."
+					}
+				],
+				"backdrop": "Earth’s pale cloud layers and curved atmospheric rim, with black space above.",
+				"action": "Converging missiles produce successive white nuclear blooms that squeeze the planet’s visible diameter inward in exaggerated, continuous scale compression. At the decisive image, a tiny dark remnant drops beneath expanding blast rings while the last intact missiles converge above it.",
+				"emotion": "Astonishment turning into apparently complete relief.",
+				"transition": "Hard cut from the falling speck to its arrival at the café cup.",
+				"atmosphere": "Nuclear flashes briefly bleach the atmospheric rim and cloud tops nearly white.",
+				"duration_seconds": 8
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Nuclear flashes briefly bleach the atmospheric rim and cloud tops nearly white.\nThis cut happens at Earthward Sky: A continuous open-air corridor extending from Earth’s thin atmospheric rim down to the air above the café; blackness grades into pale sky with altitude, cloud layers stretch below the upper reaches, and stone rooflines border the lowest reaches\nBackdrop, behind the action: Earth’s pale cloud layers and curved atmospheric rim, with black space above.\nShot size: wide\nCamera angle: side-on above Earth’s curved atmospheric rim\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle. Current state in this cut: Reduced to a pea-sized, dark, rough pebble, visible as a tiny descending speck within the much larger blast pattern.\n- Nuclear Missiles (Repeated missile group): long pale-gray cylindrical bodies, dark pointed noses, four short tail fins, and bright exhaust plumes Signature, drawn only where this angle exposes it: extremely slender proportions and four-fin tail silhouettes remain recognizable from front, side, or rear.\nAction: Converging missiles produce successive white nuclear blooms that squeeze the planet’s visible diameter inward in exaggerated, continuous scale compression. At the decisive image, a tiny dark remnant drops beneath expanding blast rings while the last intact missiles converge above it.\nMood: Astonishment turning into apparently complete relief.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Nuclear flashes briefly bleach the atmospheric rim and cloud tops nearly white.\nThis cut happens at Earthward Sky: A continuous open-air corridor extending from Earth’s thin atmospheric rim down to the air above the café; blackness grades into pale sky with altitude, cloud layers stretch below the upper reaches, and stone rooflines border the lowest reaches\nBackdrop, behind the action: Earth’s pale cloud layers and curved atmospheric rim, with black space above.\nShot size: wide\nCamera angle: side-on above Earth’s curved atmospheric rim\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle. Current state in this cut: Reduced to a pea-sized, dark, rough pebble, visible as a tiny descending speck within the much larger blast pattern.\n- Nuclear Missiles (Repeated missile group): long pale-gray cylindrical bodies, dark pointed noses, four short tail fins, and bright exhaust plumes Signature, drawn only where this angle exposes it: extremely slender proportions and four-fin tail silhouettes remain recognizable from front, side, or rear.\nAction: Converging missiles produce successive white nuclear blooms that squeeze the planet’s visible diameter inward in exaggerated, continuous scale compression. At the decisive image, a tiny dark remnant drops beneath expanding blast rings while the last intact missiles converge above it.\nMood: Astonishment turning into apparently complete relief.",
+					"spec":
+					{
+						"shot_name": "Nuclear Missiles crushing Rogue Planet into a pebble",
+						"beat": 3,
+						"zone": "Earthward Sky",
+						"shot_size": "wide",
+						"angle": "side-on above Earth’s curved atmospheric rim",
+						"camera_move": "static",
+						"subjects_present": [
+							"Rogue Planet",
+							"Nuclear Missiles"
+						],
+						"subject_states": [
+							{
+								"subject": "Rogue Planet",
+								"state": "Reduced to a pea-sized, dark, rough pebble, visible as a tiny descending speck within the much larger blast pattern."
+							}
+						],
+						"backdrop": "Earth’s pale cloud layers and curved atmospheric rim, with black space above.",
+						"action": "Converging missiles produce successive white nuclear blooms that squeeze the planet’s visible diameter inward in exaggerated, continuous scale compression. At the decisive image, a tiny dark remnant drops beneath expanding blast rings while the last intact missiles converge above it.",
+						"emotion": "Astonishment turning into apparently complete relief.",
+						"transition": "Hard cut from the falling speck to its arrival at the café cup.",
+						"atmosphere": "Nuclear flashes briefly bleach the atmospheric rim and cloud tops nearly white.",
+						"duration_seconds": 8
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Rogue Planet dropping into the unattended coffee",
+				"beat": 4,
+				"zone": "Café Terrace",
+				"shot_size": "close-up",
+				"angle": "slightly elevated three-quarter view across the tabletop",
+				"camera_move": "static",
+				"subjects_present": [
+					"Rogue Planet",
+					"Café Patron",
+					"Coffee Cup"
+				],
+				"subject_states": [
+					{
+						"subject": "Rogue Planet",
+						"state": "Pea-sized dark pebble with a rough outline and miniature pale mineral seam; its lower half is entering the coffee."
+					}
+				],
+				"backdrop": "The pale tabletop fills the lower frame; a café window and narrow strip of stone frontage sit softly behind the patron’s turned head.",
+				"action": "With the patron looking away toward the street, the pebble breaks the coffee’s surface and raises a small crown-shaped splash. The patron’s hand rests beside the cup without touching it.",
+				"emotion": "Comic anticipation—the audience sees the contamination that the patron misses.",
+				"transition": "Hard cut to the patron drinking.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Café Terrace: Pale paving beside a stone café frontage, broad windows, a shallow fabric awning, small round tables, lightweight chairs, and a curb bordering the street; the open edge of the terrace has clear sky overhead\nBackdrop, behind the action: The pale tabletop fills the lower frame; a café window and narrow strip of stone frontage sit softly behind the patron’s turned head.\nShot size: close-up\nCamera angle: slightly elevated three-quarter view across the tabletop\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle. Current state in this cut: Pea-sized dark pebble with a rough outline and miniature pale mineral seam; its lower half is entering the coffee.\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\n- Coffee Cup (Ceramic drinking cup): pale, thick-walled cylindrical cup with a broad loop handle, filled with dark coffee Signature, drawn only where this angle exposes it: unusually broad body with a heavy projecting rim, recognizable even when the handle is hidden.\nAction: With the patron looking away toward the street, the pebble breaks the coffee’s surface and raises a small crown-shaped splash. The patron’s hand rests beside the cup without touching it.\nMood: Comic anticipation—the audience sees the contamination that the patron misses.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Café Terrace: Pale paving beside a stone café frontage, broad windows, a shallow fabric awning, small round tables, lightweight chairs, and a curb bordering the street; the open edge of the terrace has clear sky overhead\nBackdrop, behind the action: The pale tabletop fills the lower frame; a café window and narrow strip of stone frontage sit softly behind the patron’s turned head.\nShot size: close-up\nCamera angle: slightly elevated three-quarter view across the tabletop\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Rogue Planet (Rocky celestial body): enormous, nearly spherical mass of medium-gray stone with charcoal fissures and a narrow pale mineral belt Signature, drawn only where this angle exposes it: blunt rocky knobs distributed around its entire circumference give its silhouette a recognizable uneven outline from any angle. Current state in this cut: Pea-sized dark pebble with a rough outline and miniature pale mineral seam; its lower half is entering the coffee.\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\n- Coffee Cup (Ceramic drinking cup): pale, thick-walled cylindrical cup with a broad loop handle, filled with dark coffee Signature, drawn only where this angle exposes it: unusually broad body with a heavy projecting rim, recognizable even when the handle is hidden.\nAction: With the patron looking away toward the street, the pebble breaks the coffee’s surface and raises a small crown-shaped splash. The patron’s hand rests beside the cup without touching it.\nMood: Comic anticipation—the audience sees the contamination that the patron misses.",
+					"spec":
+					{
+						"shot_name": "Rogue Planet dropping into the unattended coffee",
+						"beat": 4,
+						"zone": "Café Terrace",
+						"shot_size": "close-up",
+						"angle": "slightly elevated three-quarter view across the tabletop",
+						"camera_move": "static",
+						"subjects_present": [
+							"Rogue Planet",
+							"Café Patron",
+							"Coffee Cup"
+						],
+						"subject_states": [
+							{
+								"subject": "Rogue Planet",
+								"state": "Pea-sized dark pebble with a rough outline and miniature pale mineral seam; its lower half is entering the coffee."
+							}
+						],
+						"backdrop": "The pale tabletop fills the lower frame; a café window and narrow strip of stone frontage sit softly behind the patron’s turned head.",
+						"action": "With the patron looking away toward the street, the pebble breaks the coffee’s surface and raises a small crown-shaped splash. The patron’s hand rests beside the cup without touching it.",
+						"emotion": "Comic anticipation—the audience sees the contamination that the patron misses.",
+						"transition": "Hard cut to the patron drinking.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Café Patron swallowing coffee and springing upright",
+				"beat": 5,
+				"zone": "Café Terrace",
+				"shot_size": "medium",
+				"angle": "slightly low three-quarter view beside the table",
+				"camera_move": "short upward tilt following the patron’s sudden rise",
+				"subjects_present": [
+					"Café Patron",
+					"Coffee Cup"
+				],
+				"subject_states": [],
+				"backdrop": "Café window mullions, pale stone frontage, the round table, and the lightweight chair tipping backward behind the patron.",
+				"action": "The patron takes a swallow, lowers the cup onto the table, and abruptly straightens to full height. In the decisive image, the patron’s eyes are wide, knees locked, and fingers lifting clear of the cup.",
+				"emotion": "A sharp, comic jolt of unexpected bodily power.",
+				"transition": "Hard cut on the upward body movement to the vertical launch.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Café Terrace: Pale paving beside a stone café frontage, broad windows, a shallow fabric awning, small round tables, lightweight chairs, and a curb bordering the street; the open edge of the terrace has clear sky overhead\nBackdrop, behind the action: Café window mullions, pale stone frontage, the round table, and the lightweight chair tipping backward behind the patron.\nShot size: medium\nCamera angle: slightly low three-quarter view beside the table\nCamera move: short upward tilt following the patron’s sudden rise\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\n- Coffee Cup (Ceramic drinking cup): pale, thick-walled cylindrical cup with a broad loop handle, filled with dark coffee Signature, drawn only where this angle exposes it: unusually broad body with a heavy projecting rim, recognizable even when the handle is hidden.\nAction: The patron takes a swallow, lowers the cup onto the table, and abruptly straightens to full height. In the decisive image, the patron’s eyes are wide, knees locked, and fingers lifting clear of the cup.\nMood: A sharp, comic jolt of unexpected bodily power.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Café Terrace: Pale paving beside a stone café frontage, broad windows, a shallow fabric awning, small round tables, lightweight chairs, and a curb bordering the street; the open edge of the terrace has clear sky overhead\nBackdrop, behind the action: Café window mullions, pale stone frontage, the round table, and the lightweight chair tipping backward behind the patron.\nShot size: medium\nCamera angle: slightly low three-quarter view beside the table\nCamera move: short upward tilt following the patron’s sudden rise\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\n- Coffee Cup (Ceramic drinking cup): pale, thick-walled cylindrical cup with a broad loop handle, filled with dark coffee Signature, drawn only where this angle exposes it: unusually broad body with a heavy projecting rim, recognizable even when the handle is hidden.\nAction: The patron takes a swallow, lowers the cup onto the table, and abruptly straightens to full height. In the decisive image, the patron’s eyes are wide, knees locked, and fingers lifting clear of the cup.\nMood: A sharp, comic jolt of unexpected bodily power.",
+					"spec":
+					{
+						"shot_name": "Café Patron swallowing coffee and springing upright",
+						"beat": 5,
+						"zone": "Café Terrace",
+						"shot_size": "medium",
+						"angle": "slightly low three-quarter view beside the table",
+						"camera_move": "short upward tilt following the patron’s sudden rise",
+						"subjects_present": [
+							"Café Patron",
+							"Coffee Cup"
+						],
+						"subject_states": [],
+						"backdrop": "Café window mullions, pale stone frontage, the round table, and the lightweight chair tipping backward behind the patron.",
+						"action": "The patron takes a swallow, lowers the cup onto the table, and abruptly straightens to full height. In the decisive image, the patron’s eyes are wide, knees locked, and fingers lifting clear of the cup.",
+						"emotion": "A sharp, comic jolt of unexpected bodily power.",
+						"transition": "Hard cut on the upward body movement to the vertical launch.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Café Patron rocketing vertically above the rooftops",
+				"beat": 6,
+				"zone": "Earthward Sky",
+				"shot_size": "wide",
+				"angle": "steep low angle looking almost straight upward",
+				"camera_move": "fast upward tilt following the ascent",
+				"subjects_present": [
+					"Café Patron"
+				],
+				"subject_states": [],
+				"backdrop": "Pale open sky, with the café’s stone roof cornice and upper window edges confined to the bottom of the frame.",
+				"action": "The patron rises straight upward along a line perpendicular to the ground, both arms extended overhead with fists forward, torso rigid, legs straight, and feet together. The ordinary café clothes remain unchanged.",
+				"emotion": "Absurd exhilaration and an abrupt superhero punchline.",
+				"transition": "Hard cut to black while the patron is still accelerating upward.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Earthward Sky: A continuous open-air corridor extending from Earth’s thin atmospheric rim down to the air above the café; blackness grades into pale sky with altitude, cloud layers stretch below the upper reaches, and stone rooflines border the lowest reaches\nBackdrop, behind the action: Pale open sky, with the café’s stone roof cornice and upper window edges confined to the bottom of the frame.\nShot size: wide\nCamera angle: steep low angle looking almost straight upward\nCamera move: fast upward tilt following the ascent\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\nAction: The patron rises straight upward along a line perpendicular to the ground, both arms extended overhead with fists forward, torso rigid, legs straight, and feet together. The ordinary café clothes remain unchanged.\nMood: Absurd exhilaration and an abrupt superhero punchline.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary, high-contrast grayscale world combines utilitarian concrete military architecture, modest stone-and-glass café architecture, rough celestial rock, pale atmospheric haze, and black star-filled space under hard directional sunlight.\nLocation: Connected exterior locations spanning space, an atmospheric flight corridor, a missile-launch plateau, and a sidewalk café.\nAtmosphere: Daytime on the visible Earth locations, clear and dry, with vacuum beyond the atmosphere, hard sunlight from upper left, crisp ground shadows, and visible stars against black space.\nThis cut happens at Earthward Sky: A continuous open-air corridor extending from Earth’s thin atmospheric rim down to the air above the café; blackness grades into pale sky with altitude, cloud layers stretch below the upper reaches, and stone rooflines border the lowest reaches\nBackdrop, behind the action: Pale open sky, with the café’s stone roof cornice and upper window edges confined to the bottom of the frame.\nShot size: wide\nCamera angle: steep low angle looking almost straight upward\nCamera move: fast upward tilt following the ascent\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Café Patron (Adult person): tall, lanky build, rounded crown of dense short curls, medium-gray short-sleeved shirt, pale straight-leg trousers, and dark low shoes Signature, drawn only where this angle exposes it: exceptionally long limbs and a round, puffed hair silhouette are recognizable from any angle.\nAction: The patron rises straight upward along a line perpendicular to the ground, both arms extended overhead with fists forward, torso rigid, legs straight, and feet together. The ordinary café clothes remain unchanged.\nMood: Absurd exhilaration and an abrupt superhero punchline.",
+					"spec":
+					{
+						"shot_name": "Café Patron rocketing vertically above the rooftops",
+						"beat": 6,
+						"zone": "Earthward Sky",
+						"shot_size": "wide",
+						"angle": "steep low angle looking almost straight upward",
+						"camera_move": "fast upward tilt following the ascent",
+						"subjects_present": [
+							"Café Patron"
+						],
+						"subject_states": [],
+						"backdrop": "Pale open sky, with the café’s stone roof cornice and upper window edges confined to the bottom of the frame.",
+						"action": "The patron rises straight upward along a line perpendicular to the ground, both arms extended overhead with fists forward, torso rigid, legs straight, and feet together. The ordinary café clothes remain unchanged.",
+						"emotion": "Absurd exhilaration and an abrupt superhero punchline.",
+						"transition": "Hard cut to black while the patron is still accelerating upward.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		}
+	]
+}

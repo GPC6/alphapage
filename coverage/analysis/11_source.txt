@@ -1,0 +1,137 @@
+PROJECT test2
+
+1. 화창한 오후에 한 남자가 홀로 걷도 있다. 
+2. 그의 눈으로 보는 시점으로 앞쪽에 엄청난 사람들 500명쯤이 이쪽으로 달려오고 있다.
+3. 화들짝 놀라서 뒤를 돌아 도망간다. 이때 시점은 멀어지면서 3인칭 시점으로 수백명의 사람들 뒤로 거대 공룡이 쫒아오고 있다.
+4. 남자의 주머니 클로즈업. 거기에 고양이 츄르가 있다. 
+5. 남자가 당당히 서서 츄르를 들고 공룡과 맞선다.
+6. 공룡에게 한입에 잡아 먹히면서 끝.
+
+PANELS
+[
+  {
+    "shot_name": "남자가 홀로 보행대로를 걷는다",
+    "beat": 1,
+    "zone": "보행대로",
+    "shot_size": "wide",
+    "angle": "eye level, profile view of the man",
+    "camera_move": "tracking, moving slowly north alongside the man",
+    "subjects_present": [
+      "남자"
+    ],
+    "subject_states": [],
+    "backdrop": "A low stone wall, regularly spaced street trees, and bright stone paving are visible behind the man. The plaza is outside the frame.",
+    "action": "The man walks north with a leisurely stride. Both hands hang comfortably at his sides, and no other people are visible around him.",
+    "emotion": "A sense of reassurance in a peaceful everyday routine",
+    "transition": "hard cut to a subjective viewpoint looking in the direction the man is heading",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "피난 군중이 남자를 향해 몰려온다",
+    "beat": 2,
+    "zone": "보행대로",
+    "shot_size": "wide",
+    "angle": "eye level, subjective viewpoint looking north from the man's eye height",
+    "camera_move": "static",
+    "subjects_present": [
+      "피난 군중"
+    ],
+    "subject_states": [],
+    "backdrop": "The connected stone paving of the pedestrian boulevard and northern plaza is visible between the crowd's legs. People's heads fill the frame up to its upper edge, so the area behind the crowd and the space above their heads are not visible.",
+    "action": "Approximately 500 people pour from the plaza into the pedestrian boulevard and run straight toward the camera. People in the front row swing their arms widely with frightened expressions.",
+    "emotion": "An inexplicable threat and bewilderment",
+    "transition": "hard cut to a third-person viewpoint capturing the man's flight",
+    "atmosphere": null,
+    "duration_seconds": 2
+  },
+  {
+    "shot_name": "남자가 도망치고 거대 공룡이 군중 뒤를 쫓는다",
+    "beat": 3,
+    "zone": "보행대로",
+    "shot_size": "extreme wide",
+    "angle": "high, third-person viewpoint looking down toward the north from the south",
+    "camera_move": "dolly, moving backward approximately 8 meters toward the south while maintaining a constant height",
+    "subjects_present": [
+      "남자",
+      "피난 군중",
+      "거대 공룡"
+    ],
+    "subject_states": [],
+    "backdrop": "The stone paving of the broad pedestrian boulevard, the stone walls, street trees, and storefronts on either side, the buildings at the edges of the northern plaza, and the clear sky are visible.",
+    "action": "Startled, the man turns south and runs. The crowd runs past on both sides of him, while behind them the giant dinosaur crosses the southern end of the plaza and enters the pedestrian boulevard. The pulled-back composition reveals the pursuit relationship among the man, the crowd, and the dinosaur all at once.",
+    "emotion": "Overwhelming fear as the nature of the threat is revealed",
+    "transition": "hard cut to the man's jacket pocket",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "남자의 주머니에서 고양이 간식 스틱이 드러난다",
+    "beat": 4,
+    "zone": "보행대로",
+    "shot_size": "insert",
+    "angle": "high, looking obliquely down at the jacket's right pocket",
+    "camera_move": "static",
+    "subjects_present": [
+      "남자",
+      "고양이 간식 스틱"
+    ],
+    "subject_states": [],
+    "backdrop": null,
+    "action": "The man's fingers spread open the pocket entrance. Inside, the treat stick's light horizontal bands and drawing of a cat's face are clearly revealed.",
+    "emotion": "Absurd hope created by an object incongruous with the situation of fleeing",
+    "transition": "match cut carrying over the stick's vertical orientation",
+    "atmosphere": null,
+    "duration_seconds": 1.5
+  },
+  {
+    "shot_name": "남자가 고양이 간식 스틱을 내밀며 공룡과 맞선다",
+    "beat": 5,
+    "zone": "보행대로",
+    "shot_size": "wide",
+    "angle": "low, side view of the man and dinosaur facing each other",
+    "camera_move": "static",
+    "subjects_present": [
+      "남자",
+      "거대 공룡",
+      "고양이 간식 스틱"
+    ],
+    "subject_states": [
+      {
+        "subject": "고양이 간식 스틱",
+        "state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+      }
+    ],
+    "backdrop": "A low stone wall, street trees, stone paving, and clear sky are visible. The crowd is not in the frame.",
+    "action": "On the left side of the frame, the man stands with his feet apart and chest out, holding the treat stick high toward the dinosaur to the north. On the right side of the frame, the dinosaur lowers its head and brings it close to the man, contrasting its enormous snout with the man's small physique.",
+    "emotion": "Amusement at preposterous confidence and a foreboding sense of what is to come",
+    "transition": "hard cut to the dinosaur's mouth",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "거대 공룡이 남자를 간식째 한입에 먹는다",
+    "beat": 6,
+    "zone": "보행대로",
+    "shot_size": "close-up, relative to the giant dinosaur's head",
+    "angle": "low, side view of the dinosaur's snout",
+    "camera_move": "static",
+    "subjects_present": [
+      "거대 공룡",
+      "남자",
+      "고양이 간식 스틱"
+    ],
+    "subject_states": [
+      {
+        "subject": "고양이 간식 스틱",
+        "state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+      }
+    ],
+    "backdrop": "Only clear sky above the dinosaur's head and around its snout is visible.",
+    "action": "The dinosaur puts the man whole into its mouth and closes its jaws. In the representative frame, the man's entire body and raised treat stick are together inside the dark mouth between the closing jaws, with no part of his body remaining outside. The silhouettes of his large hat and slender limbs are identifiable, but no blood or bodily injury is visible.",
+    "emotion": "The shock of an anticlimactic reversal and black comedy",
+    "transition": "hard cut to black at the moment the jaws close, ending the sequence",
+    "atmosphere": null,
+    "duration_seconds": 1.5
+  }
+]

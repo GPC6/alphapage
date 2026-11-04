@@ -1,0 +1,1014 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "S#1 윤호 방 (밤 / 안)\n어둡고 새벽. 윤호, 침대 속에서 깊은 잠을 자고 있다.\n어둠 속에서 바닥에서 웅덩이가 번져나온다.\n웅덩이 위로 반투명한 손이 천천히 솟아오른다.\n이어 여러 물고기 인간들이 나타나 방 안을 가득 채운다.\n몸은 인간과 유사하지만 빛 맞으면 무지개빛 나는 비늘로 가득하고, 머리는 누가봐도 물고기.\n비늘 위에는 액이 떨어지는데, 물에 나와 공기로부터 보호해주는 역할을 하는 것 같다.\n그들의 피부는 유리처럼 빛나고, 움직임은 느리고 유영하는 듯하다.\n\nS#2 윤호 방 (밤 / 안)\n윤호, 눈을 크게 뜨고 몸을 굳힌 채 침대에 누워 있다.\n주변 소리, 모두 수중처럼 왜곡된다.\n그때, 꿈에서 봤던 물고기 인간들이 침대를 동그랗게 둘러싼다.\n그들의 눈동자가 반짝인다.\n윤호는 공포가 가득한 눈으로 물고기 인간들을 쳐다본다. 너무 놀래서 소리가 나오지 않는다.\n물고기 인간들이 말을 하는데 물속에서 말하는 것처럼 웅얼 거리는 언어다.\n적어도 해치러 오지 않았다는 것을 느낀 윤호, 무슨 말을 하는지 궁금해한다.\n중앙에 있는 물고기 인간이 손끝을 들어올린다.\n윤호의 머릿속에 전자음 같은 울림이 번진다.\n마치 물고기 인간이 부르는 것 같다.\n윤호는 망설이다가 용기를 내서 손끝을 내민다.\n윤호와 물고기 인간이 악수 하는 순간, 물고기 인간은 윤호의 손목을 확잡고 화면이 왜곡되며 흰색 플래시.",
+	"draft_prompt": "S#1 윤호 방 (밤 / 안)\n어둡고 새벽. 윤호, 침대 속에서 깊은 잠을 자고 있다.\n어둠 속에서 바닥에서 웅덩이가 번져나온다.\n웅덩이 위로 반투명한 손이 천천히 솟아오른다.\n이어 여러 물고기 인간들이 나타나 방 안을 가득 채운다.\n몸은 인간과 유사하지만 빛 맞으면 무지개빛 나는 비늘로 가득하고, 머리는 누가봐도 물고기.\n비늘 위에는 액이 떨어지는데, 물에 나와 공기로부터 보호해주는 역할을 하는 것 같다.\n그들의 피부는 유리처럼 빛나고, 움직임은 느리고 유영하는 듯하다.\n\nS#2 윤호 방 (밤 / 안)\n윤호, 눈을 크게 뜨고 몸을 굳힌 채 침대에 누워 있다.\n주변 소리, 모두 수중처럼 왜곡된다.\n그때, 꿈에서 봤던 물고기 인간들이 침대를 동그랗게 둘러싼다.\n그들의 눈동자가 반짝인다.\n윤호는 공포가 가득한 눈으로 물고기 인간들을 쳐다본다. 너무 놀래서 소리가 나오지 않는다.\n물고기 인간들이 말을 하는데 물속에서 말하는 것처럼 웅얼 거리는 언어다.\n적어도 해치러 오지 않았다는 것을 느낀 윤호, 무슨 말을 하는지 궁금해한다.\n중앙에 있는 물고기 인간이 손끝을 들어올린다.\n윤호의 머릿속에 전자음 같은 울림이 번진다.\n마치 물고기 인간이 부르는 것 같다.\n윤호는 망설이다가 용기를 내서 손끝을 내민다.\n윤호와 물고기 인간이 악수 하는 순간, 물고기 인간은 윤호의 손목을 확잡고 화면이 왜곡되며 흰색 플래시.",
+	"request":
+	{
+		"cut_count": 12,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 12,
+		"duration_seconds": 40.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.",
+			"location_type": "Private bedroom, indoor.",
+			"zones": [
+				{
+					"name": "Window-side clearing",
+					"description": "An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary",
+					"connects_to": [
+						"Bed island"
+					]
+				},
+				{
+					"name": "Bed island",
+					"description": "A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank",
+					"connects_to": [
+						"Window-side clearing"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Predawn, still night",
+				"weather": "dry and still outside",
+				"lighting": "very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "Awakened by fish-headed visitors from his dreams, Yunho struggles past terror and incomprehensible speech to answer their invitation, only for a tentative handshake to become a forceful wrist-grab that fractures the room into white light.",
+			"beats": [
+				{
+					"summary": "A dark puddle spreads across the floor beside the sleeping Yunho",
+					"emotion": "unease"
+				},
+				{
+					"summary": "A translucent humanlike hand rises from the puddle",
+					"emotion": "uncanny anticipation"
+				},
+				{
+					"summary": "Fish-headed humanoids emerge and occupy the room",
+					"emotion": "overwhelming wonder"
+				},
+				{
+					"summary": "Yunho awakens rigid with fear as ordinary sounds become underwater distortions",
+					"emotion": "terror"
+				},
+				{
+					"summary": "The visitors form a circle around his bed, their eyes catching the light",
+					"emotion": "claustrophobia"
+				},
+				{
+					"summary": "Their restrained gestures and muffled speech persuade Yunho that they may not intend harm",
+					"emotion": "cautious curiosity"
+				},
+				{
+					"summary": "The central visitor raises its fingertips toward Yunho",
+					"emotion": "expectant uncertainty"
+				},
+				{
+					"summary": "An electronic-sounding summons reverberates inside Yunho’s head",
+					"emotion": "disorientation"
+				},
+				{
+					"summary": "Yunho overcomes his hesitation and decides to respond",
+					"emotion": "fragile courage"
+				},
+				{
+					"summary": "Yunho extends his fingers toward the visitor’s offered hand",
+					"emotion": "vulnerable anticipation"
+				},
+				{
+					"summary": "Their hands meet in an apparently gentle handshake",
+					"emotion": "momentary trust"
+				},
+				{
+					"summary": "The visitor abruptly clamps Yunho’s wrist, triggering distortion and a white flash",
+					"emotion": "betrayal and shock"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Yunho",
+				"kind": "Young adult man",
+				"appearance": "slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance",
+				"signature_features": [
+					"narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle."
+				]
+			},
+			{
+				"name": "Central visitor",
+				"kind": "Fish-headed humanoid",
+				"appearance": "unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales",
+				"signature_features": [
+					"oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head."
+				]
+			},
+			{
+				"name": "Fish circle",
+				"kind": "Group of five fish-headed humanoids",
+				"appearance": "adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets",
+				"signature_features": [
+					"large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections."
+				]
+			},
+			{
+				"name": "Puddle",
+				"kind": "Supernatural liquid sheet",
+				"appearance": "nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes",
+				"signature_features": [
+					"exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow."
+				]
+			}
+		],
+		"run_id": "storyboard_20261014_095545_22439e01"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Puddle spreading beside sleeping Yunho",
+				"beat": 1,
+				"zone": "Window-side clearing",
+				"shot_size": "wide",
+				"angle": "high, oblique",
+				"camera_move": "slow dolly toward the floor",
+				"subjects_present": [
+					"Yunho",
+					"Puddle"
+				],
+				"subject_states": [
+					{
+						"subject": "Puddle",
+						"state": "Manifested as several nearly black, shallow, mirrorlike pools scattered across the visible floor, each edged in thin silver. The main pool beside the bed spreads from pillow-width toward small-rug width, retaining its irregular oval body and two narrow trailing lobes. Small clear bubbles swell across the pools' surfaces, with rounded droplets briefly rising above them and concentric ripples catching the cold light."
+					}
+				],
+				"backdrop": "Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.",
+				"action": "Yunho sleeps beneath the duvet while the main puddle’s silver-edged perimeter creeps outward across the boards. Throughout the visible floor, several smaller pools gently bubble: clear droplets rise, fall back, and send overlapping concentric ripples across their surfaces, giving the floor the uncanny feeling of a lake disturbed by falling water droplets.",
+				"emotion": "Quiet unease intruding on vulnerability.",
+				"transition": "Hard cut to the puddle’s surface.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.\nShot size: wide\nCamera angle: high, oblique\nCamera move: slow dolly toward the floor\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Manifested as several nearly black, shallow, mirrorlike pools scattered across the visible floor, each edged in thin silver. The main pool beside the bed spreads from pillow-width toward small-rug width, retaining its irregular oval body and two narrow trailing lobes. Small clear bubbles swell across the pools' surfaces, with rounded droplets briefly rising above them and concentric ripples catching the cold light.\nAction: Yunho sleeps beneath the duvet while the main puddle’s silver-edged perimeter creeps outward across the boards. Throughout the visible floor, several smaller pools gently bubble: clear droplets rise, fall back, and send overlapping concentric ripples across their surfaces, giving the floor the uncanny feeling of a lake disturbed by falling water droplets.\nMood: Quiet unease intruding on vulnerability.",
+			"images": [
+				"cut_01_003.jpg",
+				"cut_01_004.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.\nShot size: wide\nCamera angle: high, oblique\nCamera move: slow dolly toward the floor\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow.\nAction: Yunho sleeps beneath the duvet while the puddle’s silver-edged perimeter creeps outward across the boards.\nMood: Quiet unease intruding on vulnerability.",
+					"spec":
+					{
+						"shot_name": "Puddle spreading beside sleeping Yunho",
+						"beat": 1,
+						"zone": "Window-side clearing",
+						"shot_size": "wide",
+						"angle": "high, oblique",
+						"camera_move": "slow dolly toward the floor",
+						"subjects_present": [
+							"Yunho",
+							"Puddle"
+						],
+						"subject_states": [],
+						"backdrop": "Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.",
+						"action": "Yunho sleeps beneath the duvet while the puddle’s silver-edged perimeter creeps outward across the boards.",
+						"emotion": "Quiet unease intruding on vulnerability.",
+						"transition": "Hard cut to the puddle’s surface.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				},
+				{
+					"modification": "조금 더 물방울이 호수 위에 떨어지는 듯한 느낌이 바닥 전체적으로 났으면 좋겠어. 그 웅덩이들이 여러개 있는데 거기서 보글보글 물방울들이 올라오는 느낌이 나야 해",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.\nShot size: wide\nCamera angle: high, oblique\nCamera move: slow dolly toward the floor\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Manifested as several nearly black, shallow, mirrorlike pools scattered across the visible floor, each edged in thin silver. The main pool beside the bed spreads from pillow-width toward small-rug width, retaining its irregular oval body and two narrow trailing lobes. Small clear bubbles swell across the pools' surfaces, with rounded droplets briefly rising above them and concentric ripples catching the cold light.\nAction: Yunho sleeps beneath the duvet while the main puddle’s silver-edged perimeter creeps outward across the boards. Throughout the visible floor, several smaller pools gently bubble: clear droplets rise, fall back, and send overlapping concentric ripples across their surfaces, giving the floor the uncanny feeling of a lake disturbed by falling water droplets.\nMood: Quiet unease intruding on vulnerability.",
+					"spec":
+					{
+						"shot_name": "Puddle spreading beside sleeping Yunho",
+						"beat": 1,
+						"zone": "Window-side clearing",
+						"shot_size": "wide",
+						"angle": "high, oblique",
+						"camera_move": "slow dolly toward the floor",
+						"subjects_present": [
+							"Yunho",
+							"Puddle"
+						],
+						"subject_states": [
+							{
+								"subject": "Puddle",
+								"state": "Manifested as several nearly black, shallow, mirrorlike pools scattered across the visible floor, each edged in thin silver. The main pool beside the bed spreads from pillow-width toward small-rug width, retaining its irregular oval body and two narrow trailing lobes. Small clear bubbles swell across the pools' surfaces, with rounded droplets briefly rising above them and concentric ripples catching the cold light."
+							}
+						],
+						"backdrop": "Dark floorboards dominate the foreground; the bed, pale pillow, and blank rear wall occupy the upper-right portion of the frame.",
+						"action": "Yunho sleeps beneath the duvet while the main puddle’s silver-edged perimeter creeps outward across the boards. Throughout the visible floor, several smaller pools gently bubble: clear droplets rise, fall back, and send overlapping concentric ripples across their surfaces, giving the floor the uncanny feeling of a lake disturbed by falling water droplets.",
+						"emotion": "Quiet unease intruding on vulnerability.",
+						"transition": "Hard cut to the puddle’s surface.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Central visitor raising a hand through the Puddle",
+				"beat": 2,
+				"zone": "Window-side clearing",
+				"shot_size": "close-up",
+				"angle": "low, just above floor level",
+				"camera_move": "slow tilt upward following the hand",
+				"subjects_present": [
+					"Central visitor",
+					"Puddle",
+					"Fish circle"
+				],
+				"subject_states": [
+					{
+						"subject": "Puddle",
+						"state": "Expanded to approximately small-rug width, retaining its two trailing lobes."
+					},
+					{
+						"subject": "Central visitor",
+						"state": "Only one translucent webbed hand and the beginning of its elongated forearm emerge above the liquid; its head and body remain completely submerged."
+					},
+					{
+						"subject": "Fish circle",
+						"state": "Only one member's translucent webbed fingertips begin to emerge behind the Central visitor's hand. That member's remaining body and all four other members remain completely submerged and invisible."
+					}
+				],
+				"backdrop": "Dark floorboards and the softly blurred lower portion of the pale curtain.",
+				"action": "At first, no visitors are visible above the liquid. The Central visitor’s translucent webbed hand breaks the surface and slowly rises vertically, clear coating stretching into thin strands between its fingers. Only after its wrist clears the surface do a second visitor’s fingertips begin breaking through slightly behind it. The staggered emergence makes the visitors feel as though they are coming up one by one, rather than already occupying the room; no heads or torsos are revealed in this cut.",
+				"emotion": "Uncanny anticipation.",
+				"transition": "Hard cut as the hand reaches its full height.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards and the softly blurred lower portion of the pale curtain.\nShot size: close-up\nCamera angle: low, just above floor level\nCamera move: slow tilt upward following the hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head. Current state in this cut: Only one translucent webbed hand and the beginning of its elongated forearm emerge above the liquid; its head and body remain completely submerged.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded to approximately small-rug width, retaining its two trailing lobes.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections. Current state in this cut: Only one member's translucent webbed fingertips begin to emerge behind the Central visitor's hand. That member's remaining body and all four other members remain completely submerged and invisible.\nAction: At first, no visitors are visible above the liquid. The Central visitor’s translucent webbed hand breaks the surface and slowly rises vertically, clear coating stretching into thin strands between its fingers. Only after its wrist clears the surface do a second visitor’s fingertips begin breaking through slightly behind it. The staggered emergence makes the visitors feel as though they are coming up one by one, rather than already occupying the room; no heads or torsos are revealed in this cut.\nMood: Uncanny anticipation.",
+			"images": [
+				"cut_02_003.jpg",
+				"cut_02_004.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards and the softly blurred lower portion of the pale curtain.\nShot size: close-up\nCamera angle: low, just above floor level\nCamera move: slow tilt upward following the hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded to approximately small-rug width, retaining its two trailing lobes.\nAction: A translucent webbed hand breaks the liquid surface and rises vertically; clear coating stretches into thin strands between its fingers.\nMood: Uncanny anticipation.",
+					"spec":
+					{
+						"shot_name": "Central visitor raising a hand through the Puddle",
+						"beat": 2,
+						"zone": "Window-side clearing",
+						"shot_size": "close-up",
+						"angle": "low, just above floor level",
+						"camera_move": "slow tilt upward following the hand",
+						"subjects_present": [
+							"Central visitor",
+							"Puddle"
+						],
+						"subject_states": [
+							{
+								"subject": "Puddle",
+								"state": "Expanded to approximately small-rug width, retaining its two trailing lobes."
+							}
+						],
+						"backdrop": "Dark floorboards and the softly blurred lower portion of the pale curtain.",
+						"action": "A translucent webbed hand breaks the liquid surface and rises vertically; clear coating stretches into thin strands between its fingers.",
+						"emotion": "Uncanny anticipation.",
+						"transition": "Hard cut as the hand reaches its full height.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				},
+				{
+					"modification": "물고기 인간들 이미 나온 것이 아닌, 하나 둘 씩 올라오는 느낌이 나야 해.",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: Dark floorboards and the softly blurred lower portion of the pale curtain.\nShot size: close-up\nCamera angle: low, just above floor level\nCamera move: slow tilt upward following the hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head. Current state in this cut: Only one translucent webbed hand and the beginning of its elongated forearm emerge above the liquid; its head and body remain completely submerged.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded to approximately small-rug width, retaining its two trailing lobes.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections. Current state in this cut: Only one member's translucent webbed fingertips begin to emerge behind the Central visitor's hand. That member's remaining body and all four other members remain completely submerged and invisible.\nAction: At first, no visitors are visible above the liquid. The Central visitor’s translucent webbed hand breaks the surface and slowly rises vertically, clear coating stretching into thin strands between its fingers. Only after its wrist clears the surface do a second visitor’s fingertips begin breaking through slightly behind it. The staggered emergence makes the visitors feel as though they are coming up one by one, rather than already occupying the room; no heads or torsos are revealed in this cut.\nMood: Uncanny anticipation.",
+					"spec":
+					{
+						"shot_name": "Central visitor raising a hand through the Puddle",
+						"beat": 2,
+						"zone": "Window-side clearing",
+						"shot_size": "close-up",
+						"angle": "low, just above floor level",
+						"camera_move": "slow tilt upward following the hand",
+						"subjects_present": [
+							"Central visitor",
+							"Puddle",
+							"Fish circle"
+						],
+						"subject_states": [
+							{
+								"subject": "Puddle",
+								"state": "Expanded to approximately small-rug width, retaining its two trailing lobes."
+							},
+							{
+								"subject": "Central visitor",
+								"state": "Only one translucent webbed hand and the beginning of its elongated forearm emerge above the liquid; its head and body remain completely submerged."
+							},
+							{
+								"subject": "Fish circle",
+								"state": "Only one member's translucent webbed fingertips begin to emerge behind the Central visitor's hand. That member's remaining body and all four other members remain completely submerged and invisible."
+							}
+						],
+						"backdrop": "Dark floorboards and the softly blurred lower portion of the pale curtain.",
+						"action": "At first, no visitors are visible above the liquid. The Central visitor’s translucent webbed hand breaks the surface and slowly rises vertically, clear coating stretching into thin strands between its fingers. Only after its wrist clears the surface do a second visitor’s fingertips begin breaking through slightly behind it. The staggered emergence makes the visitors feel as though they are coming up one by one, rather than already occupying the room; no heads or torsos are revealed in this cut.",
+						"emotion": "Uncanny anticipation.",
+						"transition": "Hard cut as the hand reaches its full height.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Central visitor and Fish circle emerging into the room",
+				"beat": 3,
+				"zone": "Window-side clearing",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "slow dolly backward",
+				"subjects_present": [
+					"Central visitor",
+					"Fish circle",
+					"Puddle",
+					"Yunho"
+				],
+				"subject_states": [
+					{
+						"subject": "Puddle",
+						"state": "Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge."
+					}
+				],
+				"backdrop": "The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.",
+				"action": "The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing. On the adjoining bed, Yunho remains asleep with his eyes closed, intermittently giving small involuntary flinches at the sounds of their emergence without waking.",
+				"emotion": "Wonder becoming oppressive.",
+				"transition": "Hard cut to Yunho.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.\nShot size: wide\nCamera angle: eye level\nCamera move: slow dolly backward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge.\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing. On the adjoining bed, Yunho remains asleep with his eyes closed, intermittently giving small involuntary flinches at the sounds of their emergence without waking.\nMood: Wonder becoming oppressive.",
+			"images": [
+				"cut_03_003.jpg",
+				"cut_03_004.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.\nShot size: wide\nCamera angle: eye level\nCamera move: slow dolly backward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge.\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing.\nMood: Wonder becoming oppressive.",
+					"spec":
+					{
+						"shot_name": "Central visitor and Fish circle emerging into the room",
+						"beat": 3,
+						"zone": "Window-side clearing",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "slow dolly backward",
+						"subjects_present": [
+							"Central visitor",
+							"Fish circle",
+							"Puddle",
+							"Yunho"
+						],
+						"subject_states": [
+							{
+								"subject": "Puddle",
+								"state": "Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge."
+							}
+						],
+						"backdrop": "The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.",
+						"action": "The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing.",
+						"emotion": "Wonder becoming oppressive.",
+						"transition": "Hard cut to Yunho.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				},
+				{
+					"modification": "윤호는 잠을 자고 있어야 해 소리에 움찔움찍 거리며",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Window-side clearing: An unobstructed stretch of dark wooden floor beside the bed, a tall closed window in the outer wall, loosely parted pale curtains, a narrow window ledge, and a bare plaster corner; the bed’s left edge is directly visible across the adjoining boundary\nBackdrop, behind the action: The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.\nShot size: wide\nCamera angle: eye level\nCamera move: slow dolly backward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\n- Puddle (Supernatural liquid sheet): nearly black, shallow, mirrorlike liquid with a thin silver edge; initially approximately pillow-width, with an irregular oval body and two narrow trailing lobes Signature, drawn only where this angle exposes it: exceptionally flat profile and forked trailing outline distinguish it from an ordinary floor shadow. Current state in this cut: Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge.\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing. On the adjoining bed, Yunho remains asleep with his eyes closed, intermittently giving small involuntary flinches at the sounds of their emergence without waking.\nMood: Wonder becoming oppressive.",
+					"spec":
+					{
+						"shot_name": "Central visitor and Fish circle emerging into the room",
+						"beat": 3,
+						"zone": "Window-side clearing",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "slow dolly backward",
+						"subjects_present": [
+							"Central visitor",
+							"Fish circle",
+							"Puddle",
+							"Yunho"
+						],
+						"subject_states": [
+							{
+								"subject": "Puddle",
+								"state": "Expanded across most of the clearing, retaining a thin silver perimeter and forked trailing edge."
+							}
+						],
+						"backdrop": "The closed window and parted curtains stand behind the visitors; the adjoining bed and sleeping Yunho remain visible at frame right.",
+						"action": "The Central visitor’s fish head and long torso rise above the puddle, followed by five other figures; their bodies settle upright with slow, swimming-like motions until they crowd the clearing. On the adjoining bed, Yunho remains asleep with his eyes closed, intermittently giving small involuntary flinches at the sounds of their emergence without waking.",
+						"emotion": "Wonder becoming oppressive.",
+						"transition": "Hard cut to Yunho.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho waking without a voice",
+				"beat": 4,
+				"zone": "Bed island",
+				"shot_size": "close-up",
+				"angle": "high, nearly perpendicular to the pillow",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [],
+				"backdrop": "Pale pillow and a narrow strip of rumpled duvet.",
+				"action": "Yunho’s eyes snap open; his neck and shoulders remain locked against the bedding, and his parted lips produce no visible attempt at a cry.",
+				"emotion": "Immediate, immobilizing terror.",
+				"transition": "Hard cut to the space surrounding the bed.",
+				"atmosphere": null,
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Pale pillow and a narrow strip of rumpled duvet.\nShot size: close-up\nCamera angle: high, nearly perpendicular to the pillow\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: Yunho’s eyes snap open; his neck and shoulders remain locked against the bedding, and his parted lips produce no visible attempt at a cry.\nMood: Immediate, immobilizing terror.",
+			"images": [
+				"cut_04_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Pale pillow and a narrow strip of rumpled duvet.\nShot size: close-up\nCamera angle: high, nearly perpendicular to the pillow\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: Yunho’s eyes snap open; his neck and shoulders remain locked against the bedding, and his parted lips produce no visible attempt at a cry.\nMood: Immediate, immobilizing terror.",
+					"spec":
+					{
+						"shot_name": "Yunho waking without a voice",
+						"beat": 4,
+						"zone": "Bed island",
+						"shot_size": "close-up",
+						"angle": "high, nearly perpendicular to the pillow",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [],
+						"backdrop": "Pale pillow and a narrow strip of rumpled duvet.",
+						"action": "Yunho’s eyes snap open; his neck and shoulders remain locked against the bedding, and his parted lips produce no visible attempt at a cry.",
+						"emotion": "Immediate, immobilizing terror.",
+						"transition": "Hard cut to the space surrounding the bed.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Central visitor and Fish circle enclosing Yunho’s bed",
+				"beat": 5,
+				"zone": "Bed island",
+				"shot_size": "wide",
+				"angle": "high, oblique from the foot of the bed",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Central visitor",
+					"Fish circle"
+				],
+				"subject_states": [],
+				"backdrop": "The bed, its surrounding walking space, the plain headboard, and the blank rear wall; the window-side floor is outside the frame.",
+				"action": "The visitors finish taking positions around the bed; the Central visitor occupies Yunho’s left side while the five others complete the ring at the foot, opposite side, and behind the headboard, their eyes flashing with small reflections.",
+				"emotion": "Claustrophobic exposure.",
+				"transition": "Hard cut toward Yunho and the Central visitor.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The bed, its surrounding walking space, the plain headboard, and the blank rear wall; the window-side floor is outside the frame.\nShot size: wide\nCamera angle: high, oblique from the foot of the bed\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\nAction: The visitors finish taking positions around the bed; the Central visitor occupies Yunho’s left side while the five others complete the ring at the foot, opposite side, and behind the headboard, their eyes flashing with small reflections.\nMood: Claustrophobic exposure.",
+			"images": [
+				"cut_05_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The bed, its surrounding walking space, the plain headboard, and the blank rear wall; the window-side floor is outside the frame.\nShot size: wide\nCamera angle: high, oblique from the foot of the bed\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\nAction: The visitors finish taking positions around the bed; the Central visitor occupies Yunho’s left side while the five others complete the ring at the foot, opposite side, and behind the headboard, their eyes flashing with small reflections.\nMood: Claustrophobic exposure.",
+					"spec":
+					{
+						"shot_name": "Central visitor and Fish circle enclosing Yunho’s bed",
+						"beat": 5,
+						"zone": "Bed island",
+						"shot_size": "wide",
+						"angle": "high, oblique from the foot of the bed",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor",
+							"Fish circle"
+						],
+						"subject_states": [],
+						"backdrop": "The bed, its surrounding walking space, the plain headboard, and the blank rear wall; the window-side floor is outside the frame.",
+						"action": "The visitors finish taking positions around the bed; the Central visitor occupies Yunho’s left side while the five others complete the ring at the foot, opposite side, and behind the headboard, their eyes flashing with small reflections.",
+						"emotion": "Claustrophobic exposure.",
+						"transition": "Hard cut toward Yunho and the Central visitor.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho’s POV scanning the fish-headed visitors",
+				"beat": 6,
+				"zone": "Bed island",
+				"shot_size": "medium",
+				"angle": "Yunho’s eye-level POV from his position in bed",
+				"camera_move": "Tentative side-to-side pans following Yunho’s searching gaze, settling on the Central visitor at his left.",
+				"subjects_present": [
+					"Central visitor",
+					"Fish circle"
+				],
+				"subject_states": [],
+				"backdrop": "Bare plaster walls, portions of the plain headboard, and the bed’s surrounding walking space, shifting behind the visitors as the POV turns.",
+				"action": "Through Yunho’s eyes, the view looks from members of the Fish circle at the foot and opposite side of the bed toward the Central visitor at his left. The visitors make small, restrained gestures and move their fish mouths in muffled speech, keeping their hands low and relaxed. The hesitant scanning slows and settles on the Central visitor’s face, beginning to study it rather than recoil.",
+				"emotion": "Fear giving way to cautious curiosity.",
+				"transition": "Hard cut to the visitor’s hand.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Bare plaster walls, portions of the plain headboard, and the bed’s surrounding walking space, shifting behind the visitors as the POV turns.\nShot size: medium\nCamera angle: Yunho’s eye-level POV from his position in bed\nCamera move: Tentative side-to-side pans following Yunho’s searching gaze, settling on the Central visitor at his left.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\nAction: Through Yunho’s eyes, the view looks from members of the Fish circle at the foot and opposite side of the bed toward the Central visitor at his left. The visitors make small, restrained gestures and move their fish mouths in muffled speech, keeping their hands low and relaxed. The hesitant scanning slows and settles on the Central visitor’s face, beginning to study it rather than recoil.\nMood: Fear giving way to cautious curiosity.",
+			"images": [
+				"cut_06_003.jpg",
+				"cut_06_004.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Pale pillow, headboard, and blank rear wall.\nShot size: medium\nCamera angle: eye level from the foot-side of their interaction axis\nCamera move: slow dolly inward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: At frame left, the Central visitor opens and closes its fish mouth while keeping its hands low and relaxed; at frame right, Yunho’s tightly drawn brows loosen and his gaze begins to examine its face rather than recoil from it.\nMood: Fear giving way to cautious curiosity.",
+					"spec":
+					{
+						"shot_name": "Yunho studying the Central visitor’s restrained greeting",
+						"beat": 6,
+						"zone": "Bed island",
+						"shot_size": "medium",
+						"angle": "eye level from the foot-side of their interaction axis",
+						"camera_move": "slow dolly inward",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "Pale pillow, headboard, and blank rear wall.",
+						"action": "At frame left, the Central visitor opens and closes its fish mouth while keeping its hands low and relaxed; at frame right, Yunho’s tightly drawn brows loosen and his gaze begins to examine its face rather than recoil from it.",
+						"emotion": "Fear giving way to cautious curiosity.",
+						"transition": "Hard cut to the visitor’s hand.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				},
+				{
+					"modification": "윤호 POV로 물고기 인간들을 두리번 거리며 쳐다보는 장면으로 바꿔줘",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Bare plaster walls, portions of the plain headboard, and the bed’s surrounding walking space, shifting behind the visitors as the POV turns.\nShot size: medium\nCamera angle: Yunho’s eye-level POV from his position in bed\nCamera move: Tentative side-to-side pans following Yunho’s searching gaze, settling on the Central visitor at his left.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\n- Fish circle (Group of five fish-headed humanoids): adult humanlike proportions, shorter and stockier than the Central visitor, pointed fish heads, translucent webbed hands, glasslike scaled bodies with the same silver-to-dark iridescent bands and hanging clear droplets Signature, drawn only where this angle exposes it: large pointed heads and short triangular dorsal fins produce a consistent, recognizable silhouette from any angle; their eyes carry small, sharp reflections.\nAction: Through Yunho’s eyes, the view looks from members of the Fish circle at the foot and opposite side of the bed toward the Central visitor at his left. The visitors make small, restrained gestures and move their fish mouths in muffled speech, keeping their hands low and relaxed. The hesitant scanning slows and settles on the Central visitor’s face, beginning to study it rather than recoil.\nMood: Fear giving way to cautious curiosity.",
+					"spec":
+					{
+						"shot_name": "Yunho’s POV scanning the fish-headed visitors",
+						"beat": 6,
+						"zone": "Bed island",
+						"shot_size": "medium",
+						"angle": "Yunho’s eye-level POV from his position in bed",
+						"camera_move": "Tentative side-to-side pans following Yunho’s searching gaze, settling on the Central visitor at his left.",
+						"subjects_present": [
+							"Central visitor",
+							"Fish circle"
+						],
+						"subject_states": [],
+						"backdrop": "Bare plaster walls, portions of the plain headboard, and the bed’s surrounding walking space, shifting behind the visitors as the POV turns.",
+						"action": "Through Yunho’s eyes, the view looks from members of the Fish circle at the foot and opposite side of the bed toward the Central visitor at his left. The visitors make small, restrained gestures and move their fish mouths in muffled speech, keeping their hands low and relaxed. The hesitant scanning slows and settles on the Central visitor’s face, beginning to study it rather than recoil.",
+						"emotion": "Fear giving way to cautious curiosity.",
+						"transition": "Hard cut to the visitor’s hand.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Central visitor offering its fingertips",
+				"beat": 7,
+				"zone": "Bed island",
+				"shot_size": "insert",
+				"angle": "eye level with the raised hand",
+				"camera_move": "static",
+				"subjects_present": [
+					"Central visitor"
+				],
+				"subject_states": [],
+				"backdrop": "A softly blurred middle-gray patch of duvet.",
+				"action": "The visitor lifts its right hand, turns the palm slightly inward, and presents its long translucent fingertips toward frame right; a suspended bead of coating catches a silver highlight.",
+				"emotion": "An invitation whose meaning remains uncertain.",
+				"transition": "Hard cut to Yunho’s reaction.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: A softly blurred middle-gray patch of duvet.\nShot size: insert\nCamera angle: eye level with the raised hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The visitor lifts its right hand, turns the palm slightly inward, and presents its long translucent fingertips toward frame right; a suspended bead of coating catches a silver highlight.\nMood: An invitation whose meaning remains uncertain.",
+			"images": [
+				"cut_07_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: A softly blurred middle-gray patch of duvet.\nShot size: insert\nCamera angle: eye level with the raised hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The visitor lifts its right hand, turns the palm slightly inward, and presents its long translucent fingertips toward frame right; a suspended bead of coating catches a silver highlight.\nMood: An invitation whose meaning remains uncertain.",
+					"spec":
+					{
+						"shot_name": "Central visitor offering its fingertips",
+						"beat": 7,
+						"zone": "Bed island",
+						"shot_size": "insert",
+						"angle": "eye level with the raised hand",
+						"camera_move": "static",
+						"subjects_present": [
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "A softly blurred middle-gray patch of duvet.",
+						"action": "The visitor lifts its right hand, turns the palm slightly inward, and presents its long translucent fingertips toward frame right; a suspended bead of coating catches a silver highlight.",
+						"emotion": "An invitation whose meaning remains uncertain.",
+						"transition": "Hard cut to Yunho’s reaction.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho recoiling from the summons",
+				"beat": 8,
+				"zone": "Bed island",
+				"shot_size": "extreme close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "Yunho’s pupils shift toward frame left, his brow contracts, and his eyelids tremble while the rest of his face holds unnaturally still.",
+				"emotion": "An intimate, disorienting intrusion.",
+				"transition": "Hard cut to his upper body.",
+				"atmosphere": null,
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: Yunho’s pupils shift toward frame left, his brow contracts, and his eyelids tremble while the rest of his face holds unnaturally still.\nMood: An intimate, disorienting intrusion.",
+			"images": [
+				"cut_08_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\nAction: Yunho’s pupils shift toward frame left, his brow contracts, and his eyelids tremble while the rest of his face holds unnaturally still.\nMood: An intimate, disorienting intrusion.",
+					"spec":
+					{
+						"shot_name": "Yunho recoiling from the summons",
+						"beat": 8,
+						"zone": "Bed island",
+						"shot_size": "extreme close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "Yunho’s pupils shift toward frame left, his brow contracts, and his eyelids tremble while the rest of his face holds unnaturally still.",
+						"emotion": "An intimate, disorienting intrusion.",
+						"transition": "Hard cut to his upper body.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho choosing to answer the Central visitor",
+				"beat": 9,
+				"zone": "Bed island",
+				"shot_size": "medium",
+				"angle": "eye level from the foot-side of the established axis",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Central visitor"
+				],
+				"subject_states": [],
+				"backdrop": "Pillow, headboard, blank rear wall, and the upper surface of the duvet.",
+				"action": "Yunho looks from the visitor’s offered hand to its face, closes his parted lips, and releases his right hand from its tight fist on the duvet; the visitor holds its invitation steady at frame left.",
+				"emotion": "Fragile courage overcoming hesitation.",
+				"transition": "Match cut on Yunho’s opening hand.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Pillow, headboard, blank rear wall, and the upper surface of the duvet.\nShot size: medium\nCamera angle: eye level from the foot-side of the established axis\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Yunho looks from the visitor’s offered hand to its face, closes his parted lips, and releases his right hand from its tight fist on the duvet; the visitor holds its invitation steady at frame left.\nMood: Fragile courage overcoming hesitation.",
+			"images": [
+				"cut_09_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Pillow, headboard, blank rear wall, and the upper surface of the duvet.\nShot size: medium\nCamera angle: eye level from the foot-side of the established axis\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Yunho looks from the visitor’s offered hand to its face, closes his parted lips, and releases his right hand from its tight fist on the duvet; the visitor holds its invitation steady at frame left.\nMood: Fragile courage overcoming hesitation.",
+					"spec":
+					{
+						"shot_name": "Yunho choosing to answer the Central visitor",
+						"beat": 9,
+						"zone": "Bed island",
+						"shot_size": "medium",
+						"angle": "eye level from the foot-side of the established axis",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "Pillow, headboard, blank rear wall, and the upper surface of the duvet.",
+						"action": "Yunho looks from the visitor’s offered hand to its face, closes his parted lips, and releases his right hand from its tight fist on the duvet; the visitor holds its invitation steady at frame left.",
+						"emotion": "Fragile courage overcoming hesitation.",
+						"transition": "Match cut on Yunho’s opening hand.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho reaching toward the Central visitor",
+				"beat": 10,
+				"zone": "Bed island",
+				"shot_size": "close-up",
+				"angle": "slightly high over the bed edge",
+				"camera_move": "short lateral tracking move with Yunho’s hand",
+				"subjects_present": [
+					"Yunho",
+					"Central visitor"
+				],
+				"subject_states": [],
+				"backdrop": "The middle-gray duvet and a narrow strip of dark wooden bed rail.",
+				"action": "Yunho’s right hand enters from frame right and extends across the remaining gap toward the visitor’s stationary fingertips at frame left; the fingers remain just short of touching.",
+				"emotion": "Vulnerability at the threshold of trust.",
+				"transition": "Hard cut closer as the gap closes.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The middle-gray duvet and a narrow strip of dark wooden bed rail.\nShot size: close-up\nCamera angle: slightly high over the bed edge\nCamera move: short lateral tracking move with Yunho’s hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Yunho’s right hand enters from frame right and extends across the remaining gap toward the visitor’s stationary fingertips at frame left; the fingers remain just short of touching.\nMood: Vulnerability at the threshold of trust.",
+			"images": [
+				"cut_10_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The middle-gray duvet and a narrow strip of dark wooden bed rail.\nShot size: close-up\nCamera angle: slightly high over the bed edge\nCamera move: short lateral tracking move with Yunho’s hand\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Yunho’s right hand enters from frame right and extends across the remaining gap toward the visitor’s stationary fingertips at frame left; the fingers remain just short of touching.\nMood: Vulnerability at the threshold of trust.",
+					"spec":
+					{
+						"shot_name": "Yunho reaching toward the Central visitor",
+						"beat": 10,
+						"zone": "Bed island",
+						"shot_size": "close-up",
+						"angle": "slightly high over the bed edge",
+						"camera_move": "short lateral tracking move with Yunho’s hand",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "The middle-gray duvet and a narrow strip of dark wooden bed rail.",
+						"action": "Yunho’s right hand enters from frame right and extends across the remaining gap toward the visitor’s stationary fingertips at frame left; the fingers remain just short of touching.",
+						"emotion": "Vulnerability at the threshold of trust.",
+						"transition": "Hard cut closer as the gap closes.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho hesitating just before touching the Central visitor’s hand",
+				"beat": 10,
+				"zone": "Bed island",
+				"shot_size": "medium close-up",
+				"angle": "eye level with Yunho",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Central visitor"
+				],
+				"subject_states": [],
+				"backdrop": "Softly blurred cotton duvet.",
+				"action": "The Central visitor remains off screen except for its offered hand at frame left; its hesitant off-screen voice calls, 'Yunho.' Yunho’s tense face and extended right hand share the frame. Unsure what will happen, he watches the translucent fingertips and hesitates with his fingers just short of touching them; no contact occurs in this cut.",
+				"emotion": "Tense uncertainty and vulnerable hesitation before contact.",
+				"transition": "Hard cut forward across the moment of contact to the first tightening movement.",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Softly blurred cotton duvet.\nShot size: medium close-up\nCamera angle: eye level with Yunho\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The Central visitor remains off screen except for its offered hand at frame left; its hesitant off-screen voice calls, 'Yunho.' Yunho’s tense face and extended right hand share the frame. Unsure what will happen, he watches the translucent fingertips and hesitates with his fingers just short of touching them; no contact occurs in this cut.\nMood: Tense uncertainty and vulnerable hesitation before contact.",
+			"images": [
+				"cut_11_002.jpg",
+				"cut_11_003.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Softly blurred cotton duvet.\nShot size: insert\nCamera angle: eye level with their hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Their fingertips meet, their palms slide together, and the visitor’s translucent fingers fold lightly around Yunho’s hand without compressing it.\nMood: A brief, believable release of tension.",
+					"spec":
+					{
+						"shot_name": "Yunho and Central visitor completing the handshake",
+						"beat": 11,
+						"zone": "Bed island",
+						"shot_size": "insert",
+						"angle": "eye level with their hands",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "Softly blurred cotton duvet.",
+						"action": "Their fingertips meet, their palms slide together, and the visitor’s translucent fingers fold lightly around Yunho’s hand without compressing it.",
+						"emotion": "A brief, believable release of tension.",
+						"transition": "Hard cut on the first tightening movement.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				},
+				{
+					"modification": "망설이는  물고기인간 O.S. 윤호. 무슨 일이 일어날지 몰라 긴장하는 윤호의 모습, 물고기 인간의 손을 닿기 직전이다.",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: Predawn, still night, dry and still outside, very low cold light through the window, no interior lamps, deep shadows with restrained silver reflections.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: Softly blurred cotton duvet.\nShot size: medium close-up\nCamera angle: eye level with Yunho\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The Central visitor remains off screen except for its offered hand at frame left; its hesitant off-screen voice calls, 'Yunho.' Yunho’s tense face and extended right hand share the frame. Unsure what will happen, he watches the translucent fingertips and hesitates with his fingers just short of touching them; no contact occurs in this cut.\nMood: Tense uncertainty and vulnerable hesitation before contact.",
+					"spec":
+					{
+						"shot_name": "Yunho hesitating just before touching the Central visitor’s hand",
+						"beat": 10,
+						"zone": "Bed island",
+						"shot_size": "medium close-up",
+						"angle": "eye level with Yunho",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "Softly blurred cotton duvet.",
+						"action": "The Central visitor remains off screen except for its offered hand at frame left; its hesitant off-screen voice calls, 'Yunho.' Yunho’s tense face and extended right hand share the frame. Unsure what will happen, he watches the translucent fingertips and hesitates with his fingers just short of touching them; no contact occurs in this cut.",
+						"emotion": "Tense uncertainty and vulnerable hesitation before contact.",
+						"transition": "Hard cut forward across the moment of contact to the first tightening movement.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho’s hand meeting the Central visitor’s hand in a white flash",
+				"beat": 12,
+				"zone": "Bed island",
+				"shot_size": "close-up",
+				"angle": "low beside the bed rail",
+				"camera_move": "brief handheld jolt",
+				"subjects_present": [
+					"Yunho",
+					"Central visitor"
+				],
+				"subject_states": [],
+				"backdrop": "The duvet and bed rail, their contours bending around the point of contact.",
+				"action": "The close-up is tightly cropped to show only Yunho’s right hand and the Central visitor’s translucent hand; their faces, bodies, and arms remain outside the frame. Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.",
+				"emotion": "Violent betrayal and sensory rupture.",
+				"transition": "End on a full-frame white flash; no additional panel.",
+				"atmosphere": "A sudden source-less white flash overwhelms the baseline night lighting.",
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: A sudden source-less white flash overwhelms the baseline night lighting.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The duvet and bed rail, their contours bending around the point of contact.\nShot size: close-up\nCamera angle: low beside the bed rail\nCamera move: brief handheld jolt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The close-up is tightly cropped to show only Yunho’s right hand and the Central visitor’s translucent hand; their faces, bodies, and arms remain outside the frame. Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.\nMood: Violent betrayal and sensory rupture.",
+			"images": [
+				"cut_12_002.jpg",
+				"cut_12_003.jpg",
+				"cut_12_004.jpg"
+			],
+			"current": 2,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: A sudden source-less white flash overwhelms the baseline night lighting.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The duvet and bed rail, their contours bending around the point of contact.\nShot size: close-up\nCamera angle: low beside the bed rail\nCamera move: brief handheld jolt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The visitor’s hand slides abruptly from Yunho’s palm to his wrist and clamps shut; Yunho’s fingers splay, the image warps inward around the grip, and a white bloom rapidly consumes the frame.\nMood: Violent betrayal and sensory rupture.",
+					"spec":
+					{
+						"shot_name": "Central visitor seizing Yunho’s wrist",
+						"beat": 12,
+						"zone": "Bed island",
+						"shot_size": "close-up",
+						"angle": "low beside the bed rail",
+						"camera_move": "brief handheld jolt",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "The duvet and bed rail, their contours bending around the point of contact.",
+						"action": "The visitor’s hand slides abruptly from Yunho’s palm to his wrist and clamps shut; Yunho’s fingers splay, the image warps inward around the grip, and a white bloom rapidly consumes the frame.",
+						"emotion": "Violent betrayal and sensory rupture.",
+						"transition": "End on a full-frame white flash; no additional panel.",
+						"atmosphere": "A sudden source-less white flash overwhelms the baseline night lighting.",
+						"duration_seconds": 1.5
+					}
+				},
+				{
+					"modification": "close up.윤호 손과 물고기 인간의 손이 닿는 순간,흰색 플래시.",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: A sudden source-less white flash overwhelms the baseline night lighting.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The duvet and bed rail, their contours bending around the point of contact.\nShot size: close-up\nCamera angle: low beside the bed rail\nCamera move: brief handheld jolt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.\nMood: Violent betrayal and sensory rupture.",
+					"spec":
+					{
+						"shot_name": "Yunho’s hand meeting the Central visitor’s hand in a white flash",
+						"beat": 12,
+						"zone": "Bed island",
+						"shot_size": "close-up",
+						"angle": "low beside the bed rail",
+						"camera_move": "brief handheld jolt",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "The duvet and bed rail, their contours bending around the point of contact.",
+						"action": "Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.",
+						"emotion": "Violent betrayal and sensory rupture.",
+						"transition": "End on a full-frame white flash; no additional panel.",
+						"atmosphere": "A sudden source-less white flash overwhelms the baseline night lighting.",
+						"duration_seconds": 1.5
+					},
+					"based_on": 0
+				},
+				{
+					"modification": "윤호 손과 물고기 인간의 손만 나오는 클로즈업샷",
+					"image_prompt": "Setting: A contemporary modest bedroom of matte plaster, dark wood, plain cotton, and reflective window glass sits in a charcoal-to-middle-gray palette, with thin silver highlights supplied by cold predawn night light.\nLocation: Private bedroom, indoor.\nAtmosphere: A sudden source-less white flash overwhelms the baseline night lighting.\nThis cut happens at Bed island: A low, narrow wooden bed with a plain headboard, pale pillow, and middle-gray cotton duvet; walking space surrounds every side, including a gap between the headboard and the blank rear wall; the window-side clearing adjoins the bed’s left flank\nBackdrop, behind the action: The duvet and bed rail, their contours bending around the point of contact.\nShot size: close-up\nCamera angle: low beside the bed rail\nCamera move: brief handheld jolt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Young adult man): slender build, short dark hair with a rounded crown, loose middle-gray long-sleeved pajamas, bare hands, partly covered by the duvet at first appearance Signature, drawn only where this angle exposes it: narrow frame inside oversized pajamas and a compact rounded hair silhouette remain recognizable from any angle.\n- Central visitor (Fish-headed humanoid): unusually tall, narrow humanlike torso and limbs, disproportionately broad oval fish head, translucent webbed hands, pale glasslike skin covered in overlapping scales; rainbow iridescence reads as fine alternating silver-to-dark bands, and clear viscous coating beads between the scales Signature, drawn only where this angle exposes it: oversized oval head, elongated forearms, and a continuous high dorsal ridge distinguish its silhouette from every angle; round reflective eyes sit on the sides of its head.\nAction: The close-up is tightly cropped to show only Yunho’s right hand and the Central visitor’s translucent hand; their faces, bodies, and arms remain outside the frame. Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.\nMood: Violent betrayal and sensory rupture.",
+					"spec":
+					{
+						"shot_name": "Yunho’s hand meeting the Central visitor’s hand in a white flash",
+						"beat": 12,
+						"zone": "Bed island",
+						"shot_size": "close-up",
+						"angle": "low beside the bed rail",
+						"camera_move": "brief handheld jolt",
+						"subjects_present": [
+							"Yunho",
+							"Central visitor"
+						],
+						"subject_states": [],
+						"backdrop": "The duvet and bed rail, their contours bending around the point of contact.",
+						"action": "The close-up is tightly cropped to show only Yunho’s right hand and the Central visitor’s translucent hand; their faces, bodies, and arms remain outside the frame. Yunho’s extended right hand touches the Central visitor’s offered translucent hand. At the exact instant of first contact, the image warps inward around their touching hands and a white flash consumes the frame.",
+						"emotion": "Violent betrayal and sensory rupture.",
+						"transition": "End on a full-frame white flash; no additional panel.",
+						"atmosphere": "A sudden source-less white flash overwhelms the baseline night lighting.",
+						"duration_seconds": 1.5
+					},
+					"based_on": 1
+				}
+			]
+		}
+	]
+}

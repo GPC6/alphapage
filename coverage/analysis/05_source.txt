@@ -1,0 +1,253 @@
+PROJECT 2026-10-14 20:50
+
+S#1 환영 시퀀스 – 몽타주 (애니매이션)
+바닷속 도시. 유리와 빛으로 된 건축.
+그 속에서 유영하는 또 다른 인류.
+빛은 교회나 성당에 있는 스테인드글라스처럼 색색으로 일렁인다.
+윤호, 숨소리가 잦아들며 두려움이 경이로움으로 바뀐다.
+바닷속 도시를 헤엄치면서 그의 눈동자에 환영이 비친다.
+윤호의 눈에서 화면이 왜곡되며 흰색 플래시.
+
+S#2 윤호 방 (밤 / 안)
+윤호는 똑같은 물고기 인간을 쳐다본다.
+그 물고기 인간은 이제는 윤호의 이마에 손을 대려고 한다.
+환상을 이미 경험한 윤호는 눈을 감으며 모든 것을 맡긴다.
+화면이 왜곡되며 블루 플래시.
+
+PANELS
+[
+  {
+    "shot_name": "Yunho entering the submerged city",
+    "beat": 1,
+    "zone": "Glass Avenue",
+    "shot_size": "extreme wide",
+    "angle": "high three-quarter",
+    "camera_move": "slow dolly forward",
+    "subjects_present": [
+      "Yunho",
+      "Undersea swimmers"
+    ],
+    "subject_states": [],
+    "backdrop": "Transparent towers and ribbed buttresses flank the glass avenue; dark open water fills the upper frame, and the entrance to Prismatic Court stands in the distance.",
+    "action": "Yunho swims toward frame right with rigid shoulders and arms held close; farther along the avenue, the three swimmers glide freely between the buildings.",
+    "emotion": "Overwhelming unfamiliarity.",
+    "transition": "Hard cut closer to the swimmers.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Undersea swimmers revealing their humanlike ease",
+    "beat": 1,
+    "zone": "Glass Avenue",
+    "shot_size": "medium",
+    "angle": "eye level",
+    "camera_move": "tracking right",
+    "subjects_present": [
+      "Undersea swimmers"
+    ],
+    "subject_states": [],
+    "backdrop": "A transparent building wall and its narrow vertical ribs carry soft bands of colored light.",
+    "action": "The trio moves toward frame right; the shortest swimmer turns toward the tallest and reaches out a relaxed hand while their calf fins stream behind them.",
+    "emotion": "Recognition of an unfamiliar humanity.",
+    "transition": "Hard cut along the same left-to-right travel direction.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Fish-human welcoming Yunho into the court",
+    "beat": 2,
+    "zone": "Prismatic Court",
+    "shot_size": "wide",
+    "angle": "eye level",
+    "camera_move": "slow tracking right",
+    "subjects_present": [
+      "Yunho",
+      "Fish-human"
+    ],
+    "subject_states": [],
+    "backdrop": "The entrance arch and a visible stretch of Glass Avenue occupy the left background; glass columns and luminous vertical panels fill the court behind the fish-human.",
+    "action": "Yunho passes through the entrance at frame left toward the fish-human at frame right, who floats upright with open hands and relaxed shoulders.",
+    "emotion": "Cautious reassurance.",
+    "transition": "Hard cut to Yunho’s reaction.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "Yunho releasing his fear",
+    "beat": 2,
+    "zone": "Prismatic Court",
+    "shot_size": "close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [],
+    "backdrop": "Soft, out-of-focus bands of light from a translucent court panel.",
+    "action": "Yunho’s raised shoulders settle, his brow loosens, and a sparse thread of bubbles escapes his slightly parted lips.",
+    "emotion": "Relief becoming curiosity.",
+    "transition": "Hard cut to his forward movement.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Yunho swimming through the colored light",
+    "beat": 3,
+    "zone": "Prismatic Court",
+    "shot_size": "wide",
+    "angle": "low",
+    "camera_move": "tracking right",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [],
+    "backdrop": "Tall glass columns rise toward open dark water; pointed arch frames overlap above the luminous vertical panels.",
+    "action": "Yunho glides toward frame right with his arms opening loosely, his face lifted into overlapping patches of jewel-colored light.",
+    "emotion": "Expansive wonder.",
+    "transition": "Hard cut to the light reflected in his eye.",
+    "atmosphere": null,
+    "duration_seconds": 5
+  },
+  {
+    "shot_name": "Yunho holding the city in his eye",
+    "beat": 3,
+    "zone": "Prismatic Court",
+    "shot_size": "extreme close-up",
+    "angle": "eye level",
+    "camera_move": "slow dolly in",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [],
+    "backdrop": null,
+    "action": "Yunho’s open eye fills the image; sharply reflected glass arches and colored panels curve across its moist surface around the dark pupil.",
+    "emotion": "Intimate, absorbed wonder.",
+    "transition": "Graphic match cut on the pupil.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Yunho’s reflected city buckling",
+    "beat": 4,
+    "zone": "Prismatic Court",
+    "shot_size": "extreme close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho"
+    ],
+    "subject_states": [
+      {
+        "subject": "Yunho",
+        "state": "His visible eye and the surrounding skin are optically stretched into concentric ripples; this is image distortion, not physical injury."
+      }
+    ],
+    "backdrop": null,
+    "action": "The reflected arches bend inward around Yunho’s pupil as bright white light spreads across the distorted iris.",
+    "emotion": "Wonder tipping into instability.",
+    "transition": "Flash cut to full white.",
+    "atmosphere": "The eye reflection brightens rapidly toward a white flash.",
+    "duration_seconds": 2
+  },
+  {
+    "shot_name": "White flash erasing the vision",
+    "beat": 4,
+    "zone": "Prismatic Court",
+    "shot_size": "insert",
+    "angle": "frontal",
+    "camera_move": "static",
+    "subjects_present": [],
+    "subject_states": [],
+    "backdrop": null,
+    "action": "Featureless white light fills the entire image.",
+    "emotion": "A momentary loss of orientation.",
+    "transition": "Hard cut from white to the dim bedroom.",
+    "atmosphere": "Full-frame white flash; no environmental detail remains visible.",
+    "duration_seconds": 1
+  },
+  {
+    "shot_name": "Yunho recognizing the fish-human beside his bed",
+    "beat": 5,
+    "zone": "Yunho's Bedroom",
+    "shot_size": "medium",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Fish-human"
+    ],
+    "subject_states": [],
+    "backdrop": "The low wooden headboard and pale plaster wall stand behind Yunho; the curtained window occupies the background behind the fish-human.",
+    "action": "Yunho sits upright at frame left beneath the blanket and looks steadily at the fish-human standing at frame right; the creature’s pale eye crescent and massive forearms are clearly visible.",
+    "emotion": "Recognition without the earlier panic.",
+    "transition": "Hard cut to the approaching hand, preserving Yunho left and the fish-human right.",
+    "atmosphere": null,
+    "duration_seconds": 4
+  },
+  {
+    "shot_name": "Fish-human reaching toward Yunho’s forehead",
+    "beat": 5,
+    "zone": "Yunho's Bedroom",
+    "shot_size": "close-up",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Fish-human"
+    ],
+    "subject_states": [],
+    "backdrop": "A softly blurred patch of the pale plaster wall.",
+    "action": "Yunho’s attentive face occupies frame left as the fish-human’s oversized webbed hand enters from frame right, its fingertips stopping just short of his forehead.",
+    "emotion": "Vulnerability held in suspense.",
+    "transition": "Hard cut slightly wider without crossing the eyeline.",
+    "atmosphere": null,
+    "duration_seconds": 3
+  },
+  {
+    "shot_name": "Yunho closing his eyes beneath the waiting hand",
+    "beat": 6,
+    "zone": "Yunho's Bedroom",
+    "shot_size": "medium close-up",
+    "angle": "eye level",
+    "camera_move": "slow dolly in",
+    "subjects_present": [
+      "Yunho",
+      "Fish-human"
+    ],
+    "subject_states": [],
+    "backdrop": "The wooden headboard and plain plaster wall frame Yunho’s head and shoulders.",
+    "action": "Yunho closes his eyes and relaxes his jaw, inclining his forehead slightly toward the fish-human’s fingers; the hand remains a finger-width from his skin.",
+    "emotion": "Deliberate surrender and trust.",
+    "transition": "Hard cut wider as the blue flare begins.",
+    "atmosphere": null,
+    "duration_seconds": 3.5
+  },
+  {
+    "shot_name": "Yunho and the fish-human dissolving into blue light",
+    "beat": 6,
+    "zone": "Yunho's Bedroom",
+    "shot_size": "wide",
+    "angle": "eye level",
+    "camera_move": "static",
+    "subjects_present": [
+      "Yunho",
+      "Fish-human"
+    ],
+    "subject_states": [
+      {
+        "subject": "Yunho",
+        "state": "His closed-eyed silhouette is optically stretched and doubled by the distortion, with pale blue light washing out its detail."
+      },
+      {
+        "subject": "Fish-human",
+        "state": "Its body and hovering hand have optically stretched, doubled contours under the blue flare."
+      }
+    ],
+    "backdrop": "The bed, headboard, curtained window, and plaster wall remain visible as bowed, blue-washed shapes.",
+    "action": "Yunho sits with his eyes closed beneath the fish-human’s hovering hand while the room’s straight edges bend outward and saturated blue light floods the image.",
+    "emotion": "Trust passing into an unknown experience.",
+    "transition": "The blue flash expands to fill the frame and holds briefly, ending the sequence.",
+    "atmosphere": "An intense blue flash overwhelms the bedroom’s dim window light.",
+    "duration_seconds": 2.5
+  }
+]

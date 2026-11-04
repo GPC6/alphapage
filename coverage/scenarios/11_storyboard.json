@@ -1,0 +1,452 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "1. 화창한 오후에 한 남자가 홀로 걷도 있다. \n2. 그의 눈으로 보는 시점으로 앞쪽에 엄청난 사람들 500명쯤이 이쪽으로 달려오고 있다.\n3. 화들짝 놀라서 뒤를 돌아 도망간다. 이때 시점은 멀어지면서 3인칭 시점으로 수백명의 사람들 뒤로 거대 공룡이 쫒아오고 있다.\n4. 남자의 주머니 클로즈업. 거기에 고양이 츄르가 있다. \n5. 남자가 당당히 서서 츄르를 들고 공룡과 맞선다.\n6. 공룡에게 한입에 잡아 먹히면서 끝.",
+	"draft_prompt": "1. 화창한 오후에 한 남자가 홀로 걷도 있다. \n2. 그의 눈으로 보는 시점으로 앞쪽에 엄청난 사람들 500명쯤이 이쪽으로 달려오고 있다.\n3. 화들짝 놀라서 뒤를 돌아 도망간다. 이때 시점은 멀어지면서 3인칭 시점으로 수백명의 사람들 뒤로 거대 공룡이 쫒아오고 있다.\n4. 남자의 주머니 클로즈업. 거기에 고양이 츄르가 있다. \n5. 남자가 당당히 서서 츄르를 들고 공룡과 맞선다.\n6. 공룡에게 한입에 잡아 먹히면서 끝.",
+	"request":
+	{
+		"cut_count": 6,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 6,
+		"duration_seconds": 16
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.",
+			"location_type": "A wide pedestrian boulevard connected to an urban plaza, outdoors.",
+			"zones": [
+				{
+					"name": "보행대로",
+					"description": "A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.",
+					"connects_to": [
+						"북쪽 광장"
+					]
+				},
+				{
+					"name": "북쪽 광장",
+					"description": "A broad rectangular stone-paved area, with low-rise concrete buildings and glass entrances around its edges, and long stone benches attached to the walls. The southern edge connects to the pedestrian boulevard without any change in level.",
+					"connects_to": [
+						"보행대로"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "3 p.m.",
+				"weather": "Clear weather with almost no clouds",
+				"lighting": "Bright direct sunlight and sharply defined shadows falling on the ground"
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A man walking alone on a sunny afternoon flees an approaching crowd and the giant dinosaur behind them, then boldly confronts the dinosaur to soothe it with a cat treat from his pocket, only to be eaten in one bite.",
+			"beats": [
+				{
+					"summary": "The man walks alone along an empty pedestrian boulevard, showing a peaceful everyday routine.",
+					"emotion": "Peace"
+				},
+				{
+					"summary": "From the man's point of view, a crowd of approximately 500 people is revealed running toward him.",
+					"emotion": "Bewilderment"
+				},
+				{
+					"summary": "The man turns and runs away, and a retreating viewpoint reveals a giant dinosaur chasing the crowd.",
+					"emotion": "Fear"
+				},
+				{
+					"summary": "A cat treat stick in the man's pocket is revealed, suggesting an unexpected means of responding.",
+					"emotion": "Absurd hope"
+				},
+				{
+					"summary": "The man stops fleeing and boldly faces the dinosaur, holding out the treat stick.",
+					"emotion": "Comical confidence"
+				},
+				{
+					"summary": "The dinosaur eats the man, treat and all, in one bite.",
+					"emotion": "Shock and black comedy"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "남자",
+				"kind": "Adult male",
+				"appearance": "Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim.",
+				"signature_features": [
+					"Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket."
+				]
+			},
+			{
+				"name": "피난 군중",
+				"kind": "A group of approximately 500 adults",
+				"appearance": "Various heights and body types, wearing modern everyday clothing in a mixture of light through dark grays, densely gathered without bags or large belongings.",
+				"signature_features": [
+					"The broad, dense mass formed by hundreds of people and the irregularly overlapping silhouettes of heads and shoulders maintain an overwhelming scale from any direction."
+				]
+			},
+			{
+				"name": "거대 공룡",
+				"kind": "Giant carnivorous dinosaur",
+				"appearance": "Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail.",
+				"signature_features": [
+					"Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail."
+				]
+			},
+			{
+				"name": "고양이 간식 스틱",
+				"kind": "Small package of squeezable cat treat",
+				"appearance": "A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends.",
+				"signature_features": [
+					"Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front."
+				]
+			}
+		],
+		"run_id": "storyboard_20261014_052643_76562b30"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "남자가 홀로 보행대로를 걷는다",
+				"beat": 1,
+				"zone": "보행대로",
+				"shot_size": "wide",
+				"angle": "eye level, profile view of the man",
+				"camera_move": "tracking, moving slowly north alongside the man",
+				"subjects_present": [
+					"남자"
+				],
+				"subject_states": [],
+				"backdrop": "A low stone wall, regularly spaced street trees, and bright stone paving are visible behind the man. The plaza is outside the frame.",
+				"action": "The man walks north with a leisurely stride. Both hands hang comfortably at his sides, and no other people are visible around him.",
+				"emotion": "A sense of reassurance in a peaceful everyday routine",
+				"transition": "hard cut to a subjective viewpoint looking in the direction the man is heading",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: A low stone wall, regularly spaced street trees, and bright stone paving are visible behind the man. The plaza is outside the frame.\nShot size: wide\nCamera angle: eye level, profile view of the man\nCamera move: tracking, moving slowly north alongside the man\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\nAction: The man walks north with a leisurely stride. Both hands hang comfortably at his sides, and no other people are visible around him.\nMood: A sense of reassurance in a peaceful everyday routine",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: A low stone wall, regularly spaced street trees, and bright stone paving are visible behind the man. The plaza is outside the frame.\nShot size: wide\nCamera angle: eye level, profile view of the man\nCamera move: tracking, moving slowly north alongside the man\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\nAction: The man walks north with a leisurely stride. Both hands hang comfortably at his sides, and no other people are visible around him.\nMood: A sense of reassurance in a peaceful everyday routine",
+					"spec":
+					{
+						"shot_name": "남자가 홀로 보행대로를 걷는다",
+						"beat": 1,
+						"zone": "보행대로",
+						"shot_size": "wide",
+						"angle": "eye level, profile view of the man",
+						"camera_move": "tracking, moving slowly north alongside the man",
+						"subjects_present": [
+							"남자"
+						],
+						"subject_states": [],
+						"backdrop": "A low stone wall, regularly spaced street trees, and bright stone paving are visible behind the man. The plaza is outside the frame.",
+						"action": "The man walks north with a leisurely stride. Both hands hang comfortably at his sides, and no other people are visible around him.",
+						"emotion": "A sense of reassurance in a peaceful everyday routine",
+						"transition": "hard cut to a subjective viewpoint looking in the direction the man is heading",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "피난 군중이 남자를 향해 몰려온다",
+				"beat": 2,
+				"zone": "보행대로",
+				"shot_size": "wide",
+				"angle": "eye level, subjective viewpoint looking north from the man's eye height",
+				"camera_move": "static",
+				"subjects_present": [
+					"피난 군중"
+				],
+				"subject_states": [],
+				"backdrop": "The connected stone paving of the pedestrian boulevard and northern plaza is visible between the crowd's legs. People's heads fill the frame up to its upper edge, so the area behind the crowd and the space above their heads are not visible.",
+				"action": "Approximately 500 people pour from the plaza into the pedestrian boulevard and run straight toward the camera. People in the front row swing their arms widely with frightened expressions.",
+				"emotion": "An inexplicable threat and bewilderment",
+				"transition": "hard cut to a third-person viewpoint capturing the man's flight",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: The connected stone paving of the pedestrian boulevard and northern plaza is visible between the crowd's legs. People's heads fill the frame up to its upper edge, so the area behind the crowd and the space above their heads are not visible.\nShot size: wide\nCamera angle: eye level, subjective viewpoint looking north from the man's eye height\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 피난 군중 (A group of approximately 500 adults): Various heights and body types, wearing modern everyday clothing in a mixture of light through dark grays, densely gathered without bags or large belongings. Signature, drawn only where this angle exposes it: The broad, dense mass formed by hundreds of people and the irregularly overlapping silhouettes of heads and shoulders maintain an overwhelming scale from any direction.\nAction: Approximately 500 people pour from the plaza into the pedestrian boulevard and run straight toward the camera. People in the front row swing their arms widely with frightened expressions.\nMood: An inexplicable threat and bewilderment",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: The connected stone paving of the pedestrian boulevard and northern plaza is visible between the crowd's legs. People's heads fill the frame up to its upper edge, so the area behind the crowd and the space above their heads are not visible.\nShot size: wide\nCamera angle: eye level, subjective viewpoint looking north from the man's eye height\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 피난 군중 (A group of approximately 500 adults): Various heights and body types, wearing modern everyday clothing in a mixture of light through dark grays, densely gathered without bags or large belongings. Signature, drawn only where this angle exposes it: The broad, dense mass formed by hundreds of people and the irregularly overlapping silhouettes of heads and shoulders maintain an overwhelming scale from any direction.\nAction: Approximately 500 people pour from the plaza into the pedestrian boulevard and run straight toward the camera. People in the front row swing their arms widely with frightened expressions.\nMood: An inexplicable threat and bewilderment",
+					"spec":
+					{
+						"shot_name": "피난 군중이 남자를 향해 몰려온다",
+						"beat": 2,
+						"zone": "보행대로",
+						"shot_size": "wide",
+						"angle": "eye level, subjective viewpoint looking north from the man's eye height",
+						"camera_move": "static",
+						"subjects_present": [
+							"피난 군중"
+						],
+						"subject_states": [],
+						"backdrop": "The connected stone paving of the pedestrian boulevard and northern plaza is visible between the crowd's legs. People's heads fill the frame up to its upper edge, so the area behind the crowd and the space above their heads are not visible.",
+						"action": "Approximately 500 people pour from the plaza into the pedestrian boulevard and run straight toward the camera. People in the front row swing their arms widely with frightened expressions.",
+						"emotion": "An inexplicable threat and bewilderment",
+						"transition": "hard cut to a third-person viewpoint capturing the man's flight",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "남자가 도망치고 거대 공룡이 군중 뒤를 쫓는다",
+				"beat": 3,
+				"zone": "보행대로",
+				"shot_size": "extreme wide",
+				"angle": "high, third-person viewpoint looking down toward the north from the south",
+				"camera_move": "dolly, moving backward approximately 8 meters toward the south while maintaining a constant height",
+				"subjects_present": [
+					"남자",
+					"피난 군중",
+					"거대 공룡"
+				],
+				"subject_states": [],
+				"backdrop": "The stone paving of the broad pedestrian boulevard, the stone walls, street trees, and storefronts on either side, the buildings at the edges of the northern plaza, and the clear sky are visible.",
+				"action": "Startled, the man turns south and runs. The crowd runs past on both sides of him, while behind them the giant dinosaur crosses the southern end of the plaza and enters the pedestrian boulevard. The pulled-back composition reveals the pursuit relationship among the man, the crowd, and the dinosaur all at once.",
+				"emotion": "Overwhelming fear as the nature of the threat is revealed",
+				"transition": "hard cut to the man's jacket pocket",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: The stone paving of the broad pedestrian boulevard, the stone walls, street trees, and storefronts on either side, the buildings at the edges of the northern plaza, and the clear sky are visible.\nShot size: extreme wide\nCamera angle: high, third-person viewpoint looking down toward the north from the south\nCamera move: dolly, moving backward approximately 8 meters toward the south while maintaining a constant height\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 피난 군중 (A group of approximately 500 adults): Various heights and body types, wearing modern everyday clothing in a mixture of light through dark grays, densely gathered without bags or large belongings. Signature, drawn only where this angle exposes it: The broad, dense mass formed by hundreds of people and the irregularly overlapping silhouettes of heads and shoulders maintain an overwhelming scale from any direction.\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\nAction: Startled, the man turns south and runs. The crowd runs past on both sides of him, while behind them the giant dinosaur crosses the southern end of the plaza and enters the pedestrian boulevard. The pulled-back composition reveals the pursuit relationship among the man, the crowd, and the dinosaur all at once.\nMood: Overwhelming fear as the nature of the threat is revealed",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: The stone paving of the broad pedestrian boulevard, the stone walls, street trees, and storefronts on either side, the buildings at the edges of the northern plaza, and the clear sky are visible.\nShot size: extreme wide\nCamera angle: high, third-person viewpoint looking down toward the north from the south\nCamera move: dolly, moving backward approximately 8 meters toward the south while maintaining a constant height\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 피난 군중 (A group of approximately 500 adults): Various heights and body types, wearing modern everyday clothing in a mixture of light through dark grays, densely gathered without bags or large belongings. Signature, drawn only where this angle exposes it: The broad, dense mass formed by hundreds of people and the irregularly overlapping silhouettes of heads and shoulders maintain an overwhelming scale from any direction.\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\nAction: Startled, the man turns south and runs. The crowd runs past on both sides of him, while behind them the giant dinosaur crosses the southern end of the plaza and enters the pedestrian boulevard. The pulled-back composition reveals the pursuit relationship among the man, the crowd, and the dinosaur all at once.\nMood: Overwhelming fear as the nature of the threat is revealed",
+					"spec":
+					{
+						"shot_name": "남자가 도망치고 거대 공룡이 군중 뒤를 쫓는다",
+						"beat": 3,
+						"zone": "보행대로",
+						"shot_size": "extreme wide",
+						"angle": "high, third-person viewpoint looking down toward the north from the south",
+						"camera_move": "dolly, moving backward approximately 8 meters toward the south while maintaining a constant height",
+						"subjects_present": [
+							"남자",
+							"피난 군중",
+							"거대 공룡"
+						],
+						"subject_states": [],
+						"backdrop": "The stone paving of the broad pedestrian boulevard, the stone walls, street trees, and storefronts on either side, the buildings at the edges of the northern plaza, and the clear sky are visible.",
+						"action": "Startled, the man turns south and runs. The crowd runs past on both sides of him, while behind them the giant dinosaur crosses the southern end of the plaza and enters the pedestrian boulevard. The pulled-back composition reveals the pursuit relationship among the man, the crowd, and the dinosaur all at once.",
+						"emotion": "Overwhelming fear as the nature of the threat is revealed",
+						"transition": "hard cut to the man's jacket pocket",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "남자의 주머니에서 고양이 간식 스틱이 드러난다",
+				"beat": 4,
+				"zone": "보행대로",
+				"shot_size": "insert",
+				"angle": "high, looking obliquely down at the jacket's right pocket",
+				"camera_move": "static",
+				"subjects_present": [
+					"남자",
+					"고양이 간식 스틱"
+				],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "The man's fingers spread open the pocket entrance. Inside, the treat stick's light horizontal bands and drawing of a cat's face are clearly revealed.",
+				"emotion": "Absurd hope created by an object incongruous with the situation of fleeing",
+				"transition": "match cut carrying over the stick's vertical orientation",
+				"atmosphere": null,
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nShot size: insert\nCamera angle: high, looking obliquely down at the jacket's right pocket\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front.\nAction: The man's fingers spread open the pocket entrance. Inside, the treat stick's light horizontal bands and drawing of a cat's face are clearly revealed.\nMood: Absurd hope created by an object incongruous with the situation of fleeing",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nShot size: insert\nCamera angle: high, looking obliquely down at the jacket's right pocket\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front.\nAction: The man's fingers spread open the pocket entrance. Inside, the treat stick's light horizontal bands and drawing of a cat's face are clearly revealed.\nMood: Absurd hope created by an object incongruous with the situation of fleeing",
+					"spec":
+					{
+						"shot_name": "남자의 주머니에서 고양이 간식 스틱이 드러난다",
+						"beat": 4,
+						"zone": "보행대로",
+						"shot_size": "insert",
+						"angle": "high, looking obliquely down at the jacket's right pocket",
+						"camera_move": "static",
+						"subjects_present": [
+							"남자",
+							"고양이 간식 스틱"
+						],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "The man's fingers spread open the pocket entrance. Inside, the treat stick's light horizontal bands and drawing of a cat's face are clearly revealed.",
+						"emotion": "Absurd hope created by an object incongruous with the situation of fleeing",
+						"transition": "match cut carrying over the stick's vertical orientation",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "남자가 고양이 간식 스틱을 내밀며 공룡과 맞선다",
+				"beat": 5,
+				"zone": "보행대로",
+				"shot_size": "wide",
+				"angle": "low, side view of the man and dinosaur facing each other",
+				"camera_move": "static",
+				"subjects_present": [
+					"남자",
+					"거대 공룡",
+					"고양이 간식 스틱"
+				],
+				"subject_states": [
+					{
+						"subject": "고양이 간식 스틱",
+						"state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+					}
+				],
+				"backdrop": "A low stone wall, street trees, stone paving, and clear sky are visible. The crowd is not in the frame.",
+				"action": "On the left side of the frame, the man stands with his feet apart and chest out, holding the treat stick high toward the dinosaur to the north. On the right side of the frame, the dinosaur lowers its head and brings it close to the man, contrasting its enormous snout with the man's small physique.",
+				"emotion": "Amusement at preposterous confidence and a foreboding sense of what is to come",
+				"transition": "hard cut to the dinosaur's mouth",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: A low stone wall, street trees, stone paving, and clear sky are visible. The crowd is not in the frame.\nShot size: wide\nCamera angle: low, side view of the man and dinosaur facing each other\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front. Current state in this cut: The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening.\nAction: On the left side of the frame, the man stands with his feet apart and chest out, holding the treat stick high toward the dinosaur to the north. On the right side of the frame, the dinosaur lowers its head and brings it close to the man, contrasting its enormous snout with the man's small physique.\nMood: Amusement at preposterous confidence and a foreboding sense of what is to come",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: A low stone wall, street trees, stone paving, and clear sky are visible. The crowd is not in the frame.\nShot size: wide\nCamera angle: low, side view of the man and dinosaur facing each other\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front. Current state in this cut: The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening.\nAction: On the left side of the frame, the man stands with his feet apart and chest out, holding the treat stick high toward the dinosaur to the north. On the right side of the frame, the dinosaur lowers its head and brings it close to the man, contrasting its enormous snout with the man's small physique.\nMood: Amusement at preposterous confidence and a foreboding sense of what is to come",
+					"spec":
+					{
+						"shot_name": "남자가 고양이 간식 스틱을 내밀며 공룡과 맞선다",
+						"beat": 5,
+						"zone": "보행대로",
+						"shot_size": "wide",
+						"angle": "low, side view of the man and dinosaur facing each other",
+						"camera_move": "static",
+						"subjects_present": [
+							"남자",
+							"거대 공룡",
+							"고양이 간식 스틱"
+						],
+						"subject_states": [
+							{
+								"subject": "고양이 간식 스틱",
+								"state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+							}
+						],
+						"backdrop": "A low stone wall, street trees, stone paving, and clear sky are visible. The crowd is not in the frame.",
+						"action": "On the left side of the frame, the man stands with his feet apart and chest out, holding the treat stick high toward the dinosaur to the north. On the right side of the frame, the dinosaur lowers its head and brings it close to the man, contrasting its enormous snout with the man's small physique.",
+						"emotion": "Amusement at preposterous confidence and a foreboding sense of what is to come",
+						"transition": "hard cut to the dinosaur's mouth",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "거대 공룡이 남자를 간식째 한입에 먹는다",
+				"beat": 6,
+				"zone": "보행대로",
+				"shot_size": "close-up, relative to the giant dinosaur's head",
+				"angle": "low, side view of the dinosaur's snout",
+				"camera_move": "static",
+				"subjects_present": [
+					"거대 공룡",
+					"남자",
+					"고양이 간식 스틱"
+				],
+				"subject_states": [
+					{
+						"subject": "고양이 간식 스틱",
+						"state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+					}
+				],
+				"backdrop": "Only clear sky above the dinosaur's head and around its snout is visible.",
+				"action": "The dinosaur puts the man whole into its mouth and closes its jaws. In the representative frame, the man's entire body and raised treat stick are together inside the dark mouth between the closing jaws, with no part of his body remaining outside. The silhouettes of his large hat and slender limbs are identifiable, but no blood or bodily injury is visible.",
+				"emotion": "The shock of an anticlimactic reversal and black comedy",
+				"transition": "hard cut to black at the moment the jaws close, ending the sequence",
+				"atmosphere": null,
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: Only clear sky above the dinosaur's head and around its snout is visible.\nShot size: close-up, relative to the giant dinosaur's head\nCamera angle: low, side view of the dinosaur's snout\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front. Current state in this cut: The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening.\nAction: The dinosaur puts the man whole into its mouth and closes its jaws. In the representative frame, the man's entire body and raised treat stick are together inside the dark mouth between the closing jaws, with no part of his body remaining outside. The silhouettes of his large hat and slender limbs are identifiable, but no blood or bodily injury is visible.\nMood: The shock of an anticlimactic reversal and black comedy",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A predominantly light-gray space of low-rise glass-and-concrete buildings in a modern city, bright stone paving, and medium-gray metal details, sharing clear skies and crisp afternoon sunlight.\nLocation: A wide pedestrian boulevard connected to an urban plaza, outdoors.\nAtmosphere: 3 p.m., Clear weather with almost no clouds, Bright direct sunlight and sharply defined shadows falling on the ground\nThis cut happens at 보행대로: A straight, flat expanse of bright stone paving approximately 30 meters wide, with a waist-high stone wall and regularly spaced street trees along the western edge, and low-rise glass storefronts and slender metal streetlights along the eastern edge. The northern end opens unobstructed into the plaza.\nBackdrop, behind the action: Only clear sky above the dinosaur's head and around its snout is visible.\nShot size: close-up, relative to the giant dinosaur's head\nCamera angle: low, side view of the dinosaur's snout\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 거대 공룡 (Giant carnivorous dinosaur): Approximately 12 meters tall, with rough dark medium-gray skin, an enormous head and thick torso, stout hind legs, very short forelegs, and a long, thick tail. Signature, drawn only where this angle exposes it: Its unusually large rounded head relative to its body and its massive build are identifiable from any direction, with low, rounded bumps running along the upper line of its back and tail.\n- 남자 (Adult male): Tall and slim, wearing a waist-length light-gray jacket, slim dark-gray trousers, medium-gray sneakers, and a dark bucket hat with a wide brim. Signature, drawn only where this angle exposes it: Long, slender limbs and a hat silhouette that spreads widely relative to his body are distinguishable from any direction, and there is a large flapless pocket on the lower right side of his jacket.\n- 고양이 간식 스틱 (Small package of squeezable cat treat): A flat medium-gray package longer than a palm, with two light horizontal bands and broad sealed borders at both ends. Signature, drawn only where this angle exposes it: Its long, narrow stick proportions and widened silhouettes at both ends are distinctive, and a simple drawing of a cat's face appears on the front. Current state in this cut: The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening.\nAction: The dinosaur puts the man whole into its mouth and closes its jaws. In the representative frame, the man's entire body and raised treat stick are together inside the dark mouth between the closing jaws, with no part of his body remaining outside. The silhouettes of his large hat and slender limbs are identifiable, but no blood or bodily injury is visible.\nMood: The shock of an anticlimactic reversal and black comedy",
+					"spec":
+					{
+						"shot_name": "거대 공룡이 남자를 간식째 한입에 먹는다",
+						"beat": 6,
+						"zone": "보행대로",
+						"shot_size": "close-up, relative to the giant dinosaur's head",
+						"angle": "low, side view of the dinosaur's snout",
+						"camera_move": "static",
+						"subjects_present": [
+							"거대 공룡",
+							"남자",
+							"고양이 간식 스틱"
+						],
+						"subject_states": [
+							{
+								"subject": "고양이 간식 스틱",
+								"state": "The upper sealed end has been torn open, and a small amount of light-colored treat has gathered at the opening."
+							}
+						],
+						"backdrop": "Only clear sky above the dinosaur's head and around its snout is visible.",
+						"action": "The dinosaur puts the man whole into its mouth and closes its jaws. In the representative frame, the man's entire body and raised treat stick are together inside the dark mouth between the closing jaws, with no part of his body remaining outside. The silhouettes of his large hat and slender limbs are identifiable, but no blood or bodily injury is visible.",
+						"emotion": "The shock of an anticlimactic reversal and black comedy",
+						"transition": "hard cut to black at the moment the jaws close, ending the sequence",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,546 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "1. 한 남자가 길을 걷다가 바닥에 개미를 발견하고 발로 밟는다. 그러자 개미가 거대하게 커지면서 남자가 뒤로 넘어진다.\n2. 개미가 커지면서 남자가 엄청 작아졌다. 남자는 하늘을 바라보니 사람들이 거인과도 같이 걸어다니는게 보인다.\n3. 남자에게 바퀴벌레 한마리가 쫒아오고 남자는 미친듯이 도망친다.\n4. 도망치다가 길을 건너는데 자동차들이 아슬아슬 밟힐듯이 지나가는것을 겨우 통과한다.\n5. 그때 바람에 날려 붕 날아가다가 벌위에 앉는다. 벌의 등에타고 도시를 날아다니는 장면은 1인칭 시점으로 도시 여행.\n6. 그러다가 벌집에 들어가서 꿀먹고 맛이 좋다는 표정을 지으면서 끝.",
+	"draft_prompt": "1. 한 남자가 길을 걷다가 바닥에 개미를 발견하고 발로 밟는다. 그러자 개미가 거대하게 커지면서 남자가 뒤로 넘어진다.\n2. 개미가 커지면서 남자가 엄청 작아졌다. 남자는 하늘을 바라보니 사람들이 거인과도 같이 걸어다니는게 보인다.\n3. 남자에게 바퀴벌레 한마리가 쫒아오고 남자는 미친듯이 도망친다.\n4. 도망치다가 길을 건너는데 자동차들이 아슬아슬 밟힐듯이 지나가는것을 겨우 통과한다.\n5. 그때 바람에 날려 붕 날아가다가 벌위에 앉는다. 벌의 등에타고 도시를 날아다니는 장면은 1인칭 시점으로 도시 여행.\n6. 그러다가 벌집에 들어가서 꿀먹고 맛이 좋다는 표정을 지으면서 끝.",
+	"request":
+	{
+		"cut_count": 6,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 6,
+		"duration_seconds": 25.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.",
+			"location_type": "An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.",
+			"zones": [
+				{
+					"name": "Paving Strip",
+					"description": "Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames",
+					"connects_to": [
+						"Tire Crossing"
+					]
+				},
+				{
+					"name": "Tire Crossing",
+					"description": "Charcoal road pavement, worn pale crossing stripes, loose grit, the sidewalk curb at the departure edge, the opposite curb, and the brick building fronts bordering the road",
+					"connects_to": [
+						"Paving Strip",
+						"Rooftop Approach"
+					]
+				},
+				{
+					"name": "Rooftop Approach",
+					"description": "Open air above the crossing, the crossing itself visible below, rows of brick facades, projecting window ledges, flat roofs, metal vents, distant taller buildings, clear sky, and a nearby brick parapet containing a narrow dark hive entrance",
+					"connects_to": [
+						"Tire Crossing",
+						"Wax Chamber"
+					]
+				},
+				{
+					"name": "Wax Chamber",
+					"description": "A sheltered cavity immediately behind the parapet entrance, rough brick walls, overlapping sheets of wax comb, open honey-filled cells, a small horizontal comb ledge, and a narrow entrance slit admitting daylight",
+					"connects_to": [
+						"Rooftop Approach"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late morning",
+				"weather": "clear, dry weather with a light breeze",
+				"lighting": "hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "After a careless man stamps on an ant, the ant swells and he shrinks, forcing him through a terrifying insect chase and lethal traffic before a windborne escape on a bee leads to an unexpectedly delicious refuge.",
+			"beats": [
+				{
+					"summary": "The man's stamp triggers the ant's explosive enlargement and his own shrinking, throwing him backward",
+					"emotion": "shock"
+				},
+				{
+					"summary": "His shrinking finishes, and ordinary pedestrians now tower above him like giants",
+					"emotion": "helpless awe"
+				},
+				{
+					"summary": "A cockroach pursues him, turning bewilderment into desperate flight",
+					"emotion": "panic"
+				},
+				{
+					"summary": "He escapes across the road through narrowly separated moving tires",
+					"emotion": "breathless suspense"
+				},
+				{
+					"summary": "A gust delivers him onto a flying bee, turning the city into a first-person aerial journey",
+					"emotion": "exhilaration"
+				},
+				{
+					"summary": "Inside the bee's hive, he tastes honey and discovers that his strange refuge is pleasurable",
+					"emotion": "delighted relief"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Man",
+				"kind": "Adult man",
+				"appearance": "slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers",
+				"signature_features": [
+					"a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle."
+				]
+			},
+			{
+				"name": "Ant",
+				"kind": "Ant",
+				"appearance": "tiny dark insect with a three-part body, narrow waist, six long angular legs, and paired antennae",
+				"signature_features": [
+					"sharply pinched waist and disproportionately long, widely spread legs."
+				]
+			},
+			{
+				"name": "Pedestrians",
+				"kind": "Two adult pedestrians",
+				"appearance": "one tall and slender in a charcoal knee-length coat carrying an open pale sun umbrella; one shorter and broad-bodied in a light-gray jacket and dark trousers",
+				"signature_features": [
+					"contrasting tall-narrow and short-broad silhouettes, with the umbrella's broad circular outline visible from above or below."
+				]
+			},
+			{
+				"name": "Cockroach",
+				"kind": "Cockroach",
+				"appearance": "approximately four centimeters long, nearly black flattened oval body, six spiny legs, and exceptionally long antennae",
+				"signature_features": [
+					"broad low body with antennae extending farther forward than its body length."
+				]
+			},
+			{
+				"name": "Cars",
+				"kind": "Two passenger cars",
+				"appearance": "one pale-gray and one charcoal, both long, low-bodied sedans with rounded roofs, broad wheel spacing, and dark tires",
+				"signature_features": [
+					"low elongated proportions and strongly contrasting body values remain recognizable from side, rear, or above."
+				]
+			},
+			{
+				"name": "Bee",
+				"kind": "Honeybee",
+				"appearance": "approximately eighteen millimeters long, thick pale-gray thoracic fur, a dark-and-light banded abdomen, six dark legs, and long translucent wings",
+				"signature_features": [
+					"bulky furry thorax, tapered banded abdomen, and wings projecting beyond the body's width."
+				]
+			}
+		],
+		"run_id": "storyboard_20261014_032556_6a0398c0"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Man stamping Ant and toppling backward",
+				"beat": 1,
+				"zone": "Paving Strip",
+				"shot_size": "wide",
+				"angle": "low, three-quarter side view",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man",
+					"Ant"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Reduced to approximately ninety centimeters tall; his clothing and sneakers have shrunk proportionally."
+					},
+					{
+						"subject": "Ant",
+						"state": "Enlarged to approximately ninety centimeters long, with its legs braced across multiple paving joints."
+					}
+				],
+				"backdrop": "Concrete slabs, gritty joints, the raised curb, and a brick storefront base with a recessed doorway.",
+				"action": "Man's stamping sneaker presses against Ant's swollen abdomen as the insect rises beneath it. His hips drop backward, his supporting foot slips, and both arms fling outward.",
+				"emotion": "Abrupt shock at an ordinary gesture becoming physically impossible.",
+				"transition": "Hard cut to pavement-level scale, completing the reversal of size.",
+				"atmosphere": null,
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Concrete slabs, gritty joints, the raised curb, and a brick storefront base with a recessed doorway.\nShot size: wide\nCamera angle: low, three-quarter side view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Reduced to approximately ninety centimeters tall; his clothing and sneakers have shrunk proportionally.\n- Ant (Ant): tiny dark insect with a three-part body, narrow waist, six long angular legs, and paired antennae Signature, drawn only where this angle exposes it: sharply pinched waist and disproportionately long, widely spread legs. Current state in this cut: Enlarged to approximately ninety centimeters long, with its legs braced across multiple paving joints.\nAction: Man's stamping sneaker presses against Ant's swollen abdomen as the insect rises beneath it. His hips drop backward, his supporting foot slips, and both arms fling outward.\nMood: Abrupt shock at an ordinary gesture becoming physically impossible.",
+			"images": [
+				"cut_01_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Concrete slabs, gritty joints, the raised curb, and a brick storefront base with a recessed doorway.\nShot size: wide\nCamera angle: low, three-quarter side view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Reduced to approximately ninety centimeters tall; his clothing and sneakers have shrunk proportionally.\n- Ant (Ant): tiny dark insect with a three-part body, narrow waist, six long angular legs, and paired antennae Signature, drawn only where this angle exposes it: sharply pinched waist and disproportionately long, widely spread legs. Current state in this cut: Enlarged to approximately ninety centimeters long, with its legs braced across multiple paving joints.\nAction: Man's stamping sneaker presses against Ant's swollen abdomen as the insect rises beneath it. His hips drop backward, his supporting foot slips, and both arms fling outward.\nMood: Abrupt shock at an ordinary gesture becoming physically impossible.",
+					"spec":
+					{
+						"shot_name": "Man stamping Ant and toppling backward",
+						"beat": 1,
+						"zone": "Paving Strip",
+						"shot_size": "wide",
+						"angle": "low, three-quarter side view",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man",
+							"Ant"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Reduced to approximately ninety centimeters tall; his clothing and sneakers have shrunk proportionally."
+							},
+							{
+								"subject": "Ant",
+								"state": "Enlarged to approximately ninety centimeters long, with its legs braced across multiple paving joints."
+							}
+						],
+						"backdrop": "Concrete slabs, gritty joints, the raised curb, and a brick storefront base with a recessed doorway.",
+						"action": "Man's stamping sneaker presses against Ant's swollen abdomen as the insect rises beneath it. His hips drop backward, his supporting foot slips, and both arms fling outward.",
+						"emotion": "Abrupt shock at an ordinary gesture becoming physically impossible.",
+						"transition": "Hard cut to pavement-level scale, completing the reversal of size.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man staring up at Pedestrians",
+				"beat": 2,
+				"zone": "Paving Strip",
+				"shot_size": "wide",
+				"angle": "extreme low, behind Man and looking upward",
+				"camera_move": "tilt upward",
+				"subjects_present": [
+					"Man",
+					"Ant",
+					"Pedestrians"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Reduced to approximately three millimeters tall; his jacket, trousers, and sneakers remain proportionally shrunk."
+					},
+					{
+						"subject": "Ant",
+						"state": "Still approximately ninety centimeters long."
+					}
+				],
+				"backdrop": "Towering brick storefronts and window frames rise toward clear sky; Ant's complete silhouette occupies the right edge farther along the paving.",
+				"action": "Man braces one hand against the concrete and cranes his head upward. Pedestrians stride past above him, their legs rising like moving columns and the pale umbrella spreading high overhead.",
+				"emotion": "Helpless awe as the familiar street becomes a gigantic world.",
+				"transition": "Hard cut from Man's upward stare to his horizontal flight across the pavement.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Towering brick storefronts and window frames rise toward clear sky; Ant's complete silhouette occupies the right edge farther along the paving.\nShot size: wide\nCamera angle: extreme low, behind Man and looking upward\nCamera move: tilt upward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Reduced to approximately three millimeters tall; his jacket, trousers, and sneakers remain proportionally shrunk.\n- Ant (Ant): tiny dark insect with a three-part body, narrow waist, six long angular legs, and paired antennae Signature, drawn only where this angle exposes it: sharply pinched waist and disproportionately long, widely spread legs. Current state in this cut: Still approximately ninety centimeters long.\n- Pedestrians (Two adult pedestrians): one tall and slender in a charcoal knee-length coat carrying an open pale sun umbrella; one shorter and broad-bodied in a light-gray jacket and dark trousers Signature, drawn only where this angle exposes it: contrasting tall-narrow and short-broad silhouettes, with the umbrella's broad circular outline visible from above or below.\nAction: Man braces one hand against the concrete and cranes his head upward. Pedestrians stride past above him, their legs rising like moving columns and the pale umbrella spreading high overhead.\nMood: Helpless awe as the familiar street becomes a gigantic world.",
+			"images": [
+				"cut_02_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Towering brick storefronts and window frames rise toward clear sky; Ant's complete silhouette occupies the right edge farther along the paving.\nShot size: wide\nCamera angle: extreme low, behind Man and looking upward\nCamera move: tilt upward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Reduced to approximately three millimeters tall; his jacket, trousers, and sneakers remain proportionally shrunk.\n- Ant (Ant): tiny dark insect with a three-part body, narrow waist, six long angular legs, and paired antennae Signature, drawn only where this angle exposes it: sharply pinched waist and disproportionately long, widely spread legs. Current state in this cut: Still approximately ninety centimeters long.\n- Pedestrians (Two adult pedestrians): one tall and slender in a charcoal knee-length coat carrying an open pale sun umbrella; one shorter and broad-bodied in a light-gray jacket and dark trousers Signature, drawn only where this angle exposes it: contrasting tall-narrow and short-broad silhouettes, with the umbrella's broad circular outline visible from above or below.\nAction: Man braces one hand against the concrete and cranes his head upward. Pedestrians stride past above him, their legs rising like moving columns and the pale umbrella spreading high overhead.\nMood: Helpless awe as the familiar street becomes a gigantic world.",
+					"spec":
+					{
+						"shot_name": "Man staring up at Pedestrians",
+						"beat": 2,
+						"zone": "Paving Strip",
+						"shot_size": "wide",
+						"angle": "extreme low, behind Man and looking upward",
+						"camera_move": "tilt upward",
+						"subjects_present": [
+							"Man",
+							"Ant",
+							"Pedestrians"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Reduced to approximately three millimeters tall; his jacket, trousers, and sneakers remain proportionally shrunk."
+							},
+							{
+								"subject": "Ant",
+								"state": "Still approximately ninety centimeters long."
+							}
+						],
+						"backdrop": "Towering brick storefronts and window frames rise toward clear sky; Ant's complete silhouette occupies the right edge farther along the paving.",
+						"action": "Man braces one hand against the concrete and cranes his head upward. Pedestrians stride past above him, their legs rising like moving columns and the pale umbrella spreading high overhead.",
+						"emotion": "Helpless awe as the familiar street becomes a gigantic world.",
+						"transition": "Hard cut from Man's upward stare to his horizontal flight across the pavement.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Cockroach chasing Man toward the curb",
+				"beat": 3,
+				"zone": "Paving Strip",
+				"shot_size": "medium",
+				"angle": "pavement level, side view",
+				"camera_move": "tracking right",
+				"subjects_present": [
+					"Man",
+					"Cockroach"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers."
+					}
+				],
+				"backdrop": "Coarse concrete grain, a dark paving joint, upright grass blades, and the curb lip approaching at frame right.",
+				"action": "Man sprints right with his torso pitched forward and glances back over his shoulder. Cockroach charges immediately behind him, its antennae reaching toward his back.",
+				"emotion": "Panicked urgency.",
+				"transition": "Hard cut preserving rightward movement as Man reaches the road.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Coarse concrete grain, a dark paving joint, upright grass blades, and the curb lip approaching at frame right.\nShot size: medium\nCamera angle: pavement level, side view\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers.\n- Cockroach (Cockroach): approximately four centimeters long, nearly black flattened oval body, six spiny legs, and exceptionally long antennae Signature, drawn only where this angle exposes it: broad low body with antennae extending farther forward than its body length.\nAction: Man sprints right with his torso pitched forward and glances back over his shoulder. Cockroach charges immediately behind him, its antennae reaching toward his back.\nMood: Panicked urgency.",
+			"images": [
+				"cut_03_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Paving Strip: Broad concrete paving slabs, deep joints containing grit, a few grass blades, a raised curb, brick storefront bases, recessed doorways, and the lower portions of metal window frames\nBackdrop, behind the action: Coarse concrete grain, a dark paving joint, upright grass blades, and the curb lip approaching at frame right.\nShot size: medium\nCamera angle: pavement level, side view\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers.\n- Cockroach (Cockroach): approximately four centimeters long, nearly black flattened oval body, six spiny legs, and exceptionally long antennae Signature, drawn only where this angle exposes it: broad low body with antennae extending farther forward than its body length.\nAction: Man sprints right with his torso pitched forward and glances back over his shoulder. Cockroach charges immediately behind him, its antennae reaching toward his back.\nMood: Panicked urgency.",
+					"spec":
+					{
+						"shot_name": "Cockroach chasing Man toward the curb",
+						"beat": 3,
+						"zone": "Paving Strip",
+						"shot_size": "medium",
+						"angle": "pavement level, side view",
+						"camera_move": "tracking right",
+						"subjects_present": [
+							"Man",
+							"Cockroach"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers."
+							}
+						],
+						"backdrop": "Coarse concrete grain, a dark paving joint, upright grass blades, and the curb lip approaching at frame right.",
+						"action": "Man sprints right with his torso pitched forward and glances back over his shoulder. Cockroach charges immediately behind him, its antennae reaching toward his back.",
+						"emotion": "Panicked urgency.",
+						"transition": "Hard cut preserving rightward movement as Man reaches the road.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man slipping between Cars",
+				"beat": 4,
+				"zone": "Tire Crossing",
+				"shot_size": "wide",
+				"angle": "extreme low, oblique to the crossing",
+				"camera_move": "tracking right",
+				"subjects_present": [
+					"Man",
+					"Cockroach",
+					"Cars"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers."
+					}
+				],
+				"backdrop": "Rough asphalt, a worn crossing stripe, the departure curb behind Cockroach, and the opposite curb at frame right.",
+				"action": "Man lunges through the open gap between the pale car's departing tire and the charcoal car's approaching tire. Cockroach remains at the departure curb, antennae extended into the road.",
+				"emotion": "Breathless suspense at the tiny margin between survival and crushing.",
+				"transition": "Hard cut on Man's outstretched arms to his hands reaching for Bee.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Tire Crossing: Charcoal road pavement, worn pale crossing stripes, loose grit, the sidewalk curb at the departure edge, the opposite curb, and the brick building fronts bordering the road\nBackdrop, behind the action: Rough asphalt, a worn crossing stripe, the departure curb behind Cockroach, and the opposite curb at frame right.\nShot size: wide\nCamera angle: extreme low, oblique to the crossing\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers.\n- Cockroach (Cockroach): approximately four centimeters long, nearly black flattened oval body, six spiny legs, and exceptionally long antennae Signature, drawn only where this angle exposes it: broad low body with antennae extending farther forward than its body length.\n- Cars (Two passenger cars): one pale-gray and one charcoal, both long, low-bodied sedans with rounded roofs, broad wheel spacing, and dark tires Signature, drawn only where this angle exposes it: low elongated proportions and strongly contrasting body values remain recognizable from side, rear, or above.\nAction: Man lunges through the open gap between the pale car's departing tire and the charcoal car's approaching tire. Cockroach remains at the departure curb, antennae extended into the road.\nMood: Breathless suspense at the tiny margin between survival and crushing.",
+			"images": [
+				"cut_04_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Tire Crossing: Charcoal road pavement, worn pale crossing stripes, loose grit, the sidewalk curb at the departure edge, the opposite curb, and the brick building fronts bordering the road\nBackdrop, behind the action: Rough asphalt, a worn crossing stripe, the departure curb behind Cockroach, and the opposite curb at frame right.\nShot size: wide\nCamera angle: extreme low, oblique to the crossing\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers.\n- Cockroach (Cockroach): approximately four centimeters long, nearly black flattened oval body, six spiny legs, and exceptionally long antennae Signature, drawn only where this angle exposes it: broad low body with antennae extending farther forward than its body length.\n- Cars (Two passenger cars): one pale-gray and one charcoal, both long, low-bodied sedans with rounded roofs, broad wheel spacing, and dark tires Signature, drawn only where this angle exposes it: low elongated proportions and strongly contrasting body values remain recognizable from side, rear, or above.\nAction: Man lunges through the open gap between the pale car's departing tire and the charcoal car's approaching tire. Cockroach remains at the departure curb, antennae extended into the road.\nMood: Breathless suspense at the tiny margin between survival and crushing.",
+					"spec":
+					{
+						"shot_name": "Man slipping between Cars",
+						"beat": 4,
+						"zone": "Tire Crossing",
+						"shot_size": "wide",
+						"angle": "extreme low, oblique to the crossing",
+						"camera_move": "tracking right",
+						"subjects_present": [
+							"Man",
+							"Cockroach",
+							"Cars"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers."
+							}
+						],
+						"backdrop": "Rough asphalt, a worn crossing stripe, the departure curb behind Cockroach, and the opposite curb at frame right.",
+						"action": "Man lunges through the open gap between the pale car's departing tire and the charcoal car's approaching tire. Cockroach remains at the departure curb, antennae extended into the road.",
+						"emotion": "Breathless suspense at the tiny margin between survival and crushing.",
+						"transition": "Hard cut on Man's outstretched arms to his hands reaching for Bee.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man catching Bee and flying toward the rooftops",
+				"beat": 5,
+				"zone": "Rooftop Approach",
+				"shot_size": "wide",
+				"angle": "first-person from Man, looking forward and slightly downward over Bee",
+				"camera_move": "tracking forward with Bee",
+				"subjects_present": [
+					"Man",
+					"Bee",
+					"Cars",
+					"Pedestrians"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Approximately three millimeters tall; only his proportionally shrunk sleeves, hands, and one sneaker tip are visible."
+					}
+				],
+				"backdrop": "The crossing recedes below with the same two Cars and Pedestrians; brick facades, projecting ledges, rooftop vents, distant taller buildings, and clear sky surround the forward route. The parapet's dark hive entrance sits ahead.",
+				"action": "One hand hooks into Bee's thoracic fur while the other closes beside it; a sneaker tip swings into the lower edge as Man settles onto its back. Windblown grit streams past, Bee's wings flicker at both sides, and the city slides beneath the forward flight toward the entrance.",
+				"emotion": "Terror releasing into exhilarating discovery.",
+				"transition": "Hard cut as the dark entrance fills the forward route, placing the next panel inside the hive.",
+				"atmosphere": "A brief strong gust replaces the baseline breeze; time, sky, and daylight remain unchanged.",
+				"duration_seconds": 9
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: A brief strong gust replaces the baseline breeze; time, sky, and daylight remain unchanged.\nThis cut happens at Rooftop Approach: Open air above the crossing, the crossing itself visible below, rows of brick facades, projecting window ledges, flat roofs, metal vents, distant taller buildings, clear sky, and a nearby brick parapet containing a narrow dark hive entrance\nBackdrop, behind the action: The crossing recedes below with the same two Cars and Pedestrians; brick facades, projecting ledges, rooftop vents, distant taller buildings, and clear sky surround the forward route. The parapet's dark hive entrance sits ahead.\nShot size: wide\nCamera angle: first-person from Man, looking forward and slightly downward over Bee\nCamera move: tracking forward with Bee\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall; only his proportionally shrunk sleeves, hands, and one sneaker tip are visible.\n- Bee (Honeybee): approximately eighteen millimeters long, thick pale-gray thoracic fur, a dark-and-light banded abdomen, six dark legs, and long translucent wings Signature, drawn only where this angle exposes it: bulky furry thorax, tapered banded abdomen, and wings projecting beyond the body's width.\n- Cars (Two passenger cars): one pale-gray and one charcoal, both long, low-bodied sedans with rounded roofs, broad wheel spacing, and dark tires Signature, drawn only where this angle exposes it: low elongated proportions and strongly contrasting body values remain recognizable from side, rear, or above.\n- Pedestrians (Two adult pedestrians): one tall and slender in a charcoal knee-length coat carrying an open pale sun umbrella; one shorter and broad-bodied in a light-gray jacket and dark trousers Signature, drawn only where this angle exposes it: contrasting tall-narrow and short-broad silhouettes, with the umbrella's broad circular outline visible from above or below.\nAction: One hand hooks into Bee's thoracic fur while the other closes beside it; a sneaker tip swings into the lower edge as Man settles onto its back. Windblown grit streams past, Bee's wings flicker at both sides, and the city slides beneath the forward flight toward the entrance.\nMood: Terror releasing into exhilarating discovery.",
+			"images": [
+				"cut_05_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: A brief strong gust replaces the baseline breeze; time, sky, and daylight remain unchanged.\nThis cut happens at Rooftop Approach: Open air above the crossing, the crossing itself visible below, rows of brick facades, projecting window ledges, flat roofs, metal vents, distant taller buildings, clear sky, and a nearby brick parapet containing a narrow dark hive entrance\nBackdrop, behind the action: The crossing recedes below with the same two Cars and Pedestrians; brick facades, projecting ledges, rooftop vents, distant taller buildings, and clear sky surround the forward route. The parapet's dark hive entrance sits ahead.\nShot size: wide\nCamera angle: first-person from Man, looking forward and slightly downward over Bee\nCamera move: tracking forward with Bee\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall; only his proportionally shrunk sleeves, hands, and one sneaker tip are visible.\n- Bee (Honeybee): approximately eighteen millimeters long, thick pale-gray thoracic fur, a dark-and-light banded abdomen, six dark legs, and long translucent wings Signature, drawn only where this angle exposes it: bulky furry thorax, tapered banded abdomen, and wings projecting beyond the body's width.\n- Cars (Two passenger cars): one pale-gray and one charcoal, both long, low-bodied sedans with rounded roofs, broad wheel spacing, and dark tires Signature, drawn only where this angle exposes it: low elongated proportions and strongly contrasting body values remain recognizable from side, rear, or above.\n- Pedestrians (Two adult pedestrians): one tall and slender in a charcoal knee-length coat carrying an open pale sun umbrella; one shorter and broad-bodied in a light-gray jacket and dark trousers Signature, drawn only where this angle exposes it: contrasting tall-narrow and short-broad silhouettes, with the umbrella's broad circular outline visible from above or below.\nAction: One hand hooks into Bee's thoracic fur while the other closes beside it; a sneaker tip swings into the lower edge as Man settles onto its back. Windblown grit streams past, Bee's wings flicker at both sides, and the city slides beneath the forward flight toward the entrance.\nMood: Terror releasing into exhilarating discovery.",
+					"spec":
+					{
+						"shot_name": "Man catching Bee and flying toward the rooftops",
+						"beat": 5,
+						"zone": "Rooftop Approach",
+						"shot_size": "wide",
+						"angle": "first-person from Man, looking forward and slightly downward over Bee",
+						"camera_move": "tracking forward with Bee",
+						"subjects_present": [
+							"Man",
+							"Bee",
+							"Cars",
+							"Pedestrians"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Approximately three millimeters tall; only his proportionally shrunk sleeves, hands, and one sneaker tip are visible."
+							}
+						],
+						"backdrop": "The crossing recedes below with the same two Cars and Pedestrians; brick facades, projecting ledges, rooftop vents, distant taller buildings, and clear sky surround the forward route. The parapet's dark hive entrance sits ahead.",
+						"action": "One hand hooks into Bee's thoracic fur while the other closes beside it; a sneaker tip swings into the lower edge as Man settles onto its back. Windblown grit streams past, Bee's wings flicker at both sides, and the city slides beneath the forward flight toward the entrance.",
+						"emotion": "Terror releasing into exhilarating discovery.",
+						"transition": "Hard cut as the dark entrance fills the forward route, placing the next panel inside the hive.",
+						"atmosphere": "A brief strong gust replaces the baseline breeze; time, sky, and daylight remain unchanged.",
+						"duration_seconds": 9
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man tasting honey beside Bee",
+				"beat": 6,
+				"zone": "Wax Chamber",
+				"shot_size": "close-up",
+				"angle": "eye level with Man, three-quarter frontal view",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man",
+					"Bee"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers; glossy honey coats one fingertip and leaves a small smear at the corner of his mouth."
+					}
+				],
+				"backdrop": "Translucent wax cell rims, a glistening open honey cell, the comb ledge, and a narrow strip of rough brick caught by entrance light.",
+				"action": "Man stands on the comb ledge and licks honey from his raised fingertip. His shoulders relax, his eyes soften, and his mouth opens into a satisfied grin. Bee clings quietly to the adjacent comb.",
+				"emotion": "Warm, comic relief and uncomplicated pleasure.",
+				"transition": "Hold on the satisfied expression, then cut to black.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Wax Chamber: A sheltered cavity immediately behind the parapet entrance, rough brick walls, overlapping sheets of wax comb, open honey-filled cells, a small horizontal comb ledge, and a narrow entrance slit admitting daylight\nBackdrop, behind the action: Translucent wax cell rims, a glistening open honey cell, the comb ledge, and a narrow strip of rough brick caught by entrance light.\nShot size: close-up\nCamera angle: eye level with Man, three-quarter frontal view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers; glossy honey coats one fingertip and leaves a small smear at the corner of his mouth.\n- Bee (Honeybee): approximately eighteen millimeters long, thick pale-gray thoracic fur, a dark-and-light banded abdomen, six dark legs, and long translucent wings Signature, drawn only where this angle exposes it: bulky furry thorax, tapered banded abdomen, and wings projecting beyond the body's width.\nAction: Man stands on the comb ledge and licks honey from his raised fingertip. His shoulders relax, his eyes soften, and his mouth opens into a satisfied grin. Bee clings quietly to the adjacent comb.\nMood: Warm, comic relief and uncomplicated pleasure.",
+			"images": [
+				"cut_06_002.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary masonry city combines pale concrete, charcoal asphalt, weathered mid-gray brick, dark metal, and softly translucent gray wax, with clear daylight giving every surface a sharply readable texture.\nLocation: An outdoor city sidewalk, road crossing, and airborne route ending inside a natural hive in a rooftop wall.\nAtmosphere: Late morning, clear, dry weather with a light breeze, hard outdoor sunlight with short shadows; dim reflected daylight inside the hive, strongest beside its entrance.\nThis cut happens at Wax Chamber: A sheltered cavity immediately behind the parapet entrance, rough brick walls, overlapping sheets of wax comb, open honey-filled cells, a small horizontal comb ledge, and a narrow entrance slit admitting daylight\nBackdrop, behind the action: Translucent wax cell rims, a glistening open honey cell, the comb ledge, and a narrow strip of rough brick caught by entrance light.\nShot size: close-up\nCamera angle: eye level with Man, three-quarter frontal view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult man): slim build, long limbs, short dark hair, light-gray hooded jacket, charcoal trousers, pale thick-soled sneakers Signature, drawn only where this angle exposes it: a narrow silhouette topped by a bulky raised hood collar, with oversized-looking sneaker soles recognizable from any angle. Current state in this cut: Approximately three millimeters tall, with proportionally shrunk clothing and sneakers; glossy honey coats one fingertip and leaves a small smear at the corner of his mouth.\n- Bee (Honeybee): approximately eighteen millimeters long, thick pale-gray thoracic fur, a dark-and-light banded abdomen, six dark legs, and long translucent wings Signature, drawn only where this angle exposes it: bulky furry thorax, tapered banded abdomen, and wings projecting beyond the body's width.\nAction: Man stands on the comb ledge and licks honey from his raised fingertip. His shoulders relax, his eyes soften, and his mouth opens into a satisfied grin. Bee clings quietly to the adjacent comb.\nMood: Warm, comic relief and uncomplicated pleasure.",
+					"spec":
+					{
+						"shot_name": "Man tasting honey beside Bee",
+						"beat": 6,
+						"zone": "Wax Chamber",
+						"shot_size": "close-up",
+						"angle": "eye level with Man, three-quarter frontal view",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man",
+							"Bee"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "Approximately three millimeters tall, with proportionally shrunk clothing and sneakers; glossy honey coats one fingertip and leaves a small smear at the corner of his mouth."
+							}
+						],
+						"backdrop": "Translucent wax cell rims, a glistening open honey cell, the comb ledge, and a narrow strip of rough brick caught by entrance light.",
+						"action": "Man stands on the comb ledge and licks honey from his raised fingertip. His shoulders relax, his eyes soften, and his mouth opens into a satisfied grin. Bee clings quietly to the adjacent comb.",
+						"emotion": "Warm, comic relief and uncomplicated pleasure.",
+						"transition": "Hold on the satisfied expression, then cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		}
+	]
+}

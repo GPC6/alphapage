@@ -1,0 +1,858 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": " 소인의 뒷모습이 사람들 사이로 사라져갔다. 똑같은 검은색 사이 얼핏 갈색으로 빛나는 그녀의 머리칼을 놓치지 않으려 나의 팔은 자꾸 앞으로 향했다. \n\n서울역행 열차가 지금 들어옵니다.\n\n철도 소리가 내 고막에 메아리쳐 들린다. 나의 구두가 미끌거리는 계단을 용캐도 붙들며 달려갔다. \n\n“소인아!”\n\n갈빛의 머리칼이 휘날리는 검은 실들 사이에 우두커니 서있었다. 오고가는 사람들 사이 소인의 검은 눈동자가 나를 반듯하게 향하고 있었다.\n\n“소인아..”\n\n그러나 나의 목소리는 그녀에게 향하지 않는 듯 했다. 너무나 검은 눈동자 속에는 내가 비치면서 담겨있지 않았다.\n\n“나 왜 부른거야.”\n\n“이렇게 헤어지지 말자 우리.”\n\n지하철 문이 닫힙니다. 다음 열차를 이용해주세요.\n\n바쁜 승강장에 멈춰 있는 것은 우리 둘 뿐이었다.\n\n“나랑 왜 계속 만나고 싶은데?”\n\n머릿속에 질문만 돌아다녔다. 그러게. 나는 왜 소인이와 계속 만나고 싶을까. 요즘들어 고민했지만, 늘 대답하지 못했던 질문이었다. 이 질문이 결국 나에게 족쇄로 다가올 줄 지금이 오기까지 나는 몰랐다.\n\n“...”\n\n소인의 눈이 허공을 향했다. 또 그렇듯 그녀의 눈물이 차오르는 것이 보였다.\n\n“넌 나한테서 마음이 떠난거야.”\n\n‘아니야-’ 라는 말이 차마 목구멍 위로 나오지 않았다. 이 울컥거림을 누를 수 있는 다른 말이 필요했다.\n\n“너는?”\n\n“하.”\n\n서울역행 열차가 지금 들어옵니다.\n\n 소인의 머리카락이 기차의 바람에 흔들렸다. 그렇게나 닿고 싶었던 그녀였는데 어째서인지 다가갈 수 없었다. \n\n문이 열립니다.\n\n 소인이 다른 사람들과 함께 기차 안으로 밀려들어갔다.\n나의 고개도 소인을 따라 왼쪽을 향했다.\n\n지하철 문이 닫힙니다. 다음 열차를 이용해주세요.\n\n 나의 눈은 소인을 바라보고 있었다.\n 눈물이 났다.",
+	"draft_prompt": " 소인의 뒷모습이 사람들 사이로 사라져갔다. 똑같은 검은색 사이 얼핏 갈색으로 빛나는 그녀의 머리칼을 놓치지 않으려 나의 팔은 자꾸 앞으로 향했다. \n\n서울역행 열차가 지금 들어옵니다.\n\n철도 소리가 내 고막에 메아리쳐 들린다. 나의 구두가 미끌거리는 계단을 용캐도 붙들며 달려갔다. \n\n“소인아!”\n\n갈빛의 머리칼이 휘날리는 검은 실들 사이에 우두커니 서있었다. 오고가는 사람들 사이 소인의 검은 눈동자가 나를 반듯하게 향하고 있었다.\n\n“소인아..”\n\n그러나 나의 목소리는 그녀에게 향하지 않는 듯 했다. 너무나 검은 눈동자 속에는 내가 비치면서 담겨있지 않았다.\n\n“나 왜 부른거야.”\n\n“이렇게 헤어지지 말자 우리.”\n\n지하철 문이 닫힙니다. 다음 열차를 이용해주세요.\n\n바쁜 승강장에 멈춰 있는 것은 우리 둘 뿐이었다.\n\n“나랑 왜 계속 만나고 싶은데?”\n\n머릿속에 질문만 돌아다녔다. 그러게. 나는 왜 소인이와 계속 만나고 싶을까. 요즘들어 고민했지만, 늘 대답하지 못했던 질문이었다. 이 질문이 결국 나에게 족쇄로 다가올 줄 지금이 오기까지 나는 몰랐다.\n\n“...”\n\n소인의 눈이 허공을 향했다. 또 그렇듯 그녀의 눈물이 차오르는 것이 보였다.\n\n“넌 나한테서 마음이 떠난거야.”\n\n‘아니야-’ 라는 말이 차마 목구멍 위로 나오지 않았다. 이 울컥거림을 누를 수 있는 다른 말이 필요했다.\n\n“너는?”\n\n“하.”\n\n서울역행 열차가 지금 들어옵니다.\n\n 소인의 머리카락이 기차의 바람에 흔들렸다. 그렇게나 닿고 싶었던 그녀였는데 어째서인지 다가갈 수 없었다. \n\n문이 열립니다.\n\n 소인이 다른 사람들과 함께 기차 안으로 밀려들어갔다.\n나의 고개도 소인을 따라 왼쪽을 향했다.\n\n지하철 문이 닫힙니다. 다음 열차를 이용해주세요.\n\n 나의 눈은 소인을 바라보고 있었다.\n 눈물이 났다.",
+	"request":
+	{
+		"cut_count": 12,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 12,
+		"duration_seconds": 47.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.",
+			"location_type": "Underground urban railway station; indoor.",
+			"zones": [
+				{
+					"name": "Wet stairwell",
+					"description": "A straight descending flight of dark stone stairs has glossy damp treads, pale tiled sidewalls, stainless-steel handrails, and a low fluorescent ceiling; its open lower end reveals the adjoining landing and an amber arrival repeater",
+					"connects_to": [
+						"Stair landing"
+					]
+				},
+				{
+					"name": "Stair landing",
+					"description": "A broad tiled landing contains the stair opening, a square tiled support column, overhead Seoul-bound directional signs, and the amber arrival repeater; the platform edge and passing trains are visible through its unobstructed opening toward the boarding area",
+					"connects_to": [
+						"Wet stairwell",
+						"Boarding bay"
+					]
+				},
+				{
+					"name": "Boarding bay",
+					"description": "A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end",
+					"connects_to": [
+						"Stair landing"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Evening",
+				"weather": "light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside",
+				"lighting": "steady cool fluorescent illumination, with amber station displays and white train-interior lighting."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A desperate narrator chases Soin through a crowded Seoul subway station to stop their breakup, but their inability to explain why they should stay together turns the pursuit into a motionless confrontation, until the next train carries her away.",
+			"beats": [
+				{
+					"summary": "Soin’s brown hair begins disappearing among black-haired commuters, and the narrator reaches after her",
+					"emotion": "panic"
+				},
+				{
+					"summary": "The narrator’s shoes find purchase on the slippery stairs, allowing the pursuit to continue",
+					"emotion": "urgency"
+				},
+				{
+					"summary": "The narrator calls Soin’s name, stopping her departure through the crowd",
+					"emotion": "fragile hope"
+				},
+				{
+					"summary": "Soin turns, but her emotionally distant gaze and question deny the reunion the narrator hoped for",
+					"emotion": "estrangement"
+				},
+				{
+					"summary": "The narrator asks Soin not to end their relationship this way",
+					"emotion": "vulnerability"
+				},
+				{
+					"summary": "As the first train closes its doors, Soin asks why the narrator wants to keep seeing her",
+					"emotion": "dread"
+				},
+				{
+					"summary": "The narrator cannot answer",
+					"emotion": "helplessness"
+				},
+				{
+					"summary": "Tears gather in Soin’s eyes as she concludes that the narrator no longer loves her",
+					"emotion": "hurt"
+				},
+				{
+					"summary": "Instead of denying it, the narrator asks about her feelings; Soin answers with a bitter exhalation",
+					"emotion": "defensive regret"
+				},
+				{
+					"summary": "Another train arrives, stirring Soin’s hair, but the narrator cannot close the distance between them",
+					"emotion": "paralysis"
+				},
+				{
+					"summary": "Boarding commuters carry Soin into the train while the narrator remains outside",
+					"emotion": "separation"
+				},
+				{
+					"summary": "The doors close between them, and the narrator finally cries",
+					"emotion": "irreversible loss"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Narrator",
+				"kind": "Young adult of unspecified gender",
+				"appearance": "tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes",
+				"signature_features": [
+					"conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle."
+				]
+			},
+			{
+				"name": "Soin",
+				"kind": "Young adult woman",
+				"appearance": "short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders",
+				"signature_features": [
+					"compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle."
+				]
+			},
+			{
+				"name": "Commuters",
+				"kind": "Recurring crowd ensemble",
+				"appearance": "mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks",
+				"signature_features": [
+					"overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure."
+				]
+			},
+			{
+				"name": "Seoul-bound train",
+				"kind": "Successive, visually matching subway trains on the same service",
+				"appearance": "long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors",
+				"signature_features": [
+					"elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear."
+				]
+			}
+		],
+		"run_id": "storyboard_20261021_064609_9716f725"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Soin disappearing into the descending commuters",
+				"beat": 1,
+				"zone": "Wet stairwell",
+				"shot_size": "wide",
+				"angle": "high, looking down the stairs from behind the narrator",
+				"camera_move": "tracking forward",
+				"subjects_present": [
+					"Narrator",
+					"Soin",
+					"Commuters"
+				],
+				"subject_states": [],
+				"backdrop": "Damp stair treads, converging steel handrails, pale tiled walls, and the lower landing’s amber repeater reading “Train bound for Seoul Station entering.”",
+				"action": "Soin descends ahead of the narrator with her back turned. Moving black coats repeatedly obscure her medium-gray bob. The narrator extends an arm through an opening between commuters, without reaching her.",
+				"emotion": "Panic at losing one recognizable person inside an anonymous crowd.",
+				"transition": "Hard cut to the narrator’s shoes.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Wet stairwell: A straight descending flight of dark stone stairs has glossy damp treads, pale tiled sidewalls, stainless-steel handrails, and a low fluorescent ceiling; its open lower end reveals the adjoining landing and an amber arrival repeater\nBackdrop, behind the action: Damp stair treads, converging steel handrails, pale tiled walls, and the lower landing’s amber repeater reading “Train bound for Seoul Station entering.”\nShot size: wide\nCamera angle: high, looking down the stairs from behind the narrator\nCamera move: tracking forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\nAction: Soin descends ahead of the narrator with her back turned. Moving black coats repeatedly obscure her medium-gray bob. The narrator extends an arm through an opening between commuters, without reaching her.\nMood: Panic at losing one recognizable person inside an anonymous crowd.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Wet stairwell: A straight descending flight of dark stone stairs has glossy damp treads, pale tiled sidewalls, stainless-steel handrails, and a low fluorescent ceiling; its open lower end reveals the adjoining landing and an amber arrival repeater\nBackdrop, behind the action: Damp stair treads, converging steel handrails, pale tiled walls, and the lower landing’s amber repeater reading “Train bound for Seoul Station entering.”\nShot size: wide\nCamera angle: high, looking down the stairs from behind the narrator\nCamera move: tracking forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\nAction: Soin descends ahead of the narrator with her back turned. Moving black coats repeatedly obscure her medium-gray bob. The narrator extends an arm through an opening between commuters, without reaching her.\nMood: Panic at losing one recognizable person inside an anonymous crowd.",
+					"spec":
+					{
+						"shot_name": "Soin disappearing into the descending commuters",
+						"beat": 1,
+						"zone": "Wet stairwell",
+						"shot_size": "wide",
+						"angle": "high, looking down the stairs from behind the narrator",
+						"camera_move": "tracking forward",
+						"subjects_present": [
+							"Narrator",
+							"Soin",
+							"Commuters"
+						],
+						"subject_states": [],
+						"backdrop": "Damp stair treads, converging steel handrails, pale tiled walls, and the lower landing’s amber repeater reading “Train bound for Seoul Station entering.”",
+						"action": "Soin descends ahead of the narrator with her back turned. Moving black coats repeatedly obscure her medium-gray bob. The narrator extends an arm through an opening between commuters, without reaching her.",
+						"emotion": "Panic at losing one recognizable person inside an anonymous crowd.",
+						"transition": "Hard cut to the narrator’s shoes.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator’s shoes gripping the wet stairs",
+				"beat": 2,
+				"zone": "Wet stairwell",
+				"shot_size": "insert",
+				"angle": "steep high angle",
+				"camera_move": "tilt downward",
+				"subjects_present": [
+					"Narrator"
+				],
+				"subject_states": [],
+				"backdrop": "Two glossy dark stair treads, their pale worn edges, and a narrow strip of tiled sidewall.",
+				"action": "A black shoe lands slightly sideways on a wet tread, catches against its edge, and pushes off. The other shoe immediately strikes the next step.",
+				"emotion": "Breathless urgency.",
+				"transition": "Hard cut on the downward footfall.",
+				"atmosphere": null,
+				"duration_seconds": 1.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Wet stairwell: A straight descending flight of dark stone stairs has glossy damp treads, pale tiled sidewalls, stainless-steel handrails, and a low fluorescent ceiling; its open lower end reveals the adjoining landing and an amber arrival repeater\nBackdrop, behind the action: Two glossy dark stair treads, their pale worn edges, and a narrow strip of tiled sidewall.\nShot size: insert\nCamera angle: steep high angle\nCamera move: tilt downward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\nAction: A black shoe lands slightly sideways on a wet tread, catches against its edge, and pushes off. The other shoe immediately strikes the next step.\nMood: Breathless urgency.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Wet stairwell: A straight descending flight of dark stone stairs has glossy damp treads, pale tiled sidewalls, stainless-steel handrails, and a low fluorescent ceiling; its open lower end reveals the adjoining landing and an amber arrival repeater\nBackdrop, behind the action: Two glossy dark stair treads, their pale worn edges, and a narrow strip of tiled sidewall.\nShot size: insert\nCamera angle: steep high angle\nCamera move: tilt downward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\nAction: A black shoe lands slightly sideways on a wet tread, catches against its edge, and pushes off. The other shoe immediately strikes the next step.\nMood: Breathless urgency.",
+					"spec":
+					{
+						"shot_name": "Narrator’s shoes gripping the wet stairs",
+						"beat": 2,
+						"zone": "Wet stairwell",
+						"shot_size": "insert",
+						"angle": "steep high angle",
+						"camera_move": "tilt downward",
+						"subjects_present": [
+							"Narrator"
+						],
+						"subject_states": [],
+						"backdrop": "Two glossy dark stair treads, their pale worn edges, and a narrow strip of tiled sidewall.",
+						"action": "A black shoe lands slightly sideways on a wet tread, catches against its edge, and pushes off. The other shoe immediately strikes the next step.",
+						"emotion": "Breathless urgency.",
+						"transition": "Hard cut on the downward footfall.",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator calling Soin to a halt",
+				"beat": 3,
+				"zone": "Stair landing",
+				"shot_size": "wide",
+				"angle": "eye level, from the landward side of the platform",
+				"camera_move": "pan left",
+				"subjects_present": [
+					"Narrator",
+					"Soin",
+					"Commuters",
+					"Seoul-bound train"
+				],
+				"subject_states": [],
+				"backdrop": "The tiled landing column and overhead directional sign; through the adjoining boarding bay, the first train stands with its doors open.",
+				"action": "The narrator emerges from the stairs at frame right and calls, “Soin!” Soin stops near the left edge of the landing with her back still turned. Commuters continue around her as the narrator strides toward the boarding bay.",
+				"emotion": "A sudden, precarious opening.",
+				"transition": "Hard cut, preserving Soin on the left and the narrator on the right.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Stair landing: A broad tiled landing contains the stair opening, a square tiled support column, overhead Seoul-bound directional signs, and the amber arrival repeater; the platform edge and passing trains are visible through its unobstructed opening toward the boarding area\nBackdrop, behind the action: The tiled landing column and overhead directional sign; through the adjoining boarding bay, the first train stands with its doors open.\nShot size: wide\nCamera angle: eye level, from the landward side of the platform\nCamera move: pan left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The narrator emerges from the stairs at frame right and calls, “Soin!” Soin stops near the left edge of the landing with her back still turned. Commuters continue around her as the narrator strides toward the boarding bay.\nMood: A sudden, precarious opening.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Stair landing: A broad tiled landing contains the stair opening, a square tiled support column, overhead Seoul-bound directional signs, and the amber arrival repeater; the platform edge and passing trains are visible through its unobstructed opening toward the boarding area\nBackdrop, behind the action: The tiled landing column and overhead directional sign; through the adjoining boarding bay, the first train stands with its doors open.\nShot size: wide\nCamera angle: eye level, from the landward side of the platform\nCamera move: pan left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The narrator emerges from the stairs at frame right and calls, “Soin!” Soin stops near the left edge of the landing with her back still turned. Commuters continue around her as the narrator strides toward the boarding bay.\nMood: A sudden, precarious opening.",
+					"spec":
+					{
+						"shot_name": "Narrator calling Soin to a halt",
+						"beat": 3,
+						"zone": "Stair landing",
+						"shot_size": "wide",
+						"angle": "eye level, from the landward side of the platform",
+						"camera_move": "pan left",
+						"subjects_present": [
+							"Narrator",
+							"Soin",
+							"Commuters",
+							"Seoul-bound train"
+						],
+						"subject_states": [],
+						"backdrop": "The tiled landing column and overhead directional sign; through the adjoining boarding bay, the first train stands with its doors open.",
+						"action": "The narrator emerges from the stairs at frame right and calls, “Soin!” Soin stops near the left edge of the landing with her back still turned. Commuters continue around her as the narrator strides toward the boarding bay.",
+						"emotion": "A sudden, precarious opening.",
+						"transition": "Hard cut, preserving Soin on the left and the narrator on the right.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Soin turning to question the narrator",
+				"beat": 4,
+				"zone": "Boarding bay",
+				"shot_size": "medium",
+				"angle": "eye level, oblique two-shot from the landward side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Soin",
+					"Narrator",
+					"Commuters",
+					"Seoul-bound train"
+				],
+				"subject_states": [],
+				"backdrop": "The first train’s open doorway and charcoal window band, with dark-coated commuters crossing the platform.",
+				"action": "Soin turns toward the narrator, who has stopped several paces away. Their eyes meet without a smile or welcoming movement. The narrator repeats, “Soin…” Soin asks, “Why did you call me?”",
+				"emotion": "Estrangement despite physical proximity.",
+				"transition": "Hard cut toward the narrator’s side of the exchange.",
+				"atmosphere": null,
+				"duration_seconds": 4.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The first train’s open doorway and charcoal window band, with dark-coated commuters crossing the platform.\nShot size: medium\nCamera angle: eye level, oblique two-shot from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: Soin turns toward the narrator, who has stopped several paces away. Their eyes meet without a smile or welcoming movement. The narrator repeats, “Soin…” Soin asks, “Why did you call me?”\nMood: Estrangement despite physical proximity.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The first train’s open doorway and charcoal window band, with dark-coated commuters crossing the platform.\nShot size: medium\nCamera angle: eye level, oblique two-shot from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: Soin turns toward the narrator, who has stopped several paces away. Their eyes meet without a smile or welcoming movement. The narrator repeats, “Soin…” Soin asks, “Why did you call me?”\nMood: Estrangement despite physical proximity.",
+					"spec":
+					{
+						"shot_name": "Soin turning to question the narrator",
+						"beat": 4,
+						"zone": "Boarding bay",
+						"shot_size": "medium",
+						"angle": "eye level, oblique two-shot from the landward side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Soin",
+							"Narrator",
+							"Commuters",
+							"Seoul-bound train"
+						],
+						"subject_states": [],
+						"backdrop": "The first train’s open doorway and charcoal window band, with dark-coated commuters crossing the platform.",
+						"action": "Soin turns toward the narrator, who has stopped several paces away. Their eyes meet without a smile or welcoming movement. The narrator repeats, “Soin…” Soin asks, “Why did you call me?”",
+						"emotion": "Estrangement despite physical proximity.",
+						"transition": "Hard cut toward the narrator’s side of the exchange.",
+						"atmosphere": null,
+						"duration_seconds": 4.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator asking Soin not to leave this way",
+				"beat": 5,
+				"zone": "Boarding bay",
+				"shot_size": "close-up",
+				"angle": "eye level, over Soin’s shoulder",
+				"camera_move": "slow dolly forward",
+				"subjects_present": [
+					"Narrator",
+					"Soin"
+				],
+				"subject_states": [],
+				"backdrop": "The pale tiled platform column behind the narrator; Soin’s blunt bob and dark shoulder occupy the left foreground.",
+				"action": "The narrator’s outstretched hand drops to chest height. Looking directly at Soin, they say, “Let’s not break up like this.” Their fingers remain open, but they do not touch her.",
+				"emotion": "Exposed vulnerability.",
+				"transition": "Hard cut outward to restore the distance between them.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The pale tiled platform column behind the narrator; Soin’s blunt bob and dark shoulder occupy the left foreground.\nShot size: close-up\nCamera angle: eye level, over Soin’s shoulder\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\nAction: The narrator’s outstretched hand drops to chest height. Looking directly at Soin, they say, “Let’s not break up like this.” Their fingers remain open, but they do not touch her.\nMood: Exposed vulnerability.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The pale tiled platform column behind the narrator; Soin’s blunt bob and dark shoulder occupy the left foreground.\nShot size: close-up\nCamera angle: eye level, over Soin’s shoulder\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\nAction: The narrator’s outstretched hand drops to chest height. Looking directly at Soin, they say, “Let’s not break up like this.” Their fingers remain open, but they do not touch her.\nMood: Exposed vulnerability.",
+					"spec":
+					{
+						"shot_name": "Narrator asking Soin not to leave this way",
+						"beat": 5,
+						"zone": "Boarding bay",
+						"shot_size": "close-up",
+						"angle": "eye level, over Soin’s shoulder",
+						"camera_move": "slow dolly forward",
+						"subjects_present": [
+							"Narrator",
+							"Soin"
+						],
+						"subject_states": [],
+						"backdrop": "The pale tiled platform column behind the narrator; Soin’s blunt bob and dark shoulder occupy the left foreground.",
+						"action": "The narrator’s outstretched hand drops to chest height. Looking directly at Soin, they say, “Let’s not break up like this.” Their fingers remain open, but they do not touch her.",
+						"emotion": "Exposed vulnerability.",
+						"transition": "Hard cut outward to restore the distance between them.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Soin asking why the narrator wants to stay together",
+				"beat": 6,
+				"zone": "Boarding bay",
+				"shot_size": "wide",
+				"angle": "eye level, from the landward side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Soin",
+					"Narrator",
+					"Commuters",
+					"Seoul-bound train"
+				],
+				"subject_states": [],
+				"backdrop": "The first train’s paired doors, the ribbed platform edge, the tiled column, and the overhead amber board displaying “The doors are closing.”",
+				"action": "The train doors slide together behind Soin. Commuters cross around the stationary pair. Soin asks, “Why do you want to keep seeing me?” The narrator’s open hand becomes still.",
+				"emotion": "Dread as the plea becomes a question that demands an answer.",
+				"transition": "Hard cut to the narrator’s face.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The first train’s paired doors, the ribbed platform edge, the tiled column, and the overhead amber board displaying “The doors are closing.”\nShot size: wide\nCamera angle: eye level, from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The train doors slide together behind Soin. Commuters cross around the stationary pair. Soin asks, “Why do you want to keep seeing me?” The narrator’s open hand becomes still.\nMood: Dread as the plea becomes a question that demands an answer.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The first train’s paired doors, the ribbed platform edge, the tiled column, and the overhead amber board displaying “The doors are closing.”\nShot size: wide\nCamera angle: eye level, from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The train doors slide together behind Soin. Commuters cross around the stationary pair. Soin asks, “Why do you want to keep seeing me?” The narrator’s open hand becomes still.\nMood: Dread as the plea becomes a question that demands an answer.",
+					"spec":
+					{
+						"shot_name": "Soin asking why the narrator wants to stay together",
+						"beat": 6,
+						"zone": "Boarding bay",
+						"shot_size": "wide",
+						"angle": "eye level, from the landward side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Soin",
+							"Narrator",
+							"Commuters",
+							"Seoul-bound train"
+						],
+						"subject_states": [],
+						"backdrop": "The first train’s paired doors, the ribbed platform edge, the tiled column, and the overhead amber board displaying “The doors are closing.”",
+						"action": "The train doors slide together behind Soin. Commuters cross around the stationary pair. Soin asks, “Why do you want to keep seeing me?” The narrator’s open hand becomes still.",
+						"emotion": "Dread as the plea becomes a question that demands an answer.",
+						"transition": "Hard cut to the narrator’s face.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator failing to answer Soin",
+				"beat": 7,
+				"zone": "Boarding bay",
+				"shot_size": "close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Narrator"
+				],
+				"subject_states": [],
+				"backdrop": "A softly resolved patch of the bay’s pale tiled column.",
+				"action": "The narrator’s lips part. Their jaw tightens, their eyes search briefly across Soin’s position, and their mouth closes without an answer.",
+				"emotion": "Helplessness and the shame of having no convincing words.",
+				"transition": "Elliptical hard cut across the unanswered pause.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: A softly resolved patch of the bay’s pale tiled column.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\nAction: The narrator’s lips part. Their jaw tightens, their eyes search briefly across Soin’s position, and their mouth closes without an answer.\nMood: Helplessness and the shame of having no convincing words.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: A softly resolved patch of the bay’s pale tiled column.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\nAction: The narrator’s lips part. Their jaw tightens, their eyes search briefly across Soin’s position, and their mouth closes without an answer.\nMood: Helplessness and the shame of having no convincing words.",
+					"spec":
+					{
+						"shot_name": "Narrator failing to answer Soin",
+						"beat": 7,
+						"zone": "Boarding bay",
+						"shot_size": "close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Narrator"
+						],
+						"subject_states": [],
+						"backdrop": "A softly resolved patch of the bay’s pale tiled column.",
+						"action": "The narrator’s lips part. Their jaw tightens, their eyes search briefly across Soin’s position, and their mouth closes without an answer.",
+						"emotion": "Helplessness and the shame of having no convincing words.",
+						"transition": "Elliptical hard cut across the unanswered pause.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Soin naming the love she believes has gone",
+				"beat": 8,
+				"zone": "Boarding bay",
+				"shot_size": "close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Soin"
+				],
+				"subject_states": [
+					{
+						"subject": "Soin",
+						"state": "Tears pool visibly along both lower eyelids."
+					}
+				],
+				"backdrop": "The dark tiled wall across the now-unoccupied track, softly out of focus.",
+				"action": "Soin’s gaze slips away from the narrator toward empty space beside them. Moisture gathers along her lower eyelids. With her chin held almost level, she says, “Your feelings for me are gone.”",
+				"emotion": "Hurt hardening into a conclusion.",
+				"transition": "Hard cut to both figures.",
+				"atmosphere": null,
+				"duration_seconds": 4.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The dark tiled wall across the now-unoccupied track, softly out of focus.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears pool visibly along both lower eyelids.\nAction: Soin’s gaze slips away from the narrator toward empty space beside them. Moisture gathers along her lower eyelids. With her chin held almost level, she says, “Your feelings for me are gone.”\nMood: Hurt hardening into a conclusion.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The dark tiled wall across the now-unoccupied track, softly out of focus.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears pool visibly along both lower eyelids.\nAction: Soin’s gaze slips away from the narrator toward empty space beside them. Moisture gathers along her lower eyelids. With her chin held almost level, she says, “Your feelings for me are gone.”\nMood: Hurt hardening into a conclusion.",
+					"spec":
+					{
+						"shot_name": "Soin naming the love she believes has gone",
+						"beat": 8,
+						"zone": "Boarding bay",
+						"shot_size": "close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Soin"
+						],
+						"subject_states": [
+							{
+								"subject": "Soin",
+								"state": "Tears pool visibly along both lower eyelids."
+							}
+						],
+						"backdrop": "The dark tiled wall across the now-unoccupied track, softly out of focus.",
+						"action": "Soin’s gaze slips away from the narrator toward empty space beside them. Moisture gathers along her lower eyelids. With her chin held almost level, she says, “Your feelings for me are gone.”",
+						"emotion": "Hurt hardening into a conclusion.",
+						"transition": "Hard cut to both figures.",
+						"atmosphere": null,
+						"duration_seconds": 4.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator turning Soin’s question back on her",
+				"beat": 9,
+				"zone": "Boarding bay",
+				"shot_size": "medium",
+				"angle": "eye level, oblique two-shot from the landward side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Narrator",
+					"Soin",
+					"Commuters"
+				],
+				"subject_states": [
+					{
+						"subject": "Soin",
+						"state": "Tears remain pooled along both lower eyelids."
+					}
+				],
+				"backdrop": "Empty track, the dark wall beyond it, and dark-coated commuters passing at the outer edges of the frame.",
+				"action": "At frame right, the narrator swallows and asks, “What about you?” Soin remains at frame left. Her shoulders lift slightly; her lips open on a short, disbelieving “Ha.”",
+				"emotion": "The sting of a defensive answer arriving where reassurance was needed.",
+				"transition": "Hard cut wider as the next train enters the bay.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: Empty track, the dark wall beyond it, and dark-coated commuters passing at the outer edges of the frame.\nShot size: medium\nCamera angle: eye level, oblique two-shot from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\nAction: At frame right, the narrator swallows and asks, “What about you?” Soin remains at frame left. Her shoulders lift slightly; her lips open on a short, disbelieving “Ha.”\nMood: The sting of a defensive answer arriving where reassurance was needed.",
+			"images": [
+				"cut_09_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: Empty track, the dark wall beyond it, and dark-coated commuters passing at the outer edges of the frame.\nShot size: medium\nCamera angle: eye level, oblique two-shot from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\nAction: At frame right, the narrator swallows and asks, “What about you?” Soin remains at frame left. Her shoulders lift slightly; her lips open on a short, disbelieving “Ha.”\nMood: The sting of a defensive answer arriving where reassurance was needed.",
+					"spec":
+					{
+						"shot_name": "Narrator turning Soin’s question back on her",
+						"beat": 9,
+						"zone": "Boarding bay",
+						"shot_size": "medium",
+						"angle": "eye level, oblique two-shot from the landward side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Narrator",
+							"Soin",
+							"Commuters"
+						],
+						"subject_states": [
+							{
+								"subject": "Soin",
+								"state": "Tears remain pooled along both lower eyelids."
+							}
+						],
+						"backdrop": "Empty track, the dark wall beyond it, and dark-coated commuters passing at the outer edges of the frame.",
+						"action": "At frame right, the narrator swallows and asks, “What about you?” Soin remains at frame left. Her shoulders lift slightly; her lips open on a short, disbelieving “Ha.”",
+						"emotion": "The sting of a defensive answer arriving where reassurance was needed.",
+						"transition": "Hard cut wider as the next train enters the bay.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Soin’s hair lifting beside the arriving train",
+				"beat": 10,
+				"zone": "Boarding bay",
+				"shot_size": "wide",
+				"angle": "eye level, from the landward side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Soin",
+					"Narrator",
+					"Commuters",
+					"Seoul-bound train"
+				],
+				"subject_states": [
+					{
+						"subject": "Soin",
+						"state": "Tears remain pooled along both lower eyelids; the ends of her bob lift outward in the train’s slipstream."
+					}
+				],
+				"backdrop": "The second train’s light metal side and charcoal windows moving right to left beside the ribbed platform edge.",
+				"action": "A second, identically styled train decelerates into position behind Soin. Its slipstream lifts her hair. The narrator raises a hand slightly toward her, but their feet remain planted and the space between them stays open.",
+				"emotion": "Paralysis at the last available chance.",
+				"transition": "Hard cut to the doorway as boarding begins.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The second train’s light metal side and charcoal windows moving right to left beside the ribbed platform edge.\nShot size: wide\nCamera angle: eye level, from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids; the ends of her bob lift outward in the train’s slipstream.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: A second, identically styled train decelerates into position behind Soin. Its slipstream lifts her hair. The narrator raises a hand slightly toward her, but their feet remain planted and the space between them stays open.\nMood: Paralysis at the last available chance.",
+			"images": [
+				"cut_10_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The second train’s light metal side and charcoal windows moving right to left beside the ribbed platform edge.\nShot size: wide\nCamera angle: eye level, from the landward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids; the ends of her bob lift outward in the train’s slipstream.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: A second, identically styled train decelerates into position behind Soin. Its slipstream lifts her hair. The narrator raises a hand slightly toward her, but their feet remain planted and the space between them stays open.\nMood: Paralysis at the last available chance.",
+					"spec":
+					{
+						"shot_name": "Soin’s hair lifting beside the arriving train",
+						"beat": 10,
+						"zone": "Boarding bay",
+						"shot_size": "wide",
+						"angle": "eye level, from the landward side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Soin",
+							"Narrator",
+							"Commuters",
+							"Seoul-bound train"
+						],
+						"subject_states": [
+							{
+								"subject": "Soin",
+								"state": "Tears remain pooled along both lower eyelids; the ends of her bob lift outward in the train’s slipstream."
+							}
+						],
+						"backdrop": "The second train’s light metal side and charcoal windows moving right to left beside the ribbed platform edge.",
+						"action": "A second, identically styled train decelerates into position behind Soin. Its slipstream lifts her hair. The narrator raises a hand slightly toward her, but their feet remain planted and the space between them stays open.",
+						"emotion": "Paralysis at the last available chance.",
+						"transition": "Hard cut to the doorway as boarding begins.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Soin boarding while the narrator follows her with their gaze",
+				"beat": 11,
+				"zone": "Boarding bay",
+				"shot_size": "medium",
+				"angle": "eye level, from the landward side",
+				"camera_move": "pan left",
+				"subjects_present": [
+					"Soin",
+					"Narrator",
+					"Commuters",
+					"Seoul-bound train"
+				],
+				"subject_states": [
+					{
+						"subject": "Soin",
+						"state": "Tears remain pooled along both lower eyelids; a narrow tear track marks her near cheek, and her hair ends remain wind-tossed."
+					}
+				],
+				"backdrop": "An open train doorway at frame left, its bright interior, adjacent dark windows, and the platform safety strip.",
+				"action": "Commuters converge through the open doorway, carrying Soin forward within their movement. She crosses the threshold without reaching back. The narrator remains outside at frame right and turns their head left to follow her.",
+				"emotion": "Separation becoming physical.",
+				"transition": "Hard cut to the closing barrier between their faces.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: An open train doorway at frame left, its bright interior, adjacent dark windows, and the platform safety strip.\nShot size: medium\nCamera angle: eye level, from the landward side\nCamera move: pan left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids; a narrow tear track marks her near cheek, and her hair ends remain wind-tossed.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: Commuters converge through the open doorway, carrying Soin forward within their movement. She crosses the threshold without reaching back. The narrator remains outside at frame right and turns their head left to follow her.\nMood: Separation becoming physical.",
+			"images": [
+				"cut_11_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: An open train doorway at frame left, its bright interior, adjacent dark windows, and the platform safety strip.\nShot size: medium\nCamera angle: eye level, from the landward side\nCamera move: pan left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along both lower eyelids; a narrow tear track marks her near cheek, and her hair ends remain wind-tossed.\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle.\n- Commuters (Recurring crowd ensemble): mixed adult heights and builds, predominantly black hair, near-black winter coats, dark trousers, rectangular shoulder bags, and rounded backpacks Signature, drawn only where this angle exposes it: overlapping dark, blocky silhouettes form a moving visual mass, including one notably broad, short figure and one exceptionally tall, narrow figure.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: Commuters converge through the open doorway, carrying Soin forward within their movement. She crosses the threshold without reaching back. The narrator remains outside at frame right and turns their head left to follow her.\nMood: Separation becoming physical.",
+					"spec":
+					{
+						"shot_name": "Soin boarding while the narrator follows her with their gaze",
+						"beat": 11,
+						"zone": "Boarding bay",
+						"shot_size": "medium",
+						"angle": "eye level, from the landward side",
+						"camera_move": "pan left",
+						"subjects_present": [
+							"Soin",
+							"Narrator",
+							"Commuters",
+							"Seoul-bound train"
+						],
+						"subject_states": [
+							{
+								"subject": "Soin",
+								"state": "Tears remain pooled along both lower eyelids; a narrow tear track marks her near cheek, and her hair ends remain wind-tossed."
+							}
+						],
+						"backdrop": "An open train doorway at frame left, its bright interior, adjacent dark windows, and the platform safety strip.",
+						"action": "Commuters converge through the open doorway, carrying Soin forward within their movement. She crosses the threshold without reaching back. The narrator remains outside at frame right and turns their head left to follow her.",
+						"emotion": "Separation becoming physical.",
+						"transition": "Hard cut to the closing barrier between their faces.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Narrator crying as the doors close on Soin",
+				"beat": 12,
+				"zone": "Boarding bay",
+				"shot_size": "close-up",
+				"angle": "eye level, oblique profile along the train side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Narrator",
+					"Soin",
+					"Seoul-bound train"
+				],
+				"subject_states": [
+					{
+						"subject": "Narrator",
+						"state": "Eyes are wet, with a fresh tear running down the visible cheek."
+					},
+					{
+						"subject": "Soin",
+						"state": "Tears remain pooled along her lower eyelids, and the narrow tear track remains on her visible cheek; her hair has settled back into its blunt outline."
+					}
+				],
+				"backdrop": "The train’s paired door windows and bright interior, with Soin’s three-quarter profile visible through the left window.",
+				"action": "The doors meet between them. The narrator fills the right foreground, facing left toward Soin through the glass. Soin looks inward along the carriage rather than back at the narrator. A tear crosses the narrator’s cheek while their gaze stays fixed on her.",
+				"emotion": "Irreversible loss.",
+				"transition": "Hold on the closed doors and the narrator’s tear, then cut to black.",
+				"atmosphere": null,
+				"duration_seconds": 4.5
+			},
+			"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The train’s paired door windows and bright interior, with Soin’s three-quarter profile visible through the left window.\nShot size: close-up\nCamera angle: eye level, oblique profile along the train side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle. Current state in this cut: Eyes are wet, with a fresh tear running down the visible cheek.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along her lower eyelids, and the narrow tear track remains on her visible cheek; her hair has settled back into its blunt outline.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The doors meet between them. The narrator fills the right foreground, facing left toward Soin through the glass. Soin looks inward along the carriage rather than back at the narrator. A tear crosses the narrator’s cheek while their gaze stays fixed on her.\nMood: Irreversible loss.",
+			"images": [
+				"cut_12_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: An early-2000s Seoul underground railway station has utilitarian tiled architecture, brushed-metal fittings, dark speckled flooring, pale-gray walls, charcoal recesses, and cool fluorescent light punctuated by amber information displays.\nLocation: Underground urban railway station; indoor.\nAtmosphere: Evening, light rain aboveground, with tracked-in moisture on the stairs and no precipitation inside, steady cool fluorescent illumination, with amber station displays and white train-interior lighting.\nThis cut happens at Boarding bay: A platform section without platform screen doors contains a ribbed safety strip, a square tiled column, an overhead amber information board, and an open track with a dark tiled wall beyond; train doors stop beside the safety strip, and the stair landing opens into the bay at its right-hand end\nBackdrop, behind the action: The train’s paired door windows and bright interior, with Soin’s three-quarter profile visible through the left window.\nShot size: close-up\nCamera angle: eye level, oblique profile along the train side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Narrator (Young adult of unspecified gender): tall, lean build, narrow shoulders, a straight mid-gray thigh-length coat over dark trousers, and wet-shining black leather shoes Signature, drawn only where this angle exposes it: conspicuously long limbs and a narrow, upright silhouette distinguish them from every angle. Current state in this cut: Eyes are wet, with a fresh tear running down the visible cheek.\n- Soin (Young adult woman): short, slight build, near-black knee-length coat, dark straight trousers, flat dark shoes, pale-gray skin, dark eyes, and medium-gray hair representing brown, cut bluntly just above her shoulders Signature, drawn only where this angle exposes it: compact proportions and the broad, blunt outline of her brown bob remain recognizable from any angle. Current state in this cut: Tears remain pooled along her lower eyelids, and the narrow tear track remains on her visible cheek; her hair has settled back into its blunt outline.\n- Seoul-bound train (Successive, visually matching subway trains on the same service): long light-gray metal bodies, a charcoal window band, paired sliding doors, broad rectangular windows, and bright pale interiors Signature, drawn only where this angle exposes it: elongated rectangular proportions and the repeated dark-window/light-door rhythm identify the trains from front, side, or rear.\nAction: The doors meet between them. The narrator fills the right foreground, facing left toward Soin through the glass. Soin looks inward along the carriage rather than back at the narrator. A tear crosses the narrator’s cheek while their gaze stays fixed on her.\nMood: Irreversible loss.",
+					"spec":
+					{
+						"shot_name": "Narrator crying as the doors close on Soin",
+						"beat": 12,
+						"zone": "Boarding bay",
+						"shot_size": "close-up",
+						"angle": "eye level, oblique profile along the train side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Narrator",
+							"Soin",
+							"Seoul-bound train"
+						],
+						"subject_states": [
+							{
+								"subject": "Narrator",
+								"state": "Eyes are wet, with a fresh tear running down the visible cheek."
+							},
+							{
+								"subject": "Soin",
+								"state": "Tears remain pooled along her lower eyelids, and the narrow tear track remains on her visible cheek; her hair has settled back into its blunt outline."
+							}
+						],
+						"backdrop": "The train’s paired door windows and bright interior, with Soin’s three-quarter profile visible through the left window.",
+						"action": "The doors meet between them. The narrator fills the right foreground, facing left toward Soin through the glass. Soin looks inward along the carriage rather than back at the narrator. A tear crosses the narrator’s cheek while their gaze stays fixed on her.",
+						"emotion": "Irreversible loss.",
+						"transition": "Hold on the closed doors and the narrator’s tear, then cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 4.5
+					}
+				}
+			]
+		}
+	]
+}

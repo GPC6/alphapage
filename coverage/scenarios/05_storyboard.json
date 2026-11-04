@@ -1,0 +1,757 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "S#1 환영 시퀀스 – 몽타주 (애니매이션)\n바닷속 도시. 유리와 빛으로 된 건축.\n그 속에서 유영하는 또 다른 인류.\n빛은 교회나 성당에 있는 스테인드글라스처럼 색색으로 일렁인다.\n윤호, 숨소리가 잦아들며 두려움이 경이로움으로 바뀐다.\n바닷속 도시를 헤엄치면서 그의 눈동자에 환영이 비친다.\n윤호의 눈에서 화면이 왜곡되며 흰색 플래시.\n\nS#2 윤호 방 (밤 / 안)\n윤호는 똑같은 물고기 인간을 쳐다본다.\n그 물고기 인간은 이제는 윤호의 이마에 손을 대려고 한다.\n환상을 이미 경험한 윤호는 눈을 감으며 모든 것을 맡긴다.\n화면이 왜곡되며 블루 플래시.",
+	"draft_prompt": "S#1 환영 시퀀스 – 몽타주 (애니매이션)\n바닷속 도시. 유리와 빛으로 된 건축.\n그 속에서 유영하는 또 다른 인류.\n빛은 교회나 성당에 있는 스테인드글라스처럼 색색으로 일렁인다.\n윤호, 숨소리가 잦아들며 두려움이 경이로움으로 바뀐다.\n바닷속 도시를 헤엄치면서 그의 눈동자에 환영이 비친다.\n윤호의 눈에서 화면이 왜곡되며 흰색 플래시.\n\nS#2 윤호 방 (밤 / 안)\n윤호는 똑같은 물고기 인간을 쳐다본다.\n그 물고기 인간은 이제는 윤호의 이마에 손을 대려고 한다.\n환상을 이미 경험한 윤호는 눈을 감으며 모든 것을 맡긴다.\n화면이 왜곡되며 블루 플래시.",
+	"request":
+	{
+		"cut_count": 12,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 12,
+		"duration_seconds": 40
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.",
+			"location_type": "A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.",
+			"zones": [
+				{
+					"name": "Glass Avenue",
+					"description": "A broad submerged avenue paved with pale glass slabs, tall transparent buildings with narrow vertical ribs, projecting glass buttresses, suspended particles, and dark open water overhead; an open arch at the avenue’s end reveals the columns of Prismatic Court",
+					"connects_to": [
+						"Prismatic Court"
+					]
+				},
+				{
+					"name": "Prismatic Court",
+					"description": "A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch",
+					"connects_to": [
+						"Glass Avenue"
+					]
+				},
+				{
+					"name": "Yunho's Bedroom",
+					"description": "A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed",
+					"connects_to": []
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Night",
+				"weather": "calm conditions, clear water in the vision, no visible precipitation outside the bedroom",
+				"lighting": "low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "Frightened Yunho seeks to understand a strange fish-human, swimming through a radiant underwater city that turns his fear into wonder before a white flash returns him to his bedroom, where he closes his eyes and accepts the creature’s approaching hand as the room dissolves into blue light.",
+			"beats": [
+				{
+					"summary": "An underwater city reveals another humanity moving freely through its luminous architecture",
+					"emotion": "disorientation"
+				},
+				{
+					"summary": "The fish-human’s calm presence allows Yunho’s breathing to settle and his fear to soften",
+					"emotion": "reassurance"
+				},
+				{
+					"summary": "Yunho willingly explores the city, its stained-glass radiance gathering in his eye",
+					"emotion": "wonder"
+				},
+				{
+					"summary": "The vision reflected in Yunho’s eye distorts and disappears into a white flash",
+					"emotion": "destabilization"
+				},
+				{
+					"summary": "In his bedroom, Yunho recognizes the same fish-human as its hand approaches his forehead",
+					"emotion": "vulnerable recognition"
+				},
+				{
+					"summary": "Yunho closes his eyes in surrender, and the room warps into a blue flash",
+					"emotion": "trust"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Yunho",
+				"kind": "Human young adult",
+				"appearance": "slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet",
+				"signature_features": [
+					"narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear."
+				]
+			},
+			{
+				"name": "Fish-human",
+				"kind": "Amphibious humanoid",
+				"appearance": "tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back",
+				"signature_features": [
+					"the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye."
+				]
+			},
+			{
+				"name": "Undersea swimmers",
+				"kind": "A fixed trio of amphibious city inhabitants",
+				"appearance": "pale-gray bodies, compact torsos, long limbs, small webbed hands, and ribbonlike calf fins; one tall, one medium-height, and one short",
+				"signature_features": [
+					"their stepped height arrangement and long trailing calf fins distinguish the trio from every viewing direction."
+				]
+			}
+		],
+		"run_id": "storyboard_20261014_115111_31656cb4"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Yunho entering the submerged city",
+				"beat": 1,
+				"zone": "Glass Avenue",
+				"shot_size": "extreme wide",
+				"angle": "high three-quarter",
+				"camera_move": "slow dolly forward",
+				"subjects_present": [
+					"Yunho",
+					"Undersea swimmers"
+				],
+				"subject_states": [],
+				"backdrop": "Transparent towers and ribbed buttresses flank the glass avenue; dark open water fills the upper frame, and the entrance to Prismatic Court stands in the distance.",
+				"action": "Yunho swims toward frame right with rigid shoulders and arms held close; farther along the avenue, the three swimmers glide freely between the buildings.",
+				"emotion": "Overwhelming unfamiliarity.",
+				"transition": "Hard cut closer to the swimmers.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Glass Avenue: A broad submerged avenue paved with pale glass slabs, tall transparent buildings with narrow vertical ribs, projecting glass buttresses, suspended particles, and dark open water overhead; an open arch at the avenue’s end reveals the columns of Prismatic Court\nBackdrop, behind the action: Transparent towers and ribbed buttresses flank the glass avenue; dark open water fills the upper frame, and the entrance to Prismatic Court stands in the distance.\nShot size: extreme wide\nCamera angle: high three-quarter\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Undersea swimmers (A fixed trio of amphibious city inhabitants): pale-gray bodies, compact torsos, long limbs, small webbed hands, and ribbonlike calf fins; one tall, one medium-height, and one short Signature, drawn only where this angle exposes it: their stepped height arrangement and long trailing calf fins distinguish the trio from every viewing direction.\nAction: Yunho swims toward frame right with rigid shoulders and arms held close; farther along the avenue, the three swimmers glide freely between the buildings.\nMood: Overwhelming unfamiliarity.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Glass Avenue: A broad submerged avenue paved with pale glass slabs, tall transparent buildings with narrow vertical ribs, projecting glass buttresses, suspended particles, and dark open water overhead; an open arch at the avenue’s end reveals the columns of Prismatic Court\nBackdrop, behind the action: Transparent towers and ribbed buttresses flank the glass avenue; dark open water fills the upper frame, and the entrance to Prismatic Court stands in the distance.\nShot size: extreme wide\nCamera angle: high three-quarter\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Undersea swimmers (A fixed trio of amphibious city inhabitants): pale-gray bodies, compact torsos, long limbs, small webbed hands, and ribbonlike calf fins; one tall, one medium-height, and one short Signature, drawn only where this angle exposes it: their stepped height arrangement and long trailing calf fins distinguish the trio from every viewing direction.\nAction: Yunho swims toward frame right with rigid shoulders and arms held close; farther along the avenue, the three swimmers glide freely between the buildings.\nMood: Overwhelming unfamiliarity.",
+					"spec":
+					{
+						"shot_name": "Yunho entering the submerged city",
+						"beat": 1,
+						"zone": "Glass Avenue",
+						"shot_size": "extreme wide",
+						"angle": "high three-quarter",
+						"camera_move": "slow dolly forward",
+						"subjects_present": [
+							"Yunho",
+							"Undersea swimmers"
+						],
+						"subject_states": [],
+						"backdrop": "Transparent towers and ribbed buttresses flank the glass avenue; dark open water fills the upper frame, and the entrance to Prismatic Court stands in the distance.",
+						"action": "Yunho swims toward frame right with rigid shoulders and arms held close; farther along the avenue, the three swimmers glide freely between the buildings.",
+						"emotion": "Overwhelming unfamiliarity.",
+						"transition": "Hard cut closer to the swimmers.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Undersea swimmers revealing their humanlike ease",
+				"beat": 1,
+				"zone": "Glass Avenue",
+				"shot_size": "medium",
+				"angle": "eye level",
+				"camera_move": "tracking right",
+				"subjects_present": [
+					"Undersea swimmers"
+				],
+				"subject_states": [],
+				"backdrop": "A transparent building wall and its narrow vertical ribs carry soft bands of colored light.",
+				"action": "The trio moves toward frame right; the shortest swimmer turns toward the tallest and reaches out a relaxed hand while their calf fins stream behind them.",
+				"emotion": "Recognition of an unfamiliar humanity.",
+				"transition": "Hard cut along the same left-to-right travel direction.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Glass Avenue: A broad submerged avenue paved with pale glass slabs, tall transparent buildings with narrow vertical ribs, projecting glass buttresses, suspended particles, and dark open water overhead; an open arch at the avenue’s end reveals the columns of Prismatic Court\nBackdrop, behind the action: A transparent building wall and its narrow vertical ribs carry soft bands of colored light.\nShot size: medium\nCamera angle: eye level\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Undersea swimmers (A fixed trio of amphibious city inhabitants): pale-gray bodies, compact torsos, long limbs, small webbed hands, and ribbonlike calf fins; one tall, one medium-height, and one short Signature, drawn only where this angle exposes it: their stepped height arrangement and long trailing calf fins distinguish the trio from every viewing direction.\nAction: The trio moves toward frame right; the shortest swimmer turns toward the tallest and reaches out a relaxed hand while their calf fins stream behind them.\nMood: Recognition of an unfamiliar humanity.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Glass Avenue: A broad submerged avenue paved with pale glass slabs, tall transparent buildings with narrow vertical ribs, projecting glass buttresses, suspended particles, and dark open water overhead; an open arch at the avenue’s end reveals the columns of Prismatic Court\nBackdrop, behind the action: A transparent building wall and its narrow vertical ribs carry soft bands of colored light.\nShot size: medium\nCamera angle: eye level\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Undersea swimmers (A fixed trio of amphibious city inhabitants): pale-gray bodies, compact torsos, long limbs, small webbed hands, and ribbonlike calf fins; one tall, one medium-height, and one short Signature, drawn only where this angle exposes it: their stepped height arrangement and long trailing calf fins distinguish the trio from every viewing direction.\nAction: The trio moves toward frame right; the shortest swimmer turns toward the tallest and reaches out a relaxed hand while their calf fins stream behind them.\nMood: Recognition of an unfamiliar humanity.",
+					"spec":
+					{
+						"shot_name": "Undersea swimmers revealing their humanlike ease",
+						"beat": 1,
+						"zone": "Glass Avenue",
+						"shot_size": "medium",
+						"angle": "eye level",
+						"camera_move": "tracking right",
+						"subjects_present": [
+							"Undersea swimmers"
+						],
+						"subject_states": [],
+						"backdrop": "A transparent building wall and its narrow vertical ribs carry soft bands of colored light.",
+						"action": "The trio moves toward frame right; the shortest swimmer turns toward the tallest and reaches out a relaxed hand while their calf fins stream behind them.",
+						"emotion": "Recognition of an unfamiliar humanity.",
+						"transition": "Hard cut along the same left-to-right travel direction.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Fish-human welcoming Yunho into the court",
+				"beat": 2,
+				"zone": "Prismatic Court",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "slow tracking right",
+				"subjects_present": [
+					"Yunho",
+					"Fish-human"
+				],
+				"subject_states": [],
+				"backdrop": "The entrance arch and a visible stretch of Glass Avenue occupy the left background; glass columns and luminous vertical panels fill the court behind the fish-human.",
+				"action": "Yunho passes through the entrance at frame left toward the fish-human at frame right, who floats upright with open hands and relaxed shoulders.",
+				"emotion": "Cautious reassurance.",
+				"transition": "Hard cut to Yunho’s reaction.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: The entrance arch and a visible stretch of Glass Avenue occupy the left background; glass columns and luminous vertical panels fill the court behind the fish-human.\nShot size: wide\nCamera angle: eye level\nCamera move: slow tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho passes through the entrance at frame left toward the fish-human at frame right, who floats upright with open hands and relaxed shoulders.\nMood: Cautious reassurance.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: The entrance arch and a visible stretch of Glass Avenue occupy the left background; glass columns and luminous vertical panels fill the court behind the fish-human.\nShot size: wide\nCamera angle: eye level\nCamera move: slow tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho passes through the entrance at frame left toward the fish-human at frame right, who floats upright with open hands and relaxed shoulders.\nMood: Cautious reassurance.",
+					"spec":
+					{
+						"shot_name": "Fish-human welcoming Yunho into the court",
+						"beat": 2,
+						"zone": "Prismatic Court",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "slow tracking right",
+						"subjects_present": [
+							"Yunho",
+							"Fish-human"
+						],
+						"subject_states": [],
+						"backdrop": "The entrance arch and a visible stretch of Glass Avenue occupy the left background; glass columns and luminous vertical panels fill the court behind the fish-human.",
+						"action": "Yunho passes through the entrance at frame left toward the fish-human at frame right, who floats upright with open hands and relaxed shoulders.",
+						"emotion": "Cautious reassurance.",
+						"transition": "Hard cut to Yunho’s reaction.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho releasing his fear",
+				"beat": 2,
+				"zone": "Prismatic Court",
+				"shot_size": "close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [],
+				"backdrop": "Soft, out-of-focus bands of light from a translucent court panel.",
+				"action": "Yunho’s raised shoulders settle, his brow loosens, and a sparse thread of bubbles escapes his slightly parted lips.",
+				"emotion": "Relief becoming curiosity.",
+				"transition": "Hard cut to his forward movement.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: Soft, out-of-focus bands of light from a translucent court panel.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho’s raised shoulders settle, his brow loosens, and a sparse thread of bubbles escapes his slightly parted lips.\nMood: Relief becoming curiosity.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: Soft, out-of-focus bands of light from a translucent court panel.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho’s raised shoulders settle, his brow loosens, and a sparse thread of bubbles escapes his slightly parted lips.\nMood: Relief becoming curiosity.",
+					"spec":
+					{
+						"shot_name": "Yunho releasing his fear",
+						"beat": 2,
+						"zone": "Prismatic Court",
+						"shot_size": "close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [],
+						"backdrop": "Soft, out-of-focus bands of light from a translucent court panel.",
+						"action": "Yunho’s raised shoulders settle, his brow loosens, and a sparse thread of bubbles escapes his slightly parted lips.",
+						"emotion": "Relief becoming curiosity.",
+						"transition": "Hard cut to his forward movement.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho swimming through the colored light",
+				"beat": 3,
+				"zone": "Prismatic Court",
+				"shot_size": "wide",
+				"angle": "low",
+				"camera_move": "tracking right",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [],
+				"backdrop": "Tall glass columns rise toward open dark water; pointed arch frames overlap above the luminous vertical panels.",
+				"action": "Yunho glides toward frame right with his arms opening loosely, his face lifted into overlapping patches of jewel-colored light.",
+				"emotion": "Expansive wonder.",
+				"transition": "Hard cut to the light reflected in his eye.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: Tall glass columns rise toward open dark water; pointed arch frames overlap above the luminous vertical panels.\nShot size: wide\nCamera angle: low\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho glides toward frame right with his arms opening loosely, his face lifted into overlapping patches of jewel-colored light.\nMood: Expansive wonder.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nBackdrop, behind the action: Tall glass columns rise toward open dark water; pointed arch frames overlap above the luminous vertical panels.\nShot size: wide\nCamera angle: low\nCamera move: tracking right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho glides toward frame right with his arms opening loosely, his face lifted into overlapping patches of jewel-colored light.\nMood: Expansive wonder.",
+					"spec":
+					{
+						"shot_name": "Yunho swimming through the colored light",
+						"beat": 3,
+						"zone": "Prismatic Court",
+						"shot_size": "wide",
+						"angle": "low",
+						"camera_move": "tracking right",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [],
+						"backdrop": "Tall glass columns rise toward open dark water; pointed arch frames overlap above the luminous vertical panels.",
+						"action": "Yunho glides toward frame right with his arms opening loosely, his face lifted into overlapping patches of jewel-colored light.",
+						"emotion": "Expansive wonder.",
+						"transition": "Hard cut to the light reflected in his eye.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho holding the city in his eye",
+				"beat": 3,
+				"zone": "Prismatic Court",
+				"shot_size": "extreme close-up",
+				"angle": "eye level",
+				"camera_move": "slow dolly in",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "Yunho’s open eye fills the image; sharply reflected glass arches and colored panels curve across its moist surface around the dark pupil.",
+				"emotion": "Intimate, absorbed wonder.",
+				"transition": "Graphic match cut on the pupil.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: extreme close-up\nCamera angle: eye level\nCamera move: slow dolly in\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho’s open eye fills the image; sharply reflected glass arches and colored panels curve across its moist surface around the dark pupil.\nMood: Intimate, absorbed wonder.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: extreme close-up\nCamera angle: eye level\nCamera move: slow dolly in\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\nAction: Yunho’s open eye fills the image; sharply reflected glass arches and colored panels curve across its moist surface around the dark pupil.\nMood: Intimate, absorbed wonder.",
+					"spec":
+					{
+						"shot_name": "Yunho holding the city in his eye",
+						"beat": 3,
+						"zone": "Prismatic Court",
+						"shot_size": "extreme close-up",
+						"angle": "eye level",
+						"camera_move": "slow dolly in",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "Yunho’s open eye fills the image; sharply reflected glass arches and colored panels curve across its moist surface around the dark pupil.",
+						"emotion": "Intimate, absorbed wonder.",
+						"transition": "Graphic match cut on the pupil.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho’s reflected city buckling",
+				"beat": 4,
+				"zone": "Prismatic Court",
+				"shot_size": "extreme close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho"
+				],
+				"subject_states": [
+					{
+						"subject": "Yunho",
+						"state": "His visible eye and the surrounding skin are optically stretched into concentric ripples; this is image distortion, not physical injury."
+					}
+				],
+				"backdrop": null,
+				"action": "The reflected arches bend inward around Yunho’s pupil as bright white light spreads across the distorted iris.",
+				"emotion": "Wonder tipping into instability.",
+				"transition": "Flash cut to full white.",
+				"atmosphere": "The eye reflection brightens rapidly toward a white flash.",
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: The eye reflection brightens rapidly toward a white flash.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear. Current state in this cut: His visible eye and the surrounding skin are optically stretched into concentric ripples; this is image distortion, not physical injury.\nAction: The reflected arches bend inward around Yunho’s pupil as bright white light spreads across the distorted iris.\nMood: Wonder tipping into instability.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: The eye reflection brightens rapidly toward a white flash.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: extreme close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear. Current state in this cut: His visible eye and the surrounding skin are optically stretched into concentric ripples; this is image distortion, not physical injury.\nAction: The reflected arches bend inward around Yunho’s pupil as bright white light spreads across the distorted iris.\nMood: Wonder tipping into instability.",
+					"spec":
+					{
+						"shot_name": "Yunho’s reflected city buckling",
+						"beat": 4,
+						"zone": "Prismatic Court",
+						"shot_size": "extreme close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho"
+						],
+						"subject_states": [
+							{
+								"subject": "Yunho",
+								"state": "His visible eye and the surrounding skin are optically stretched into concentric ripples; this is image distortion, not physical injury."
+							}
+						],
+						"backdrop": null,
+						"action": "The reflected arches bend inward around Yunho’s pupil as bright white light spreads across the distorted iris.",
+						"emotion": "Wonder tipping into instability.",
+						"transition": "Flash cut to full white.",
+						"atmosphere": "The eye reflection brightens rapidly toward a white flash.",
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "White flash erasing the vision",
+				"beat": 4,
+				"zone": "Prismatic Court",
+				"shot_size": "insert",
+				"angle": "frontal",
+				"camera_move": "static",
+				"subjects_present": [],
+				"subject_states": [],
+				"backdrop": null,
+				"action": "Featureless white light fills the entire image.",
+				"emotion": "A momentary loss of orientation.",
+				"transition": "Hard cut from white to the dim bedroom.",
+				"atmosphere": "Full-frame white flash; no environmental detail remains visible.",
+				"duration_seconds": 1
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Full-frame white flash; no environmental detail remains visible.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: insert\nCamera angle: frontal\nAction: Featureless white light fills the entire image.\nMood: A momentary loss of orientation.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Full-frame white flash; no environmental detail remains visible.\nThis cut happens at Prismatic Court: A roofless submerged court with a translucent tiled floor, tall glass columns, freestanding pointed arch frames, and vertical translucent panels casting overlapping jewel-colored light; Glass Avenue is visible through the entrance arch\nShot size: insert\nCamera angle: frontal\nAction: Featureless white light fills the entire image.\nMood: A momentary loss of orientation.",
+					"spec":
+					{
+						"shot_name": "White flash erasing the vision",
+						"beat": 4,
+						"zone": "Prismatic Court",
+						"shot_size": "insert",
+						"angle": "frontal",
+						"camera_move": "static",
+						"subjects_present": [],
+						"subject_states": [],
+						"backdrop": null,
+						"action": "Featureless white light fills the entire image.",
+						"emotion": "A momentary loss of orientation.",
+						"transition": "Hard cut from white to the dim bedroom.",
+						"atmosphere": "Full-frame white flash; no environmental detail remains visible.",
+						"duration_seconds": 1
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho recognizing the fish-human beside his bed",
+				"beat": 5,
+				"zone": "Yunho's Bedroom",
+				"shot_size": "medium",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Fish-human"
+				],
+				"subject_states": [],
+				"backdrop": "The low wooden headboard and pale plaster wall stand behind Yunho; the curtained window occupies the background behind the fish-human.",
+				"action": "Yunho sits upright at frame left beneath the blanket and looks steadily at the fish-human standing at frame right; the creature’s pale eye crescent and massive forearms are clearly visible.",
+				"emotion": "Recognition without the earlier panic.",
+				"transition": "Hard cut to the approaching hand, preserving Yunho left and the fish-human right.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The low wooden headboard and pale plaster wall stand behind Yunho; the curtained window occupies the background behind the fish-human.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho sits upright at frame left beneath the blanket and looks steadily at the fish-human standing at frame right; the creature’s pale eye crescent and massive forearms are clearly visible.\nMood: Recognition without the earlier panic.",
+			"images": [
+				"cut_09_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The low wooden headboard and pale plaster wall stand behind Yunho; the curtained window occupies the background behind the fish-human.\nShot size: medium\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho sits upright at frame left beneath the blanket and looks steadily at the fish-human standing at frame right; the creature’s pale eye crescent and massive forearms are clearly visible.\nMood: Recognition without the earlier panic.",
+					"spec":
+					{
+						"shot_name": "Yunho recognizing the fish-human beside his bed",
+						"beat": 5,
+						"zone": "Yunho's Bedroom",
+						"shot_size": "medium",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Fish-human"
+						],
+						"subject_states": [],
+						"backdrop": "The low wooden headboard and pale plaster wall stand behind Yunho; the curtained window occupies the background behind the fish-human.",
+						"action": "Yunho sits upright at frame left beneath the blanket and looks steadily at the fish-human standing at frame right; the creature’s pale eye crescent and massive forearms are clearly visible.",
+						"emotion": "Recognition without the earlier panic.",
+						"transition": "Hard cut to the approaching hand, preserving Yunho left and the fish-human right.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Fish-human reaching toward Yunho’s forehead",
+				"beat": 5,
+				"zone": "Yunho's Bedroom",
+				"shot_size": "close-up",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Fish-human"
+				],
+				"subject_states": [],
+				"backdrop": "A softly blurred patch of the pale plaster wall.",
+				"action": "Yunho’s attentive face occupies frame left as the fish-human’s oversized webbed hand enters from frame right, its fingertips stopping just short of his forehead.",
+				"emotion": "Vulnerability held in suspense.",
+				"transition": "Hard cut slightly wider without crossing the eyeline.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: A softly blurred patch of the pale plaster wall.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho’s attentive face occupies frame left as the fish-human’s oversized webbed hand enters from frame right, its fingertips stopping just short of his forehead.\nMood: Vulnerability held in suspense.",
+			"images": [
+				"cut_10_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: A softly blurred patch of the pale plaster wall.\nShot size: close-up\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho’s attentive face occupies frame left as the fish-human’s oversized webbed hand enters from frame right, its fingertips stopping just short of his forehead.\nMood: Vulnerability held in suspense.",
+					"spec":
+					{
+						"shot_name": "Fish-human reaching toward Yunho’s forehead",
+						"beat": 5,
+						"zone": "Yunho's Bedroom",
+						"shot_size": "close-up",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Fish-human"
+						],
+						"subject_states": [],
+						"backdrop": "A softly blurred patch of the pale plaster wall.",
+						"action": "Yunho’s attentive face occupies frame left as the fish-human’s oversized webbed hand enters from frame right, its fingertips stopping just short of his forehead.",
+						"emotion": "Vulnerability held in suspense.",
+						"transition": "Hard cut slightly wider without crossing the eyeline.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho closing his eyes beneath the waiting hand",
+				"beat": 6,
+				"zone": "Yunho's Bedroom",
+				"shot_size": "medium close-up",
+				"angle": "eye level",
+				"camera_move": "slow dolly in",
+				"subjects_present": [
+					"Yunho",
+					"Fish-human"
+				],
+				"subject_states": [],
+				"backdrop": "The wooden headboard and plain plaster wall frame Yunho’s head and shoulders.",
+				"action": "Yunho closes his eyes and relaxes his jaw, inclining his forehead slightly toward the fish-human’s fingers; the hand remains a finger-width from his skin.",
+				"emotion": "Deliberate surrender and trust.",
+				"transition": "Hard cut wider as the blue flare begins.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The wooden headboard and plain plaster wall frame Yunho’s head and shoulders.\nShot size: medium close-up\nCamera angle: eye level\nCamera move: slow dolly in\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho closes his eyes and relaxes his jaw, inclining his forehead slightly toward the fish-human’s fingers; the hand remains a finger-width from his skin.\nMood: Deliberate surrender and trust.",
+			"images": [
+				"cut_11_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: Night, calm conditions, clear water in the vision, no visible precipitation outside the bedroom, low pearl-gray underwater fill with softly luminous colored glass; dim, cool window light in the bedroom.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The wooden headboard and plain plaster wall frame Yunho’s head and shoulders.\nShot size: medium close-up\nCamera angle: eye level\nCamera move: slow dolly in\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye.\nAction: Yunho closes his eyes and relaxes his jaw, inclining his forehead slightly toward the fish-human’s fingers; the hand remains a finger-width from his skin.\nMood: Deliberate surrender and trust.",
+					"spec":
+					{
+						"shot_name": "Yunho closing his eyes beneath the waiting hand",
+						"beat": 6,
+						"zone": "Yunho's Bedroom",
+						"shot_size": "medium close-up",
+						"angle": "eye level",
+						"camera_move": "slow dolly in",
+						"subjects_present": [
+							"Yunho",
+							"Fish-human"
+						],
+						"subject_states": [],
+						"backdrop": "The wooden headboard and plain plaster wall frame Yunho’s head and shoulders.",
+						"action": "Yunho closes his eyes and relaxes his jaw, inclining his forehead slightly toward the fish-human’s fingers; the hand remains a finger-width from his skin.",
+						"emotion": "Deliberate surrender and trust.",
+						"transition": "Hard cut wider as the blue flare begins.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yunho and the fish-human dissolving into blue light",
+				"beat": 6,
+				"zone": "Yunho's Bedroom",
+				"shot_size": "wide",
+				"angle": "eye level",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yunho",
+					"Fish-human"
+				],
+				"subject_states": [
+					{
+						"subject": "Yunho",
+						"state": "His closed-eyed silhouette is optically stretched and doubled by the distortion, with pale blue light washing out its detail."
+					},
+					{
+						"subject": "Fish-human",
+						"state": "Its body and hovering hand have optically stretched, doubled contours under the blue flare."
+					}
+				],
+				"backdrop": "The bed, headboard, curtained window, and plaster wall remain visible as bowed, blue-washed shapes.",
+				"action": "Yunho sits with his eyes closed beneath the fish-human’s hovering hand while the room’s straight edges bend outward and saturated blue light floods the image.",
+				"emotion": "Trust passing into an unknown experience.",
+				"transition": "The blue flash expands to fill the frame and holds briefly, ending the sequence.",
+				"atmosphere": "An intense blue flash overwhelms the bedroom’s dim window light.",
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: An intense blue flash overwhelms the bedroom’s dim window light.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The bed, headboard, curtained window, and plaster wall remain visible as bowed, blue-washed shapes.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear. Current state in this cut: His closed-eyed silhouette is optically stretched and doubled by the distortion, with pale blue light washing out its detail.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye. Current state in this cut: Its body and hovering hand have optically stretched, doubled contours under the blue flare.\nAction: Yunho sits with his eyes closed beneath the fish-human’s hovering hand while the room’s straight edges bend outward and saturated blue light floods the image.\nMood: Trust passing into an unknown experience.",
+			"images": [
+				"cut_12_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary animated architecture combines slender luminous glass structures with a plain plaster-and-wood bedroom, using charcoal-to-pearl-gray values, soft nocturnal illumination, and stained-glass-like jewel colors within the underwater light.\nLocation: A submerged city exterior and open-water architectural court, followed by an indoor bedroom connected only through the vision transition.\nAtmosphere: An intense blue flash overwhelms the bedroom’s dim window light.\nThis cut happens at Yunho's Bedroom: A narrow bed with a low wooden headboard, pale sheets and a charcoal-edged blanket, matte light-gray plaster walls, a small curtained window, a plain wooden desk beneath it, and a closed wooden door; there is standing space beside the bed\nBackdrop, behind the action: The bed, headboard, curtained window, and plaster wall remain visible as bowed, blue-washed shapes.\nShot size: wide\nCamera angle: eye level\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yunho (Human young adult): slender build, short charcoal hair, loose pale-gray long-sleeved sleep shirt, mid-gray ankle-length trousers, bare feet Signature, drawn only where this angle exposes it: narrow limbs beneath a conspicuously oversized shirt create a recognizable silhouette from front, side, or rear. Current state in this cut: His closed-eyed silhouette is optically stretched and doubled by the distortion, with pale blue light washing out its detail.\n- Fish-human (Amphibious humanoid): tall, barrel-chested body with medium-gray scales, long heavy forearms, oversized webbed hands, broad bare feet, dark widely spaced eyes, and a low fin crest running from crown to upper back Signature, drawn only where this angle exposes it: the bulky torso and disproportionately long forearms remain recognizable from any angle; a pale crescent marking surrounds the left eye. Current state in this cut: Its body and hovering hand have optically stretched, doubled contours under the blue flare.\nAction: Yunho sits with his eyes closed beneath the fish-human’s hovering hand while the room’s straight edges bend outward and saturated blue light floods the image.\nMood: Trust passing into an unknown experience.",
+					"spec":
+					{
+						"shot_name": "Yunho and the fish-human dissolving into blue light",
+						"beat": 6,
+						"zone": "Yunho's Bedroom",
+						"shot_size": "wide",
+						"angle": "eye level",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yunho",
+							"Fish-human"
+						],
+						"subject_states": [
+							{
+								"subject": "Yunho",
+								"state": "His closed-eyed silhouette is optically stretched and doubled by the distortion, with pale blue light washing out its detail."
+							},
+							{
+								"subject": "Fish-human",
+								"state": "Its body and hovering hand have optically stretched, doubled contours under the blue flare."
+							}
+						],
+						"backdrop": "The bed, headboard, curtained window, and plaster wall remain visible as bowed, blue-washed shapes.",
+						"action": "Yunho sits with his eyes closed beneath the fish-human’s hovering hand while the room’s straight edges bend outward and saturated blue light floods the image.",
+						"emotion": "Trust passing into an unknown experience.",
+						"transition": "The blue flash expands to fill the frame and holds briefly, ending the sequence.",
+						"atmosphere": "An intense blue flash overwhelms the bedroom’s dim window light.",
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		}
+	]
+}

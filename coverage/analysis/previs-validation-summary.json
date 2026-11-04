@@ -1,0 +1,18 @@
+{
+  "mode": "previsualization",
+  "projects": 13,
+  "units": 85,
+  "conveyed": 69,
+  "partial": 13,
+  "missing": 3,
+  "coverage_percent": 81.17647058823529,
+  "original_quotes_validated": 85,
+  "time_ranges_and_evidence_paths_validated": 85,
+  "browser_test": "previs-browser-validation.json",
+  "source_and_clip_test": "previs-functional-validation.json",
+  "original_37_6_percent_report": "../outdated/Coverage_Report_2026-11-02/연출의도_커버리지_보고서_세부요건_이전판.html",
+  "file_hashes": {
+    "프리비즈_연출의도_보고서.html": "a45cd362134295f86fcea810f3ca3784661dd01cf044a9d5a09802b800bf7ef9",
+    "연출의도_커버리지_보고서.html": "a45cd362134295f86fcea810f3ca3784661dd01cf044a9d5a09802b800bf7ef9"
+  }
+}
