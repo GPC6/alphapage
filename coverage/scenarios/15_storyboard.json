@@ -1,0 +1,713 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "도심에서 경찰차와 승용차가 추격전을 벌인다.\n\n골목에서 긴급하게 승용차가 대로로 나오고 경찰차는 그 뒤를 따른다.\n\n많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)\n\n이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이 보이게)\n\n승용차가 지나가자 헬기가 교각으로 추락하고 폭발하며 교각이 무너진다. 교각에 있는 차들도 같이 무너져 바다에 빠진다.\n\n경찰차는 교각에 진입하기 직전에 간신히 멈춘다.\n\n승용차는 유유히 교외 도로로 빠져나간다.\n\n\n\n",
+	"draft_prompt": "도심에서 경찰차와 승용차가 추격전을 벌인다.\n\n골목에서 긴급하게 승용차가 대로로 나오고 경찰차는 그 뒤를 따른다.\n\n많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)\n\n이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이 보이게)\n\n승용차가 지나가자 헬기가 교각으로 추락하고 폭발하며 교각이 무너진다. 교각에 있는 차들도 같이 무너져 바다에 빠진다.\n\n경찰차는 교각에 진입하기 직전에 간신히 멈춘다.\n\n승용차는 유유히 교외 도로로 빠져나간다.\n\n\n\n",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 34
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.",
+			"location_type": "Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.",
+			"zones": [
+				{
+					"name": "Alley Mouth",
+					"description": "A narrow asphalt alley between tall concrete buildings, blank service doors, exposed drainpipes, scuffed masonry corners, and a shallow gutter opening onto the boulevard",
+					"connects_to": [
+						"Boulevard Approach"
+					]
+				},
+				{
+					"name": "Boulevard Approach",
+					"description": "A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance",
+					"connects_to": [
+						"Alley Mouth",
+						"Sea Bridge"
+					]
+				},
+				{
+					"name": "Sea Bridge",
+					"description": "A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end",
+					"connects_to": [
+						"Boulevard Approach",
+						"Suburban Road"
+					]
+				},
+				{
+					"name": "Suburban Road",
+					"description": "A gently curving two-lane road beyond the far bridge abutment, bordered by low guardrails, gravel shoulders, scrub grass, utility poles, scattered low concrete buildings, and rounded coastal hills",
+					"connects_to": [
+						"Sea Bridge"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "dry and still beneath continuous cloud cover",
+				"lighting": "soft, diffuse daylight with restrained reflections and no strong shadows."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A fleeing sedan escapes a police pursuit through crowded city streets and across a coastal bridge, surviving a pursuing helicopter’s catastrophic crash while the bridge collapses behind it and forces the police to stop.",
+			"beats": [
+				{
+					"summary": "A sedan bursts from an alley onto a busy boulevard with a police cruiser immediately behind it",
+					"emotion": "urgency"
+				},
+				{
+					"summary": "The sedan slips through a traffic gap that closes against the police cruiser",
+					"emotion": "mounting tension"
+				},
+				{
+					"summary": "The sedan leaves the downtown streets and commits to the bridge toward the suburbs",
+					"emotion": "precarious momentum"
+				},
+				{
+					"summary": "A helicopter joins the pursuit above the bridge, threatening the sedan from the air",
+					"emotion": "renewed danger"
+				},
+				{
+					"summary": "The helicopter crashes into the bridge and explodes behind the sedan, which has cleared the far end",
+					"emotion": "shock"
+				},
+				{
+					"summary": "The damaged bridge collapses, carrying its remaining civilian vehicles into the sea",
+					"emotion": "horror"
+				},
+				{
+					"summary": "The police cruiser stops just short of the destroyed bridge entrance",
+					"emotion": "breathless relief"
+				},
+				{
+					"summary": "The undamaged sedan continues alone along the suburban road",
+					"emotion": "unsettling calm"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Fugitive Sedan",
+				"kind": "Passenger car",
+				"appearance": "long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels",
+				"signature_features": [
+					"its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier."
+				]
+			},
+			{
+				"name": "Police Cruiser",
+				"kind": "Police car",
+				"appearance": "broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar",
+				"signature_features": [
+					"its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle."
+				]
+			},
+			{
+				"name": "Pursuit Helicopter",
+				"kind": "Police helicopter",
+				"appearance": "pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids",
+				"signature_features": [
+					"the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle."
+				]
+			},
+			{
+				"name": "City Bus",
+				"kind": "Urban bus",
+				"appearance": "very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band",
+				"signature_features": [
+					"its slab-sided length and high rectangular silhouette are recognizable from every angle."
+				]
+			},
+			{
+				"name": "Delivery Van",
+				"kind": "Cargo van",
+				"appearance": "short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows",
+				"signature_features": [
+					"its nearly cuboid body and unusually short wheelbase identify it from every angle."
+				]
+			},
+			{
+				"name": "Family Wagon",
+				"kind": "Passenger car",
+				"appearance": "medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section",
+				"signature_features": [
+					"its elongated roof and raised rails remain identifiable from every angle."
+				]
+			},
+			{
+				"name": "City Hatchback",
+				"kind": "Passenger car",
+				"appearance": "compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang",
+				"signature_features": [
+					"its stubby, dome-like silhouette distinguishes it from every angle."
+				]
+			},
+			{
+				"name": "Work Pickup",
+				"kind": "Light truck",
+				"appearance": "pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance",
+				"signature_features": [
+					"the pronounced separation between its short cab and long open bed is readable from every angle."
+				]
+			}
+		],
+		"run_id": "storyboard_20261031_023431_dda49b52"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Fugitive Sedan bursting onto the boulevard",
+				"beat": 1,
+				"zone": "Boulevard Approach",
+				"shot_size": "wide",
+				"angle": "elevated three-quarter view",
+				"camera_move": "short pan following the sedan’s turn",
+				"subjects_present": [
+					"Fugitive Sedan",
+					"Police Cruiser",
+					"City Bus",
+					"Delivery Van"
+				],
+				"subject_states": [],
+				"backdrop": "Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.",
+				"action": "The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van, its front end leading toward the bridge entrance and its rear trailing toward the alley. The Police Cruiser follows through the alley mouth in the same direction with its roof lights flashing.",
+				"emotion": "Immediate urgency",
+				"transition": "Hard cut to the sedan entering the traffic gap.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Target scene:\nSetting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.\nShot size: wide\nCamera angle: elevated three-quarter view\nCamera move: short pan following the sedan’s turn\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\n- City Bus (Urban bus): very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band Signature, drawn only where this angle exposes it: its slab-sided length and high rectangular silhouette are recognizable from every angle.\n- Delivery Van (Cargo van): short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows Signature, drawn only where this angle exposes it: its nearly cuboid body and unusually short wheelbase identify it from every angle.\nAction: The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van, its front end leading toward the bridge entrance and its rear trailing toward the alley. The Police Cruiser follows through the alley mouth in the same direction with its roof lights flashing.\nMood: Immediate urgency\n\nUser modification (verbatim):\n승용차 방향이 잘못됨\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_01_001.jpg",
+				"cut_01_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.\nShot size: wide\nCamera angle: elevated three-quarter view\nCamera move: short pan following the sedan’s turn\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\n- City Bus (Urban bus): very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band Signature, drawn only where this angle exposes it: its slab-sided length and high rectangular silhouette are recognizable from every angle.\n- Delivery Van (Cargo van): short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows Signature, drawn only where this angle exposes it: its nearly cuboid body and unusually short wheelbase identify it from every angle.\nAction: The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van. The Police Cruiser follows through the alley mouth with its roof lights flashing.\nMood: Immediate urgency",
+					"spec":
+					{
+						"shot_name": "Fugitive Sedan bursting onto the boulevard",
+						"beat": 1,
+						"zone": "Boulevard Approach",
+						"shot_size": "wide",
+						"angle": "elevated three-quarter view",
+						"camera_move": "short pan following the sedan’s turn",
+						"subjects_present": [
+							"Fugitive Sedan",
+							"Police Cruiser",
+							"City Bus",
+							"Delivery Van"
+						],
+						"subject_states": [],
+						"backdrop": "Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.",
+						"action": "The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van. The Police Cruiser follows through the alley mouth with its roof lights flashing.",
+						"emotion": "Immediate urgency",
+						"transition": "Hard cut to the sedan entering the traffic gap.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				},
+				{
+					"modification": "승용차 방향이 잘못됨",
+					"image_prompt": "Target scene:\nSetting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.\nShot size: wide\nCamera angle: elevated three-quarter view\nCamera move: short pan following the sedan’s turn\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\n- City Bus (Urban bus): very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band Signature, drawn only where this angle exposes it: its slab-sided length and high rectangular silhouette are recognizable from every angle.\n- Delivery Van (Cargo van): short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows Signature, drawn only where this angle exposes it: its nearly cuboid body and unusually short wheelbase identify it from every angle.\nAction: The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van, its front end leading toward the bridge entrance and its rear trailing toward the alley. The Police Cruiser follows through the alley mouth in the same direction with its roof lights flashing.\nMood: Immediate urgency\n\nUser modification (verbatim):\n승용차 방향이 잘못됨\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Fugitive Sedan bursting onto the boulevard",
+						"beat": 1,
+						"zone": "Boulevard Approach",
+						"shot_size": "wide",
+						"angle": "elevated three-quarter view",
+						"camera_move": "short pan following the sedan’s turn",
+						"subjects_present": [
+							"Fugitive Sedan",
+							"Police Cruiser",
+							"City Bus",
+							"Delivery Van"
+						],
+						"subject_states": [],
+						"backdrop": "Concrete office façades and storefront windows line the opposite sidewalk; the alley opening and its drainpipes remain visible behind the turning vehicles.",
+						"action": "The Fugitive Sedan swings out of the alley into the boulevard beside the moving City Bus and Delivery Van, its front end leading toward the bridge entrance and its rear trailing toward the alley. The Police Cruiser follows through the alley mouth in the same direction with its roof lights flashing.",
+						"emotion": "Immediate urgency",
+						"transition": "Hard cut to the sedan entering the traffic gap.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Fugitive Sedan slipping through congested traffic",
+				"beat": 2,
+				"zone": "Boulevard Approach",
+				"shot_size": "medium",
+				"angle": "low front three-quarter view",
+				"camera_move": "tracking backward with the sedan",
+				"subjects_present": [
+					"Fugitive Sedan",
+					"Police Cruiser",
+					"City Bus",
+					"Delivery Van",
+					"Family Wagon",
+					"City Hatchback",
+					"Work Pickup"
+				],
+				"subject_states": [],
+				"backdrop": "The Family Wagon and City Hatchback flank the sedan; the Work Pickup occupies a lane farther ahead. Behind them, the City Bus and Delivery Van crowd the junction, with the Police Cruiser visible through their narrowing gap.",
+				"action": "The Fugitive Sedan squeezes between the Family Wagon and City Hatchback. The City Bus and Delivery Van close across the available space behind it, forcing the Police Cruiser to brake in the congestion.",
+				"emotion": "Tense exhilaration",
+				"transition": "Hard cut to the open scale of the bridge crossing.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: The Family Wagon and City Hatchback flank the sedan; the Work Pickup occupies a lane farther ahead. Behind them, the City Bus and Delivery Van crowd the junction, with the Police Cruiser visible through their narrowing gap.\nShot size: medium\nCamera angle: low front three-quarter view\nCamera move: tracking backward with the sedan\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\n- City Bus (Urban bus): very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band Signature, drawn only where this angle exposes it: its slab-sided length and high rectangular silhouette are recognizable from every angle.\n- Delivery Van (Cargo van): short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows Signature, drawn only where this angle exposes it: its nearly cuboid body and unusually short wheelbase identify it from every angle.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Fugitive Sedan squeezes between the Family Wagon and City Hatchback. The City Bus and Delivery Van close across the available space behind it, forcing the Police Cruiser to brake in the congestion.\nMood: Tense exhilaration",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: The Family Wagon and City Hatchback flank the sedan; the Work Pickup occupies a lane farther ahead. Behind them, the City Bus and Delivery Van crowd the junction, with the Police Cruiser visible through their narrowing gap.\nShot size: medium\nCamera angle: low front three-quarter view\nCamera move: tracking backward with the sedan\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\n- City Bus (Urban bus): very long rectangular vehicle with a pale upper body, charcoal lower body, high flat roof, and a continuous dark window band Signature, drawn only where this angle exposes it: its slab-sided length and high rectangular silhouette are recognizable from every angle.\n- Delivery Van (Cargo van): short, pale-gray panel van with a very high roof, blunt ends, dark bumpers, and no rear side windows Signature, drawn only where this angle exposes it: its nearly cuboid body and unusually short wheelbase identify it from every angle.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Fugitive Sedan squeezes between the Family Wagon and City Hatchback. The City Bus and Delivery Van close across the available space behind it, forcing the Police Cruiser to brake in the congestion.\nMood: Tense exhilaration",
+					"spec":
+					{
+						"shot_name": "Fugitive Sedan slipping through congested traffic",
+						"beat": 2,
+						"zone": "Boulevard Approach",
+						"shot_size": "medium",
+						"angle": "low front three-quarter view",
+						"camera_move": "tracking backward with the sedan",
+						"subjects_present": [
+							"Fugitive Sedan",
+							"Police Cruiser",
+							"City Bus",
+							"Delivery Van",
+							"Family Wagon",
+							"City Hatchback",
+							"Work Pickup"
+						],
+						"subject_states": [],
+						"backdrop": "The Family Wagon and City Hatchback flank the sedan; the Work Pickup occupies a lane farther ahead. Behind them, the City Bus and Delivery Van crowd the junction, with the Police Cruiser visible through their narrowing gap.",
+						"action": "The Fugitive Sedan squeezes between the Family Wagon and City Hatchback. The City Bus and Delivery Van close across the available space behind it, forcing the Police Cruiser to brake in the congestion.",
+						"emotion": "Tense exhilaration",
+						"transition": "Hard cut to the open scale of the bridge crossing.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Fugitive Sedan racing onto the sea bridge",
+				"beat": 3,
+				"zone": "Sea Bridge",
+				"shot_size": "extreme wide",
+				"angle": "high oblique side view",
+				"camera_move": "slow lateral tracking",
+				"subjects_present": [
+					"Fugitive Sedan",
+					"Family Wagon",
+					"City Hatchback",
+					"Work Pickup"
+				],
+				"subject_states": [],
+				"backdrop": "The bridge stretches across dark seawater on tall concrete piers, with dense downtown towers at the city end and the suburban road threading into low hills at the opposite end.",
+				"action": "The Fugitive Sedan races along the bridge toward the suburban shore, opening a substantial gap ahead of the Family Wagon, City Hatchback, and Work Pickup.",
+				"emotion": "Exposed, precarious momentum",
+				"transition": "Hard cut retaining the sedan’s screen direction.",
+				"atmosphere": null,
+				"duration_seconds": 6
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The bridge stretches across dark seawater on tall concrete piers, with dense downtown towers at the city end and the suburban road threading into low hills at the opposite end.\nShot size: extreme wide\nCamera angle: high oblique side view\nCamera move: slow lateral tracking\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Fugitive Sedan races along the bridge toward the suburban shore, opening a substantial gap ahead of the Family Wagon, City Hatchback, and Work Pickup.\nMood: Exposed, precarious momentum",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The bridge stretches across dark seawater on tall concrete piers, with dense downtown towers at the city end and the suburban road threading into low hills at the opposite end.\nShot size: extreme wide\nCamera angle: high oblique side view\nCamera move: slow lateral tracking\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Fugitive Sedan races along the bridge toward the suburban shore, opening a substantial gap ahead of the Family Wagon, City Hatchback, and Work Pickup.\nMood: Exposed, precarious momentum",
+					"spec":
+					{
+						"shot_name": "Fugitive Sedan racing onto the sea bridge",
+						"beat": 3,
+						"zone": "Sea Bridge",
+						"shot_size": "extreme wide",
+						"angle": "high oblique side view",
+						"camera_move": "slow lateral tracking",
+						"subjects_present": [
+							"Fugitive Sedan",
+							"Family Wagon",
+							"City Hatchback",
+							"Work Pickup"
+						],
+						"subject_states": [],
+						"backdrop": "The bridge stretches across dark seawater on tall concrete piers, with dense downtown towers at the city end and the suburban road threading into low hills at the opposite end.",
+						"action": "The Fugitive Sedan races along the bridge toward the suburban shore, opening a substantial gap ahead of the Family Wagon, City Hatchback, and Work Pickup.",
+						"emotion": "Exposed, precarious momentum",
+						"transition": "Hard cut retaining the sedan’s screen direction.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Pursuit Helicopter overtaking the bridge traffic",
+				"beat": 4,
+				"zone": "Sea Bridge",
+				"shot_size": "wide",
+				"angle": "elevated side view",
+				"camera_move": "lateral tracking parallel to the bridge",
+				"subjects_present": [
+					"Pursuit Helicopter",
+					"Fugitive Sedan",
+					"Family Wagon",
+					"City Hatchback",
+					"Work Pickup"
+				],
+				"subject_states": [],
+				"backdrop": "The bridge deck, barriers, lamp poles, and supporting piers occupy the lower frame above the sea; the far abutment and the beginning of the suburban road are visible ahead.",
+				"action": "The Pursuit Helicopter flies low above the bridge in pursuit of the Fugitive Sedan, which is nearing the far expansion joint. The three civilian vehicles remain farther back on the span.",
+				"emotion": "Renewed danger",
+				"transition": "Hard cut toward the far span and the helicopter’s descending path.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The bridge deck, barriers, lamp poles, and supporting piers occupy the lower frame above the sea; the far abutment and the beginning of the suburban road are visible ahead.\nShot size: wide\nCamera angle: elevated side view\nCamera move: lateral tracking parallel to the bridge\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle.\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Pursuit Helicopter flies low above the bridge in pursuit of the Fugitive Sedan, which is nearing the far expansion joint. The three civilian vehicles remain farther back on the span.\nMood: Renewed danger",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The bridge deck, barriers, lamp poles, and supporting piers occupy the lower frame above the sea; the far abutment and the beginning of the suburban road are visible ahead.\nShot size: wide\nCamera angle: elevated side view\nCamera move: lateral tracking parallel to the bridge\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle.\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle.\nAction: The Pursuit Helicopter flies low above the bridge in pursuit of the Fugitive Sedan, which is nearing the far expansion joint. The three civilian vehicles remain farther back on the span.\nMood: Renewed danger",
+					"spec":
+					{
+						"shot_name": "Pursuit Helicopter overtaking the bridge traffic",
+						"beat": 4,
+						"zone": "Sea Bridge",
+						"shot_size": "wide",
+						"angle": "elevated side view",
+						"camera_move": "lateral tracking parallel to the bridge",
+						"subjects_present": [
+							"Pursuit Helicopter",
+							"Fugitive Sedan",
+							"Family Wagon",
+							"City Hatchback",
+							"Work Pickup"
+						],
+						"subject_states": [],
+						"backdrop": "The bridge deck, barriers, lamp poles, and supporting piers occupy the lower frame above the sea; the far abutment and the beginning of the suburban road are visible ahead.",
+						"action": "The Pursuit Helicopter flies low above the bridge in pursuit of the Fugitive Sedan, which is nearing the far expansion joint. The three civilian vehicles remain farther back on the span.",
+						"emotion": "Renewed danger",
+						"transition": "Hard cut toward the far span and the helicopter’s descending path.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Pursuit Helicopter striking the bridge behind the sedan",
+				"beat": 5,
+				"zone": "Sea Bridge",
+				"shot_size": "wide",
+				"angle": "low oblique view from the seaward side",
+				"camera_move": "static",
+				"subjects_present": [
+					"Pursuit Helicopter",
+					"Fugitive Sedan"
+				],
+				"subject_states": [
+					{
+						"subject": "Pursuit Helicopter",
+						"state": "The fuselage is torn open, the tail boom is snapped, and the wreck is engulfed in a bright explosion."
+					}
+				],
+				"backdrop": "The far bridge span and its concrete pier dominate the frame; beyond the far abutment, a short stretch of suburban asphalt and its low guardrail are directly visible.",
+				"action": "The Pursuit Helicopter strikes the bridge deck in a violent explosion. Beyond the impact, the Fugitive Sedan is already on the intact suburban road, clear of the bridge.",
+				"emotion": "Sudden shock",
+				"transition": "Hard cut on the blast to the failing structure.",
+				"atmosphere": "The explosion adds a harsh local flare, airborne debris, and a rapidly expanding dark smoke cloud to the diffuse daylight.",
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: The explosion adds a harsh local flare, airborne debris, and a rapidly expanding dark smoke cloud to the diffuse daylight.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The far bridge span and its concrete pier dominate the frame; beyond the far abutment, a short stretch of suburban asphalt and its low guardrail are directly visible.\nShot size: wide\nCamera angle: low oblique view from the seaward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle. Current state in this cut: The fuselage is torn open, the tail boom is snapped, and the wreck is engulfed in a bright explosion.\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\nAction: The Pursuit Helicopter strikes the bridge deck in a violent explosion. Beyond the impact, the Fugitive Sedan is already on the intact suburban road, clear of the bridge.\nMood: Sudden shock",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: The explosion adds a harsh local flare, airborne debris, and a rapidly expanding dark smoke cloud to the diffuse daylight.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: The far bridge span and its concrete pier dominate the frame; beyond the far abutment, a short stretch of suburban asphalt and its low guardrail are directly visible.\nShot size: wide\nCamera angle: low oblique view from the seaward side\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle. Current state in this cut: The fuselage is torn open, the tail boom is snapped, and the wreck is engulfed in a bright explosion.\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\nAction: The Pursuit Helicopter strikes the bridge deck in a violent explosion. Beyond the impact, the Fugitive Sedan is already on the intact suburban road, clear of the bridge.\nMood: Sudden shock",
+					"spec":
+					{
+						"shot_name": "Pursuit Helicopter striking the bridge behind the sedan",
+						"beat": 5,
+						"zone": "Sea Bridge",
+						"shot_size": "wide",
+						"angle": "low oblique view from the seaward side",
+						"camera_move": "static",
+						"subjects_present": [
+							"Pursuit Helicopter",
+							"Fugitive Sedan"
+						],
+						"subject_states": [
+							{
+								"subject": "Pursuit Helicopter",
+								"state": "The fuselage is torn open, the tail boom is snapped, and the wreck is engulfed in a bright explosion."
+							}
+						],
+						"backdrop": "The far bridge span and its concrete pier dominate the frame; beyond the far abutment, a short stretch of suburban asphalt and its low guardrail are directly visible.",
+						"action": "The Pursuit Helicopter strikes the bridge deck in a violent explosion. Beyond the impact, the Fugitive Sedan is already on the intact suburban road, clear of the bridge.",
+						"emotion": "Sudden shock",
+						"transition": "Hard cut on the blast to the failing structure.",
+						"atmosphere": "The explosion adds a harsh local flare, airborne debris, and a rapidly expanding dark smoke cloud to the diffuse daylight.",
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Bridge traffic falling with the collapsing span",
+				"beat": 6,
+				"zone": "Sea Bridge",
+				"shot_size": "wide",
+				"angle": "high seaward three-quarter view",
+				"camera_move": "short downward tilt",
+				"subjects_present": [
+					"Pursuit Helicopter",
+					"Family Wagon",
+					"City Hatchback",
+					"Work Pickup"
+				],
+				"subject_states": [
+					{
+						"subject": "Pursuit Helicopter",
+						"state": "The fuselage remains torn open and the tail boom snapped; the burning wreck is falling among the broken bridge sections."
+					},
+					{
+						"subject": "Family Wagon",
+						"state": "The roof is crushed at one corner, the side windows are shattered, and the body is falling nose-down."
+					},
+					{
+						"subject": "City Hatchback",
+						"state": "The side panels are dented, the windows are shattered, and the body is rolling onto its side in midair."
+					},
+					{
+						"subject": "Work Pickup",
+						"state": "The bed is buckled, the windshield is shattered, and the body is falling rear-first."
+					}
+				],
+				"backdrop": "Fractured concrete piers, separated deck slabs, torn steel barriers, and dark seawater fill the frame; white spray rises beneath the falling debris.",
+				"action": "The damaged spans give way. All three civilian vehicles remaining on the bridge fall toward the sea with the burning helicopter wreck and broken roadway.",
+				"emotion": "Horror at the scale of the collapse",
+				"transition": "Hard cut to the police cruiser’s emergency stop.",
+				"atmosphere": "Concrete dust and dark smoke partially veil the bridge; small fires add localized highlights above the water.",
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Concrete dust and dark smoke partially veil the bridge; small fires add localized highlights above the water.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: Fractured concrete piers, separated deck slabs, torn steel barriers, and dark seawater fill the frame; white spray rises beneath the falling debris.\nShot size: wide\nCamera angle: high seaward three-quarter view\nCamera move: short downward tilt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle. Current state in this cut: The fuselage remains torn open and the tail boom snapped; the burning wreck is falling among the broken bridge sections.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle. Current state in this cut: The roof is crushed at one corner, the side windows are shattered, and the body is falling nose-down.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle. Current state in this cut: The side panels are dented, the windows are shattered, and the body is rolling onto its side in midair.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle. Current state in this cut: The bed is buckled, the windshield is shattered, and the body is falling rear-first.\nAction: The damaged spans give way. All three civilian vehicles remaining on the bridge fall toward the sea with the burning helicopter wreck and broken roadway.\nMood: Horror at the scale of the collapse",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Concrete dust and dark smoke partially veil the bridge; small fires add localized highlights above the water.\nThis cut happens at Sea Bridge: A high concrete road bridge supported by substantial piers, with continuous steel barriers, regularly spaced lamp poles, expansion joints, dark seawater below, downtown towers beyond the city end, and low scrub-covered hills beyond the suburban end\nBackdrop, behind the action: Fractured concrete piers, separated deck slabs, torn steel barriers, and dark seawater fill the frame; white spray rises beneath the falling debris.\nShot size: wide\nCamera angle: high seaward three-quarter view\nCamera move: short downward tilt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Pursuit Helicopter (Police helicopter): pale-gray compact aircraft with an egg-shaped cabin, long slender tail boom, four-bladed main rotor, and tall landing skids Signature, drawn only where this angle exposes it: the oversized rounded cabin, thin tail, and deep skid clearance create a distinctive outline from every angle. Current state in this cut: The fuselage remains torn open and the tail boom snapped; the burning wreck is falling among the broken bridge sections.\n- Family Wagon (Passenger car): medium-gray long-roof wagon with a nearly level roof, pale roof rails, and an extended rear cargo section Signature, drawn only where this angle exposes it: its elongated roof and raised rails remain identifiable from every angle. Current state in this cut: The roof is crushed at one corner, the side windows are shattered, and the body is falling nose-down.\n- City Hatchback (Passenger car): compact charcoal hatchback with a rounded high cabin, short wheelbase, and almost no rear overhang Signature, drawn only where this angle exposes it: its stubby, dome-like silhouette distinguishes it from every angle. Current state in this cut: The side panels are dented, the windows are shattered, and the body is rolling onto its side in midair.\n- Work Pickup (Light truck): pale-gray single-cab pickup with a dark, empty open bed, upright cab, and moderately high ground clearance Signature, drawn only where this angle exposes it: the pronounced separation between its short cab and long open bed is readable from every angle. Current state in this cut: The bed is buckled, the windshield is shattered, and the body is falling rear-first.\nAction: The damaged spans give way. All three civilian vehicles remaining on the bridge fall toward the sea with the burning helicopter wreck and broken roadway.\nMood: Horror at the scale of the collapse",
+					"spec":
+					{
+						"shot_name": "Bridge traffic falling with the collapsing span",
+						"beat": 6,
+						"zone": "Sea Bridge",
+						"shot_size": "wide",
+						"angle": "high seaward three-quarter view",
+						"camera_move": "short downward tilt",
+						"subjects_present": [
+							"Pursuit Helicopter",
+							"Family Wagon",
+							"City Hatchback",
+							"Work Pickup"
+						],
+						"subject_states": [
+							{
+								"subject": "Pursuit Helicopter",
+								"state": "The fuselage remains torn open and the tail boom snapped; the burning wreck is falling among the broken bridge sections."
+							},
+							{
+								"subject": "Family Wagon",
+								"state": "The roof is crushed at one corner, the side windows are shattered, and the body is falling nose-down."
+							},
+							{
+								"subject": "City Hatchback",
+								"state": "The side panels are dented, the windows are shattered, and the body is rolling onto its side in midair."
+							},
+							{
+								"subject": "Work Pickup",
+								"state": "The bed is buckled, the windshield is shattered, and the body is falling rear-first."
+							}
+						],
+						"backdrop": "Fractured concrete piers, separated deck slabs, torn steel barriers, and dark seawater fill the frame; white spray rises beneath the falling debris.",
+						"action": "The damaged spans give way. All three civilian vehicles remaining on the bridge fall toward the sea with the burning helicopter wreck and broken roadway.",
+						"emotion": "Horror at the scale of the collapse",
+						"transition": "Hard cut to the police cruiser’s emergency stop.",
+						"atmosphere": "Concrete dust and dark smoke partially veil the bridge; small fires add localized highlights above the water.",
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Police Cruiser stopping before the broken bridge entrance",
+				"beat": 7,
+				"zone": "Boulevard Approach",
+				"shot_size": "medium-wide",
+				"angle": "low front three-quarter view",
+				"camera_move": "static",
+				"subjects_present": [
+					"Police Cruiser"
+				],
+				"subject_states": [],
+				"backdrop": "The entire cruiser, the intact boulevard approach, and the broken bridge entrance are visible together. A clearly visible two-metre stretch of intact asphalt separates the cruiser’s front bumper from the bridge entrance joint. Converging roadside barriers mark the entrance; beyond the joint, the missing roadway exposes dark seawater.",
+				"action": "The Police Cruiser brakes hard, its nose dipping as it stops entirely on the boulevard before entering the bridge. All four wheels remain on the intact approach, with its front bumper two metres short of the bridge entrance joint and the broken roadway beyond.",
+				"emotion": "Breathless relief edged with disbelief",
+				"transition": "Hard cut from the stopped cruiser to the freely moving sedan.",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Target scene:\nSetting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: The entire cruiser, the intact boulevard approach, and the broken bridge entrance are visible together. A clearly visible two-metre stretch of intact asphalt separates the cruiser’s front bumper from the bridge entrance joint. Converging roadside barriers mark the entrance; beyond the joint, the missing roadway exposes dark seawater.\nShot size: medium-wide\nCamera angle: low front three-quarter view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\nAction: The Police Cruiser brakes hard, its nose dipping as it stops entirely on the boulevard before entering the bridge. All four wheels remain on the intact approach, with its front bumper two metres short of the bridge entrance joint and the broken roadway beyond.\nMood: Breathless relief edged with disbelief\n\nUser modification (verbatim):\n조금더 다리 진입전에 멈췄음을 잘 표현해줘\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_07_001.jpg",
+				"cut_07_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: The last intact approach markings and bridge entrance joint lie beside the cruiser’s front wheel; beyond its bumper, the roadway ends over a narrow visible strip of dark water.\nShot size: close-up\nCamera angle: low front three-quarter view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\nAction: The Police Cruiser brakes hard, its nose dipping as its front tires stop just before the bridge entrance. Its bumper remains on the intact approach.\nMood: Breathless relief edged with disbelief",
+					"spec":
+					{
+						"shot_name": "Police Cruiser stopping before the broken bridge entrance",
+						"beat": 7,
+						"zone": "Boulevard Approach",
+						"shot_size": "close-up",
+						"angle": "low front three-quarter view",
+						"camera_move": "static",
+						"subjects_present": [
+							"Police Cruiser"
+						],
+						"subject_states": [],
+						"backdrop": "The last intact approach markings and bridge entrance joint lie beside the cruiser’s front wheel; beyond its bumper, the roadway ends over a narrow visible strip of dark water.",
+						"action": "The Police Cruiser brakes hard, its nose dipping as its front tires stop just before the bridge entrance. Its bumper remains on the intact approach.",
+						"emotion": "Breathless relief edged with disbelief",
+						"transition": "Hard cut from the stopped cruiser to the freely moving sedan.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				},
+				{
+					"modification": "조금더 다리 진입전에 멈췄음을 잘 표현해줘",
+					"image_prompt": "Target scene:\nSetting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Boulevard Approach: A multilane boulevard with pale lane markings, concrete office façades, storefront windows, a signal-controlled junction, sidewalks, streetlights, and the solid near-shore bridge abutment where the roadside barriers converge toward the bridge entrance\nBackdrop, behind the action: The entire cruiser, the intact boulevard approach, and the broken bridge entrance are visible together. A clearly visible two-metre stretch of intact asphalt separates the cruiser’s front bumper from the bridge entrance joint. Converging roadside barriers mark the entrance; beyond the joint, the missing roadway exposes dark seawater.\nShot size: medium-wide\nCamera angle: low front three-quarter view\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Police Cruiser (Police car): broad, upright sedan with pale doors, dark hood and roof, squared bodywork, and a low rectangular roof lightbar Signature, drawn only where this angle exposes it: its tall, boxy cabin and roof-mounted lightbar distinguish its silhouette from every angle.\nAction: The Police Cruiser brakes hard, its nose dipping as it stops entirely on the boulevard before entering the bridge. All four wheels remain on the intact approach, with its front bumper two metres short of the bridge entrance joint and the broken roadway beyond.\nMood: Breathless relief edged with disbelief\n\nUser modification (verbatim):\n조금더 다리 진입전에 멈췄음을 잘 표현해줘\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Police Cruiser stopping before the broken bridge entrance",
+						"beat": 7,
+						"zone": "Boulevard Approach",
+						"shot_size": "medium-wide",
+						"angle": "low front three-quarter view",
+						"camera_move": "static",
+						"subjects_present": [
+							"Police Cruiser"
+						],
+						"subject_states": [],
+						"backdrop": "The entire cruiser, the intact boulevard approach, and the broken bridge entrance are visible together. A clearly visible two-metre stretch of intact asphalt separates the cruiser’s front bumper from the bridge entrance joint. Converging roadside barriers mark the entrance; beyond the joint, the missing roadway exposes dark seawater.",
+						"action": "The Police Cruiser brakes hard, its nose dipping as it stops entirely on the boulevard before entering the bridge. All four wheels remain on the intact approach, with its front bumper two metres short of the bridge entrance joint and the broken roadway beyond.",
+						"emotion": "Breathless relief edged with disbelief",
+						"transition": "Hard cut from the stopped cruiser to the freely moving sedan.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Fugitive Sedan continuing into the suburbs",
+				"beat": 8,
+				"zone": "Suburban Road",
+				"shot_size": "wide",
+				"angle": "eye level from the roadside",
+				"camera_move": "static",
+				"subjects_present": [
+					"Fugitive Sedan"
+				],
+				"subject_states": [],
+				"backdrop": "The two-lane road curves between gravel shoulders, low guardrails, scrub grass, utility poles, scattered low buildings, and rounded hills; the bridge is outside the frame.",
+				"action": "The Fugitive Sedan follows the curve at an even, unhurried pace, diminishing along the otherwise empty road.",
+				"emotion": "Unsettling calm",
+				"transition": "Fade to black.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Suburban Road: A gently curving two-lane road beyond the far bridge abutment, bordered by low guardrails, gravel shoulders, scrub grass, utility poles, scattered low concrete buildings, and rounded coastal hills\nBackdrop, behind the action: The two-lane road curves between gravel shoulders, low guardrails, scrub grass, utility poles, scattered low buildings, and rounded hills; the bridge is outside the frame.\nShot size: wide\nCamera angle: eye level from the roadside\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\nAction: The Fugitive Sedan follows the curve at an even, unhurried pace, diminishing along the otherwise empty road.\nMood: Unsettling calm",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Contemporary coastal infrastructure combines utilitarian concrete architecture, dark asphalt, galvanized steel, and a charcoal-to-pale-gray palette beneath a uniformly overcast sky.\nLocation: Outdoor downtown streets, a sea-crossing road bridge, and a suburban coastal road.\nAtmosphere: Late afternoon, dry and still beneath continuous cloud cover, soft, diffuse daylight with restrained reflections and no strong shadows.\nThis cut happens at Suburban Road: A gently curving two-lane road beyond the far bridge abutment, bordered by low guardrails, gravel shoulders, scrub grass, utility poles, scattered low concrete buildings, and rounded coastal hills\nBackdrop, behind the action: The two-lane road curves between gravel shoulders, low guardrails, scrub grass, utility poles, scattered low buildings, and rounded hills; the bridge is outside the frame.\nShot size: wide\nCamera angle: eye level from the roadside\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Fugitive Sedan (Passenger car): long, low charcoal sedan with a sharply sloping roof, broad rear haunches, dark windows, and plain wheels Signature, drawn only where this angle exposes it: its unusually low roof and long wheelbase remain recognizable from every angle; narrow horizontal rear lamps provide an additional rear identifier.\nAction: The Fugitive Sedan follows the curve at an even, unhurried pace, diminishing along the otherwise empty road.\nMood: Unsettling calm",
+					"spec":
+					{
+						"shot_name": "Fugitive Sedan continuing into the suburbs",
+						"beat": 8,
+						"zone": "Suburban Road",
+						"shot_size": "wide",
+						"angle": "eye level from the roadside",
+						"camera_move": "static",
+						"subjects_present": [
+							"Fugitive Sedan"
+						],
+						"subject_states": [],
+						"backdrop": "The two-lane road curves between gravel shoulders, low guardrails, scrub grass, utility poles, scattered low buildings, and rounded hills; the bridge is outside the frame.",
+						"action": "The Fugitive Sedan follows the curve at an even, unhurried pace, diminishing along the otherwise empty road.",
+						"emotion": "Unsettling calm",
+						"transition": "Fade to black.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		}
+	]
+}

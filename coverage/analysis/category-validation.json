@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-07T08:45:44.928Z",
+  "categories": [
+    {
+      "category": "camera",
+      "rows": 34
+    },
+    {
+      "category": "story",
+      "rows": 23
+    },
+    {
+      "category": "action",
+      "rows": 45
+    },
+    {
+      "category": "scene",
+      "rows": 20
+    }
+  ],
+  "unique_primary_units": 122,
+  "checks": [
+    "four categories",
+    "no duplicated counts",
+    "cohort/category/status filters",
+    "source/representative-frame link",
+    "clip link plays and stops",
+    "related roles",
+    "project category filter",
+    "deep links",
+    "overview links",
+    "mobile navigation and overflow",
+    "empty results"
+  ],
+  "issues": [],
+  "errors": []
+}

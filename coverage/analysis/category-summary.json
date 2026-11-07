@@ -1,0 +1,59 @@
+{
+  "updated": "2026-11-07",
+  "counting": "Each unit counted once under its primary purpose; related roles are not separately scored.",
+  "categories": [
+    {
+      "category": "camera",
+      "label": "카메라·컷",
+      "question": "어떻게 보여주는가?",
+      "definition": "시점·숏 크기·앵글·카메라 이동·인서트·반응 숏·컷 연결의 역할을 검토합니다.",
+      "rule": "주요 검토 목적이 시점, 구도, 카메라 이동 또는 컷 연결의 설계입니다.",
+      "example": "카페 회의의 로우앵글 패닝, 셀카에서 상대를 소개하는 팬, 유물 인서트의 구도",
+      "units": 34,
+      "F": 30,
+      "P": 4,
+      "N": 0,
+      "coverage": 88.2
+    },
+    {
+      "category": "story",
+      "label": "사건·정보·인과",
+      "question": "무슨 일이 생기고, 무엇이 드러나며, 왜 이어지는가?",
+      "definition": "상황 변화·행동의 원인과 결과·위험 단서·정보 공개·반전을 검토합니다.",
+      "rule": "주요 검토 목적이 사건의 원인·결과, 새로운 정보 또는 반전의 전달입니다.",
+      "example": "헬기 추락으로 다리가 붕괴함, 카드 분실 인지, 녹화 속 괴물의 손 공개",
+      "units": 23,
+      "F": 16,
+      "P": 5,
+      "N": 2,
+      "coverage": 69.6
+    },
+    {
+      "category": "action",
+      "label": "행동·동선",
+      "question": "누가 무엇을 하고 어디로 움직이는가?",
+      "definition": "접근·이동·추격·회피·접촉·소품 조작·회수·정지·퇴장을 검토합니다.",
+      "rule": "주요 검토 목적이 인물·차량의 행동 경로, 접촉, 소품 조작 또는 정지 위치입니다.",
+      "example": "여성에게 걸어감, 구슬을 주움, 경찰차가 붕괴 구간 전에 멈춤",
+      "units": 45,
+      "F": 38,
+      "P": 6,
+      "N": 1,
+      "coverage": 84.4
+    },
+    {
+      "category": "scene",
+      "label": "공간·배치",
+      "question": "어떤 공간에 무엇이 어디에 놓이는가?",
+      "definition": "장소·환경·공통 배치·거리·방향·크기 대비·동시 등장 대상의 위치 관계를 검토합니다.",
+      "rule": "주요 검토 목적이 장면의 환경과 인물·대상 사이의 위치·거리·방향 관계입니다.",
+      "example": "헬기·다리·승용차의 동시 배치, 침대를 둘러싼 인물, 도주를 설계할 도로 폭",
+      "units": 20,
+      "F": 18,
+      "P": 2,
+      "N": 0,
+      "coverage": 90.0
+    }
+  ],
+  "assessment": "Existing 13 retained; new 5 local first-pass renders"
+}

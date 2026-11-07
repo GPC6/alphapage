@@ -1,0 +1,577 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "1. 밤, 산 숲속에 있는 오두막 한 채만 창문에 불이 켜져 있다.\r\n2. 남자가 오두막 안 벽난로 앞에 앉아 지도를 펼친다.\r\n3. 남자의 손가락이 지도에 붉게 표시된 지점을 짚는다.\r\n4. 창밖 숲 너머로 주황빛이 번지기 시작한다.\r\n5. 남자가 창가로 다가가 밖을 내다본다.\r\n6. 숲 가장자리에서 불길이 치솟고 연기가 하늘을 덮는다.\r\n7. 남자가 가방을 메고 오두막을 뛰쳐나와 불의 반대편 길로 달린다.\r\n8. 불타는 숲을 뒤로하고 남자가 어둠 속으로 사라진다.\r\n",
+	"draft_prompt": "1. 밤, 산 숲속에 있는 오두막 한 채만 창문에 불이 켜져 있다.\r\n2. 남자가 오두막 안 벽난로 앞에 앉아 지도를 펼친다.\r\n3. 남자의 손가락이 지도에 붉게 표시된 지점을 짚는다.\r\n4. 창밖 숲 너머로 주황빛이 번지기 시작한다.\r\n5. 남자가 창가로 다가가 밖을 내다본다.\r\n6. 숲 가장자리에서 불길이 치솟고 연기가 하늘을 덮는다.\r\n7. 남자가 가방을 메고 오두막을 뛰쳐나와 불의 반대편 길로 달린다.\r\n8. 불타는 숲을 뒤로하고 남자가 어둠 속으로 사라진다.\r\n",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 33
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.",
+			"location_type": "Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.",
+			"zones": [
+				{
+					"name": "Cabin clearing",
+					"description": "A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.",
+					"connects_to": [
+						"Hearth room",
+						"Downhill trail"
+					]
+				},
+				{
+					"name": "Hearth room",
+					"description": "Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.",
+					"connects_to": [
+						"Cabin clearing"
+					]
+				},
+				{
+					"name": "Downhill trail",
+					"description": "A narrow dirt-and-stone trail descends west between closely spaced conifers, exposed roots, and low rock shoulders before bending into a densely shaded passage. At its eastern entrance, a gap between trunks allows a view back across the clearing toward the cabin and the eastern forest boundary.",
+					"connects_to": [
+						"Cabin clearing"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Night",
+				"weather": "clear, dry, still weather",
+				"lighting": "faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "A man studying a marked map in an isolated mountain cabin must abandon his plans when wildfire approaches, fleeing down the opposite trail until darkness swallows him.",
+			"beats": [
+				{
+					"summary": "A single illuminated cabin is revealed within an otherwise dark mountain forest",
+					"emotion": "isolation"
+				},
+				{
+					"summary": "Inside, a man opens a map beside the fireplace, establishing his purpose",
+					"emotion": "concentration"
+				},
+				{
+					"summary": "His finger identifies a particular red-marked destination",
+					"emotion": "resolve"
+				},
+				{
+					"summary": "An unfamiliar orange glow appears beyond the window",
+					"emotion": "unease"
+				},
+				{
+					"summary": "The man approaches the window and recognizes a threat outside",
+					"emotion": "apprehension"
+				},
+				{
+					"summary": "Flames and rising smoke reveal the scale of the approaching wildfire",
+					"emotion": "alarm"
+				},
+				{
+					"summary": "Wearing his backpack, the man abandons the cabin and runs away from the fire",
+					"emotion": "urgency"
+				},
+				{
+					"summary": "He disappears down the dark trail, leaving the burning forest behind",
+					"emotion": "precarious relief"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Man",
+				"kind": "Adult human",
+				"appearance": "tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom",
+				"signature_features": [
+					"elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear."
+				]
+			},
+			{
+				"name": "Map",
+				"kind": "Folding paper map",
+				"appearance": "wide, pale-gray rectangular sheet with pronounced fold lines, fine charcoal contour markings, and one small red ring near the upper-right fold intersection",
+				"signature_features": [
+					"a clipped corner gives the sheet an asymmetric outline; the red ring is its distinctive surface marking."
+				]
+			},
+			{
+				"name": "Backpack",
+				"kind": "Hiking backpack",
+				"appearance": "compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it",
+				"signature_features": [
+					"the protruding cylindrical bedroll makes its silhouette recognizable from any side."
+				]
+			}
+		],
+		"run_id": "storyboard_20261029_030833_c878efdc"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "The cabin shines alone among dark trees",
+				"beat": 1,
+				"zone": "Cabin clearing",
+				"shot_size": "extreme wide",
+				"angle": "high, looking toward the cabin from the northern edge of the clearing",
+				"camera_move": "static",
+				"subjects_present": [],
+				"subject_states": [],
+				"backdrop": "Dense black conifers surround the small timber cabin; its pitched roof and stone chimney break the tree silhouettes. A narrow strip of clear night sky appears above them. The eastern tree line occupies screen left, and the unlit western trail entrance occupies screen right.",
+				"action": "Warm light glows through the cabin’s single square window, revealing the lone inhabited structure within the otherwise dark forest.",
+				"emotion": "Isolation, with a fragile suggestion of shelter.",
+				"transition": "Hard cut to the cabin interior.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: Dense black conifers surround the small timber cabin; its pitched roof and stone chimney break the tree silhouettes. A narrow strip of clear night sky appears above them. The eastern tree line occupies screen left, and the unlit western trail entrance occupies screen right.\nShot size: extreme wide\nCamera angle: high, looking toward the cabin from the northern edge of the clearing\nAction: Warm light glows through the cabin’s single square window, revealing the lone inhabited structure within the otherwise dark forest.\nMood: Isolation, with a fragile suggestion of shelter.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: Dense black conifers surround the small timber cabin; its pitched roof and stone chimney break the tree silhouettes. A narrow strip of clear night sky appears above them. The eastern tree line occupies screen left, and the unlit western trail entrance occupies screen right.\nShot size: extreme wide\nCamera angle: high, looking toward the cabin from the northern edge of the clearing\nAction: Warm light glows through the cabin’s single square window, revealing the lone inhabited structure within the otherwise dark forest.\nMood: Isolation, with a fragile suggestion of shelter.",
+					"spec":
+					{
+						"shot_name": "The cabin shines alone among dark trees",
+						"beat": 1,
+						"zone": "Cabin clearing",
+						"shot_size": "extreme wide",
+						"angle": "high, looking toward the cabin from the northern edge of the clearing",
+						"camera_move": "static",
+						"subjects_present": [],
+						"subject_states": [],
+						"backdrop": "Dense black conifers surround the small timber cabin; its pitched roof and stone chimney break the tree silhouettes. A narrow strip of clear night sky appears above them. The eastern tree line occupies screen left, and the unlit western trail entrance occupies screen right.",
+						"action": "Warm light glows through the cabin’s single square window, revealing the lone inhabited structure within the otherwise dark forest.",
+						"emotion": "Isolation, with a fragile suggestion of shelter.",
+						"transition": "Hard cut to the cabin interior.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man unfolds the map beside the fireplace",
+				"beat": 2,
+				"zone": "Hearth room",
+				"shot_size": "medium",
+				"angle": "eye level, three-quarter view across the table",
+				"camera_move": "slow dolly forward",
+				"subjects_present": [
+					"Man",
+					"Map",
+					"Backpack"
+				],
+				"subject_states": [],
+				"backdrop": "The fieldstone fireplace burns behind the seated man; rough timber walls and a section of plank floor surround the table. The backpack hangs from the unused stool beside him.",
+				"action": "Seated close to the hearth, the man spreads the map flat across the table and presses its folded edges down with both hands.",
+				"emotion": "Quiet concentration.",
+				"transition": "Hard cut to the map surface.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: The fieldstone fireplace burns behind the seated man; rough timber walls and a section of plank floor surround the table. The backpack hangs from the unused stool beside him.\nShot size: medium\nCamera angle: eye level, three-quarter view across the table\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\n- Map (Folding paper map): wide, pale-gray rectangular sheet with pronounced fold lines, fine charcoal contour markings, and one small red ring near the upper-right fold intersection Signature, drawn only where this angle exposes it: a clipped corner gives the sheet an asymmetric outline; the red ring is its distinctive surface marking.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: Seated close to the hearth, the man spreads the map flat across the table and presses its folded edges down with both hands.\nMood: Quiet concentration.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: The fieldstone fireplace burns behind the seated man; rough timber walls and a section of plank floor surround the table. The backpack hangs from the unused stool beside him.\nShot size: medium\nCamera angle: eye level, three-quarter view across the table\nCamera move: slow dolly forward\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\n- Map (Folding paper map): wide, pale-gray rectangular sheet with pronounced fold lines, fine charcoal contour markings, and one small red ring near the upper-right fold intersection Signature, drawn only where this angle exposes it: a clipped corner gives the sheet an asymmetric outline; the red ring is its distinctive surface marking.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: Seated close to the hearth, the man spreads the map flat across the table and presses its folded edges down with both hands.\nMood: Quiet concentration.",
+					"spec":
+					{
+						"shot_name": "Man unfolds the map beside the fireplace",
+						"beat": 2,
+						"zone": "Hearth room",
+						"shot_size": "medium",
+						"angle": "eye level, three-quarter view across the table",
+						"camera_move": "slow dolly forward",
+						"subjects_present": [
+							"Man",
+							"Map",
+							"Backpack"
+						],
+						"subject_states": [],
+						"backdrop": "The fieldstone fireplace burns behind the seated man; rough timber walls and a section of plank floor surround the table. The backpack hangs from the unused stool beside him.",
+						"action": "Seated close to the hearth, the man spreads the map flat across the table and presses its folded edges down with both hands.",
+						"emotion": "Quiet concentration.",
+						"transition": "Hard cut to the map surface.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man pins the red destination with his fingertip",
+				"beat": 3,
+				"zone": "Hearth room",
+				"shot_size": "insert",
+				"angle": "top-down",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man",
+					"Map"
+				],
+				"subject_states": [],
+				"backdrop": "A narrow border of scarred tabletop surrounds the open map.",
+				"action": "The man’s index finger rests directly inside the map’s small red ring, fixing attention on that one marked destination; only his hand and coat cuff enter the frame.",
+				"emotion": "Resolve and anticipation.",
+				"transition": "Hard cut from the red marking to the window.",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: A narrow border of scarred tabletop surrounds the open map.\nShot size: insert\nCamera angle: top-down\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\n- Map (Folding paper map): wide, pale-gray rectangular sheet with pronounced fold lines, fine charcoal contour markings, and one small red ring near the upper-right fold intersection Signature, drawn only where this angle exposes it: a clipped corner gives the sheet an asymmetric outline; the red ring is its distinctive surface marking.\nAction: The man’s index finger rests directly inside the map’s small red ring, fixing attention on that one marked destination; only his hand and coat cuff enter the frame.\nMood: Resolve and anticipation.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Night, clear, dry, still weather, faint cool moonlight outdoors and warm fireplace light indoors; the cabin’s single window is the only illuminated window.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: A narrow border of scarred tabletop surrounds the open map.\nShot size: insert\nCamera angle: top-down\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\n- Map (Folding paper map): wide, pale-gray rectangular sheet with pronounced fold lines, fine charcoal contour markings, and one small red ring near the upper-right fold intersection Signature, drawn only where this angle exposes it: a clipped corner gives the sheet an asymmetric outline; the red ring is its distinctive surface marking.\nAction: The man’s index finger rests directly inside the map’s small red ring, fixing attention on that one marked destination; only his hand and coat cuff enter the frame.\nMood: Resolve and anticipation.",
+					"spec":
+					{
+						"shot_name": "Man pins the red destination with his fingertip",
+						"beat": 3,
+						"zone": "Hearth room",
+						"shot_size": "insert",
+						"angle": "top-down",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man",
+							"Map"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow border of scarred tabletop surrounds the open map.",
+						"action": "The man’s index finger rests directly inside the map’s small red ring, fixing attention on that one marked destination; only his hand and coat cuff enter the frame.",
+						"emotion": "Resolve and anticipation.",
+						"transition": "Hard cut from the red marking to the window.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "An orange glow spreads beyond the cabin window",
+				"beat": 4,
+				"zone": "Hearth room",
+				"shot_size": "close-up",
+				"angle": "eye level, looking obliquely northeast through the window",
+				"camera_move": "static",
+				"subjects_present": [],
+				"subject_states": [],
+				"backdrop": "The dark timber window frame encloses the eastern conifers beyond the clearing; a narrow band of night sky sits above their silhouettes.",
+				"action": "A low orange glow blooms between the distant trunks and brightens the undersides of the branches; individual flames are not yet visible.",
+				"emotion": "Unease as the darkness acquires an unfamiliar light.",
+				"transition": "Hard cut to the man arriving at the window.",
+				"atmosphere": "A faint orange exterior glow now supplements the baseline light along the eastern forest boundary.",
+				"duration_seconds": 3.2080000000000002
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: A faint orange exterior glow now supplements the baseline light along the eastern forest boundary.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: The dark timber window frame encloses the eastern conifers beyond the clearing; a narrow band of night sky sits above their silhouettes.\nShot size: close-up\nCamera angle: eye level, looking obliquely northeast through the window\nAction: A low orange glow blooms between the distant trunks and brightens the undersides of the branches; individual flames are not yet visible.\nMood: Unease as the darkness acquires an unfamiliar light.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: A faint orange exterior glow now supplements the baseline light along the eastern forest boundary.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: The dark timber window frame encloses the eastern conifers beyond the clearing; a narrow band of night sky sits above their silhouettes.\nShot size: close-up\nCamera angle: eye level, looking obliquely northeast through the window\nAction: A low orange glow blooms between the distant trunks and brightens the undersides of the branches; individual flames are not yet visible.\nMood: Unease as the darkness acquires an unfamiliar light.",
+					"spec":
+					{
+						"shot_name": "An orange glow spreads beyond the cabin window",
+						"beat": 4,
+						"zone": "Hearth room",
+						"shot_size": "close-up",
+						"angle": "eye level, looking obliquely northeast through the window",
+						"camera_move": "static",
+						"subjects_present": [],
+						"subject_states": [],
+						"backdrop": "The dark timber window frame encloses the eastern conifers beyond the clearing; a narrow band of night sky sits above their silhouettes.",
+						"action": "A low orange glow blooms between the distant trunks and brightens the undersides of the branches; individual flames are not yet visible.",
+						"emotion": "Unease as the darkness acquires an unfamiliar light.",
+						"transition": "Hard cut to the man arriving at the window.",
+						"atmosphere": "A faint orange exterior glow now supplements the baseline light along the eastern forest boundary.",
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man braces against the window and looks toward the glow",
+				"beat": 5,
+				"zone": "Hearth room",
+				"shot_size": "medium",
+				"angle": "eye level, three-quarter rear view with the man’s profile visible",
+				"camera_move": "short tracking move alongside his final step",
+				"subjects_present": [
+					"Man"
+				],
+				"subject_states": [],
+				"backdrop": "Thick timber window jambs frame the clearing and eastern tree silhouettes; the orange band beyond them is brighter and broader.",
+				"action": "The man reaches the window, grips its jamb, and leans forward to look northeast; his shoulders stiffen and his mouth parts as orange light catches his cheek.",
+				"emotion": "Apprehension becoming recognition.",
+				"transition": "Eyeline cut to the eastern tree line.",
+				"atmosphere": "Stronger orange light enters through the window, contrasting with the fireplace’s softer interior illumination.",
+				"duration_seconds": 3.7920000000000003
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Stronger orange light enters through the window, contrasting with the fireplace’s softer interior illumination.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: Thick timber window jambs frame the clearing and eastern tree silhouettes; the orange band beyond them is brighter and broader.\nShot size: medium\nCamera angle: eye level, three-quarter rear view with the man’s profile visible\nCamera move: short tracking move alongside his final step\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\nAction: The man reaches the window, grips its jamb, and leans forward to look northeast; his shoulders stiffen and his mouth parts as orange light catches his cheek.\nMood: Apprehension becoming recognition.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Stronger orange light enters through the window, contrasting with the fireplace’s softer interior illumination.\nThis cut happens at Hearth room: Rough timber walls, exposed rafters, plank flooring, a fieldstone fireplace against the south wall, and a small wooden table with two stools occupy the cabin’s single room. The north wall contains the square window and, immediately west of it, the plank entrance door. Through the window, the clearing and its eastern conifer boundary are visible at an oblique angle.\nBackdrop, behind the action: Thick timber window jambs frame the clearing and eastern tree silhouettes; the orange band beyond them is brighter and broader.\nShot size: medium\nCamera angle: eye level, three-quarter rear view with the man’s profile visible\nCamera move: short tracking move alongside his final step\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear.\nAction: The man reaches the window, grips its jamb, and leans forward to look northeast; his shoulders stiffen and his mouth parts as orange light catches his cheek.\nMood: Apprehension becoming recognition.",
+					"spec":
+					{
+						"shot_name": "Man braces against the window and looks toward the glow",
+						"beat": 5,
+						"zone": "Hearth room",
+						"shot_size": "medium",
+						"angle": "eye level, three-quarter rear view with the man’s profile visible",
+						"camera_move": "short tracking move alongside his final step",
+						"subjects_present": [
+							"Man"
+						],
+						"subject_states": [],
+						"backdrop": "Thick timber window jambs frame the clearing and eastern tree silhouettes; the orange band beyond them is brighter and broader.",
+						"action": "The man reaches the window, grips its jamb, and leans forward to look northeast; his shoulders stiffen and his mouth parts as orange light catches his cheek.",
+						"emotion": "Apprehension becoming recognition.",
+						"transition": "Eyeline cut to the eastern tree line.",
+						"atmosphere": "Stronger orange light enters through the window, contrasting with the fireplace’s softer interior illumination.",
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Wildfire climbs the eastern trees",
+				"beat": 6,
+				"zone": "Cabin clearing",
+				"shot_size": "wide",
+				"angle": "low, looking east from the clearing toward the forest boundary",
+				"camera_move": "slow tilt upward",
+				"subjects_present": [],
+				"subject_states": [],
+				"backdrop": "Dense conifer trunks rise from the rough eastern edge of the clearing into interlocking crowns; the upper frame contains the night sky above them.",
+				"action": "Flames surge from the low branches into the crowns, while a thick column of smoke expands overhead and obscures the sky.",
+				"emotion": "Alarm at the fire’s height and proximity.",
+				"transition": "Hard cut back to the cabin entrance.",
+				"atmosphere": "Intense orange firelight washes the eastern clearing; dense smoke masks the sky above that side of the forest.",
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Intense orange firelight washes the eastern clearing; dense smoke masks the sky above that side of the forest.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: Dense conifer trunks rise from the rough eastern edge of the clearing into interlocking crowns; the upper frame contains the night sky above them.\nShot size: wide\nCamera angle: low, looking east from the clearing toward the forest boundary\nCamera move: slow tilt upward\nAction: Flames surge from the low branches into the crowns, while a thick column of smoke expands overhead and obscures the sky.\nMood: Alarm at the fire’s height and proximity.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Intense orange firelight washes the eastern clearing; dense smoke masks the sky above that side of the forest.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: Dense conifer trunks rise from the rough eastern edge of the clearing into interlocking crowns; the upper frame contains the night sky above them.\nShot size: wide\nCamera angle: low, looking east from the clearing toward the forest boundary\nCamera move: slow tilt upward\nAction: Flames surge from the low branches into the crowns, while a thick column of smoke expands overhead and obscures the sky.\nMood: Alarm at the fire’s height and proximity.",
+					"spec":
+					{
+						"shot_name": "Wildfire climbs the eastern trees",
+						"beat": 6,
+						"zone": "Cabin clearing",
+						"shot_size": "wide",
+						"angle": "low, looking east from the clearing toward the forest boundary",
+						"camera_move": "slow tilt upward",
+						"subjects_present": [],
+						"subject_states": [],
+						"backdrop": "Dense conifer trunks rise from the rough eastern edge of the clearing into interlocking crowns; the upper frame contains the night sky above them.",
+						"action": "Flames surge from the low branches into the crowns, while a thick column of smoke expands overhead and obscures the sky.",
+						"emotion": "Alarm at the fire’s height and proximity.",
+						"transition": "Hard cut back to the cabin entrance.",
+						"atmosphere": "Intense orange firelight washes the eastern clearing; dense smoke masks the sky above that side of the forest.",
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man bursts from the cabin and runs toward the western trail",
+				"beat": 7,
+				"zone": "Cabin clearing",
+				"shot_size": "wide",
+				"angle": "eye level from the northern side of the clearing",
+				"camera_move": "tracking right along the clearing’s edge",
+				"subjects_present": [
+					"Man",
+					"Backpack"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "The backpack is now strapped over both shoulders of his coat."
+					}
+				],
+				"backdrop": "The cabin’s north wall, glowing window, and open plank door occupy the middle ground. Burning trees and rising smoke fill the left background; the dark western trail entrance opens at screen right.",
+				"action": "The man bursts through the doorway with the backpack secured, turns away from the flames, and sprints rightward across the clearing into the western trail entrance.",
+				"emotion": "Immediate, decisive urgency.",
+				"transition": "Cut on his running stride to the downhill trail, preserving left-to-right travel.",
+				"atmosphere": "Orange firelight illuminates the clearing and the man’s rear outline; smoke covers the eastern sky while the western trail remains dark.",
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Orange firelight illuminates the clearing and the man’s rear outline; smoke covers the eastern sky while the western trail remains dark.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: The cabin’s north wall, glowing window, and open plank door occupy the middle ground. Burning trees and rising smoke fill the left background; the dark western trail entrance opens at screen right.\nShot size: wide\nCamera angle: eye level from the northern side of the clearing\nCamera move: tracking right along the clearing’s edge\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear. Current state in this cut: The backpack is now strapped over both shoulders of his coat.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: The man bursts through the doorway with the backpack secured, turns away from the flames, and sprints rightward across the clearing into the western trail entrance.\nMood: Immediate, decisive urgency.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Orange firelight illuminates the clearing and the man’s rear outline; smoke covers the eastern sky while the western trail remains dark.\nThis cut happens at Cabin clearing: A small bare-earth clearing enclosed by tall conifers; a low, single-room timber cabin stands along its southern side beneath a pitched roof and rough stone chimney. Its north-facing wall has one square window and a plank door immediately west of that window. Dense forest climbs the eastern boundary, while a narrow downhill trail leaves the clearing to the west. From the clearing’s northern side, the eastern forest reads screen left and the western escape route reads screen right.\nBackdrop, behind the action: The cabin’s north wall, glowing window, and open plank door occupy the middle ground. Burning trees and rising smoke fill the left background; the dark western trail entrance opens at screen right.\nShot size: wide\nCamera angle: eye level from the northern side of the clearing\nCamera move: tracking right along the clearing’s edge\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear. Current state in this cut: The backpack is now strapped over both shoulders of his coat.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: The man bursts through the doorway with the backpack secured, turns away from the flames, and sprints rightward across the clearing into the western trail entrance.\nMood: Immediate, decisive urgency.",
+					"spec":
+					{
+						"shot_name": "Man bursts from the cabin and runs toward the western trail",
+						"beat": 7,
+						"zone": "Cabin clearing",
+						"shot_size": "wide",
+						"angle": "eye level from the northern side of the clearing",
+						"camera_move": "tracking right along the clearing’s edge",
+						"subjects_present": [
+							"Man",
+							"Backpack"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "The backpack is now strapped over both shoulders of his coat."
+							}
+						],
+						"backdrop": "The cabin’s north wall, glowing window, and open plank door occupy the middle ground. Burning trees and rising smoke fill the left background; the dark western trail entrance opens at screen right.",
+						"action": "The man bursts through the doorway with the backpack secured, turns away from the flames, and sprints rightward across the clearing into the western trail entrance.",
+						"emotion": "Immediate, decisive urgency.",
+						"transition": "Cut on his running stride to the downhill trail, preserving left-to-right travel.",
+						"atmosphere": "Orange firelight illuminates the clearing and the man’s rear outline; smoke covers the eastern sky while the western trail remains dark.",
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Man disappears into the dark downhill trail",
+				"beat": 8,
+				"zone": "Downhill trail",
+				"shot_size": "wide",
+				"angle": "eye level from the northern side of the trail",
+				"camera_move": "static",
+				"subjects_present": [
+					"Man",
+					"Backpack"
+				],
+				"subject_states": [
+					{
+						"subject": "Man",
+						"state": "The backpack remains strapped over both shoulders of his coat."
+					}
+				],
+				"backdrop": "Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing, where the cabin is now almost completely engulfed in flames, its timber walls and pitched roof burning around the still-recognizable stone chimney. The burning eastern forest rises behind it beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.",
+				"action": "The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.",
+				"emotion": "Precarious relief, with the danger still burning behind him.",
+				"transition": "Hold briefly on the empty dark bend, then cut to black.",
+				"atmosphere": "Distant orange firelight from the engulfed cabin and burning eastern forest, along with rising smoke, remains visible through the eastern gap, but the downhill passage receives only faint moonlight.",
+				"duration_seconds": 6
+			},
+			"image_prompt": "Target scene:\nSetting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Distant orange firelight from the engulfed cabin and burning eastern forest, along with rising smoke, remains visible through the eastern gap, but the downhill passage receives only faint moonlight.\nThis cut happens at Downhill trail: A narrow dirt-and-stone trail descends west between closely spaced conifers, exposed roots, and low rock shoulders before bending into a densely shaded passage. At its eastern entrance, a gap between trunks allows a view back across the clearing toward the cabin and the eastern forest boundary.\nBackdrop, behind the action: Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing, where the cabin is now almost completely engulfed in flames, its timber walls and pitched roof burning around the still-recognizable stone chimney. The burning eastern forest rises behind it beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.\nShot size: wide\nCamera angle: eye level from the northern side of the trail\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear. Current state in this cut: The backpack remains strapped over both shoulders of his coat.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.\nMood: Precarious relief, with the danger still burning behind him.\n\nUser modification (verbatim):\n이전 컷에서 불이 오두막 바로 앞까지 왔음. 이 컷에선 오두막도 거의 불타는 모습으로 그려줘\n\nEdit instructions (refine):\nEdit the supplied image. Apply the user's modification and the changes it requires, using the target scene as the updated description. Preserve the existing camera composition and all unrelated subjects, props, and background details. For drawing cleanup, preserve the scene's meaning and arrangement.",
+			"images": [
+				"cut_08_001.jpg",
+				"cut_08_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Distant orange firelight and smoke remain visible through the eastern gap, but the downhill passage receives only faint moonlight.\nThis cut happens at Downhill trail: A narrow dirt-and-stone trail descends west between closely spaced conifers, exposed roots, and low rock shoulders before bending into a densely shaded passage. At its eastern entrance, a gap between trunks allows a view back across the clearing toward the cabin and the eastern forest boundary.\nBackdrop, behind the action: Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing and the burning eastern forest beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.\nShot size: wide\nCamera angle: eye level from the northern side of the trail\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear. Current state in this cut: The backpack remains strapped over both shoulders of his coat.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.\nMood: Precarious relief, with the danger still burning behind him.",
+					"spec":
+					{
+						"shot_name": "Man disappears into the dark downhill trail",
+						"beat": 8,
+						"zone": "Downhill trail",
+						"shot_size": "wide",
+						"angle": "eye level from the northern side of the trail",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man",
+							"Backpack"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "The backpack remains strapped over both shoulders of his coat."
+							}
+						],
+						"backdrop": "Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing and the burning eastern forest beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.",
+						"action": "The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.",
+						"emotion": "Precarious relief, with the danger still burning behind him.",
+						"transition": "Hold briefly on the empty dark bend, then cut to black.",
+						"atmosphere": "Distant orange firelight and smoke remain visible through the eastern gap, but the downhill passage receives only faint moonlight.",
+						"duration_seconds": 6
+					}
+				},
+				{
+					"modification": "이전 컷에서 불이 오두막 바로 앞까지 왔음. 이 컷에선 오두막도 거의 불타는 모습으로 그려줘",
+					"image_prompt": "Target scene:\nSetting: A present-day mountain-forest setting combines rough-hewn timber, fieldstone, and dense conifers in near-black, charcoal, and pale-gray values under weak moonlight, with warm light providing the only strong color accents.\nLocation: Isolated mountain cabin and its surrounding forest clearing and trail; indoor and outdoor.\nAtmosphere: Distant orange firelight from the engulfed cabin and burning eastern forest, along with rising smoke, remains visible through the eastern gap, but the downhill passage receives only faint moonlight.\nThis cut happens at Downhill trail: A narrow dirt-and-stone trail descends west between closely spaced conifers, exposed roots, and low rock shoulders before bending into a densely shaded passage. At its eastern entrance, a gap between trunks allows a view back across the clearing toward the cabin and the eastern forest boundary.\nBackdrop, behind the action: Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing, where the cabin is now almost completely engulfed in flames, its timber walls and pitched roof burning around the still-recognizable stone chimney. The burning eastern forest rises behind it beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.\nShot size: wide\nCamera angle: eye level from the northern side of the trail\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Man (Adult human): tall, lean build; straight, knee-length mid-gray wool coat, dark trousers, heavy black boots, and a light-gray knitted cap with a large rounded pom-pom Signature, drawn only where this angle exposes it: elongated coat-and-leg silhouette and the cap’s round pom-pom remain recognizable from front, side, and rear. Current state in this cut: The backpack remains strapped over both shoulders of his coat.\n- Backpack (Hiking backpack): compact, dark-gray fabric pack with two shoulder straps, a rounded top, and a tightly rolled light-gray blanket strapped horizontally beneath it Signature, drawn only where this angle exposes it: the protruding cylindrical bedroll makes its silhouette recognizable from any side.\nAction: The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.\nMood: Precarious relief, with the danger still burning behind him.\n\nUser modification (verbatim):\n이전 컷에서 불이 오두막 바로 앞까지 왔음. 이 컷에선 오두막도 거의 불타는 모습으로 그려줘\n\nEdit instructions (refine):\nEdit the supplied image. Apply the user's modification and the changes it requires, using the target scene as the updated description. Preserve the existing camera composition and all unrelated subjects, props, and background details. For drawing cleanup, preserve the scene's meaning and arrangement.",
+					"spec":
+					{
+						"shot_name": "Man disappears into the dark downhill trail",
+						"beat": 8,
+						"zone": "Downhill trail",
+						"shot_size": "wide",
+						"angle": "eye level from the northern side of the trail",
+						"camera_move": "static",
+						"subjects_present": [
+							"Man",
+							"Backpack"
+						],
+						"subject_states": [
+							{
+								"subject": "Man",
+								"state": "The backpack remains strapped over both shoulders of his coat."
+							}
+						],
+						"backdrop": "Closely spaced trunks, exposed roots, and low rocks enclose the descending path. At far screen left, a gap opens back toward the clearing, where the cabin is now almost completely engulfed in flames, its timber walls and pitched roof burning around the still-recognizable stone chimney. The burning eastern forest rises behind it beneath a smoke-darkened sky; the trail bends into near-blackness at screen right.",
+						"action": "The man runs left to right down the trail, his coat and the backpack’s bedroll briefly rimmed by the distant fire; his shrinking silhouette passes around the black bend and disappears.",
+						"emotion": "Precarious relief, with the danger still burning behind him.",
+						"transition": "Hold briefly on the empty dark bend, then cut to black.",
+						"atmosphere": "Distant orange firelight from the engulfed cabin and burning eastern forest, along with rising smoke, remains visible through the eastern gap, but the downhill passage receives only faint moonlight.",
+						"duration_seconds": 6
+					},
+					"based_on": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,814 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인상의 사내가 걸어온다.\r\n2. 사내가 앞을 보며, '너, 뭐냐?'라고 서늘한 표정을 지으며 묻는다.\r\n3. 사내의 오른편에 하늘색 게임 창이 뜨며, <등장인물 요약 알림> 과 함께 그 밑에 써지는 글씨들,\r\n' 인물: 유중혁\r\n  특성: 회귀자 <3회차> (신화), 프로게이머(희귀)\r\n  전용 스킬: [현자의 눈 Lv.8] [백병전 Lv.8].. '\r\n4.그 순간 사내가 손을 뻗어 다른 회사원의 옷차림을 한 남자의 멱살을 잡는다.' \r\n5.회사원 옷차림의 남자의 얼굴을 왼쪽 위에서 비추며, 유중혁은 손을 놓고 회사원 남자는 바로 밑에 있던 용의 입 속으로 떨어진다.\r\n\r\n6. 그 다음 배경은 용의 위 속이다. 붉은 색의 점막들로 뒤덮여있는 곳이다. 위 속에서 회사원 남자는 희고 동그란, 농구공 사이즈 크기의 머리의 노란 뿔이 두개 달리고 갈색 거적때기를 입은 눈 2개의 도깨비와 이야기를 한다.\r\n7. 도깨비는 사라지고, 위 속에서 위액의 푸른 액체가 쌓인다. 회사원 남자는 위 벽에 가시들을 박은 채, 손으로 각 가시를 하나씩 잡고 발로 다른 가시들을 지탱해서 서 있는다.\r\n8. 위액이 사라지고, 푸른색의 구슬을 회사원 남자가 줍는다.",
+	"draft_prompt": "배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인상의 사내가 걸어온다.\r\n2. 사내가 앞을 보며, '너, 뭐냐?'라고 서늘한 표정을 지으며 묻는다.\r\n3. 사내의 오른편에 하늘색 게임 창이 뜨며, <등장인물 요약 알림> 과 함께 그 밑에 써지는 글씨들,\r\n' 인물: 유중혁\r\n  특성: 회귀자 <3회차> (신화), 프로게이머(희귀)\r\n  전용 스킬: [현자의 눈 Lv.8] [백병전 Lv.8].. '\r\n4.그 순간 사내가 손을 뻗어 다른 회사원의 옷차림을 한 남자의 멱살을 잡는다.' \r\n5.회사원 옷차림의 남자의 얼굴을 왼쪽 위에서 비추며, 유중혁은 손을 놓고 회사원 남자는 바로 밑에 있던 용의 입 속으로 떨어진다.\r\n\r\n6. 그 다음 배경은 용의 위 속이다. 붉은 색의 점막들로 뒤덮여있는 곳이다. 위 속에서 회사원 남자는 희고 동그란, 농구공 사이즈 크기의 머리의 노란 뿔이 두개 달리고 갈색 거적때기를 입은 눈 2개의 도깨비와 이야기를 한다.\r\n7. 도깨비는 사라지고, 위 속에서 위액의 푸른 액체가 쌓인다. 회사원 남자는 위 벽에 가시들을 박은 채, 손으로 각 가시를 하나씩 잡고 발로 다른 가시들을 지탱해서 서 있는다.\r\n8. 위액이 사라지고, 푸른색의 구슬을 회사원 남자가 줍는다.",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 34
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.",
+			"location_type": "A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.",
+			"zones": [
+				{
+					"name": "Wrecked roadway",
+					"description": "Concrete traffic lanes, faded lane markings, steel side railings, bent lamp poles, and collided sedans with buckled bodywork; the Han River and a subdued modern skyline are visible beyond the railings",
+					"connects_to": [
+						"Collapse edge"
+					]
+				},
+				{
+					"name": "Collapse edge",
+					"description": "A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip",
+					"connects_to": [
+						"Wrecked roadway",
+						"Dragon mouth"
+					]
+				},
+				{
+					"name": "Dragon mouth",
+					"description": "An enormous upward-facing jaw with conical teeth, a slick tongue, ridged palate, and a dark throat opening; a narrow strip of broken bridge is visible overhead and river water is visible outside the jaws",
+					"connects_to": [
+						"Collapse edge",
+						"Dragon stomach"
+					]
+				},
+				{
+					"name": "Dragon stomach",
+					"description": "A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead",
+					"connects_to": [
+						"Dragon mouth"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "overcast and dry",
+				"lighting": "soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "On zombie-overrun Mapo Bridge, an office worker struggles to survive after the cold swordsman Yoo Joonghyuk drops him into a dragon, where a cryptic goblin encounter gives way to rising stomach acid and the discovery of a blue orb.",
+			"beats": [
+				{
+					"summary": "A black-coated swordsman approaches through the wreckage of the broken bridge",
+					"emotion": "dread"
+				},
+				{
+					"summary": "The swordsman confronts an office worker with a cold question",
+					"emotion": "intimidation"
+				},
+				{
+					"summary": "A game-like window identifies the swordsman as Yoo Joonghyuk, a third-round regressor",
+					"emotion": "uncanny revelation"
+				},
+				{
+					"summary": "Yoo seizes the office worker by his collar at the broken edge",
+					"emotion": "shock"
+				},
+				{
+					"summary": "Yoo releases the worker above a dragon’s open mouth",
+					"emotion": "helpless terror"
+				},
+				{
+					"summary": "Inside the dragon’s stomach, the worker encounters a small goblin and speaks with it",
+					"emotion": "bewilderment"
+				},
+				{
+					"summary": "The goblin vanishes, leaving the worker clinging to wall spikes above rising acid",
+					"emotion": "desperate resolve"
+				},
+				{
+					"summary": "The acid drains away, exposing a blue orb that the worker retrieves",
+					"emotion": "cautious relief"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Yoo Joonghyuk",
+				"kind": "Adult male swordsman",
+				"appearance": "tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face",
+				"signature_features": [
+					"long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip."
+				]
+			},
+			{
+				"name": "Office worker",
+				"kind": "Adult male office employee",
+				"appearance": "average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair",
+				"signature_features": [
+					"conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side."
+				]
+			},
+			{
+				"name": "Zombified commuters",
+				"kind": "A recurring group of three infected adults",
+				"appearance": "one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing",
+				"signature_features": [
+					"strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette."
+				]
+			},
+			{
+				"name": "Dragon",
+				"kind": "Giant reptilian creature",
+				"appearance": "massive dark-gray wedge-shaped head, thick jaw, pale conical teeth, wet mid-gray mouth tissues, and two heavy backward-sweeping horns",
+				"signature_features": [
+					"immense head-to-human scale and a long horned skull silhouette recognizable from any side."
+				]
+			},
+			{
+				"name": "Goblin",
+				"kind": "Small supernatural creature",
+				"appearance": "knee-high body beneath a white spherical head approximately the size of a basketball; two eyes, two short yellow horns rendered pale gray, and a ragged brown garment rendered medium-dark gray",
+				"signature_features": [
+					"an oversized ball-shaped head much wider than its torso, crowned by paired horns."
+				]
+			},
+			{
+				"name": "Summary window",
+				"kind": "Floating game interface",
+				"appearance": "translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows",
+				"signature_features": [
+					"a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen."
+				]
+			},
+			{
+				"name": "Blue orb",
+				"kind": "Small spherical object",
+				"appearance": "palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface",
+				"signature_features": [
+					"a perfect round outline and internal spiral visible through the sphere from every direction."
+				]
+			}
+		],
+		"run_id": "storyboard_20261104_121600_7cc5e753"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Yoo Joonghyuk walking through the wrecked roadway",
+				"beat": 1,
+				"zone": "Wrecked roadway",
+				"shot_size": "extreme wide",
+				"angle": "eye level, frontal view down the roadway toward Yoo",
+				"camera_move": "slow backward tracking",
+				"subjects_present": [
+					"Yoo Joonghyuk",
+					"Zombified commuters"
+				],
+				"subject_states": [],
+				"backdrop": "Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway recedes behind Yoo, with the jagged break ahead of him on the camera side, out of frame.",
+				"action": "Yoo walks steadily straight toward the camera and the broken span, his face and torso seen frontally. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.",
+				"emotion": "Dread sharpened by Yoo’s unnatural composure.",
+				"transition": "Hard cut closer, preserving his frontal orientation.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Wrecked roadway: Concrete traffic lanes, faded lane markings, steel side railings, bent lamp poles, and collided sedans with buckled bodywork; the Han River and a subdued modern skyline are visible beyond the railings\nBackdrop, behind the action: Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway recedes behind Yoo, with the jagged break ahead of him on the camera side, out of frame.\nShot size: extreme wide\nCamera angle: eye level, frontal view down the roadway toward Yoo\nCamera move: slow backward tracking\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo walks steadily straight toward the camera and the broken span, his face and torso seen frontally. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.\nMood: Dread sharpened by Yoo’s unnatural composure.\n\nUser modification (verbatim):\n유중혁이 정면으로 걸어오게 해주세요.\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_01_002.jpg",
+				"cut_01_003.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Wrecked roadway: Concrete traffic lanes, faded lane markings, steel side railings, bent lamp poles, and collided sedans with buckled bodywork; the Han River and a subdued modern skyline are visible beyond the railings\nBackdrop, behind the action: Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway terminates at a jagged break on frame right.\nShot size: extreme wide\nCamera angle: eye level, side-on to the roadway\nCamera move: slow lateral tracking\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo walks steadily from screen left toward the broken span on screen right. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.\nMood: Dread sharpened by Yoo’s unnatural composure.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk walking through the wrecked roadway",
+						"beat": 1,
+						"zone": "Wrecked roadway",
+						"shot_size": "extreme wide",
+						"angle": "eye level, side-on to the roadway",
+						"camera_move": "slow lateral tracking",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway terminates at a jagged break on frame right.",
+						"action": "Yoo walks steadily from screen left toward the broken span on screen right. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.",
+						"emotion": "Dread sharpened by Yoo’s unnatural composure.",
+						"transition": "Hard cut closer, preserving his left-to-right approach.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				},
+				{
+					"modification": "유중혁이 정면으로 걸어오게 해주세요.",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Wrecked roadway: Concrete traffic lanes, faded lane markings, steel side railings, bent lamp poles, and collided sedans with buckled bodywork; the Han River and a subdued modern skyline are visible beyond the railings\nBackdrop, behind the action: Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway recedes behind Yoo, with the jagged break ahead of him on the camera side, out of frame.\nShot size: extreme wide\nCamera angle: eye level, frontal view down the roadway toward Yoo\nCamera move: slow backward tracking\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo walks steadily straight toward the camera and the broken span, his face and torso seen frontally. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.\nMood: Dread sharpened by Yoo’s unnatural composure.\n\nUser modification (verbatim):\n유중혁이 정면으로 걸어오게 해주세요.\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk walking through the wrecked roadway",
+						"beat": 1,
+						"zone": "Wrecked roadway",
+						"shot_size": "extreme wide",
+						"angle": "eye level, frontal view down the roadway toward Yoo",
+						"camera_move": "slow backward tracking",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "Collided sedans occupy the lanes beneath bent lamp poles; the surviving railing borders the gray Han River and distant skyline; the roadway recedes behind Yoo, with the jagged break ahead of him on the camera side, out of frame.",
+						"action": "Yoo walks steadily straight toward the camera and the broken span, his face and torso seen frontally. His coat hem swings around his legs while the three zombified commuters stagger between the wrecks.",
+						"emotion": "Dread sharpened by Yoo’s unnatural composure.",
+						"transition": "Hard cut closer, preserving his frontal orientation.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yoo Joonghyuk questioning the office worker",
+				"beat": 2,
+				"zone": "Collapse edge",
+				"shot_size": "medium, waist-up",
+				"angle": "eye level, frontal view of Yoo from the office worker’s position",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yoo Joonghyuk",
+					"Zombified commuters"
+				],
+				"subject_states": [],
+				"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.",
+				"action": "Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”",
+				"emotion": "Intimidation and uncertainty.",
+				"transition": "Hard cut to the space beside Yoo.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.\nShot size: medium, waist-up\nCamera angle: eye level, frontal view of Yoo from the office worker’s position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”\nMood: Intimidation and uncertainty.\n\nUser modification (verbatim):\n유중혁이 화면 중앙에 있게 해주시고, 상반신만 보여주세요.\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_02_004.jpg",
+				"cut_02_005.jpg",
+				"cut_02_006.jpg"
+			],
+			"current": 2,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks.\nShot size: medium\nCamera angle: eye level, three-quarter view from the same side of the confrontation axis\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands on screen left, facing the office worker on screen right. The worker holds himself rigid near the broken lip as Yoo fixes him with a cold stare and asks, “You, what are you?”\nMood: Intimidation and uncertainty.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk questioning the office worker",
+						"beat": 2,
+						"zone": "Collapse edge",
+						"shot_size": "medium",
+						"angle": "eye level, three-quarter view from the same side of the confrontation axis",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Office worker",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks.",
+						"action": "Yoo stands on screen left, facing the office worker on screen right. The worker holds himself rigid near the broken lip as Yoo fixes him with a cold stare and asks, “You, what are you?”",
+						"emotion": "Intimidation and uncertainty.",
+						"transition": "Hard cut to the space beside Yoo.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				},
+				{
+					"modification": "이때 용은 안 보이게 해주시고, 유중혁의 얼굴이 정면으로 보이게 해주세요. 회사원은 안 나오게 해주세요.",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.\nShot size: medium\nCamera angle: eye level, frontal view of Yoo from the office worker’s position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands on screen left with his face fully frontal to the camera. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”\nMood: Intimidation and uncertainty.\n\nUser modification (verbatim):\n이때 용은 안 보이게 해주시고, 유중혁의 얼굴이 정면으로 보이게 해주세요. 회사원은 안 나오게 해주세요.\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk questioning the office worker",
+						"beat": 2,
+						"zone": "Collapse edge",
+						"shot_size": "medium",
+						"angle": "eye level, frontal view of Yoo from the office worker’s position",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.",
+						"action": "Yoo stands on screen left with his face fully frontal to the camera. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”",
+						"emotion": "Intimidation and uncertainty.",
+						"transition": "Hard cut to the space beside Yoo.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					},
+					"based_on": 0
+				},
+				{
+					"modification": "유중혁이 화면 중앙에 있게 해주시고, 상반신만 보여주세요.",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.\nShot size: medium, waist-up\nCamera angle: eye level, frontal view of Yoo from the office worker’s position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”\nMood: Intimidation and uncertainty.\n\nUser modification (verbatim):\n유중혁이 화면 중앙에 있게 해주시고, 상반신만 보여주세요.\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk questioning the office worker",
+						"beat": 2,
+						"zone": "Collapse edge",
+						"shot_size": "medium, waist-up",
+						"angle": "eye level, frontal view of Yoo from the office worker’s position",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.",
+						"action": "Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up. The office worker remains entirely off screen on the camera side as Yoo fixes him with a cold stare and asks, “You, what are you?”",
+						"emotion": "Intimidation and uncertainty.",
+						"transition": "Hard cut to the space beside Yoo.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					},
+					"based_on": 1
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "The summary window identifying Yoo Joonghyuk",
+				"beat": 3,
+				"zone": "Collapse edge",
+				"shot_size": "medium, waist-up",
+				"angle": "eye level, frontal view of Yoo from the office worker’s position",
+				"camera_move": "static",
+				"subjects_present": [
+					"Yoo Joonghyuk",
+					"Summary window",
+					"Zombified commuters"
+				],
+				"subject_states": [],
+				"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.",
+				"action": "Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up, looking toward the office worker who remains off screen on the camera side. A sky-blue interface appears beside Yoo’s anatomical right side (screen left), facing the viewer frontally. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.",
+				"emotion": "Uncanny recognition of hidden power.",
+				"transition": "Hard cut on Yoo’s sudden forward movement.",
+				"atmosphere": null,
+				"duration_seconds": 6
+			},
+			"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.\nShot size: medium, waist-up\nCamera angle: eye level, frontal view of Yoo from the office worker’s position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Summary window (Floating game interface): translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows Signature, drawn only where this angle exposes it: a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up, looking toward the office worker who remains off screen on the camera side. A sky-blue interface appears beside Yoo’s anatomical right side (screen left), facing the viewer frontally. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.\nMood: Uncanny recognition of hidden power.\n\nUser modification (verbatim):\n컷 2의 상황처럼 유중혁이 상반신만 있고, 정중앙에 위치해 있으며, 정면을 바라보게 해주고, 특성창은 유중혁 오른편에서 정면을 바라보는 방향으로 띄우게 해주세요. 뒤 배경은 컷02와 같게 해주세요\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_03_005.jpg",
+				"cut_03_006.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: Softly focused fractured concrete and the dark side of the crushed sedan.\nShot size: medium\nCamera angle: eye level from Yoo’s right flank\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Summary window (Floating game interface): translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows Signature, drawn only where this angle exposes it: a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen.\nAction: A sky-blue interface appears beside Yoo’s anatomical right side while he continues looking toward screen right. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.\nMood: Uncanny recognition of hidden power.",
+					"spec":
+					{
+						"shot_name": "The summary window identifying Yoo Joonghyuk",
+						"beat": 3,
+						"zone": "Collapse edge",
+						"shot_size": "medium",
+						"angle": "eye level from Yoo’s right flank",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Summary window"
+						],
+						"subject_states": [],
+						"backdrop": "Softly focused fractured concrete and the dark side of the crushed sedan.",
+						"action": "A sky-blue interface appears beside Yoo’s anatomical right side while he continues looking toward screen right. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.",
+						"emotion": "Uncanny recognition of hidden power.",
+						"transition": "Hard cut on Yoo’s sudden forward movement.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					}
+				},
+				{
+					"modification": "컷 2의 상황처럼 유중혁이 상반신만 있고, 정중앙에 위치해 있으며, 정면을 바라보게 해주고, 특성창은 유중혁 오른편에서 정면을 바라보는 방향으로 띄우게 해주세요. 뒤 배경은 컷02와 같게 해주세요",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.\nShot size: medium, waist-up\nCamera angle: eye level, frontal view of Yoo from the office worker’s position\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Summary window (Floating game interface): translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows Signature, drawn only where this angle exposes it: a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen.\n- Zombified commuters (A recurring group of three infected adults): one tall and thin in a pale shirt, one short and stocky in a dark padded jacket, and one medium-height in a knee-length gray coat; slack faces and disordered clothing Signature, drawn only where this angle exposes it: strongly contrasting heights and builds, with crooked, hanging-arm postures readable in silhouette.\nAction: Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up, looking toward the office worker who remains off screen on the camera side. A sky-blue interface appears beside Yoo’s anatomical right side (screen left), facing the viewer frontally. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.\nMood: Uncanny recognition of hidden power.\n\nUser modification (verbatim):\n컷 2의 상황처럼 유중혁이 상반신만 있고, 정중앙에 위치해 있으며, 정면을 바라보게 해주고, 특성창은 유중혁 오른편에서 정면을 바라보는 방향으로 띄우게 해주세요. 뒤 배경은 컷02와 같게 해주세요\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "The summary window identifying Yoo Joonghyuk",
+						"beat": 3,
+						"zone": "Collapse edge",
+						"shot_size": "medium, waist-up",
+						"angle": "eye level, frontal view of Yoo from the office worker’s position",
+						"camera_move": "static",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Summary window",
+							"Zombified commuters"
+						],
+						"subject_states": [],
+						"backdrop": "A crushed sedan and fractured railing frame the surviving roadway; the three zombified commuters remain visible farther back among the neighboring roadway wrecks. The dragon and the area below the broken lip are entirely out of frame.",
+						"action": "Yoo stands at screen center with his face fully frontal to the camera, visible only from the waist up, looking toward the office worker who remains off screen on the camera side. A sky-blue interface appears beside Yoo’s anatomical right side (screen left), facing the viewer frontally. Its four separate lines are fully legible, top to bottom: “<Character Summary Notification>”; “Character: Yoo Joonghyuk”; “Traits: Regressor <3rd round> (Mythic), Pro Gamer (Rare)”; “Exclusive Skills: [Sage’s Eye Lv.8] [Hand-to-Hand Combat Lv.8]..”.",
+						"emotion": "Uncanny recognition of hidden power.",
+						"transition": "Hard cut on Yoo’s sudden forward movement.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yoo Joonghyuk seizing the office worker’s collar",
+				"beat": 4,
+				"zone": "Collapse edge",
+				"shot_size": "medium",
+				"angle": "high three-quarter angle from the same side of the confrontation axis",
+				"camera_move": "short forward dolly",
+				"subjects_present": [
+					"Yoo Joonghyuk",
+					"Office worker",
+					"Dragon",
+					"Summary window"
+				],
+				"subject_states": [
+					{
+						"subject": "Office worker",
+						"state": "His shirt collar is stretched and bunched upward, and his narrow tie has been pulled crooked."
+					}
+				],
+				"backdrop": "The jagged concrete lip and exposed reinforcing bars sit immediately behind the worker; below them, the dragon’s horned upper jaw and open teeth fill the gap. The cropped summary window remains at the left edge, with its title row visible.",
+				"action": "Yoo’s right fist clamps the worker’s collar and pulls his upper body outward over the break. The worker catches Yoo’s wrist with both hands, his shoulders lifted by the grip.",
+				"emotion": "Abrupt shock and physical vulnerability.",
+				"transition": "Hard cut downward across the bridge lip.",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: The jagged concrete lip and exposed reinforcing bars sit immediately behind the worker; below them, the dragon’s horned upper jaw and open teeth fill the gap. The cropped summary window remains at the left edge, with its title row visible.\nShot size: medium\nCamera angle: high three-quarter angle from the same side of the confrontation axis\nCamera move: short forward dolly\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar is stretched and bunched upward, and his narrow tie has been pulled crooked.\n- Dragon (Giant reptilian creature): massive dark-gray wedge-shaped head, thick jaw, pale conical teeth, wet mid-gray mouth tissues, and two heavy backward-sweeping horns Signature, drawn only where this angle exposes it: immense head-to-human scale and a long horned skull silhouette recognizable from any side.\n- Summary window (Floating game interface): translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows Signature, drawn only where this angle exposes it: a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen.\nAction: Yoo’s right fist clamps the worker’s collar and pulls his upper body outward over the break. The worker catches Yoo’s wrist with both hands, his shoulders lifted by the grip.\nMood: Abrupt shock and physical vulnerability.",
+			"images": [
+				"cut_04_003.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Collapse edge: A jagged mid-span break with exposed reinforcing bars, fractured lane markings, a crushed sedan against the surviving railing, and open river beyond the missing roadway; the dragon’s upturned jaws are directly below the lip\nBackdrop, behind the action: The jagged concrete lip and exposed reinforcing bars sit immediately behind the worker; below them, the dragon’s horned upper jaw and open teeth fill the gap. The cropped summary window remains at the left edge, with its title row visible.\nShot size: medium\nCamera angle: high three-quarter angle from the same side of the confrontation axis\nCamera move: short forward dolly\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar is stretched and bunched upward, and his narrow tie has been pulled crooked.\n- Dragon (Giant reptilian creature): massive dark-gray wedge-shaped head, thick jaw, pale conical teeth, wet mid-gray mouth tissues, and two heavy backward-sweeping horns Signature, drawn only where this angle exposes it: immense head-to-human scale and a long horned skull silhouette recognizable from any side.\n- Summary window (Floating game interface): translucent sky-blue panel rendered pale gray, with a dark fine border, stepped corners, a title row, and three information rows Signature, drawn only where this angle exposes it: a fixed rectangular silhouette with stepped corner tabs; presented as a viewer-facing graphic, never an edge-on physical screen.\nAction: Yoo’s right fist clamps the worker’s collar and pulls his upper body outward over the break. The worker catches Yoo’s wrist with both hands, his shoulders lifted by the grip.\nMood: Abrupt shock and physical vulnerability.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk seizing the office worker’s collar",
+						"beat": 4,
+						"zone": "Collapse edge",
+						"shot_size": "medium",
+						"angle": "high three-quarter angle from the same side of the confrontation axis",
+						"camera_move": "short forward dolly",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Office worker",
+							"Dragon",
+							"Summary window"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar is stretched and bunched upward, and his narrow tie has been pulled crooked."
+							}
+						],
+						"backdrop": "The jagged concrete lip and exposed reinforcing bars sit immediately behind the worker; below them, the dragon’s horned upper jaw and open teeth fill the gap. The cropped summary window remains at the left edge, with its title row visible.",
+						"action": "Yoo’s right fist clamps the worker’s collar and pulls his upper body outward over the break. The worker catches Yoo’s wrist with both hands, his shoulders lifted by the grip.",
+						"emotion": "Abrupt shock and physical vulnerability.",
+						"transition": "Hard cut downward across the bridge lip.",
+						"atmosphere": null,
+						"duration_seconds": 2
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Yoo Joonghyuk releasing the office worker into the dragon’s mouth",
+				"beat": 5,
+				"zone": "Dragon mouth",
+				"shot_size": "wide",
+				"angle": "steep high angle from above the worker’s upper-left side",
+				"camera_move": "short downward tilt following the fall",
+				"subjects_present": [
+					"Yoo Joonghyuk",
+					"Office worker",
+					"Dragon"
+				],
+				"subject_states": [
+					{
+						"subject": "Office worker",
+						"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+					}
+				],
+				"backdrop": "The dragon’s wet tongue and ridged palate fill the lower frame inside a ring of pale teeth; a narrow strip of broken concrete occupies the upper edge.",
+				"action": "The worker falls backward with his face turned toward the viewpoint in the upper-left foreground. Yoo’s open right hand and black sleeve remain visible above the bridge lip, clearly separated from the released collar. The dragon’s open throat lies directly beneath the falling worker.",
+				"emotion": "Helpless terror.",
+				"transition": "Hard cut from the dark throat opening to the enclosed stomach.",
+				"atmosphere": null,
+				"duration_seconds": 3
+			},
+			"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon mouth: An enormous upward-facing jaw with conical teeth, a slick tongue, ridged palate, and a dark throat opening; a narrow strip of broken bridge is visible overhead and river water is visible outside the jaws\nBackdrop, behind the action: The dragon’s wet tongue and ridged palate fill the lower frame inside a ring of pale teeth; a narrow strip of broken concrete occupies the upper edge.\nShot size: wide\nCamera angle: steep high angle from above the worker’s upper-left side\nCamera move: short downward tilt following the fall\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Dragon (Giant reptilian creature): massive dark-gray wedge-shaped head, thick jaw, pale conical teeth, wet mid-gray mouth tissues, and two heavy backward-sweeping horns Signature, drawn only where this angle exposes it: immense head-to-human scale and a long horned skull silhouette recognizable from any side.\nAction: The worker falls backward with his face turned toward the viewpoint in the upper-left foreground. Yoo’s open right hand and black sleeve remain visible above the bridge lip, clearly separated from the released collar. The dragon’s open throat lies directly beneath the falling worker.\nMood: Helpless terror.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon mouth: An enormous upward-facing jaw with conical teeth, a slick tongue, ridged palate, and a dark throat opening; a narrow strip of broken bridge is visible overhead and river water is visible outside the jaws\nBackdrop, behind the action: The dragon’s wet tongue and ridged palate fill the lower frame inside a ring of pale teeth; a narrow strip of broken concrete occupies the upper edge.\nShot size: wide\nCamera angle: steep high angle from above the worker’s upper-left side\nCamera move: short downward tilt following the fall\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Yoo Joonghyuk (Adult male swordsman): tall, broad-shouldered, lean build; charcoal-black trench coat, black shirt, black belt, fitted black trousers, and black dress shoes; black side-parted hair exposing half his forehead; cold, sharply defined face Signature, drawn only where this angle exposes it: long straight coat silhouette, broad shoulders, and a diagonal back-mounted sword scabbard projecting above one shoulder and below the opposite hip.\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Dragon (Giant reptilian creature): massive dark-gray wedge-shaped head, thick jaw, pale conical teeth, wet mid-gray mouth tissues, and two heavy backward-sweeping horns Signature, drawn only where this angle exposes it: immense head-to-human scale and a long horned skull silhouette recognizable from any side.\nAction: The worker falls backward with his face turned toward the viewpoint in the upper-left foreground. Yoo’s open right hand and black sleeve remain visible above the bridge lip, clearly separated from the released collar. The dragon’s open throat lies directly beneath the falling worker.\nMood: Helpless terror.",
+					"spec":
+					{
+						"shot_name": "Yoo Joonghyuk releasing the office worker into the dragon’s mouth",
+						"beat": 5,
+						"zone": "Dragon mouth",
+						"shot_size": "wide",
+						"angle": "steep high angle from above the worker’s upper-left side",
+						"camera_move": "short downward tilt following the fall",
+						"subjects_present": [
+							"Yoo Joonghyuk",
+							"Office worker",
+							"Dragon"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							}
+						],
+						"backdrop": "The dragon’s wet tongue and ridged palate fill the lower frame inside a ring of pale teeth; a narrow strip of broken concrete occupies the upper edge.",
+						"action": "The worker falls backward with his face turned toward the viewpoint in the upper-left foreground. Yoo’s open right hand and black sleeve remain visible above the bridge lip, clearly separated from the released collar. The dragon’s open throat lies directly beneath the falling worker.",
+						"emotion": "Helpless terror.",
+						"transition": "Hard cut from the dark throat opening to the enclosed stomach.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "The office worker speaking with the goblin",
+				"beat": 6,
+				"zone": "Dragon stomach",
+				"shot_size": "wide",
+				"angle": "slightly low, near the fleshy floor",
+				"camera_move": "slow forward dolly",
+				"subjects_present": [
+					"Office worker",
+					"Goblin"
+				],
+				"subject_states": [
+					{
+						"subject": "Office worker",
+						"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+					}
+				],
+				"backdrop": "Glossy dark-red mucosal walls rise around the chamber; branching veins and thick folds surround the dark throat aperture overhead.",
+				"action": "The worker stands on the concave floor, bending toward the knee-high goblin. They face one another in conversation: the worker holds one palm open in a questioning gesture while the goblin answers with a small raised hand.",
+				"emotion": "Bewilderment with a fragile suggestion of guidance.",
+				"transition": "Hard cut to a higher position on the stomach wall.",
+				"atmosphere": null,
+				"duration_seconds": 6
+			},
+			"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: Glossy dark-red mucosal walls rise around the chamber; branching veins and thick folds surround the dark throat aperture overhead.\nShot size: wide\nCamera angle: slightly low, near the fleshy floor\nCamera move: slow forward dolly\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Goblin (Small supernatural creature): knee-high body beneath a white spherical head approximately the size of a basketball; two eyes, two short yellow horns rendered pale gray, and a ragged brown garment rendered medium-dark gray Signature, drawn only where this angle exposes it: an oversized ball-shaped head much wider than its torso, crowned by paired horns.\nAction: The worker stands on the concave floor, bending toward the knee-high goblin. They face one another in conversation: the worker holds one palm open in a questioning gesture while the goblin answers with a small raised hand.\nMood: Bewilderment with a fragile suggestion of guidance.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: Glossy dark-red mucosal walls rise around the chamber; branching veins and thick folds surround the dark throat aperture overhead.\nShot size: wide\nCamera angle: slightly low, near the fleshy floor\nCamera move: slow forward dolly\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Goblin (Small supernatural creature): knee-high body beneath a white spherical head approximately the size of a basketball; two eyes, two short yellow horns rendered pale gray, and a ragged brown garment rendered medium-dark gray Signature, drawn only where this angle exposes it: an oversized ball-shaped head much wider than its torso, crowned by paired horns.\nAction: The worker stands on the concave floor, bending toward the knee-high goblin. They face one another in conversation: the worker holds one palm open in a questioning gesture while the goblin answers with a small raised hand.\nMood: Bewilderment with a fragile suggestion of guidance.",
+					"spec":
+					{
+						"shot_name": "The office worker speaking with the goblin",
+						"beat": 6,
+						"zone": "Dragon stomach",
+						"shot_size": "wide",
+						"angle": "slightly low, near the fleshy floor",
+						"camera_move": "slow forward dolly",
+						"subjects_present": [
+							"Office worker",
+							"Goblin"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							}
+						],
+						"backdrop": "Glossy dark-red mucosal walls rise around the chamber; branching veins and thick folds surround the dark throat aperture overhead.",
+						"action": "The worker stands on the concave floor, bending toward the knee-high goblin. They face one another in conversation: the worker holds one palm open in a questioning gesture while the goblin answers with a small raised hand.",
+						"emotion": "Bewilderment with a fragile suggestion of guidance.",
+						"transition": "Hard cut to a higher position on the stomach wall.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "The office worker bracing above acid",
+				"beat": 7,
+				"zone": "Dragon stomach",
+				"shot_size": "wide",
+				"angle": "high three-quarter angle looking along the wall",
+				"camera_move": "static",
+				"subjects_present": [
+					"Office worker",
+					"Blue orb"
+				],
+				"subject_states": [
+					{
+						"subject": "Office worker",
+						"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+					}
+				],
+				"backdrop": "Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.",
+				"action": "The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.",
+				"emotion": "Abandonment turning into desperate resolve.",
+				"transition": "Match cut on the orb’s circular outline.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.\nShot size: wide\nCamera angle: high three-quarter angle looking along the wall\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.\nMood: Abandonment turning into desperate resolve.\n\nUser modification (verbatim):\n도깨비는 이 장면에서 안 나오게 해주세요\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_07_001.jpg",
+				"cut_07_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.\nShot size: wide\nCamera angle: high three-quarter angle looking along the wall\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Goblin (Small supernatural creature): knee-high body beneath a white spherical head approximately the size of a basketball; two eyes, two short yellow horns rendered pale gray, and a ragged brown garment rendered medium-dark gray Signature, drawn only where this angle exposes it: an oversized ball-shaped head much wider than its torso, crowned by paired horns. Current state in this cut: Its body and oversized horned head are translucent and breaking into sparse, non-luminous fragments.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beside him, the goblin’s remaining silhouette dissolves. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.\nMood: Abandonment turning into desperate resolve.",
+					"spec":
+					{
+						"shot_name": "The office worker bracing above acid as the goblin vanishes",
+						"beat": 7,
+						"zone": "Dragon stomach",
+						"shot_size": "wide",
+						"angle": "high three-quarter angle looking along the wall",
+						"camera_move": "static",
+						"subjects_present": [
+							"Office worker",
+							"Goblin",
+							"Blue orb"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							},
+							{
+								"subject": "Goblin",
+								"state": "Its body and oversized horned head are translucent and breaking into sparse, non-luminous fragments."
+							}
+						],
+						"backdrop": "Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.",
+						"action": "The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beside him, the goblin’s remaining silhouette dissolves. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.",
+						"emotion": "Abandonment turning into desperate resolve.",
+						"transition": "Match cut on the orb’s circular outline.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				},
+				{
+					"modification": "도깨비는 이 장면에서 안 나오게 해주세요",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.\nShot size: wide\nCamera angle: high three-quarter angle looking along the wall\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.\nMood: Abandonment turning into desperate resolve.\n\nUser modification (verbatim):\n도깨비는 이 장면에서 안 나오게 해주세요\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "The office worker bracing above acid",
+						"beat": 7,
+						"zone": "Dragon stomach",
+						"shot_size": "wide",
+						"angle": "high three-quarter angle looking along the wall",
+						"camera_move": "static",
+						"subjects_present": [
+							"Office worker",
+							"Blue orb"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							}
+						],
+						"backdrop": "Four metal spikes are embedded at staggered heights in the thick mucosal wall; blue stomach acid covers the concave floor and laps against the lowest folds.",
+						"action": "The worker grips two upper spikes, one in each hand, while each foot presses onto a separate lower spike. The acid rises just below his shoes. Beneath the liquid near the wall, a small blue orb is visible through the rippling surface.",
+						"emotion": "Abandonment turning into desperate resolve.",
+						"transition": "Match cut on the orb’s circular outline.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "The office worker retrieving the blue orb",
+				"beat": 8,
+				"zone": "Dragon stomach",
+				"shot_size": "medium close-up",
+				"angle": "slightly high, framing the worker’s face, collar, and hands",
+				"camera_move": "gentle downward tilt toward his hands",
+				"subjects_present": [
+					"Office worker",
+					"Blue orb"
+				],
+				"subject_states": [
+					{
+						"subject": "Office worker",
+						"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+					}
+				],
+				"backdrop": "The exposed mucosal floor is slick but no longer submerged; empty drainage creases remain visible, and several metal spikes are visibly embedded in the mucosal wall above the worker.",
+				"action": "Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.",
+				"emotion": "Cautious relief and unresolved curiosity.",
+				"transition": "Hold on the orb in his palm, then cut to black.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: The exposed mucosal floor is slick but no longer submerged; empty drainage creases remain visible, and several metal spikes are visibly embedded in the mucosal wall above the worker.\nShot size: medium close-up\nCamera angle: slightly high, framing the worker’s face, collar, and hands\nCamera move: gentle downward tilt toward his hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.\nMood: Cautious relief and unresolved curiosity.\n\nUser modification (verbatim):\n위 벽에 가시들이 여러개 박혀있게 해주세요.\n\nEdit instructions (refine):\nEdit the supplied image. Apply the user's modification and the changes it requires, using the target scene as the updated description. Preserve the existing camera composition and all unrelated subjects, props, and background details. For drawing cleanup, preserve the scene's meaning and arrangement.",
+			"images": [
+				"cut_08_001.jpg",
+				"cut_08_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: The exposed mucosal floor is slick but no longer submerged; empty drainage creases and the lower ends of the wall’s embedded spikes remain visible.\nShot size: medium close-up\nCamera angle: slightly high, framing the worker’s face, collar, and hands\nCamera move: gentle downward tilt toward his hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.\nMood: Cautious relief and unresolved curiosity.",
+					"spec":
+					{
+						"shot_name": "The office worker retrieving the blue orb",
+						"beat": 8,
+						"zone": "Dragon stomach",
+						"shot_size": "medium close-up",
+						"angle": "slightly high, framing the worker’s face, collar, and hands",
+						"camera_move": "gentle downward tilt toward his hands",
+						"subjects_present": [
+							"Office worker",
+							"Blue orb"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							}
+						],
+						"backdrop": "The exposed mucosal floor is slick but no longer submerged; empty drainage creases and the lower ends of the wall’s embedded spikes remain visible.",
+						"action": "Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.",
+						"emotion": "Cautious relief and unresolved curiosity.",
+						"transition": "Hold on the orb in his palm, then cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				},
+				{
+					"modification": "위 벽에 가시들이 여러개 박혀있게 해주세요.",
+					"image_prompt": "Target scene:\nSetting: Twenty-first-century Seoul’s Mapo Bridge and the dragon’s organic interior share a stark charcoal-to-pale-gray treatment, contrasting utilitarian concrete and steel with glossy dark-red membrane beneath overcast exterior light and dim interior reflections.\nLocation: A continuous route from an outdoor bridge above the Han River into an open dragon mouth and an enclosed stomach.\nAtmosphere: Late afternoon, overcast and dry, soft gray daylight outdoors; faint diffuse red illumination and wet reflected highlights inside the stomach.\nThis cut happens at Dragon stomach: A tall enclosed chamber of dark-red mucosal folds, branching veins, glistening ridges, a concave fleshy floor, narrow drainage creases, and a dark throat aperture overhead\nBackdrop, behind the action: The exposed mucosal floor is slick but no longer submerged; empty drainage creases remain visible, and several metal spikes are visibly embedded in the mucosal wall above the worker.\nShot size: medium close-up\nCamera angle: slightly high, framing the worker’s face, collar, and hands\nCamera move: gentle downward tilt toward his hands\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Office worker (Adult male office employee): average height, narrow shoulders, long-limbed build; pale-gray fitted suit jacket, white shirt, narrow dark tie, medium-gray trousers, and dark office shoes; short, slightly untidy dark hair Signature, drawn only where this angle exposes it: conspicuously slim proportions and an elongated fitted jacket silhouette recognizable from every side. Current state in this cut: His shirt collar remains stretched and bunched, and his tie remains crooked.\n- Blue orb (Small spherical object): palm-sized, saturated blue rendered medium gray, with a pale pearlescent spiral beneath its glossy surface Signature, drawn only where this angle exposes it: a perfect round outline and internal spiral visible through the sphere from every direction.\nAction: Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.\nMood: Cautious relief and unresolved curiosity.\n\nUser modification (verbatim):\n위 벽에 가시들이 여러개 박혀있게 해주세요.\n\nEdit instructions (refine):\nEdit the supplied image. Apply the user's modification and the changes it requires, using the target scene as the updated description. Preserve the existing camera composition and all unrelated subjects, props, and background details. For drawing cleanup, preserve the scene's meaning and arrangement.",
+					"spec":
+					{
+						"shot_name": "The office worker retrieving the blue orb",
+						"beat": 8,
+						"zone": "Dragon stomach",
+						"shot_size": "medium close-up",
+						"angle": "slightly high, framing the worker’s face, collar, and hands",
+						"camera_move": "gentle downward tilt toward his hands",
+						"subjects_present": [
+							"Office worker",
+							"Blue orb"
+						],
+						"subject_states": [
+							{
+								"subject": "Office worker",
+								"state": "His shirt collar remains stretched and bunched, and his tie remains crooked."
+							}
+						],
+						"backdrop": "The exposed mucosal floor is slick but no longer submerged; empty drainage creases remain visible, and several metal spikes are visibly embedded in the mucosal wall above the worker.",
+						"action": "Crouching on the drained floor, the worker lifts the blue orb into his open palm and steadies it with his other hand. He studies its pale internal spiral, his tense mouth easing slightly.",
+						"emotion": "Cautious relief and unresolved curiosity.",
+						"transition": "Hold on the orb in his palm, then cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					},
+					"based_on": 0
+				}
+			]
+		}
+	]
+}

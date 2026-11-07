@@ -1,0 +1,26 @@
+{
+  "moved_at": "2026-11-07T13:38:49.921125+00:00",
+  "canonical_directory": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/docs/평가지표/coverage",
+  "primary_report": "프리비즈_커버리지_통합보고서.html",
+  "previous_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-06",
+  "previous_directory_is_compatibility_symlink": true,
+  "verified_report_and_attachment_files": 2227,
+  "all_file_sha256_match_before_relocation": true,
+  "updated_existing_files": 24,
+  "added_files": 534,
+  "verification": {
+    "checked_at": "2026-11-07T13:40:12.197Z",
+    "relative_asset_references_checked": 321,
+    "project_count": 18,
+    "unit_count": 122,
+    "playback_and_seek_checked": [
+      "01",
+      "18"
+    ],
+    "javascript_errors": [],
+    "coverage_unchanged": {
+      "new": 89.2,
+      "all": 83.6
+    }
+  }
+}

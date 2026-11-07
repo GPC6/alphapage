@@ -1,0 +1,472 @@
+{
+  "14": [
+    {
+      "time_seconds": 14.0,
+      "frame": "evidence/14_first_pass/detail_14_16/f0001.jpg"
+    },
+    {
+      "time_seconds": 14.1,
+      "frame": "evidence/14_first_pass/detail_14_16/f0002.jpg"
+    },
+    {
+      "time_seconds": 14.2,
+      "frame": "evidence/14_first_pass/detail_14_16/f0003.jpg"
+    },
+    {
+      "time_seconds": 14.3,
+      "frame": "evidence/14_first_pass/detail_14_16/f0004.jpg"
+    },
+    {
+      "time_seconds": 14.4,
+      "frame": "evidence/14_first_pass/detail_14_16/f0005.jpg"
+    },
+    {
+      "time_seconds": 14.5,
+      "frame": "evidence/14_first_pass/detail_14_16/f0006.jpg"
+    },
+    {
+      "time_seconds": 14.6,
+      "frame": "evidence/14_first_pass/detail_14_16/f0007.jpg"
+    },
+    {
+      "time_seconds": 14.7,
+      "frame": "evidence/14_first_pass/detail_14_16/f0008.jpg"
+    },
+    {
+      "time_seconds": 14.8,
+      "frame": "evidence/14_first_pass/detail_14_16/f0009.jpg"
+    },
+    {
+      "time_seconds": 14.9,
+      "frame": "evidence/14_first_pass/detail_14_16/f0010.jpg"
+    },
+    {
+      "time_seconds": 15.0,
+      "frame": "evidence/14_first_pass/detail_14_16/f0011.jpg"
+    },
+    {
+      "time_seconds": 15.1,
+      "frame": "evidence/14_first_pass/detail_14_16/f0012.jpg"
+    },
+    {
+      "time_seconds": 15.2,
+      "frame": "evidence/14_first_pass/detail_14_16/f0013.jpg"
+    },
+    {
+      "time_seconds": 15.3,
+      "frame": "evidence/14_first_pass/detail_14_16/f0014.jpg"
+    },
+    {
+      "time_seconds": 15.4,
+      "frame": "evidence/14_first_pass/detail_14_16/f0015.jpg"
+    },
+    {
+      "time_seconds": 15.5,
+      "frame": "evidence/14_first_pass/detail_14_16/f0016.jpg"
+    },
+    {
+      "time_seconds": 15.6,
+      "frame": "evidence/14_first_pass/detail_14_16/f0017.jpg"
+    },
+    {
+      "time_seconds": 15.7,
+      "frame": "evidence/14_first_pass/detail_14_16/f0018.jpg"
+    },
+    {
+      "time_seconds": 15.8,
+      "frame": "evidence/14_first_pass/detail_14_16/f0019.jpg"
+    },
+    {
+      "time_seconds": 15.9,
+      "frame": "evidence/14_first_pass/detail_14_16/f0020.jpg"
+    },
+    {
+      "time_seconds": 29.5,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0001.jpg"
+    },
+    {
+      "time_seconds": 29.6,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0002.jpg"
+    },
+    {
+      "time_seconds": 29.7,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0003.jpg"
+    },
+    {
+      "time_seconds": 29.8,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0004.jpg"
+    },
+    {
+      "time_seconds": 29.9,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0005.jpg"
+    },
+    {
+      "time_seconds": 30.0,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0006.jpg"
+    },
+    {
+      "time_seconds": 30.1,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0007.jpg"
+    },
+    {
+      "time_seconds": 30.2,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0008.jpg"
+    },
+    {
+      "time_seconds": 30.3,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0009.jpg"
+    },
+    {
+      "time_seconds": 30.4,
+      "frame": "evidence/14_first_pass/detail_29.5_30.5/f0010.jpg"
+    }
+  ],
+  "15": [
+    {
+      "time_seconds": 27.5,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0001.jpg"
+    },
+    {
+      "time_seconds": 27.6,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0002.jpg"
+    },
+    {
+      "time_seconds": 27.7,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0003.jpg"
+    },
+    {
+      "time_seconds": 27.8,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0004.jpg"
+    },
+    {
+      "time_seconds": 27.9,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0005.jpg"
+    },
+    {
+      "time_seconds": 28.0,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0006.jpg"
+    },
+    {
+      "time_seconds": 28.1,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0007.jpg"
+    },
+    {
+      "time_seconds": 28.2,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0008.jpg"
+    },
+    {
+      "time_seconds": 28.3,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0009.jpg"
+    },
+    {
+      "time_seconds": 28.4,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0010.jpg"
+    },
+    {
+      "time_seconds": 28.5,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0011.jpg"
+    },
+    {
+      "time_seconds": 28.6,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0012.jpg"
+    },
+    {
+      "time_seconds": 28.7,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0013.jpg"
+    },
+    {
+      "time_seconds": 28.8,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0014.jpg"
+    },
+    {
+      "time_seconds": 28.9,
+      "frame": "evidence/15_first_pass/detail_27.5_29/f0015.jpg"
+    }
+  ],
+  "16": [
+    {
+      "time_seconds": 4.0,
+      "frame": "evidence/16_first_pass/detail_4_6/f0001.jpg"
+    },
+    {
+      "time_seconds": 4.1,
+      "frame": "evidence/16_first_pass/detail_4_6/f0002.jpg"
+    },
+    {
+      "time_seconds": 4.2,
+      "frame": "evidence/16_first_pass/detail_4_6/f0003.jpg"
+    },
+    {
+      "time_seconds": 4.3,
+      "frame": "evidence/16_first_pass/detail_4_6/f0004.jpg"
+    },
+    {
+      "time_seconds": 4.4,
+      "frame": "evidence/16_first_pass/detail_4_6/f0005.jpg"
+    },
+    {
+      "time_seconds": 4.5,
+      "frame": "evidence/16_first_pass/detail_4_6/f0006.jpg"
+    },
+    {
+      "time_seconds": 4.6,
+      "frame": "evidence/16_first_pass/detail_4_6/f0007.jpg"
+    },
+    {
+      "time_seconds": 4.7,
+      "frame": "evidence/16_first_pass/detail_4_6/f0008.jpg"
+    },
+    {
+      "time_seconds": 4.8,
+      "frame": "evidence/16_first_pass/detail_4_6/f0009.jpg"
+    },
+    {
+      "time_seconds": 4.9,
+      "frame": "evidence/16_first_pass/detail_4_6/f0010.jpg"
+    },
+    {
+      "time_seconds": 5.0,
+      "frame": "evidence/16_first_pass/detail_4_6/f0011.jpg"
+    },
+    {
+      "time_seconds": 5.1,
+      "frame": "evidence/16_first_pass/detail_4_6/f0012.jpg"
+    },
+    {
+      "time_seconds": 5.2,
+      "frame": "evidence/16_first_pass/detail_4_6/f0013.jpg"
+    },
+    {
+      "time_seconds": 5.3,
+      "frame": "evidence/16_first_pass/detail_4_6/f0014.jpg"
+    },
+    {
+      "time_seconds": 5.4,
+      "frame": "evidence/16_first_pass/detail_4_6/f0015.jpg"
+    },
+    {
+      "time_seconds": 5.5,
+      "frame": "evidence/16_first_pass/detail_4_6/f0016.jpg"
+    },
+    {
+      "time_seconds": 5.6,
+      "frame": "evidence/16_first_pass/detail_4_6/f0017.jpg"
+    },
+    {
+      "time_seconds": 5.7,
+      "frame": "evidence/16_first_pass/detail_4_6/f0018.jpg"
+    },
+    {
+      "time_seconds": 5.8,
+      "frame": "evidence/16_first_pass/detail_4_6/f0019.jpg"
+    },
+    {
+      "time_seconds": 5.9,
+      "frame": "evidence/16_first_pass/detail_4_6/f0020.jpg"
+    }
+  ],
+  "17": [
+    {
+      "time_seconds": 10.0,
+      "frame": "evidence/17_first_pass/detail_10_11/f0001.jpg"
+    },
+    {
+      "time_seconds": 10.1,
+      "frame": "evidence/17_first_pass/detail_10_11/f0002.jpg"
+    },
+    {
+      "time_seconds": 10.2,
+      "frame": "evidence/17_first_pass/detail_10_11/f0003.jpg"
+    },
+    {
+      "time_seconds": 10.3,
+      "frame": "evidence/17_first_pass/detail_10_11/f0004.jpg"
+    },
+    {
+      "time_seconds": 10.4,
+      "frame": "evidence/17_first_pass/detail_10_11/f0005.jpg"
+    },
+    {
+      "time_seconds": 10.5,
+      "frame": "evidence/17_first_pass/detail_10_11/f0006.jpg"
+    },
+    {
+      "time_seconds": 10.6,
+      "frame": "evidence/17_first_pass/detail_10_11/f0007.jpg"
+    },
+    {
+      "time_seconds": 10.7,
+      "frame": "evidence/17_first_pass/detail_10_11/f0008.jpg"
+    },
+    {
+      "time_seconds": 10.8,
+      "frame": "evidence/17_first_pass/detail_10_11/f0009.jpg"
+    },
+    {
+      "time_seconds": 10.9,
+      "frame": "evidence/17_first_pass/detail_10_11/f0010.jpg"
+    },
+    {
+      "time_seconds": 32.0,
+      "frame": "evidence/17_first_pass/detail_32_33/f0001.jpg"
+    },
+    {
+      "time_seconds": 32.1,
+      "frame": "evidence/17_first_pass/detail_32_33/f0002.jpg"
+    },
+    {
+      "time_seconds": 32.2,
+      "frame": "evidence/17_first_pass/detail_32_33/f0003.jpg"
+    },
+    {
+      "time_seconds": 32.3,
+      "frame": "evidence/17_first_pass/detail_32_33/f0004.jpg"
+    },
+    {
+      "time_seconds": 32.4,
+      "frame": "evidence/17_first_pass/detail_32_33/f0005.jpg"
+    },
+    {
+      "time_seconds": 32.5,
+      "frame": "evidence/17_first_pass/detail_32_33/f0006.jpg"
+    },
+    {
+      "time_seconds": 32.6,
+      "frame": "evidence/17_first_pass/detail_32_33/f0007.jpg"
+    },
+    {
+      "time_seconds": 32.7,
+      "frame": "evidence/17_first_pass/detail_32_33/f0008.jpg"
+    },
+    {
+      "time_seconds": 32.8,
+      "frame": "evidence/17_first_pass/detail_32_33/f0009.jpg"
+    },
+    {
+      "time_seconds": 32.9,
+      "frame": "evidence/17_first_pass/detail_32_33/f0010.jpg"
+    }
+  ],
+  "18": [
+    {
+      "time_seconds": 24.0,
+      "frame": "evidence/18_first_pass/detail_24_27/f0001.jpg"
+    },
+    {
+      "time_seconds": 24.1,
+      "frame": "evidence/18_first_pass/detail_24_27/f0002.jpg"
+    },
+    {
+      "time_seconds": 24.2,
+      "frame": "evidence/18_first_pass/detail_24_27/f0003.jpg"
+    },
+    {
+      "time_seconds": 24.3,
+      "frame": "evidence/18_first_pass/detail_24_27/f0004.jpg"
+    },
+    {
+      "time_seconds": 24.4,
+      "frame": "evidence/18_first_pass/detail_24_27/f0005.jpg"
+    },
+    {
+      "time_seconds": 24.5,
+      "frame": "evidence/18_first_pass/detail_24_27/f0006.jpg"
+    },
+    {
+      "time_seconds": 24.6,
+      "frame": "evidence/18_first_pass/detail_24_27/f0007.jpg"
+    },
+    {
+      "time_seconds": 24.7,
+      "frame": "evidence/18_first_pass/detail_24_27/f0008.jpg"
+    },
+    {
+      "time_seconds": 24.8,
+      "frame": "evidence/18_first_pass/detail_24_27/f0009.jpg"
+    },
+    {
+      "time_seconds": 24.9,
+      "frame": "evidence/18_first_pass/detail_24_27/f0010.jpg"
+    },
+    {
+      "time_seconds": 25.0,
+      "frame": "evidence/18_first_pass/detail_24_27/f0011.jpg"
+    },
+    {
+      "time_seconds": 25.1,
+      "frame": "evidence/18_first_pass/detail_24_27/f0012.jpg"
+    },
+    {
+      "time_seconds": 25.2,
+      "frame": "evidence/18_first_pass/detail_24_27/f0013.jpg"
+    },
+    {
+      "time_seconds": 25.3,
+      "frame": "evidence/18_first_pass/detail_24_27/f0014.jpg"
+    },
+    {
+      "time_seconds": 25.4,
+      "frame": "evidence/18_first_pass/detail_24_27/f0015.jpg"
+    },
+    {
+      "time_seconds": 25.5,
+      "frame": "evidence/18_first_pass/detail_24_27/f0016.jpg"
+    },
+    {
+      "time_seconds": 25.6,
+      "frame": "evidence/18_first_pass/detail_24_27/f0017.jpg"
+    },
+    {
+      "time_seconds": 25.7,
+      "frame": "evidence/18_first_pass/detail_24_27/f0018.jpg"
+    },
+    {
+      "time_seconds": 25.8,
+      "frame": "evidence/18_first_pass/detail_24_27/f0019.jpg"
+    },
+    {
+      "time_seconds": 25.9,
+      "frame": "evidence/18_first_pass/detail_24_27/f0020.jpg"
+    },
+    {
+      "time_seconds": 26.0,
+      "frame": "evidence/18_first_pass/detail_24_27/f0021.jpg"
+    },
+    {
+      "time_seconds": 26.1,
+      "frame": "evidence/18_first_pass/detail_24_27/f0022.jpg"
+    },
+    {
+      "time_seconds": 26.2,
+      "frame": "evidence/18_first_pass/detail_24_27/f0023.jpg"
+    },
+    {
+      "time_seconds": 26.3,
+      "frame": "evidence/18_first_pass/detail_24_27/f0024.jpg"
+    },
+    {
+      "time_seconds": 26.4,
+      "frame": "evidence/18_first_pass/detail_24_27/f0025.jpg"
+    },
+    {
+      "time_seconds": 26.5,
+      "frame": "evidence/18_first_pass/detail_24_27/f0026.jpg"
+    },
+    {
+      "time_seconds": 26.6,
+      "frame": "evidence/18_first_pass/detail_24_27/f0027.jpg"
+    },
+    {
+      "time_seconds": 26.7,
+      "frame": "evidence/18_first_pass/detail_24_27/f0028.jpg"
+    },
+    {
+      "time_seconds": 26.8,
+      "frame": "evidence/18_first_pass/detail_24_27/f0029.jpg"
+    },
+    {
+      "time_seconds": 26.9,
+      "frame": "evidence/18_first_pass/detail_24_27/f0030.jpg"
+    }
+  ]
+}

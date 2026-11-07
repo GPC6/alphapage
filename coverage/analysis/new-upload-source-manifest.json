@@ -1,0 +1,395 @@
+{
+  "created_at": "2026-11-05T18:31:18.070624+00:00",
+  "source": "https://previzion.site/board",
+  "existing_13_manifest": "/Users/alpha/Documents/Previzion-Beta-PVZ/RequirementLoop_20261028_113658/manifest.json",
+  "selection": "Five public uploads with new project titles, excluding the nine known reuploads of the existing thirteen projects. Both chase projects are retained.",
+  "projects": [
+    {
+      "movie_url": "https://previzion.site/media/170bacbac15b426a82167d980caf19fb/movie.mp4",
+      "upload_id": "170bacbac15b426a82167d980caf19fb",
+      "name": "전독시",
+      "page_url": "https://previzion.site/board/v/170bacbac15b426a82167d980caf19fb",
+      "account": "hurrah2022",
+      "completed_at": "2026-11-04T13:07:50+00:00",
+      "local_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시",
+      "files": {
+        "project": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.pvz",
+          "bytes": 4798862,
+          "sha256": "a81e74d3c5d6693eb803e592c9f1346e25a7491bc77ab04bee7d4815b9654039",
+          "content_disposition": "attachment; filename*=utf-8''hurrah2022_%EC%A0%84%EB%8F%85%EC%8B%9C_v1.pvz"
+        },
+        "movie": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.mp4",
+          "bytes": 1795193,
+          "sha256": "38e6284bb74037a0b34d19b4ca272c350b632c621db3ce4d24e7638bcb6804db",
+          "content_disposition": ""
+        }
+      },
+      "project_metadata": {
+        "format_version": "p1-project-v2",
+        "id": "a8047619-4c73-5a9c-a19f-30987897a656",
+        "display_name": "전독시",
+        "created_utc": "2026-11-04T11:20:15.546Z",
+        "modified_utc": "2026-11-04T11:20:15.557Z",
+        "opened_utc": "2026-11-04T11:20:15.546Z",
+        "cut_count": 0,
+        "thumbnail": "",
+        "export_folder": "Exports"
+      },
+      "archive_entries": 29,
+      "status": "downloaded_and_verified",
+      "validation": {
+        "zip_crc_ok": true,
+        "cut_count": 8,
+        "generation_run_count": 3,
+        "has_scene": true,
+        "has_transcript": true,
+        "prompt_sha256": "d38d195ae8a77346a5a218657638ccfe61d136f4f9a244a0977edbb1941f3414",
+        "matching_existing_13_prompt": null
+      },
+      "video": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "34.000000",
+          "size": "1795193"
+        }
+      }
+    },
+    {
+      "movie_url": "https://previzion.site/media/5a39de41a26d4162a9e891ba7eafd269/movie.mp4",
+      "upload_id": "5a39de41a26d4162a9e891ba7eafd269",
+      "name": "도심 추격 2",
+      "page_url": "https://previzion.site/board/v/5a39de41a26d4162a9e891ba7eafd269",
+      "account": "sstars0309",
+      "completed_at": "2026-11-01T17:34:34+00:00",
+      "local_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2",
+      "files": {
+        "project": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.pvz",
+          "bytes": 3743985,
+          "sha256": "853e7d67323c4d90dc7ecb59ba52b719fc2ea1415208c9b111ee7db75dd2de05",
+          "content_disposition": "attachment; filename*=utf-8''sstars0309_%EB%8F%84%EC%8B%AC%20%EC%B6%94%EA%B2%A9%202_v1.pvz"
+        },
+        "movie": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.mp4",
+          "bytes": 111364452,
+          "sha256": "151ddfbe8c26f6bf08afe4dc803fb91d402d935290af072914b6ee42762db7a3",
+          "content_disposition": ""
+        }
+      },
+      "project_metadata": {
+        "format_version": "p1-project-v2",
+        "id": "1dd70078-3e4f-67a4-f618-50b4d728fb81",
+        "display_name": "도심 추격 2",
+        "created_utc": "2026-10-31T02:30:01.955Z",
+        "modified_utc": "2026-11-01T17:15:24.707Z",
+        "opened_utc": "2026-11-01T16:39:52.354Z",
+        "cut_count": 8,
+        "thumbnail": "cut_01_002.jpg",
+        "export_folder": "Exports"
+      },
+      "archive_entries": 22,
+      "status": "downloaded_and_verified",
+      "validation": {
+        "zip_crc_ok": true,
+        "cut_count": 8,
+        "generation_run_count": 2,
+        "has_scene": true,
+        "has_transcript": true,
+        "prompt_sha256": "b016e479e8d4aa98487fc3fc9d75ae9dfad7114f5a6599d841e20a980334492d",
+        "matching_existing_13_prompt": null
+      },
+      "video": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "34.000000",
+          "size": "111364452"
+        }
+      }
+    },
+    {
+      "movie_url": "https://previzion.site/media/648f01435c9449718d98c47e1ae01eee/movie.mp4",
+      "upload_id": "648f01435c9449718d98c47e1ae01eee",
+      "name": "카페 헌팅",
+      "page_url": "https://previzion.site/board/v/648f01435c9449718d98c47e1ae01eee",
+      "account": "sstars0309",
+      "completed_at": "2026-10-31T02:07:43+00:00",
+      "local_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅",
+      "files": {
+        "project": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.pvz",
+          "bytes": 2963046,
+          "sha256": "924e86affb610a6ae2e9980826d3c5aa3b56789988e13a75a9d1d7372239a284",
+          "content_disposition": "attachment; filename*=utf-8''sstars0309_%EC%B9%B4%ED%8E%98%20%ED%97%8C%ED%8C%85_v1.pvz"
+        },
+        "movie": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.mp4",
+          "bytes": 72443275,
+          "sha256": "e212a5da35e13e2517ff42809f1b5e43ecef504cdbf031fd4e8286dd11913159",
+          "content_disposition": ""
+        }
+      },
+      "project_metadata": {
+        "format_version": "p1-project-v2",
+        "id": "809248ba-dc4d-0c96-522d-cfb43a78c230",
+        "display_name": "카페 헌팅",
+        "created_utc": "2026-10-31T00:56:13.727Z",
+        "modified_utc": "2026-10-31T01:36:46.746Z",
+        "opened_utc": "2026-10-31T02:07:05.311Z",
+        "cut_count": 8,
+        "thumbnail": "cut_01_001.jpg",
+        "export_folder": "Exports"
+      },
+      "archive_entries": 27,
+      "status": "downloaded_and_verified",
+      "validation": {
+        "zip_crc_ok": true,
+        "cut_count": 8,
+        "generation_run_count": 4,
+        "has_scene": true,
+        "has_transcript": true,
+        "prompt_sha256": "46857cf6c413f880db8917c6fc7e7fb39961773364ae6ad24b98453cadd73fdc",
+        "matching_existing_13_prompt": null
+      },
+      "video": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "27.500000",
+          "size": "72443275"
+        }
+      }
+    },
+    {
+      "movie_url": "https://previzion.site/media/861b033f809046c09af10e3fcb1aa861/movie.mp4",
+      "upload_id": "861b033f809046c09af10e3fcb1aa861",
+      "name": "숲 속의 화재",
+      "page_url": "https://previzion.site/board/v/861b033f809046c09af10e3fcb1aa861",
+      "account": "zihasoo",
+      "completed_at": "2026-10-29T03:48:54+00:00",
+      "local_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재",
+      "files": {
+        "project": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.pvz",
+          "bytes": 3334228,
+          "sha256": "060478a4829a4f57e4b730813b34a3c1d80de9b616efea283141cfe32328f2bd",
+          "content_disposition": "attachment; filename*=utf-8''zihasoo_%EC%88%B2%20%EC%86%8D%EC%9D%98%20%ED%99%94%EC%9E%AC_v1.pvz"
+        },
+        "movie": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.mp4",
+          "bytes": 10146110,
+          "sha256": "ab5971f326ad6a274ccf057de014001fbc72787a7f5380b3925467eba085e3b8",
+          "content_disposition": ""
+        }
+      },
+      "project_metadata": {
+        "format_version": "p1-project-v2",
+        "id": "0f9e0f5d-433d-663c-f288-2ba75ba0941e",
+        "display_name": "숲 속의 화재",
+        "created_utc": "2026-10-29T03:04:11.371Z",
+        "modified_utc": "2026-10-29T03:43:54.966Z",
+        "opened_utc": "2026-10-29T03:44:37.673Z",
+        "cut_count": 8,
+        "thumbnail": "cut_01_001.jpg",
+        "export_folder": "Exports"
+      },
+      "archive_entries": 18,
+      "status": "downloaded_and_verified",
+      "validation": {
+        "zip_crc_ok": true,
+        "cut_count": 8,
+        "generation_run_count": 1,
+        "has_scene": true,
+        "has_transcript": true,
+        "prompt_sha256": "836a393bea2f11e193d3ab98f98ca336145191c204baa6e3cfd7db2ff5679b8e",
+        "matching_existing_13_prompt": null
+      },
+      "video": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 804,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "32.999967",
+          "size": "10146110"
+        }
+      }
+    },
+    {
+      "movie_url": "https://previzion.site/media/145d5a828a8a460997caccd7476516d0/movie.mp4",
+      "upload_id": "145d5a828a8a460997caccd7476516d0",
+      "name": "도심 추격",
+      "page_url": "https://previzion.site/board/v/145d5a828a8a460997caccd7476516d0",
+      "account": "sstars0309",
+      "completed_at": "2026-10-23T03:59:50+00:00",
+      "local_directory": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격",
+      "files": {
+        "project": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.pvz",
+          "bytes": 3037412,
+          "sha256": "fa89e5aa4f052df1664dc7e5e99c2fc021a7ec8d8ff31d4ba6f50b68be74bcba",
+          "content_disposition": "attachment; filename*=utf-8''sstars0309_%EB%8F%84%EC%8B%AC%20%EC%B6%94%EA%B2%A9_v1.pvz"
+        },
+        "movie": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.mp4",
+          "bytes": 64801932,
+          "sha256": "04bc133447e187ed5d142e1f49be6d6e851f16a1be4126ea0dff2921c1c82094",
+          "content_disposition": ""
+        }
+      },
+      "project_metadata": {
+        "format_version": "p1-project-v2",
+        "id": "eca8d0e6-4643-c83c-2b80-aa931a9c7549",
+        "display_name": "도심 추격",
+        "created_utc": "2026-10-23T03:30:52.396Z",
+        "modified_utc": "2026-10-23T03:30:52.399Z",
+        "opened_utc": "2026-10-23T03:30:52.396Z",
+        "cut_count": 0,
+        "thumbnail": "",
+        "export_folder": "Exports"
+      },
+      "archive_entries": 17,
+      "status": "downloaded_and_verified",
+      "validation": {
+        "zip_crc_ok": true,
+        "cut_count": 8,
+        "generation_run_count": 1,
+        "has_scene": true,
+        "has_transcript": true,
+        "prompt_sha256": "2ef2eada98f88f3a5806b778fc592a1c31d69c4df77e4f0b81cce6b46007231a",
+        "matching_existing_13_prompt": null
+      },
+      "video": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "37.000000",
+          "size": "64801932"
+        }
+      }
+    }
+  ],
+  "excluded_existing_reuploads": [
+    {
+      "movie_url": "https://previzion.site/media/178ff1c51659491cb0a031bd932960cc/movie.mp4",
+      "upload_id": "178ff1c51659491cb0a031bd932960cc",
+      "name": "행복아파트 브이로그",
+      "page_url": "https://previzion.site/board/v/178ff1c51659491cb0a031bd932960cc",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:03:59+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/234bb3dca6a049cf825ac6226c6173db/movie.mp4",
+      "upload_id": "234bb3dca6a049cf825ac6226c6173db",
+      "name": "한밤의 물고기 인간",
+      "page_url": "https://previzion.site/board/v/234bb3dca6a049cf825ac6226c6173db",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:03:36+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/f6b0f137c3714047b9cca7a41a1b5bca/movie.mp4",
+      "upload_id": "f6b0f137c3714047b9cca7a41a1b5bca",
+      "name": "바닷속 도시의 환영",
+      "page_url": "https://previzion.site/board/v/f6b0f137c3714047b9cca7a41a1b5bca",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:02:59+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/1dd018d1b37640eda5022c9b941c4f8c/movie.mp4",
+      "upload_id": "1dd018d1b37640eda5022c9b941c4f8c",
+      "name": "개미보다 작아진 남자",
+      "page_url": "https://previzion.site/board/v/1dd018d1b37640eda5022c9b941c4f8c",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:02:16+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/4035fd83d98947679bd7708f4521dc17/movie.mp4",
+      "upload_id": "4035fd83d98947679bd7708f4521dc17",
+      "name": "공룡에게 츄르를",
+      "page_url": "https://previzion.site/board/v/4035fd83d98947679bd7708f4521dc17",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:01:42+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/302bd156c9204c79a0ffb36462dfb974/movie.mp4",
+      "upload_id": "302bd156c9204c79a0ffb36462dfb974",
+      "name": "커피에 빠진 행성",
+      "page_url": "https://previzion.site/board/v/302bd156c9204c79a0ffb36462dfb974",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:01:08+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/e914cc4fce2648a4ac06d3adf8c157ff/movie.mp4",
+      "upload_id": "e914cc4fce2648a4ac06d3adf8c157ff",
+      "name": "문 너머의 누나",
+      "page_url": "https://previzion.site/board/v/e914cc4fce2648a4ac06d3adf8c157ff",
+      "account": "sstars0309",
+      "completed_at": "2026-10-30T12:00:26+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/eb4d0a5111ab4878bacd117158df6d99/movie.mp4",
+      "upload_id": "eb4d0a5111ab4878bacd117158df6d99",
+      "name": "The Last Light - 마지막 빛",
+      "page_url": "https://previzion.site/board/v/eb4d0a5111ab4878bacd117158df6d99",
+      "account": "sstars0309",
+      "completed_at": "2026-10-29T03:45:34+00:00"
+    },
+    {
+      "movie_url": "https://previzion.site/media/953e4d720ac94f6bae51d896f2187e86/movie.mp4",
+      "upload_id": "953e4d720ac94f6bae51d896f2187e86",
+      "name": "야간 인수인계",
+      "page_url": "https://previzion.site/board/v/953e4d720ac94f6bae51d896f2187e86",
+      "account": "sstars0309",
+      "completed_at": "2026-10-29T03:35:13+00:00"
+    }
+  ],
+  "downloaded_count": 5,
+  "existing_count": 13,
+  "combined_count": 18
+}

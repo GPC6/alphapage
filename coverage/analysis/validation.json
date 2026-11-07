@@ -1,0 +1,305 @@
+{
+  "checked_at": "2026-11-07T08:45:20.587924+00:00",
+  "errors": [],
+  "projects": [
+    {
+      "id": "01",
+      "name": "야간 인수인계 - 스토리보드 8컷",
+      "files": {
+        "mp4": {
+          "relative_path": "media/01.mp4",
+          "sha256": "dae21e765bed02e8ab3bb9805e39e48b5d3829a4d9037e1d52e999ee0ebd1692",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/01.pvz",
+          "sha256": "ccbaa3669b21fe7384544a8b320df018e4b2d2f18f5fb135ed324ecd3be39c10",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "02",
+      "name": "2026-10-21 21:09",
+      "files": {
+        "mp4": {
+          "relative_path": "media/02.mp4",
+          "sha256": "d40d9d5d59980734aff589479421a6aac47f11263d844fccd5b271bcb77711c7",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/02.pvz",
+          "sha256": "b34aab9fa57d08fb189843b8e4e5874ecc58fb8c3861eb172c5a538b426173d8",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "03",
+      "name": "박소윤",
+      "files": {
+        "mp4": {
+          "relative_path": "media/03.mp4",
+          "sha256": "984530eb36b5d121ef0b0652612feda2a8534801a1b2f34502e240a8cf3cc31e",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/03.pvz",
+          "sha256": "506372c24b413dfb9bba3e7660b314404a2ef0d6ae446292da6fcf5e4e7f053b",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "04",
+      "name": "2026-10-14 18:34",
+      "files": {
+        "mp4": {
+          "relative_path": "media/04.mp4",
+          "sha256": "58f06a243962cfee2facbc078e2585cc3d212dfc7d805ace28882fd4ee148a9a",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/04.pvz",
+          "sha256": "38476ffd53f64719bd2ecc38ae5d025993f025f29957d85c1c119ca15ffc3380",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "05",
+      "name": "2026-10-14 20:50",
+      "files": {
+        "mp4": {
+          "relative_path": "media/05.mp4",
+          "sha256": "c7cfadec7a8ecc0ecc1aeb94a27768e5bba2273caa390cc6d119ab6afe815ae0",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/05.pvz",
+          "sha256": "4a14a06e0ca2b797401849f17cb8b5a07cc2b82cfee01985aab824cf8168095c",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "06",
+      "name": "조하영",
+      "files": {
+        "mp4": {
+          "relative_path": "media/06.mp4",
+          "sha256": "23b34a0e12bb06c54557f0389329f7c4494056f63a60a61d366ed5fcf8e0bce5",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/06.pvz",
+          "sha256": "2de9e6e93e3079e666d230257fa425b868490e0315308a01c8840f7e32e4409d",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "07",
+      "name": "터널 효과의 이론과 실제 사이",
+      "files": {
+        "mp4": {
+          "relative_path": "media/07.mp4",
+          "sha256": "01b05dd3b30109d98acc2f16d744dfff0395e111d5edf8bcc90c5617b755a9ae",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/07.pvz",
+          "sha256": "73821a4636ffe30fd7d723f19d0ed4672d9d3a3fd57dd031746eed839a6153dd",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "08",
+      "name": "261019",
+      "files": {
+        "mp4": {
+          "relative_path": "media/08.mp4",
+          "sha256": "2efcd04712705ebf73c6d7835721f08479b6ff12359e6c089d447c6748167cf0",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/08.pvz",
+          "sha256": "f1cfa163a4185c2c8eb7c5cf0eaef53225a652eb51a9bc42050f4c7be7eb332f",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "09",
+      "name": "261020",
+      "files": {
+        "mp4": {
+          "relative_path": "media/09.mp4",
+          "sha256": "ef2196d89b6f9aa05dbac387cc8d9488b6fcd2785aca91f4053a7f28fda575b2",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/09.pvz",
+          "sha256": "c0511b960af06b88597aa563f4d1f47f8d82525a2e90653f89b7faaa841ed8d9",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "10",
+      "name": "test1",
+      "files": {
+        "mp4": {
+          "relative_path": "media/10.mp4",
+          "sha256": "d24d24fae3db81da42fd7a2e01a587f3146037b762e3a205a6f1f894f4f250b1",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/10.pvz",
+          "sha256": "949d8c6dc395a3fcc1b616f64f6e526fd64461c5b900580cea8286b0e9cffe52",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "11",
+      "name": "test2",
+      "files": {
+        "mp4": {
+          "relative_path": "media/11.mp4",
+          "sha256": "f378632d019e47ad332c66d2fa380537e673cb776fbfeaa5a7dcb1d420089a10",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/11.pvz",
+          "sha256": "e6fcd7fe84bee3e5fa917b84ccbc8b24f021e0b8dbe57ce14f70f212bc4720d5",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "12",
+      "name": "우주",
+      "files": {
+        "mp4": {
+          "relative_path": "media/12.mp4",
+          "sha256": "e30aa0a74b216c0a781469215fcf54352a94bee6972348013432c6317c4ecb49",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/12.pvz",
+          "sha256": "082be7291ffb76c9fc02d12b1512dfa7c98ec90478acfc2656f7813a4fc33546",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "13",
+      "name": "The Last Light - 마지막 빛",
+      "files": {
+        "mp4": {
+          "relative_path": "media/13.mp4",
+          "sha256": "ba11b8223a5a93ef0efde2a9c013adf67e106e12666929a31e04a59d4665587e",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/13.pvz",
+          "sha256": "2c6eba8d34df201ec6105ca4af1617470390fdaa8e5efca150318151de5d55a0",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "14",
+      "name": "전독시",
+      "files": {
+        "mp4": {
+          "relative_path": "media/14_first_pass.mp4",
+          "sha256": "accc111f3399420f768d030807ccdafb74dd1cd0bacbbcc09733d9d33b5557f0",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/14_first_pass.pvz",
+          "sha256": "379f635df9da12793ca1681b9067c7ca17b3e1736e78cb70a950dee65c8ffc21",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "15",
+      "name": "도심 추격 2",
+      "files": {
+        "mp4": {
+          "relative_path": "media/15_first_pass.mp4",
+          "sha256": "a2b3958a8e284d0159241cf3b02afec7bf787334c2c44ca25af102a364117167",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/15_first_pass.pvz",
+          "sha256": "187f4c7611e066277762ad0c60a2ecd85c05efd63588f459c9eceb85e69feaa6",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "16",
+      "name": "카페 헌팅",
+      "files": {
+        "mp4": {
+          "relative_path": "media/16_first_pass.mp4",
+          "sha256": "a301be5d7cd2b99af363475567d0647830f1708afe4d1c05a8e85a9bc5255fac",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/16_first_pass.pvz",
+          "sha256": "bdc2141aab87a10b05d7b935acf036ecb67a7710963be006728cdfeb09a8358f",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "17",
+      "name": "숲 속의 화재",
+      "files": {
+        "mp4": {
+          "relative_path": "media/17_first_pass.mp4",
+          "sha256": "411598ac91aaa517c9c80ed75914ebf2c735b76800ec263065b1e116d25c7cd0",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/17_first_pass.pvz",
+          "sha256": "02332414dc59dce0ba8af5d5bc6d94aca8a7e6ffb86a28c6eddd9b6dc7237e69",
+          "matches_source_and_record": true
+        }
+      }
+    },
+    {
+      "id": "18",
+      "name": "도심 추격",
+      "files": {
+        "mp4": {
+          "relative_path": "media/18_first_pass.mp4",
+          "sha256": "c16fcdd12f5e984e28b978d66221872021c2885df0d5c119beced231087f768b",
+          "matches_source_and_record": true
+        },
+        "pvz": {
+          "relative_path": "originals/18_first_pass.pvz",
+          "sha256": "f647568d638463da7aedd64e7abec3d067b9758ab4438dc14c9a857e606021ec",
+          "matches_source_and_record": true
+        }
+      }
+    }
+  ],
+  "checks": {
+    "project_count": 18,
+    "unit_count": 122,
+    "all_36_pvz_mp4_copies_hash_checked": true,
+    "all_122_source_anchors_and_time_ranges_checked": true,
+    "all_85_previous_units_and_ratings_retained": true,
+    "new_10_files_match_firstpass_records": true,
+    "new_sample_frames": 331,
+    "single_html": true,
+    "errors": 0
+  }
+}

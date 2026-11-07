@@ -1,0 +1,298 @@
+[
+  {
+    "file": "thumbs/14_first_pass_f0005.jpg",
+    "source": "evidence/14_first_pass/f0005.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 2,
+    "source_frame_number": 60,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0013.jpg",
+    "source": "evidence/14_first_pass/f0013.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 6,
+    "source_frame_number": 180,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0019.jpg",
+    "source": "evidence/14_first_pass/f0019.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 9,
+    "source_frame_number": 270,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0030.jpg",
+    "source": "evidence/14_first_pass/f0030.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 14.5,
+    "source_frame_number": 435,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0036.jpg",
+    "source": "evidence/14_first_pass/f0036.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 17.5,
+    "source_frame_number": 525,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0043.jpg",
+    "source": "evidence/14_first_pass/f0043.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 21,
+    "source_frame_number": 630,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0057.jpg",
+    "source": "evidence/14_first_pass/f0057.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 28,
+    "source_frame_number": 840,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0056.jpg",
+    "source": "evidence/14_first_pass/f0056.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 27.5,
+    "source_frame_number": 825,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/14_first_pass_f0068.jpg",
+    "source": "evidence/14_first_pass/f0068.jpg",
+    "video": "media/14_first_pass.mp4",
+    "time_seconds": 33.5,
+    "source_frame_number": 1005,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0006.jpg",
+    "source": "evidence/15_first_pass/f0006.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 2.5,
+    "source_frame_number": 75,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0023.jpg",
+    "source": "evidence/15_first_pass/f0023.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 11,
+    "source_frame_number": 330,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0035.jpg",
+    "source": "evidence/15_first_pass/f0035.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 17,
+    "source_frame_number": 510,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0051.jpg",
+    "source": "evidence/15_first_pass/f0051.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 25,
+    "source_frame_number": 750,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0058.jpg",
+    "source": "evidence/15_first_pass/f0058.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 28.5,
+    "source_frame_number": 855,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/15_first_pass_f0065.jpg",
+    "source": "evidence/15_first_pass/f0065.jpg",
+    "video": "media/15_first_pass.mp4",
+    "time_seconds": 32,
+    "source_frame_number": 960,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/16_first_pass_f0004.jpg",
+    "source": "evidence/16_first_pass/f0004.jpg",
+    "video": "media/16_first_pass.mp4",
+    "time_seconds": 1.5,
+    "source_frame_number": 45,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/16_first_pass_f0019.jpg",
+    "source": "evidence/16_first_pass/f0019.jpg",
+    "video": "media/16_first_pass.mp4",
+    "time_seconds": 9,
+    "source_frame_number": 270,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/16_first_pass_f0027.jpg",
+    "source": "evidence/16_first_pass/f0027.jpg",
+    "video": "media/16_first_pass.mp4",
+    "time_seconds": 13,
+    "source_frame_number": 390,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/16_first_pass_f0039.jpg",
+    "source": "evidence/16_first_pass/f0039.jpg",
+    "video": "media/16_first_pass.mp4",
+    "time_seconds": 19,
+    "source_frame_number": 570,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/16_first_pass_f0051.jpg",
+    "source": "evidence/16_first_pass/f0051.jpg",
+    "video": "media/16_first_pass.mp4",
+    "time_seconds": 25,
+    "source_frame_number": 750,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0005.jpg",
+    "source": "evidence/17_first_pass/f0005.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 2,
+    "source_frame_number": 60,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0014.jpg",
+    "source": "evidence/17_first_pass/f0014.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 6.5,
+    "source_frame_number": 195,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0022.jpg",
+    "source": "evidence/17_first_pass/f0022.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 10.5,
+    "source_frame_number": 315,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0028.jpg",
+    "source": "evidence/17_first_pass/f0028.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 13.5,
+    "source_frame_number": 405,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0034.jpg",
+    "source": "evidence/17_first_pass/f0034.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 16.5,
+    "source_frame_number": 495,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0042.jpg",
+    "source": "evidence/17_first_pass/f0042.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 20.5,
+    "source_frame_number": 615,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0050.jpg",
+    "source": "evidence/17_first_pass/f0050.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 24.5,
+    "source_frame_number": 735,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/17_first_pass_f0061.jpg",
+    "source": "evidence/17_first_pass/f0061.jpg",
+    "video": "media/17_first_pass.mp4",
+    "time_seconds": 30,
+    "source_frame_number": 900,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0005.jpg",
+    "source": "evidence/18_first_pass/f0005.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 2,
+    "source_frame_number": 60,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0024.jpg",
+    "source": "evidence/18_first_pass/f0024.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 11.5,
+    "source_frame_number": 345,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0025.jpg",
+    "source": "evidence/18_first_pass/f0025.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 12,
+    "source_frame_number": 360,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0036.jpg",
+    "source": "evidence/18_first_pass/f0036.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 17.5,
+    "source_frame_number": 525,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0044.jpg",
+    "source": "evidence/18_first_pass/f0044.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 21.5,
+    "source_frame_number": 645,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0047.jpg",
+    "source": "evidence/18_first_pass/f0047.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 23,
+    "source_frame_number": 690,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0051.jpg",
+    "source": "evidence/18_first_pass/f0051.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 25,
+    "source_frame_number": 750,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0057.jpg",
+    "source": "evidence/18_first_pass/f0057.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 28,
+    "source_frame_number": 840,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  },
+  {
+    "file": "thumbs/18_first_pass_f0070.jpg",
+    "source": "evidence/18_first_pass/f0070.jpg",
+    "video": "media/18_first_pass.mp4",
+    "time_seconds": 34.5,
+    "source_frame_number": 1035,
+    "operation": "actual MP4 frame extraction and proportional resize only; no synthetic content"
+  }
+]

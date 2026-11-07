@@ -1,0 +1,1261 @@
+{
+  "status": "complete",
+  "measurement_date": "2026-11-07",
+  "protocol": "existing active storyboard -> MCP duplicate_project(scope=board) -> one RunFromBoard with no prompt override -> save/export/render unchanged",
+  "new_units_fixed_before_render": 37,
+  "existing_13_unchanged": true,
+  "summary": {
+    "existing": {
+      "projects": 13,
+      "units": 85,
+      "F": 69,
+      "P": 13,
+      "N": 3,
+      "coverage": 81.2,
+      "duration": 370.9
+    },
+    "new": {
+      "projects": 5,
+      "units": 37,
+      "F": 33,
+      "P": 4,
+      "N": 0,
+      "coverage": 89.2,
+      "duration": 165.5
+    },
+    "all": {
+      "projects": 18,
+      "units": 122,
+      "F": 102,
+      "P": 17,
+      "N": 3,
+      "coverage": 83.6,
+      "duration": 536.4
+    }
+  },
+  "model_internal_tool_iterations": "Part of the single application generation, not user follow-up requests.",
+  "infrastructure_failures_excluded": 1,
+  "manifest": {
+    "created_at": "2026-11-07T07:31:48.363401+00:00",
+    "protocol": "existing active storyboard -> MCP duplicate_project(scope=board) -> one RunFromBoard with no prompt override -> save/export/render unchanged",
+    "no_manual_scene_edits": true,
+    "no_additional_requests": true,
+    "unit_plan": "/Users/alpha/Documents/Previzion-Beta-PVZ/Coverage_Report_2026-11-06/analysis/new-unit-plan-before-video.json",
+    "projects": [
+      {
+        "id": "14",
+        "name": "전독시",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.pvz",
+        "source_pvz_sha256": "a81e74d3c5d6693eb803e592c9f1346e25a7491bc77ab04bee7d4815b9654039",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.mp4",
+        "source_uploaded_video_sha256": "38e6284bb74037a0b34d19b4ca272c350b632c621db3ce4d24e7638bcb6804db",
+        "state": "complete",
+        "created_at": "2026-11-07T07:38:41.426947+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시-2",
+            "name": "전독시",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-11-04T11:20:15.546Z",
+            "modified_utc": "2026-11-04T11:20:15.557Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시-2",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2",
+            "name": "전독시 (사본)",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:38:41.866Z",
+            "modified_utc": "2026-11-07T07:38:41.866Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2",
+            "name": "전독시 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 998
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "1fe2f8f2d972c4db7465b9a2e35891fd72662f08f9038920e6b716c62f2089d2",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/board_only_input.pvz",
+          "bytes": 4182646
+        },
+        "generation_requested_at": "2026-11-07T07:42:17.677506+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T07:55:58.358117+00:00",
+        "generation_elapsed_seconds": 820.65,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2",
+            "name": "전독시 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 38,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 1073
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 1 completed, writes 168, recorded yes, at top yes, rolled back no, scene_edited no\n  created [mapo_bridge_deck_collapsed han_river_surface dragon_head_upturned_open_jaws dragon_stomach_chamber character_summary_window goblin blue_orb crushed_sedan_at_railing collided_taxi collided_hatchback sideways_sedan abandoned_taxi abandoned_police_car wrecked_hatchback_near_railing bent_lamp_pole bent_lamp_pole_2 bent_lamp_pole_3 lamp_pole skyline_tower skyline_tower_2 skyline_office skyline_office_2 skyline_block skyline_tower_3 skyline_office_3 skyline_block_2 skyline_tower_4 skyline_office_4 skyline_office_5 stomach_red_fill stomach_wet_highlight yoo_joonghyuk office_worker zombie_tall_thin zombie_short_stocky zombie_gray_coat yoo_back_sword_scabbard] deleted [] changed [] cameras [tracking static static_2 push_pull static_3 push_pull_2 static_4 static_5] cuts yes environment yes settings yes\n  prompt: 배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인\n  reply: 34초 장면을 만들었습니다. 무너진 마포대교에서 용의 입을 거쳐 위 속까지, 스토리보드 8개 패널에 맞춘 8개 샷이 0~34초를 빈틈없이 채웁니다. 계획한 6개 항목은 모두 각 샷의 스크린샷으로 확인했지만, 아래처럼 근사로만 표현된 부분이 남아 있습니다.\n\n**샷 구성**\n1. **0–5초:** 유중혁이 폐허가 된 다리 위를 정면으로 걸어오고, 카메라가 뒤로 물러나며 따라갑니다. 좀비 3명, 충돌한 차들, 휘어진 가로등, 난간\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/first_pass.pvz",
+          "bytes": 4681740
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T074217_0E1F09161543DAC7CB5E20BA77E5B45A/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "d219ef4d40d1693f8c8216457b27a76bd78077ec926fae1a4ab460cc01a157ab",
+          "scene/objects.json": "f017311698a98078feb0b037a91507390677e5700297821b09f70985570ee7ec",
+          "scene/session_storyboard.json": "d985dca8b6d3250ff0b8e526182d16c7432cff07150708ad4a35e4780a95c25d",
+          "scene/timeline.json": "15c9963b2a79c2c7f680bd40cd211437791c91ef89b7cb7209df7141bd4d5614",
+          "scene/transcript.json": "1049b387603f32a2cc60a6e77c7b428f9c9fb22cb4dc8c6f0017c4b9b1222470"
+        },
+        "render_start": {
+          "output": "p1.Render.Start: started 1920x1080 fps=30 frames=1020 out=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/first_pass\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "render_end": {
+          "output": "p1.Render.Status: rendering=0 finished=1 succeeded=1 canceled=0 progress=1.000 frames=1020 gap=0 gaps=none files=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/first_pass.mp4 -- The render finished.\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "after_render_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)-2",
+            "name": "전독시 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 38,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 5291
+        },
+        "after_render_report": {
+          "output": "p1.Scene.RunReport: run 1 completed, writes 168, recorded yes, at top yes, rolled back no, scene_edited no\n  created [mapo_bridge_deck_collapsed han_river_surface dragon_head_upturned_open_jaws dragon_stomach_chamber character_summary_window goblin blue_orb crushed_sedan_at_railing collided_taxi collided_hatchback sideways_sedan abandoned_taxi abandoned_police_car wrecked_hatchback_near_railing bent_lamp_pole bent_lamp_pole_2 bent_lamp_pole_3 lamp_pole skyline_tower skyline_tower_2 skyline_office skyline_office_2 skyline_block skyline_tower_3 skyline_office_3 skyline_block_2 skyline_tower_4 skyline_office_4 skyline_office_5 stomach_red_fill stomach_wet_highlight yoo_joonghyuk office_worker zombie_tall_thin zombie_short_stocky zombie_gray_coat yoo_back_sword_scabbard] deleted [] changed [] cameras [tracking static static_2 push_pull static_3 push_pull_2 static_4 static_5] cuts yes environment yes settings yes\n  prompt: 배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인\n  reply: 34초 장면을 만들었습니다. 무너진 마포대교에서 용의 입을 거쳐 위 속까지, 스토리보드 8개 패널에 맞춘 8개 샷이 0~34초를 빈틈없이 채웁니다. 계획한 6개 항목은 모두 각 샷의 스크린샷으로 확인했지만, 아래처럼 근사로만 표현된 부분이 남아 있습니다.\n\n**샷 구성**\n1. **0–5초:** 유중혁이 폐허가 된 다리 위를 정면으로 걸어오고, 카메라가 뒤로 물러나며 따라갑니다. 좀비 3명, 충돌한 차들, 휘어진 가로등, 난간\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "completed_at": "2026-11-07T07:56:18.513284+00:00",
+        "output_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/first_pass.mp4",
+        "output_video_sha256": "accc111f3399420f768d030807ccdafb74dd1cd0bacbbcc09733d9d33b5557f0",
+        "output_pvz_sha256": "379f635df9da12793ca1681b9067c7ca17b3e1736e78cb70a950dee65c8ffc21"
+      },
+      {
+        "id": "15",
+        "name": "도심 추격 2",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.pvz",
+        "source_pvz_sha256": "853e7d67323c4d90dc7ecb59ba52b719fc2ea1415208c9b111ee7db75dd2de05",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.mp4",
+        "source_uploaded_video_sha256": "151ddfbe8c26f6bf08afe4dc803fb91d402d935290af072914b6ee42762db7a3",
+        "state": "complete",
+        "created_at": "2026-11-07T07:38:42.332899+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2",
+            "name": "도심 추격 2",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-10-31T02:30:01.955Z",
+            "modified_utc": "2026-11-01T17:15:24.707Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)",
+            "name": "도심 추격 2 (사본)",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:38:44.405Z",
+            "modified_utc": "2026-11-07T07:38:44.405Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)",
+            "name": "도심 추격 2 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 5299
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "404e329286fe651b85219c5bdce09d6d6e61c067102db65b45f9f5cb648be514",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/15/board_only_input.pvz",
+          "bytes": 3176840
+        },
+        "generation_requested_at": "2026-11-07T07:56:19.183528+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T08:08:59.671146+00:00",
+        "generation_elapsed_seconds": 760.46,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)",
+            "name": "도심 추격 2 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 124,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 5391
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 2 completed, writes 345, recorded yes, at top yes, rolled back no, scene_edited no\n  created [sea city_land suburban_land boulevard suburban_road bridge_span_1 bridge_span_2 bridge_span_3 bridge_span_4 bridge_span_5 bridge_span_6 bridge_piers coastal_hills utility_pole office_west_of_alley office_east_of_alley office_near_bridge office_block_west office_tower_west downtown_towers downtown_highrise distant_towers_pier signal_south signal_north low_building_1 low_building_2 low_building_3 low_building_4 utility_pole_2 utility_pole_3 utility_pole_4 utility_pole_5 suburban_guardrail suburban_guardrail_2 suburban_guardrail_3 suburban_guardrail_4 suburban_guardrail_5 suburban_guardrail_6 suburban_guardrail_7 suburban_guardrail_8 suburban_guardrail_9 suburban_guardrail_10 suburban_guardrail_11 suburban_guardrail_12 suburban_guardrail_13 suburban_guardrail_14 suburban_guardrail_15 suburban_guardrail_16 suburban_guardrail_17 suburban_guardrail_18 suburban_guardrail_19 suburban_guardrail_20 suburban_guardrail_21 suburban_guardrail_22 suburban_guardrail_23 suburban_guardrail_24 suburban_guardrail_25 suburban_guardrail_26 suburban_guardrail_27 suburban_guardrail_28 suburban_guardrail_29 suburban_guardrail_30 suburban_guardrail_31 suburban_guardrail_32 suburban_guardrail_33 suburban_guardrail_34 suburban_guardrail_35 suburban_guardrail_36 suburban_guardrail_37 suburban_guardrail_38 suburban_guardrail_39 suburban_guardrail_40 suburban_guardrail_41 suburban_guardrail_42 suburban_guardrail_43 suburban_guardrail_44 suburban_guardrail_45 suburban_guardrail_46 suburban_guardrail_47 suburban_guardrail_48 suburban_guardrail_49 suburban_guardrail_50 suburban_guardrail_51 suburban_guardrail_52 suburban_guardrail_53 suburban_guardrail_54 suburban_guardrail_55 suburban_guardrail_56 suburban_guardrail_57 suburban_guardrail_58 suburban_guardrail_59 suburban_guardrail_60 suburban_guardrail_61 suburban_guardrail_62 suburban_guardrail_63 suburban_guardrail_64 suburban_guardrail_65 pursuit_helicopter fugitive_sedan police_cruiser city_bus delivery_van family_wagon city_hatchback work_pickup heli_explosion_big heli_explosion_flash impact_debris wreck_fire_on_deck collapse_dust_1 collapse_dust_2 collapse_dust_3 collapse_dust_entrance smoke_over_water small_fire_on_water splash_1 splash_2 splash_3 splash_4 splash_5 p4_crash_aim low_building_5 low_building_6] deleted [] changed [] cameras [static tracking tracking_2 tracking_3 static_2 tilt static_3 static_4] cuts yes environment yes settings yes\n  prompt: 도심에서 경찰차와 승용차가 추격전을 벌인다.\n\n골목에서 긴급하게 승용차가 대로로 나오고 경찰차는 그 뒤를 따른다.\n\n많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)\n\n이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이\n  reply: 34초짜리 추격 장면을 만들었습니다. 8개 계획 항목을 모두 끝냈고, 컷마다 스크린샷으로 확인했습니다.\n\n**장소 (도심 → 교량 → 교외가 한 길로 이어짐)**\n- **도심:** 4차선 대로에 가로등과 신호등 2개를 세웠습니다. 한쪽에는 오피스 건물이 줄지어 있고 그 사이에 골목 입구가 있으며, 뒤로 도심 고층 건물들이 보입니다.\n- **교량:** 바다 위 15m 높이에 상판 6개를 이어 붙였고 교각, 난간, 가로등을 달았습\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/15/first_pass.pvz",
+          "bytes": 3637114
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T075619_F1A5FCEE7544317282878D852D231F6B/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "404e329286fe651b85219c5bdce09d6d6e61c067102db65b45f9f5cb648be514",
+          "scene/objects.json": "bc2b944562512c61d49badee0b4f611041bfff1cec3e56452a980f6eb888c1e2",
+          "scene/session_storyboard.json": "2b72d794fde9a0a43fd536114821c9179d361dbcae7e840afc2342eb55688e8b",
+          "scene/timeline.json": "39296b3d4b526f87515e56fe2df7da3056128eea219735c0d5171cae88e1d54c",
+          "scene/transcript.json": "d491d4c3710883f8efc2c49818cc54e715956cf591a80c3274f4555b929f8330"
+        },
+        "render_start": {
+          "output": "p1.Render.Start: started 1920x1080 fps=30 frames=1020 out=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/15/first_pass\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "render_end": {
+          "output": "p1.Render.Status: rendering=0 finished=1 succeeded=1 canceled=0 progress=1.000 frames=1020 gap=0 gaps=none files=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/15/first_pass.mp4 -- The render finished.\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "after_render_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 2 (사본)",
+            "name": "도심 추격 2 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 124,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 9605
+        },
+        "after_render_report": {
+          "output": "p1.Scene.RunReport: run 2 completed, writes 345, recorded yes, at top yes, rolled back no, scene_edited no\n  created [sea city_land suburban_land boulevard suburban_road bridge_span_1 bridge_span_2 bridge_span_3 bridge_span_4 bridge_span_5 bridge_span_6 bridge_piers coastal_hills utility_pole office_west_of_alley office_east_of_alley office_near_bridge office_block_west office_tower_west downtown_towers downtown_highrise distant_towers_pier signal_south signal_north low_building_1 low_building_2 low_building_3 low_building_4 utility_pole_2 utility_pole_3 utility_pole_4 utility_pole_5 suburban_guardrail suburban_guardrail_2 suburban_guardrail_3 suburban_guardrail_4 suburban_guardrail_5 suburban_guardrail_6 suburban_guardrail_7 suburban_guardrail_8 suburban_guardrail_9 suburban_guardrail_10 suburban_guardrail_11 suburban_guardrail_12 suburban_guardrail_13 suburban_guardrail_14 suburban_guardrail_15 suburban_guardrail_16 suburban_guardrail_17 suburban_guardrail_18 suburban_guardrail_19 suburban_guardrail_20 suburban_guardrail_21 suburban_guardrail_22 suburban_guardrail_23 suburban_guardrail_24 suburban_guardrail_25 suburban_guardrail_26 suburban_guardrail_27 suburban_guardrail_28 suburban_guardrail_29 suburban_guardrail_30 suburban_guardrail_31 suburban_guardrail_32 suburban_guardrail_33 suburban_guardrail_34 suburban_guardrail_35 suburban_guardrail_36 suburban_guardrail_37 suburban_guardrail_38 suburban_guardrail_39 suburban_guardrail_40 suburban_guardrail_41 suburban_guardrail_42 suburban_guardrail_43 suburban_guardrail_44 suburban_guardrail_45 suburban_guardrail_46 suburban_guardrail_47 suburban_guardrail_48 suburban_guardrail_49 suburban_guardrail_50 suburban_guardrail_51 suburban_guardrail_52 suburban_guardrail_53 suburban_guardrail_54 suburban_guardrail_55 suburban_guardrail_56 suburban_guardrail_57 suburban_guardrail_58 suburban_guardrail_59 suburban_guardrail_60 suburban_guardrail_61 suburban_guardrail_62 suburban_guardrail_63 suburban_guardrail_64 suburban_guardrail_65 pursuit_helicopter fugitive_sedan police_cruiser city_bus delivery_van family_wagon city_hatchback work_pickup heli_explosion_big heli_explosion_flash impact_debris wreck_fire_on_deck collapse_dust_1 collapse_dust_2 collapse_dust_3 collapse_dust_entrance smoke_over_water small_fire_on_water splash_1 splash_2 splash_3 splash_4 splash_5 p4_crash_aim low_building_5 low_building_6] deleted [] changed [] cameras [static tracking tracking_2 tracking_3 static_2 tilt static_3 static_4] cuts yes environment yes settings yes\n  prompt: 도심에서 경찰차와 승용차가 추격전을 벌인다.\n\n골목에서 긴급하게 승용차가 대로로 나오고 경찰차는 그 뒤를 따른다.\n\n많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)\n\n이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이\n  reply: 34초짜리 추격 장면을 만들었습니다. 8개 계획 항목을 모두 끝냈고, 컷마다 스크린샷으로 확인했습니다.\n\n**장소 (도심 → 교량 → 교외가 한 길로 이어짐)**\n- **도심:** 4차선 대로에 가로등과 신호등 2개를 세웠습니다. 한쪽에는 오피스 건물이 줄지어 있고 그 사이에 골목 입구가 있으며, 뒤로 도심 고층 건물들이 보입니다.\n- **교량:** 바다 위 15m 높이에 상판 6개를 이어 붙였고 교각, 난간, 가로등을 달았습\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "completed_at": "2026-11-07T08:09:39.850147+00:00",
+        "output_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/15/first_pass.mp4",
+        "output_video_sha256": "a2b3958a8e284d0159241cf3b02afec7bf787334c2c44ca25af102a364117167",
+        "output_pvz_sha256": "187f4c7611e066277762ad0c60a2ecd85c05efd63588f459c9eceb85e69feaa6"
+      },
+      {
+        "id": "16",
+        "name": "카페 헌팅",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.pvz",
+        "source_pvz_sha256": "924e86affb610a6ae2e9980826d3c5aa3b56789988e13a75a9d1d7372239a284",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.mp4",
+        "source_uploaded_video_sha256": "e212a5da35e13e2517ff42809f1b5e43ecef504cdbf031fd4e8286dd11913159",
+        "state": "complete",
+        "created_at": "2026-11-07T07:38:47.786177+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅",
+            "name": "카페 헌팅",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-10-31T00:56:13.727Z",
+            "modified_utc": "2026-10-31T01:36:46.746Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)",
+            "name": "카페 헌팅 (사본)",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:38:48.359Z",
+            "modified_utc": "2026-11-07T07:38:48.359Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)",
+            "name": "카페 헌팅 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 27.5,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 9613
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "28ad08f54744c142991a8ada77f2494c12afc6b0a9b2c72e480eb47176d61454",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/16/board_only_input.pvz",
+          "bytes": 2571006
+        },
+        "generation_requested_at": "2026-11-07T08:09:40.578380+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T08:18:00.961732+00:00",
+        "generation_elapsed_seconds": 500.38,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)",
+            "name": "카페 헌팅 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 35,
+            "shot_count": 8,
+            "duration": 27.5,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 9685
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 3 completed, writes 149, recorded yes, at top yes, rolled back no, scene_edited no\n  created [cafe_shell window_table_square friends_round_table spare_cafe_table pendant_lamp_a pendant_lamp_b pendant_lamp_c street_outside woman_s_chair spare_chair_window_table tall_friend_chair round_friend_chair broad_friend_chair spare_table_chair_1 spare_table_chair_2 service_counter corner_plant door_plant pendant_light_a pendant_light_b pendant_light_c window_daylight room_fill parked_sedan parked_hatchback building_across_street_a building_across_street_b building_across_street_c woman tall_friend round_friend broad_friend p0_wide_woman_friends_aim p5_wide_door_exit_aim] deleted [] changed [] cameras [static static_2 pan pan_2 static_3 static_4 static_5 rail] cuts yes environment yes settings yes\n  prompt: 카페에 아름다운 여성이 앉아있다.\n\n동시에 같은 카페 테이블에 세 남자가 여성을 보고 작전 회의를 한다. (세 남자의 중심에서 얼굴을 비추는 빠른 여러번의 로우 앵글의 패닝 카메라 연출)\n\n그중 한 남자가 일어나 그 여자에게 다가간다.\n\n데이트를 요청하려는 순간 여자가 자리를 일어나 카\n  reply: 늦은 오후 동네 카페를 배경으로 한 27.5초 장면을 만들었습니다. 계획한 5개 항목은 모두 완료했고, 각 패널 시간대를 스크린샷으로 확인했습니다.\n\n**세트**\n- **실내:** 회백색 벽, 회색 콘크리트 바닥, 천장을 만들었습니다. 창가에는 짙은 창틀의 큰 창과 사각 테이블이 있고, 테이블 위에 컵과 소서를 올렸습니다.\n- **출입구:** 짙은 테두리의 유리문은 17.4초에 바깥으로 열리고 20.6초에 닫힙니다. 문 옆 좁\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/16/first_pass.pvz",
+          "bytes": 2937153
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T080940_C40133F5BB495A56362A6CBA5BA2B47B/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "28ad08f54744c142991a8ada77f2494c12afc6b0a9b2c72e480eb47176d61454",
+          "scene/objects.json": "6c4096c14582b65b679e8d31dd6ae0e6d9a92ab9cf04f8e96a20ccf7ace3278e",
+          "scene/session_storyboard.json": "2b02e0df927dd70fba69a8b5179fd94582b2634ff9662c11ec5e112bf94583e9",
+          "scene/timeline.json": "e20233565e53be7bf72583d175d1c701e7df6d30a98e147591fb3ee434c78afe",
+          "scene/transcript.json": "1553878c29652c088d7fa4b4463e59eb5c093f42c8e1a1b8d0bc0e46dc3735c1"
+        },
+        "render_start": {
+          "output": "p1.Render.Start: started 1920x1080 fps=30 frames=825 out=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/16/first_pass\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "render_end": {
+          "output": "p1.Render.Status: rendering=0 finished=1 succeeded=1 canceled=0 progress=1.000 frames=825 gap=0 gaps=none files=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/16/first_pass.mp4 -- The render finished.\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "after_render_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/카페 헌팅 (사본)",
+            "name": "카페 헌팅 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 35,
+            "shot_count": 8,
+            "duration": 27.5,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 13121
+        },
+        "after_render_report": {
+          "output": "p1.Scene.RunReport: run 3 completed, writes 149, recorded yes, at top yes, rolled back no, scene_edited no\n  created [cafe_shell window_table_square friends_round_table spare_cafe_table pendant_lamp_a pendant_lamp_b pendant_lamp_c street_outside woman_s_chair spare_chair_window_table tall_friend_chair round_friend_chair broad_friend_chair spare_table_chair_1 spare_table_chair_2 service_counter corner_plant door_plant pendant_light_a pendant_light_b pendant_light_c window_daylight room_fill parked_sedan parked_hatchback building_across_street_a building_across_street_b building_across_street_c woman tall_friend round_friend broad_friend p0_wide_woman_friends_aim p5_wide_door_exit_aim] deleted [] changed [] cameras [static static_2 pan pan_2 static_3 static_4 static_5 rail] cuts yes environment yes settings yes\n  prompt: 카페에 아름다운 여성이 앉아있다.\n\n동시에 같은 카페 테이블에 세 남자가 여성을 보고 작전 회의를 한다. (세 남자의 중심에서 얼굴을 비추는 빠른 여러번의 로우 앵글의 패닝 카메라 연출)\n\n그중 한 남자가 일어나 그 여자에게 다가간다.\n\n데이트를 요청하려는 순간 여자가 자리를 일어나 카\n  reply: 늦은 오후 동네 카페를 배경으로 한 27.5초 장면을 만들었습니다. 계획한 5개 항목은 모두 완료했고, 각 패널 시간대를 스크린샷으로 확인했습니다.\n\n**세트**\n- **실내:** 회백색 벽, 회색 콘크리트 바닥, 천장을 만들었습니다. 창가에는 짙은 창틀의 큰 창과 사각 테이블이 있고, 테이블 위에 컵과 소서를 올렸습니다.\n- **출입구:** 짙은 테두리의 유리문은 17.4초에 바깥으로 열리고 20.6초에 닫힙니다. 문 옆 좁\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "completed_at": "2026-11-07T08:18:21.108442+00:00",
+        "output_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/16/first_pass.mp4",
+        "output_video_sha256": "a301be5d7cd2b99af363475567d0647830f1708afe4d1c05a8e85a9bc5255fac",
+        "output_pvz_sha256": "bdc2141aab87a10b05d7b935acf036ecb67a7710963be006728cdfeb09a8358f"
+      },
+      {
+        "id": "17",
+        "name": "숲 속의 화재",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.pvz",
+        "source_pvz_sha256": "060478a4829a4f57e4b730813b34a3c1d80de9b616efea283141cfe32328f2bd",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.mp4",
+        "source_uploaded_video_sha256": "ab5971f326ad6a274ccf057de014001fbc72787a7f5380b3925467eba085e3b8",
+        "state": "complete",
+        "created_at": "2026-11-07T07:38:50.011224+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재",
+            "name": "숲 속의 화재",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-10-29T03:04:11.371Z",
+            "modified_utc": "2026-10-29T03:43:54.966Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)",
+            "name": "숲 속의 화재 (사본)",
+            "cut_count": 8,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:38:51.271Z",
+            "modified_utc": "2026-11-07T07:38:51.271Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)",
+            "name": "숲 속의 화재 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 33,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 13129
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "b6163200b477ad55b4f50d8a09850386e9c160d1bc84dc3e0ce8deae1f8d1bd3",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/17/board_only_input.pvz",
+          "bytes": 2914472
+        },
+        "generation_requested_at": "2026-11-07T08:18:21.808307+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T08:28:42.287847+00:00",
+        "generation_elapsed_seconds": 620.42,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)",
+            "name": "숲 속의 화재 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 136,
+            "shot_count": 8,
+            "duration": 33,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 13280
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 4 completed, writes 381, recorded yes, at top yes, rolled back no, scene_edited no\n  created [cabin conifer downhill_trail map table man_s_stool spare_stool sm_tripo_boulder_01 sm_tripo_boulder_01_2 sm_tripo_boulder_01_3 sm_tripo_boulder_01_4 sm_tripo_boulder_01_5 sm_tripo_boulder_01_6 sm_tripo_boulder_01_7 sm_tripo_boulder_01_8 sm_tripo_cliffrock_01 sm_tripo_cliffrock_01_2 sm_tripo_fallenlog_01 sm_tripo_fallenlog_01_2 woodpile_log sm_tripo_shrub_01 sm_tripo_shrub_01_2 sm_tripo_shrub_01_3 backpack conifer_2 conifer_3 conifer_4 conifer_5 conifer_6 conifer_7 conifer_8 conifer_9 conifer_10 conifer_11 conifer_12 east_tree east_tree_2 east_tree_3 east_tree_4 east_tree_5 east_tree_6 east_tree_7 east_tree_8 east_tree_9 east_tree_10 east_tree_11 east_tree_12 east_tree_13 east_tree_14 east_tree_15 conifer_13 conifer_14 conifer_15 conifer_16 conifer_17 conifer_18 conifer_19 conifer_20 conifer_21 conifer_22 conifer_23 conifer_24 conifer_25 conifer_26 conifer_27 conifer_28 conifer_29 conifer_30 conifer_31 conifer_32 conifer_33 conifer_34 conifer_35 conifer_36 conifer_37 hearth_light cabin_warm_fill window_glow door_spill fire_glow_a fire_glow_b cabin_fire_light man hearth_fire ridge_fire_1 ridge_fire_2 ridge_fire_3 edge_fire_1 edge_fire_2 edge_fire_3 edge_fire_4 edge_fire_5 edge_fire_6 smoke_column_1 smoke_column_2 cabin_fire_e cabin_fire_w cabin_fire_n cabin_roof_fire conifer_38 conifer_39 conifer_40 conifer_41 conifer_42 conifer_43 conifer_44 conifer_45 conifer_46 conifer_47 conifer_48 conifer_49 east_tree_16 east_tree_17 east_tree_18 east_tree_19 east_tree_20 east_tree_21 conifer_50 conifer_51 conifer_52 conifer_53 conifer_54 conifer_55 conifer_56 conifer_57 conifer_58 conifer_59 conifer_60 conifer_61 conifer_62 conifer_63 conifer_64 east_tree_22 east_tree_23 s4_glow_through_window_aim] deleted [] changed [] cameras [static push_pull static_2 static_3 tilt static_4 rail rail_2] cuts yes environment yes settings yes\n  prompt: 1. 밤, 산 숲속에 있는 오두막 한 채만 창문에 불이 켜져 있다.\r\n2. 남자가 오두막 안 벽난로 앞에 앉아 지도를 펼친다.\r\n3. 남자의 손가락이 지도에 붉게 표시된 지점을 짚는다.\r\n4. 창밖 숲 너머로 주황빛이 번지기 시작한다.\r\n5. 남자가 창가로 다가가 밖을 내다본다.\r\n6.\n  reply: 33초짜리 장면을 만들었고, 8개 컷이 0~33초를 빈틈없이 채웁니다. 모든 컷을 스크린샷으로 확인하고 구도를 고쳤으며, 계획한 6개 항목은 모두 완료했습니다. 다만 아래에 적은 대체 에셋과 한계가 있습니다.\n\n**배치**\n- **공터:** 밤으로 설정했습니다. 남쪽에 통나무 오두막이 있고, 북쪽 벽에 창문 하나와 그 서쪽에 문이 있습니다. 경사 지붕과 돌 굴뚝도 넣었습니다.\n- **숲과 길:** 침엽수 약 85그루로 공터를 \n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/17/first_pass.pvz",
+          "bytes": 3324481
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T081821_C30EF5586848C4D9F3236E92921F26A3/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "9de2f9592819cbcc576c51a28ce0484404a328e2138fb1f56585b5f931146c45",
+          "scene/objects.json": "46613500cacd24c5977fd2873b132e0dd291eda1798aef4aea6798f0cbb54cec",
+          "scene/session_storyboard.json": "2b6dd8787e78c3a7fc9df15e7b3e41e9dea4e8a59cc8156aa56cdd1473d25a0f",
+          "scene/timeline.json": "e9e74fc446c55b77dd388f03aeb1e896f2f9fd52fdbfcd16966bd31d8c8815bd",
+          "scene/transcript.json": "dc89f77ee339cb26d2e2f71c3dc68a21947a71e38771787148ae4f28f48de01f"
+        },
+        "render_start": {
+          "output": "p1.Render.Start: started 1920x1080 fps=30 frames=990 out=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/17/first_pass\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "render_end": {
+          "output": "p1.Render.Status: rendering=0 finished=1 succeeded=1 canceled=0 progress=1.000 frames=990 gap=0 gaps=none files=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/17/first_pass.mp4 -- The render finished.\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "after_render_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/숲 속의 화재 (사본)",
+            "name": "숲 속의 화재 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 136,
+            "shot_count": 8,
+            "duration": 33,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 17375
+        },
+        "after_render_report": {
+          "output": "p1.Scene.RunReport: run 4 completed, writes 381, recorded yes, at top yes, rolled back no, scene_edited no\n  created [cabin conifer downhill_trail map table man_s_stool spare_stool sm_tripo_boulder_01 sm_tripo_boulder_01_2 sm_tripo_boulder_01_3 sm_tripo_boulder_01_4 sm_tripo_boulder_01_5 sm_tripo_boulder_01_6 sm_tripo_boulder_01_7 sm_tripo_boulder_01_8 sm_tripo_cliffrock_01 sm_tripo_cliffrock_01_2 sm_tripo_fallenlog_01 sm_tripo_fallenlog_01_2 woodpile_log sm_tripo_shrub_01 sm_tripo_shrub_01_2 sm_tripo_shrub_01_3 backpack conifer_2 conifer_3 conifer_4 conifer_5 conifer_6 conifer_7 conifer_8 conifer_9 conifer_10 conifer_11 conifer_12 east_tree east_tree_2 east_tree_3 east_tree_4 east_tree_5 east_tree_6 east_tree_7 east_tree_8 east_tree_9 east_tree_10 east_tree_11 east_tree_12 east_tree_13 east_tree_14 east_tree_15 conifer_13 conifer_14 conifer_15 conifer_16 conifer_17 conifer_18 conifer_19 conifer_20 conifer_21 conifer_22 conifer_23 conifer_24 conifer_25 conifer_26 conifer_27 conifer_28 conifer_29 conifer_30 conifer_31 conifer_32 conifer_33 conifer_34 conifer_35 conifer_36 conifer_37 hearth_light cabin_warm_fill window_glow door_spill fire_glow_a fire_glow_b cabin_fire_light man hearth_fire ridge_fire_1 ridge_fire_2 ridge_fire_3 edge_fire_1 edge_fire_2 edge_fire_3 edge_fire_4 edge_fire_5 edge_fire_6 smoke_column_1 smoke_column_2 cabin_fire_e cabin_fire_w cabin_fire_n cabin_roof_fire conifer_38 conifer_39 conifer_40 conifer_41 conifer_42 conifer_43 conifer_44 conifer_45 conifer_46 conifer_47 conifer_48 conifer_49 east_tree_16 east_tree_17 east_tree_18 east_tree_19 east_tree_20 east_tree_21 conifer_50 conifer_51 conifer_52 conifer_53 conifer_54 conifer_55 conifer_56 conifer_57 conifer_58 conifer_59 conifer_60 conifer_61 conifer_62 conifer_63 conifer_64 east_tree_22 east_tree_23 s4_glow_through_window_aim] deleted [] changed [] cameras [static push_pull static_2 static_3 tilt static_4 rail rail_2] cuts yes environment yes settings yes\n  prompt: 1. 밤, 산 숲속에 있는 오두막 한 채만 창문에 불이 켜져 있다.\r\n2. 남자가 오두막 안 벽난로 앞에 앉아 지도를 펼친다.\r\n3. 남자의 손가락이 지도에 붉게 표시된 지점을 짚는다.\r\n4. 창밖 숲 너머로 주황빛이 번지기 시작한다.\r\n5. 남자가 창가로 다가가 밖을 내다본다.\r\n6.\n  reply: 33초짜리 장면을 만들었고, 8개 컷이 0~33초를 빈틈없이 채웁니다. 모든 컷을 스크린샷으로 확인하고 구도를 고쳤으며, 계획한 6개 항목은 모두 완료했습니다. 다만 아래에 적은 대체 에셋과 한계가 있습니다.\n\n**배치**\n- **공터:** 밤으로 설정했습니다. 남쪽에 통나무 오두막이 있고, 북쪽 벽에 창문 하나와 그 서쪽에 문이 있습니다. 경사 지붕과 돌 굴뚝도 넣었습니다.\n- **숲과 길:** 침엽수 약 85그루로 공터를 \n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "completed_at": "2026-11-07T08:29:22.484097+00:00",
+        "output_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/17/first_pass.mp4",
+        "output_video_sha256": "411598ac91aaa517c9c80ed75914ebf2c735b76800ec263065b1e116d25c7cd0",
+        "output_pvz_sha256": "02332414dc59dce0ba8af5d5bc6d94aca8a7e6ffb86a28c6eddd9b6dc7237e69"
+      },
+      {
+        "id": "18",
+        "name": "도심 추격",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.pvz",
+        "source_pvz_sha256": "fa89e5aa4f052df1664dc7e5e99c2fc021a7ec8d8ff31d4ba6f50b68be74bcba",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.mp4",
+        "source_uploaded_video_sha256": "04bc133447e187ed5d142e1f49be6d6e851f16a1be4126ea0dff2921c1c82094",
+        "state": "complete",
+        "created_at": "2026-11-07T07:38:51.966164+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격",
+            "name": "도심 추격",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-10-23T03:30:52.396Z",
+            "modified_utc": "2026-10-23T03:30:52.399Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)",
+            "name": "도심 추격 (사본)",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:38:55.583Z",
+            "modified_utc": "2026-11-07T07:38:55.583Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)",
+            "name": "도심 추격 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 37,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 17383
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "8c1322e839c60a9e975ad8d97f9bb5a15c0c72c5558a6abf478fa42b24782f33",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/18/board_only_input.pvz",
+          "bytes": 2584409
+        },
+        "generation_requested_at": "2026-11-07T08:29:22.801595+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T08:40:43.376969+00:00",
+        "generation_elapsed_seconds": 680.55,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)",
+            "name": "도심 추격 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 76,
+            "shot_count": 8,
+            "duration": 37,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 17451
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 5 completed, writes 305, recorded yes, at top yes, rolled back no, scene_edited no\n  created [wet_boulevard cross_street rear_service_road elevated_roadway n_office_tall n_masonry_corner_block n_office n_office_low passage_west_building passage_east_building office_back_east office_back_far s_office_alley_west s_office_alley_east s_office s_tower s_office_east service_north_wall_a service_north_wall_b service_north_wall_c pier_1 pier_2 pier_3 pier_4 construction_truck_stand_in closure_barrier_1 closure_barrier_2 closure_barrier_3 closure_barrier_4 closure_barrier_5 closure_barrier_6 closure_barrier_7 road_closed_sign corner_streetlamp corner_road_sign corner_barrier_a corner_barrier_b signal_nw signal_se dumpster_service dumpster_service_2 alley_dumpster sedan suv cross_car_nb cross_taxi_sb boulevard_westbound_car boulevard_eastbound_van 서윤 추격자 metal_case phone case_indicator_light phone_screen_light suv_headlight_l suv_headlight_r sedan_headlight sedan_taillight_l sedan_taillight_r passage_projecting_stonework loading_doors_north broken_right_mirror loose_rear_bumper service_wall_light_1 service_wall_light_2 service_wall_light_3 service_wall_light_4 underpass_light passage_exit_light suv_lamp_impact mirror_strike p2_intersection_closure_aim p5_suv_crash_aim p7_under_the_elevated_road_aim elevated_deck_girder] deleted [] changed [] cameras [rail tracking static tracking_2 tracking_3 static_2 tracking_4 static_3] cuts yes environment yes settings yes\n  prompt: 도심 추격\n등장인물\n서윤 — 30대 초반. 금속 케이스를 들고 도주 중인 인물.\n추격자 — 검은 SUV를 탄 정체불명의 남자.\nS#1. 도심 대로 / 밤\n비가 그친 직후의 도심.\n젖은 도로 위로 빌딩 불빛과 신호등 색이 번진다.\n차량 몇 대가 느리게 지나가고, 멀리서 사이렌 소리가 희미\n  reply: 37초 분량의 도심 추격 장면을 만들었고, 8개 패널 모두 화면으로 확인했습니다. 계획한 6개 항목은 모두 완료로 보고했지만, 아래 한계 항목에 적은 부분은 스토리보드와 다르게 나옵니다.\n\n**세트 (밤 22시, 비는 그친 상태로 강수 효과 없음)**\n- **대로:** 4차선 대로에 남쪽 골목 입구, 가로등, 신호등이 있습니다.\n- **교차로:** 공사 트럭과 주황 바리케이드 7개, ROAD CLOSED 표지판으로 직진이 막혀\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/18/first_pass.pvz",
+          "bytes": 3042967
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T082922_9492C0B19B4E1E4CDA1261948A855B86/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "8c1322e839c60a9e975ad8d97f9bb5a15c0c72c5558a6abf478fa42b24782f33",
+          "scene/objects.json": "e10add537478c4cb0d77bd0077aa245ca9034769511617b08678abb3588dff12",
+          "scene/session_storyboard.json": "3d0b124b372919c766ef4a08b704bdf496e7e00a409260519eb5b3662c12bfd4",
+          "scene/timeline.json": "2e82cb6b46e386625a5b5fd79cbc15fcb72970c93ba0982b242c50faf2617413",
+          "scene/transcript.json": "209ba3368259da28037069887e5cd16d436a2d7cdd1fe6ece64249cbbb0aa84a"
+        },
+        "render_start": {
+          "output": "p1.Render.Start: started 1920x1080 fps=30 frames=1110 out=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/18/first_pass\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "render_end": {
+          "output": "p1.Render.Status: rendering=0 finished=1 succeeded=1 canceled=0 progress=1.000 frames=1110 gap=0 gaps=none files=/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/18/first_pass.mp4 -- The render finished.\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "after_render_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/도심 추격 (사본)",
+            "name": "도심 추격 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 76,
+            "shot_count": 8,
+            "duration": 37,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 22025
+        },
+        "after_render_report": {
+          "output": "p1.Scene.RunReport: run 5 completed, writes 305, recorded yes, at top yes, rolled back no, scene_edited no\n  created [wet_boulevard cross_street rear_service_road elevated_roadway n_office_tall n_masonry_corner_block n_office n_office_low passage_west_building passage_east_building office_back_east office_back_far s_office_alley_west s_office_alley_east s_office s_tower s_office_east service_north_wall_a service_north_wall_b service_north_wall_c pier_1 pier_2 pier_3 pier_4 construction_truck_stand_in closure_barrier_1 closure_barrier_2 closure_barrier_3 closure_barrier_4 closure_barrier_5 closure_barrier_6 closure_barrier_7 road_closed_sign corner_streetlamp corner_road_sign corner_barrier_a corner_barrier_b signal_nw signal_se dumpster_service dumpster_service_2 alley_dumpster sedan suv cross_car_nb cross_taxi_sb boulevard_westbound_car boulevard_eastbound_van 서윤 추격자 metal_case phone case_indicator_light phone_screen_light suv_headlight_l suv_headlight_r sedan_headlight sedan_taillight_l sedan_taillight_r passage_projecting_stonework loading_doors_north broken_right_mirror loose_rear_bumper service_wall_light_1 service_wall_light_2 service_wall_light_3 service_wall_light_4 underpass_light passage_exit_light suv_lamp_impact mirror_strike p2_intersection_closure_aim p5_suv_crash_aim p7_under_the_elevated_road_aim elevated_deck_girder] deleted [] changed [] cameras [rail tracking static tracking_2 tracking_3 static_2 tracking_4 static_3] cuts yes environment yes settings yes\n  prompt: 도심 추격\n등장인물\n서윤 — 30대 초반. 금속 케이스를 들고 도주 중인 인물.\n추격자 — 검은 SUV를 탄 정체불명의 남자.\nS#1. 도심 대로 / 밤\n비가 그친 직후의 도심.\n젖은 도로 위로 빌딩 불빛과 신호등 색이 번진다.\n차량 몇 대가 느리게 지나가고, 멀리서 사이렌 소리가 희미\n  reply: 37초 분량의 도심 추격 장면을 만들었고, 8개 패널 모두 화면으로 확인했습니다. 계획한 6개 항목은 모두 완료로 보고했지만, 아래 한계 항목에 적은 부분은 스토리보드와 다르게 나옵니다.\n\n**세트 (밤 22시, 비는 그친 상태로 강수 효과 없음)**\n- **대로:** 4차선 대로에 남쪽 골목 입구, 가로등, 신호등이 있습니다.\n- **교차로:** 공사 트럭과 주황 바리케이드 7개, ROAD CLOSED 표지판으로 직진이 막혀\n",
+          "handled": true,
+          "total_lines": 4,
+          "truncated": false
+        },
+        "completed_at": "2026-11-07T08:41:23.550567+00:00",
+        "output_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/18/first_pass.mp4",
+        "output_video_sha256": "c16fcdd12f5e984e28b978d66221872021c2885df0d5c119beced231087f768b",
+        "output_pvz_sha256": "f647568d638463da7aedd64e7abec3d067b9758ab4438dc14c9a857e606021ec"
+      }
+    ],
+    "infrastructure_attempts": [
+      {
+        "id": "14",
+        "name": "전독시",
+        "source_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.pvz",
+        "source_pvz_sha256": "a81e74d3c5d6693eb803e592c9f1346e25a7491bc77ab04bee7d4815b9654039",
+        "source_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.mp4",
+        "source_uploaded_video_sha256": "38e6284bb74037a0b34d19b4ca272c350b632c621db3ce4d24e7638bcb6804db",
+        "state": "generation_failed_or_incomplete",
+        "created_at": "2026-11-07T07:31:48.628845+00:00",
+        "generation_requested": true,
+        "generation_request_count": 1,
+        "continuation_request_count": 0,
+        "manual_edit_calls": 0,
+        "import_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시",
+            "name": "전독시",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-11-04T11:20:15.546Z",
+            "modified_utc": "2026-11-04T11:20:15.557Z"
+          },
+          "degraded": false
+        },
+        "source_import_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시",
+        "duplicate_result": {
+          "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)"
+        },
+        "copy_folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)",
+        "open_result": {
+          "project": {
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)",
+            "name": "전독시 (사본)",
+            "cut_count": 0,
+            "mode": "normal",
+            "created_utc": "2026-11-07T07:31:49.176Z",
+            "modified_utc": "2026-11-07T07:31:49.176Z"
+          },
+          "degraded": false
+        },
+        "before_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": false,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)",
+            "name": "전독시 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 1068
+        },
+        "before_generation_objects": [
+          {
+            "id": "ground",
+            "label": "Default Ground",
+            "kind": "ground",
+            "asset": "ground",
+            "position": [
+              -0.01,
+              0.01,
+              -200.1
+            ],
+            "yaw": 0
+          }
+        ],
+        "input_storyboard_sha256": "1fe2f8f2d972c4db7465b9a2e35891fd72662f08f9038920e6b716c62f2089d2",
+        "input_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/board_only_input.pvz",
+          "bytes": 4182649
+        },
+        "generation_requested_at": "2026-11-07T07:32:44.955361+00:00",
+        "generation_start_response": {
+          "output": "p1.Scene.RunFromBoard: run sent\n",
+          "handled": true,
+          "total_lines": 1,
+          "truncated": false
+        },
+        "generation_finished_at": "2026-11-07T07:33:04.976490+00:00",
+        "generation_elapsed_seconds": 20.0,
+        "after_generation_state": {
+          "project": {
+            "open": true,
+            "dirty": true,
+            "folder": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client/Saved/Projects/전독시 (사본)",
+            "name": "전독시 (사본)"
+          },
+          "phase": "storyboard",
+          "scene": {
+            "object_count": 1,
+            "shot_count": 8,
+            "duration": 34,
+            "playhead": 0,
+            "playing": false,
+            "active_shot": 0,
+            "frame_rate": "30/1"
+          },
+          "selection": [],
+          "run": {
+            "pending": false,
+            "channel_ready": true
+          },
+          "history": {
+            "can_undo": false,
+            "can_redo": false
+          },
+          "log_sequence": 1083
+        },
+        "run_report": {
+          "output": "p1.Scene.RunReport: run 1 failed, writes 0, recorded no, at top no, rolled back no, scene_edited yes\n  created [] deleted [] changed [] cameras [] cuts no environment no settings no\n  prompt: 배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인\n  reply: \n  error: The connection to the server closed.\n",
+          "handled": true,
+          "total_lines": 5,
+          "truncated": false
+        },
+        "save_result": {},
+        "output_export": {
+          "path": "/Users/alpha/Documents/Previzion-Beta-PVZ/FirstPass_New5_2026-11-07/14/first_pass.pvz",
+          "bytes": 4198092
+        },
+        "run_metadata_files": [
+          "scene/runs/20261107T073244_D75053409648109499468A978C71338D/metadata.json"
+        ],
+        "actual_run_count": 1,
+        "output_document_hashes": {
+          "storyboard.json": "d219ef4d40d1693f8c8216457b27a76bd78077ec926fae1a4ab460cc01a157ab",
+          "scene/objects.json": "72f43019a21dc915e8761c77c3f61c953b46b5b0bb759d30173ebc0ab691d19d",
+          "scene/session_storyboard.json": "d985dca8b6d3250ff0b8e526182d16c7432cff07150708ad4a35e4780a95c25d"
+        },
+        "evidence_folder": "setup_failed_14",
+        "exclusion_reason": "Local backend connection failed before host/model execution (0.011 seconds, 0 writes). This is preserved as an infrastructure setup attempt, not a completed generated result."
+      }
+    ],
+    "backend": "http://127.0.0.1:8000",
+    "authentication_state": "local development account authenticated (HTTP 200)",
+    "local_account": "local-client-20261022",
+    "server_connection_note": "Existing local account used through documented development token provisioning; production login was unnecessary and no production generation ran."
+  },
+  "client_environment": {
+    "recorded_at": "2026-11-07T07:31:48.387608+00:00",
+    "checkout": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client",
+    "git_commit": "8a63c5b39801bc2cdd94203f6c38d00239afdaac",
+    "git_status": "",
+    "note": "Checkout revision and installed binary fingerprint are recorded separately; binaries were not rebuilt for this run.",
+    "binaries": {
+      "UnrealEditor-P1.dylib": {
+        "sha256": "209ae5e50840c466e2ffdbbc5257334d1d2ef080c78a9652d163f6d17f4b1f8e",
+        "mtime": "2026-11-02T14:44:08.338354+00:00"
+      },
+      "UnrealEditor-P1Editor.dylib": {
+        "sha256": "07d7aca7318faf8c8b37048d07dc935cdce223787f4232da34b88648267e1a30",
+        "mtime": "2026-11-02T14:44:08.482170+00:00"
+      },
+      "UnrealEditor-P1Render.dylib": {
+        "sha256": "7077e88ff0f61dd9549fe7eb97fdda56daaa4fed9469ced95c10108076e1858d",
+        "mtime": "2026-10-26T15:08:17.382368+00:00"
+      },
+      "UnrealEditor-P1Dev.dylib": {
+        "sha256": "730e6725a086b60b5f335fec114e5bdcaa52b032011757adb56999f2f2386413",
+        "mtime": "2026-11-02T14:44:08.477827+00:00"
+      }
+    },
+    "door": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"open\": true, \"port\": 18106, \"checkout\": \"/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Client\", \"owner\": {\"pid\": 56526, \"port\": 18106, \"project\": \"/users/alpha/00_my folder/02_work/01_소마/01_iyan/project_repo/previzion-client\", \"mode\": \"headless\"}, \"owner_is_ours\": true, \"clients\": [{\"pid\": 56526, \"mode\": \"headless\"}], \"editors\": [], \"doors_elsewhere\": [], \"building\": false, \"tool_cache\": {\"stamped\": \"2026-11-07 16:31:48\", \"count\": 45}}"
+        }
+      ],
+      "isError": false
+    },
+    "render_request": {
+      "resolution": "1920x1080",
+      "fps": 30,
+      "other_settings": "application defaults; no diagnostic quality overrides"
+    }
+  },
+  "server_environment": {
+    "recorded_at": "2026-11-07T07:41:54.862815+00:00",
+    "checkout": "/Users/alpha/00_My folder/02_Work/01_소마/01_IYAN/project_repo/Previzion-Server",
+    "git_commit": "313e90d0f631b44c4bac5b0199314b4841c9b25b",
+    "worktree_status": " M README.md\n M Shared\n M app/integrations/scene_models/base.py\n M app/integrations/scene_models/openrouter.py\n M app/prompts/guides/edit.md\n M app/prompts/scene_ops.py\n M app/services/loops/op_agent.py\n M app/services/scene_host_service.py\n M docs/index.md\n M docs/specs/http-api.md\n?? app/services/loops/scene_plan.py\n",
+    "note": "Existing local worktree changes were retained; no server source code or prompt was edited for this measurement.",
+    "relevant_file_hashes": {
+      "app/prompts/scene_ops.py": "ed9737ade02e65357cc38ce9e39b53936d6348ae5ca87d4d57969ef774c2249f",
+      "app/prompts/guides/edit.md": "06b10be2ffe0c1bc90808068de4684c096bec90fc8333eef4a1ce02f54961bd8",
+      "app/services/loops/op_agent.py": "37e8208733986fa0988f714f4c44b88bde6a996465dc1aea1e5f0659114d0380",
+      "app/services/loops/scene_plan.py": "a8dde251c6f90e5f9e17badaee7364113b558f9e3169a367437b04f874548002",
+      "app/services/scene_host_service.py": "2a3d00308c2388a628e0fa2b3d7d2f84eab5bd98bc2fb370c85d23e67d70f844",
+      "app/integrations/scene_models/openrouter.py": "3f47fd42a6c4f7aeb76c472c0888492fd7e68aa6ecb086979d38198331f782b3"
+    },
+    "generation_settings": {
+      "openrouter_scene_model": "anthropic/claude-opus-5.5",
+      "openrouter_scene_reasoning_effort": "high",
+      "scene_max_turns": 50,
+      "scene_max_tokens_per_turn": 16000,
+      "openrouter_embedding_model": "openai/text-embedding-3-small",
+      "embedding_dimensions": 512,
+      "scene_log_dir": "output/scene_logs"
+    }
+  },
+  "cleanup": {
+    "original_session_restored": true,
+    "only_task_issued_local_token_revoked": true,
+    "development_app_closed_gracefully": true,
+    "task_local_server_stopped": true,
+    "finished_at": "2026-11-07T08:47:21.742728+00:00"
+  },
+  "visual_review": {
+    "sample_interval_seconds": 0.5,
+    "sample_frames": 331,
+    "additional_frames": 115,
+    "mode": "AI visual review of actual rendered source frames; no continuous-video viewing claim"
+  }
+}

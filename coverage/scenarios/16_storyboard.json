@@ -1,0 +1,591 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "카페에 아름다운 여성이 앉아있다.\n\n동시에 같은 카페 테이블에 세 남자가 여성을 보고 작전 회의를 한다. (세 남자의 중심에서 얼굴을 비추는 빠른 여러번의 로우 앵글의 패닝 카메라 연출)\n\n그중 한 남자가 일어나 그 여자에게 다가간다.\n\n데이트를 요청하려는 순간 여자가 자리를 일어나 카페 밖으로 나가버린다.\n\n남자는 다시 자리로 와서 아무일이 없었다는 듯 친구들과 깔깔댄다.",
+	"draft_prompt": "카페에 아름다운 여성이 앉아있다.\n\n동시에 같은 카페 테이블에 세 남자가 여성을 보고 작전 회의를 한다. (세 남자의 중심에서 얼굴을 비추는 빠른 여러번의 로우 앵글의 패닝 카메라 연출)\n\n그중 한 남자가 일어나 그 여자에게 다가간다.\n\n데이트를 요청하려는 순간 여자가 자리를 일어나 카페 밖으로 나가버린다.\n\n남자는 다시 자리로 와서 아무일이 없었다는 듯 친구들과 깔깔댄다.",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 27.5
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.",
+			"location_type": "Neighborhood café interior with a street-facing entrance and a visible exterior threshold.",
+			"zones": [
+				{
+					"name": "Window Table",
+					"description": "A small square wooden table, two slender wooden chairs, a plain pale cup and saucer, a broad dark-framed window, and an unobstructed strip of concrete floor extending toward the neighboring friends’ table; the entrance is directly visible beside the window",
+					"connects_to": [
+						"Friends’ Table",
+						"Entrance"
+					]
+				},
+				{
+					"name": "Friends’ Table",
+					"description": "A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table",
+					"connects_to": [
+						"Window Table"
+					]
+				},
+				{
+					"name": "Entrance",
+					"description": "A dark-framed glass door, a narrow glass sidelight, a dark floor mat, a shallow concrete threshold, and a pale strip of sidewalk outside; the window table is directly visible beside the doorway",
+					"connects_to": [
+						"Window Table"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Late afternoon",
+				"weather": "clear, dry weather",
+				"lighting": "soft window daylight with steady, subdued pendant lighting."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "Encouraged by his two friends, a young man approaches a beautiful woman in a café to ask her out, but her departure interrupts his opening, sending him back to the table to disguise his embarrassment with shared laughter.",
+			"beats": [
+				{
+					"summary": "A woman’s quiet café visit attracts the attention of three men at a neighboring table",
+					"emotion": "curiosity"
+				},
+				{
+					"summary": "The three friends gather into a conspiratorial discussion",
+					"emotion": "playful anticipation"
+				},
+				{
+					"summary": "One friend singles out the tallest man to approach her",
+					"emotion": "nervous pressure"
+				},
+				{
+					"summary": "The tall man accepts the challenge and stands",
+					"emotion": "shaky confidence"
+				},
+				{
+					"summary": "He reaches the woman’s table and prepares to address her",
+					"emotion": "suspense"
+				},
+				{
+					"summary": "The woman gets up and leaves before he can make his request",
+					"emotion": "comic deflation"
+				},
+				{
+					"summary": "He returns to his friends and performs exaggerated nonchalance",
+					"emotion": "embarrassed recovery"
+				},
+				{
+					"summary": "All three dissolve into laughter, abandoning the pretense",
+					"emotion": "affectionate release"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "Woman",
+				"kind": "Adult woman",
+				"appearance": "tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt",
+				"signature_features": [
+					"the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle."
+				]
+			},
+			{
+				"name": "Tall friend",
+				"kind": "Adult man",
+				"appearance": "notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair",
+				"signature_features": [
+					"unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle."
+				]
+			},
+			{
+				"name": "Round friend",
+				"kind": "Adult man",
+				"appearance": "short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers",
+				"signature_features": [
+					"compact rounded proportions and the continuous dark sweater band remain readable from any angle."
+				]
+			},
+			{
+				"name": "Broad friend",
+				"kind": "Adult man",
+				"appearance": "medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers",
+				"signature_features": [
+					"a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle."
+				]
+			}
+		],
+		"run_id": "storyboard_20261031_010043_0bb876b3"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Woman catches the three friends’ attention",
+				"beat": 1,
+				"zone": "Window Table",
+				"shot_size": "wide",
+				"angle": "eye level, oblique across the woman’s table",
+				"camera_move": "static",
+				"subjects_present": [
+					"Woman",
+					"Tall friend",
+					"Round friend",
+					"Broad friend"
+				],
+				"subject_states": [],
+				"backdrop": "The dark-framed window and pale sidewalk occupy one side of the image; the neighboring round table and pale plaster wall fill the other side.",
+				"action": "The woman sits comfortably beside her cup, looking through the window. At the neighboring table, the three men turn their faces toward her, their attention visibly converging.",
+				"emotion": "Quiet curiosity with the promise of a comic interruption.",
+				"transition": "Hard cut into the friends’ huddle.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Window Table: A small square wooden table, two slender wooden chairs, a plain pale cup and saucer, a broad dark-framed window, and an unobstructed strip of concrete floor extending toward the neighboring friends’ table; the entrance is directly visible beside the window\nBackdrop, behind the action: The dark-framed window and pale sidewalk occupy one side of the image; the neighboring round table and pale plaster wall fill the other side.\nShot size: wide\nCamera angle: eye level, oblique across the woman’s table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: The woman sits comfortably beside her cup, looking through the window. At the neighboring table, the three men turn their faces toward her, their attention visibly converging.\nMood: Quiet curiosity with the promise of a comic interruption.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Window Table: A small square wooden table, two slender wooden chairs, a plain pale cup and saucer, a broad dark-framed window, and an unobstructed strip of concrete floor extending toward the neighboring friends’ table; the entrance is directly visible beside the window\nBackdrop, behind the action: The dark-framed window and pale sidewalk occupy one side of the image; the neighboring round table and pale plaster wall fill the other side.\nShot size: wide\nCamera angle: eye level, oblique across the woman’s table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: The woman sits comfortably beside her cup, looking through the window. At the neighboring table, the three men turn their faces toward her, their attention visibly converging.\nMood: Quiet curiosity with the promise of a comic interruption.",
+					"spec":
+					{
+						"shot_name": "Woman catches the three friends’ attention",
+						"beat": 1,
+						"zone": "Window Table",
+						"shot_size": "wide",
+						"angle": "eye level, oblique across the woman’s table",
+						"camera_move": "static",
+						"subjects_present": [
+							"Woman",
+							"Tall friend",
+							"Round friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "The dark-framed window and pale sidewalk occupy one side of the image; the neighboring round table and pale plaster wall fill the other side.",
+						"action": "The woman sits comfortably beside her cup, looking through the window. At the neighboring table, the three men turn their faces toward her, their attention visibly converging.",
+						"emotion": "Quiet curiosity with the promise of a comic interruption.",
+						"transition": "Hard cut into the friends’ huddle.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Round friend gathers the men into a huddle",
+				"beat": 2,
+				"zone": "Friends’ Table",
+				"shot_size": "close-up",
+				"angle": "low angle from the center of the round table, looking up at the three faces",
+				"camera_move": "Repeated rapid back-and-forth pans between Round friend, Tall friend, and Broad friend, alternately filling the frame with each man's face in close-up, revisiting their reactions and ending on Round friend.",
+				"subjects_present": [
+					"Round friend",
+					"Tall friend",
+					"Broad friend"
+				],
+				"subject_states": [],
+				"backdrop": "Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.",
+				"action": "Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.",
+				"emotion": "Playful conspiracy.",
+				"transition": "Hard cut, preserving the low central viewpoint and quick rhythm.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Target scene:\nSetting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.\nShot size: close-up\nCamera angle: low angle from the center of the round table, looking up at the three faces\nCamera move: Repeated rapid back-and-forth pans between Round friend, Tall friend, and Broad friend, alternately filling the frame with each man's face in close-up, revisiting their reactions and ending on Round friend.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.\nMood: Playful conspiracy.\n\nUser modification (verbatim):\n지금의 장면에서 세남자의 얼굴이 크게 번갈아가면서 나오는 카메라 연출이 담기게 해줘 (여러번의 패닝)\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+			"images": [
+				"cut_02_001.jpg",
+				"cut_02_002.jpg"
+			],
+			"current": 1,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.\nShot size: medium\nCamera angle: low angle from the center of the round table, looking up at the three faces\nCamera move: rapid short pan across the inward-leaning faces, ending on Round friend\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.\nMood: Playful conspiracy.",
+					"spec":
+					{
+						"shot_name": "Round friend gathers the men into a huddle",
+						"beat": 2,
+						"zone": "Friends’ Table",
+						"shot_size": "medium",
+						"angle": "low angle from the center of the round table, looking up at the three faces",
+						"camera_move": "rapid short pan across the inward-leaning faces, ending on Round friend",
+						"subjects_present": [
+							"Round friend",
+							"Tall friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.",
+						"action": "Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.",
+						"emotion": "Playful conspiracy.",
+						"transition": "Hard cut, preserving the low central viewpoint and quick rhythm.",
+						"atmosphere": null,
+						"duration_seconds": 1.2
+					}
+				},
+				{
+					"modification": "지금의 장면에서 세남자의 얼굴이 크게 번갈아가면서 나오는 카메라 연출이 담기게 해줘 (여러번의 패닝)",
+					"image_prompt": "Target scene:\nSetting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.\nShot size: close-up\nCamera angle: low angle from the center of the round table, looking up at the three faces\nCamera move: Repeated rapid back-and-forth pans between Round friend, Tall friend, and Broad friend, alternately filling the frame with each man's face in close-up, revisiting their reactions and ending on Round friend.\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.\nMood: Playful conspiracy.\n\nUser modification (verbatim):\n지금의 장면에서 세남자의 얼굴이 크게 번갈아가면서 나오는 카메라 연출이 담기게 해줘 (여러번의 패닝)\n\nEdit instructions (reframe):\nCreate a new composition from the target scene and the user's modification. Follow the updated shot size, angle, and blocking while preserving the shared world and the identities of recurring subjects.",
+					"spec":
+					{
+						"shot_name": "Round friend gathers the men into a huddle",
+						"beat": 2,
+						"zone": "Friends’ Table",
+						"shot_size": "close-up",
+						"angle": "low angle from the center of the round table, looking up at the three faces",
+						"camera_move": "Repeated rapid back-and-forth pans between Round friend, Tall friend, and Broad friend, alternately filling the frame with each man's face in close-up, revisiting their reactions and ending on Round friend.",
+						"subjects_present": [
+							"Round friend",
+							"Tall friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "Pale upper wall, the underside of the narrow shelf, and a pendant light above the men.",
+						"action": "Round friend draws the others inward with a small beckoning gesture and whispers animatedly; the other two lean close, forming a tight ring of faces.",
+						"emotion": "Playful conspiracy.",
+						"transition": "Hard cut, preserving the low central viewpoint and quick rhythm.",
+						"atmosphere": null,
+						"duration_seconds": 1.2
+					},
+					"based_on": 0
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Broad friend nominates Tall friend",
+				"beat": 3,
+				"zone": "Friends’ Table",
+				"shot_size": "close-up",
+				"angle": "low angle from the center of the round table",
+				"camera_move": "quick pan from Broad friend’s face to Tall friend’s reaction, keeping the pointing hand visible",
+				"subjects_present": [
+					"Broad friend",
+					"Tall friend"
+				],
+				"subject_states": [],
+				"backdrop": "A narrow band of pale wall and ceiling above their shoulders.",
+				"action": "Broad friend points firmly at Tall friend’s chest with an encouraging grin. Tall friend’s eyebrows lift as he draws his chin back.",
+				"emotion": "Amusement at the sudden transfer of responsibility.",
+				"transition": "Hard cut to another low-angle pan.",
+				"atmosphere": null,
+				"duration_seconds": 2
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: A narrow band of pale wall and ceiling above their shoulders.\nShot size: close-up\nCamera angle: low angle from the center of the round table\nCamera move: quick pan from Broad friend’s face to Tall friend’s reaction, keeping the pointing hand visible\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\nAction: Broad friend points firmly at Tall friend’s chest with an encouraging grin. Tall friend’s eyebrows lift as he draws his chin back.\nMood: Amusement at the sudden transfer of responsibility.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: A narrow band of pale wall and ceiling above their shoulders.\nShot size: close-up\nCamera angle: low angle from the center of the round table\nCamera move: quick pan from Broad friend’s face to Tall friend’s reaction, keeping the pointing hand visible\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\nAction: Broad friend points firmly at Tall friend’s chest with an encouraging grin. Tall friend’s eyebrows lift as he draws his chin back.\nMood: Amusement at the sudden transfer of responsibility.",
+					"spec":
+					{
+						"shot_name": "Broad friend nominates Tall friend",
+						"beat": 3,
+						"zone": "Friends’ Table",
+						"shot_size": "close-up",
+						"angle": "low angle from the center of the round table",
+						"camera_move": "quick pan from Broad friend’s face to Tall friend’s reaction, keeping the pointing hand visible",
+						"subjects_present": [
+							"Broad friend",
+							"Tall friend"
+						],
+						"subject_states": [],
+						"backdrop": "A narrow band of pale wall and ceiling above their shoulders.",
+						"action": "Broad friend points firmly at Tall friend’s chest with an encouraging grin. Tall friend’s eyebrows lift as he draws his chin back.",
+						"emotion": "Amusement at the sudden transfer of responsibility.",
+						"transition": "Hard cut to another low-angle pan.",
+						"atmosphere": null,
+						"duration_seconds": 1
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Tall friend accepts and stands",
+				"beat": 4,
+				"zone": "Friends’ Table",
+				"shot_size": "medium",
+				"angle": "low angle from the center of the round table",
+				"camera_move": "rapid pan from the two seated friends to Tall friend, followed by a brief upward tilt",
+				"subjects_present": [
+					"Tall friend",
+					"Round friend",
+					"Broad friend"
+				],
+				"subject_states": [],
+				"backdrop": "Pale plaster wall, pendant light, and the upper edges of the chairs.",
+				"action": "Tall friend gives one decisive nod and rises beside his chair. Round friend and Broad friend remain seated, looking up at him with expectant smiles.",
+				"emotion": "Fragile bravery, slightly oversold.",
+				"transition": "Hard cut to the approach, ending the rapid low-angle passage.",
+				"atmosphere": null,
+				"duration_seconds": 1.46
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: Pale plaster wall, pendant light, and the upper edges of the chairs.\nShot size: medium\nCamera angle: low angle from the center of the round table\nCamera move: rapid pan from the two seated friends to Tall friend, followed by a brief upward tilt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend gives one decisive nod and rises beside his chair. Round friend and Broad friend remain seated, looking up at him with expectant smiles.\nMood: Fragile bravery, slightly oversold.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: Pale plaster wall, pendant light, and the upper edges of the chairs.\nShot size: medium\nCamera angle: low angle from the center of the round table\nCamera move: rapid pan from the two seated friends to Tall friend, followed by a brief upward tilt\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend gives one decisive nod and rises beside his chair. Round friend and Broad friend remain seated, looking up at him with expectant smiles.\nMood: Fragile bravery, slightly oversold.",
+					"spec":
+					{
+						"shot_name": "Tall friend accepts and stands",
+						"beat": 4,
+						"zone": "Friends’ Table",
+						"shot_size": "medium",
+						"angle": "low angle from the center of the round table",
+						"camera_move": "rapid pan from the two seated friends to Tall friend, followed by a brief upward tilt",
+						"subjects_present": [
+							"Tall friend",
+							"Round friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "Pale plaster wall, pendant light, and the upper edges of the chairs.",
+						"action": "Tall friend gives one decisive nod and rises beside his chair. Round friend and Broad friend remain seated, looking up at him with expectant smiles.",
+						"emotion": "Fragile bravery, slightly oversold.",
+						"transition": "Hard cut to the approach, ending the rapid low-angle passage.",
+						"atmosphere": null,
+						"duration_seconds": 1.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Tall friend approaches Woman’s table",
+				"beat": 5,
+				"zone": "Window Table",
+				"shot_size": "medium",
+				"angle": "eye level, three-quarter rear view of Tall friend with Woman visible beyond him",
+				"camera_move": "short lateral tracking move along the clear floor beside the table",
+				"subjects_present": [
+					"Tall friend",
+					"Woman"
+				],
+				"subject_states": [],
+				"backdrop": "The square tabletop, pale cup and saucer, slender chairs, and lower portion of the dark-framed window.",
+				"action": "Tall friend takes the final steps to the table and stops beside the spare chair. He straightens his shoulders and starts lifting one hand in greeting while the woman remains seated.",
+				"emotion": "Anticipation stretched just long enough to become uncomfortable.",
+				"transition": "Hard cut to a wider view covering the table and exit.",
+				"atmosphere": null,
+				"duration_seconds": 4.04
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Window Table: A small square wooden table, two slender wooden chairs, a plain pale cup and saucer, a broad dark-framed window, and an unobstructed strip of concrete floor extending toward the neighboring friends’ table; the entrance is directly visible beside the window\nBackdrop, behind the action: The square tabletop, pale cup and saucer, slender chairs, and lower portion of the dark-framed window.\nShot size: medium\nCamera angle: eye level, three-quarter rear view of Tall friend with Woman visible beyond him\nCamera move: short lateral tracking move along the clear floor beside the table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\nAction: Tall friend takes the final steps to the table and stops beside the spare chair. He straightens his shoulders and starts lifting one hand in greeting while the woman remains seated.\nMood: Anticipation stretched just long enough to become uncomfortable.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Window Table: A small square wooden table, two slender wooden chairs, a plain pale cup and saucer, a broad dark-framed window, and an unobstructed strip of concrete floor extending toward the neighboring friends’ table; the entrance is directly visible beside the window\nBackdrop, behind the action: The square tabletop, pale cup and saucer, slender chairs, and lower portion of the dark-framed window.\nShot size: medium\nCamera angle: eye level, three-quarter rear view of Tall friend with Woman visible beyond him\nCamera move: short lateral tracking move along the clear floor beside the table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\nAction: Tall friend takes the final steps to the table and stops beside the spare chair. He straightens his shoulders and starts lifting one hand in greeting while the woman remains seated.\nMood: Anticipation stretched just long enough to become uncomfortable.",
+					"spec":
+					{
+						"shot_name": "Tall friend approaches Woman’s table",
+						"beat": 5,
+						"zone": "Window Table",
+						"shot_size": "medium",
+						"angle": "eye level, three-quarter rear view of Tall friend with Woman visible beyond him",
+						"camera_move": "short lateral tracking move along the clear floor beside the table",
+						"subjects_present": [
+							"Tall friend",
+							"Woman"
+						],
+						"subject_states": [],
+						"backdrop": "The square tabletop, pale cup and saucer, slender chairs, and lower portion of the dark-framed window.",
+						"action": "Tall friend takes the final steps to the table and stops beside the spare chair. He straightens his shoulders and starts lifting one hand in greeting while the woman remains seated.",
+						"emotion": "Anticipation stretched just long enough to become uncomfortable.",
+						"transition": "Hard cut to a wider view covering the table and exit.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Woman leaves Tall friend beside her empty chair",
+				"beat": 6,
+				"zone": "Entrance",
+				"shot_size": "wide",
+				"angle": "eye level, oblique to the glass door with Window Table visible on the left",
+				"camera_move": "static",
+				"subjects_present": [
+					"Woman",
+					"Tall friend"
+				],
+				"subject_states": [],
+				"backdrop": "The glass doorway and pale sidewalk fill the right side; the adjacent window table, cup, and chairs remain visible on the left.",
+				"action": "The woman pushes back her chair, rises, and walks directly to the exit without engaging him. She pushes the glass door open and crosses the threshold. Tall friend remains beside her empty chair, mouth just opening and greeting hand suspended.",
+				"emotion": "Abrupt comic deflation; the timing, rather than deliberate cruelty, creates the joke.",
+				"transition": "Hard cut from his unfinished greeting to his return.",
+				"atmosphere": null,
+				"duration_seconds": 6
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Entrance: A dark-framed glass door, a narrow glass sidelight, a dark floor mat, a shallow concrete threshold, and a pale strip of sidewalk outside; the window table is directly visible beside the doorway\nBackdrop, behind the action: The glass doorway and pale sidewalk fill the right side; the adjacent window table, cup, and chairs remain visible on the left.\nShot size: wide\nCamera angle: eye level, oblique to the glass door with Window Table visible on the left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\nAction: The woman pushes back her chair, rises, and walks directly to the exit without engaging him. She pushes the glass door open and crosses the threshold. Tall friend remains beside her empty chair, mouth just opening and greeting hand suspended.\nMood: Abrupt comic deflation; the timing, rather than deliberate cruelty, creates the joke.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Entrance: A dark-framed glass door, a narrow glass sidelight, a dark floor mat, a shallow concrete threshold, and a pale strip of sidewalk outside; the window table is directly visible beside the doorway\nBackdrop, behind the action: The glass doorway and pale sidewalk fill the right side; the adjacent window table, cup, and chairs remain visible on the left.\nShot size: wide\nCamera angle: eye level, oblique to the glass door with Window Table visible on the left\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Woman (Adult woman): tall, slender build; elegant features; waist-length dark wavy hair; fitted charcoal jacket and a pale, gently flared mid-calf skirt Signature, drawn only where this angle exposes it: the combination of a narrow upper silhouette, long hair, and bell-shaped pale skirt remains recognizable from any angle.\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\nAction: The woman pushes back her chair, rises, and walks directly to the exit without engaging him. She pushes the glass door open and crosses the threshold. Tall friend remains beside her empty chair, mouth just opening and greeting hand suspended.\nMood: Abrupt comic deflation; the timing, rather than deliberate cruelty, creates the joke.",
+					"spec":
+					{
+						"shot_name": "Woman leaves Tall friend beside her empty chair",
+						"beat": 6,
+						"zone": "Entrance",
+						"shot_size": "wide",
+						"angle": "eye level, oblique to the glass door with Window Table visible on the left",
+						"camera_move": "static",
+						"subjects_present": [
+							"Woman",
+							"Tall friend"
+						],
+						"subject_states": [],
+						"backdrop": "The glass doorway and pale sidewalk fill the right side; the adjacent window table, cup, and chairs remain visible on the left.",
+						"action": "The woman pushes back her chair, rises, and walks directly to the exit without engaging him. She pushes the glass door open and crosses the threshold. Tall friend remains beside her empty chair, mouth just opening and greeting hand suspended.",
+						"emotion": "Abrupt comic deflation; the timing, rather than deliberate cruelty, creates the joke.",
+						"transition": "Hard cut from his unfinished greeting to his return.",
+						"atmosphere": null,
+						"duration_seconds": 6
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Tall friend returns with exaggerated nonchalance",
+				"beat": 7,
+				"zone": "Friends’ Table",
+				"shot_size": "medium",
+				"angle": "eye level from the open side of the round table",
+				"camera_move": "static",
+				"subjects_present": [
+					"Tall friend",
+					"Round friend",
+					"Broad friend"
+				],
+				"subject_states": [],
+				"backdrop": "The round tabletop, three chairs, narrow wall shelf, and pale plaster wall.",
+				"action": "Tall friend steps up to his chair and sits, giving an airy shrug and an overly relaxed smile. Round friend and Broad friend exchange a restrained grin across him.",
+				"emotion": "Sympathetic embarrassment beneath a transparent attempt at composure.",
+				"transition": "Hard cut closer as their restraint breaks.",
+				"atmosphere": null,
+				"duration_seconds": 2.96
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: The round tabletop, three chairs, narrow wall shelf, and pale plaster wall.\nShot size: medium\nCamera angle: eye level from the open side of the round table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend steps up to his chair and sits, giving an airy shrug and an overly relaxed smile. Round friend and Broad friend exchange a restrained grin across him.\nMood: Sympathetic embarrassment beneath a transparent attempt at composure.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: The round tabletop, three chairs, narrow wall shelf, and pale plaster wall.\nShot size: medium\nCamera angle: eye level from the open side of the round table\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend steps up to his chair and sits, giving an airy shrug and an overly relaxed smile. Round friend and Broad friend exchange a restrained grin across him.\nMood: Sympathetic embarrassment beneath a transparent attempt at composure.",
+					"spec":
+					{
+						"shot_name": "Tall friend returns with exaggerated nonchalance",
+						"beat": 7,
+						"zone": "Friends’ Table",
+						"shot_size": "medium",
+						"angle": "eye level from the open side of the round table",
+						"camera_move": "static",
+						"subjects_present": [
+							"Tall friend",
+							"Round friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "The round tabletop, three chairs, narrow wall shelf, and pale plaster wall.",
+						"action": "Tall friend steps up to his chair and sits, giving an airy shrug and an overly relaxed smile. Round friend and Broad friend exchange a restrained grin across him.",
+						"emotion": "Sympathetic embarrassment beneath a transparent attempt at composure.",
+						"transition": "Hard cut closer as their restraint breaks.",
+						"atmosphere": null,
+						"duration_seconds": 3
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "The three friends break into laughter",
+				"beat": 8,
+				"zone": "Friends’ Table",
+				"shot_size": "close-up",
+				"angle": "eye level, tight three-person composition",
+				"camera_move": "static",
+				"subjects_present": [
+					"Tall friend",
+					"Round friend",
+					"Broad friend"
+				],
+				"subject_states": [],
+				"backdrop": "A soft, narrow expanse of pale plaster wall behind their heads and shoulders.",
+				"action": "Tall friend’s practiced smile breaks into genuine laughter. Round friend folds forward laughing while Broad friend throws his head back; their shoulders press together around the table.",
+				"emotion": "Warm release and shared self-mockery.",
+				"transition": "Hold on their laughter, then cut to black.",
+				"atmosphere": null,
+				"duration_seconds": 3.54
+			},
+			"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: A soft, narrow expanse of pale plaster wall behind their heads and shoulders.\nShot size: close-up\nCamera angle: eye level, tight three-person composition\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend’s practiced smile breaks into genuine laughter. Round friend folds forward laughing while Broad friend throws his head back; their shoulders press together around the table.\nMood: Warm release and shared self-mockery.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary neighborhood café combines pale plaster, light wood, gray concrete, and charcoal metal detailing under soft daylight, with a predominantly light-to-mid-gray palette.\nLocation: Neighborhood café interior with a street-facing entrance and a visible exterior threshold.\nAtmosphere: Late afternoon, clear, dry weather, soft window daylight with steady, subdued pendant lighting.\nThis cut happens at Friends’ Table: A round wooden table with three chairs arranged around its wall-facing side, a pale plaster wall, a narrow wall shelf, and small pendant lights overhead; its open side faces the short stretch of floor leading to the window table\nBackdrop, behind the action: A soft, narrow expanse of pale plaster wall behind their heads and shoulders.\nShot size: close-up\nCamera angle: eye level, tight three-person composition\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Tall friend (Adult man): notably tall and lanky, with a long torso; mid-gray shirt with sleeves rolled to the elbows, narrow charcoal trousers, and short dark hair Signature, drawn only where this angle exposes it: unusually elongated proportions and a high, swept-up hair silhouette distinguish him from every angle.\n- Round friend (Adult man): short, stocky build; closely cropped hair; pale crewneck sweater with a broad dark band continuing around the torso and upper arms; dark trousers Signature, drawn only where this angle exposes it: compact rounded proportions and the continuous dark sweater band remain readable from any angle.\n- Broad friend (Adult man): medium height, broad shoulders, dense rounded curls, charcoal hooded sweatshirt, and mid-gray trousers Signature, drawn only where this angle exposes it: a wide upper-body silhouette, bulky hood, and dome of curls identify him from any angle.\nAction: Tall friend’s practiced smile breaks into genuine laughter. Round friend folds forward laughing while Broad friend throws his head back; their shoulders press together around the table.\nMood: Warm release and shared self-mockery.",
+					"spec":
+					{
+						"shot_name": "The three friends break into laughter",
+						"beat": 8,
+						"zone": "Friends’ Table",
+						"shot_size": "close-up",
+						"angle": "eye level, tight three-person composition",
+						"camera_move": "static",
+						"subjects_present": [
+							"Tall friend",
+							"Round friend",
+							"Broad friend"
+						],
+						"subject_states": [],
+						"backdrop": "A soft, narrow expanse of pale plaster wall behind their heads and shoulders.",
+						"action": "Tall friend’s practiced smile breaks into genuine laughter. Round friend folds forward laughing while Broad friend throws his head back; their shoulders press together around the table.",
+						"emotion": "Warm release and shared self-mockery.",
+						"transition": "Hold on their laughter, then cut to black.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		}
+	]
+}

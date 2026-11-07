@@ -1,0 +1,596 @@
+{
+  "created_at": "2026-11-06T11:22:32.473335+00:00",
+  "note": "The following 37 units were fixed from user prompt text before viewing any new rendered video frames. Ratings/timecodes are not part of this plan.",
+  "projects": [
+    {
+      "id": "14",
+      "name": "전독시",
+      "units": [
+        {
+          "id": "14-P01",
+          "project": "14",
+          "criterion": "붕괴된 다리의 위험 공간에 검을 멘 사내 등장",
+          "quote": "배경은 한강 위 마포대교 다리 위, 시대는 21세기. 다리는 중간부터 붕괴되고, 차들은 이리저리 부딪힌 상황. 시민들은 좀비화 되어있는 상태.\r\n1: 검정색 트렌치코트와 검정 셔츠와 검정 벨트, 검정 정장핏 바지와 구두를 신고 등에 칼을 찬, 머리를 반만 깐 검정 머리의 차갑게 생긴 인상의 사내가 걸어온다.",
+          "quote_start": 0,
+          "category": "scene",
+          "unit_basis": "도입 공간과 주요 인물을 함께 설정하는 한 묶음. 복장·표정의 세부 목록은 같은 인물 소개의 제작 디테일로 합침.",
+          "decision_question": "다리의 손상·위험 배치와 걸어오는 주요 인물을 배치할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            0,
+            174
+          ]
+        },
+        {
+          "id": "14-P02",
+          "project": "14",
+          "criterion": "사내가 앞의 상대를 향해 질문하는 반응 숏",
+          "quote": "2. 사내가 앞을 보며, '너, 뭐냐?'라고 서늘한 표정을 지으며 묻는다.",
+          "quote_start": 174,
+          "category": "camera",
+          "unit_basis": "원문 2번에서 걸어오는 도입이 상대를 향한 대면·질문으로 바뀜. 실제 대사는 유예하고 방향·반응 숏을 평가.",
+          "decision_question": "상대를 향한 인물의 시선과 질문을 놓을 숏을 확인할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            174,
+            217
+          ]
+        },
+        {
+          "id": "14-P03",
+          "project": "14",
+          "criterion": "사내 옆 게임 상태창으로 인물 정보 제시",
+          "quote": "3. 사내의 오른편에 하늘색 게임 창이 뜨며, <등장인물 요약 알림> 과 함께 그 밑에 써지는 글씨들,\r\n' 인물: 유중혁\r\n  특성: 회귀자 <3회차> (신화), 프로게이머(희귀)\r\n  전용 스킬: [현자의 눈 Lv.8] [백병전 Lv.8].. '",
+          "quote_start": 217,
+          "category": "story",
+          "unit_basis": "원문 3번은 독립적인 정보 공개 단계. 최종 글꼴·수치는 유예하되 창의 출현·위치·정보 제시 구간은 필요.",
+          "decision_question": "인물 옆 정보창이 나타나는 시점과 배치를 검토할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            217,
+            358
+          ]
+        },
+        {
+          "id": "14-P04",
+          "project": "14",
+          "criterion": "다른 남자의 멱살을 잡는 강제 접촉",
+          "quote": "4.그 순간 사내가 손을 뻗어 다른 회사원의 옷차림을 한 남자의 멱살을 잡는다.'",
+          "quote_start": 358,
+          "category": "action",
+          "unit_basis": "원문 4번에서 대면이 물리적 붙잡힘으로 바뀌어 두 인물 동선을 따로 결정해야 함.",
+          "decision_question": "두 사람의 위치와 사내가 상대를 붙잡는 접근 동작이 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            358,
+            406
+          ]
+        },
+        {
+          "id": "14-P05",
+          "project": "14",
+          "criterion": "붙잡힌 남자를 놓아 아래 용의 입으로 떨어뜨림",
+          "quote": "5.회사원 옷차림의 남자의 얼굴을 왼쪽 위에서 비추며, 유중혁은 손을 놓고 회사원 남자는 바로 밑에 있던 용의 입 속으로 떨어진다.",
+          "quote_start": 406,
+          "category": "story",
+          "unit_basis": "원문 5번의 놓음·낙하는 하나의 원인–결과 행동. 얼굴을 비추는 카메라 지시도 같은 사건을 보여주는 조건으로 묶음.",
+          "decision_question": "놓는 주체·떨어지는 대상·아래 입의 공간 관계와 낙하가 이어지는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            406,
+            483
+          ]
+        },
+        {
+          "id": "14-P06",
+          "project": "14",
+          "criterion": "용의 위 속으로 전환해 남자와 도깨비 대화",
+          "quote": "6. 그 다음 배경은 용의 위 속이다. 붉은 색의 점막들로 뒤덮여있는 곳이다. 위 속에서 회사원 남자는 희고 동그란, 농구공 사이즈 크기의 머리의 노란 뿔이 두개 달리고 갈색 거적때기를 입은 눈 2개의 도깨비와 이야기를 한다.",
+          "quote_start": 483,
+          "category": "scene",
+          "unit_basis": "원문 6번에서 장소와 대화 상대가 동시에 바뀜. 도깨비의 크기·색·뿔·의상은 대체 에셋 허용.",
+          "decision_question": "내부 공간과 두 인물의 대화 배치가 형성되는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            483,
+            611
+          ]
+        },
+        {
+          "id": "14-P07",
+          "project": "14",
+          "criterion": "도깨비가 사라지고 위액이 차오르는 위험 전환",
+          "quote": "7. 도깨비는 사라지고, 위 속에서 위액의 푸른 액체가 쌓인다.",
+          "quote_start": 611,
+          "category": "story",
+          "unit_basis": "원문 7번 전반은 동료의 퇴장과 액체 상승으로 상황이 변하는 단계. 다음 피신 행동과 독립적으로 누락될 수 있어 나눔.",
+          "decision_question": "상대의 퇴장과 차오르는 액체 때문에 상황이 위험해지는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            611,
+            647
+          ]
+        },
+        {
+          "id": "14-P08",
+          "project": "14",
+          "criterion": "위벽 가시를 손발로 지지해 위액을 피함",
+          "quote": "회사원 남자는 위 벽에 가시들을 박은 채, 손으로 각 가시를 하나씩 잡고 발로 다른 가시들을 지탱해서 서 있는다.",
+          "quote_start": 647,
+          "category": "action",
+          "unit_basis": "원문 7번 후반은 새 행동 목표인 피신·버티기. 액체 효과와 별개로 인물의 벽 접근·지지 위치를 설계해야 함.",
+          "decision_question": "인물이 바닥 대신 벽의 지지점을 손발로 이용하는 배치·동작이 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            647,
+            712
+          ]
+        },
+        {
+          "id": "14-P09",
+          "project": "14",
+          "criterion": "위액이 빠진 뒤 푸른 구슬 회수",
+          "quote": "8. 위액이 사라지고, 푸른색의 구슬을 회사원 남자가 줍는다.",
+          "quote_start": 712,
+          "category": "action",
+          "unit_basis": "원문 8번에서 위험이 해소되고 목표 소품을 회수하는 종료 행동으로 전환. 정확한 구슬 재질·그립은 유예.",
+          "decision_question": "액체가 사라진 상태에서 남자가 구슬을 향해 집는 행동으로 끝나는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            712,
+            746
+          ]
+        }
+      ],
+      "prompt_sha256": "d9ffcd04cda9798af4638153dd90101818678f0481af326ee9a2d35e70ba5273"
+    },
+    {
+      "id": "15",
+      "name": "도심 추격 2",
+      "units": [
+        {
+          "id": "15-P01",
+          "project": "15",
+          "criterion": "골목에서 대로로 나오는 승용차와 뒤따르는 경찰차",
+          "quote": "도심에서 경찰차와 승용차가 추격전을 벌인다.\n\n골목에서 긴급하게 승용차가 대로로 나오고 경찰차는 그 뒤를 따른다.",
+          "quote_start": 0,
+          "category": "action",
+          "unit_basis": "첫 문장의 추격 개요는 다음 문장의 구체적인 골목→대로 진입에 포함. 같은 추격을 두 번 세지 않음.",
+          "decision_question": "선행 승용차와 뒤따르는 경찰차의 진입 순서·방향을 검토할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            0,
+            65
+          ]
+        },
+        {
+          "id": "15-P02",
+          "project": "15",
+          "criterion": "교통을 피해 도심에서 교각·교외로 이동하는 와이드",
+          "quote": "많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)",
+          "quote_start": 65,
+          "category": "camera",
+          "unit_basis": "다음 문단은 교통 회피와 도심 이탈 경로를 와이드로 설명하는 하나의 이동 단계.",
+          "decision_question": "차량 회피와 큰 다리를 통과하는 경로가 넓은 구도로 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            65,
+            124
+          ]
+        },
+        {
+          "id": "15-P03",
+          "project": "15",
+          "criterion": "헬기가 합류하고 다리·승용차와 함께 보이는 추격",
+          "quote": "이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이 보이게)",
+          "quote_start": 124,
+          "category": "scene",
+          "unit_basis": "추격 주체가 공중으로 추가되고 세 대상의 동시 배치가 명시됨. 직전 지상 추격과 다른 공간 결정.",
+          "decision_question": "헬기·다리·승용차의 상대 위치와 공중 추격을 함께 볼 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            124,
+            167
+          ]
+        },
+        {
+          "id": "15-P04",
+          "project": "15",
+          "criterion": "승용차 통과 뒤 헬기 추락으로 다리·차량 붕괴",
+          "quote": "승용차가 지나가자 헬기가 교각으로 추락하고 폭발하며 교각이 무너진다. 교각에 있는 차들도 같이 무너져 바다에 빠진다.",
+          "quote_start": 167,
+          "category": "story",
+          "unit_basis": "추락→폭발→교각 붕괴→차량 낙하는 한 재난의 원인–결과 묶음. 파편·불꽃·차량 수를 각각 점수화하지 않음.",
+          "decision_question": "승용차가 벗어난 뒤 헬기와 다리의 파괴가 이어져 뒤쪽 경로를 끊는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            167,
+            234
+          ]
+        },
+        {
+          "id": "15-P05",
+          "project": "15",
+          "criterion": "경찰차가 다리 진입 직전에 급정지",
+          "quote": "경찰차는 그 뒤를 따른다.\n\n많은 차들을 피해서 달아나는 승용차는 도심을 벗어나 큰 교각을 통해 교외 도로로 진입한다. (와이드샷)\n\n이어서 헬기도 공중에서 추격한다. (헬기와 교각 승용차가 다 같이 보이게)\n\n승용차가 지나가자 헬기가 교각으로 추락하고 폭발하며 교각이 무너진다. 교각에 있는 차들도 같이 무너져 바다에 빠진다.\n\n경찰차는 교각에 진입하기 직전에 간신히 멈춘다.",
+          "quote_start": 49,
+          "category": "action",
+          "unit_basis": "재난 이후 추격자의 대응은 별도 이동 목표. 멈추는 위치가 추락/생존을 가르므로 독립 평가.",
+          "decision_question": "경찰차가 위험 구간에 들어가기 전에 멈추는 위치·타이밍이 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            49,
+            262
+          ]
+        },
+        {
+          "id": "15-P06",
+          "project": "15",
+          "criterion": "승용차가 교외로 빠져나가는 종료",
+          "quote": "승용차는 유유히 교외 도로로 빠져나간다.",
+          "quote_start": 262,
+          "category": "action",
+          "unit_basis": "마지막 문단은 도주 성공으로 상태를 정리하는 종료 동선.",
+          "decision_question": "승용차가 추격에서 벗어나 교외 길로 계속 이동하는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            262,
+            288
+          ]
+        }
+      ],
+      "prompt_sha256": "253b56dd5675f9438f95925a2d1826f37f14c2bdbdf9b1188e3c573066f9e92d"
+    },
+    {
+      "id": "16",
+      "name": "카페 헌팅",
+      "units": [
+        {
+          "id": "16-P01",
+          "project": "16",
+          "criterion": "카페에 앉은 여성을 소개",
+          "quote": "카페에 아름다운 여성이 앉아있다.",
+          "quote_start": 0,
+          "category": "scene",
+          "unit_basis": "첫 문단은 접근 대상과 장소를 설정. 아름다움의 외형 평가는 유예.",
+          "decision_question": "카페의 여성 자리와 다음 접근 대상이 확인되는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            0,
+            20
+          ]
+        },
+        {
+          "id": "16-P02",
+          "project": "16",
+          "criterion": "세 남자의 작전 회의를 중심 로우앵글 패닝으로 제시",
+          "quote": "동시에 같은 카페 테이블에 세 남자가 여성을 보고 작전 회의를 한다. (세 남자의 중심에서 얼굴을 비추는 빠른 여러번의 로우 앵글의 패닝 카메라 연출)",
+          "quote_start": 20,
+          "category": "camera",
+          "unit_basis": "같은 회의 행동을 보여주는 인원 배치와 명시된 카메라 연출을 한 묶음으로 평가. 얼굴마다 별도 단위를 만들지 않음.",
+          "decision_question": "세 남자의 회의 배치와 그 중심에서 빠르게 얼굴을 훑는 낮은 시점을 검토할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            20,
+            106
+          ]
+        },
+        {
+          "id": "16-P03",
+          "project": "16",
+          "criterion": "한 남자가 일어나 여성에게 접근",
+          "quote": "그중 한 남자가 일어나 그 여자에게 다가간다.",
+          "quote_start": 106,
+          "category": "action",
+          "unit_basis": "원문 3문단에서 집단 회의가 1인의 접근 행동으로 전환.",
+          "decision_question": "누가 어느 테이블에서 일어나 여성에게 다가가는지 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            106,
+            133
+          ]
+        },
+        {
+          "id": "16-P04",
+          "project": "16",
+          "criterion": "요청 직전 여성이 일어나 밖으로 퇴장",
+          "quote": "데이트를 요청하려는 순간 여자가 자리를 일어나 카페 밖으로 나가버린다.",
+          "quote_start": 133,
+          "category": "story",
+          "unit_basis": "접근의 결과가 예상과 달라지는 핵심 사건. 여성의 기립·외부 이탈은 한 퇴장 동선.",
+          "decision_question": "남성의 접근과 여성의 퇴장이 이어져 타이밍이 엇갈리는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            133,
+            174
+          ]
+        },
+        {
+          "id": "16-P05",
+          "project": "16",
+          "criterion": "남성이 원래 자리로 돌아와 친구들과 웃는 마무리",
+          "quote": "남자는 다시 자리로 와서 아무일이 없었다는 듯 친구들과 깔깔댄다.",
+          "quote_start": 174,
+          "category": "action",
+          "unit_basis": "마지막 문단은 복귀와 민망함을 감추는 집단 반응으로 종료. 실제 웃음소리·미세 표정은 유예.",
+          "decision_question": "복귀 동선과 친구들의 반응을 넣을 배치·동작 구간이 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            174,
+            210
+          ]
+        }
+      ],
+      "prompt_sha256": "d6099954991cfb53120de471a362a70cbeffd3a99ce968ad0997483f62787ad8"
+    },
+    {
+      "id": "17",
+      "name": "숲 속의 화재",
+      "units": [
+        {
+          "id": "17-P01",
+          "project": "17",
+          "criterion": "밤 숲속 오두막의 불 켜진 창으로 도입",
+          "quote": "1. 밤, 산 숲속에 있는 오두막 한 채만 창문에 불이 켜져 있다.",
+          "quote_start": 0,
+          "category": "scene",
+          "unit_basis": "원문 1번은 장소·시간·주요 건물을 정하는 설정 단위.",
+          "decision_question": "어두운 숲과 불 켜진 오두막의 관계를 확인할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            0,
+            39
+          ]
+        },
+        {
+          "id": "17-P02",
+          "project": "17",
+          "criterion": "벽난로 앞 남자가 지도를 펼침",
+          "quote": "2. 남자가 오두막 안 벽난로 앞에 앉아 지도를 펼친다.",
+          "quote_start": 39,
+          "category": "action",
+          "unit_basis": "원문 2번은 외부에서 내부의 인물·목표 소품으로 전환.",
+          "decision_question": "앉은 인물과 벽난로·지도의 배치 및 펼침 동작을 검토할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            39,
+            72
+          ]
+        },
+        {
+          "id": "17-P03",
+          "project": "17",
+          "criterion": "지도에 표시된 지점을 손가락으로 짚음",
+          "quote": "3. 남자의 손가락이 지도에 붉게 표시된 지점을 짚는다.",
+          "quote_start": 72,
+          "category": "story",
+          "unit_basis": "원문 3번은 지도의 특정 위치를 전달하는 독립 정보 행동. 지도 소개와 정보 지정을 구분.",
+          "decision_question": "지도 속 목표 위치와 그것을 가리키는 손의 방향이 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            72,
+            105
+          ]
+        },
+        {
+          "id": "17-P04",
+          "project": "17",
+          "criterion": "창밖의 주황빛이 번지며 이상 징후 발생",
+          "quote": "4. 창밖 숲 너머로 주황빛이 번지기 시작한다.",
+          "quote_start": 105,
+          "category": "story",
+          "unit_basis": "원문 4번은 실내 행동을 중단시킬 외부 신호. 화재 전체 공개와 시점이 다름.",
+          "decision_question": "창 너머 빛의 변화로 외부 상황 변화가 제시되는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            105,
+            133
+          ]
+        },
+        {
+          "id": "17-P05",
+          "project": "17",
+          "criterion": "남자가 창가에 다가가 바깥을 봄",
+          "quote": "5. 남자가 창가로 다가가 밖을 내다본다.",
+          "quote_start": 133,
+          "category": "action",
+          "unit_basis": "원문 5번은 신호를 받은 인물의 확인 행동으로 이동 목표가 바뀜.",
+          "decision_question": "인물이 기존 자리에서 창가로 이동해 밖을 보는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            133,
+            158
+          ]
+        },
+        {
+          "id": "17-P06",
+          "project": "17",
+          "criterion": "숲 가장자리의 불과 연기를 공개",
+          "quote": "6. 숲 가장자리에서 불길이 치솟고 연기가 하늘을 덮는다.",
+          "quote_start": 158,
+          "category": "scene",
+          "unit_basis": "원문 6번은 외부 위험의 원인·범위를 공개하는 숏. 불·연기의 사실성은 제외하되 위험 위치는 필요.",
+          "decision_question": "숲의 어디에서 불이 나며 어느 방향이 위험한지 알 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            158,
+            192
+          ]
+        },
+        {
+          "id": "17-P07",
+          "project": "17",
+          "criterion": "가방을 메고 나와 불 반대편으로 달림",
+          "quote": "7. 남자가 가방을 메고 오두막을 뛰쳐나와 불의 반대편 길로 달린다.",
+          "quote_start": 192,
+          "category": "action",
+          "unit_basis": "원문 7번은 탈출 준비→출구→안전 방향 이동의 한 도주 행동. 손가락·가방 재질은 유예.",
+          "decision_question": "오두막 이탈과 불을 피하는 경로가 연결되는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            192,
+            232
+          ]
+        },
+        {
+          "id": "17-P08",
+          "project": "17",
+          "criterion": "불타는 숲을 뒤로하고 어둠 속으로 사라짐",
+          "quote": "8. 불타는 숲을 뒤로하고 남자가 어둠 속으로 사라진다.",
+          "quote_start": 232,
+          "category": "camera",
+          "unit_basis": "원문 8번은 도주 경로의 종료와 인물/불의 거리 관계를 정리.",
+          "decision_question": "남성이 불에서 멀어져 화면 또는 어둠 속으로 이탈하는 끝 구도가 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            232,
+            265
+          ]
+        }
+      ],
+      "prompt_sha256": "9d743dfb79f1070118da208a6d5f7001201c7998c577dcd26d1848419d70a58a"
+    },
+    {
+      "id": "18",
+      "name": "도심 추격",
+      "units": [
+        {
+          "id": "18-P01",
+          "project": "18",
+          "criterion": "도심 골목에서 세단이 대로로 튀어나오는 도입",
+          "quote": "도심 추격\n등장인물\n서윤 — 30대 초반. 금속 케이스를 들고 도주 중인 인물.\n추격자 — 검은 SUV를 탄 정체불명의 남자.\nS#1. 도심 대로 / 밤\n비가 그친 직후의 도심.\n젖은 도로 위로 빌딩 불빛과 신호등 색이 번진다.\n차량 몇 대가 느리게 지나가고, 멀리서 사이렌 소리가 희미하게 들린다.\n좁은 골목 안쪽에서 거친 엔진음이 가까워진다.\n검은 세단 한 대가 골목을 빠져나와 대로로 튀어나온다.\n차체 옆면은 긁혀 있고, 뒤 범퍼는 반쯤 떨어져 있다.\n운전석에는 서윤이 있다.\n조수석에는 작은 금속 케이스가 놓여 있다.",
+          "quote_start": 0,
+          "category": "scene",
+          "unit_basis": "도입 배경·주인공·케이스 소개는 세단의 골목 진입 장면에 묶음. 의상·날씨·차체 파손 디테일은 별도 단위로 늘리지 않음.",
+          "decision_question": "세단의 출발 공간과 도심 대로 진입을 확인할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            0,
+            294
+          ]
+        },
+        {
+          "id": "18-P02",
+          "project": "18",
+          "criterion": "백미러로 추격 SUV를 확인하고 도심 질주",
+          "quote": "서윤이 백미러를 본다.\n골목 안쪽에서 검은 SUV가 따라 나온다.\nSUV의 헤드라이트가 세단 안을 강하게 비춘다.\n서윤은 숨을 짧게 들이마신다.\n서윤\n젠장.\n세단이 속도를 올린다.\nSUV도 곧바로 따라붙는다.\n두 차량은 신호를 무시하고 도심 대로를 질주한다.\n주변 차량들이 경적을 울리며 급하게 멈춰 선다.",
+          "quote_start": 294,
+          "category": "action",
+          "unit_basis": "추격자 발견이 가속·도주로 이어지는 한 단계. 경적·표정 대신 차량의 선후 관계를 평가.",
+          "decision_question": "SUV의 뒤따름과 세단의 도주 방향·상대 간격을 검토할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            294,
+            466
+          ]
+        },
+        {
+          "id": "18-P03",
+          "project": "18",
+          "criterion": "막힌 교차로와 뒤따르는 SUV 사이의 위험 제시",
+          "quote": "전방.\n큰 교차로가 보인다.\n신호등은 빨간불이다.\n교차로 너머 도로는 공사 중이다.\n공사 트럭과 노란 바리케이드가 차선을 막고 있다.\n서윤이 전방을 확인한다.\n그대로 가면 들이받는다.\n백미러 안의 SUV는 더 가까워진다.\n서윤의 손이 핸들을 꽉 쥔다.\n서윤\n비켜...",
+          "quote_start": 466,
+          "category": "story",
+          "unit_basis": "전방 공사 장애물과 후방 추격자가 함께 회피 동기를 만드는 정보 단계.",
+          "decision_question": "앞이 막히고 뒤에서는 추격자가 접근해 방향을 바꿔야 하는 상황이 보이는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            466,
+            616
+          ]
+        },
+        {
+          "id": "18-P04",
+          "project": "18",
+          "criterion": "마지막 순간 우회전해 턱을 넘어 좁은 통로 진입",
+          "quote": "세단이 교차로 중앙으로 진입한다.\nSUV가 뒤에서 그대로 밀어붙인다.\n서윤은 마지막 순간 핸들을 오른쪽으로 꺾는다.\n세단이 인도 턱을 타고 올라간다.\n차체가 크게 흔들리고, 조수석의 금속 케이스가 바닥으로 떨어진다.\n세단은 빌딩과 빌딩 사이의 좁은 통로로 미끄러져 들어간다.\n사이드미러가 벽에 부딪혀 떨어져 나간다.",
+          "quote_start": 616,
+          "category": "action",
+          "unit_basis": "핸들 조작→방향 전환→통로 진입은 하나의 회피 행동. 차체 흔들림·거울 파손은 동선과 분리해 감점하지 않음.",
+          "decision_question": "세단이 막힌 정면 대신 오른쪽 좁은 통로로 빠지는 경로가 읽히는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            616,
+            793
+          ]
+        },
+        {
+          "id": "18-P05",
+          "project": "18",
+          "criterion": "SUV가 좁은 입구를 놓쳐 가로등에 충돌",
+          "quote": "뒤따라오던 SUV도 같은 방향으로 꺾으려 한다.\n하지만 차체가 너무 크다.\nSUV는 통로 입구를 제대로 잡지 못하고 미끄러진다.\n쾅!\nSUV가 가로등을 들이받는다.\n차체가 옆으로 돌아가며 도로 표지판과 바리케이드를 밀어버린다.\n충돌음이 도심에 울린다.",
+          "quote_start": 793,
+          "category": "story",
+          "unit_basis": "다른 차량의 공간적 실패와 충돌이 도주 성공의 원인이므로 별도 사건.",
+          "decision_question": "SUV가 같은 경로를 따라가지 못하고 입구에서 충돌해 멈추는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            793,
+            934
+          ]
+        },
+        {
+          "id": "18-P06",
+          "project": "18",
+          "criterion": "세단이 서비스 도로로 나와 추격자를 뒤에 남김",
+          "quote": "세단은 좁은 통로를 빠져나와 빌딩 뒤편 서비스 도로로 나온다.\n서윤은 속도를 조금 줄인다.\n백미러 안에는 멈춰 선 SUV의 헤드라이트가 멀리 보인다.",
+          "quote_start": 934,
+          "category": "action",
+          "unit_basis": "통로 내부의 회피에서 외부 안전 구간으로 전환. 승패를 정리하는 이동·시선 관계.",
+          "decision_question": "세단이 통로를 빠져나와 SUV와 거리를 벌린 상태가 확인되는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            934,
+            1018
+          ]
+        },
+        {
+          "id": "18-P07",
+          "project": "18",
+          "criterion": "떨어진 케이스의 붉은 불빛 확인 후 회수",
+          "quote": "서윤은 바닥에 떨어진 금속 케이스를 본다.\n케이스 모서리에 붉은 불빛이 깜빡인다.\n서윤이 케이스를 다시 조수석 위로 던져 올린다.",
+          "quote_start": 1018,
+          "category": "story",
+          "unit_basis": "추격 뒤 관심이 목표 소품으로 바뀜. 이전 낙하는 이 소품 회수의 연속 조건으로 연결하되 별도 중복 점수 없음.",
+          "decision_question": "바닥의 케이스를 확인하고 좌석으로 돌리는 행동 및 이상 신호를 배치할 수 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            1018,
+            1091
+          ]
+        },
+        {
+          "id": "18-P08",
+          "project": "18",
+          "criterion": "알 수 없는 전화가 오지만 받지 않음",
+          "quote": "그때, 휴대폰이 울린다.\n서윤은 전화를 받지 않는다.\n화면에는 발신자 표시가 뜬다.\n발신자: 알 수 없음",
+          "quote_start": 1091,
+          "category": "story",
+          "unit_basis": "새 외부 연락과 수신 거부가 후속 이야기의 단서가 되는 독립 정보 단계. 벨소리·정확한 폰트는 유예.",
+          "decision_question": "전화 도착과 받지 않는 반응을 놓을 소품·인물 숏이 있는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            1091,
+            1150
+          ]
+        },
+        {
+          "id": "18-P09",
+          "project": "18",
+          "criterion": "어두운 고가도로 아래로 세단이 사라짐",
+          "quote": "서윤은 다시 앞을 본다.\n고가도로 아래로 이어지는 어두운 길.\n세단이 그 안으로 사라진다.\n컷 투 블랙.",
+          "quote_start": 1150,
+          "category": "camera",
+          "unit_basis": "최종 목적지가 어두운 길로 바뀌고 화면 이탈로 종료.",
+          "decision_question": "세단이 고가도로 아래 어두운 경로로 빠져나가며 장면을 끝내는가?",
+          "unit_definition_stage": "new: fixed from prompt before video inspection",
+          "source_range": [
+            1150,
+            1209
+          ]
+        }
+      ],
+      "prompt_sha256": "4479adc0e8f8ea9927394b765d581acba0de785a28594bdda46724048aeae2f1"
+    }
+  ]
+}

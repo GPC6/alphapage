@@ -1,0 +1,217 @@
+{
+  "checked_at": "2026-11-07T08:45:39.321Z",
+  "browser": "Chromium 156 local file://",
+  "projects": [
+    {
+      "id": "01",
+      "duration": 23.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 22.5,
+      "expected": 22.5,
+      "anchors": 8,
+      "rows": 8,
+      "unitReasons": 8
+    },
+    {
+      "id": "02",
+      "duration": 36,
+      "width": 1920,
+      "height": 1080,
+      "seek": 35.5,
+      "expected": 35.5,
+      "anchors": 9,
+      "rows": 9,
+      "unitReasons": 9
+    },
+    {
+      "id": "03",
+      "duration": 17,
+      "width": 1920,
+      "height": 1080,
+      "seek": 16.5,
+      "expected": 16.5,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "04",
+      "duration": 40.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 39.5,
+      "expected": 39.5,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "05",
+      "duration": 40,
+      "width": 1920,
+      "height": 1080,
+      "seek": 38,
+      "expected": 38,
+      "anchors": 5,
+      "rows": 5,
+      "unitReasons": 5
+    },
+    {
+      "id": "06",
+      "duration": 32.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 30.5,
+      "expected": 30.5,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "07",
+      "duration": 47.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 45,
+      "expected": 45,
+      "anchors": 7,
+      "rows": 7,
+      "unitReasons": 7
+    },
+    {
+      "id": "08",
+      "duration": 20.2,
+      "width": 1920,
+      "height": 1080,
+      "seek": 18,
+      "expected": 18,
+      "anchors": 7,
+      "rows": 7,
+      "unitReasons": 7
+    },
+    {
+      "id": "09",
+      "duration": 21.7,
+      "width": 1920,
+      "height": 1080,
+      "seek": 17.9,
+      "expected": 17.9,
+      "anchors": 7,
+      "rows": 7,
+      "unitReasons": 7
+    },
+    {
+      "id": "10",
+      "duration": 25.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 23,
+      "expected": 23,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "11",
+      "duration": 16,
+      "width": 1920,
+      "height": 1080,
+      "seek": 15.3,
+      "expected": 15.3,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "12",
+      "duration": 26.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 25,
+      "expected": 25,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "13",
+      "duration": 24,
+      "width": 1920,
+      "height": 1080,
+      "seek": 23,
+      "expected": 23,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "14",
+      "duration": 34,
+      "width": 1920,
+      "height": 1080,
+      "seek": 33.5,
+      "expected": 33.5,
+      "anchors": 9,
+      "rows": 9,
+      "unitReasons": 9
+    },
+    {
+      "id": "15",
+      "duration": 34,
+      "width": 1920,
+      "height": 1080,
+      "seek": 32,
+      "expected": 32,
+      "anchors": 6,
+      "rows": 6,
+      "unitReasons": 6
+    },
+    {
+      "id": "16",
+      "duration": 27.5,
+      "width": 1920,
+      "height": 1080,
+      "seek": 25,
+      "expected": 25,
+      "anchors": 5,
+      "rows": 5,
+      "unitReasons": 5
+    },
+    {
+      "id": "17",
+      "duration": 33,
+      "width": 1920,
+      "height": 1080,
+      "seek": 30,
+      "expected": 30,
+      "anchors": 8,
+      "rows": 8,
+      "unitReasons": 8
+    },
+    {
+      "id": "18",
+      "duration": 37,
+      "width": 1920,
+      "height": 1080,
+      "seek": 34.5,
+      "expected": 34.5,
+      "anchors": 9,
+      "rows": 9,
+      "unitReasons": 9
+    }
+  ],
+  "checks": [
+    "18 videos decoded",
+    "122 original source highlights",
+    "122 unit definitions",
+    "representative frame seeking in all projects",
+    "new cohort filter",
+    "partial filter and search",
+    "clip playback stops",
+    "new first-pass 1920x1080 aspect ratio",
+    "390px mobile overflow and navigation"
+  ],
+  "errors": [],
+  "issues": []
+}

@@ -1,0 +1,642 @@
+{
+	"format_version": "p1-storyboard-v1",
+	"prompt": "도심 추격\n등장인물\n서윤 — 30대 초반. 금속 케이스를 들고 도주 중인 인물.\n추격자 — 검은 SUV를 탄 정체불명의 남자.\nS#1. 도심 대로 / 밤\n비가 그친 직후의 도심.\n젖은 도로 위로 빌딩 불빛과 신호등 색이 번진다.\n차량 몇 대가 느리게 지나가고, 멀리서 사이렌 소리가 희미하게 들린다.\n좁은 골목 안쪽에서 거친 엔진음이 가까워진다.\n검은 세단 한 대가 골목을 빠져나와 대로로 튀어나온다.\n차체 옆면은 긁혀 있고, 뒤 범퍼는 반쯤 떨어져 있다.\n운전석에는 서윤이 있다.\n조수석에는 작은 금속 케이스가 놓여 있다.\n서윤이 백미러를 본다.\n골목 안쪽에서 검은 SUV가 따라 나온다.\nSUV의 헤드라이트가 세단 안을 강하게 비춘다.\n서윤은 숨을 짧게 들이마신다.\n서윤\n젠장.\n세단이 속도를 올린다.\nSUV도 곧바로 따라붙는다.\n두 차량은 신호를 무시하고 도심 대로를 질주한다.\n주변 차량들이 경적을 울리며 급하게 멈춰 선다.\n전방.\n큰 교차로가 보인다.\n신호등은 빨간불이다.\n교차로 너머 도로는 공사 중이다.\n공사 트럭과 노란 바리케이드가 차선을 막고 있다.\n서윤이 전방을 확인한다.\n그대로 가면 들이받는다.\n백미러 안의 SUV는 더 가까워진다.\n서윤의 손이 핸들을 꽉 쥔다.\n서윤\n비켜...\n세단이 교차로 중앙으로 진입한다.\nSUV가 뒤에서 그대로 밀어붙인다.\n서윤은 마지막 순간 핸들을 오른쪽으로 꺾는다.\n세단이 인도 턱을 타고 올라간다.\n차체가 크게 흔들리고, 조수석의 금속 케이스가 바닥으로 떨어진다.\n세단은 빌딩과 빌딩 사이의 좁은 통로로 미끄러져 들어간다.\n사이드미러가 벽에 부딪혀 떨어져 나간다.\n뒤따라오던 SUV도 같은 방향으로 꺾으려 한다.\n하지만 차체가 너무 크다.\nSUV는 통로 입구를 제대로 잡지 못하고 미끄러진다.\n쾅!\nSUV가 가로등을 들이받는다.\n차체가 옆으로 돌아가며 도로 표지판과 바리케이드를 밀어버린다.\n충돌음이 도심에 울린다.\n세단은 좁은 통로를 빠져나와 빌딩 뒤편 서비스 도로로 나온다.\n서윤은 속도를 조금 줄인다.\n백미러 안에는 멈춰 선 SUV의 헤드라이트가 멀리 보인다.\n서윤은 바닥에 떨어진 금속 케이스를 본다.\n케이스 모서리에 붉은 불빛이 깜빡인다.\n서윤이 케이스를 다시 조수석 위로 던져 올린다.\n그때, 휴대폰이 울린다.\n서윤은 전화를 받지 않는다.\n화면에는 발신자 표시가 뜬다.\n발신자: 알 수 없음\n서윤은 다시 앞을 본다.\n고가도로 아래로 이어지는 어두운 길.\n세단이 그 안으로 사라진다.\n컷 투 블랙.\n",
+	"draft_prompt": "도심 추격\n등장인물\n서윤 — 30대 초반. 금속 케이스를 들고 도주 중인 인물.\n추격자 — 검은 SUV를 탄 정체불명의 남자.\nS#1. 도심 대로 / 밤\n비가 그친 직후의 도심.\n젖은 도로 위로 빌딩 불빛과 신호등 색이 번진다.\n차량 몇 대가 느리게 지나가고, 멀리서 사이렌 소리가 희미하게 들린다.\n좁은 골목 안쪽에서 거친 엔진음이 가까워진다.\n검은 세단 한 대가 골목을 빠져나와 대로로 튀어나온다.\n차체 옆면은 긁혀 있고, 뒤 범퍼는 반쯤 떨어져 있다.\n운전석에는 서윤이 있다.\n조수석에는 작은 금속 케이스가 놓여 있다.\n서윤이 백미러를 본다.\n골목 안쪽에서 검은 SUV가 따라 나온다.\nSUV의 헤드라이트가 세단 안을 강하게 비춘다.\n서윤은 숨을 짧게 들이마신다.\n서윤\n젠장.\n세단이 속도를 올린다.\nSUV도 곧바로 따라붙는다.\n두 차량은 신호를 무시하고 도심 대로를 질주한다.\n주변 차량들이 경적을 울리며 급하게 멈춰 선다.\n전방.\n큰 교차로가 보인다.\n신호등은 빨간불이다.\n교차로 너머 도로는 공사 중이다.\n공사 트럭과 노란 바리케이드가 차선을 막고 있다.\n서윤이 전방을 확인한다.\n그대로 가면 들이받는다.\n백미러 안의 SUV는 더 가까워진다.\n서윤의 손이 핸들을 꽉 쥔다.\n서윤\n비켜...\n세단이 교차로 중앙으로 진입한다.\nSUV가 뒤에서 그대로 밀어붙인다.\n서윤은 마지막 순간 핸들을 오른쪽으로 꺾는다.\n세단이 인도 턱을 타고 올라간다.\n차체가 크게 흔들리고, 조수석의 금속 케이스가 바닥으로 떨어진다.\n세단은 빌딩과 빌딩 사이의 좁은 통로로 미끄러져 들어간다.\n사이드미러가 벽에 부딪혀 떨어져 나간다.\n뒤따라오던 SUV도 같은 방향으로 꺾으려 한다.\n하지만 차체가 너무 크다.\nSUV는 통로 입구를 제대로 잡지 못하고 미끄러진다.\n쾅!\nSUV가 가로등을 들이받는다.\n차체가 옆으로 돌아가며 도로 표지판과 바리케이드를 밀어버린다.\n충돌음이 도심에 울린다.\n세단은 좁은 통로를 빠져나와 빌딩 뒤편 서비스 도로로 나온다.\n서윤은 속도를 조금 줄인다.\n백미러 안에는 멈춰 선 SUV의 헤드라이트가 멀리 보인다.\n서윤은 바닥에 떨어진 금속 케이스를 본다.\n케이스 모서리에 붉은 불빛이 깜빡인다.\n서윤이 케이스를 다시 조수석 위로 던져 올린다.\n그때, 휴대폰이 울린다.\n서윤은 전화를 받지 않는다.\n화면에는 발신자 표시가 뜬다.\n발신자: 알 수 없음\n서윤은 다시 앞을 본다.\n고가도로 아래로 이어지는 어두운 길.\n세단이 그 안으로 사라진다.\n컷 투 블랙.\n",
+	"request":
+	{
+		"cut_count": 8,
+		"duration_seconds": 0
+	},
+	"summary":
+	{
+		"cut_count": 8,
+		"duration_seconds": 37
+	},
+	"design":
+	{
+		"environment":
+		{
+			"overview": "A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.",
+			"location_type": "Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.",
+			"zones": [
+				{
+					"name": "Wet boulevard",
+					"description": "A narrow feeder-alley opening between masonry buildings, several traffic lanes, painted lane markings, glass-fronted offices, illuminated windows, overhead signals, streetlights and sparse civilian traffic",
+					"connects_to": [
+						"Construction intersection"
+					]
+				},
+				{
+					"name": "Construction intersection",
+					"description": "A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers",
+					"connects_to": [
+						"Wet boulevard",
+						"Narrow passage"
+					]
+				},
+				{
+					"name": "Narrow passage",
+					"description": "A straight, single-car-width slot between tall masonry office walls, with abrasive projecting stonework along the right wall, wet paving, drainage channels and an unobstructed opening onto the rear service road",
+					"connects_to": [
+						"Construction intersection",
+						"Rear service road"
+					]
+				},
+				{
+					"name": "Rear service road",
+					"description": "A wet utility road behind the offices, blank masonry walls, recessed loading doors, scattered wall lights and a concrete elevated roadway spanning a dark continuation of the road",
+					"connects_to": [
+						"Narrow passage"
+					]
+				}
+			],
+			"baseline":
+			{
+				"time_of_day": "Night",
+				"weather": "rain has just stopped, with no falling precipitation",
+				"lighting": "cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement."
+			}
+		},
+		"breakdown":
+		{
+			"logline": "Fleeing an unknown man’s SUV with a metal case, 서윤 forces her damaged sedan through a narrow downtown passage to escape a blocked intersection, only to discover a blinking warning light and an unknown caller as she disappears beneath an elevated road.",
+			"beats": [
+				{
+					"summary": "서윤’s damaged sedan bursts from an alley onto the wet boulevard",
+					"emotion": "urgency"
+				},
+				{
+					"summary": "The SUV emerges behind her, confirming that the pursuer is still close",
+					"emotion": "alarm"
+				},
+				{
+					"summary": "A construction closure beyond a red-light intersection cuts off the sedan’s escape route",
+					"emotion": "entrapment"
+				},
+				{
+					"summary": "서윤 commits to a violent right turn over the curb, throwing the case into the footwell",
+					"emotion": "desperation"
+				},
+				{
+					"summary": "The sedan squeezes into the passage, sacrificing its right mirror",
+					"emotion": "painful hope"
+				},
+				{
+					"summary": "The larger SUV misses the entrance and crashes into street furniture",
+					"emotion": "sudden release"
+				},
+				{
+					"summary": "The recovered case flashes red as an unknown call arrives, replacing immediate danger with uncertainty",
+					"emotion": "unease"
+				},
+				{
+					"summary": "서윤 drives beneath the elevated road without answering",
+					"emotion": "unresolved dread"
+				}
+			]
+		},
+		"subjects": [
+			{
+				"name": "서윤",
+				"kind": "Woman in her early thirties",
+				"appearance": "compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt",
+				"signature_features": [
+					"the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear."
+				]
+			},
+			{
+				"name": "추격자",
+				"kind": "Unidentified male driver",
+				"appearance": "broad, heavy-shouldered build; close-cropped dark hair; thick neck; near-black jacket",
+				"signature_features": [
+					"his unusually wide shoulders and thick-necked silhouette remain recognizable through vehicle glass from different angles."
+				]
+			},
+			{
+				"name": "Sedan",
+				"kind": "Damaged dark sedan",
+				"appearance": "low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached",
+				"signature_features": [
+					"its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle."
+				]
+			},
+			{
+				"name": "SUV",
+				"kind": "Pursuer’s dark vehicle",
+				"appearance": "tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance",
+				"signature_features": [
+					"its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan."
+				]
+			},
+			{
+				"name": "Metal case",
+				"kind": "Small rigid carrying case",
+				"appearance": "pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit",
+				"signature_features": [
+					"its thick rectangular profile and projecting reinforced corners remain distinctive from any angle."
+				]
+			},
+			{
+				"name": "Phone",
+				"kind": "Mobile phone",
+				"appearance": "dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark",
+				"signature_features": [
+					"its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible."
+				]
+			}
+		],
+		"run_id": "storyboard_20261023_033129_2241f320"
+	},
+	"panels": [
+		{
+			"spec":
+			{
+				"shot_name": "Sedan bursting out of the alley",
+				"beat": 1,
+				"zone": "Wet boulevard",
+				"shot_size": "wide",
+				"angle": "low, from the opposite curb",
+				"camera_move": "short lateral tracking move",
+				"subjects_present": [
+					"Sedan"
+				],
+				"subject_states": [],
+				"backdrop": "The dark feeder-alley opening, masonry frontage, illuminated office windows and two slowly moving civilian cars.",
+				"action": "The sedan swings out of the alley onto the boulevard, scattering water from its tires. Its scraped flank passes broadside, and the loose end of its rear bumper bounces above the wet asphalt.",
+				"emotion": "Immediate urgency; this escape is already going badly.",
+				"transition": "Hard cut into the sedan.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Wet boulevard: A narrow feeder-alley opening between masonry buildings, several traffic lanes, painted lane markings, glass-fronted offices, illuminated windows, overhead signals, streetlights and sparse civilian traffic\nBackdrop, behind the action: The dark feeder-alley opening, masonry frontage, illuminated office windows and two slowly moving civilian cars.\nShot size: wide\nCamera angle: low, from the opposite curb\nCamera move: short lateral tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\nAction: The sedan swings out of the alley onto the boulevard, scattering water from its tires. Its scraped flank passes broadside, and the loose end of its rear bumper bounces above the wet asphalt.\nMood: Immediate urgency; this escape is already going badly.",
+			"images": [
+				"cut_01_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Wet boulevard: A narrow feeder-alley opening between masonry buildings, several traffic lanes, painted lane markings, glass-fronted offices, illuminated windows, overhead signals, streetlights and sparse civilian traffic\nBackdrop, behind the action: The dark feeder-alley opening, masonry frontage, illuminated office windows and two slowly moving civilian cars.\nShot size: wide\nCamera angle: low, from the opposite curb\nCamera move: short lateral tracking move\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\nAction: The sedan swings out of the alley onto the boulevard, scattering water from its tires. Its scraped flank passes broadside, and the loose end of its rear bumper bounces above the wet asphalt.\nMood: Immediate urgency; this escape is already going badly.",
+					"spec":
+					{
+						"shot_name": "Sedan bursting out of the alley",
+						"beat": 1,
+						"zone": "Wet boulevard",
+						"shot_size": "wide",
+						"angle": "low, from the opposite curb",
+						"camera_move": "short lateral tracking move",
+						"subjects_present": [
+							"Sedan"
+						],
+						"subject_states": [],
+						"backdrop": "The dark feeder-alley opening, masonry frontage, illuminated office windows and two slowly moving civilian cars.",
+						"action": "The sedan swings out of the alley onto the boulevard, scattering water from its tires. Its scraped flank passes broadside, and the loose end of its rear bumper bounces above the wet asphalt.",
+						"emotion": "Immediate urgency; this escape is already going badly.",
+						"transition": "Hard cut into the sedan.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "서윤 spotting the SUV in her mirror",
+				"beat": 2,
+				"zone": "Wet boulevard",
+				"shot_size": "medium",
+				"angle": "eye level, diagonally inward from the passenger-side dashboard",
+				"camera_move": "static",
+				"subjects_present": [
+					"서윤",
+					"Sedan",
+					"SUV",
+					"추격자",
+					"Metal case",
+					"Phone"
+				],
+				"subject_states": [],
+				"backdrop": "Dark seat upholstery and the rear window; the rearview mirror contains the SUV’s upright front, bright headlights and its driver’s broad silhouette.",
+				"action": "서윤 glances into the rearview mirror as the SUV straightens into her lane behind her. Its headlights wash over her shoulders. The case rests on the passenger cushion, and the phone remains dark in its cradle. She draws a short breath, says “Damn,” and returns her gaze forward.",
+				"emotion": "Alarm sharpened into resolve.",
+				"transition": "Hard cut to the road ahead.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Wet boulevard: A narrow feeder-alley opening between masonry buildings, several traffic lanes, painted lane markings, glass-fronted offices, illuminated windows, overhead signals, streetlights and sparse civilian traffic\nBackdrop, behind the action: Dark seat upholstery and the rear window; the rearview mirror contains the SUV’s upright front, bright headlights and its driver’s broad silhouette.\nShot size: medium\nCamera angle: eye level, diagonally inward from the passenger-side dashboard\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan.\n- 추격자 (Unidentified male driver): broad, heavy-shouldered build; close-cropped dark hair; thick neck; near-black jacket Signature, drawn only where this angle exposes it: his unusually wide shoulders and thick-necked silhouette remain recognizable through vehicle glass from different angles.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible.\nAction: 서윤 glances into the rearview mirror as the SUV straightens into her lane behind her. Its headlights wash over her shoulders. The case rests on the passenger cushion, and the phone remains dark in its cradle. She draws a short breath, says “Damn,” and returns her gaze forward.\nMood: Alarm sharpened into resolve.",
+			"images": [
+				"cut_02_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Wet boulevard: A narrow feeder-alley opening between masonry buildings, several traffic lanes, painted lane markings, glass-fronted offices, illuminated windows, overhead signals, streetlights and sparse civilian traffic\nBackdrop, behind the action: Dark seat upholstery and the rear window; the rearview mirror contains the SUV’s upright front, bright headlights and its driver’s broad silhouette.\nShot size: medium\nCamera angle: eye level, diagonally inward from the passenger-side dashboard\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan.\n- 추격자 (Unidentified male driver): broad, heavy-shouldered build; close-cropped dark hair; thick neck; near-black jacket Signature, drawn only where this angle exposes it: his unusually wide shoulders and thick-necked silhouette remain recognizable through vehicle glass from different angles.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible.\nAction: 서윤 glances into the rearview mirror as the SUV straightens into her lane behind her. Its headlights wash over her shoulders. The case rests on the passenger cushion, and the phone remains dark in its cradle. She draws a short breath, says “Damn,” and returns her gaze forward.\nMood: Alarm sharpened into resolve.",
+					"spec":
+					{
+						"shot_name": "서윤 spotting the SUV in her mirror",
+						"beat": 2,
+						"zone": "Wet boulevard",
+						"shot_size": "medium",
+						"angle": "eye level, diagonally inward from the passenger-side dashboard",
+						"camera_move": "static",
+						"subjects_present": [
+							"서윤",
+							"Sedan",
+							"SUV",
+							"추격자",
+							"Metal case",
+							"Phone"
+						],
+						"subject_states": [],
+						"backdrop": "Dark seat upholstery and the rear window; the rearview mirror contains the SUV’s upright front, bright headlights and its driver’s broad silhouette.",
+						"action": "서윤 glances into the rearview mirror as the SUV straightens into her lane behind her. Its headlights wash over her shoulders. The case rests on the passenger cushion, and the phone remains dark in its cradle. She draws a short breath, says “Damn,” and returns her gaze forward.",
+						"emotion": "Alarm sharpened into resolve.",
+						"transition": "Hard cut to the road ahead.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Sedan and SUV charging toward the construction closure",
+				"beat": 3,
+				"zone": "Construction intersection",
+				"shot_size": "extreme wide",
+				"angle": "high, oblique to the direction of travel",
+				"camera_move": "static",
+				"subjects_present": [
+					"Sedan",
+					"SUV"
+				],
+				"subject_states": [],
+				"backdrop": "The full intersection, red overhead signals, the construction truck and barriers across the straight-ahead road, and the raised right-hand corner containing the narrow passage entrance.",
+				"action": "The sedan crosses the stop line against the red signal, with the SUV close behind. Cross-traffic cars brake short, leaving sharp gaps around them. Directly ahead, the truck and barriers visibly eliminate the straight route; the slim opening at the right-hand corner remains unobstructed.",
+				"emotion": "Entrapment; the available road suddenly runs out.",
+				"transition": "Hard cut inside the sedan at the decision point.",
+				"atmosphere": null,
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: The full intersection, red overhead signals, the construction truck and barriers across the straight-ahead road, and the raised right-hand corner containing the narrow passage entrance.\nShot size: extreme wide\nCamera angle: high, oblique to the direction of travel\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan.\nAction: The sedan crosses the stop line against the red signal, with the SUV close behind. Cross-traffic cars brake short, leaving sharp gaps around them. Directly ahead, the truck and barriers visibly eliminate the straight route; the slim opening at the right-hand corner remains unobstructed.\nMood: Entrapment; the available road suddenly runs out.",
+			"images": [
+				"cut_03_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: The full intersection, red overhead signals, the construction truck and barriers across the straight-ahead road, and the raised right-hand corner containing the narrow passage entrance.\nShot size: extreme wide\nCamera angle: high, oblique to the direction of travel\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan.\nAction: The sedan crosses the stop line against the red signal, with the SUV close behind. Cross-traffic cars brake short, leaving sharp gaps around them. Directly ahead, the truck and barriers visibly eliminate the straight route; the slim opening at the right-hand corner remains unobstructed.\nMood: Entrapment; the available road suddenly runs out.",
+					"spec":
+					{
+						"shot_name": "Sedan and SUV charging toward the construction closure",
+						"beat": 3,
+						"zone": "Construction intersection",
+						"shot_size": "extreme wide",
+						"angle": "high, oblique to the direction of travel",
+						"camera_move": "static",
+						"subjects_present": [
+							"Sedan",
+							"SUV"
+						],
+						"subject_states": [],
+						"backdrop": "The full intersection, red overhead signals, the construction truck and barriers across the straight-ahead road, and the raised right-hand corner containing the narrow passage entrance.",
+						"action": "The sedan crosses the stop line against the red signal, with the SUV close behind. Cross-traffic cars brake short, leaving sharp gaps around them. Directly ahead, the truck and barriers visibly eliminate the straight route; the slim opening at the right-hand corner remains unobstructed.",
+						"emotion": "Entrapment; the available road suddenly runs out.",
+						"transition": "Hard cut inside the sedan at the decision point.",
+						"atmosphere": null,
+						"duration_seconds": 5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "서윤 wrenching the sedan over the curb",
+				"beat": 4,
+				"zone": "Construction intersection",
+				"shot_size": "medium",
+				"angle": "high, from the rear seat across the driver and passenger footwell",
+				"camera_move": "static",
+				"subjects_present": [
+					"서윤",
+					"Sedan",
+					"Metal case",
+					"Phone"
+				],
+				"subject_states": [],
+				"backdrop": "Through the windshield, the construction barriers swing left while the raised curb and dark passage mouth fill the right side; the dashboard and front seats enclose the lower frame.",
+				"action": "서윤 tightens both hands on the wheel, says “Move...” and snaps it right. The curb rushes beneath the windshield edge, and the cabin pitches sharply. The metal case slides off the passenger cushion and strikes the footwell; the secured phone stays in its cradle.",
+				"emotion": "Desperation expressed as a decisive physical gamble.",
+				"transition": "Match-on-action cut from the cabin’s sideways jolt to the sedan scraping through the gap.",
+				"atmosphere": null,
+				"duration_seconds": 3.5
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: Through the windshield, the construction barriers swing left while the raised curb and dark passage mouth fill the right side; the dashboard and front seats enclose the lower frame.\nShot size: medium\nCamera angle: high, from the rear seat across the driver and passenger footwell\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible.\nAction: 서윤 tightens both hands on the wheel, says “Move...” and snaps it right. The curb rushes beneath the windshield edge, and the cabin pitches sharply. The metal case slides off the passenger cushion and strikes the footwell; the secured phone stays in its cradle.\nMood: Desperation expressed as a decisive physical gamble.",
+			"images": [
+				"cut_04_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: Through the windshield, the construction barriers swing left while the raised curb and dark passage mouth fill the right side; the dashboard and front seats enclose the lower frame.\nShot size: medium\nCamera angle: high, from the rear seat across the driver and passenger footwell\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible.\nAction: 서윤 tightens both hands on the wheel, says “Move...” and snaps it right. The curb rushes beneath the windshield edge, and the cabin pitches sharply. The metal case slides off the passenger cushion and strikes the footwell; the secured phone stays in its cradle.\nMood: Desperation expressed as a decisive physical gamble.",
+					"spec":
+					{
+						"shot_name": "서윤 wrenching the sedan over the curb",
+						"beat": 4,
+						"zone": "Construction intersection",
+						"shot_size": "medium",
+						"angle": "high, from the rear seat across the driver and passenger footwell",
+						"camera_move": "static",
+						"subjects_present": [
+							"서윤",
+							"Sedan",
+							"Metal case",
+							"Phone"
+						],
+						"subject_states": [],
+						"backdrop": "Through the windshield, the construction barriers swing left while the raised curb and dark passage mouth fill the right side; the dashboard and front seats enclose the lower frame.",
+						"action": "서윤 tightens both hands on the wheel, says “Move...” and snaps it right. The curb rushes beneath the windshield edge, and the cabin pitches sharply. The metal case slides off the passenger cushion and strikes the footwell; the secured phone stays in its cradle.",
+						"emotion": "Desperation expressed as a decisive physical gamble.",
+						"transition": "Match-on-action cut from the cabin’s sideways jolt to the sedan scraping through the gap.",
+						"atmosphere": null,
+						"duration_seconds": 3.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Sedan losing its right mirror in the passage",
+				"beat": 5,
+				"zone": "Narrow passage",
+				"shot_size": "close-up",
+				"angle": "high, looking down along the sedan’s right roof edge and flank",
+				"camera_move": "static",
+				"subjects_present": [
+					"Sedan"
+				],
+				"subject_states": [
+					{
+						"subject": "Sedan",
+						"state": "The right side mirror is torn away, leaving a short broken mounting stub."
+					}
+				],
+				"backdrop": "The passage’s right masonry wall, projecting stonework and a narrow strip of wet paving beside the car.",
+				"action": "The sedan’s right mirror catches the projecting stonework and snaps away. The broken housing tumbles into the thin gap beside the moving car as its roof and scraped flank continue past.",
+				"emotion": "A wince of impact followed by hope that the car fits.",
+				"transition": "Hard cut back to the passage entrance.",
+				"atmosphere": null,
+				"duration_seconds": 2.5
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Narrow passage: A straight, single-car-width slot between tall masonry office walls, with abrasive projecting stonework along the right wall, wet paving, drainage channels and an unobstructed opening onto the rear service road\nBackdrop, behind the action: The passage’s right masonry wall, projecting stonework and a narrow strip of wet paving beside the car.\nShot size: close-up\nCamera angle: high, looking down along the sedan’s right roof edge and flank\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror is torn away, leaving a short broken mounting stub.\nAction: The sedan’s right mirror catches the projecting stonework and snaps away. The broken housing tumbles into the thin gap beside the moving car as its roof and scraped flank continue past.\nMood: A wince of impact followed by hope that the car fits.",
+			"images": [
+				"cut_05_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Narrow passage: A straight, single-car-width slot between tall masonry office walls, with abrasive projecting stonework along the right wall, wet paving, drainage channels and an unobstructed opening onto the rear service road\nBackdrop, behind the action: The passage’s right masonry wall, projecting stonework and a narrow strip of wet paving beside the car.\nShot size: close-up\nCamera angle: high, looking down along the sedan’s right roof edge and flank\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror is torn away, leaving a short broken mounting stub.\nAction: The sedan’s right mirror catches the projecting stonework and snaps away. The broken housing tumbles into the thin gap beside the moving car as its roof and scraped flank continue past.\nMood: A wince of impact followed by hope that the car fits.",
+					"spec":
+					{
+						"shot_name": "Sedan losing its right mirror in the passage",
+						"beat": 5,
+						"zone": "Narrow passage",
+						"shot_size": "close-up",
+						"angle": "high, looking down along the sedan’s right roof edge and flank",
+						"camera_move": "static",
+						"subjects_present": [
+							"Sedan"
+						],
+						"subject_states": [
+							{
+								"subject": "Sedan",
+								"state": "The right side mirror is torn away, leaving a short broken mounting stub."
+							}
+						],
+						"backdrop": "The passage’s right masonry wall, projecting stonework and a narrow strip of wet paving beside the car.",
+						"action": "The sedan’s right mirror catches the projecting stonework and snaps away. The broken housing tumbles into the thin gap beside the moving car as its roof and scraped flank continue past.",
+						"emotion": "A wince of impact followed by hope that the car fits.",
+						"transition": "Hard cut back to the passage entrance.",
+						"atmosphere": null,
+						"duration_seconds": 2.5
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "SUV crashing beside the passage entrance",
+				"beat": 6,
+				"zone": "Construction intersection",
+				"shot_size": "wide",
+				"angle": "eye level, diagonally across the raised corner",
+				"camera_move": "static",
+				"subjects_present": [
+					"SUV",
+					"추격자"
+				],
+				"subject_states": [
+					{
+						"subject": "SUV",
+						"state": "Its front-left corner is crushed, its hood buckled and its front bodywork trapped against the bent streetlamp; both headlights remain lit."
+					}
+				],
+				"backdrop": "The narrow passage entrance, its flanking masonry walls, the raised curb, road sign, temporary barriers and wet intersection.",
+				"action": "The SUV turns toward the opening but slides wide of it. Its front-left corner strikes the streetlamp at the outside lip. The vehicle rotates broadside, knocking the road sign and temporary barriers across the curb before stopping. The pursuer’s broad silhouette remains braced behind the wheel.",
+				"emotion": "Violent release from the immediate pursuit.",
+				"transition": "Hard cut to the sedan’s cabin beyond the passage.",
+				"atmosphere": null,
+				"duration_seconds": 4
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: The narrow passage entrance, its flanking masonry walls, the raised curb, road sign, temporary barriers and wet intersection.\nShot size: wide\nCamera angle: eye level, diagonally across the raised corner\nIn frame, each seen from the camera angle above and facing as the action requires:\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan. Current state in this cut: Its front-left corner is crushed, its hood buckled and its front bodywork trapped against the bent streetlamp; both headlights remain lit.\n- 추격자 (Unidentified male driver): broad, heavy-shouldered build; close-cropped dark hair; thick neck; near-black jacket Signature, drawn only where this angle exposes it: his unusually wide shoulders and thick-necked silhouette remain recognizable through vehicle glass from different angles.\nAction: The SUV turns toward the opening but slides wide of it. Its front-left corner strikes the streetlamp at the outside lip. The vehicle rotates broadside, knocking the road sign and temporary barriers across the curb before stopping. The pursuer’s broad silhouette remains braced behind the wheel.\nMood: Violent release from the immediate pursuit.",
+			"images": [
+				"cut_06_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Construction intersection: A broad crossing with stop lines and red signals; the straight-ahead continuation is blocked by a construction truck and yellow barriers; the near-right corner has a raised curb, an interbuilding passage entrance, a streetlamp at its outside lip, a road sign and additional temporary barriers\nBackdrop, behind the action: The narrow passage entrance, its flanking masonry walls, the raised curb, road sign, temporary barriers and wet intersection.\nShot size: wide\nCamera angle: eye level, diagonally across the raised corner\nIn frame, each seen from the camera angle above and facing as the action requires:\n- SUV (Pursuer’s dark vehicle): tall, broad, near-black body; upright cabin; thick roof pillars; large wheels; intact bodywork at first appearance Signature, drawn only where this angle exposes it: its high, box-shaped mass and unusually wide stance contrast unmistakably with the sedan. Current state in this cut: Its front-left corner is crushed, its hood buckled and its front bodywork trapped against the bent streetlamp; both headlights remain lit.\n- 추격자 (Unidentified male driver): broad, heavy-shouldered build; close-cropped dark hair; thick neck; near-black jacket Signature, drawn only where this angle exposes it: his unusually wide shoulders and thick-necked silhouette remain recognizable through vehicle glass from different angles.\nAction: The SUV turns toward the opening but slides wide of it. Its front-left corner strikes the streetlamp at the outside lip. The vehicle rotates broadside, knocking the road sign and temporary barriers across the curb before stopping. The pursuer’s broad silhouette remains braced behind the wheel.\nMood: Violent release from the immediate pursuit.",
+					"spec":
+					{
+						"shot_name": "SUV crashing beside the passage entrance",
+						"beat": 6,
+						"zone": "Construction intersection",
+						"shot_size": "wide",
+						"angle": "eye level, diagonally across the raised corner",
+						"camera_move": "static",
+						"subjects_present": [
+							"SUV",
+							"추격자"
+						],
+						"subject_states": [
+							{
+								"subject": "SUV",
+								"state": "Its front-left corner is crushed, its hood buckled and its front bodywork trapped against the bent streetlamp; both headlights remain lit."
+							}
+						],
+						"backdrop": "The narrow passage entrance, its flanking masonry walls, the raised curb, road sign, temporary barriers and wet intersection.",
+						"action": "The SUV turns toward the opening but slides wide of it. Its front-left corner strikes the streetlamp at the outside lip. The vehicle rotates broadside, knocking the road sign and temporary barriers across the curb before stopping. The pursuer’s broad silhouette remains braced behind the wheel.",
+						"emotion": "Violent release from the immediate pursuit.",
+						"transition": "Hard cut to the sedan’s cabin beyond the passage.",
+						"atmosphere": null,
+						"duration_seconds": 4
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "서윤 recovering the flashing case beside an unanswered phone",
+				"beat": 7,
+				"zone": "Rear service road",
+				"shot_size": "medium",
+				"angle": "high, from above the rear-center seat across the front cabin",
+				"camera_move": "static",
+				"subjects_present": [
+					"서윤",
+					"Sedan",
+					"Metal case",
+					"Phone"
+				],
+				"subject_states": [
+					{
+						"subject": "Sedan",
+						"state": "The right side mirror remains missing, with its broken mounting stub visible beyond the passenger window."
+					},
+					{
+						"subject": "Metal case",
+						"state": "Its corner indicator now flashes red."
+					},
+					{
+						"subject": "Phone",
+						"state": "Its screen is illuminated with the incoming-call text “Caller: Unknown”."
+					}
+				],
+				"backdrop": "The passenger seat, open footwell, center console and right door window; a shallow strip through the windshield shows loading-door walls and the dark road beneath the elevated structure.",
+				"action": "With the sedan moving more slowly, 서윤 reaches into the footwell and tosses the case back onto the passenger cushion. Its corner flashes red. The phone lights up with the unknown incoming call. Her hand stops short of it; she leaves the display untouched and fixes her attention forward.",
+				"emotion": "Relief curdling into uncertainty about the case and its unseen connections.",
+				"transition": "Hard cut to the sedan’s exterior.",
+				"atmosphere": null,
+				"duration_seconds": 9
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Rear service road: A wet utility road behind the offices, blank masonry walls, recessed loading doors, scattered wall lights and a concrete elevated roadway spanning a dark continuation of the road\nBackdrop, behind the action: The passenger seat, open footwell, center console and right door window; a shallow strip through the windshield shows loading-door walls and the dark road beneath the elevated structure.\nShot size: medium\nCamera angle: high, from above the rear-center seat across the front cabin\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror remains missing, with its broken mounting stub visible beyond the passenger window.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle. Current state in this cut: Its corner indicator now flashes red.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible. Current state in this cut: Its screen is illuminated with the incoming-call text “Caller: Unknown”.\nAction: With the sedan moving more slowly, 서윤 reaches into the footwell and tosses the case back onto the passenger cushion. Its corner flashes red. The phone lights up with the unknown incoming call. Her hand stops short of it; she leaves the display untouched and fixes her attention forward.\nMood: Relief curdling into uncertainty about the case and its unseen connections.",
+			"images": [
+				"cut_07_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: Night, rain has just stopped, with no falling precipitation, cool office-window spill, streetlights, traffic signals and vehicle lamps reflecting sharply on wet pavement.\nThis cut happens at Rear service road: A wet utility road behind the offices, blank masonry walls, recessed loading doors, scattered wall lights and a concrete elevated roadway spanning a dark continuation of the road\nBackdrop, behind the action: The passenger seat, open footwell, center console and right door window; a shallow strip through the windshield shows loading-door walls and the dark road beneath the elevated structure.\nShot size: medium\nCamera angle: high, from above the rear-center seat across the front cabin\nIn frame, each seen from the camera angle above and facing as the action requires:\n- 서윤 (Woman in her early thirties): compact, slight build; dark jaw-length blunt bob; pale-gray, square-shouldered jacket with a raised collar over a charcoal shirt; dark trousers and seat belt Signature, drawn only where this angle exposes it: the compact body, squared pale shoulders and blunt bob create a recognizable silhouette from front, side or rear.\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror remains missing, with its broken mounting stub visible beyond the passenger window.\n- Metal case (Small rigid carrying case): pale brushed-metal shell, dark perimeter seam, squared handle and reinforced corners; a small corner indicator is initially unlit Signature, drawn only where this angle exposes it: its thick rectangular profile and projecting reinforced corners remain distinctive from any angle. Current state in this cut: Its corner indicator now flashes red.\n- Phone (Mobile phone): dark rectangular handset in a thick pale-gray protective rim, secured in a low center-console cradle; screen initially dark Signature, drawn only where this angle exposes it: its conspicuously thick pale rim and narrow proportions distinguish it even when the display is not visible. Current state in this cut: Its screen is illuminated with the incoming-call text “Caller: Unknown”.\nAction: With the sedan moving more slowly, 서윤 reaches into the footwell and tosses the case back onto the passenger cushion. Its corner flashes red. The phone lights up with the unknown incoming call. Her hand stops short of it; she leaves the display untouched and fixes her attention forward.\nMood: Relief curdling into uncertainty about the case and its unseen connections.",
+					"spec":
+					{
+						"shot_name": "서윤 recovering the flashing case beside an unanswered phone",
+						"beat": 7,
+						"zone": "Rear service road",
+						"shot_size": "medium",
+						"angle": "high, from above the rear-center seat across the front cabin",
+						"camera_move": "static",
+						"subjects_present": [
+							"서윤",
+							"Sedan",
+							"Metal case",
+							"Phone"
+						],
+						"subject_states": [
+							{
+								"subject": "Sedan",
+								"state": "The right side mirror remains missing, with its broken mounting stub visible beyond the passenger window."
+							},
+							{
+								"subject": "Metal case",
+								"state": "Its corner indicator now flashes red."
+							},
+							{
+								"subject": "Phone",
+								"state": "Its screen is illuminated with the incoming-call text “Caller: Unknown”."
+							}
+						],
+						"backdrop": "The passenger seat, open footwell, center console and right door window; a shallow strip through the windshield shows loading-door walls and the dark road beneath the elevated structure.",
+						"action": "With the sedan moving more slowly, 서윤 reaches into the footwell and tosses the case back onto the passenger cushion. Its corner flashes red. The phone lights up with the unknown incoming call. Her hand stops short of it; she leaves the display untouched and fixes her attention forward.",
+						"emotion": "Relief curdling into uncertainty about the case and its unseen connections.",
+						"transition": "Hard cut to the sedan’s exterior.",
+						"atmosphere": null,
+						"duration_seconds": 9
+					}
+				}
+			]
+		},
+		{
+			"spec":
+			{
+				"shot_name": "Sedan disappearing beneath the elevated road",
+				"beat": 8,
+				"zone": "Rear service road",
+				"shot_size": "wide",
+				"angle": "eye level, rear three-quarter from the sedan’s right",
+				"camera_move": "static",
+				"subjects_present": [
+					"Sedan"
+				],
+				"subject_states": [
+					{
+						"subject": "Sedan",
+						"state": "The right side mirror remains missing, leaving the broken mounting stub."
+					}
+				],
+				"backdrop": "Blank office backs, recessed loading doors, wet service-road paving and the heavy concrete deck enclosing the dark continuation ahead.",
+				"action": "The sedan passes beneath the elevated road. Its loose bumper quivers, its taillights shrink into the darkness, and their reflections shorten across the wet pavement until the car is swallowed by the underpass.",
+				"emotion": "Escape without safety; the larger threat remains unresolved.",
+				"transition": "Cut to black.",
+				"atmosphere": "The elevated deck cuts off the office-window and streetlight spill, leaving weak service lights and the sedan’s lamps within the underpass.",
+				"duration_seconds": 5
+			},
+			"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: The elevated deck cuts off the office-window and streetlight spill, leaving weak service lights and the sedan’s lamps within the underpass.\nThis cut happens at Rear service road: A wet utility road behind the offices, blank masonry walls, recessed loading doors, scattered wall lights and a concrete elevated roadway spanning a dark continuation of the road\nBackdrop, behind the action: Blank office backs, recessed loading doors, wet service-road paving and the heavy concrete deck enclosing the dark continuation ahead.\nShot size: wide\nCamera angle: eye level, rear three-quarter from the sedan’s right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror remains missing, leaving the broken mounting stub.\nAction: The sedan passes beneath the elevated road. Its loose bumper quivers, its taillights shrink into the darkness, and their reflections shorten across the wet pavement until the car is swallowed by the underpass.\nMood: Escape without safety; the larger threat remains unresolved.",
+			"images": [
+				"cut_08_001.jpg"
+			],
+			"current": 0,
+			"takes": [
+				{
+					"modification": "",
+					"image_prompt": "Setting: A contemporary downtown of glass offices, masonry façades, concrete and rain-dark asphalt shares a charcoal-to-pale-gray palette, with bright window grids, traffic signals and streetlights reflected across wet surfaces.\nLocation: Connected outdoor downtown streets, an interbuilding passage and a rear service road; several views are from inside moving vehicles.\nAtmosphere: The elevated deck cuts off the office-window and streetlight spill, leaving weak service lights and the sedan’s lamps within the underpass.\nThis cut happens at Rear service road: A wet utility road behind the offices, blank masonry walls, recessed loading doors, scattered wall lights and a concrete elevated roadway spanning a dark continuation of the road\nBackdrop, behind the action: Blank office backs, recessed loading doors, wet service-road paving and the heavy concrete deck enclosing the dark continuation ahead.\nShot size: wide\nCamera angle: eye level, rear three-quarter from the sedan’s right\nIn frame, each seen from the camera angle above and facing as the action requires:\n- Sedan (Damaged dark sedan): low, long body; shallow roof; distinct rear trunk; charcoal-black paint; scraped side panels; rear bumper already hanging loose at one end; both side mirrors initially attached Signature, drawn only where this angle exposes it: its low wedge-like proportions and long rear overhang distinguish it from the SUV from any angle. Current state in this cut: The right side mirror remains missing, leaving the broken mounting stub.\nAction: The sedan passes beneath the elevated road. Its loose bumper quivers, its taillights shrink into the darkness, and their reflections shorten across the wet pavement until the car is swallowed by the underpass.\nMood: Escape without safety; the larger threat remains unresolved.",
+					"spec":
+					{
+						"shot_name": "Sedan disappearing beneath the elevated road",
+						"beat": 8,
+						"zone": "Rear service road",
+						"shot_size": "wide",
+						"angle": "eye level, rear three-quarter from the sedan’s right",
+						"camera_move": "static",
+						"subjects_present": [
+							"Sedan"
+						],
+						"subject_states": [
+							{
+								"subject": "Sedan",
+								"state": "The right side mirror remains missing, leaving the broken mounting stub."
+							}
+						],
+						"backdrop": "Blank office backs, recessed loading doors, wet service-road paving and the heavy concrete deck enclosing the dark continuation ahead.",
+						"action": "The sedan passes beneath the elevated road. Its loose bumper quivers, its taillights shrink into the darkness, and their reflections shorten across the wet pavement until the car is swallowed by the underpass.",
+						"emotion": "Escape without safety; the larger threat remains unresolved.",
+						"transition": "Cut to black.",
+						"atmosphere": "The elevated deck cuts off the office-window and streetlight spill, leaving weak service lights and the sedan’s lamps within the underpass.",
+						"duration_seconds": 5
+					}
+				}
+			]
+		}
+	]
+}

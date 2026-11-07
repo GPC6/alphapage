@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-11-07T08:45:11.577991+00:00",
+  "evaluated_generation_requests": 5,
+  "no_followup_or_manual_scene_write_calls": true,
+  "separate_pre_model_infrastructure_attempts": 1,
+  "projects": [
+    {
+      "project": "14",
+      "name": "전독시",
+      "one_generation": true,
+      "original_prompt_exact": true,
+      "prompt_matches_ignoring_outer_whitespace": true,
+      "empty_initial_scene_except_default_ground": true,
+      "original_inputs_unchanged": true,
+      "storyboard_copy_exact": true,
+      "output_documents_unchanged_after_render": true,
+      "output_hashes_match": true,
+      "actual_run_metadata_count": 1
+    },
+    {
+      "project": "15",
+      "name": "도심 추격 2",
+      "one_generation": true,
+      "original_prompt_exact": false,
+      "prompt_matches_ignoring_outer_whitespace": true,
+      "empty_initial_scene_except_default_ground": true,
+      "original_inputs_unchanged": true,
+      "storyboard_copy_exact": true,
+      "output_documents_unchanged_after_render": true,
+      "output_hashes_match": true,
+      "actual_run_metadata_count": 1
+    },
+    {
+      "project": "16",
+      "name": "카페 헌팅",
+      "one_generation": true,
+      "original_prompt_exact": true,
+      "prompt_matches_ignoring_outer_whitespace": true,
+      "empty_initial_scene_except_default_ground": true,
+      "original_inputs_unchanged": true,
+      "storyboard_copy_exact": true,
+      "output_documents_unchanged_after_render": true,
+      "output_hashes_match": true,
+      "actual_run_metadata_count": 1
+    },
+    {
+      "project": "17",
+      "name": "숲 속의 화재",
+      "one_generation": true,
+      "original_prompt_exact": false,
+      "prompt_matches_ignoring_outer_whitespace": true,
+      "empty_initial_scene_except_default_ground": true,
+      "original_inputs_unchanged": true,
+      "storyboard_copy_exact": true,
+      "output_documents_unchanged_after_render": true,
+      "output_hashes_match": true,
+      "actual_run_metadata_count": 1
+    },
+    {
+      "project": "18",
+      "name": "도심 추격",
+      "one_generation": true,
+      "original_prompt_exact": false,
+      "prompt_matches_ignoring_outer_whitespace": true,
+      "empty_initial_scene_except_default_ground": true,
+      "original_inputs_unchanged": true,
+      "storyboard_copy_exact": true,
+      "output_documents_unchanged_after_render": true,
+      "output_hashes_match": true,
+      "actual_run_metadata_count": 1
+    }
+  ]
+}
