@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T17:35:31.329999Z",
+  "title": "Design System: Previzion Performance Report",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Ink page",
+        "tonalRamp": [
+          "oklch(15.00% 0.01987 262.01)",
+          "oklch(26.43% 0.01987 262.01)",
+          "oklch(37.86% 0.01987 262.01)",
+          "oklch(49.29% 0.01987 262.01)",
+          "oklch(60.71% 0.01987 262.01)",
+          "oklch(72.14% 0.01987 262.01)",
+          "oklch(83.57% 0.01987 262.01)",
+          "oklch(95.00% 0.01987 262.01)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Ink surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.02375 259.31)",
+          "oklch(26.43% 0.02375 259.31)",
+          "oklch(37.86% 0.02375 259.31)",
+          "oklch(49.29% 0.02375 259.31)",
+          "oklch(60.71% 0.02375 259.31)",
+          "oklch(72.14% 0.02375 259.31)",
+          "oklch(83.57% 0.02375 259.31)",
+          "oklch(95.00% 0.02375 259.31)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised state",
+        "tonalRamp": [
+          "oklch(15.00% 0.02949 256.85)",
+          "oklch(26.43% 0.02949 256.85)",
+          "oklch(37.86% 0.02949 256.85)",
+          "oklch(49.29% 0.02949 256.85)",
+          "oklch(60.71% 0.02949 256.85)",
+          "oklch(72.14% 0.02949 256.85)",
+          "oklch(83.57% 0.02949 256.85)",
+          "oklch(95.00% 0.02949 256.85)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Slate rule",
+        "tonalRamp": [
+          "oklch(15.00% 0.03399 255.29)",
+          "oklch(26.43% 0.03399 255.29)",
+          "oklch(37.86% 0.03399 255.29)",
+          "oklch(49.29% 0.03399 255.29)",
+          "oklch(60.71% 0.03399 255.29)",
+          "oklch(72.14% 0.03399 255.29)",
+          "oklch(83.57% 0.03399 255.29)",
+          "oklch(95.00% 0.03399 255.29)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Cool white text",
+        "tonalRamp": [
+          "oklch(15.00% 0.00967 252.81)",
+          "oklch(26.43% 0.00967 252.81)",
+          "oklch(37.86% 0.00967 252.81)",
+          "oklch(49.29% 0.00967 252.81)",
+          "oklch(60.71% 0.00967 252.81)",
+          "oklch(72.14% 0.00967 252.81)",
+          "oklch(83.57% 0.00967 252.81)",
+          "oklch(95.00% 0.00967 252.81)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted slate text",
+        "tonalRamp": [
+          "oklch(15.00% 0.03127 256.03)",
+          "oklch(26.43% 0.03127 256.03)",
+          "oklch(37.86% 0.03127 256.03)",
+          "oklch(49.29% 0.03127 256.03)",
+          "oklch(60.71% 0.03127 256.03)",
+          "oklch(72.14% 0.03127 256.03)",
+          "oklch(83.57% 0.03127 256.03)",
+          "oklch(95.00% 0.03127 256.03)"
+        ]
+      },
+      "board": {
+        "role": "primary",
+        "displayName": "Storyboard teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.09310 181.65)",
+          "oklch(26.43% 0.09310 181.65)",
+          "oklch(37.86% 0.09310 181.65)",
+          "oklch(49.29% 0.09310 181.65)",
+          "oklch(60.71% 0.09310 181.65)",
+          "oklch(72.14% 0.09310 181.65)",
+          "oklch(83.57% 0.09310 181.65)",
+          "oklch(95.00% 0.09310 181.65)"
+        ]
+      },
+      "scene": {
+        "role": "secondary",
+        "displayName": "First-scene blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.10809 267.08)",
+          "oklch(26.43% 0.10809 267.08)",
+          "oklch(37.86% 0.10809 267.08)",
+          "oklch(49.29% 0.10809 267.08)",
+          "oklch(60.71% 0.10809 267.08)",
+          "oklch(72.14% 0.10809 267.08)",
+          "oklch(83.57% 0.10809 267.08)",
+          "oklch(95.00% 0.10809 267.08)"
+        ]
+      },
+      "follow": {
+        "role": "tertiary",
+        "displayName": "Followup orange",
+        "tonalRamp": [
+          "oklch(15.00% 0.10219 70.39)",
+          "oklch(26.43% 0.10219 70.39)",
+          "oklch(37.86% 0.10219 70.39)",
+          "oklch(49.29% 0.10219 70.39)",
+          "oklch(60.71% 0.10219 70.39)",
+          "oklch(72.14% 0.10219 70.39)",
+          "oklch(83.57% 0.10219 70.39)",
+          "oklch(95.00% 0.10219 70.39)"
+        ]
+      },
+      "focus": {
+        "role": "interaction",
+        "displayName": "Focus lime",
+        "tonalRamp": [
+          "oklch(15.00% 0.13883 122.65)",
+          "oklch(26.43% 0.13883 122.65)",
+          "oklch(37.86% 0.13883 122.65)",
+          "oklch(49.29% 0.13883 122.65)",
+          "oklch(60.71% 0.13883 122.65)",
+          "oklch(72.14% 0.13883 122.65)",
+          "oklch(83.57% 0.13883 122.65)",
+          "oklch(95.00% 0.13883 122.65)"
+        ]
+      },
+      "board-text": {
+        "role": "primary",
+        "displayName": "Deep teal text",
+        "tonalRamp": [
+          "oklch(15.00% 0.03304 182.40)",
+          "oklch(26.43% 0.03304 182.40)",
+          "oklch(37.86% 0.03304 182.40)",
+          "oklch(49.29% 0.03304 182.40)",
+          "oklch(60.71% 0.03304 182.40)",
+          "oklch(72.14% 0.03304 182.40)",
+          "oklch(83.57% 0.03304 182.40)",
+          "oklch(95.00% 0.03304 182.40)"
+        ]
+      },
+      "board-hover": {
+        "role": "primary",
+        "displayName": "Light teal hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.07568 182.30)",
+          "oklch(26.43% 0.07568 182.30)",
+          "oklch(37.86% 0.07568 182.30)",
+          "oklch(49.29% 0.07568 182.30)",
+          "oklch(60.71% 0.07568 182.30)",
+          "oklch(72.14% 0.07568 182.30)",
+          "oklch(83.57% 0.07568 182.30)",
+          "oklch(95.00% 0.07568 182.30)"
+        ]
+      },
+      "pressed": {
+        "role": "interaction",
+        "displayName": "Pressed slate",
+        "tonalRamp": [
+          "oklch(15.00% 0.03688 254.95)",
+          "oklch(26.43% 0.03688 254.95)",
+          "oklch(37.86% 0.03688 254.95)",
+          "oklch(49.29% 0.03688 254.95)",
+          "oklch(60.71% 0.03688 254.95)",
+          "oklch(72.14% 0.03688 254.95)",
+          "oklch(83.57% 0.03688 254.95)",
+          "oklch(95.00% 0.03688 254.95)"
+        ]
+      },
+      "field-hover": {
+        "role": "interaction",
+        "displayName": "Field hover slate",
+        "tonalRamp": [
+          "oklch(15.00% 0.04418 257.92)",
+          "oklch(26.43% 0.04418 257.92)",
+          "oklch(37.86% 0.04418 257.92)",
+          "oklch(49.29% 0.04418 257.92)",
+          "oklch(60.71% 0.04418 257.92)",
+          "oklch(72.14% 0.04418 257.92)",
+          "oklch(83.57% 0.04418 257.92)",
+          "oklch(95.00% 0.04418 257.92)"
+        ]
+      },
+      "placeholder": {
+        "role": "interaction",
+        "displayName": "Placeholder slate",
+        "tonalRamp": [
+          "oklch(15.00% 0.03666 256.37)",
+          "oklch(26.43% 0.03666 256.37)",
+          "oklch(37.86% 0.03666 256.37)",
+          "oklch(49.29% 0.03666 256.37)",
+          "oklch(60.71% 0.03666 256.37)",
+          "oklch(72.14% 0.03666 256.37)",
+          "oklch(83.57% 0.03666 256.37)",
+          "oklch(95.00% 0.03666 256.37)"
+        ]
+      },
+      "row-selected": {
+        "role": "interaction",
+        "displayName": "Selected row ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.02719 244.55)",
+          "oklch(26.43% 0.02719 244.55)",
+          "oklch(37.86% 0.02719 244.55)",
+          "oklch(49.29% 0.02719 244.55)",
+          "oklch(60.71% 0.02719 244.55)",
+          "oklch(72.14% 0.02719 244.55)",
+          "oklch(83.57% 0.02719 244.55)",
+          "oklch(95.00% 0.02719 244.55)"
+        ]
+      },
+      "raw-bg": {
+        "role": "neutral",
+        "displayName": "Raw-record ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.01858 259.66)",
+          "oklch(26.43% 0.01858 259.66)",
+          "oklch(37.86% 0.01858 259.66)",
+          "oklch(49.29% 0.01858 259.66)",
+          "oklch(60.71% 0.01858 259.66)",
+          "oklch(72.14% 0.01858 259.66)",
+          "oklch(83.57% 0.01858 259.66)",
+          "oklch(95.00% 0.01858 259.66)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page heading."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Small subsection headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Korean reading baseline; 16px at min-width 1500px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controls and compact metadata."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Action labels."
+      },
+      "table": {
+        "displayName": "Table",
+        "purpose": "Compact record rows."
+      },
+      "summary-number": {
+        "displayName": "Summary Number",
+        "purpose": "Summary-table measurements."
+      },
+      "run-id": {
+        "displayName": "Run Id",
+        "purpose": "Run identifiers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "chart-tooltip",
+        "value": "0 8px 30px #0006",
+        "purpose": "Floating chart tooltip only."
+      },
+      {
+        "name": "sticky-column-rule",
+        "value": "1px 0 0 var(--line)",
+        "purpose": "Structural separator beside the sticky project column."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background .16s ease-out,border-color .16s ease-out",
+        "purpose": "Button hover and pressed surfaces."
+      },
+      {
+        "name": "plot-point",
+        "value": "opacity .16s ease-out",
+        "purpose": "Implemented point transition declaration."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Anchor and project-detail scrolling; reduced motion switches to immediate movement."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "wide-body",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-plot-container",
+        "value": "560px"
+      }
+    ],
+    "focus": {
+      "default": "outline:2px solid var(--focus);outline-offset:4px",
+      "plotMark": "stroke:var(--text);stroke-width:2.5;outline:none",
+      "projectSelection": "Focus moves to the inline detail heading before scrolling."
+    },
+    "previewNotes": "Tonal ramps are synthesized OKLCH display metadata, not additional application tokens. Component snippets retain actual CSS variables with literal fallbacks. Plot previews show the implemented mark styling; app.js supplies navigation and tooltip behavior."
+  },
+  "components": [
+    {
+      "name": "Primary download action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact filled action used by the header download.",
+      "html": "<a class=\"ds-button ds-button-primary ds-button-small\" href=\"#download\">전체 데이터 다운로드</a>",
+      "css": ".ds-button{font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);font-size:13px;line-height:1.6;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:10px 15px;border:1px solid var(--line,#344152);border-radius:var(--radius,8px);text-decoration:none;font-weight:550;white-space:nowrap;min-height:44px;background:none;color:var(--text,#edf2f8);cursor:pointer;transition:background .16s ease-out,border-color .16s ease-out}.ds-button:hover:not(:disabled){background:var(--raised,#202a38);border-color:var(--muted,#aab8cb)}.ds-button:active:not(:disabled){background:#2b394b}.ds-button:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}.ds-button:disabled{opacity:.4;cursor:not-allowed}.ds-button-small{padding:8px 13px;min-height:40px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button-primary{color:#102a26;background:var(--board,#79d7c7);border-color:transparent}.ds-button-primary:hover{background:#9ee8db}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined download and pagination actions; compact and disabled states included.",
+      "html": "<button class=\"ds-button\">현재 결과 CSV ↓</button> <button class=\"ds-button ds-button-small\" disabled>이전</button> <button class=\"ds-button ds-button-small\">다음</button>",
+      "css": ".ds-button{font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);font-size:13px;line-height:1.6;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:10px 15px;border:1px solid var(--line,#344152);border-radius:var(--radius,8px);text-decoration:none;font-weight:550;white-space:nowrap;min-height:44px;background:none;color:var(--text,#edf2f8);cursor:pointer;transition:background .16s ease-out,border-color .16s ease-out}.ds-button:hover:not(:disabled){background:var(--raised,#202a38);border-color:var(--muted,#aab8cb)}.ds-button:active:not(:disabled){background:#2b394b}.ds-button:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}.ds-button:disabled{opacity:.4;cursor:not-allowed}.ds-button-small{padding:8px 13px;min-height:40px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Project search",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label and native search input.",
+      "html": "<label class=\"ds-control\">프로젝트 검색<input class=\"ds-field\" type=\"search\" placeholder=\"프로젝트 이름으로 검색\"></label>",
+      "css": ".ds-control{display:flex;flex-direction:column;gap:7px;font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);font-size:12px;line-height:1.6;color:var(--muted,#aab8cb)}.ds-field{font:14px/1.6 var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);color:var(--text,#edf2f8);background:var(--surface,#171e29);border:1px solid var(--line,#344152);border-radius:6px;padding:10px 12px;min-height:44px;color-scheme:dark}.ds-field:hover{border-color:#61728b}.ds-field:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}.ds-field{caret-color:var(--board,#79d7c7)}.ds-field::placeholder{color:#9aaac0}"
+    },
+    {
+      "name": "Native select",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Native selector with visible label and dark control surface.",
+      "html": "<label class=\"ds-control\">표시 단계<select class=\"ds-field\"><option>세 단계 모두</option><option>스토리보드 생성</option><option>첫 씬 생성</option><option>추가 씬 요청</option></select></label>",
+      "css": ".ds-control{display:flex;flex-direction:column;gap:7px;font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);font-size:12px;line-height:1.6;color:var(--muted,#aab8cb)}.ds-field{font:14px/1.6 var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);color:var(--text,#edf2f8);background:var(--surface,#171e29);border:1px solid var(--line,#344152);border-radius:6px;padding:10px 12px;min-height:44px;color-scheme:dark}.ds-field:hover{border-color:#61728b}.ds-field:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}"
+    },
+    {
+      "name": "Section navigation",
+      "kind": "nav",
+      "refersTo": "navigation-item",
+      "description": "Flat scrollable section links with a teal active rule.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"보고서 목차\"><a class=\"ds-active\" href=\"#overview\">전체 요약</a><a href=\"#projects\">프로젝트별 기록</a><a href=\"#statistics\">상세 통계</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;overflow-x:auto;background:var(--bg,#10151e);border-top:1px solid var(--line,#344152);border-bottom:1px solid var(--line,#344152);font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif)}.ds-nav a{padding:15px 0;font-size:14px;line-height:1.6;color:var(--muted,#aab8cb);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}.ds-nav a:hover,.ds-nav .ds-active{color:var(--text,#edf2f8)}.ds-nav .ds-active{border-color:var(--board,#79d7c7)}.ds-nav a:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}@media(max-width:760px){.ds-nav{gap:25px}.ds-nav a{font-size:13px;padding:13px 0}}"
+    },
+    {
+      "name": "Inline project detail",
+      "kind": "card",
+      "refersTo": "project-detail",
+      "description": "Flat detail surface with a focusable heading and two-column stage content.",
+      "html": "<section class=\"ds-detail\"><h3 class=\"ds-detail-title\" tabindex=\"-1\">프로젝트별 기록</h3><div class=\"ds-detail-grid\"><h4 class=\"ds-board\">스토리보드 생성</h4><h4 class=\"ds-scene\">첫 씬 생성</h4></div></section>",
+      "css": ".ds-detail{font-family:var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);color:var(--text,#edf2f8);background:var(--surface,#171e29);border-radius:var(--radius,8px);padding:28px}.ds-detail-title{margin:0 0 22px;font-size:21px;line-height:1.6;font-weight:650;letter-spacing:-.02em}.ds-detail-title:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}.ds-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.ds-detail-grid h4{margin:0 0 12px;font-size:14px;line-height:1.6;font-weight:600}.ds-board{color:var(--board,#79d7c7)}.ds-scene{color:var(--scene,#9ab7ff)}@media(max-width:760px){.ds-detail{padding:20px 16px}.ds-detail-title{font-size:19px}.ds-detail-grid{grid-template-columns:1fr;gap:25px}}"
+    },
+    {
+      "name": "Project ledger row",
+      "kind": "custom",
+      "refersTo": "table-row-selected",
+      "description": "Selected ledger treatment, tabular measurements and explicit missing-record text.",
+      "html": "<div class=\"ds-table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"프로젝트 기록 예시\"><table class=\"ds-table\"><thead><tr><th>프로젝트</th><th>추가 씬 요청</th></tr></thead><tbody><tr class=\"ds-selected\"><td><button class=\"ds-project\" aria-pressed=\"true\"><span class=\"ds-id\">01</span>프로젝트 기록</button></td><td class=\"ds-missing\">집계 기록 없음</td></tr></tbody></table></div>",
+      "css": ".ds-table-scroll{overflow:auto;border:1px solid var(--line,#344152);border-radius:var(--radius,8px);background:var(--bg,#10151e)}.ds-table-scroll:focus-visible,.ds-project:focus-visible{outline:2px solid var(--focus,#d6f68a);outline-offset:4px;}.ds-table{width:100%;border-collapse:separate;border-spacing:0;font:13px/1.6 var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);color:var(--text,#edf2f8)}.ds-table th{font-size:12px;font-weight:500;text-align:left;color:var(--muted,#aab8cb);background:var(--surface,#171e29)}.ds-table th,.ds-table td{padding:13px 16px;border-bottom:1px solid var(--line,#344152)}.ds-table tbody tr:last-child td{border-bottom:0}.ds-table tbody tr:hover td,.ds-table .ds-selected td{background:#1c2934}.ds-project{display:flex;align-items:center;gap:12px;text-align:left;border:0;padding:4px 0;width:100%;font:13px/1.5 var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);background:none;color:var(--text,#edf2f8);cursor:pointer}.ds-selected .ds-project{color:var(--board,#79d7c7)}.ds-id{font-size:11px;color:var(--muted,#aab8cb);font-variant-numeric:tabular-nums;min-width:18px}.ds-missing{font-size:12px;color:var(--muted,#aab8cb);text-align:center}"
+    },
+    {
+      "name": "Pipeline legend",
+      "kind": "custom",
+      "description": "Text reinforces the three stage colors and shapes.",
+      "html": "<div class=\"ds-legend\"><span><i class=\"ds-mark\"></i>스토리보드</span><span><i class=\"ds-mark ds-scene\"></i>첫 씬</span><span><i class=\"ds-mark ds-follow\"></i>추가 씬 요청</span></div>",
+      "css": ".ds-legend{display:flex;flex-direction:column;gap:10px;font:12px/1.6 var(--font,-apple-system,BlinkMacSystemFont,\"Apple SD Gothic Neo\",\"Malgun Gothic\",\"Noto Sans KR\",sans-serif);color:var(--text,#edf2f8)}.ds-mark{display:inline-block;vertical-align:middle;width:8px;height:8px;background:var(--board,#79d7c7);margin-right:10px;border-radius:50%}.ds-mark.ds-scene{background:var(--scene,#9ab7ff);border-radius:1px}.ds-mark.ds-follow{background:var(--follow,#f2bc7c);border-radius:0;transform:rotate(45deg)}@media(max-width:760px){.ds-legend{flex-direction:row;flex-wrap:wrap;gap:10px 14px;font-size:11px}}"
+    },
+    {
+      "name": "Interactive plot marks",
+      "kind": "custom",
+      "description": "Implemented SVG mark shapes and hover/focus stroke; navigation is supplied by app.js in the report.",
+      "html": "<svg class=\"ds-plot\" viewBox=\"0 0 180 60\" role=\"group\" aria-label=\"단계별 차트 표식\"><g class=\"ds-point ds-board\" role=\"link\" tabindex=\"0\" transform=\"translate(30,30)\" aria-label=\"스토리보드\"><circle r=\"5\"/></g><g class=\"ds-point ds-scene\" role=\"link\" tabindex=\"0\" transform=\"translate(90,30)\" aria-label=\"첫 씬\"><rect x=\"-4.8\" y=\"-4.8\" width=\"9.6\" height=\"9.6\" rx=\"1\"/></g><g class=\"ds-point ds-follow\" role=\"link\" tabindex=\"0\" transform=\"translate(150,30)\" aria-label=\"추가 씬 요청\"><path d=\"M0-6 6 0 0 6-6 0Z\"/></g></svg>",
+      "css": ".ds-plot{display:block;width:100%;background:var(--bg,#10151e);overflow:visible}.ds-point{cursor:pointer;transition:opacity .16s ease-out;stroke:var(--bg,#10151e);stroke-width:1.4}.ds-point:hover,.ds-point:focus{stroke:var(--text,#edf2f8);stroke-width:2.5;outline:none}.ds-board{fill:var(--board,#79d7c7)}.ds-scene{fill:var(--scene,#9ab7ff)}.ds-follow{fill:var(--follow,#f2bc7c)}@media(prefers-reduced-motion:reduce){.ds-point{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Dark Scientific Publication Tables",
+    "overview": "Dark scientific publication tables give the report a quiet, precise working character. Flat ink surfaces, readable Korean system typography and restrained stage colors keep measurements easy to scan. The user-selected dark analytics direction is the visual authority.\n\nEvidence and annotation have separate space. Numeric tables carry exact reading, while small interactive plot marks expose distribution. Native controls, visible keyboard focus and inline detail support repeated inspection without decorative imagery or external fonts.",
+    "keyCharacteristics": [
+      "Flat dark surfaces with fine structural rules.",
+      "Stable teal, blue and orange pipeline meanings, reinforced by shapes and labels.",
+      "Tabular numerals, native controls and restrained headings.",
+      "Scoped table scrolling and stacked mobile layouts."
+    ],
+    "rules": [
+      {
+        "name": "The Stage Meaning Rule",
+        "body": "Teal identifies storyboard, blue identifies first scene, and orange identifies followup requests. Keep the same mapping in text, tables and plot marks.",
+        "section": "colors"
+      },
+      {
+        "name": "The Numeric Reading Rule",
+        "body": "Right-align measurements and use tabular numerals; keep labels, units and missing-record wording visible.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tone and fine rules for structure. Reserve the ambient shadow for the floating chart tooltip.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the Korean system sans stack and monospace identifiers.",
+      "Do pair pipeline color with text and circle, square or diamond marks.",
+      "Do retain visible focus, keyboard-operable plot marks and focus transfer to project detail.",
+      "Do keep wide tables in their own scroll regions and native controls stacked on narrow screens."
+    ],
+    "donts": [
+      "Don't add decorative imagery, external fonts, gradients or oversized marketing headings.",
+      "Don't replace analytical tables with metric-card grids.",
+      "Don't use pipeline colors interchangeably or as arbitrary decoration.",
+      "Don't add elevation to ordinary panels or introduce motion beyond the existing state transitions."
+    ]
+  }
+}

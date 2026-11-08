@@ -1,0 +1,22 @@
+{
+  "desktop_project_focus": "detail-title",
+  "desktop_project_title": "전독시",
+  "desktop_next_tab": "",
+  "desktop_chart_focus": "detail-title",
+  "mobile_project_focus": "detail-title",
+  "mobile_project_title": "전독시",
+  "mobile_next_tab": "",
+  "mobile_chart_focus": "detail-title",
+  "desktop_next_tab_details": {
+    "tag": "DIV",
+    "role": "region",
+    "label": "선택한 프로젝트의 추가요청 내역",
+    "withinDetail": true
+  },
+  "mobile_next_tab_details": {
+    "tag": "DIV",
+    "role": "region",
+    "label": "선택한 프로젝트의 추가요청 내역",
+    "withinDetail": true
+  }
+}

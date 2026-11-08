@@ -1,0 +1,11 @@
+{
+  "projects": 18,
+  "runs": 79,
+  "populations": 33,
+  "unique_record_ids": 79,
+  "unobserved_followup_projects": 15,
+  "zip_files": 25,
+  "relative_links_valid": 15,
+  "data_contains_no_account_or_local_path_fields": true,
+  "manifest_matches": true
+}

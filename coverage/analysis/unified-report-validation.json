@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-08",
+  "projects": 18,
+  "units": 122,
+  "F": 102,
+  "P": 17,
+  "N": 3,
+  "coverage": 83.6,
+  "judgments_quotes_times_and_evidence_unchanged": true,
+  "embedded_data_matches_export": true,
+  "local_asset_paths_checked": 319,
+  "missing_asset_paths": [],
+  "duplicate_html_ids": false,
+  "cohort_ui_removed": true,
+  "javascript_syntax": "node --check passed",
+  "browser_validation": {
+    "browser": "NAVER Whale",
+    "method": "native UI via cua_repl",
+    "overview": "18 projects, 102/122, 83.6%; no cohort badges or filters",
+    "category": "story 16/23, 69.6%, 122 total units",
+    "playback": [
+      {
+        "unit": "18-P07",
+        "range_seconds": [
+          23,
+          27
+        ],
+        "observed_playhead": 23.3,
+        "playing": true
+      },
+      {
+        "unit": "01-P04",
+        "range_seconds": [
+          9,
+          11.5
+        ],
+        "observed_playhead": 9.3,
+        "playing": true
+      }
+    ],
+    "final_view": "overview"
+  }
+}

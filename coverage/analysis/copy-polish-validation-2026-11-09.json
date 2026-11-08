@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-09",
+  "projects": 18,
+  "units": 122,
+  "coverage": 83.6,
+  "counts": {
+    "F": 102,
+    "P": 17,
+    "N": 3
+  },
+  "all_original_rows_unchanged": true,
+  "scenario_and_media_references_unchanged": true,
+  "static_copy_characters_before": 6703,
+  "static_copy_characters_after": 2607,
+  "asset_links_checked": 316,
+  "missing_asset_links": [],
+  "removed_dom_references_clean": true,
+  "first_generation_condition": "all 18 projects",
+  "javascript_syntax": "node --check passed",
+  "browser_validation": {
+    "browser": "NAVER Whale via cua_repl",
+    "overview": "first-generation 18 projects; 102/122; 83.6%; no provenance or execution disclaimers",
+    "project": "01 summary, scenario and attachments render correctly",
+    "playback": {
+      "unit": "01-P04",
+      "range_seconds": [
+        9,
+        11.5
+      ],
+      "observed_playhead": 9.3,
+      "playing": true
+    },
+    "method": "four concise sections: unit definition, verdict, classification, AI frame review",
+    "final_view": "overview"
+  }
+}

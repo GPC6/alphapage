@@ -1,0 +1,63 @@
+{
+  "scope": "Same six later runs used in the additional-generation time statistics; includes one 4-cut to 8-cut expanded regeneration.",
+  "currency": "USD",
+  "cost_source": "Production charges.amount summed per exact run_id, independently matched to each run ai_usage events. Includes model and embedding calls; excludes storyboard, rendering and infrastructure.",
+  "all_six": {
+    "count": 6,
+    "total_usd": "10.21859262",
+    "mean_usd": "1.70309877",
+    "median_usd": "1.13152222",
+    "min_usd": "0.5716704",
+    "max_usd": "4.36911078",
+    "sample_sd_usd": 1.4701518430771876,
+    "total_elapsed_seconds": 1860.0079651921988
+  },
+  "edit_followups_only": {
+    "count": 5,
+    "total_usd": "5.84948184",
+    "mean_usd": "1.169896368",
+    "median_usd": "1.1220788",
+    "min_usd": "0.5716704",
+    "max_usd": "2.4262946",
+    "sample_sd_usd": 0.7545840184431374,
+    "total_elapsed_seconds": 1047.0260253921151
+  },
+  "by_project": {
+    "전독시": {
+      "count": 2,
+      "total_usd": "5.51007642",
+      "mean_usd": "2.75503821",
+      "median_usd": "2.75503821",
+      "min_usd": "1.14096564",
+      "max_usd": "4.36911078",
+      "sample_sd_usd": 2.282643319148397,
+      "total_elapsed_seconds": 1048.0597644001245
+    },
+    "도심 추격 2": {
+      "count": 1,
+      "total_usd": "2.4262946",
+      "mean_usd": "2.4262946",
+      "median_usd": "2.4262946",
+      "min_usd": "2.4262946",
+      "max_usd": "2.4262946",
+      "sample_sd_usd": null,
+      "total_elapsed_seconds": 513.995067127049
+    },
+    "카페 헌팅": {
+      "count": 3,
+      "total_usd": "2.2822216",
+      "mean_usd": "0.7607405333333333333333333333",
+      "median_usd": "0.5884724",
+      "min_usd": "0.5716704",
+      "max_usd": "1.1220788",
+      "sample_sd_usd": 0.3130408663725126,
+      "total_elapsed_seconds": 297.95313366502523
+    }
+  },
+  "validation": {
+    "all_six_complete": true,
+    "all_charges_exact": true,
+    "all_ledgers_match_usage_events": true,
+    "all_call_counts_match": true
+  }
+}

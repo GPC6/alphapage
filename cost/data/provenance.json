@@ -1,0 +1,132 @@
+[
+  {
+    "packaged_file": "source/storyboard.json",
+    "original_file": "storyboard_stages_2026-11-07/first_generation_runs.json",
+    "original_sha256": "52d2076619b1a14c9bc3e690481bf4b43472b85b2fa6b2ddc321993a15a3f2e5",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/first-scene.json",
+    "original_file": "scene_generation_18_2026-11-07/runs.json",
+    "original_sha256": "d60d073a80dcf0e1da073bf7d143f2377042ced0c4b5c462c4399accb9f5a0af",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/followups.json",
+    "original_file": "scene_generation_18_2026-11-07/additional_generation_2026-11-07/runs.json",
+    "original_sha256": "162f942975cdcb697ecb49ef4ad0f699ac18b1185cd14583e8e72fc63aacac91",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/followup-context.json",
+    "original_file": "scene_generation_18_2026-11-07/additional_generation_2026-11-07/selected_runs.json",
+    "original_sha256": "71c116f0cb6dbc8300fb40ff3c7bd13caf9ae4ac5bd59e58a026c8bee09a100e",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/panel-regenerations.json",
+    "original_file": "storyboard_stages_2026-11-07/panel_regeneration_runs.json",
+    "original_sha256": "824ac3e872d81781423d1f6e32ff5742beb7400f9c5b9746a08df8208184483c",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/storyboard-expansion.json",
+    "original_file": "storyboard_stages_2026-11-07/expanded_generation_run.json",
+    "original_sha256": "99fc13a1cc3d140b377462590c421091e963ab816423024220e773934260d1b3",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/storyboard-statistics.json",
+    "original_file": "storyboard_stages_2026-11-07/statistics.json",
+    "original_sha256": "6e8b48c0c099ff77fbb1538b1653838f99b1f1f01379c4ee7149e6a882f9f702",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/first-scene-statistics.json",
+    "original_file": "scene_generation_18_2026-11-07/statistics.json",
+    "original_sha256": "ad3eeda7d231d4a1e83498b2658fd5199afad0d460693e4c60e06801287de525",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/followup-statistics.json",
+    "original_file": "scene_generation_18_2026-11-07/additional_generation_2026-11-07/statistics.json",
+    "original_sha256": "27d4189cc4512a3887669f2c2e70b50136e937d591cd5966e4abecd63bbad14e",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  },
+  {
+    "packaged_file": "source/cut-count-analysis.json",
+    "original_file": "scene_generation_18_2026-11-07/cut_count_analysis.json",
+    "original_sha256": "30c81aae283cc83560e8e696cc850b80162cf80281468311b3ee8e0e12b93551",
+    "excluded_fields": [
+      "account",
+      "archive_path",
+      "instruction_excerpt",
+      "source_folder",
+      "source_metadata",
+      "source_pvz"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "project_number": 14,
+    "name": "전독시",
+    "cohort": "new_web",
+    "run_id": "scene_20261104_122704_b817245c",
+    "started_utc": "2026-11-04T12:27:04.156Z",
+    "status": "completed",
+    "scene_edited": false,
+    "target_duration": 34,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  },
+  {
+    "project_number": 14,
+    "name": "전독시",
+    "cohort": "new_web",
+    "run_id": "scene_20261104_125454_00c9ca60",
+    "started_utc": "2026-11-04T12:54:54.772Z",
+    "status": "completed",
+    "scene_edited": true,
+    "target_duration": 34,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  },
+  {
+    "project_number": 15,
+    "name": "도심 추격 2",
+    "cohort": "new_web",
+    "run_id": "scene_20261101_163956_9670ba86",
+    "started_utc": "2026-11-01T16:39:56.625Z",
+    "status": "completed",
+    "scene_edited": true,
+    "target_duration": 34,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  },
+  {
+    "project_number": 16,
+    "name": "카페 헌팅",
+    "cohort": "new_web",
+    "run_id": "scene_20261031_012310_75fe60c4",
+    "started_utc": "2026-10-31T01:23:10.271Z",
+    "status": "completed",
+    "scene_edited": true,
+    "target_duration": 24.200000762939453,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  },
+  {
+    "project_number": 16,
+    "name": "카페 헌팅",
+    "cohort": "new_web",
+    "run_id": "scene_20261031_012505_240fbafc",
+    "started_utc": "2026-10-31T01:25:05.510Z",
+    "status": "completed",
+    "scene_edited": true,
+    "target_duration": 24.200000762939453,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  },
+  {
+    "project_number": 16,
+    "name": "카페 헌팅",
+    "cohort": "new_web",
+    "run_id": "scene_20261031_012837_2156cc50",
+    "started_utc": "2026-10-31T01:28:36.705Z",
+    "status": "completed",
+    "scene_edited": true,
+    "target_duration": 24.200000762939453,
+    "cuts": 8,
+    "included": false,
+    "reason": "later_regeneration_or_followup"
+  }
+]

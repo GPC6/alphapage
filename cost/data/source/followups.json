@@ -1,0 +1,74 @@
+[
+  {
+    "project": "전독시",
+    "run_id": "scene_20261104_122704_b817245c",
+    "kind": "expanded_regeneration",
+    "started_utc": "2026-11-04T12:27:04.156Z",
+    "elapsed_seconds": 812.9819398000836,
+    "turns": 46,
+    "cost_usd": "4.36911078",
+    "cost_exact": true,
+    "paid_calls": 67,
+    "scene_edited": false
+  },
+  {
+    "project": "전독시",
+    "run_id": "scene_20261104_125454_00c9ca60",
+    "kind": "edit_followup",
+    "started_utc": "2026-11-04T12:54:54.772Z",
+    "elapsed_seconds": 235.0778246000409,
+    "turns": 15,
+    "cost_usd": "1.14096564",
+    "cost_exact": true,
+    "paid_calls": 17,
+    "scene_edited": true
+  },
+  {
+    "project": "도심 추격 2",
+    "run_id": "scene_20261101_163956_9670ba86",
+    "kind": "edit_followup",
+    "started_utc": "2026-11-01T16:39:56.625Z",
+    "elapsed_seconds": 513.995067127049,
+    "turns": 18,
+    "cost_usd": "2.4262946",
+    "cost_exact": true,
+    "paid_calls": 18,
+    "scene_edited": true
+  },
+  {
+    "project": "카페 헌팅",
+    "run_id": "scene_20261031_012310_75fe60c4",
+    "kind": "edit_followup",
+    "started_utc": "2026-10-31T01:23:10.271Z",
+    "elapsed_seconds": 71.40297866612673,
+    "turns": 9,
+    "cost_usd": "0.5884724",
+    "cost_exact": true,
+    "paid_calls": 9,
+    "scene_edited": true
+  },
+  {
+    "project": "카페 헌팅",
+    "run_id": "scene_20261031_012505_240fbafc",
+    "kind": "edit_followup",
+    "started_utc": "2026-10-31T01:25:05.510Z",
+    "elapsed_seconds": 167.5566038750112,
+    "turns": 17,
+    "cost_usd": "1.1220788",
+    "cost_exact": true,
+    "paid_calls": 17,
+    "scene_edited": true
+  },
+  {
+    "project": "카페 헌팅",
+    "run_id": "scene_20261031_012837_2156cc50",
+    "kind": "edit_followup",
+    "started_utc": "2026-10-31T01:28:36.705Z",
+    "elapsed_seconds": 58.9935511238873,
+    "turns": 9,
+    "cost_usd": "0.5716704",
+    "cost_exact": true,
+    "paid_calls": 9,
+    "scene_edited": true
+  }
+]

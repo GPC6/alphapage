@@ -1,0 +1,4 @@
+﻿"project","run_id","kind","started_utc","elapsed_seconds","turns","cost_usd","cost_exact","paid_calls","scene_edited","record_id","pipeline","pipeline_label","project_id","project_name","time_source","cuts","target_duration_seconds","ledger_verified"
+"카페 헌팅","scene_20261031_012310_75fe60c4","edit_followup","2026-10-31T01:23:10.271Z","71.40297866612673","9","0.5884724","true","9","true","followup-04","followup","추가 씬 요청","16","카페 헌팅","client","8","24.200000762939453","true"
+"카페 헌팅","scene_20261031_012505_240fbafc","edit_followup","2026-10-31T01:25:05.510Z","167.5566038750112","17","1.1220788","true","17","true","followup-05","followup","추가 씬 요청","16","카페 헌팅","client","8","24.200000762939453","true"
+"카페 헌팅","scene_20261031_012837_2156cc50","edit_followup","2026-10-31T01:28:36.705Z","58.9935511238873","9","0.5716704","true","9","true","followup-06","followup","추가 씬 요청","16","카페 헌팅","client","8","24.200000762939453","true"

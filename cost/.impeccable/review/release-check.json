@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "desktop_viewport": [
+    1440,
+    1000
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "runtime": "Chromium; HTTP repository subpath and file protocol",
+  "browser_console_errors": 0,
+  "data_reconciliation": "all five task cost totals match existing measurements",
+  "review_disposition": "ship",
+  "review_scope": "initial visual review plus resolved keyboard focus finding",
+  "standalone": true,
+  "external_runtime_dependencies": [],
+  "published_to_github": false
+}

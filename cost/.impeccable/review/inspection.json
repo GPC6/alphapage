@@ -1,0 +1,30 @@
+{
+  "initial_project_rows": 18,
+  "initial_summary": "스토리보드 생성\t18\t$0.222\t3:37\n첫 씬 생성\t18\t$3.244\t11:32\n추가 씬 요청\t6\t$1.703\t5:10",
+  "page_width": 1440,
+  "search_rows": 1,
+  "cafe_details": "합계 $2.282 · 4:58\n회당 평균 $0.761 · 1:39",
+  "empty_state": "일치하는 프로젝트가 없어. 검색어나 집단 필터를 바꿔줘.",
+  "followup_projects": 3,
+  "highest_cost_project": "11\n공룡에게 츄르를 †\n\t6\t$0.178\t3:11\t$5.556\t15:50\t집계 기록 없음",
+  "edit_stats": "통계량\t비용 USD\t소요 시간 분:초\n관측 수\t5\t5\n평균\t$1.169896\t3:29\n중앙값\t$1.122079\t2:48\n합계\t$5.849482\t17:27\n최솟값\t$0.571670\t0:59\n최댓값\t$2.426295\t8:34\n표본 표준편차\t$0.754584\t3:05\n표본 분산\t0.569397 USD²\t34,213.413255 초²\n평균의 표준오차\t$0.337460\t1:23\nP10\t$0.578391\t1:04\nP25 · 제1사분위수\t$0.588472\t1:11\nP75 · 제3사분위수\t$1.140966\t3:55\nP90\t$1.912163\t6:42\nP95\t$2.169229\t7:38\n사분위 범위 · IQR\t$0.552493\t2:44\n변동계수\t64.5%\t88.33%",
+  "precision_seconds": true,
+  "followup_rows": 6,
+  "cafe_raw_rows": 3,
+  "filtered_download_bytes": 1016,
+  "raw_fields_visible": true,
+  "zip_filename": "all-data.zip",
+  "chart_followup_points": 6,
+  "chart_navigation_title": "전독시",
+  "colors": {
+    "body": "rgb(16, 21, 30)",
+    "text": "rgb(237, 242, 248)",
+    "muted": "rgb(170, 184, 203)"
+  },
+  "mobile_scroll_width": 390,
+  "mobile_viewport_width": 390,
+  "mobile_followup_projects": 3,
+  "mobile_project_title": "전독시",
+  "file_protocol_rows": 18,
+  "page_errors": []
+}

@@ -4,82 +4,65 @@
 <style>
 :root{color-scheme:dark;--bg:#111318;--panel:#1b1f27;--panel2:#232a35;--ink:#f1f3f6;--muted:#b5bfce;--line:#36404e;--blue:#a9caff;--green:#79dbb5;--amber:#f0c879;--red:#f4a7a9;--gray:#c3cad5;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:15px}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);line-height:1.65}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button{color:inherit;cursor:pointer}button:disabled{cursor:default;opacity:.45}a{color:var(--blue);text-underline-offset:4px}a:hover{color:#fff}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px}::selection{background:#395b85;color:#fff}input{caret-color:var(--blue)}*{scrollbar-color:#637185 var(--bg);scrollbar-width:thin}button{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:8px 12px}button:hover{background:#343e4d}button.primary{background:#25446c;border-color:#6d95c7;color:#fff}button.active{background:#304d72;border-color:var(--blue)}[hidden]{display:none!important}.skip{position:absolute;left:14px;top:-80px;z-index:30;background:var(--panel);padding:12px}.skip:focus{top:8px}
-.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 28px}.brand{font-size:17px;font-weight:700}.top nav{display:flex;align-items:center;gap:8px}.top a{font-size:13px}.layout{display:grid;grid-template-columns:238px minmax(0,1fr);max-width:1800px;margin:auto}.sidebar{position:sticky;top:74px;height:calc(100vh - 74px);overflow:auto;border-right:1px solid var(--line);padding:20px 14px}.sidebar h2{font-size:13px;color:var(--muted);margin:0 10px 12px}.project-nav{display:flex;flex-direction:column;gap:3px}.project-nav button{display:grid;grid-template-columns:25px 1fr 39px;align-items:start;gap:7px;text-align:left;border:0;border-radius:6px;background:none;padding:10px 8px;font-size:12px;line-height:1.5}.project-nav button:hover{background:var(--panel)}.project-nav button.active{background:#253850;color:#fff}.project-nav .num{color:var(--blue);font-variant-numeric:tabular-nums}.project-nav .pct{color:var(--green);font-variant-numeric:tabular-nums}.side-note{font-size:12px;line-height:1.65;color:var(--muted);margin:24px 10px}.mobile-select{display:none}main{min-width:0;padding:38px 38px 60px}h1{font-size:clamp(26px,3vw,40px);line-height:1.3;letter-spacing:-.025em;margin:0 0 16px;max-width:27ch}h2{font-size:22px;line-height:1.4;margin:32px 0 14px}h3{font-size:16px;margin:0 0 8px}p{margin:0 0 14px}.muted{color:var(--muted)}.lead{max-width:76ch;color:var(--muted);font-size:16px}.provenance{font-size:12px;color:var(--muted);margin-bottom:24px}.summary-line{font-size:21px;line-height:1.7;max-width:75ch;margin:26px 0 16px}.summary-line strong{font-size:31px;color:var(--green);font-variant-numeric:tabular-nums}.stack{display:flex;height:18px;overflow:hidden;border-radius:3px;background:var(--panel2)}.stack>span{display:block;height:100%}.s-F{background:var(--green)}.s-P{background:var(--amber)}.s-N{background:var(--red)}.s-U{background:var(--gray)}.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;margin:12px 0 24px}.legend span:before{content:"";display:inline-block;width:9px;height:9px;margin-right:7px;border-radius:2px;background:var(--c)}.formula{font-size:13px;color:var(--muted);margin:12px 0 20px}.summary-extra{padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;gap:28px;flex-wrap:wrap;font-size:14px}.summary-extra b{font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:middle}th{color:var(--muted);font-size:12px;white-space:nowrap;font-weight:500}td.numeric{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.project-table .name{min-width:220px}.project-table .name button{background:none;border:0;padding:0;color:var(--blue);text-align:left}.project-table .name small{display:block;color:var(--muted);font-size:12px;margin-top:3px}.project-table .score{min-width:120px}.score .stack{height:5px;margin-top:6px}.project-table tr:hover{background:var(--panel)}.status{display:inline-block;font-size:12px;font-weight:650;white-space:nowrap;padding:3px 8px;border-radius:4px;border:1px solid currentColor;line-height:1.4}.status.F{color:var(--green)}.status.P{color:var(--amber)}.status.N{color:var(--red)}.status.U,.status.X{color:var(--gray)}.findings{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px}.finding{border-top:1px solid var(--line);padding-top:20px}.finding p{color:var(--muted);font-size:14px}.category-table td:first-child{min-width:130px}.method{max-width:1000px}.method p,.method li{color:var(--muted);font-size:14px}.method ul{padding-left:22px}.method li{margin:8px 0}.method strong{color:var(--ink)}.method .warning{padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:8px}.formula-box{background:var(--panel);padding:18px;border-radius:8px;margin:20px 0}.formula-box p{margin-bottom:6px}.project-heading{display:flex;gap:22px;justify-content:space-between;align-items:start}.project-heading h1{font-size:28px;max-width:none;margin:0 0 8px}.project-heading .project-score{font-size:30px;line-height:1.2;color:var(--green);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}.project-score small{display:block;font-size:12px;color:var(--muted);margin-top:7px}.project-description{font-size:14px;color:var(--muted);max-width:95ch;margin:8px 0 18px}.project-grid{display:grid;grid-template-columns:minmax(320px,44%) minmax(0,1fr);gap:25px;align-items:start}.viewer{position:sticky;top:96px;min-width:0}.video-shell{background:#000;border-radius:8px;overflow:hidden;border:1px solid var(--line)}video{width:100%;display:block;aspect-ratio:16/9;background:#000}.video-meta{padding:8px 10px;background:var(--panel);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:10px}.transport{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:10px 0}.transport button{font-size:12px;padding:5px 8px;min-height:34px}.transport output{font-variant-numeric:tabular-nums;color:var(--blue);font-size:12px;margin-left:auto}.play-message{font-size:12px;color:var(--muted);min-height:20px;margin:4px 0 10px}.attachments{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;margin:10px 0 18px}.source-box{border:1px solid var(--line);border-radius:8px;overflow:hidden}.source-head{display:flex;justify-content:space-between;gap:10px;padding:10px 12px;background:var(--panel);font-size:13px}.source-body{max-height:260px;overflow:auto;padding:14px;font-size:12px;white-space:pre-wrap;line-height:1.8;overflow-wrap:anywhere}.source-body mark{background:#4e461f;color:#fff2bf;padding:2px 1px}.source-body.expanded{max-height:60vh}.source-head button{padding:2px 7px;font-size:12px}.filters{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}.filters button{font-size:12px;padding:6px 9px;min-height:34px}.searchrow{display:grid;grid-template-columns:1fr 142px;gap:8px;margin:12px 0}.searchrow input,.searchrow select{width:100%;min-width:0;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:9px 10px;font-size:12px}.searchrow input::placeholder{color:var(--muted)}.filter-help{font-size:12px;color:var(--muted);margin:8px 0 12px}.result-count{font-size:12px;color:var(--muted);padding-bottom:12px;border-bottom:1px solid var(--line)}.req{border-bottom:1px solid var(--line);padding:20px 0;scroll-margin-top:96px}.req.selected{background:#182431;box-shadow:inset 0 0 0 1px #6b92bc;border-radius:7px;padding:16px 12px;margin:4px -12px}.req-head{display:flex;align-items:center;gap:8px;justify-content:space-between;margin-bottom:8px}.req-id{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}.req h3{font-size:15px;line-height:1.6;font-weight:650;margin:7px 0}.quote{font-size:12px;color:var(--muted);margin:7px 0;padding:0;font-style:normal;overflow-wrap:anywhere}.quote:before{content:'원문 ';color:var(--blue);font-size:12px}.req-body{display:grid;grid-template-columns:minmax(0,1fr) 120px;gap:12px;align-items:start;margin-top:12px}.reason{font-size:13px;line-height:1.75;color:#d7dfeb;margin:0}.thumb{padding:0;border:0;background:none;border-radius:5px;overflow:hidden;width:120px}.thumb img{width:120px;aspect-ratio:16/9;display:block;object-fit:cover}.thumb small{display:block;font-size:12px;padding:3px;background:var(--panel2);color:var(--muted);font-variant-numeric:tabular-nums}.req-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}.req-actions button{font-size:12px;padding:6px 9px;font-variant-numeric:tabular-nums;min-height:34px}.req-actions .source-btn{background:none;border-color:transparent;color:var(--blue)}.empty{padding:30px 0;color:var(--muted)}.review-note{font-size:12px;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:7px;margin-bottom:18px}.footer{border-top:1px solid var(--line);padding-top:20px;margin-top:40px;font-size:12px;color:var(--muted)}.nojs{padding:30px;color:#fff;background:#6e3333}
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 28px}.brand{font-size:17px;font-weight:700}.top nav{display:flex;align-items:center;gap:8px}.top a{font-size:13px}.layout{display:grid;grid-template-columns:238px minmax(0,1fr);max-width:1800px;margin:auto}.sidebar{position:sticky;top:74px;height:calc(100vh - 74px);overflow:auto;border-right:1px solid var(--line);padding:20px 14px}.sidebar h2{font-size:13px;color:var(--muted);margin:0 10px 12px}.project-nav{display:flex;flex-direction:column;gap:3px}.project-nav button{display:grid;grid-template-columns:25px 1fr 39px;align-items:start;gap:7px;text-align:left;border:0;border-radius:6px;background:none;padding:10px 8px;font-size:12px;line-height:1.5}.project-nav button:hover{background:var(--panel)}.project-nav button.active{background:#253850;color:#fff}.project-nav .num{color:var(--blue);font-variant-numeric:tabular-nums}.project-nav .pct{color:var(--green);font-variant-numeric:tabular-nums}.side-note{font-size:12px;line-height:1.65;color:var(--muted);margin:24px 10px}.mobile-select{display:none}main{min-width:0;padding:38px 38px 60px}h1{font-size:clamp(26px,3vw,40px);line-height:1.3;letter-spacing:-.025em;margin:0 0 16px;max-width:27ch}h2{font-size:22px;line-height:1.4;margin:32px 0 14px}h3{font-size:16px;margin:0 0 8px}p{margin:0 0 14px}.muted{color:var(--muted)}.lead{max-width:76ch;color:var(--muted);font-size:16px}.provenance{font-size:12px;color:var(--muted);margin-bottom:24px}.summary-line{font-size:21px;line-height:1.7;max-width:75ch;margin:26px 0 16px}.summary-line strong{font-size:31px;color:var(--green);font-variant-numeric:tabular-nums}.stack{display:flex;height:18px;overflow:hidden;border-radius:3px;background:var(--panel2)}.stack>span{display:block;height:100%}.s-F{background:var(--green)}.s-P{background:var(--amber)}.s-N{background:var(--red)}.s-U{background:var(--gray)}.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;margin:12px 0 24px}.legend span:before{content:"";display:inline-block;width:9px;height:9px;margin-right:7px;border-radius:2px;background:var(--c)}.formula{font-size:13px;color:var(--muted);margin:12px 0 20px}.summary-extra{padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;gap:28px;flex-wrap:wrap;font-size:14px}.summary-extra b{font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:middle}th{color:var(--muted);font-size:12px;white-space:nowrap;font-weight:500}td.numeric{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.project-table .name{min-width:220px}.project-table .name button{background:none;border:0;padding:0;color:var(--blue);text-align:left}.project-table .name small{display:block;color:var(--muted);font-size:12px;margin-top:3px}.project-table .score{min-width:120px}.score .stack{height:5px;margin-top:6px}.project-table tr:hover{background:var(--panel)}.status{display:inline-block;font-size:12px;font-weight:650;white-space:nowrap;padding:3px 8px;border-radius:4px;border:1px solid currentColor;line-height:1.4}.status.F{color:var(--green)}.status.P{color:var(--amber)}.status.N{color:var(--red)}.status.U,.status.X{color:var(--gray)}.findings{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px}.finding{border-top:1px solid var(--line);padding-top:20px}.finding p{color:var(--muted);font-size:14px}.category-table td:first-child{min-width:130px}.method{max-width:1000px}.method p,.method li{color:var(--muted);font-size:14px}.method ul{padding-left:22px}.method li{margin:8px 0}.method strong{color:var(--ink)}.method .warning{padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:8px}.formula-box{background:var(--panel);padding:18px;border-radius:8px;margin:20px 0}.formula-box p{margin-bottom:6px}.project-heading{display:flex;gap:22px;justify-content:space-between;align-items:start}.project-heading h1{font-size:28px;max-width:none;margin:0 0 8px}.project-heading .project-score{font-size:30px;line-height:1.2;color:var(--green);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}.project-score small{display:block;font-size:12px;color:var(--muted);margin-top:7px}.project-description{font-size:14px;color:var(--muted);max-width:95ch;margin:8px 0 18px}.project-grid{display:grid;grid-template-columns:minmax(320px,44%) minmax(0,1fr);gap:25px;align-items:start}.viewer{position:sticky;top:96px;min-width:0}.video-shell{background:#000;border-radius:8px;overflow:hidden;border:1px solid var(--line)}video{width:100%;display:block;aspect-ratio:16/9;background:#000}.video-meta{padding:8px 10px;background:var(--panel);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:10px}.transport{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:10px 0}.transport button{font-size:12px;padding:5px 8px;min-height:34px}.transport output{font-variant-numeric:tabular-nums;color:var(--blue);font-size:12px;margin-left:auto}.play-message{font-size:12px;color:var(--muted);min-height:20px;margin:4px 0 10px}.attachments{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;margin:10px 0 18px}.source-box{border:1px solid var(--line);border-radius:8px;overflow:hidden}.source-head{display:flex;justify-content:space-between;gap:10px;padding:10px 12px;background:var(--panel);font-size:13px}.source-body{max-height:260px;overflow:auto;padding:14px;font-size:12px;white-space:pre-wrap;line-height:1.8;overflow-wrap:anywhere}.source-body mark{background:#4e461f;color:#fff2bf;padding:2px 1px}.source-body.expanded{max-height:60vh}.source-head button{padding:2px 7px;font-size:12px}.filters{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}.filters button{font-size:12px;padding:6px 9px;min-height:34px}.searchrow{display:grid;grid-template-columns:1fr 142px;gap:8px;margin:12px 0}.searchrow input,.searchrow select{width:100%;min-width:0;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:9px 10px;font-size:12px}.searchrow input::placeholder{color:var(--muted)}.result-count{font-size:12px;color:var(--muted);padding-bottom:12px;border-bottom:1px solid var(--line)}.req{border-bottom:1px solid var(--line);padding:20px 0;scroll-margin-top:96px}.req.selected{background:#182431;box-shadow:inset 0 0 0 1px #6b92bc;border-radius:7px;padding:16px 12px;margin:4px -12px}.req-head{display:flex;align-items:center;gap:8px;justify-content:space-between;margin-bottom:8px}.req-id{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}.req h3{font-size:15px;line-height:1.6;font-weight:650;margin:7px 0}.quote{font-size:12px;color:var(--muted);margin:7px 0;padding:0;font-style:normal;overflow-wrap:anywhere}.quote:before{content:'원문 ';color:var(--blue);font-size:12px}.req-body{display:grid;grid-template-columns:minmax(0,1fr) 120px;gap:12px;align-items:start;margin-top:12px}.reason{font-size:13px;line-height:1.75;color:#d7dfeb;margin:0}.thumb{padding:0;border:0;background:none;border-radius:5px;overflow:hidden;width:120px}.thumb img{width:120px;aspect-ratio:16/9;display:block;object-fit:cover}.thumb small{display:block;font-size:12px;padding:3px;background:var(--panel2);color:var(--muted);font-variant-numeric:tabular-nums}.req-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}.req-actions button{font-size:12px;padding:6px 9px;font-variant-numeric:tabular-nums;min-height:34px}.req-actions .source-btn{background:none;border-color:transparent;color:var(--blue)}.empty{padding:30px 0;color:var(--muted)}.review-note{font-size:12px;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:7px;margin-bottom:18px}.footer{border-top:1px solid var(--line);padding-top:20px;margin-top:40px;font-size:12px;color:var(--muted)}.nojs{padding:30px;color:#fff;background:#6e3333}
 @media(min-width:1600px){.project-grid{grid-template-columns:minmax(450px,46%) minmax(0,1fr)}}
 @media(max-width:1200px){.layout{grid-template-columns:210px minmax(0,1fr)}main{padding:28px 24px}.project-grid{grid-template-columns:minmax(280px,42%) minmax(0,1fr);gap:20px}.req-body{grid-template-columns:1fr 96px}.thumb,.thumb img{width:96px}.project-nav button{grid-template-columns:20px 1fr 33px;font-size:12px;gap:5px}}
 @media(max-width:980px){.layout{display:block}.sidebar{display:none}.mobile-select{display:block;width:100%;background:var(--panel);color:var(--ink);border:1px solid var(--line);padding:10px;margin:0 0 20px;border-radius:6px}.project-grid{grid-template-columns:40% minmax(0,1fr)}.top{padding:12px 20px}.brand{font-size:14px}main{padding:28px 22px}.viewer{top:84px}.req.selected{margin:4px 0}.findings{gap:18px}}
 @media(max-width:700px){.top{position:relative;align-items:start;gap:10px;padding:14px 16px}.top .brand{max-width:120px;line-height:1.5}.top nav{flex-wrap:wrap;justify-content:flex-end;gap:6px}.top button{font-size:12px;padding:7px 9px}.top a{font-size:12px}main{padding:24px 16px 40px}.project-grid{display:flex;flex-direction:column;gap:24px}.viewer{position:relative;top:0;width:100%}.review-list{width:100%}.project-heading h1{font-size:22px}.project-heading .project-score{font-size:24px}.project-heading{gap:12px}.source-body{max-height:190px}.findings{display:block}.finding{margin-bottom:24px}h1{font-size:29px}.summary-line{font-size:18px}.summary-line strong{font-size:27px}.summary-extra{gap:12px}.req-body{grid-template-columns:1fr 105px}.thumb,.thumb img{width:105px}.searchrow{grid-template-columns:1fr 125px}.project-table .name{min-width:190px}.project-table th,.project-table td{padding:12px 9px}.req{scroll-margin-top:12px}.provenance{line-height:1.8}.legend{gap:8px 14px}.footer{font-size:12px}}
 @media(prefers-reduced-motion:no-preference){.req.selected{transition:background-color .2s ease-out}}@media print{.top,.sidebar,.filters,.searchrow,.transport,.req-actions,.mobile-select,.attachments{display:none!important}.layout{display:block}main{padding:0}.viewer{position:static}body{background:#fff;color:#111}.muted,.lead,.reason,.quote,.provenance{color:#333}.project-grid{display:block}.req{break-inside:avoid}.source-body{max-height:none}video{display:none}}
-.unit-question{font-size:12px;line-height:1.7;color:var(--blue);margin:10px 0}.unit-basis{font-size:12px;color:var(--muted);margin:9px 0}.unit-basis p{margin:8px 0}.unit-basis summary,.unit-help summary{cursor:pointer}.unit-help{font-size:12px;color:var(--muted);margin:10px 0}.unit-help p{margin-top:8px}.new-badge{font-size:11px;font-weight:600;color:var(--amber);margin-right:5px}.examples{min-width:560px}.examples td:first-child{width:34%}.examples td:nth-child(2){width:22%}.method ol{padding-left:22px}.cohort-table{margin:10px 0 0}.thumb img{object-fit:contain}.table-wrap:focus-visible{outline:2px solid var(--blue)}
+.unit-question{font-size:12px;line-height:1.7;color:var(--blue);margin:10px 0}.unit-basis{font-size:12px;color:var(--muted);margin:9px 0}.unit-basis p{margin:8px 0}.unit-basis summary{cursor:pointer}.examples{min-width:560px}.examples td:first-child{width:34%}.examples td:nth-child(2){width:22%}.method ol{padding-left:22px}.thumb img{object-fit:contain}.table-wrap:focus-visible{outline:2px solid var(--blue)}
 .category-link,.unit-link{background:none;border:0;padding:0;color:var(--blue);text-align:left;line-height:1.6}.category-link:hover,.unit-link:hover{background:none;text-decoration:underline}.related-roles{font-size:12px;color:var(--muted);margin:7px 0}.taxonomy-controls{display:flex;flex-wrap:wrap;gap:14px;margin:22px 0}.taxonomy-controls label{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;min-width:150px}.taxonomy-controls select{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--panel);color:var(--ink)}.taxonomy-group{border-top:1px solid var(--line);padding-top:20px;margin-top:28px}.taxonomy-heading{display:flex;gap:16px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}.taxonomy-heading h2{margin:0 0 8px}.taxonomy-heading p{font-size:14px;font-variant-numeric:tabular-nums}.taxonomy-heading strong{color:var(--green)}.category-question{font-size:16px;color:var(--blue);margin:6px 0}.category-description{font-size:13px}.taxonomy-table{min-width:650px}.taxonomy-table td:first-child{width:19%;font-size:12px}.taxonomy-table td:nth-child(2){width:48%}.taxonomy-table .unit-link{font-size:13px;font-weight:600}.clip-link{font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}.top nav{flex-wrap:wrap;justify-content:flex-end}.brand{word-break:keep-all;flex-shrink:0}.table-wrap{max-width:100%}@media(max-width:700px){.taxonomy-controls{gap:10px}.taxonomy-controls label{min-width:0;flex:1 1 135px}.taxonomy-heading{gap:0}.top .brand{max-width:95px}.top{gap:8px}.top nav{max-width:240px}.taxonomy-group{margin-top:20px}}
 </style></head>
 <body><a href="#main" class="skip">보고서 본문으로 건너뛰기</a><noscript><div class="nojs">프로젝트 선택과 구간 재생에는 JavaScript가 필요합니다. 분석 데이터는 analysis/previs-coverage.csv, 원문은 scenarios 폴더에서도 볼 수 있습니다.</div></noscript>
 <header class="top"><div class="brand">Previzion · 프리비즈 검토</div><nav aria-label="보고서 메뉴"><button id="overviewTab" class="active" onclick="showOverview()">전체 요약</button><button id="taxonomyTab" onclick="showTaxonomy()">범주별 단위</button><button id="methodTab" onclick="showMethod()">단위·판정 기준</button><a href="analysis/previs-coverage.csv" download>전체 판정 CSV</a></nav></header>
-<div class="layout"><aside class="sidebar"><h2>프로젝트별 연출 커버리지</h2><nav id="projectNav" class="project-nav" aria-label="프로젝트 선택"></nav><p class="side-note">기존 13개 + 신규 5개<br>2026.11.07 첫 생성 재측정<br><br>시간은 각 MP4의 시작점을 00:00으로 계산합니다.</p></aside>
+<div class="layout"><aside class="sidebar"><h2>프로젝트별 연출 커버리지</h2><nav id="projectNav" class="project-nav" aria-label="프로젝트 선택"></nav><p class="side-note">스토리보드 기반 최초 생성 18편</p></aside>
 <main id="main"><label class="mobile-select" style="padding:0;border:0;background:none">프로젝트 선택<select id="mobileProject" class="mobile-select" style="margin:6px 0 0" onchange="this.value ? selectProject(this.value) : showOverview()"><option value="">전체 요약</option></select></label>
-<section id="overview"><div id="firstPassNotice" class="review-note" role="status" style="border-color:var(--green);margin-bottom:24px"><strong>신규 5개 · 스토리보드 첫 생성 결과로 교체</strong><br>커버리지 <strong>89.2% (33/37단위)</strong>. 스토리보드만 복제 → 로컬 개발 서버에서 1회 생성 → 추가 요청·수동 씬 편집 없이 렌더했습니다. 기존 13개는 이전 판정을 유지합니다. 전체 83.6%는 두 조건을 합친 값이며, 18개 전체의 첫 생성 성능을 뜻하지 않습니다. <a href="analysis/first-pass-protocol.json" download>입력·실행·검증 기록</a></div><h1>프리비즈로 연출을<br>확인할 수 있는가</h1>
-<p class="lead">시나리오를 함께 보며 핵심 사건, 인물의 위치와 동선, 카메라 구도·움직임, 컷의 연결을 검토할 수 있는지 평가했습니다. 대체 에셋과 거친 애니메이션도 그 역할을 전달하면 반영으로 인정합니다.</p>
-<p class="provenance">18개 프로젝트 · 기존 13개 + 신규 첫 생성 5개 · 총 8분 56.4초 · 2026.11.07 첫 생성 재측정</p>
+<section id="overview"><h1>최초 생성 영상의<br>연출 커버리지</h1>
+<p class="lead">시나리오의 사건, 인물의 동선, 공간 배치, 카메라와 컷 연결이 영상에 얼마나 반영됐는지 평가했습니다.</p>
+<p class="provenance">스토리보드 기반 최초 생성 18편 · 총 8분 56초</p>
 <div id="overallStats"></div>
-<div class="table-wrap"><table class="cohort-table"><thead><tr><th>비교 대상</th><th>전달 / 전체 단위</th><th>커버리지</th><th>일부 전달</th><th>핵심 미전달</th></tr></thead><tbody id="cohortBody"></tbody></table></div>
-<p class="formula">기존 13개의 판정은 유지했습니다. 신규와 기존은 작품이 달라 비율 차이를 성능 향상률로 해석하지 않습니다.</p>
-<p class="review-note"><strong>연출 단위란?</strong> 하나의 주요 사건·동선·정보·숏 역할을 검토하는 묶음입니다. 같은 행동의 카메라 조건과 제작 디테일은 합치고, 새로운 행동 목표나 독립된 정보 공개는 나눴습니다. <button onclick="showMethod()">실제 분할 사례와 기준 보기</button></p>
-<p class="review-note">의상·재질·정확한 연령/인원/mm 수치·손가락 그립·미세 표정·최종 음향/VFX는 기본 점수에서 유예했습니다. 사건의 원인, 반전, 이동 경로, 주요 시점이 빠지는 경우는 그대로 보완 대상으로 남겼습니다.</p>
-<h2>프로젝트별 결과</h2><p class="muted" style="font-size:13px">프로젝트를 선택하면 원문과 영상을 함께 보고, 각 연출 단위의 근거 구간으로 이동할 수 있습니다.</p>
-<div class="filters" id="cohortFilters"><button data-cohort="all" class="active" onclick="renderSummary('all')">전체 18개</button><button data-cohort="new" onclick="renderSummary('new')">신규 5개</button><button data-cohort="existing" onclick="renderSummary('existing')">기존 13개</button></div><div class="table-wrap"><table class="project-table"><thead><tr><th>프로젝트 / 연출 검토 결과</th><th>커버리지</th><th>연출 전달</th><th>일부 전달</th><th>핵심 미전달</th><th>연출 단위</th></tr></thead><tbody id="summaryBody"></tbody></table></div>
-<div class="findings"><div class="finding"><h3>신규에서 전달된 연출</h3><p>「카페 헌팅」의 회의·접근·퇴장·복귀와 「숲 속의 화재」의 발견·탈출이 연결됩니다. 「도심 추격 2」도 헬기 합류, 다리 붕괴, 경찰차 정지, 도주 성공의 위치와 순서를 확인할 수 있습니다.</p><button onclick="selectProject('16')">카페 동선·카메라 근거 보기</button></div><div class="finding"><h3>신규에서 보완할 연출</h3><p>「전독시」의 붙잡힘·구슬 회수, 「도심 추격」의 전방 장애물·통로 탈출 연결·케이스 회수는 일부 전달입니다. 손가락이나 재질의 정밀도가 아니라 대상·경로·공간 관계를 검토할 수 있는지가 이유입니다.</p><button onclick="selectProject('18');setFilter('P')">도심 추격의 보완점 3개 보기</button></div></div>
-<h2>대표 범주별 결과</h2><p class="formula">각 단위는 주된 연출 목적에 따라 한 번만 집계합니다. 범주를 누르면 해당 단위 목록과 영상 근거를 볼 수 있습니다. <button onclick="showTaxonomy()">전체 122개 범주별로 보기</button></p><div class="table-wrap"><table class="category-table"><thead><tr><th>연출 유형</th><th>커버리지</th><th>전달 / 전체</th><th>일부 전달</th><th>핵심 미전달</th></tr></thead><tbody id="categoryBody"></tbody></table></div>
-<p class="formula">커버리지는 아래에 명시한 연출 단위를 확인할 수 있는 비율입니다. 핵심 반전 하나가 빠져도 전체 비율은 높을 수 있으므로 각 프로젝트의 우선 보완점을 함께 보세요. 100%도 완성 영상이나 제작 완료를 뜻하지 않습니다.</p></section>
-<section id="taxonomy" hidden><h1>연출 단위를 범주별로 보기</h1><p class="lead">각 단위의 주된 검토 질문을 대표 범주로 삼았습니다. 카메라·사건·행동·공간이 함께 필요한 단위는 관련 요소도 표시합니다.</p>
-<div class="review-note"><strong>집계 원칙</strong> 대표 범주는 단위마다 하나이며 합계는 122개입니다. ‘함께 포함’은 별도 점수가 아닙니다. 아래 전달률은 그 범주에 배정된 복합 단위의 판정으로, 개별 카메라·행동 요소만의 독립 점수는 아닙니다. <a href="analysis/연출단위_범주별.csv" download>범주별 CSV 받기</a></div>
-<details class="review-note"><summary>경계가 겹칠 때의 분류 예</summary><p>「카페 헌팅」의 세 남자 회의는 명시된 로우앵글 패닝을 중심으로 <strong>카메라·컷</strong>에 두고 행동·배치를 함께 표시했습니다. 「도심 추격 2」의 헬기·다리·승용차 동시 화면은 <strong>공간·배치</strong>, 헬기 추락으로 다리가 무너지는 사건은 <strong>사건·정보·인과</strong>, 경찰차의 급정지는 <strong>행동·동선</strong>입니다.</p><p>같은 인서트여도 「test2」의 간식은 뒤 행동의 단서를 알리는 정보 역할이 중심이고, 「The Last Light」의 유물은 원문에 명시된 컷의 구도 역할이 중심입니다. 항목별 분류 이유를 함께 확인할 수 있습니다.</p></details>
-<div class="taxonomy-controls"><label>대표 범주<select id="taxonomyCategory" onchange="renderTaxonomy()"><option value="all">전체 범주</option></select></label><label>프로젝트 묶음<select id="taxonomyCohort" onchange="renderTaxonomy()"><option value="all">전체 18개</option><option value="new">신규 5개</option><option value="existing">기존 13개</option></select></label><label>판정<select id="taxonomyStatus" onchange="renderTaxonomy()"><option value="all">전체 판정</option><option value="F">연출 전달</option><option value="P">일부 전달</option><option value="N">핵심 미전달</option></select></label></div>
+<p class="lead">공간·배치와 카메라 구성은 대체로 반영됐지만, 사건을 이어 주는 원인 행동과 정보 전달은 상대적으로 부족했습니다.</p>
+<p class="review-note"><strong>연출 단위</strong> 하나의 주요 사건·행동·공간·촬영 의도를 검토하는 묶음입니다. <button onclick="showMethod()">평가 기준 보기</button></p>
+<h2>범주별 결과</h2><p class="formula">범주를 선택하면 해당 연출 단위와 영상 근거를 볼 수 있습니다. <button onclick="showTaxonomy()">전체 단위 보기</button></p><div class="table-wrap"><table class="category-table"><thead><tr><th>연출 유형</th><th>커버리지</th><th>전달 / 전체</th><th>일부 전달</th><th>핵심 미전달</th></tr></thead><tbody id="categoryBody"></tbody></table></div>
+
+<h2>프로젝트별 결과</h2><p class="muted" style="font-size:13px">프로젝트를 선택해 시나리오와 영상을 함께 확인하세요.</p>
+<div class="table-wrap"><table class="project-table"><thead><tr><th>프로젝트 / 평가 요약</th><th>커버리지</th><th>연출 전달</th><th>일부 전달</th><th>핵심 미전달</th><th>연출 단위</th></tr></thead><tbody id="summaryBody"></tbody></table></div>
+<div class="findings"><div class="finding"><h3>확인된 연출</h3><p>「도심 추격 2」 19~27초. 승용차가 통과한 뒤 헬기가 추락하고 다리가 무너집니다. 추격 경로가 끊기는 원인과 결과가 보여 연출 전달로 판정했습니다.</p><button onclick="openCategoryUnit('15','15-P04',true)">헬기 추락·다리 붕괴 근거 재생</button></div><div class="finding"><h3>보완할 연출</h3><p>「야간 인수인계」는 카드 분실을 알아차리는 계기가 부족합니다. 「도심 추격」 23~27초에는 케이스가 움직이지만 인물이 집어 옮기는 행동은 드러나지 않아 일부 전달로 판정했습니다.</p><button onclick="openCategoryUnit('01','01-P04',true)">카드 분실 인지 구간 재생</button> <button onclick="openCategoryUnit('18','18-P07',true)">케이스 회수 구간 재생</button></div></div>
+</section>
+<section id="taxonomy" hidden><h1>연출 단위를 범주별로 보기</h1><p class="lead">주된 연출 목적에 따라 네 범주로 나눴습니다. 각 항목에서 분류 이유와 영상 근거를 확인할 수 있습니다.</p>
+<div class="review-note"><strong>집계 원칙</strong> 각 단위는 대표 범주에서 한 번만 집계합니다. ‘함께 포함’은 같은 단위에 필요한 다른 연출 요소입니다. <a href="analysis/연출단위_범주별.csv" download>범주별 CSV 받기</a></div>
+<details class="review-note"><summary>범주를 정한 예</summary><p>「카페 헌팅」의 회의 장면은 로우앵글 패닝이 중심이므로 ‘카메라·컷’입니다. 인물의 행동과 배치는 함께 포함된 요소로 표시했습니다.</p><p>「도심 추격 2」에서 헬기·다리·차량의 위치 관계는 ‘공간·배치’, 헬기 추락에 따른 다리 붕괴는 ‘사건·정보·인과’, 경찰차의 급정지는 ‘행동·동선’입니다.</p></details>
+<div class="taxonomy-controls"><label>대표 범주<select id="taxonomyCategory" onchange="renderTaxonomy()"><option value="all">전체 범주</option></select></label><label>판정<select id="taxonomyStatus" onchange="renderTaxonomy()"><option value="all">전체 판정</option><option value="F">연출 전달</option><option value="P">일부 전달</option><option value="N">핵심 미전달</option></select></label></div>
 <p id="taxonomyCount" class="formula" aria-live="polite"></p><div id="taxonomyGroups"></div></section>
 <section id="method" class="method" hidden><h1>연출 단위와 판정 기준</h1>
-<p><strong>연출 단위는 시나리오를 보며 하나의 주요 연출 결정을 검토할 수 있는 사건·행동·공간·숏의 묶음입니다.</strong> 문장 수나 영상의 컷 수를 세는 방식이 아닙니다. “누가 어디서 무엇을 하고, 그 결과가 어떻게 이어지는가?”를 한 질문으로 설명할 수 있는 범위를 잡았습니다.</p>
-<div class="formula-box"><p><strong>커버리지 = 연출 전달 단위 ÷ 전체 평가 단위 × 100</strong></p><p id="methodFormula"></p><p>각 단위의 가중치는 같습니다. 일부 전달은 분모에 포함하지만 분자에는 넣지 않습니다. 임의의 0.5점은 주지 않습니다. 외형·마감 요소는 아래의 허용 기준에 따라 해당 단위의 세부 조건으로 유예하며 별도 분모를 만들지 않습니다.</p></div>
-<h2>1. 원문에서 단위를 정하는 순서</h2>
-<ol><li><strong>사용자 원문만 기준으로 삼습니다.</strong> PVZ의 storyboard.json → prompt를 읽고, 생성된 영문 패널 설명이나 렌더 컷을 새로운 요구사항으로 추가하지 않습니다.</li>
-<li><strong>주요 사건·행동 목표·정보 공개·공간 관계·카메라 역할이 바뀌는 지점을 찾습니다.</strong> 도입, 접근, 대면, 위험 발견, 회피, 반전, 종료 등이 경계 후보입니다.</li>
-<li><strong>같은 목적을 설명하는 세부는 묶습니다.</strong> 같은 행동의 시작→결과, 그 행동을 보여주는 카메라 조건, 개요를 반복하는 문장, 의상·재질 목록은 별도 점수로 늘리지 않습니다.</li>
-<li><strong>독립적인 결정을 요구하면 나눕니다.</strong> 다른 인물의 대응, 새 이동 목표, 별도의 정보 공개처럼 한쪽이 없어도 다른 쪽이 남는 주요 단계는 구분합니다. 단순히 동사가 여러 개라는 이유로 나누지는 않습니다.</li>
-<li><strong>각 단위에 검토 질문을 붙입니다.</strong> 영상이 그 질문에 답할 사건·위치·동선·숏을 보여주는지 판정합니다. 부분 전달이면 무엇이 보이고 어떤 핵심 관계가 부족한지 적습니다.</li></ol>
-<p>번호가 있는 짧은 시나리오는 번호를 출발점으로 삼되, 한 번호에 독립된 행동 목표가 둘이면 나눕니다. 컷별 촬영 의도가 명시된 「The Last Light」는 각 컷의 역할을 유지했습니다. 긴 산문 시나리오는 의미 있는 행동·정보 단계로 묶었습니다. <strong>모든 프로젝트를 동일한 문장 수나 컷 수로 맞추지 않았습니다.</strong></p>
-<h2>2. 실제로 합치고 나눈 예</h2>
-<div class="table-wrap"><table class="examples"><thead><tr><th>원문 내용</th><th>설정한 단위</th><th>이유</th></tr></thead><tbody>
-<tr><td>「도심 추격 2」 추격 개요 + 골목에서 승용차·경찰차 진입</td><td>15-P01 · 1개</td><td>첫 문장은 다음 구체적 행동의 요약. 같은 추격을 두 번 세지 않음.</td></tr>
-<tr><td>「도심 추격 2」 헬기 추락→폭발→다리 붕괴→차량 낙하</td><td>15-P04 · 1개</td><td>뒤쪽 경로가 끊기는 한 재난의 원인·결과. 불꽃·파편마다 점수를 늘리지 않음.</td></tr>
-<tr><td>그 뒤 경찰차가 다리 앞에 멈춤</td><td>15-P05 · 별도 1개</td><td>다른 주체의 대응·정지 위치를 새로 설계해야 함.</td></tr>
-<tr><td>「전독시」 원문 7번: 도깨비 사라짐·위액 상승 / 가시를 손발로 지지</td><td>14-P07, P08 · 2개</td><td>위험이 생기는 상태 변화와 인물이 피신하는 행동은 별도 검토 질문.</td></tr>
-<tr><td>「카페 헌팅」 세 남자 회의 + 빠른 로우앵글 패닝</td><td>16-P02 · 1개</td><td>같은 회의를 보여주는 배치와 촬영 조건. 얼굴·팬 횟수마다 분리하지 않음.</td></tr>
-<tr><td>「도심 추격」 케이스 확인·붉은 점멸·조수석으로 회수</td><td>18-P07 · 1개</td><td>관심이 목표 소품으로 바뀌는 하나의 행동 단계. 불빛만 있으면 전체 전달로 보지 않음.</td></tr>
+<p class="lead">연출 단위는 하나의 주요 사건·행동·공간·촬영 의도를 검토하는 묶음입니다.</p>
+<div class="formula-box"><p><strong>커버리지 = 연출 전달 단위 ÷ 전체 연출 단위 × 100</strong></p><p id="methodFormula"></p><p>각 단위의 가중치는 같습니다. 일부 전달과 핵심 미전달은 전체 단위 수에 포함하되 충족 수에는 넣지 않습니다.</p></div>
+<h2>1. 연출 단위를 나누는 기준</h2>
+<ol><li><strong>시나리오 원문에서 연출 의도를 찾습니다.</strong> 주요 사건, 행동 목표, 정보 공개, 공간 관계, 카메라 역할이 바뀌는 지점을 기준으로 나눕니다.</li>
+<li><strong>같은 목적의 지시는 묶습니다.</strong> 한 행동의 시작과 결과, 그 행동을 보여주는 카메라 조건은 함께 평가합니다.</li>
+<li><strong>독립된 연출 결정은 나눕니다.</strong> 다른 인물의 대응, 새로운 이동 목표, 별도의 정보 공개는 각각 평가합니다.</li></ol>
+<div class="table-wrap"><table class="examples"><thead><tr><th>시나리오의 요구</th><th>단위</th><th>분할 이유</th></tr></thead><tbody>
+<tr><td>「도심 추격 2」 헬기 추락→폭발→다리 붕괴→차량 낙하</td><td>15-P04 · 1개</td><td>추격 경로가 끊기는 하나의 원인·결과</td></tr>
+<tr><td>그 뒤 경찰차가 다리 앞에 멈춤</td><td>15-P05 · 별도 1개</td><td>다른 주체의 대응과 정지 위치</td></tr>
+<tr><td>「카페 헌팅」 세 남자의 회의와 로우앵글 패닝</td><td>16-P02 · 1개</td><td>같은 장면의 배치와 촬영 조건</td></tr>
+<tr><td>「전독시」 위액 상승과 가시에 손발을 지지하는 행동</td><td>14-P07, P08 · 2개</td><td>위험의 발생과 인물의 대응</td></tr>
 </tbody></table></div>
-<p>각 프로젝트의 모든 항목에 <strong>검토 질문</strong>과 <strong>단위 경계·묶음 근거</strong>를 첨부했습니다. 인용문은 원문 위치를 찾는 근거입니다. 특히 기존 13개의 짧은 인용은 단위 전체의 설명을 대체하지 않으므로 항목 제목·분할 이유·전체 시나리오를 함께 보세요.</p>
-<h2>3. 프리비즈 수준의 판정</h2>
-<div class="table-wrap"><table><thead><tr><th>판정</th><th>판정 조건</th><th>분자</th></tr></thead><tbody>
-<tr><td><span class="status F">연출 전달</span></td><td>대체 에셋·거친 동작이어도 핵심 사건, 위치·동선, 주요 시점이나 숏의 역할이 확인되어 다음 연출 결정을 검토할 수 있음.</td><td>1</td></tr>
-<tr><td><span class="status P">일부 전달</span></td><td>장면의 뼈대는 있으나 주요 원인 행동, 이동 경로, 정보 공개, 공간 관계 등이 충분히 드러나지 않음.</td><td>0</td></tr>
-<tr><td><span class="status N">핵심 미전달</span></td><td>주요 사건·행동·장면·반전 자체가 없어 해당 연출을 검토할 수 없음.</td><td>0</td></tr></tbody></table></div>
-<p>시나리오와 함께 연출을 검토하는 기준입니다. 음성 없이 보는 관객이 이야기 전체를 독립적으로 이해해야 한다는 완성 영화 기준은 적용하지 않았습니다. 그렇더라도 <strong>보이지 않는 이동·접촉·인과를 원문만으로 채워 넣어 전달로 인정하지는 않습니다.</strong></p>
-<ul><li><strong>유예:</strong> 정확한 나이·머리·의상·차량 색·브랜드·재질, 손가락 그립·표정·천 움직임, 정확한 인원·렌즈 mm, 최종 음향·자막·VFX의 품질. 반응 숏과 행동 배치가 있으면 거친 표현도 인정합니다.</li>
-<li><strong>평가 유지:</strong> 주요 대상의 존재·위치, 인물 간 거리와 접근 경로, 행동 종류, 원인과 결과, 반전 내용, 요청한 시점·프레이밍의 역할. 중요한 손동작이나 목적 소품의 경로가 아예 불명확한 것은 그립 정밀도 문제와 다릅니다.</li>
-<li><strong>같은 부족을 중복 감점하지 않음:</strong> 붙잡기 동작의 부족은 「전독시」 P04에서 판단하고, P05의 낙하 경로가 독립적으로 보이면 같은 이유로 다시 감점하지 않습니다. 「도심 추격」도 전방 장애물 제시(P03)와 통로 진입 동선(P04)을 구분합니다.</li>
-<li><strong>100%의 의미:</strong> 정한 주요 연출 질문을 모두 검토할 수 있다는 뜻입니다. 모든 문구의 정확한 재현, 완성 품질, 스턴트 안전·물리 타당성이나 대사 템포의 검증을 뜻하지 않습니다.</li></ul>
-<h2>대표 범주는 무엇으로 정했나</h2><p>주된 검토 질문에 따라 <strong>카메라·컷 / 사건·정보·인과 / 행동·동선 / 공간·배치</strong> 중 하나를 대표 범주로 정했습니다. 나머지 중요한 역할은 ‘함께 포함’으로 표시합니다. 대표 범주는 기존 분류를 유지하고, 2026-11-07에 관련 요소와 분류 이유를 보강했습니다.</p><p>단위에는 여러 요소가 함께 들어갑니다. 예를 들어 「도심 추격」의 케이스는 새 이상 신호를 알리는 ‘사건·정보·인과’ 단위이며, 확인·회수 행동도 함께 검토합니다. 따라서 범주별 전달률은 <strong>해당 범주를 대표로 삼은 복합 연출 단위의 전달률</strong>이며 카메라 기술이나 사건 구현 하나만 분리해 채점한 점수가 아닙니다.</p><p><button onclick="showTaxonomy()">범주 정의·122개 목록 보기</button> <a href="analysis/연출단위_범주별.csv" download>범주별 목록 CSV</a></p><h2>4. 이번 집계의 범위와 재현 방법</h2>
-<p><strong>기존 13개: 85단위 / 신규 5개: 37단위 / 전체 18개: 122단위.</strong> 기존 85개의 경계와 판정은 11월 2일 프리비즈 수정판을 유지했고, 단위별 설명을 이번에 보강했습니다. 신규 37개는 영상 프레임을 보기 전에 원문에서 정해 기록했습니다. 신규 단위 계획 파일의 저장 시각은 2026-11-06 20:22:32 KST입니다. 「도심 추격 2」 P05는 정의를 유지한 채 넓게 잡힌 인용 범위만 해당 문장으로 좁혔습니다.</p>
-<p>프로젝트별 비율을 단순 평균하지 않고 전체 단위를 합쳐 계산합니다. 따라서 단위가 많은 시나리오의 비중이 더 큽니다. 신규 첫 생성 89.2%와 기존 81.2%는 작품·생성 조건이 다른 결과이며 모델 성능 향상률이 아닙니다. 신규의 이전 업로드 결과 86.5%는 생성 이력이 섞여 있어 첫 생성 지표에서 제외했습니다. 이번 측정은 현재 로컬 개발 환경을 사용했으므로 이전 영상과의 차이를 수동 편집 효과로 단정할 수 없습니다. 두 「도심 추격」은 원문이 다른 별개 프로젝트로 포함했습니다.</p>
-<p><strong>이 단위 경계가 유일한 정답은 아닙니다.</strong> 같은 연출을 더 크게 묶거나 세분하면 분모와 비율이 달라집니다. 이번 보고서는 사용한 경계·질문·원문·근거 시간을 공개해 다시 검토할 수 있게 했습니다. 연출 유형은 각 단위의 주된 역할을 한 번만 태깅한 분류이며 중복 점수가 아닙니다. 중요한 반전 하나의 누락이 전체 비율보다 큰 문제일 수 있습니다.</p>
-<h2>5. 원본·영상 확인 범위</h2><ul>
-<li>기존: 2026-10-22의 PVZ 원문과 Renders_2026-10-26의 13개 MP4. 기존 전 구간 0.5초 간격 743프레임과 추가 120프레임의 검토 근거·프리비즈 판정을 유지했습니다. 이번에 기존 영상을 모두 새로 연속 시청하지는 않았습니다.</li>
-<li>신규: New_Web_2026-11-06의 PVZ에서 활성 스토리보드만 복제한 뒤 2026-11-07 로컬 서버에서 한 번씩 생성했습니다. 최초 결과 MP4 전 구간을 0.5초 간격 331프레임, 필요한 구간은 추가 115프레임으로 확인했습니다. 최종 판정 근거는 렌더 영상입니다.</li>
-<li>프레임 기반 AI 시각 검토입니다. 샘플 사이의 짧은 동작이나 미세한 움직임은 놓칠 수 있습니다. 대표 사진은 한 시점의 증거이고, 움직임·인과 판단은 표시한 구간을 함께 재생해 검토하세요. 일부 전달·미전달의 시간은 문제를 확인한 검토 구간이며 미전달 장면의 존재를 뜻하지 않습니다.</li>
-<li>모든 시간은 MP4 시작 기준입니다. 02번 시나리오의 17–53초는 MP4 0–36초에 해당합니다. 신규 첫 생성 5개는 1920×1080 · 30fps입니다. 18개 모두 오디오 트랙이 없습니다.</li>
-<li>신규 5개는 입력 스토리보드의 복제 전후 일치, 기본 바닥만 있는 초기 씬, 실제 생성 이력 1개, 추가 요청 0회, 외부 수동 편집 0회, 렌더 전후 문서 해시 일치를 기록했습니다. 한 번의 생성 요청 안에서 모델이 스스로 도구를 호출하고 수정하는 과정은 앱의 정상 생성 과정에 포함합니다. 준비 중 서버 연결 실패 1건은 모델 실행·씬 쓰기 전에 종료되어 별도 보관했으며 평가 결과로 사용하지 않았습니다.</li><li>기존 13개는 씬·타임라인 해시가 렌더 기록과 다르고, 02·03·13번은 스토리보드 해시도 다릅니다. 기존 묶음은 지정된 원문·영상 비교이며 첫 생성 재현 시험이 아닙니다.</li></ul>
-<h2>6. 신규 첫 생성 실행 확인</h2><div class="table-wrap"><table><thead><tr><th>프로젝트</th><th>생성 요청</th><th>추가 요청</th><th>수동 편집</th><th>복제본 생성 이력</th><th>생성 소요</th></tr></thead><tbody><tr><td>전독시</td><td>1회</td><td>0회</td><td>0회</td><td>1개</td><td>13.5분</td></tr><tr><td>도심 추격 2</td><td>1회</td><td>0회</td><td>0회</td><td>1개</td><td>12.4분</td></tr><tr><td>카페 헌팅</td><td>1회</td><td>0회</td><td>0회</td><td>1개</td><td>8.3분</td></tr><tr><td>숲 속의 화재</td><td>1회</td><td>0회</td><td>0회</td><td>1개</td><td>10.1분</td></tr><tr><td>도심 추격</td><td>1회</td><td>0회</td><td>0회</td><td>1개</td><td>11.3분</td></tr></tbody></table></div><p>입력은 각 원본의 활성 스토리보드이며, 이전 씬과 생성 이력은 복제하지 않았습니다. 첫 출력의 씬·타임라인 문서는 렌더 전후 해시가 같습니다. 생성 소요는 모델 처리와 앱 내부 도구 작업을 포함하며 렌더 시간은 제외합니다.</p><p>실행 환경은 현재 로컬 개발 서버와 설치된 개발 앱입니다. 이전 업로드 영상과 버전을 통제한 실험은 아닙니다. 앱 실행 번호가 1, 2, 3처럼 이어지는 것은 세션 전체 번호이며, 각 새 프로젝트에 저장된 생성 이력은 1개입니다. <a href="analysis/first-pass-protocol.json" download>입력·환경·실행 기록</a> · <a href="analysis/first-pass-audit.json" download>첫 생성 조건 검증</a> · <a href="analysis/first-pass-mcp-calls.jsonl" download>MCP 호출 기록</a></p><p><a href="연출단위_산정기준.md" download>단위 산정 설명서</a> · <a href="analysis/previs-coverage.csv" download>122단위 판정·분할 근거 CSV</a> · <a href="analysis/previs-data.json" download>전체 데이터 JSON</a> · <a href="analysis/new-unit-plan-before-video.json" download>신규 단위 사전 정의</a> · <a href="analysis/validation.json" download>파일·연결 검증 기록</a></p></section>
-<section id="project" hidden><div class="project-heading"><div><h1 id="projectTitle"></h1><p id="projectNumber" class="provenance" style="margin-bottom:5px"></p><p id="projectSubtitle" class="muted" style="font-size:14px;margin-bottom:0"></p></div><div class="project-score" id="projectScore"></div></div><p id="projectConclusion" class="project-description"></p><div id="projectLegend" class="legend"></div><div id="projectNotice" class="review-note" hidden></div>
-<details class="review-note"><summary>이번 평가에서 유예한 제작 디테일</summary><p id="deferredDetails" style="margin:10px 0 0"></p></details><div class="project-grid"><div class="viewer"><div class="video-shell"><video id="video" controls playsinline preload="metadata" aria-label="프로젝트 렌더 영상"></video><div class="video-meta"><span id="videoMeta"></span><span>오디오 트랙 없음</span></div></div><div class="transport"><button onclick="stepVideo(-1/30)" aria-label="한 프레임 이전">−1 프레임</button><button onclick="stepVideo(1/30)" aria-label="한 프레임 다음">+1 프레임</button><button onclick="document.getElementById('video').playbackRate=.5">0.5×</button><button onclick="document.getElementById('video').playbackRate=1">1×</button><button onclick="resetClip()">전체 영상 재생</button><output id="videoClock" aria-live="off">00:00.0</output></div><p id="playMessage" class="play-message" aria-live="polite">항목의 구간 버튼을 누르면 해당 부분으로 이동합니다.</p><div id="attachments" class="attachments"></div><div class="source-box"><div class="source-head"><strong>사용자 시나리오 원문</strong><button onclick="document.getElementById('sourceText').classList.toggle('expanded')">크게 / 작게</button></div><div id="sourceText" class="source-body" tabindex="0" aria-label="사용자 시나리오 원문"></div></div></div>
-<div class="review-list"><div id="filters" class="filters" aria-label="판정 필터"></div><div class="searchrow"><input id="search" type="search" placeholder="원문·단위 근거·판정 이유 검색" aria-label="현재 프로젝트 판정 검색" oninput="renderRows()"><select id="categoryFilter" aria-label="대표 범주 필터" onchange="renderRows()"><option value="all">모든 대표 범주</option></select></div><details class="unit-help"><summary>이 프로젝트의 단위 수와 기준</summary><p id="projectUnits"></p></details><p class="filter-help">대체 에셋·거친 동작도 연출 검토가 가능하면 인정합니다. 일부 전달·핵심 미전달은 보완 대상으로 분리합니다.</p><div id="resultCount" class="result-count" aria-live="polite"></div><div id="requirements"></div></div></div></section>
-<footer class="footer">2026.11.07 첫 생성 재측정 · 기존 13개 + 신규 첫 생성 5개 · 이 폴더의 HTML은 이 파일 하나입니다 · 원본 파일을 변경하지 않고 별도 보고서 폴더에 영상·시나리오·PVZ 사본을 첨부했습니다. 이동·공유할 때는 이 HTML과 media / scenarios / originals / evidence / thumbs / analysis 폴더를 함께 유지하세요.</footer>
+<h2>2. 프리비즈 수준의 판정</h2>
+<div class="table-wrap"><table><thead><tr><th>판정</th><th>기준</th><th>충족 수</th></tr></thead><tbody>
+<tr><td><span class="status F">연출 전달</span></td><td>핵심 사건·동선·공간 관계·카메라 역할을 영상에서 확인할 수 있음</td><td>1</td></tr>
+<tr><td><span class="status P">일부 전달</span></td><td>장면은 있으나 원인 행동·이동 경로·정보 전달 등 핵심 관계가 부족함</td><td>0</td></tr>
+<tr><td><span class="status N">핵심 미전달</span></td><td>주요 사건·행동·반전이 영상에 나타나지 않음</td><td>0</td></tr></tbody></table></div>
+<p>대체 에셋과 거친 애니메이션도 핵심 연출을 검토할 수 있으면 인정합니다. 이번 평가에서는 의상·재질·미세 표정·정밀한 손동작·최종 음향과 VFX의 완성도를 유예했습니다. 사건을 일으키는 행동이나 소품의 이동 경로는 평가에 포함합니다.</p>
+<h2>3. 범주와 집계</h2>
+<p>각 단위를 주된 목적에 따라 <strong>공간·배치, 행동·동선, 카메라·컷, 사건·정보·인과</strong> 중 하나에 배정합니다. 함께 필요한 다른 요소는 별도 점수 없이 표시합니다. 전체 커버리지는 18편의 연출 단위를 합산해 계산합니다.</p>
+<p><button onclick="showTaxonomy()">범주별 연출 단위 보기</button></p>
+<h2>4. 검토 방법</h2>
+<p>AI가 시나리오 원문에서 연출 단위를 정하고, 영상에서 0.5초 간격으로 추출한 1,074프레임과 추가 235프레임을 대조했습니다. 항목별 원문, 판정 이유, 근거 프레임과 영상 구간을 함께 제공합니다. 시간은 각 영상의 시작점을 00:00으로 계산합니다.</p>
+<p><a href="연출단위_산정기준.md" download>평가 기준 내려받기</a> · <a href="analysis/previs-coverage.csv" download>전체 판정 CSV</a></p></section>
+<section id="project" hidden><div class="project-heading"><div><h1 id="projectTitle"></h1><p id="projectNumber" class="provenance" style="margin-bottom:5px"></p></div><div class="project-score" id="projectScore"></div></div><p id="projectConclusion" class="project-description"></p><div id="projectLegend" class="legend"></div>
+<details class="review-note"><summary>이번 평가에서 유예한 제작 디테일</summary><p id="deferredDetails" style="margin:10px 0 0"></p></details><div class="project-grid"><div class="viewer"><div class="video-shell"><video id="video" controls playsinline preload="metadata" aria-label="프로젝트 렌더 영상"></video><div class="video-meta"><span id="videoMeta"></span></div></div><div class="transport"><button onclick="stepVideo(-1/30)" aria-label="한 프레임 이전">−1 프레임</button><button onclick="stepVideo(1/30)" aria-label="한 프레임 다음">+1 프레임</button><button onclick="document.getElementById('video').playbackRate=.5">0.5×</button><button onclick="document.getElementById('video').playbackRate=1">1×</button><button onclick="resetClip()">전체 영상 재생</button><output id="videoClock" aria-live="off">00:00.0</output></div><p id="playMessage" class="play-message" aria-live="polite">항목의 구간 버튼을 누르면 해당 부분으로 이동합니다.</p><div id="attachments" class="attachments"></div><div class="source-box"><div class="source-head"><strong>사용자 시나리오 원문</strong><button onclick="document.getElementById('sourceText').classList.toggle('expanded')">크게 / 작게</button></div><div id="sourceText" class="source-body" tabindex="0" aria-label="사용자 시나리오 원문"></div></div></div>
+<div class="review-list"><div id="filters" class="filters" aria-label="판정 필터"></div><div class="searchrow"><input id="search" type="search" placeholder="원문·단위 근거·판정 이유 검색" aria-label="현재 프로젝트 판정 검색" oninput="renderRows()"><select id="categoryFilter" aria-label="대표 범주 필터" onchange="renderRows()"><option value="all">모든 대표 범주</option></select></div><div id="resultCount" class="result-count" aria-live="polite"></div><div id="requirements"></div></div></div></section>
+<footer class="footer">Previzion · 프리비즈 연출 커버리지 · 2026.11.09</footer>
 </main></div>
 <script id="reportData" type="application/json">[
   {
@@ -95,7 +78,7 @@
       "mp4": "dae21e765bed02e8ab3bb9805e39e48b5d3829a4d9037e1d52e999ee0ebd1692"
     },
     "subtitle": "이동과 카드 회수·출입 흐름은 검토 가능",
-    "conclusion": "이동 동선과 카드 회수 이후의 출입 인과가 대부분 잡혀 있습니다. 카드가 없어서 찾게 되는 계기만 더 분명히 하면 됩니다.",
+    "conclusion": "로비로 향하는 이동, 카드 회수, 출입장치 조작과 문 통과가 이어집니다. 카드 분실을 알아차리는 계기는 부족합니다.",
     "video_url": "media/01.mp4",
     "scenario_url": "scenarios/01.txt",
     "original_url": "originals/01.pvz",
@@ -337,13 +320,13 @@
       }
     ],
     "poster": "evidence/01/f0003.jpg",
-    "deferred": "비·반사·지퍼·카드 그립·의상·휴대폰 문구·알림음·마지막 블랙. A/B동 표식은 공간 이해를 돕는 후속 메모로 유지.",
+    "deferred": "비·반사·지퍼·카드 그립·의상·휴대폰 문구·알림음·마지막 블랙.",
     "followup": "우선 보완: 카드 분실을 알아차리는 짧은 행동 또는 인서트.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "02",
@@ -358,7 +341,7 @@
       "mp4": "d40d9d5d59980734aff589479421a6aac47f11263d844fccd5b271bcb77711c7"
     },
     "subtitle": "추격·시점 전환은 있으나 반전의 핵심 이미지 누락",
-    "conclusion": "추격, 정문 도착, 재생과 반응의 편집 뼈대는 확인됩니다. 손의 접근·구조 동작과 녹화 속 현실의 반전은 실제 연출을 검토할 수 있게 추가해야 합니다.",
+    "conclusion": "추격과 정문 도착, 영상 재생과 반응 숏이 이어집니다. 손을 뻗어 구조하는 행동과 녹화 속 반전 이미지는 부족합니다.",
     "video_url": "media/02.mp4",
     "scenario_url": "scenarios/02.txt",
     "original_url": "originals/02.pvz",
@@ -631,13 +614,13 @@
       }
     ],
     "poster": "evidence/02/f0008.jpg",
-    "deferred": "모델 연령·의상·꽃밭의 미술 완성도·정확한 문틈 폭·쇠사슬 재질·캠코더 UI·촛불·대사 녹음. 다만 현실/환각 대비와 손의 교체는 반전 자체라 유예하지 않음.",
+    "deferred": "모델 연령·의상·꽃밭의 미술 완성도·정확한 문틈 폭·쇠사슬 재질·캠코더 UI·촛불·대사 녹음.",
     "followup": "우선 보완: 폐허·무인 공간의 대비와 누나 손→괴물 손의 반전 숏. 원문의 17–53초는 이 MP4의 0–36초에 대응.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "03",
@@ -652,7 +635,7 @@
       "mp4": "984530eb36b5d121ef0b0652612feda2a8534801a1b2f34502e240a8cf3cc31e"
     },
     "subtitle": "소개와 개의 이탈은 성립, 현관 POV 보완",
-    "conclusion": "셀카에서 형·개를 소개하고 개가 문 밖으로 나가는 흐름은 확인됩니다. 현관 구간을 직접 촬영하는 브이로그 시점으로 맞추면 됩니다.",
+    "conclusion": "셀카로 형과 개를 소개한 뒤 개가 문 밖으로 나갑니다. 현관에서 형을 따라가는 1인칭 시점은 보완이 필요합니다.",
     "video_url": "media/03.mp4",
     "scenario_url": "scenarios/03.txt",
     "original_url": "originals/03.pvz",
@@ -841,10 +824,10 @@
     "deferred": "아동 모델·초점 탐색·손바닥 완전 가림·테이프 애니메이션·개의 꼬리·코의 광각 과장·대사와 녹화음.",
     "followup": "우선 보완: 현관에서 형을 따라가는 구간의 1인칭 카메라.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "04",
@@ -859,7 +842,7 @@
       "mp4": "58f06a243962cfee2facbc078e2585cc3d212dfc7d805ace28882fd4ee148a9a"
     },
     "subtitle": "등장·포위·손 접근은 성립, 예고와 붙잡힘 보완",
-    "conclusion": "물에서 방문객이 나타나 침대를 둘러싸고 윤호와 손을 연결하는 큰 동선은 잡혀 있습니다. 손이 먼저 등장하는 예고와 갑작스런 붙잡힘의 변화는 추가가 필요합니다.",
+    "conclusion": "물에서 나타난 방문객이 침대를 둘러싸고 윤호에게 손을 뻗습니다. 손이 먼저 나타나는 예고와 갑자기 붙잡히는 변화는 부족합니다.",
     "video_url": "media/04.mp4",
     "scenario_url": "scenarios/04.txt",
     "original_url": "originals/04.pvz",
@@ -1046,13 +1029,13 @@
       }
     ],
     "poster": "evidence/04/f0005.jpg",
-    "deferred": "비늘·점액·투명 재질·정밀 악수 그립·눈꺼풀과 미세한 감정·수중 음향·왜곡의 완성도. 손의 선행 등장과 강제적 붙잡힘은 사건 순서라 유지.",
+    "deferred": "비늘·점액·투명 재질·정밀 악수 그립·눈꺼풀과 미세한 감정·수중 음향·왜곡의 완성도.",
     "followup": "우선 보완: 물 위로 손이 먼저 올라오는 단계, 접촉에서 붙잡힘으로 바뀌는 급한 동작.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "05",
@@ -1067,7 +1050,7 @@
       "mp4": "c7cfadec7a8ecc0ecc1aeb94a27768e5bba2273caa390cc6d119ab6afe815ae0"
     },
     "subtitle": "환영↔침실 전환은 성립, 주인공 수영 동선 누락",
-    "conclusion": "다른 공간의 몽타주에서 얼굴 근접 숏을 거쳐 침실로 돌아와 접촉하는 구조는 검토 가능합니다. 주인공이 도시를 헤엄치는 액션은 빠져 있습니다.",
+    "conclusion": "환영에서 침실로 돌아와 인물과 접촉하는 흐름은 확인됩니다. 주인공이 도시를 헤엄치는 이동은 빠져 있습니다.",
     "video_url": "media/05.mp4",
     "scenario_url": "scenarios/05.txt",
     "original_url": "originals/05.pvz",
@@ -1224,13 +1207,13 @@
       }
     ],
     "poster": "evidence/05/f0025.jpg",
-    "deferred": "수중 매질·유리 건축 재질·빛의 일렁임·눈 반사·물고기 에셋 교체·눈 감기와 감정 연기·섬광/왜곡 완성도. 주인공의 이동 방식은 유지.",
+    "deferred": "수중 매질·유리 건축 재질·빛의 일렁임·눈 반사·물고기 에셋 교체·눈 감기와 감정 연기·섬광/왜곡 완성도.",
     "followup": "우선 보완: 윤호의 수영 또는 부유 이동 동선.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "06",
@@ -1245,7 +1228,7 @@
       "mp4": "23b34a0e12bb06c54557f0389329f7c4494056f63a60a61d366ed5fcf8e0bce5"
     },
     "subtitle": "접촉·정지·발견·대치의 배치가 모두 검토 가능",
-    "conclusion": "팔 접촉과 정지에서 제3자의 발견, 접촉 해제, 대면과 접근까지 이어집니다. 시나리오를 함께 보면 능력 사용과 대치 장면을 설계할 수 있는 프리비즈입니다.",
+    "conclusion": "팔 접촉과 정지, 제3자의 발견, 접촉 해제, 대면과 접근이 이어집니다. 인물 사이의 거리와 대치 동선을 검토할 수 있습니다.",
     "video_url": "media/06.mp4",
     "scenario_url": "scenarios/06.txt",
     "original_url": "originals/06.pvz",
@@ -1431,13 +1414,13 @@
       }
     ],
     "poster": "evidence/06/f0010.jpg",
-    "deferred": "정확한 연령·맨살 접촉의 정밀도·눈 감기·기억 이전의 독립 시각화·표정·장갑 에셋과 그립·발소리. 실제 장갑 착용 결과는 본 애니메이션에서 보완.",
+    "deferred": "정확한 연령·맨살 접촉의 정밀도·눈 감기·기억 이전의 독립 시각화·표정·장갑 에셋과 그립·발소리.",
     "followup": "큰 동선 재구성은 필요하지 않습니다. 다음 단계에서 눈 감기·장갑 착용과 연기를 구체화하면 됩니다. 실제 MP4 길이 32.5초 기준.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "07",
@@ -1452,7 +1435,7 @@
       "mp4": "01b05dd3b30109d98acc2f16d744dfff0395e111d5edf8bcc90c5617b755a9ae"
     },
     "subtitle": "추격에서 승차 이별까지 동선과 반응 숏 확보",
-    "conclusion": "두 사람만 멈춘 군중 대비, 대화 반응 숏, 한 사람만 열차에 타는 분리가 확인됩니다. 음성·눈물이 없어도 이별 장면의 위치와 컷 순서를 검토할 수 있습니다.",
+    "conclusion": "군중 속 두 사람의 정지, 대화 반응 숏, 한 사람만 열차에 타는 이별이 이어집니다. 첫 추격 구간의 카메라 가림은 보완이 필요합니다.",
     "video_url": "media/07.mp4",
     "scenario_url": "scenarios/07.txt",
     "original_url": "originals/07.pvz",
@@ -1668,13 +1651,13 @@
       }
     ],
     "poster": "evidence/07/f0009.jpg",
-    "deferred": "머리·의상 색·젖은 계단 재질·눈동자 반사·눈물·머리카락 바람·안내방송·실제 대사. 대사/침묵 길이는 임시 음성을 넣는 후속 리듬 검토가 필요.",
+    "deferred": "머리·의상 색·젖은 계단 재질·눈동자 반사·눈물·머리카락 바람·안내방송·실제 대사.",
     "followup": "우선 보완: 첫 추격 구간의 카메라 가림. 다음 단계: 임시 대사로 반응 숏 길이 검토.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "08",
@@ -1689,7 +1672,7 @@
       "mp4": "2efcd04712705ebf73c6d7835721f08479b6ff12359e6c089d447c6748167cf0"
     },
     "subtitle": "신발·틸트·회전·전신 엔드는 확보, 디테일 숏 보완",
-    "conclusion": "대체 의상을 사용해도 패션 영상의 주요 카메라 동작은 확인됩니다. 하의의 특정 부분을 보여주는 근접 숏과 포즈를 정리하는 것이 우선입니다.",
+    "conclusion": "신발에서 시작하는 틸트, 인물 주위 회전, 전신 마무리가 확인됩니다. 하의 디테일을 보여주는 근접 숏과 양손 주머니 포즈는 부족합니다.",
     "video_url": "media/08.mp4",
     "scenario_url": "scenarios/08.txt",
     "original_url": "originals/08.pvz",
@@ -1904,13 +1887,13 @@
       }
     ],
     "poster": "evidence/08/f0025.jpg",
-    "deferred": "정확한 체형 수치·헤어·패딩/카고/체인의 실제 에셋·재질·반사·바지 천의 움직임·최종 로고/타이포·블랙. 실제 제품 실루엣은 에셋 교체 뒤 별도로 검토.",
+    "deferred": "정확한 체형 수치·헤어·패딩/카고/체인의 실제 에셋·재질·반사·바지 천의 움직임·최종 로고/타이포·블랙.",
     "followup": "우선 보완: 하의 디테일 클로즈업과 양손 주머니 포즈. 오비트 회전량은 원문의 반 바퀴에 맞게 조정 가능.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "09",
@@ -1925,7 +1908,7 @@
       "mp4": "ef2196d89b6f9aa05dbac387cc8d9488b6fcd2785aca91f4053a7f28fda575b2"
     },
     "subtitle": "주행·점프·월라이드는 성립, 공간 폭과 위기 숏 보완",
-    "conclusion": "주요 보드 액션과 끝맺음은 확인됩니다. 좁은 골목의 간격과 자전거 충돌 직전의 위험을 강조하는 카메라·회피 동선은 보완이 필요합니다.",
+    "conclusion": "주행·점프·월라이드와 마무리 동작은 확인됩니다. 좁은 골목의 간격, 자전거 회피 방향, 충돌 직전 위기를 보여주는 숏은 부족합니다.",
     "video_url": "media/09.mp4",
     "scenario_url": "scenarios/09.txt",
     "original_url": "originals/09.pvz",
@@ -2141,13 +2124,13 @@
       }
     ],
     "poster": "evidence/09/f0023.jpg",
-    "deferred": "파리 고증·노후 재질·흑백 필름·의상·보드 팝/접지 정밀도·어안 왜곡·슬로모션 합성·표정·그림자. 도로 폭, 충돌 간격과 주요 숏은 평가 유지.",
+    "deferred": "파리 고증·노후 재질·흑백 필름·의상·보드 팝/접지 정밀도·어안 왜곡·슬로모션 합성·표정·그림자.",
     "followup": "우선 보완: 도로·장애물 간격, 자전거 회피 방향, 두 얼굴을 크게 잡는 위기 숏.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "10",
@@ -2162,7 +2145,7 @@
       "mp4": "d24d24fae3db81da42fd7a2e01a587f3146037b762e3a205a6f1f894f4f250b1"
     },
     "subtitle": "축소 모험의 사건 흐름은 확보, 원인 행동과 POV 보완",
-    "conclusion": "거대화·축소·추격·횡단·비행·먹기까지 사건 순서는 검토 가능합니다. 개미를 밟는 시작 행동과 1인칭 비행의 체험 시점은 아직 보완이 필요합니다.",
+    "conclusion": "축소·추격·횡단·비행·먹기로 이어지는 사건 흐름은 확인됩니다. 개미를 밟으려는 시작 행동과 1인칭 비행 시점은 부족합니다.",
     "video_url": "media/10.mp4",
     "scenario_url": "scenarios/10.txt",
     "original_url": "originals/10.pvz",
@@ -2349,13 +2332,13 @@
       }
     ],
     "poster": "evidence/10/d000.400.jpg",
-    "deferred": "바람 입자·벌집의 실제 구조·꿀의 물성·맛있다는 표정·정밀 접촉. 개미를 밟는 시작 행동과 비행 시점은 핵심 연출이라 유지.",
+    "deferred": "바람 입자·벌집의 실제 구조·꿀의 물성·맛있다는 표정·정밀 접촉.",
     "followup": "우선 보완: 개미를 밟으려는 동작, 벌 등에 탄 주인공의 1인칭 비행 숏.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "11",
@@ -2370,7 +2353,7 @@
       "mp4": "f378632d019e47ad332c66d2fa380537e673cb776fbfeaa5a7dcb1d420089a10"
     },
     "subtitle": "여섯 사건의 구도와 반전 결말이 모두 검토 가능",
-    "conclusion": "혼자 걷기→군중 접근→공룡 공개→간식 인서트→대치→먹힘의 순서가 구현돼 있습니다. 모델·군중 수·그립의 세부 정확성보다 이 장면 연결이 프리비즈의 핵심입니다.",
+    "conclusion": "혼자 걷기, 군중 접근, 공룡 공개, 간식 인서트, 대치, 먹힘의 여섯 연출 단위가 모두 확인됩니다.",
     "video_url": "media/11.mp4",
     "scenario_url": "scenarios/11.txt",
     "original_url": "originals/11.pvz",
@@ -2557,13 +2540,13 @@
       }
     ],
     "poster": "evidence/11/f0004.jpg",
-    "deferred": "정확히 500명인 군중·놀란 표정·츄르 브랜드/포장 형태·손의 소품 정밀도. 연속 후퇴 대신 컷 전환을 사용한 점은 카메라 방식의 후속 선택으로 기록.",
+    "deferred": "정확히 500명인 군중·놀란 표정·츄르 브랜드/포장 형태·손의 소품 정밀도.",
     "followup": "큰 사건 누락은 없습니다. 100%는 이 여섯 연출 단위의 확인 가능 비율이며 완성 영상 품질이나 추가 제작 불필요를 뜻하지 않습니다.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "12",
@@ -2578,7 +2561,7 @@
       "mp4": "e30aa0a74b216c0a781469215fcf54352a94bee6972348013432c6317c4ecb49"
     },
     "subtitle": "축소→커피→수직 비행은 성립, 행성 접근 동선 보완",
-    "conclusion": "미사일 발사와 행성 축소, 커피에 파편이 들어가 사람에게 변화가 생기는 순서가 잡혀 있습니다. 처음의 행성이 어느 경로로 접근하는지만 더 명확히 하면 됩니다.",
+    "conclusion": "미사일 발사와 행성 축소, 커피에 파편이 들어간 뒤 인물이 수직으로 날아오르는 흐름이 이어집니다. 처음 두 행성의 접근 방향은 불분명합니다.",
     "video_url": "media/12.mp4",
     "scenario_url": "scenarios/12.txt",
     "original_url": "originals/12.pvz",
@@ -2765,13 +2748,13 @@
       }
     ],
     "poster": "evidence/12/f0009.jpg",
-    "deferred": "별·우주 배경 재질·지구 텍스처·핵탄두 증명·정확한 미사일 수·중간 지면 충돌·컵 그립·슈퍼맨의 세부 자세. 수직 비행 방향과 인과 연결은 유지.",
+    "deferred": "별·우주 배경 재질·지구 텍스처·핵탄두 증명·정확한 미사일 수·중간 지면 충돌·컵 그립·슈퍼맨의 세부 자세.",
     "followup": "우선 보완: 두 행성의 이동 방향과 충돌 예정 경로. 다음 애니메이션 단계에서 컵을 손에 붙여 음용 동작 정리.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "13",
@@ -2786,7 +2769,7 @@
       "mp4": "ba11b8223a5a93ef0efde2a9c013adf67e106e12666929a31e04a59d4665587e"
     },
     "subtitle": "6컷의 카메라 설계는 대부분 성립, 측면 숏 가림 보완",
-    "conclusion": "같은 장소·인물의 24초 6컷 안에서 와이드, 측면, 인서트, 오버숄더, 반응, 후퇴가 이어집니다. 초점거리 수치를 증명하지 않아도 촬영 구성을 검토할 수 있습니다.",
+    "conclusion": "24초의 6컷에서 와이드·측면·인서트·오버숄더·반응·후퇴 숏이 이어집니다. 4~8초 측면 숏에서는 기둥이 인물을 가립니다.",
     "video_url": "media/13.mp4",
     "scenario_url": "scenarios/13.txt",
     "original_url": "originals/13.pvz",
@@ -2972,13 +2955,13 @@
       }
     ],
     "poster": "evidence/13/f0025.jpg",
-    "deferred": "정확한 mm 렌즈값·풀/먼지·돌 재질·청록 색보정·경외감 표정·배경 아치 세부·지원될 때만 적용하는 손 뻗기. 주요 인물 가림은 실제 카메라 설계 문제라 유지.",
+    "deferred": "정확한 mm 렌즈값·풀/먼지·돌 재질·청록 색보정·경외감 표정·배경 아치 세부·지원될 때만 적용하는 손 뻗기.",
     "followup": "우선 보완: 4–8초 측면 숏에서 기둥이 인물을 가리지 않도록 경로나 배치 조정.",
     "assessment_mode": "previsualization",
-    "cohort": "existing",
     "width": 1920,
     "height": 1080,
-    "fps": "30/1"
+    "fps": "30/1",
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "14",
@@ -2999,7 +2982,6 @@
     "scenario_url": "scenarios/14.txt",
     "original_url": "originals/14_first_pass.pvz",
     "poster": "evidence/14_first_pass/f0001.jpg",
-    "cohort": "new",
     "source_page": "https://previzion.site/board/v/170bacbac15b426a82167d980caf19fb",
     "frame_count": 68,
     "sheets": [
@@ -3274,10 +3256,10 @@
         "assessment_source": "2026-11-07 local storyboard first pass"
       }
     ],
-    "subtitle": "첫 생성 · 주요 흐름 전달, 멱살 접촉·구슬 회수 동선은 일부",
-    "conclusion": "9단위 중 7개 전달, 2개 일부 전달입니다. 다리 대치부터 용의 입으로 낙하하고 위액을 피해 벽에 버티는 흐름을 검토할 수 있습니다. 멱살을 붙잡는 접촉과 바닥의 구슬을 집는 과정은 충분히 보이지 않습니다.",
-    "deferred": "의상·머리·표정, 좀비와 용의 사실성, 상태창의 실제 글자, 손가락 그립, 젖은 점막·위액 효과의 완성도는 유예했습니다. 기본 도형으로 만든 용의 입·도깨비·정보창도 해당 연출 역할이 보이면 인정했습니다.",
-    "followup": "활성 스토리보드만 복제해 로컬 서버에서 1회 생성한 결과입니다. 추가 요청·수동 씬 편집 없이 렌더했습니다. 기존 업로드 영상의 판정과 구분합니다.",
+    "subtitle": "주요 흐름 전달, 멱살 접촉·구슬 회수 동선은 일부",
+    "conclusion": "다리 위 대치, 용의 입으로 낙하, 위액을 피해 버티는 흐름이 이어집니다. 멱살을 붙잡는 접촉과 구슬을 집는 행동은 충분히 드러나지 않습니다.",
+    "deferred": "의상·머리·표정, 좀비와 용의 사실성, 상태창의 실제 글자, 손가락 그립, 젖은 점막·위액 효과의 완성도는 유예했습니다.",
+    "followup": "우선 보완: 멱살을 잡는 접촉과 파란 구슬을 회수하는 동선.",
     "input_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.pvz",
     "previous_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/전독시/전독시.mp4",
     "previous_uploaded_hashes": {
@@ -3293,7 +3275,8 @@
       "backend": "local development server",
       "generated_at": "2026-11-07T07:42:17.677506+00:00",
       "record_url": "analysis/first-pass-protocol.json"
-    }
+    },
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "15",
@@ -3314,7 +3297,6 @@
     "scenario_url": "scenarios/15.txt",
     "original_url": "originals/15_first_pass.pvz",
     "poster": "evidence/15_first_pass/f0001.jpg",
-    "cohort": "new",
     "source_page": "https://previzion.site/board/v/5a39de41a26d4162a9e891ba7eafd269",
     "frame_count": 68,
     "sheets": [
@@ -3504,10 +3486,10 @@
         "assessment_source": "2026-11-07 local storyboard first pass"
       }
     ],
-    "subtitle": "첫 생성 · 추격→헬기 추락·교량 붕괴→경찰차 정지의 흐름 전달",
-    "conclusion": "6단위 모두 주요 연출을 검토할 수 있습니다. 선행 차량의 탈출, 뒤쪽 교량 붕괴, 경찰차의 정지가 구분됩니다. 100%는 모든 주행 동작이나 렌더 품질이 완성됐다는 뜻은 아닙니다.",
-    "deferred": "차량·건물의 외형과 재질, 폭발·물보라의 사실성, 차체 방향·바퀴 회전·제동 거리의 물리 정밀도는 유예했습니다. 4.5–5초 부근의 일시적인 카메라 가림과 마지막 숏의 거친 차량 방향은 남아 있지만 주요 추격·탈출 경로를 볼 수 있습니다.",
-    "followup": "활성 스토리보드만 복제해 로컬 서버에서 1회 생성한 결과입니다. 추가 요청·수동 씬 편집 없이 렌더했습니다.",
+    "subtitle": "추격→헬기 추락·교량 붕괴→경찰차 정지의 흐름 전달",
+    "conclusion": "승용차의 탈출, 헬기 추락과 교량 붕괴, 경찰차의 정지가 순서대로 이어집니다. 추격 경로가 끊기는 원인과 결과를 확인할 수 있습니다.",
+    "deferred": "차량·건물의 외형과 재질, 폭발·물보라의 사실성, 차체 방향·바퀴 회전·제동 거리의 물리 정밀도는 유예했습니다.",
+    "followup": "추격에서 교량 붕괴와 도주까지 주요 연출을 확인할 수 있습니다. 100%는 정한 연출 단위의 확인 가능 비율이며 완성 영상 품질을 뜻하지 않습니다.",
     "input_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.pvz",
     "previous_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격 2/도심 추격 2.mp4",
     "previous_uploaded_hashes": {
@@ -3523,7 +3505,8 @@
       "backend": "local development server",
       "generated_at": "2026-11-07T07:56:19.183528+00:00",
       "record_url": "analysis/first-pass-protocol.json"
-    }
+    },
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "16",
@@ -3544,7 +3527,6 @@
     "scenario_url": "scenarios/16.txt",
     "original_url": "originals/16_first_pass.pvz",
     "poster": "evidence/16_first_pass/f0001.jpg",
-    "cohort": "new",
     "source_page": "https://previzion.site/board/v/648f01435c9449718d98c47e1ae01eee",
     "frame_count": 55,
     "sheets": [
@@ -3699,10 +3681,10 @@
         "assessment_source": "2026-11-07 local storyboard first pass"
       }
     ],
-    "subtitle": "첫 생성 · 빠른 로우앵글 팬과 접근·엇갈림·복귀 전달",
-    "conclusion": "5단위 모두 주요 연출을 검토할 수 있습니다. 두 테이블의 관계, 남성의 접근과 여성의 퇴장, 복귀 뒤 단체 반응이 이어집니다. 빠른 낮은 시점의 패닝도 실제 영상에서 확인됩니다.",
-    "deferred": "인물의 미모·옷·정밀 표정, 의자와 신체의 세밀한 접촉, 실제 웃음 음성과 자연스러운 대사 템포는 유예했습니다. 빠른 팬의 블러와 과장된 반응 자세가 있지만 촬영 역할과 동선은 확인할 수 있습니다.",
-    "followup": "활성 스토리보드만 복제해 로컬 서버에서 1회 생성한 결과입니다. 추가 요청·수동 씬 편집 없이 렌더했습니다.",
+    "subtitle": "빠른 로우앵글 팬과 접근·엇갈림·복귀 전달",
+    "conclusion": "두 테이블의 배치, 남성의 접근과 여성의 퇴장, 복귀 뒤 단체 반응이 이어집니다. 빠른 로우앵글 패닝도 확인됩니다.",
+    "deferred": "인물의 미모·옷·정밀 표정, 의자와 신체의 세밀한 접촉, 실제 웃음 음성과 자연스러운 대사 템포는 유예했습니다.",
+    "followup": "회의·접근·엇갈림·복귀의 동선과 카메라 역할을 확인할 수 있습니다. 다음 단계에서 세밀한 연기와 동작을 구체화할 수 있습니다.",
     "input_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.pvz",
     "previous_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/카페 헌팅/카페 헌팅.mp4",
     "previous_uploaded_hashes": {
@@ -3718,7 +3700,8 @@
       "backend": "local development server",
       "generated_at": "2026-11-07T08:09:40.578380+00:00",
       "record_url": "analysis/first-pass-protocol.json"
-    }
+    },
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "17",
@@ -3739,7 +3722,6 @@
     "scenario_url": "scenarios/17.txt",
     "original_url": "originals/17_first_pass.pvz",
     "poster": "evidence/17_first_pass/f0001.jpg",
-    "cohort": "new",
     "source_page": "https://previzion.site/board/v/861b033f809046c09af10e3fcb1aa861",
     "frame_count": 66,
     "sheets": [
@@ -3983,10 +3965,10 @@
         "assessment_source": "2026-11-07 local storyboard first pass"
       }
     ],
-    "subtitle": "첫 생성 · 지도 검토→이상 징후→화재 확인→반대편 피신 전달",
-    "conclusion": "8단위 모두 주요 연출을 검토할 수 있습니다. 오두막 안의 지도와 손가락 인서트, 창밖 빛의 변화, 화재 확인, 불에서 멀어지는 도주가 순서대로 이어집니다.",
-    "deferred": "나무·오두막 재질, 지도 종이가 접혔다 펴지는 세부 동작, 불과 연기의 사실성, 최종 실루엣의 완전한 소멸은 유예했습니다. 마지막에 작은 실루엣이 남지만 화재에서 멀어지는 방향·깊이와 어두운 종료 구도는 확인됩니다.",
-    "followup": "활성 스토리보드만 복제해 로컬 서버에서 1회 생성한 결과입니다. 추가 요청·수동 씬 편집 없이 1920×1080으로 렌더했습니다.",
+    "subtitle": "지도 검토→이상 징후→화재 확인→반대편 피신 전달",
+    "conclusion": "지도 검토와 손가락 인서트, 창밖 빛의 변화, 화재 확인, 불에서 멀어지는 도주가 순서대로 이어집니다.",
+    "deferred": "나무·오두막 재질, 지도 종이가 접혔다 펴지는 세부 동작, 불과 연기의 사실성, 최종 실루엣의 완전한 소멸은 유예했습니다.",
+    "followup": "이상 징후 발견부터 화재 확인과 피신까지의 흐름을 확인할 수 있습니다. 불꽃과 연기의 최종 표현 품질은 이번 평가에서 유예했습니다.",
     "input_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.pvz",
     "previous_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/숲 속의 화재/숲 속의 화재.mp4",
     "previous_uploaded_hashes": {
@@ -4002,7 +3984,8 @@
       "backend": "local development server",
       "generated_at": "2026-11-07T08:18:21.808307+00:00",
       "record_url": "analysis/first-pass-protocol.json"
-    }
+    },
+    "evaluation_condition": "storyboard_first_pass"
   },
   {
     "id": "18",
@@ -4023,7 +4006,6 @@
     "scenario_url": "scenarios/18.txt",
     "original_url": "originals/18_first_pass.pvz",
     "poster": "evidence/18_first_pass/f0001.jpg",
-    "cohort": "new",
     "source_page": "https://previzion.site/board/v/145d5a828a8a460997caccd7476516d0",
     "frame_count": 74,
     "sheets": [
@@ -4300,10 +4282,10 @@
         "assessment_source": "2026-11-07 local storyboard first pass"
       }
     ],
-    "subtitle": "첫 생성 · 막힌 전방과 우회·충돌 전달, 통로 이탈·케이스 회수는 일부",
-    "conclusion": "9단위 중 7개 전달, 2개 일부 전달입니다. 골목 진입, 뒤따르는 SUV, 전방 봉쇄, 좁은 통로, SUV 충돌, 전화와 고가도로 종료는 검토할 수 있습니다. 서비스 도로로 빠져나오는 공간 연결과 인물이 케이스를 확인·회수하는 행동은 부족합니다.",
-    "deferred": "차량 색·차체 파손·젖은 노면, 운전 자세·바퀴와 차체 방향의 정밀함, 충돌 파편·접촉, 전화 발신자 글자와 음향은 유예했습니다. 케이스의 이동은 보이지만 인물이 확인하고 집는 행동까지 확인된 것은 아니므로 일부 전달로 구분했습니다.",
-    "followup": "활성 스토리보드만 복제해 로컬 서버에서 1회 생성한 결과입니다. 추가 요청·수동 씬 편집 없이 렌더했습니다.",
+    "subtitle": "막힌 전방과 우회·충돌 전달, 통로 이탈·케이스 회수는 일부",
+    "conclusion": "골목 진입과 추격, 우회전, SUV 충돌, 전화와 고가도로 마무리가 이어집니다. 서비스 도로로 나오는 공간 연결과 인물의 케이스 회수 행동은 부족합니다.",
+    "deferred": "차량 색·차체 파손·젖은 노면, 운전 자세·바퀴와 차체 방향의 정밀함, 충돌 파편·접촉, 전화 발신자 글자와 음향은 유예했습니다.",
+    "followup": "우선 보완: 좁은 통로에서 서비스 도로로 이어지는 공간 연결과 인물의 케이스 회수 행동.",
     "input_pvz": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.pvz",
     "previous_uploaded_video": "/Users/alpha/Documents/Previzion-Beta-PVZ/New_Web_2026-11-06/도심 추격/도심 추격.mp4",
     "previous_uploaded_hashes": {
@@ -4319,7 +4301,8 @@
       "backend": "local development server",
       "generated_at": "2026-11-07T08:29:22.801595+00:00",
       "record_url": "analysis/first-pass-protocol.json"
-    }
+    },
+    "evaluation_condition": "storyboard_first_pass"
   }
 ]</script>
 <script>
@@ -4334,31 +4317,30 @@ function counts(rows){const c={F:0,P:0,N:0,U:0,X:0};rows.forEach(r=>c[r.status]+
 function stack(c){return `<div class="stack" role="img" aria-label="연출 전달 ${c.F}, 일부 전달 ${c.P}, 핵심 미전달 ${c.N}">${['F','P','N'].map(s=>`<span class="s-${s}" style="width:${100*c[s]/c.total}%"></span>`).join('')}</div>`}
 function legend(c){return ['F','P','N'].map(s=>`<span style="--c:${colors[s]}">${labels[s]} ${c[s]}</span>`).join('')}
 function init(){const c=counts(allRows);
-$('overallStats').innerHTML=`<p class="summary-line">핵심 연출 ${c.total}단위 중 ${c.F}단위를 확인할 수 있습니다.<br>프리비즈 연출 커버리지 <strong>${c.pct.toFixed(1)}%</strong></p>${stack(c)}<div class="legend">${legend(c)}</div><p class="formula">연출 전달 ${c.F} ÷ 핵심 연출 단위 ${c.total} · 일부 전달 ${c.P}개와 핵심 미전달 ${c.N}개는 보완 대상으로 분리</p>`;
+$('overallStats').innerHTML=`<p class="summary-line">${c.total}개 연출 단위 중 ${c.F}개 반영<br>연출 커버리지 <strong>${c.pct.toFixed(1)}%</strong></p>${stack(c)}<div class="legend">${legend(c)}</div>`;
 $('methodFormula').innerHTML=`${c.F} / ${c.total} = <strong>${c.pct.toFixed(1)}%</strong> · 일부 전달 ${c.P} · 핵심 미전달 ${c.N}`;
-renderSummary('all');
-$('cohortBody').innerHTML=[['existing','기존 13개'],['new','신규 첫 생성 5개'],['all','전체 18개']].map(([k,label])=>{const c=counts(allRows.filter(r=>k==='all'||projects.find(p=>p.id===r.project).cohort===k));return `<tr><td>${label}</td><td class="numeric">${c.F} / ${c.total}</td><td class="numeric"><b>${c.pct.toFixed(1)}%</b></td><td class="numeric">${c.P}</td><td class="numeric">${c.N}</td></tr>`}).join('');
+renderSummary();
 $('categoryBody').innerHTML=Object.entries(cats).map(([k,v])=>{const c=counts(allRows.filter(r=>r.category===k));return `<tr><td><button class="category-link" onclick="showTaxonomy('${k}')">${v}</button></td><td class="numeric">${c.pct.toFixed(1)}%</td><td class="numeric">${c.F} / ${c.total}</td><td class="numeric">${c.P}</td><td class="numeric">${c.N}</td></tr>`}).join('');
-$('projectNav').innerHTML=projects.map(p=>`<button id="nav${p.id}" onclick="selectProject('${p.id}')"><span class="num">${p.id}</span><span>${p.cohort==='new'?'<span class="new-badge">신규</span>':''}${esc(p.name)}</span><span class="pct">${counts(p.rows).pct.toFixed(0)}%</span></button>`).join('');
+$('projectNav').innerHTML=projects.map(p=>`<button id="nav${p.id}" onclick="selectProject('${p.id}')"><span class="num">${p.id}</span><span>${esc(p.name)}</span><span class="pct">${counts(p.rows).pct.toFixed(0)}%</span></button>`).join('');
 $('mobileProject').innerHTML+=projects.map(p=>`<option value="${p.id}">${p.id} · ${esc(p.name)}</option>`).join('');
 $('categoryFilter').innerHTML+=Object.entries(cats).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
 $('taxonomyCategory').innerHTML+=Object.entries(cats).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
 const hash=new URLSearchParams(location.hash.slice(1));if(hash.has('project')){selectProject(hash.get('project'),false);if(hash.has('item'))setTimeout(()=>focusRequirement(hash.get('item'),false,true),100)}else if(hash.has('category')){showTaxonomy(hash.get('category'),false)}else if(location.hash==='#taxonomy'){showTaxonomy('all',false)}else if(location.hash==='#method'){page('method')}
 }
-function renderSummary(cohort){$('summaryBody').innerHTML=projects.filter(p=>cohort==='all'||p.cohort===cohort).map(p=>{const c=counts(p.rows);return `<tr><td class="name"><button onclick="selectProject('${p.id}')">${p.cohort==='new'?'<span class="new-badge">신규</span>':''}<b>${p.id} · ${esc(p.name)}</b></button><small>${esc(p.subtitle)}</small></td><td class="numeric score"><b>${c.pct.toFixed(1)}%</b>${stack(c)}</td>${['F','P','N'].map(s=>`<td class="numeric">${c[s]}</td>`).join('')}<td class="numeric">${c.total}</td></tr>`}).join('');document.querySelectorAll('#cohortFilters button').forEach(b=>{b.classList.toggle('active',b.dataset.cohort===cohort);b.setAttribute('aria-pressed',b.dataset.cohort===cohort)})}
+function renderSummary(){$('summaryBody').innerHTML=projects.map(p=>{const c=counts(p.rows);return `<tr><td class="name"><button onclick="selectProject('${p.id}')"><b>${p.id} · ${esc(p.name)}</b></button><small>${esc(p.subtitle)}</small></td><td class="numeric score"><b>${c.pct.toFixed(1)}%</b>${stack(c)}</td>${['F','P','N'].map(s=>`<td class="numeric">${c[s]}</td>`).join('')}<td class="numeric">${c.total}</td></tr>`}).join('')}
 function page(which){['overview','taxonomy','method','project'].forEach(s=>$(s).hidden=s!==which);$('overviewTab').classList.toggle('active',which==='overview');$('methodTab').classList.toggle('active',which==='method');$('taxonomyTab').classList.toggle('active',which==='taxonomy');if(which!=='project'){$('video').pause();clipEnd=null;document.querySelectorAll('.project-nav button').forEach(b=>b.classList.remove('active'))}window.scrollTo({top:0,behavior:'instant'})}
 function showTaxonomy(category='all',update=true){page('taxonomy');$('mobileProject').value='';$('taxonomyCategory').value=Object.hasOwn(cats,category)?category:'all';renderTaxonomy();if(update)history.replaceState(null,'',category==='all'?'#taxonomy':`#category=${category}`)}
-function renderTaxonomy(){const cat=$('taxonomyCategory').value,cohort=$('taxonomyCohort').value,status=$('taxonomyStatus').value;const scope=projects.filter(p=>cohort==='all'||p.cohort===cohort).flatMap(p=>p.rows);const selected=scope.filter(r=>(cat==='all'||r.category===cat)&&(status==='all'||r.status===status));$('taxonomyCount').textContent=`${scope.length}단위 중 ${selected.length}개 표시 · 각 그룹의 전달률은 판정 필터 적용 전, 선택한 프로젝트 묶음 기준`; $('taxonomyGroups').innerHTML=Object.entries(cats).filter(([k])=>cat==='all'||cat===k).map(([k,label])=>{const d=categoryDefinitions[k],base=scope.filter(r=>r.category===k),c=counts(base),rows=selected.filter(r=>r.category===k);return `<section class="taxonomy-group" data-category="${k}"><div class="taxonomy-heading"><h2>${label}</h2><p>${c.total}단위 · 전달 ${c.F}/${c.total} · <strong>${c.pct.toFixed(1)}%</strong></p></div><p class="category-question">${esc(d.question)}</p><p class="muted category-description">${esc(d.definition)}<br>예: ${esc(d.example)}</p><div class="legend">${legend(c)}</div>${rows.length?`<div class="table-wrap"><table class="taxonomy-table"><thead><tr><th>프로젝트</th><th>연출 단위 / 함께 포함된 요소</th><th>판정</th><th>영상 구간</th></tr></thead><tbody>${rows.map(r=>{const p=projects.find(p=>p.id===r.project);return `<tr data-unit="${r.id}"><td><span class="req-id">${p.id}${p.cohort==='new'?' · 신규':''}</span><br>${esc(p.name)}</td><td><button class="unit-link" onclick="openCategoryUnit('${p.id}','${r.id}',false)">${esc(r.criterion)}</button><p class="related-roles">${r.id}${r.related_categories.length?' · 함께 포함: '+r.related_categories.map(k=>cats[k]).join(' · '):''}</p><details class="unit-basis"><summary>분류 이유</summary><p>${esc(r.category_reason)}</p></details></td><td><span class="status ${r.status}">${labels[r.status]}</span></td><td><button class="clip-link" onclick="openCategoryUnit('${p.id}','${r.id}',true)">${tc(r.start)}–${tc(r.end)}<br>구간 재생</button></td></tr>`}).join('')}</tbody></table></div>`:'<p class="empty">선택한 판정에 해당하는 단위가 없습니다.</p>'}</section>`}).join('')}
+function renderTaxonomy(){const cat=$('taxonomyCategory').value,status=$('taxonomyStatus').value;const scope=allRows;const selected=scope.filter(r=>(cat==='all'||r.category===cat)&&(status==='all'||r.status===status));$('taxonomyCount').textContent=`${scope.length}단위 중 ${selected.length}개 표시 · 전달률은 전체 단위 기준`; $('taxonomyGroups').innerHTML=Object.entries(cats).filter(([k])=>cat==='all'||cat===k).map(([k,label])=>{const d=categoryDefinitions[k],base=scope.filter(r=>r.category===k),c=counts(base),rows=selected.filter(r=>r.category===k);return `<section class="taxonomy-group" data-category="${k}"><div class="taxonomy-heading"><h2>${label}</h2><p>${c.total}단위 · 전달 ${c.F}/${c.total} · <strong>${c.pct.toFixed(1)}%</strong></p></div><p class="category-question">${esc(d.question)}</p><p class="muted category-description">${esc(d.definition)}<br>예: ${esc(d.example)}</p><div class="legend">${legend(c)}</div>${rows.length?`<div class="table-wrap"><table class="taxonomy-table"><thead><tr><th>프로젝트</th><th>연출 단위 / 함께 포함된 요소</th><th>판정</th><th>영상 구간</th></tr></thead><tbody>${rows.map(r=>{const p=projects.find(p=>p.id===r.project);return `<tr data-unit="${r.id}"><td><span class="req-id">${p.id}</span><br>${esc(p.name)}</td><td><button class="unit-link" onclick="openCategoryUnit('${p.id}','${r.id}',false)">${esc(r.criterion)}</button><p class="related-roles">${r.id}${r.related_categories.length?' · 함께 포함: '+r.related_categories.map(k=>cats[k]).join(' · '):''}</p><details class="unit-basis"><summary>분류 이유</summary><p>${esc(r.category_reason)}</p></details></td><td><span class="status ${r.status}">${labels[r.status]}</span></td><td><button class="clip-link" onclick="openCategoryUnit('${p.id}','${r.id}',true)">${tc(r.start)}–${tc(r.end)}<br>구간 재생</button></td></tr>`}).join('')}</tbody></table></div>`:'<p class="empty">선택한 판정에 해당하는 단위가 없습니다.</p>'}</section>`}).join('')}
 async function openCategoryUnit(projectId,itemId,play){selectProject(projectId);await focusRequirement(itemId,play,!matchMedia('(max-width:700px)').matches)}
 
 function showOverview(){page('overview');$('mobileProject').value='';history.replaceState(null,'',location.pathname+location.search+'#overview')}
 function showMethod(){page('method');history.replaceState(null,'',location.pathname+location.search+'#method')}
-function selectProject(id,update=true){const p=projects.find(p=>p.id===id);if(!p)return;const v=$('video');v.pause();current=p;statusFilter='all';clipEnd=null;selectedId=null;$('search').value='';$('categoryFilter').value='all';page('project');$('mobileProject').value=id;document.querySelectorAll('.project-nav button').forEach(b=>{b.classList.toggle('active',b.id==='nav'+id);b.setAttribute('aria-current',b.id==='nav'+id?'page':'false')});const c=counts(p.rows);$('projectNumber').textContent=`프로젝트 ${id} · ${p.cohort==='new'?'신규':'기존'} · ${p.duration.toFixed(1)}초 · 연출 ${c.total}단위`;$('projectTitle').textContent=p.name;$('projectSubtitle').textContent=p.subtitle;$('projectScore').innerHTML=`${c.pct.toFixed(1)}%<small>전달 ${c.F} / ${c.total}단위</small>`;$('projectConclusion').textContent=p.conclusion;$('projectLegend').innerHTML=legend(c);v.style.aspectRatio=`${p.width}/${p.height}`;v.poster=p.poster;v.src=p.video_url;v.playbackRate=1;v.load();$('videoMeta').textContent=`${p.duration.toFixed(1)}초 · ${p.width}×${p.height} · 30fps`;$('playMessage').textContent='항목의 구간 버튼을 누르면 해당 부분으로 이동합니다.';$('videoClock').textContent='00:00.0';$('sourceText').textContent=p.prompt;$('sourceText').classList.remove('expanded');$('attachments').innerHTML=`<a href="${p.video_url}" download="${esc(p.id+'_'+p.name)}.mp4">${p.cohort==='new'?'첫 생성 영상 MP4':'원본 영상 MP4'}</a><a href="${p.scenario_url}" download>시나리오 TXT</a><a href="${p.original_url}" download="${esc(p.id+'_'+p.name)}.pvz">결과 프로젝트 PVZ</a>${p.input_original_url?`<a href="${p.input_original_url}" download>입력 보드 PVZ</a>`:''}<a href="scenarios/${id}_storyboard.json" download>스토리보드 JSON</a>`;$('deferredDetails').textContent=p.deferred;$('projectUnits').textContent=`총 ${p.rows.length}단위. ${p.cohort==='new'?'영상 검토 전에 원문에서 정한 단위입니다.':'기존 프리비즈 보고서의 단위와 판정을 유지했습니다.'} 각 항목의 검토 질문과 경계·묶음 근거를 펼쳐 확인하세요. 제작 디테일과 같은 사건의 카메라 조건을 별도 단위로 중복 계산하지 않았습니다.`;const notice=p.followup;$('projectNotice').textContent=notice;$('projectNotice').hidden=!notice;renderFilters();renderRows();if(update)history.replaceState(null,'',`#project=${id}`)}
+function selectProject(id,update=true){const p=projects.find(p=>p.id===id);if(!p)return;const v=$('video');v.pause();current=p;statusFilter='all';clipEnd=null;selectedId=null;$('search').value='';$('categoryFilter').value='all';page('project');$('mobileProject').value=id;document.querySelectorAll('.project-nav button').forEach(b=>{b.classList.toggle('active',b.id==='nav'+id);b.setAttribute('aria-current',b.id==='nav'+id?'page':'false')});const c=counts(p.rows);$('projectNumber').textContent=`프로젝트 ${id} · ${p.duration.toFixed(1)}초 · 연출 ${c.total}단위`;$('projectTitle').textContent=p.name;$('projectScore').innerHTML=`${c.pct.toFixed(1)}%<small>전달 ${c.F} / ${c.total}단위</small>`;$('projectConclusion').textContent=p.conclusion;$('projectLegend').innerHTML=legend(c);v.style.aspectRatio=`${p.width}/${p.height}`;v.poster=p.poster;v.src=p.video_url;v.playbackRate=1;v.load();$('videoMeta').textContent=`${p.duration.toFixed(1)}초 · ${p.width}×${p.height} · 30fps`;$('playMessage').textContent='항목의 구간 버튼을 누르면 해당 부분으로 이동합니다.';$('videoClock').textContent='00:00.0';$('sourceText').textContent=p.prompt;$('sourceText').classList.remove('expanded');$('attachments').innerHTML=`<a href="${p.video_url}" download="${esc(p.id+'_'+p.name)}.mp4">첫 생성 영상 MP4</a><a href="${p.scenario_url}" download>시나리오 TXT</a><a href="${p.original_url}" download="${esc(p.id+'_'+p.name)}.pvz">결과 프로젝트 PVZ</a>${p.input_original_url?`<a href="${p.input_original_url}" download>입력 보드 PVZ</a>`:''}<a href="scenarios/${id}_storyboard.json" download>스토리보드 JSON</a>`;$('deferredDetails').textContent=p.deferred;renderFilters();renderRows();if(update)history.replaceState(null,'',`#project=${id}`)}
 function renderFilters(){const c=counts(current.rows);$('filters').innerHTML=[['all','전체',current.rows.length],['F',labels.F,c.F],['P',labels.P,c.P],['N',labels.N,c.N]].map(([s,label,n])=>`<button class="${statusFilter===s?'active':''}" aria-pressed="${statusFilter===s}" onclick="setFilter('${s}')">${label} ${n}</button>`).join('')}
 function setFilter(s){statusFilter=s;renderFilters();renderRows()}
-function renderRows(){if(!current)return;const term=$('search').value.trim().toLocaleLowerCase(),cat=$('categoryFilter').value;const rows=current.rows.filter(r=>(statusFilter==='all'||r.status===statusFilter)&&(cat==='all'||r.category===cat)&&(!term||[r.quote,r.criterion,r.reason,r.id,r.unit_basis,r.decision_question,r.category_label,r.category_reason,...r.related_categories.map(k=>cats[k])].join(' ').toLocaleLowerCase().includes(term)));$('resultCount').textContent=`${current.rows.length} 연출 단위 중 ${rows.length}개 표시 · 사진은 대표 프레임, 버튼은 전체 검토 구간`;$('requirements').innerHTML=rows.length?rows.map(r=>`<article class="req ${selectedId===r.id?'selected':''}" id="req${r.id}" tabindex="-1"><h3>${esc(r.criterion)}</h3><div class="req-head"><span class="req-id">${r.id} · 대표: ${cats[r.category]}</span><span class="status ${r.status}">${labels[r.status]}</span></div><p class="related-roles">${r.related_categories.length?'함께 포함: '+r.related_categories.map(k=>cats[k]).join(' · '):'대표 범주 중심의 단위'}</p><blockquote class="quote">“${esc(r.quote)}”</blockquote><p class="unit-question"><strong>검토 질문</strong> ${esc(r.decision_question)}</p><details class="unit-basis"><summary>단위 경계·묶음 근거</summary><p>${esc(r.unit_basis)}</p><p><strong>대표 범주를 정한 이유</strong><br>${esc(r.category_reason)}</p></details><div class="req-body"><p class="reason">${esc(r.reason)}</p><button class="thumb" onclick="focusRequirement('${r.id}',false)" aria-label="${esc(r.criterion)} 대표 프레임 ${tc(r.evidence_time)} 확인"><img src="${r.thumb}" alt="${tc(r.evidence_time)}의 실제 렌더 프레임" loading="lazy"><small>${tc(r.evidence_time)} 정지 화면</small></button></div><div class="req-actions"><button class="${r.status==='F'?'primary':''}" onclick="focusRequirement('${r.id}',true)">${r.status==='F'?'근거':'검토'} ${tc(r.start)}–${tc(r.end)} 재생</button><button class="source-btn" onclick="highlightSource('${r.id}')">원문 위치 보기</button><a href="${r.frame}" target="_blank" rel="noopener" style="font-size:12px">프레임 확대</a></div></article>`).join(''):'<div class="empty">조건에 맞는 항목이 없습니다. 검색어나 필터를 바꿔주세요.</div>'}
+function renderRows(){if(!current)return;const term=$('search').value.trim().toLocaleLowerCase(),cat=$('categoryFilter').value;const rows=current.rows.filter(r=>(statusFilter==='all'||r.status===statusFilter)&&(cat==='all'||r.category===cat)&&(!term||[r.quote,r.criterion,r.reason,r.id,r.unit_basis,r.decision_question,r.category_label,r.category_reason,...r.related_categories.map(k=>cats[k])].join(' ').toLocaleLowerCase().includes(term)));$('resultCount').textContent=`${current.rows.length} 연출 단위 중 ${rows.length}개 표시`;$('requirements').innerHTML=rows.length?rows.map(r=>`<article class="req ${selectedId===r.id?'selected':''}" id="req${r.id}" tabindex="-1"><h3>${esc(r.criterion)}</h3><div class="req-head"><span class="req-id">${r.id} · 대표: ${cats[r.category]}</span><span class="status ${r.status}">${labels[r.status]}</span></div><p class="related-roles">${r.related_categories.length?'함께 포함: '+r.related_categories.map(k=>cats[k]).join(' · '):'대표 범주 중심의 단위'}</p><blockquote class="quote">“${esc(r.quote)}”</blockquote><p class="unit-question"><strong>검토 질문</strong> ${esc(r.decision_question)}</p><details class="unit-basis"><summary>단위 경계·묶음 근거</summary><p>${esc(r.unit_basis)}</p><p><strong>대표 범주를 정한 이유</strong><br>${esc(r.category_reason)}</p></details><div class="req-body"><p class="reason">${esc(r.reason)}</p><button class="thumb" onclick="focusRequirement('${r.id}',false)" aria-label="${esc(r.criterion)} 대표 프레임 ${tc(r.evidence_time)} 확인"><img src="${r.thumb}" alt="${tc(r.evidence_time)}의 실제 렌더 프레임" loading="lazy"><small>${tc(r.evidence_time)} 정지 화면</small></button></div><div class="req-actions"><button class="${r.status==='F'?'primary':''}" onclick="focusRequirement('${r.id}',true)">${r.status==='F'?'근거':'검토'} ${tc(r.start)}–${tc(r.end)} 재생</button><button class="source-btn" onclick="highlightSource('${r.id}')">원문 위치 보기</button><a href="${r.frame}" target="_blank" rel="noopener" style="font-size:12px">프레임 확대</a></div></article>`).join(''):'<div class="empty">조건에 맞는 항목이 없습니다. 검색어나 필터를 바꿔주세요.</div>'}
 function highlightSource(id){const r=current.rows.find(r=>r.id===id);if(!r)return;const a=r.quote_start,b=a+r.quote.length;$('sourceText').innerHTML=esc(current.prompt.slice(0,a))+'<mark id="sourceMark">'+esc(current.prompt.slice(a,b))+'</mark>'+esc(current.prompt.slice(b));const el=$('sourceMark');$('sourceText').scrollTop=el.offsetTop-$('sourceText').offsetTop-60;if(matchMedia('(max-width:700px)').matches)$('sourceText').scrollIntoView({block:'center',behavior:'instant'})}
-async function focusRequirement(id,play,scrollRow=false){const r=current.rows.find(r=>r.id===id);if(!r)return;selectedId=id;document.querySelectorAll('.req').forEach(a=>a.classList.toggle('selected',a.id==='req'+id));highlightSource(id);const v=$('video');v.pause();clipEnd=play?r.end:null;const t=play?r.start:r.evidence_time;$('playMessage').textContent=play?`${id} · ${labels[r.status]} · ${tc(r.start)}–${tc(r.end)} 재생 후 정지`:`${id} · 대표 프레임 ${tc(r.evidence_time)} · ${r.criterion}`;try{if(v.readyState<1)await new Promise((res,rej)=>{v.addEventListener('loadedmetadata',res,{once:true});v.addEventListener('error',rej,{once:true})});v.currentTime=Math.min(t,v.duration-.034);if(play)await v.play()}catch(e){$('playMessage').textContent='영상을 재생할 수 없습니다. media 폴더가 HTML과 함께 있는지 확인하거나 “원본 영상 MP4”를 열어주세요.'}history.replaceState(null,'',`#project=${current.id}&item=${id}`);if(scrollRow)$('req'+id)?.scrollIntoView({block:'center'});else if(matchMedia('(max-width:700px)').matches)$('video').scrollIntoView({block:'start',behavior:'instant'})}
+async function focusRequirement(id,play,scrollRow=false){const r=current.rows.find(r=>r.id===id);if(!r)return;selectedId=id;document.querySelectorAll('.req').forEach(a=>a.classList.toggle('selected',a.id==='req'+id));highlightSource(id);const v=$('video');v.pause();clipEnd=play?r.end:null;const t=play?r.start:r.evidence_time;$('playMessage').textContent=play?`${id} · ${labels[r.status]} · ${tc(r.start)}–${tc(r.end)} 재생 후 정지`:`${id} · 대표 프레임 ${tc(r.evidence_time)} · ${r.criterion}`;try{if(v.readyState<1)await new Promise((res,rej)=>{v.addEventListener('loadedmetadata',res,{once:true});v.addEventListener('error',rej,{once:true})});v.currentTime=Math.min(t,v.duration-.034);if(play)await v.play()}catch(e){$('playMessage').textContent='영상을 재생할 수 없습니다. media 폴더가 HTML과 함께 있는지 확인하거나 “첫 생성 영상 MP4”를 열어주세요.'}history.replaceState(null,'',`#project=${current.id}&item=${id}`);if(scrollRow)$('req'+id)?.scrollIntoView({block:'center'});else if(matchMedia('(max-width:700px)').matches)$('video').scrollIntoView({block:'start',behavior:'instant'})}
 function stepVideo(d){const v=$('video');clipEnd=null;v.pause();if(Number.isFinite(v.duration))v.currentTime=Math.max(0,Math.min(v.duration-.034,v.currentTime+d))}
 function resetClip(){clipEnd=null;$('playMessage').textContent='현재 위치부터 전체 영상을 재생합니다.';$('video').play().catch(()=>{$('playMessage').textContent='영상 재생 버튼을 눌러주세요.'})}
 $('video').addEventListener('timeupdate',()=>{const v=$('video');$('videoClock').textContent=tc(v.currentTime);if(clipEnd!==null&&v.currentTime>=clipEnd){const end=clipEnd;clipEnd=null;v.pause();v.currentTime=Math.min(end,v.duration-.034)}});

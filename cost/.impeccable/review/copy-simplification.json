@@ -1,0 +1,9 @@
+{
+  "changed": [
+    "index.html",
+    "assets/app.js"
+  ],
+  "data_files_unchanged": 27,
+  "data_hashes_match": true,
+  "removed_visible_development_context": true
+}

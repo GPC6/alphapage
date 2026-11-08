@@ -1,0 +1,89 @@
+{
+  "updated": "2026-11-08",
+  "scope": "All 18 projects are storyboard-based first-generation results, evaluated equally.",
+  "project_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+  ],
+  "evaluation_condition": {
+    "input": "user scenario and storyboard",
+    "output": "first generated scene/render",
+    "additional_user_requests": 0,
+    "manual_scene_edits": 0,
+    "internal_model_tool_iterations": "included within one application generation"
+  },
+  "confirmation": {
+    "source": "user clarification in this conversation",
+    "confirmed_on": "2026-11-08",
+    "statement": "기존 13편도 스토리보드 기반 최초 생성 결과이며, 13편과 5편을 구분하지 않고 동등하게 평가한다."
+  },
+  "evidence": {
+    "user_confirmed_project_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "recorded_execution_project_ids": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "execution_record": "first-pass-protocol.json",
+    "execution_audit": "first-pass-audit.json",
+    "note": "These record different evidence sources, not different evaluation conditions. Historical run records are retained unchanged."
+  },
+  "scoring": {
+    "unit_weight": 1,
+    "F": 1,
+    "P": 0,
+    "N": 0,
+    "aggregation": "sum of fulfilled units / sum of evaluated units; not mean of project percentages",
+    "result": {
+      "projects": 18,
+      "units": 122,
+      "F": 102,
+      "P": 17,
+      "N": 3,
+      "coverage": 83.6,
+      "duration": 536.4
+    }
+  },
+  "visual_review": {
+    "method": "AI visual inspection of extracted frames",
+    "interval_seconds": 0.5,
+    "sample_frames": 1074,
+    "additional_frames": 235,
+    "continuous_video_viewing_claim": false,
+    "evaluator_model_and_version": "not recorded in reviewed evaluation records",
+    "human_validation_scope_and_method": "not established in reviewed evaluation records"
+  },
+  "correction": "Removed the unsupported inference that the original renders were edited or incompatible with first-generation assessment. File hash differences alone do not establish manual editing."
+}

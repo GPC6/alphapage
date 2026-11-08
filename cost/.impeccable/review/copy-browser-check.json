@@ -1,0 +1,19 @@
+{
+  "desktop": {
+    "summary": "스토리보드 생성\t18\t$0.222\t3:37\n첫 씬 생성\t18\t$3.244\t11:32\n추가 씬 요청\t6\t$1.703\t5:10",
+    "projects": 18,
+    "populations": 33,
+    "page_width": 1440,
+    "no_loop_copy": true,
+    "followups_visible": "합계 $5.510 · 17:28\n회당 평균 $2.755 · 8:44"
+  },
+  "mobile": {
+    "summary": "스토리보드 생성\t18\t$0.222\t3:37\n첫 씬 생성\t18\t$3.244\t11:32\n추가 씬 요청\t6\t$1.703\t5:10",
+    "projects": 18,
+    "populations": 33,
+    "page_width": 390,
+    "no_loop_copy": true,
+    "followups_visible": "합계 $5.510 · 17:28\n회당 평균 $2.755 · 8:44"
+  },
+  "page_errors": []
+}

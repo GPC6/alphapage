@@ -1,0 +1,196 @@
+{
+  "analysis_date": "2026-11-07",
+  "scope": "First-generation 18 projects. Additional runs excluded from correlations; one expanded regeneration is a separate illustrative pair.",
+  "source_sha256": {
+    "runs.json": "d60d073a80dcf0e1da073bf7d143f2377042ced0c4b5c462c4399accb9f5a0af",
+    "additional_generation_2026-11-07/runs.json": "162f942975cdcb697ecb49ef4ad0f699ac18b1185cd14583e8e72fc63aacac91"
+  },
+  "method": {
+    "time_field": "client_elapsed_seconds",
+    "cost_field": "cost_usd",
+    "permutation_statistic": "absolute Pearson correlation",
+    "permuted_variable": "cuts, reassigned between projects within each analyzed subset",
+    "permutations": 200000,
+    "seed": 20261107,
+    "rng": "numpy.random.default_rng; reset per subset",
+    "batch_size": 10000,
+    "numpy_version": "2.5.1",
+    "formula": "(count(abs(r_perm) >= abs(r_observed) - 1e-14) + 1) / (200000 + 1)",
+    "spearman": "Pearson correlation of average ranks, with ties assigned average rank",
+    "interpretation": "Exploratory, unadjusted observational associations; non-significance does not establish absence of effect. No causal isolation or omnibus group/nonlinear test."
+  },
+  "cut_count_groups": [
+    {
+      "cuts": 4,
+      "n": 1,
+      "mean_elapsed_seconds": 629.563214302063,
+      "mean_cost_usd": 2.91207786,
+      "elapsed_range_seconds": [
+        629.563214302063,
+        629.563214302063
+      ],
+      "cost_range_usd": [
+        2.91207786,
+        2.91207786
+      ]
+    },
+    {
+      "cuts": 6,
+      "n": 4,
+      "mean_elapsed_seconds": 762.7524610739201,
+      "mean_cost_usd": 3.76510489,
+      "elapsed_range_seconds": [
+        524.441192958504,
+        949.507503207773
+      ],
+      "cost_range_usd": [
+        2.11525088,
+        5.5557106
+      ]
+    },
+    {
+      "cuts": 8,
+      "n": 8,
+      "mean_elapsed_seconds": 630.6521035078913,
+      "mean_cost_usd": 2.971962335,
+      "elapsed_range_seconds": [
+        339.45101237669587,
+        838.5603127516806
+      ],
+      "cost_range_usd": [
+        1.7945111,
+        3.75721798
+      ]
+    },
+    {
+      "cuts": 10,
+      "n": 2,
+      "mean_elapsed_seconds": 676.4074268545955,
+      "mean_cost_usd": 3.11658118,
+      "elapsed_range_seconds": [
+        632.4860401265323,
+        720.3288135826588
+      ],
+      "cost_range_usd": [
+        3.05557392,
+        3.17758844
+      ]
+    },
+    {
+      "cuts": 12,
+      "n": 3,
+      "mean_elapsed_seconds": 791.1242569722235,
+      "mean_cost_usd": 3.4699729533333334,
+      "elapsed_range_seconds": [
+        535.6791532896459,
+        934.1853577494621
+      ],
+      "cost_range_usd": [
+        2.7765555,
+        4.03519438
+      ]
+    }
+  ],
+  "correlations": {
+    "all_18": {
+      "n": 18,
+      "run_ids": [
+        "scene_20261025_224239_774a8a07",
+        "scene_20261025_225129_5b8c2fdb",
+        "scene_20261025_230334_cabc8bc8",
+        "scene_20261025_231414_9ec7959f",
+        "scene_20261025_232924_b1f31766",
+        "scene_20261025_233823_5989c45c",
+        "scene_20261025_234903_8576fb0b",
+        "scene_20261026_000443_64a6122e",
+        "scene_20261026_001026_c12ffe0b",
+        "scene_20261026_002101_61256c48",
+        "scene_20261026_003336_895a9404",
+        "scene_20261026_014320_236133cb",
+        "scene_20261026_015711_a0f3c5aa",
+        "scene_20261104_115336_d0ddc316",
+        "scene_20261031_023844_c6cbcab9",
+        "scene_20261031_011027_06a51b35",
+        "scene_20261029_031331_f3f3eb58",
+        "scene_20261023_034249_db6f4629"
+      ],
+      "outcomes": {
+        "client_elapsed_seconds": {
+          "pearson_r": 0.12977929847774042,
+          "spearman_rho": 0.06752586787596417,
+          "two_sided_permutation_p": 0.6058169709151454,
+          "permutation_exceedances": 121163
+        },
+        "cost_usd": {
+          "pearson_r": -0.020080892235145108,
+          "spearman_rho": 0.04029769534533345,
+          "two_sided_permutation_p": 0.9372303138484308,
+          "permutation_exceedances": 187446
+        }
+      }
+    },
+    "excluding_clock_retry_case_17": {
+      "n": 17,
+      "run_ids": [
+        "scene_20261025_224239_774a8a07",
+        "scene_20261025_225129_5b8c2fdb",
+        "scene_20261025_230334_cabc8bc8",
+        "scene_20261025_231414_9ec7959f",
+        "scene_20261025_232924_b1f31766",
+        "scene_20261025_233823_5989c45c",
+        "scene_20261025_234903_8576fb0b",
+        "scene_20261026_000443_64a6122e",
+        "scene_20261026_001026_c12ffe0b",
+        "scene_20261026_002101_61256c48",
+        "scene_20261026_014320_236133cb",
+        "scene_20261026_015711_a0f3c5aa",
+        "scene_20261104_115336_d0ddc316",
+        "scene_20261031_023844_c6cbcab9",
+        "scene_20261031_011027_06a51b35",
+        "scene_20261029_031331_f3f3eb58",
+        "scene_20261023_034249_db6f4629"
+      ],
+      "outcomes": {
+        "client_elapsed_seconds": {
+          "pearson_r": 0.2546484615240041,
+          "spearman_rho": 0.2187233020075896,
+          "two_sided_permutation_p": 0.3229883850580747,
+          "permutation_exceedances": 64597
+        },
+        "cost_usd": {
+          "pearson_r": 0.2172051609174553,
+          "spearman_rho": 0.1848732671730817,
+          "two_sided_permutation_p": 0.4009629951850241,
+          "permutation_exceedances": 80192
+        }
+      }
+    }
+  },
+  "cuts_vs_requested_duration_pearson_r": 0.8134142341176048,
+  "expanded_regeneration_pair": {
+    "project": "전독시",
+    "run_ids": [
+      "scene_20261104_115336_d0ddc316",
+      "scene_20261104_122704_b817245c"
+    ],
+    "cuts": [
+      4,
+      8
+    ],
+    "target_duration_seconds": [
+      13,
+      34
+    ],
+    "elapsed_seconds": [
+      629.563214302063,
+      812.9819398000836
+    ],
+    "cost_usd": [
+      2.91207786,
+      4.36911078
+    ],
+    "time_increase_percent": 29.13428252020087,
+    "cost_increase_percent": 50.03413335933262,
+    "caveat": "Content and total duration changed; one non-repeated pair does not isolate cut count."
+  }
+}
