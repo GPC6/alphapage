@@ -1,0 +1,37 @@
+﻿pipeline,project_id,project,run_id,cuts,duration_seconds,duration_basis,elapsed_seconds,cost_usd,exception
+scene,1,야간 인수인계,scene_20261025_224239_774a8a07,8,23.5,scene_request,523.4855602048337,2.5221859,False
+scene,2,문 너머의 누나,scene_20261025_225129_5b8c2fdb,10,36,scene_request,720.3288135826588,3.17758844,False
+scene,3,행복아파트 브이로그,scene_20261025_230334_cabc8bc8,8,17,scene_request,636.568859167397,2.74091618,False
+scene,4,한밤의 물고기 인간,scene_20261025_231414_9ec7959f,12,40.5,scene_request,903.5082598775625,4.03519438,False
+scene,5,바닷속 도시의 환영,scene_20261025_232924_b1f31766,12,40,scene_request,535.6791532896459,2.7765555,False
+scene,6,조하영,scene_20261025_233823_5989c45c,10,32.5,scene_request,632.4860401265323,3.05557392,False
+scene,7,터널 효과의 이론과 실제 사이,scene_20261025_234903_8576fb0b,12,47.5,scene_request,934.1853577494621,3.59816898,False
+scene,8,261019,scene_20261026_000443_64a6122e,8,20.200000762939453,scene_request,339.45101237669587,1.7945111,False
+scene,9,261020,scene_20261026_001026_c12ffe0b,8,21.66699981689453,scene_request,627.5279052108526,3.17259516,False
+scene,10,개미보다 작아진 남자,scene_20261026_002101_61256c48,6,25.5,scene_request,750.4178674183786,3.51755184,False
+scene,11,공룡에게 츄르를,scene_20261026_003336_895a9404,6,16,scene_request,949.507503207773,5.5557106,True
+scene,12,커피에 빠진 행성,scene_20261026_014320_236133cb,6,26.5,scene_request,826.643280711025,3.87190624,False
+scene,13,The Last Light - 마지막 빛,scene_20261026_015711_a0f3c5aa,6,24,scene_request,524.441192958504,2.11525088,False
+scene,14,전독시,scene_20261104_115336_d0ddc316,4,13,scene_request,629.563214302063,2.91207786,False
+scene,15,도심 추격 2,scene_20261031_023844_c6cbcab9,8,34,scene_request,838.5603127516806,3.75721798,False
+scene,16,카페 헌팅,scene_20261031_011027_06a51b35,8,24.200000762939453,scene_request,620.8881561234593,3.02263318,False
+scene,17,숲 속의 화재,scene_20261029_031331_f3f3eb58,8,33,scene_request,666.6488626003265,3.07831346,False
+scene,18,도심 추격,scene_20261023_034249_db6f4629,8,37,scene_request,792.0861596278846,3.68732572,False
+storyboard,1,야간 인수인계,run_night_handoff_measurement_20261108_57427c7c,8,43.0,generated_storyboard,166.391,0.2301695,True
+storyboard,2,문 너머의 누나,storyboard_20261021_120959_c472d10c,10,36.0,generated_storyboard,310.25,0.2876747,False
+storyboard,3,행복아파트 브이로그,storyboard_20261021_114739_26cd01d3,8,17.0,generated_storyboard,174.311,0.204887,False
+storyboard,4,한밤의 물고기 인간,storyboard_20261014_095545_22439e01,12,40.5,generated_storyboard,269.145,0.2780747,False
+storyboard,5,바닷속 도시의 환영,storyboard_20261014_115111_31656cb4,12,40.0,generated_storyboard,228.27,0.277042,False
+storyboard,6,조하영,storyboard_20261021_060932_fca2973d,10,32.5,generated_storyboard,213.703,0.2403622,False
+storyboard,7,터널 효과의 이론과 실제 사이,storyboard_20261021_064609_9716f725,12,47.5,generated_storyboard,315.751,0.3179695,False
+storyboard,8,261019,storyboard_20261019_093327_866b8efd,8,20.0,generated_storyboard,180.205,0.201562,False
+storyboard,9,261020,storyboard_20261020_173909_d6c59451,8,22.8,generated_storyboard,232.856,0.2255222,False
+storyboard,10,개미보다 작아진 남자,storyboard_20261014_032556_6a0398c0,6,25.5,generated_storyboard,210.851,0.1819297,False
+storyboard,11,공룡에게 츄르를,storyboard_20261014_052643_76562b30,6,16.0,generated_storyboard,191.077,0.178037,False
+storyboard,12,커피에 빠진 행성,storyboard_20261016_025343_4a5901a2,6,26.5,generated_storyboard,202.564,0.184427,False
+storyboard,13,The Last Light - 마지막 빛,storyboard_20261013_123026_9fb2e8f9,6,24.0,generated_storyboard,262.692,0.1583578,False
+storyboard,14,전독시,storyboard_20261104_114018_071539b4,4,13.0,generated_storyboard,204.501,0.1557395,False
+storyboard,15,도심 추격 2,storyboard_20261031_023431_dda49b52,8,34.0,generated_storyboard,150.432,0.2253445,False
+storyboard,16,카페 헌팅,storyboard_20261031_010043_0bb876b3,8,24.2,generated_storyboard,144.407,0.2045595,False
+storyboard,17,숲 속의 화재,storyboard_20261029_030833_c878efdc,8,33.0,generated_storyboard,160.029,0.206862,False
+storyboard,18,도심 추격,storyboard_20261023_033129_2241f320,8,37.0,generated_storyboard,280.54,0.2435695,False

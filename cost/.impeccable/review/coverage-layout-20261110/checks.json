@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "label": "desktop",
+      "passed": true
+    },
+    {
+      "label": "mobile",
+      "passed": true
+    },
+    {
+      "offline": true
+    }
+  ],
+  "issues": []
+}

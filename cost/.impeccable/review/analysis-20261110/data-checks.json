@@ -1,0 +1,16 @@
+{
+  "original_source_data_unchanged": true,
+  "original_cost_totals_reconciled": true,
+  "legacy_cut_correlations_reproduced": true,
+  "ols_residual_sums_checked_for_16_relations": true,
+  "manifest_files_verified": 36,
+  "download_csv_matches_file_bytes": true,
+  "zip_entries_match_current_data": true,
+  "rows": {
+    "relationship_points": 36,
+    "relationship_statistics": 16,
+    "timing_turns": 639,
+    "timing_tools": 1216
+  },
+  "private_path_account_prompt_scan": "clear"
+}

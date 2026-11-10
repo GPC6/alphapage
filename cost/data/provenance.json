@@ -128,5 +128,43 @@
       "source_metadata",
       "source_pvz"
     ]
+  },
+  {
+    "source_file": "bottlenecks_18_2026-11-10/projects.json",
+    "packaged_file": "source/timing-projects.json",
+    "sha256": "2804b334362138720a818c13f8a0737f5ac98bae437418102195ce8c7397d157",
+    "excluded_fields": [
+      "source_sha256"
+    ]
+  },
+  {
+    "source_file": "bottlenecks_18_2026-11-10/additional_runs.json",
+    "packaged_file": "source/timing-additional.json",
+    "sha256": "698b7c79dbd96bb2d09e606606e6ceec414041dab67607e5d670fa2f9f80ebbf",
+    "excluded_fields": [
+      "source_sha256"
+    ]
+  },
+  {
+    "source_file": "bottlenecks_18_2026-11-10/statistics.json",
+    "packaged_file": "source/timing-statistics.json",
+    "sha256": "9c8a692bb3d07479cb47740ceb9e035223953eb20a0ec59f285dc63fd608b61a",
+    "excluded_fields": []
+  },
+  {
+    "source_file": "bottlenecks_18_2026-11-10/turns.json",
+    "packaged_file": "source/timing-turns.json",
+    "sha256": "fb1d322892ab96efcd17a74ee13bf83e327df703a3edf6f34fc58e5b7ec3ac19",
+    "excluded_fields": [
+      "source_sha256"
+    ]
+  },
+  {
+    "source_file": "bottlenecks_18_2026-11-10/tool_calls.json",
+    "packaged_file": "source/timing-tools.json",
+    "sha256": "1cc21e489e3079c3f2f037c3cc8c279043f8312396c2ae0b67eac34658603528",
+    "excluded_fields": [
+      "source_sha256"
+    ]
   }
 ]

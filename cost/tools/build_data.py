@@ -7,6 +7,7 @@ import statistics
 import zipfile
 from decimal import Decimal
 from pathlib import Path
+from build_analysis import build_relationships, build_timing
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
@@ -138,7 +139,10 @@ for p in projects:
          followup_record_count=f['n'], followup_total_usd=f['total'], followup_mean_usd=f['mean'],
          followup_total_seconds=t['total'], followup_mean_seconds=t['mean']))
 
-payload={'version':1, 'published':'2026-11-09', 'currency':'USD', 'projects':projects, 'runs':runs, 'groups':groups,
+relationships = build_relationships(story, scene)
+timing = build_timing(read)
+payload={'version':2, 'published':'2026-11-10', 'currency':'USD', 'projects':projects, 'runs':runs, 'groups':groups,
+         'timing':timing, 'relationships':relationships,
          'correlations':read('cut-count-analysis.json'), 'types':types,
          'method':{'percentiles':'선형 보간: 정렬 후 위치 (n−1)×p. PERCENTILE.INC와 동일.',
                    'standard_deviation':'표본 표준편차 (n−1). 표본 1건일 때 정의하지 않음.',
@@ -155,6 +159,13 @@ write('report.json',payload)
 (ROOT/'assets'/'data.js').write_text('window.REPORT_DATA = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n')
 write('runs.json', runs); write('statistics.json', groups); write('projects.json', project_rows)
 csv_file('runs.csv',runs); csv_file('statistics.csv',flat_stats); csv_file('projects.csv',project_rows)
+write('relationships.json', relationships)
+csv_file('relationship-points.csv', relationships['points'])
+csv_file('relationship-statistics.csv', [dict(dataset=d['id'], **r) for d in relationships['datasets'] for r in d['results']])
+write('timing.json', timing)
+csv_file('timing-projects.csv', timing['projects'])
+csv_file('timing-turns.csv', read('timing-turns.json'))
+csv_file('timing-tools.csv', read('timing-tools.json'))
 for kind in types:
     csv_file(kind+'.csv', [r for r in runs if r['pipeline']==kind])
 manifest=[]

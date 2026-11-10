@@ -1,0 +1,29 @@
+{
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "console_errors": [],
+  "offline_file_open": true,
+  "legacy_observations": 79,
+  "batch_runs": [
+    19,
+    18,
+    18
+  ],
+  "limited_filters": [
+    0,
+    2,
+    8
+  ],
+  "search": true,
+  "empty_state": true,
+  "detail": true,
+  "keyboard_tabs": true,
+  "no_page_overflow": true,
+  "download_files": 26
+}

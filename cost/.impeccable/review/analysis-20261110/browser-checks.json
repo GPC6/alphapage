@@ -1,0 +1,29 @@
+[
+  {
+    "viewport": "desktop",
+    "errors": [],
+    "overflow": false,
+    "selected": "야간 인수인계 · 8컷 · 영상 23.5초 · 생성 8:43 · $2.522",
+    "caption": "17건에서 영상 길이와 생성 시간의 관계를 확정하기 어려움. r = 0.587, 보정 p = 0.0538.",
+    "styles": {
+      "body": "rgb(16, 21, 30)",
+      "caption": "rgb(170, 184, 203)"
+    }
+  },
+  {
+    "viewport": "mobile",
+    "errors": [],
+    "overflow": false,
+    "selected": "야간 인수인계 · 8컷 · 영상 23.5초 · 생성 8:43 · $2.522",
+    "caption": "17건에서 영상 길이와 생성 시간의 관계를 확정하기 어려움. r = 0.587, 보정 p = 0.0538.",
+    "styles": {
+      "body": "rgb(16, 21, 30)",
+      "caption": "rgb(170, 184, 203)"
+    }
+  },
+  {
+    "offline": true,
+    "relationPoints": 18,
+    "timingRows": 3
+  }
+]

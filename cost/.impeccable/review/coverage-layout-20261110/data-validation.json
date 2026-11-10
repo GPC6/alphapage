@@ -1,0 +1,19 @@
+{
+  "original_observations": 79,
+  "original_projects": 18,
+  "original_scene_cost_usd": "58.39127732",
+  "original_files_match_prior_manifest": [
+    "report.json",
+    "runs.json",
+    "runs.csv",
+    "projects.json",
+    "statistics.json",
+    "timing.json",
+    "relationships.json"
+  ],
+  "embedded_original_data_matches_report": true,
+  "comparison_cohorts": 4,
+  "new_attempts": 55,
+  "new_results": 54,
+  "zip_and_manifest_verified": true
+}

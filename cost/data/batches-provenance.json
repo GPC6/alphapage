@@ -1,0 +1,87 @@
+[
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/statistics.json",
+    "sha256": "61108597c4714cdcbd2cfda9a71427fe0cb19a94789fa0887755cdb3ffa9fe4e"
+  },
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/final_validation.json",
+    "sha256": "f736d7644e319a6419cf5d3fa4d9716d236d7bbcf3adb3578d58b68b0805b542"
+  },
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/versions.json",
+    "sha256": "19ede7bd36bff8a3d865d01fc2f47a9595228d5c86aaf756c9296b49d5aec4b1"
+  },
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/runs.json",
+    "sha256": "0c133a9e510f72432fa1d4b06c7bcaffade4556abcba41b14f2daafda760c767"
+  },
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/runs_retry_15.json",
+    "sha256": "8b2828145863f218c81befeb07c86e996d04a1d60bfa45c6bcbd8e661c52464c"
+  },
+  {
+    "batch": "claude-ai",
+    "file": "ai_previz_18_2026-11-09/runs.csv",
+    "sha256": "f67be29b483625f3ce9512989da56d1cd8a4624f2591371e86b2951da871ec60"
+  },
+  {
+    "batch": "gpt-ai",
+    "file": "ai_previz_gpt6sol_18_2026-11-10/statistics.json",
+    "sha256": "b4832c058d1deac36e3bab528c121fbb835fc0a10106536f93261f48c4ffafad"
+  },
+  {
+    "batch": "gpt-ai",
+    "file": "ai_previz_gpt6sol_18_2026-11-10/final_validation.json",
+    "sha256": "713886c309279b445b1eb157f77591f85d1eefcefc73e33a80f0b416c4b6282e"
+  },
+  {
+    "batch": "gpt-ai",
+    "file": "ai_previz_gpt6sol_18_2026-11-10/versions.json",
+    "sha256": "a3f1d6c53ec6089bf3abb2862fdab41799cf84c14c90a053f8828a5b184662ef"
+  },
+  {
+    "batch": "gpt-ai",
+    "file": "ai_previz_gpt6sol_18_2026-11-10/runs.json",
+    "sha256": "4a2c7a8548218acc342a2ca38425d99e6b1f5d081a0db223c87d695f0d27a100"
+  },
+  {
+    "batch": "gpt-ai",
+    "file": "ai_previz_gpt6sol_18_2026-11-10/runs.csv",
+    "sha256": "2ec5930012cb188b33d7daa2c75d3493306369afcaa8ab3a5ca04d08112bf253"
+  },
+  {
+    "batch": "gpt-normal",
+    "file": "normal_gpt6sol_18_2026-11-10/statistics.json",
+    "sha256": "29ead4cf77e683a06032b19c8874cecfe3899b58331c2ef0fcbb9885e0d0366b"
+  },
+  {
+    "batch": "gpt-normal",
+    "file": "normal_gpt6sol_18_2026-11-10/final_validation.json",
+    "sha256": "85f041c8e2c4ef0e6efae8bc43d29d8f30b61dceeadbcbf6bc7e19ea4dae6886"
+  },
+  {
+    "batch": "gpt-normal",
+    "file": "normal_gpt6sol_18_2026-11-10/versions.json",
+    "sha256": "68019292d202990af329a5f493d14be5891c1744c0562533e6a3baa63421e356"
+  },
+  {
+    "batch": "gpt-normal",
+    "file": "normal_gpt6sol_18_2026-11-10/runs.json",
+    "sha256": "d8bb709206eedbc8231af66f5efeec83646e3dfacf178dad4abd306c89c542a4"
+  },
+  {
+    "batch": "gpt-normal",
+    "file": "normal_gpt6sol_18_2026-11-10/runs.csv",
+    "sha256": "1952b9af9f8fe17a65b976b1739e119e9c5ab53ef9319800fa1bd8ceaf75bb74"
+  },
+  {
+    "batch": "legacy",
+    "file": "previzion-performance-report/data/report.json",
+    "sha256": "cee0ade91ffb9206811d812d99f361d08f00f9f027bb3b923dc40c4c878eaf66"
+  }
+]

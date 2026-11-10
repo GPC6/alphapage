@@ -1,11 +1,19 @@
 {
-  "projects": 18,
-  "runs": 79,
-  "populations": 33,
-  "unique_record_ids": 79,
-  "unobserved_followup_projects": 15,
-  "zip_files": 25,
-  "relative_links_valid": 15,
-  "data_contains_no_account_or_local_path_fields": true,
-  "manifest_matches": true
+  "new_results": 54,
+  "new_attempts": 55,
+  "legacy_observations": 79,
+  "cost_totals": [
+    "53.5203902",
+    "30.641127",
+    "39.127024"
+  ],
+  "cost_reconciled": true,
+  "decimal_sum_delta_from_source_float": [
+    "3E-16",
+    "0.000000",
+    "0.000000"
+  ],
+  "manifest_valid": true,
+  "zip_crc_valid": true,
+  "whitelisted_payload": true
 }

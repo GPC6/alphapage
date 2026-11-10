@@ -8,7 +8,7 @@
   const duration = v => {if(v == null) return '—'; const s = Math.round(v); return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');};
   const date = v => v ? new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(v)) : '—';
   const group = id => D.groups.find(g => g.id === id);
-  const colors = {storyboard:'#79d7c7',scene:'#9ab7ff',followup:'#f2bc7c'};
+  const colors = {storyboard:'#79dbb5',scene:'#a9caff',followup:'#f0c879'};
   let selected = 1, rawPage = 0, filteredRaw = [];
   const pageSize = 15;
   const marker = kind => `<i class="marker ${kind==='storyboard'?'board':kind==='followup'?'follow':'scene'}" aria-hidden="true"></i>`;
@@ -40,7 +40,8 @@
     $('project-detail').innerHTML=`<div class="detail-heading"><h3 id="detail-title" tabindex="-1">${esc(p.name)}</h3><span>${p.cohort==='beta_030'?'기존 베타':'신규 웹'} · 첫 씬 ${p.cuts}컷</span></div>${note?`<p class="detail-note">${esc(note)}</p>`:''}<div class="detail-grid"><div><h4 class="board-ink">스토리보드 생성</h4><table><thead><tr><th>단계</th><th class="numeric">비용 USD</th><th class="numeric">시간</th></tr></thead><tbody>${stageRows.map(r=>costRow(...r)).join('')}</tbody></table><p>${date(s.started_utc)} KST · ${s.cuts}컷 · 결과 길이 ${number(s.generated_duration_seconds)}초</p><code class="run-id">${esc(s.run_id)}</code></div><div><h4 class="scene-ink">첫 씬 생성</h4><table><thead><tr><th>측정 항목</th><th class="numeric">값</th></tr></thead><tbody><tr><td>전체 API 비용</td>${td(money(c.cost_usd,8))}</tr><tr><td>씬 모델 / 임베딩</td>${td(money(c.scene_model_cost_usd,6)+' / '+money(c.embedding_cost_usd,8))}</tr><tr><td>클라이언트 타이머</td>${td(duration(c.elapsed_seconds)+' <span class="stat-unit">'+number(c.elapsed_seconds)+'초</span>')}</tr><tr><td>UTC 시작–종료 차이</td>${td(duration(c.wall_elapsed_seconds))}</tr><tr><td>턴 / 유료 호출</td>${td(c.turns+' / '+c.billable_calls)}</tr></tbody></table><p>${date(c.started_utc)} KST · 요청 영상 ${number(c.target_duration_seconds)}초</p><code class="run-id">${esc(c.run_id)}</code></div></div><div class="detail-follow"><h4 class="follow-ink">추가 씬 요청 ${p.followups.length?`· ${p.followups.length}건`:''}</h4>${p.followups.length?`<div class="table-scroll" tabindex="0" role="region" aria-label="선택한 프로젝트의 추가요청 내역"><table><thead><tr><th>요청</th><th>시작 시각 KST</th><th class="numeric">비용 USD</th><th class="numeric">시간</th><th class="numeric">턴</th></tr></thead><tbody>${p.followups.map((r,i)=>`<tr><td>${i+1}. ${r.kind==='expanded_regeneration'?'전체 확장 재생성':'씬 수정'}<code class="run-id">${esc(r.run_id)}</code></td><td>${date(r.started_utc)}</td>${td(money(r.cost_usd,6))}${td(duration(r.elapsed_seconds))}${td(r.turns)}</tr>`).join('')}</tbody></table></div><div class="totals"><span>합계 <strong>${money(p.followup_cost_stats.total)} · ${duration(p.followup_time_stats.total)}</strong></span><span>회당 평균 <strong>${money(p.followup_cost_stats.mean)} · ${duration(p.followup_time_stats.mean)}</strong></span></div>`:'<p>집계 기록 없음.</p>'}<p>별도 스토리보드 기록: 컷 재생성 ${p.panels.length}회${p.expansions.length?' · 전체 확장 '+p.expansions.length+'건':''}.</p><div class="detail-actions"><a href="#raw" id="project-raw-link">이 프로젝트 원자료 보기 →</a>${p.followups.length?'<a href="#statistics" id="project-stats-link">추가요청 전체 통계 보기 →</a>':''}</div></div>`;
     $('project-raw-link').addEventListener('click',()=>{$('raw-project').value=String(id);$('raw-kind').value='all';rawPage=0;renderRaw();});
     $('project-stats-link')?.addEventListener('click',()=>{$('population').value='followup-project-'+id;renderStats();});
-    if(scroll){$('detail-title').focus({preventScroll:true});$('project-detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
+    if(scroll) window.dispatchEvent(new CustomEvent('report:project',{detail:{id:'legacy',number:id}}));
+    if(scroll){$('detail-title').focus({preventScroll:true});}
   }
 
   function renderChart() {
@@ -88,7 +89,6 @@
   }
   const base=group('storyboard').metrics;
   $('stage-table').innerHTML='<table><thead><tr><th>단계</th><th class="numeric">평균 시간</th><th class="numeric">시간 비중</th><th class="numeric">평균 비용 USD</th><th class="numeric">비용 비중</th></tr></thead><tbody>'+['draft','structure','images'].map((key,i)=>{const m=group('story-'+key).metrics;return `<tr><td>${['연출안 작성','구조화·검사','컷 이미지 생성'][i]}</td>${td(number(m[key+'_seconds'].mean,1)+'초')}${td(number(m[key+'_seconds'].total/base.elapsed_seconds.total*100,1)+'%')}${td(money(m[key+'_usd'].mean,6))}${td(number(m[key+'_usd'].total/base.cost_usd.total*100,1)+'%')}</tr>`;}).join('')+'</tbody></table>';
-  $('correlation-table').innerHTML='<table><thead><tr><th>표본</th><th>측정 지표</th><th class="numeric">Pearson r</th><th class="numeric">Spearman ρ</th><th class="numeric">순열 p</th></tr></thead><tbody>'+Object.entries(D.correlations.correlations).flatMap(([key,v])=>Object.entries(v.outcomes).map(([metric,r])=>`<tr><td>${key==='all_18'?'전체 18건':'간극/재시도 사례 제외 17건'}</td><td>컷 수 ↔ ${metric==='cost_usd'?'비용':'시간'}</td>${td(number(r.pearson_r,4))}${td(number(r.spearman_rho,4))}${td(number(r.two_sided_permutation_p,4))}</tr>`)).join('')+'</tbody></table>';
 
   $('raw-project').innerHTML+=D.projects.map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('');
   function renderRaw() {
@@ -111,8 +111,6 @@
   $('raw-prev').addEventListener('click',()=>{rawPage--;renderRaw();});$('raw-next').addEventListener('click',()=>{rawPage++;renderRaw();});
   $('chart-kind').addEventListener('change',renderChart);
   let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(renderChart,150);});
-  const sections=[...document.querySelectorAll('main>section')];
-  const syncNav=()=>{const current=sections.filter(s=>s.getBoundingClientRect().top<=130).at(-1)||sections[0];document.querySelectorAll('.site-nav a').forEach(a=>a.classList.toggle('active',a.hash==='#'+current.id));};
-  window.addEventListener('scroll',syncNav,{passive:true});
+  window.LegacyReport={selectProject};
   selectProject(1);renderStats();renderRaw();renderChart();
 })();

@@ -1,0 +1,5 @@
+﻿label,model,mode,final_projects,cuts,final_cost_usd,all_attempts_cost_usd,mean_app_seconds,mean_server_seconds,agent_complete,bounded_fallback
+Claude · 일반 모드,anthropic/claude-opus-5.5,normal,18,148,58.39127732,58.39127732,691.7765284048187,691.6786111111111,18,0
+Claude · AI 프리비즈,anthropic/claude-opus-5.5,ai_previz,18,152,51.416682,53.5203902,615.5298333333334,614.6454444444445,18,0
+GPT-6 Sol · 일반 모드,openai/gpt-6-sol,normal,18,152,39.127024,39.127024,596.2568888888889,595.1942222222223,10,8
+GPT-6 Sol · AI 프리비즈,openai/gpt-6-sol,ai_previz,18,152,30.641127,30.641127,566.5369444444444,565.4221111111111,16,2

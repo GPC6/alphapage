@@ -1,8 +1,38 @@
 [
   {
     "path": "README.md",
-    "bytes": 2044,
-    "sha256": "eb6a9a6725017c67a9653d2bccf188cbd6772f2cfdebfdf72dd595ba7fa16a7d"
+    "bytes": 7174,
+    "sha256": "a5a1ceb4c7fa80c2b288f2af1ce9264db011a544d14ad0e5ec595c8b35e2bc29"
+  },
+  {
+    "path": "batch-comparison.csv",
+    "bytes": 656,
+    "sha256": "bba32af6ee3b4b42b399e477a6f29797114d7194e8f608043bef4d9062724ea2"
+  },
+  {
+    "path": "batch-runs.csv",
+    "bytes": 15455,
+    "sha256": "a82999f6659731662531f90bc6746fce1ae16d9816d9adf120d59e0a38da6a43"
+  },
+  {
+    "path": "batches-provenance.json",
+    "bytes": 2944,
+    "sha256": "0b7f7a648b905f1a5f9fd3bd4848af1ae714996c55fef505bfdda03324f3e356"
+  },
+  {
+    "path": "batches.json",
+    "bytes": 72768,
+    "sha256": "580bb1029c4c117e75ab42277bc8455825199b21352f38f88ddaf5517c5fbd7b"
+  },
+  {
+    "path": "claude-ai-runs.csv",
+    "bytes": 5685,
+    "sha256": "74a0e3446c6a5adac1fcf795354b48ce43915851393a2424d742d4c4cb88828f"
+  },
+  {
+    "path": "claude-ai.json",
+    "bytes": 19869,
+    "sha256": "ce41928f1637e6705a8fc941d8cbccf0f9f15b89ec63bc4552bd86f396af85dd"
   },
   {
     "path": "expansion.csv",
@@ -13,6 +43,36 @@
     "path": "followup.csv",
     "bytes": 1470,
     "sha256": "5e1dd23cc0bc9c248415d8ff27801a1aca52688266abab28b4c324a1712f77ee"
+  },
+  {
+    "path": "gpt-ai-runs.csv",
+    "bytes": 5180,
+    "sha256": "22188b98c8da12412a0ec1d79ef2d8cc827da76c97c193bfbce4396d1004c0fd"
+  },
+  {
+    "path": "gpt-ai.json",
+    "bytes": 18736,
+    "sha256": "2f14a071bc7bdfb0b0762fb41e7825a0c5ad2718a7d9d16b17a95626d0465e7b"
+  },
+  {
+    "path": "gpt-normal-runs.csv",
+    "bytes": 5226,
+    "sha256": "a79225fa8e88818b76d2bcfdda25aa51f5ad5d90ce935450a83ae3a154438c74"
+  },
+  {
+    "path": "gpt-normal.json",
+    "bytes": 18723,
+    "sha256": "1a40145d63c7f50f25f66d77fe67d22438adb1a21b0f30119a9daed4e70fd673"
+  },
+  {
+    "path": "mode-comparison.csv",
+    "bytes": 654,
+    "sha256": "8a9b07bace322dfe74a0d3a763be514b78ae7871b83236f7c708ce43309c48a0"
+  },
+  {
+    "path": "mode-comparison.json",
+    "bytes": 73326,
+    "sha256": "7ee24621e7f8ad5b4e885c5115c8dcab9b2a09227823865a2b9e9452fe8f8a9e"
   },
   {
     "path": "panel.csv",
@@ -31,13 +91,28 @@
   },
   {
     "path": "provenance.json",
-    "bytes": 4035,
-    "sha256": "cdd6542bdaffe8aba8187ef3754a44b535db732973eae2f7c41100b9ac59ae16"
+    "bytes": 5304,
+    "sha256": "b2cc13b04188fa5f52c420e17c725a321080c5cb3d6ed2b0bb3e3c3ce92b75b0"
+  },
+  {
+    "path": "relationship-points.csv",
+    "bytes": 4457,
+    "sha256": "c64fa0c61eb29718187560683b330a9ce3fc8dc229dac121b8ae91c73a46b220"
+  },
+  {
+    "path": "relationship-statistics.csv",
+    "bytes": 3998,
+    "sha256": "65e626d770b9a4dc8ef5fed2ea0baae991d34947ee59275f84e63819596f6d6d"
+  },
+  {
+    "path": "relationships.json",
+    "bytes": 51689,
+    "sha256": "27698335eb82fe164adee0efb8b866f1b7675f403edbcf34595297841789622a"
   },
   {
     "path": "report.json",
-    "bytes": 282017,
-    "sha256": "861c34999919b32994e265a3e1a43cd6fdc34fbe01bd3d3a9fa9ad6f623288da"
+    "bytes": 535621,
+    "sha256": "cee0ade91ffb9206811d812d99f361d08f00f9f027bb3b923dc40c4c878eaf66"
   },
   {
     "path": "runs.csv",
@@ -105,6 +180,31 @@
     "sha256": "52d2076619b1a14c9bc3e690481bf4b43472b85b2fa6b2ddc321993a15a3f2e5"
   },
   {
+    "path": "source/timing-additional.json",
+    "bytes": 9802,
+    "sha256": "b3a2cf022f8ba1d4c1f671872ccb177936e91ba05657cb6163573b76357e46c9"
+  },
+  {
+    "path": "source/timing-projects.json",
+    "bytes": 31520,
+    "sha256": "64a80cddc8bd90991055f4b1a301ae0baa791da593ebfabe3e34af554eecc0cc"
+  },
+  {
+    "path": "source/timing-statistics.json",
+    "bytes": 142907,
+    "sha256": "9c8a692bb3d07479cb47740ceb9e035223953eb20a0ec59f285dc63fd608b61a"
+  },
+  {
+    "path": "source/timing-tools.json",
+    "bytes": 487179,
+    "sha256": "1cc21e489e3079c3f2f037c3cc8c279043f8312396c2ae0b67eac34658603528"
+  },
+  {
+    "path": "source/timing-turns.json",
+    "bytes": 452154,
+    "sha256": "fb1d322892ab96efcd17a74ee13bf83e327df703a3edf6f34fc58e5b7ec3ac19"
+  },
+  {
     "path": "statistics.csv",
     "bytes": 20625,
     "sha256": "2a5acd63b64582caebd6dda3963b665bb878e387eab237a82537f39744febca0"
@@ -118,5 +218,25 @@
     "path": "storyboard.csv",
     "bytes": 9258,
     "sha256": "b1a876f52471972f01aab990bf2d70df84c12664328263bc86d4aaec5d64919a"
+  },
+  {
+    "path": "timing-projects.csv",
+    "bytes": 20660,
+    "sha256": "77b26f7d064b471514ffb5892c18f31da167fe513d3f94d40f9c965e8d3d9c2c"
+  },
+  {
+    "path": "timing-tools.csv",
+    "bytes": 184256,
+    "sha256": "ced858e469496d9cb63fb470cfeefb84f297a0f48076d27d1a19f4fbdb60cb7a"
+  },
+  {
+    "path": "timing-turns.csv",
+    "bytes": 159704,
+    "sha256": "1ea037d428d50e0c1295d5a150a170de8a846ab2dbdc17e188828fde6a8f8b84"
+  },
+  {
+    "path": "timing.json",
+    "bytes": 186844,
+    "sha256": "4694faa3586a56cf1535f7a4911c521803e624a3167bba977871fd0f9750d365"
   }
 ]

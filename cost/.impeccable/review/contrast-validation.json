@@ -1,0 +1,18 @@
+{
+  "samples": [
+    {
+      "media": "screen",
+      "text": "rgb(181, 191, 206)",
+      "bg": "rgb(17, 19, 24)",
+      "ratio": 10.005832587853071
+    },
+    {
+      "media": "print",
+      "text": "rgb(68, 68, 68)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 9.739769120526205
+    }
+  ],
+  "suppressed_rules": [],
+  "fixed": "print-only root tokens"
+}

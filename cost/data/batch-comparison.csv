@@ -1,0 +1,4 @@
+﻿batch,label,mode,model,attempts,results,agent_complete,bounded_fallback,model_errors,all_attempts_cost_usd,final_18_cost_usd,final_18_mean_server_seconds,all_attempts_mean_server_seconds,batch_wall_seconds
+claude-ai,Claude · AI 프리비즈,ai_previz,anthropic/claude-opus-5.5,19,18,18,0,1,53.5203902,51.416682,614.6454444444445,607.3796315789474,11574.143669
+gpt-ai,GPT-6 Sol · AI 프리비즈,ai_previz,openai/gpt-6-sol,18,18,16,2,0,30.641127,30.641127,565.4221111111111,565.4221111111111,10201.815869
+gpt-normal,GPT-6 Sol · 일반 모드,normal,openai/gpt-6-sol,18,18,10,8,0,39.127024,39.127024,595.1942222222223,595.1942222222223,10737.17327

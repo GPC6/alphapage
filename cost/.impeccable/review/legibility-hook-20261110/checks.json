@@ -1,0 +1,70 @@
+[
+  {
+    "device": "desktop",
+    "headers": [
+      {
+        "text": "생성 단계",
+        "size": "12px"
+      },
+      {
+        "text": "건수",
+        "size": "12px"
+      },
+      {
+        "text": "평균 비용",
+        "size": "12px"
+      },
+      {
+        "text": "평균 시간",
+        "size": "12px"
+      }
+    ],
+    "screen": {
+      "placeholder": "rgb(181, 191, 206)",
+      "background": "rgb(27, 31, 39)",
+      "visible": true,
+      "ratio": 8.890931090268161
+    },
+    "print": {
+      "placeholder": "rgb(68, 68, 68)",
+      "background": "rgb(255, 255, 255)",
+      "visible": false,
+      "ratio": 9.739769120526205
+    },
+    "errors": []
+  },
+  {
+    "device": "mobile",
+    "headers": [
+      {
+        "text": "생성 단계",
+        "size": "11px"
+      },
+      {
+        "text": "건수",
+        "size": "11px"
+      },
+      {
+        "text": "평균 비용",
+        "size": "11px"
+      },
+      {
+        "text": "평균 시간",
+        "size": "11px"
+      }
+    ],
+    "screen": {
+      "placeholder": "rgb(181, 191, 206)",
+      "background": "rgb(27, 31, 39)",
+      "visible": true,
+      "ratio": 8.890931090268161
+    },
+    "print": {
+      "placeholder": "rgb(68, 68, 68)",
+      "background": "rgb(255, 255, 255)",
+      "visible": false,
+      "ratio": 9.739769120526205
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,4584 @@
+{
+  "first": {
+    "runs": 18,
+    "totals": {
+      "client_seconds": {
+        "n": 18,
+        "total": 12451.977511286736,
+        "mean": 691.7765284048187,
+        "median": 651.6088608838618,
+        "p90": 912.7113892391325,
+        "min": 339.45101237669587,
+        "max": 949.507503207773
+      },
+      "server_seconds": {
+        "n": 18,
+        "total": 12450.214,
+        "mean": 691.6785555555556,
+        "median": 651.5352499999999,
+        "p90": 912.6723900000001,
+        "min": 339.4173,
+        "max": 949.468
+      },
+      "preload_seconds": {
+        "n": 18,
+        "total": 4.5951,
+        "mean": 0.2552833333333333,
+        "median": 0.0869,
+        "p90": 0.87333,
+        "min": 0.0506,
+        "max": 0.948
+      },
+      "model_response_seconds": {
+        "n": 18,
+        "total": 11602.093900000002,
+        "mean": 644.5607722222222,
+        "median": 609.1019000000001,
+        "p90": 851.9806500000003,
+        "min": 313.3181,
+        "max": 908.0301000000003
+      },
+      "tool_execution_seconds": {
+        "n": 18,
+        "total": 842.8599999999998,
+        "mean": 46.82555555555554,
+        "median": 47.9114499999999,
+        "p90": 55.64392000000001,
+        "min": 26.016500000000047,
+        "max": 70.09029999999973
+      },
+      "tail_seconds": {
+        "n": 18,
+        "total": 0.6649999999996226,
+        "mean": 0.03694444444442348,
+        "median": 0.0141999999999598,
+        "p90": 0.11573999999997113,
+        "min": 0.007299999999872853,
+        "max": 0.12400000000002365
+      },
+      "turns": {
+        "n": 18,
+        "total": 525,
+        "mean": 29.166666666666668,
+        "median": 29.5,
+        "p90": 37.3,
+        "min": 17,
+        "max": 39
+      },
+      "tool_calls": {
+        "n": 18,
+        "total": 1047,
+        "mean": 58.166666666666664,
+        "median": 60.0,
+        "p90": 70.3,
+        "min": 31,
+        "max": 73
+      },
+      "model_share_pct": 93.18790745283576
+    },
+    "model_categories": {
+      "search_guide": {
+        "label": "에셋·동작 검색 및 가이드",
+        "n": 137,
+        "total": 2748.8793,
+        "mean": 20.064812408759124,
+        "median": 7.4780000000000015,
+        "p90": 66.48098000000006,
+        "min": 3.5137000000000285,
+        "max": 172.53060000000002,
+        "projects": 18,
+        "mean_per_project_seconds": 152.71551666666667,
+        "share_of_model_pct": 23.692958561557578
+      },
+      "objects_environment": {
+        "label": "오브젝트·배경 구성",
+        "n": 78,
+        "total": 2594.5795000000007,
+        "mean": 33.26383974358975,
+        "median": 17.855200000000025,
+        "p90": 64.94351999999999,
+        "min": 3.774000000000001,
+        "max": 239.36930000000004,
+        "projects": 18,
+        "mean_per_project_seconds": 144.1433055555556,
+        "share_of_model_pct": 22.363027935845274
+      },
+      "motion_effects": {
+        "label": "동작·효과 구성",
+        "n": 43,
+        "total": 1216.2973000000002,
+        "mean": 28.285983720930236,
+        "median": 10.818300000000136,
+        "p90": 59.53385999999999,
+        "min": 3.6462999999999965,
+        "max": 172.74100000000004,
+        "projects": 15,
+        "mean_per_project_seconds": 67.57207222222223,
+        "share_of_model_pct": 10.48342920237872
+      },
+      "cameras": {
+        "label": "카메라 구성",
+        "n": 34,
+        "total": 781.0673999999993,
+        "mean": 22.972570588235275,
+        "median": 14.300849999999912,
+        "p90": 57.52235999999999,
+        "min": 4.166499999999928,
+        "max": 87.20310000000006,
+        "projects": 16,
+        "mean_per_project_seconds": 43.39263333333329,
+        "share_of_model_pct": 6.732124448673867
+      },
+      "observation": {
+        "label": "화면·상태 확인 요청",
+        "n": 91,
+        "total": 673.1985000000001,
+        "mean": 7.397785714285715,
+        "median": 5.402599999999893,
+        "p90": 13.718699999999899,
+        "min": 2.4838000000000875,
+        "max": 32.49759999999998,
+        "projects": 17,
+        "mean_per_project_seconds": 37.39991666666667,
+        "share_of_model_pct": 5.802387963779538
+      },
+      "mixed": {
+        "label": "여러 종류를 함께 요청",
+        "n": 121,
+        "total": 2563.1069,
+        "mean": 21.18270165289256,
+        "median": 14.044499999999971,
+        "p90": 41.19300000000004,
+        "min": 3.6154000000000224,
+        "max": 129.63469999999998,
+        "projects": 18,
+        "mean_per_project_seconds": 142.39482777777778,
+        "share_of_model_pct": 22.091761384554903
+      },
+      "completion": {
+        "label": "종료 응답",
+        "n": 18,
+        "total": 471.0814000000003,
+        "mean": 26.171188888888906,
+        "median": 26.6207,
+        "p90": 31.20234999999999,
+        "min": 14.67710000000011,
+        "max": 35.59319999999991,
+        "projects": 18,
+        "mean_per_project_seconds": 26.171188888888906,
+        "share_of_model_pct": 4.060313630111201
+      },
+      "truncated_no_tool": {
+        "label": "출력 한도 도달·도구 호출 없음",
+        "n": 3,
+        "total": 553.8836,
+        "mean": 184.62786666666665,
+        "median": 185.22170000000003,
+        "p90": 185.24961999999996,
+        "min": 183.40529999999998,
+        "max": 185.25659999999996,
+        "projects": 3,
+        "mean_per_project_seconds": 30.77131111111111,
+        "share_of_model_pct": 4.773996873098914
+      }
+    },
+    "tools": {
+      "apply_camera_presets": {
+        "n": 26,
+        "total": 1.387599999999992,
+        "mean": 0.05336923076923046,
+        "median": 0.03324999999998113,
+        "p90": 0.0947500000000332,
+        "min": 0.008500000000026375,
+        "max": 0.32970000000000255,
+        "projects": 18,
+        "mean_per_project_seconds": 0.07708888888888844
+      },
+      "create_along": {
+        "n": 11,
+        "total": 0.2929999999998927,
+        "mean": 0.02663636363635388,
+        "median": 0.021500000000003183,
+        "p90": 0.043299999999987904,
+        "min": 0.003399999999942338,
+        "max": 0.0684999999999718,
+        "projects": 4,
+        "mean_per_project_seconds": 0.016277777777771816
+      },
+      "create_objects": {
+        "n": 42,
+        "total": 2.68519999999981,
+        "mean": 0.0639333333333288,
+        "median": 0.029999999999944293,
+        "p90": 0.15978000000001197,
+        "min": 0.0033999999999991815,
+        "max": 0.3680999999999699,
+        "projects": 18,
+        "mean_per_project_seconds": 0.14917777777776722
+      },
+      "create_procedural": {
+        "n": 41,
+        "total": 2.0487999999994315,
+        "mean": 0.049970731707303206,
+        "median": 0.026299999999991996,
+        "p90": 0.14210000000002765,
+        "min": 0.004000000000019099,
+        "max": 0.22010000000000218,
+        "projects": 18,
+        "mean_per_project_seconds": 0.11382222222219064
+      },
+      "delete_cameras": {
+        "n": 1,
+        "total": 0.019399999999961892,
+        "mean": 0.019399999999961892,
+        "median": 0.019399999999961892,
+        "p90": 0.019399999999961892,
+        "min": 0.019399999999961892,
+        "max": 0.019399999999961892,
+        "projects": 1,
+        "mean_per_project_seconds": 0.0010777777777756607
+      },
+      "delete_objects": {
+        "n": 4,
+        "total": 0.10819999999989705,
+        "mean": 0.02704999999997426,
+        "median": 0.020749999999935653,
+        "p90": 0.04542000000000713,
+        "min": 0.012400000000013733,
+        "max": 0.054300000000012005,
+        "projects": 4,
+        "mean_per_project_seconds": 0.006011111111105392
+      },
+      "duplicate_objects": {
+        "n": 11,
+        "total": 0.2848000000000468,
+        "mean": 0.025890909090913346,
+        "median": 0.015899999999987813,
+        "p90": 0.042699999999967986,
+        "min": 0.005999999999971806,
+        "max": 0.0745000000000573,
+        "projects": 8,
+        "mean_per_project_seconds": 0.015822222222224822
+      },
+      "get_guide": {
+        "n": 108,
+        "total": 0.02349999999978003,
+        "mean": 0.00021759259259055582,
+        "median": 0.00019999999999953388,
+        "p90": 0.0003999999999649617,
+        "min": 0.0,
+        "max": 0.0006000000000199179,
+        "projects": 18,
+        "mean_per_project_seconds": 0.001305555555543335
+      },
+      "get_objects": {
+        "n": 18,
+        "total": 0.938899999999947,
+        "mean": 0.05216111111110817,
+        "median": 0.02339999999998099,
+        "p90": 0.09318999999996436,
+        "min": 0.007500000000050022,
+        "max": 0.2979000000000269,
+        "projects": 11,
+        "mean_per_project_seconds": 0.05216111111110817
+      },
+      "get_timeline": {
+        "n": 3,
+        "total": 0.0545999999999367,
+        "mean": 0.0181999999999789,
+        "median": 0.017600000000015825,
+        "p90": 0.02103999999997086,
+        "min": 0.015099999999961256,
+        "max": 0.02189999999995962,
+        "projects": 3,
+        "mean_per_project_seconds": 0.0030333333333298165
+      },
+      "preview_scene": {
+        "n": 15,
+        "total": 6.151200000000358,
+        "mean": 0.41008000000002387,
+        "median": 0.3309000000000424,
+        "p90": 1.003939999999977,
+        "min": 0.049900000000093314,
+        "max": 1.5745000000000573,
+        "projects": 11,
+        "mean_per_project_seconds": 0.3417333333333532
+      },
+      "screenshot_scene": {
+        "n": 98,
+        "total": 486.1931999999999,
+        "mean": 4.961155102040815,
+        "median": 4.407500000000027,
+        "p90": 8.302350000000041,
+        "min": 0.01139999999986685,
+        "max": 10.075799999999845,
+        "projects": 18,
+        "mean_per_project_seconds": 27.010733333333327
+      },
+      "search_animations": {
+        "n": 120,
+        "total": 106.3044000000001,
+        "mean": 0.8858700000000009,
+        "median": 0.8680500000000109,
+        "p90": 1.070690000000004,
+        "min": 0.5273999999999859,
+        "max": 2.280300000000011,
+        "projects": 17,
+        "mean_per_project_seconds": 5.9058000000000055
+      },
+      "search_assets": {
+        "n": 243,
+        "total": 209.91110000000003,
+        "mean": 0.8638316872427986,
+        "median": 0.8614999999999995,
+        "p90": 1.0601600000000022,
+        "min": 0.0007000000000019213,
+        "max": 3.9032999999999998,
+        "projects": 18,
+        "mean_per_project_seconds": 11.661727777777779
+      },
+      "search_effects": {
+        "n": 20,
+        "total": 15.86930000000001,
+        "mean": 0.7934650000000005,
+        "median": 0.8403500000000008,
+        "p90": 0.9286900000000003,
+        "min": 0.5339000000000027,
+        "max": 1.0448999999999842,
+        "projects": 9,
+        "mean_per_project_seconds": 0.8816277777777783
+      },
+      "set_effect_spans": {
+        "n": 11,
+        "total": 1.4784999999997979,
+        "mean": 0.13440909090907252,
+        "median": 0.1311999999999216,
+        "p90": 0.23779999999987922,
+        "min": 0.01490000000001146,
+        "max": 0.3046000000001641,
+        "projects": 9,
+        "mean_per_project_seconds": 0.08213888888887766
+      },
+      "set_environment": {
+        "n": 17,
+        "total": 0.385300000000143,
+        "mean": 0.02266470588236135,
+        "median": 0.008700000000033015,
+        "p90": 0.054320000000075225,
+        "min": 0.004599999999982174,
+        "max": 0.1411000000000513,
+        "projects": 15,
+        "mean_per_project_seconds": 0.021405555555563498
+      },
+      "set_object_anims": {
+        "n": 4,
+        "total": 0.46609999999992624,
+        "mean": 0.11652499999998156,
+        "median": 0.029499999999956117,
+        "p90": 0.28176000000002555,
+        "min": 0.017399999999952342,
+        "max": 0.38970000000006166,
+        "projects": 4,
+        "mean_per_project_seconds": 0.025894444444440348
+      },
+      "set_object_attach": {
+        "n": 16,
+        "total": 0.5333000000001675,
+        "mean": 0.03333125000001047,
+        "median": 0.019350000000002865,
+        "p90": 0.07394999999999641,
+        "min": 0.006600000000048567,
+        "max": 0.11930000000006658,
+        "projects": 13,
+        "mean_per_project_seconds": 0.029627777777787086
+      },
+      "set_object_motion": {
+        "n": 45,
+        "total": 3.3354999999999677,
+        "mean": 0.0741222222222215,
+        "median": 0.05880000000001928,
+        "p90": 0.16890000000000782,
+        "min": 0.0049999999999954525,
+        "max": 0.2998999999999796,
+        "projects": 18,
+        "mean_per_project_seconds": 0.18530555555555375
+      },
+      "update_camera_advanced": {
+        "n": 6,
+        "total": 0.11880000000013524,
+        "mean": 0.01980000000002254,
+        "median": 0.015600000000034697,
+        "p90": 0.03665000000003715,
+        "min": 0.005699999999990268,
+        "max": 0.04280000000005657,
+        "projects": 3,
+        "mean_per_project_seconds": 0.006600000000007513
+      },
+      "update_cameras": {
+        "n": 82,
+        "total": 1.8787000000003786,
+        "mean": 0.022910975609760714,
+        "median": 0.012399999999985312,
+        "p90": 0.04050999999998346,
+        "min": 0.002299999999991087,
+        "max": 0.26959999999996853,
+        "projects": 18,
+        "mean_per_project_seconds": 0.10437222222224325
+      },
+      "update_objects": {
+        "n": 47,
+        "total": 1.3868000000001075,
+        "mean": 0.029506382978725692,
+        "median": 0.012000000000000455,
+        "p90": 0.07664000000000896,
+        "min": 0.0020999999999844476,
+        "max": 0.3018000000000143,
+        "projects": 16,
+        "mean_per_project_seconds": 0.07704444444445041
+      },
+      "update_procedural": {
+        "n": 16,
+        "total": 0.28810000000027003,
+        "mean": 0.018006250000016877,
+        "median": 0.01540000000005648,
+        "p90": 0.03264999999998963,
+        "min": 0.005200000000058935,
+        "max": 0.04339999999990596,
+        "projects": 10,
+        "mean_per_project_seconds": 0.016005555555570556
+      },
+      "upsert_object_motion": {
+        "n": 42,
+        "total": 0.7156999999997424,
+        "mean": 0.01704047619047006,
+        "median": 0.012250000000022965,
+        "p90": 0.027949999999958664,
+        "min": 0.004399999999918691,
+        "max": 0.13069999999999027,
+        "projects": 16,
+        "mean_per_project_seconds": 0.0397611111110968
+      }
+    },
+    "model_category_combinations": {
+      "search_guide": {
+        "n": 137,
+        "total": 2748.8793,
+        "mean": 20.064812408759124,
+        "median": 7.4780000000000015,
+        "p90": 66.48098000000006,
+        "min": 3.5137000000000285,
+        "max": 172.53060000000002
+      },
+      "objects_environment + search_guide": {
+        "n": 11,
+        "total": 286.2184000000001,
+        "mean": 26.01985454545455,
+        "median": 8.488200000000006,
+        "p90": 65.32019999999997,
+        "min": 4.007100000000037,
+        "max": 129.63469999999998
+      },
+      "objects_environment": {
+        "n": 78,
+        "total": 2594.5795000000007,
+        "mean": 33.26383974358975,
+        "median": 17.855200000000025,
+        "p90": 64.94351999999999,
+        "min": 3.774000000000001,
+        "max": 239.36930000000004
+      },
+      "motion_effects + objects_environment": {
+        "n": 25,
+        "total": 818.6361999999999,
+        "mean": 32.745447999999996,
+        "median": 20.93429999999995,
+        "p90": 75.26550000000005,
+        "min": 4.8163000000000125,
+        "max": 115.2802999999999
+      },
+      "motion_effects + objects_environment + search_guide": {
+        "n": 2,
+        "total": 13.540000000000077,
+        "mean": 6.770000000000039,
+        "median": 6.770000000000039,
+        "p90": 8.216400000000032,
+        "min": 4.962000000000046,
+        "max": 8.578000000000031
+      },
+      "cameras + motion_effects": {
+        "n": 14,
+        "total": 351.35499999999973,
+        "mean": 25.096785714285694,
+        "median": 23.261650000000003,
+        "p90": 43.95094000000001,
+        "min": 7.119899999999916,
+        "max": 51.97269999999992
+      },
+      "observation": {
+        "n": 91,
+        "total": 673.1985000000001,
+        "mean": 7.397785714285715,
+        "median": 5.402599999999893,
+        "p90": 13.718699999999899,
+        "min": 2.4838000000000875,
+        "max": 32.49759999999998
+      },
+      "cameras + observation": {
+        "n": 29,
+        "total": 336.7781999999999,
+        "mean": 11.613041379310342,
+        "median": 11.078700000000026,
+        "p90": 16.148159999999983,
+        "min": 4.85670000000016,
+        "max": 24.23730000000012
+      },
+      "cameras + motion_effects + objects_environment": {
+        "n": 11,
+        "total": 267.1273000000004,
+        "mean": 24.284300000000034,
+        "median": 22.17620000000005,
+        "p90": 33.77880000000005,
+        "min": 8.784099999999967,
+        "max": 39.634900000000016
+      },
+      "cameras + objects_environment + observation": {
+        "n": 1,
+        "total": 8.560900000000004,
+        "mean": 8.560900000000004,
+        "median": 8.560900000000004,
+        "p90": 8.560900000000004,
+        "min": 8.560900000000004,
+        "max": 8.560900000000004
+      },
+      "completion": {
+        "n": 18,
+        "total": 471.0814000000003,
+        "mean": 26.171188888888906,
+        "median": 26.6207,
+        "p90": 31.20234999999999,
+        "min": 14.67710000000011,
+        "max": 35.59319999999991
+      },
+      "truncated_no_tool": {
+        "n": 3,
+        "total": 553.8836,
+        "mean": 184.62786666666665,
+        "median": 185.22170000000003,
+        "p90": 185.24961999999996,
+        "min": 183.40529999999998,
+        "max": 185.25659999999996
+      },
+      "motion_effects": {
+        "n": 43,
+        "total": 1216.2973000000002,
+        "mean": 28.285983720930236,
+        "median": 10.818300000000136,
+        "p90": 59.53385999999999,
+        "min": 3.6462999999999965,
+        "max": 172.74100000000004
+      },
+      "cameras": {
+        "n": 34,
+        "total": 781.0673999999993,
+        "mean": 22.972570588235275,
+        "median": 14.300849999999912,
+        "p90": 57.52235999999999,
+        "min": 4.166499999999928,
+        "max": 87.20310000000006
+      },
+      "cameras + search_guide": {
+        "n": 3,
+        "total": 32.110199999999736,
+        "mean": 10.703399999999911,
+        "median": 11.02089999999987,
+        "p90": 13.641139999999883,
+        "min": 6.793099999999981,
+        "max": 14.296199999999885
+      },
+      "cameras + objects_environment": {
+        "n": 12,
+        "total": 298.19290000000007,
+        "mean": 24.84940833333334,
+        "median": 20.620550000000037,
+        "p90": 32.85432,
+        "min": 5.784899999999993,
+        "max": 80.19650000000001
+      },
+      "motion_effects + observation": {
+        "n": 6,
+        "total": 78.92640000000011,
+        "mean": 13.154400000000019,
+        "median": 11.861949999999979,
+        "p90": 20.78880000000001,
+        "min": 6.4657000000000835,
+        "max": 21.783699999999953
+      },
+      "objects_environment + observation": {
+        "n": 3,
+        "total": 17.783500000000004,
+        "mean": 5.927833333333335,
+        "median": 5.479799999999983,
+        "p90": 6.857160000000005,
+        "min": 5.1022000000000105,
+        "max": 7.20150000000001
+      },
+      "observation + search_guide": {
+        "n": 2,
+        "total": 10.527100000000019,
+        "mean": 5.263550000000009,
+        "median": 5.263550000000009,
+        "p90": 6.582069999999999,
+        "min": 3.6154000000000224,
+        "max": 6.911699999999996
+      },
+      "cameras + motion_effects + objects_environment + search_guide": {
+        "n": 1,
+        "total": 18.067800000000034,
+        "mean": 18.067800000000034,
+        "median": 18.067800000000034,
+        "p90": 18.067800000000034,
+        "min": 18.067800000000034,
+        "max": 18.067800000000034
+      },
+      "cameras + motion_effects + observation": {
+        "n": 1,
+        "total": 25.283000000000015,
+        "mean": 25.283000000000015,
+        "median": 25.283000000000015,
+        "p90": 25.283000000000015,
+        "min": 25.283000000000015,
+        "max": 25.283000000000015
+      }
+    },
+    "turn_model_response_seconds": {
+      "n": 525,
+      "total": 11602.093900000002,
+      "mean": 22.099226476190477,
+      "median": 9.871400000000001,
+      "p90": 53.53354000000001,
+      "min": 2.4838000000000875,
+      "max": 239.36930000000004
+    },
+    "top_model_turns": [
+      {
+        "cohort": "first",
+        "project": "공룡에게 츄르를",
+        "run_id": "scene_20261026_003336_895a9404",
+        "turn": 7,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "set_environment",
+          "create_objects",
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 179.6106,
+        "model_response_end_seconds": 418.97990000000004,
+        "model_response_interval_seconds": 239.36930000000004,
+        "tool_execution_interval_seconds": 0.2430999999999699,
+        "turn_interval_seconds": 239.6124,
+        "input_chars": 3476,
+        "output_tokens": 3506,
+        "retries": 3,
+        "retry_event_offsets_seconds": [
+          104.89060000000003,
+          152.136,
+          199.38840000000002
+        ],
+        "observed_turn_cost_usd": 2.5851248
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 7,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 188.32520000000002,
+        "model_response_end_seconds": 373.5818,
+        "model_response_interval_seconds": 185.25659999999996,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.25659999999996,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.442489
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 187.9222,
+        "model_response_end_seconds": 373.14390000000003,
+        "model_response_interval_seconds": 185.22170000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.22170000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3671422
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 6,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 51.8681,
+        "model_response_end_seconds": 235.27339999999998,
+        "model_response_interval_seconds": 183.40529999999998,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 183.40529999999998,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3518796
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 14,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 440.3503,
+        "model_response_end_seconds": 613.0913,
+        "model_response_interval_seconds": 172.74100000000004,
+        "tool_execution_interval_seconds": 0.008600000000001273,
+        "turn_interval_seconds": 172.74960000000004,
+        "input_chars": 2,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3689266
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 6,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_assets",
+          "search_assets"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 86.85839999999999,
+        "model_response_end_seconds": 259.389,
+        "model_response_interval_seconds": 172.53060000000002,
+        "tool_execution_interval_seconds": 1.5815999999999804,
+        "turn_interval_seconds": 174.1122,
+        "input_chars": 174,
+        "output_tokens": 15198,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3844966
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 5,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 43.3459,
+        "model_response_end_seconds": 203.40460000000002,
+        "model_response_interval_seconds": 160.05870000000002,
+        "tool_execution_interval_seconds": 5.008299999999991,
+        "turn_interval_seconds": 165.067,
+        "input_chars": 262,
+        "output_tokens": 13376,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3251714
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 6,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 163.3501,
+        "model_response_end_seconds": 306.65840000000003,
+        "model_response_interval_seconds": 143.30830000000003,
+        "tool_execution_interval_seconds": 0.022099999999966258,
+        "turn_interval_seconds": 143.3304,
+        "input_chars": 5270,
+        "output_tokens": 13150,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3578756
+      },
+      {
+        "cohort": "first",
+        "project": "공룡에게 츄르를",
+        "run_id": "scene_20261026_003336_895a9404",
+        "turn": 9,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 428.1431,
+        "model_response_end_seconds": 570.4338,
+        "model_response_interval_seconds": 142.29070000000002,
+        "tool_execution_interval_seconds": 0.005399999999895044,
+        "turn_interval_seconds": 142.2960999999999,
+        "input_chars": 2,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3483508
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 11,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 396.4162,
+        "model_response_end_seconds": 536.3887,
+        "model_response_interval_seconds": 139.97249999999997,
+        "tool_execution_interval_seconds": 0.21210000000007767,
+        "turn_interval_seconds": 140.18460000000005,
+        "input_chars": 8235,
+        "output_tokens": 14950,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3507918
+      },
+      {
+        "cohort": "first",
+        "project": "개미보다 작아진 남자",
+        "run_id": "scene_20261026_002101_61256c48",
+        "turn": 7,
+        "category": "mixed",
+        "categories": [
+          "objects_environment",
+          "search_guide"
+        ],
+        "tools": [
+          "create_objects",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 66.2673,
+        "model_response_end_seconds": 195.902,
+        "model_response_interval_seconds": 129.63469999999998,
+        "tool_execution_interval_seconds": 4.6066000000000145,
+        "turn_interval_seconds": 134.2413,
+        "input_chars": 1902,
+        "output_tokens": 11581,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2522282
+      },
+      {
+        "cohort": "first",
+        "project": "261020",
+        "run_id": "scene_20261026_001026_c12ffe0b",
+        "turn": 9,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_objects"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 100.7144,
+        "model_response_end_seconds": 227.08679999999998,
+        "model_response_interval_seconds": 126.37239999999998,
+        "tool_execution_interval_seconds": 0.0730000000000075,
+        "turn_interval_seconds": 126.44539999999999,
+        "input_chars": 3367,
+        "output_tokens": 11552,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2599146
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격",
+        "run_id": "scene_20261023_034249_db6f4629",
+        "turn": 8,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_effects",
+          "search_effects"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 142.4441,
+        "model_response_end_seconds": 266.3178,
+        "model_response_interval_seconds": 123.87369999999999,
+        "tool_execution_interval_seconds": 2.973100000000045,
+        "turn_interval_seconds": 126.84680000000003,
+        "input_chars": 267,
+        "output_tokens": 10796,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2457134
+      },
+      {
+        "cohort": "first",
+        "project": "공룡에게 츄르를",
+        "run_id": "scene_20261026_003336_895a9404",
+        "turn": 5,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_assets",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 36.7885,
+        "model_response_end_seconds": 157.3826,
+        "model_response_interval_seconds": 120.5941,
+        "tool_execution_interval_seconds": 6.426199999999994,
+        "turn_interval_seconds": 127.02029999999999,
+        "input_chars": 391,
+        "output_tokens": 10033,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2537028
+      },
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 7,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_assets"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 91.5197,
+        "model_response_end_seconds": 211.8657,
+        "model_response_interval_seconds": 120.346,
+        "tool_execution_interval_seconds": 1.5730999999999824,
+        "turn_interval_seconds": 121.91909999999999,
+        "input_chars": 148,
+        "output_tokens": 10225,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2875878
+      },
+      {
+        "cohort": "first",
+        "project": "조하영",
+        "run_id": "scene_20261025_233823_5989c45c",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 26.361099999999997,
+        "model_response_end_seconds": 144.7721,
+        "model_response_interval_seconds": 118.411,
+        "tool_execution_interval_seconds": 0.00030000000000995897,
+        "turn_interval_seconds": 118.41130000000001,
+        "input_chars": 23,
+        "output_tokens": 10412,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3076496
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 5,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 53.0831,
+        "model_response_end_seconds": 170.5999,
+        "model_response_interval_seconds": 117.51679999999999,
+        "tool_execution_interval_seconds": 0.0005000000000165983,
+        "turn_interval_seconds": 117.5173,
+        "input_chars": 42,
+        "output_tokens": 9856,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2423606
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 19,
+        "category": "mixed",
+        "categories": [
+          "motion_effects",
+          "objects_environment"
+        ],
+        "tools": [
+          "update_procedural",
+          "upsert_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 697.5194,
+        "model_response_end_seconds": 812.7996999999999,
+        "model_response_interval_seconds": 115.2802999999999,
+        "tool_execution_interval_seconds": 0.020300000000133878,
+        "turn_interval_seconds": 115.30060000000003,
+        "input_chars": 5316,
+        "output_tokens": 11346,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3026262
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 8,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 229.6649,
+        "model_response_end_seconds": 341.46520000000004,
+        "model_response_interval_seconds": 111.80030000000005,
+        "tool_execution_interval_seconds": 0.01909999999992351,
+        "turn_interval_seconds": 111.81939999999997,
+        "input_chars": 9031,
+        "output_tokens": 9507,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2257722
+      },
+      {
+        "cohort": "first",
+        "project": "261019",
+        "run_id": "scene_20261026_000443_64a6122e",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 18.187099999999997,
+        "model_response_end_seconds": 122.7817,
+        "model_response_interval_seconds": 104.5946,
+        "tool_execution_interval_seconds": 5.537199999999984,
+        "turn_interval_seconds": 110.13179999999998,
+        "input_chars": 317,
+        "output_tokens": 9237,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2224482
+      }
+    ],
+    "top_tool_calls": [
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 22,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 515.1044,
+        "end_seconds": 525.1801999999999,
+        "execution_interval_seconds": 10.075799999999845,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 25,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 552.0835999999999,
+        "end_seconds": 561.7338000000001,
+        "execution_interval_seconds": 9.650200000000154,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 21,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 715.5272,
+        "end_seconds": 724.9741,
+        "execution_interval_seconds": 9.446900000000028,
+        "input_chars": 116,
+        "input_list_sizes": {
+          "items": 7
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 27,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 646.3684000000001,
+        "end_seconds": 655.0151999999999,
+        "execution_interval_seconds": 8.646799999999871,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 25,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 726.7937,
+        "end_seconds": 735.2247,
+        "execution_interval_seconds": 8.43100000000004,
+        "input_chars": 299,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 23,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 684.2988,
+        "end_seconds": 692.7185999999999,
+        "execution_interval_seconds": 8.419799999999896,
+        "input_chars": 301,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "숲 속의 화재",
+        "run_id": "scene_20261029_031331_f3f3eb58",
+        "turn": 28,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 577.2451,
+        "end_seconds": 585.6137,
+        "execution_interval_seconds": 8.368600000000015,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "전독시",
+        "run_id": "scene_20261104_115336_d0ddc316",
+        "turn": 29,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 586.3951,
+        "end_seconds": 594.7463,
+        "execution_interval_seconds": 8.351200000000063,
+        "input_chars": 55,
+        "input_list_sizes": {
+          "items": 3
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 604.3298000000001,
+        "end_seconds": 612.6532,
+        "execution_interval_seconds": 8.323399999999879,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "조하영",
+        "run_id": "scene_20261025_233823_5989c45c",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 437.904,
+        "end_seconds": 446.21790000000004,
+        "execution_interval_seconds": 8.313900000000046,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 28,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 780.26,
+        "end_seconds": 788.5574,
+        "execution_interval_seconds": 8.297400000000039,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 15,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 550.4798000000001,
+        "end_seconds": 558.7656999999999,
+        "execution_interval_seconds": 8.285899999999856,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "261020",
+        "run_id": "scene_20261026_001026_c12ffe0b",
+        "turn": 20,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 462.57509999999996,
+        "end_seconds": 470.8592,
+        "execution_interval_seconds": 8.284100000000024,
+        "input_chars": 136,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 31,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 719.8915,
+        "end_seconds": 728.1683,
+        "execution_interval_seconds": 8.276800000000094,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "261019",
+        "run_id": "scene_20261026_000443_64a6122e",
+        "turn": 13,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 266.276,
+        "end_seconds": 274.5515,
+        "execution_interval_seconds": 8.275499999999965,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "The Last Light - 마지막 빛",
+        "run_id": "scene_20261026_015711_a0f3c5aa",
+        "turn": 13,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 408.3773,
+        "end_seconds": 416.6505,
+        "execution_interval_seconds": 8.273200000000031,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "바닷속 도시의 환영",
+        "run_id": "scene_20261025_232924_b1f31766",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 395.0869,
+        "end_seconds": 403.355,
+        "execution_interval_seconds": 8.268100000000004,
+        "input_chars": 129,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 21,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 835.3638000000001,
+        "end_seconds": 843.6316999999999,
+        "execution_interval_seconds": 8.267899999999827,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 521.0462,
+        "end_seconds": 529.3124,
+        "execution_interval_seconds": 8.266200000000026,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "The Last Light - 마지막 빛",
+        "run_id": "scene_20261026_015711_a0f3c5aa",
+        "turn": 15,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 457.9516,
+        "end_seconds": 466.2161,
+        "execution_interval_seconds": 8.264499999999998,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      }
+    ],
+    "after_first_visual_seconds": {
+      "n": 18,
+      "total": 2986.2306000000003,
+      "mean": 165.9017,
+      "median": 153.87045,
+      "p90": 232.55074000000002,
+      "min": 64.86580000000004,
+      "max": 375.19330000000014
+    },
+    "retries": 3,
+    "rejection_events": 18,
+    "long_response_turns_over_60s": {
+      "n": 45,
+      "total_seconds": 4769.6061,
+      "turn_share_pct": 8.571428571428571,
+      "model_time_share_pct": 41.10987327899492
+    },
+    "truncated_no_tool_turns": [
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 7,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 188.32520000000002,
+        "model_response_end_seconds": 373.5818,
+        "model_response_interval_seconds": 185.25659999999996,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.25659999999996,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.442489
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 6,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 51.8681,
+        "model_response_end_seconds": 235.27339999999998,
+        "model_response_interval_seconds": 183.40529999999998,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 183.40529999999998,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3518796
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 187.9222,
+        "model_response_end_seconds": 373.14390000000003,
+        "model_response_interval_seconds": 185.22170000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.22170000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3671422
+      }
+    ]
+  },
+  "additional": {
+    "runs": 6,
+    "totals": {
+      "client_seconds": {
+        "n": 6,
+        "total": 1860.0079651921988,
+        "mean": 310.00132753203314,
+        "median": 201.31721423752606,
+        "p90": 663.4885034635663,
+        "min": 58.9935511238873,
+        "max": 812.9819398000836
+      },
+      "server_seconds": {
+        "n": 6,
+        "total": 1858.9448,
+        "mean": 309.82413333333335,
+        "median": 201.12539999999998,
+        "p90": 663.3634999999999,
+        "min": 58.8189,
+        "max": 812.8599
+      },
+      "preload_seconds": {
+        "n": 6,
+        "total": 0.9379,
+        "mean": 0.15631666666666666,
+        "median": 0.094,
+        "p90": 0.37495,
+        "min": 0.0,
+        "max": 0.5083
+      },
+      "model_response_seconds": {
+        "n": 6,
+        "total": 1716.0177999999996,
+        "mean": 286.0029666666666,
+        "median": 178.23145,
+        "p90": 623.1309999999999,
+        "min": 51.722699999999996,
+        "max": 759.9236999999997
+      },
+      "tool_execution_seconds": {
+        "n": 6,
+        "total": 141.43800000000022,
+        "mean": 23.573000000000036,
+        "median": 22.6622,
+        "p90": 39.85880000000012,
+        "min": 7.0533000000000055,
+        "max": 52.26630000000029
+      },
+      "tail_seconds": {
+        "n": 6,
+        "total": 0.5510999999999839,
+        "mean": 0.09184999999999732,
+        "median": 0.07204999999999018,
+        "p90": 0.15845000000000198,
+        "min": 0.04289999999999594,
+        "max": 0.16160000000002128
+      },
+      "turns": {
+        "n": 6,
+        "total": 114,
+        "mean": 19,
+        "median": 16.0,
+        "p90": 32.0,
+        "min": 9,
+        "max": 46
+      },
+      "tool_calls": {
+        "n": 6,
+        "total": 169,
+        "mean": 28.166666666666668,
+        "median": 22.5,
+        "p90": 50.5,
+        "min": 11,
+        "max": 76
+      },
+      "model_share_pct": 92.31139084926026
+    },
+    "model_categories": {
+      "search_guide": {
+        "label": "에셋·동작 검색 및 가이드",
+        "n": 13,
+        "total": 316.2186,
+        "mean": 24.32450769230769,
+        "median": 5.6717,
+        "p90": 39.24714,
+        "min": 1.586400000000026,
+        "max": 166.5946,
+        "projects": 4,
+        "mean_per_project_seconds": 52.7031,
+        "share_of_model_pct": 18.42746619528073
+      },
+      "objects_environment": {
+        "label": "오브젝트·배경 구성",
+        "n": 8,
+        "total": 355.36080000000004,
+        "mean": 44.420100000000005,
+        "median": 24.629099999999966,
+        "p90": 113.65612999999996,
+        "min": 4.410300000000063,
+        "max": 156.9526,
+        "projects": 2,
+        "mean_per_project_seconds": 59.226800000000004,
+        "share_of_model_pct": 20.70845652067246
+      },
+      "motion_effects": {
+        "label": "동작·효과 구성",
+        "n": 10,
+        "total": 198.01129999999986,
+        "mean": 19.801129999999986,
+        "median": 16.072449999999932,
+        "p90": 36.70349000000001,
+        "min": 4.572300000000013,
+        "max": 40.037000000000006,
+        "projects": 4,
+        "mean_per_project_seconds": 33.00188333333331,
+        "share_of_model_pct": 11.539000353026637
+      },
+      "cameras": {
+        "label": "카메라 구성",
+        "n": 17,
+        "total": 141.8860999999998,
+        "mean": 8.346241176470576,
+        "median": 6.222699999999918,
+        "p90": 19.390380000000015,
+        "min": 2.092800000000011,
+        "max": 25.56099999999998,
+        "projects": 5,
+        "mean_per_project_seconds": 23.6476833333333,
+        "share_of_model_pct": 8.268334978809651
+      },
+      "observation": {
+        "label": "화면·상태 확인 요청",
+        "n": 41,
+        "total": 244.46349999999998,
+        "mean": 5.962524390243902,
+        "median": 4.924199999999999,
+        "p90": 10.708500000000072,
+        "min": 1.9064000000000192,
+        "max": 25.87869999999998,
+        "projects": 6,
+        "mean_per_project_seconds": 40.743916666666664,
+        "share_of_model_pct": 14.245976935670482
+      },
+      "mixed": {
+        "label": "여러 종류를 함께 요청",
+        "n": 18,
+        "total": 176.89119999999997,
+        "mean": 9.827288888888887,
+        "median": 7.443649999999997,
+        "p90": 19.76074999999997,
+        "min": 2.3149000000000086,
+        "max": 29.89540000000001,
+        "projects": 6,
+        "mean_per_project_seconds": 29.48186666666666,
+        "share_of_model_pct": 10.308238061400063
+      },
+      "completion": {
+        "label": "종료 응답",
+        "n": 6,
+        "total": 93.12730000000008,
+        "mean": 15.521216666666678,
+        "median": 15.09890000000006,
+        "p90": 19.958749999999966,
+        "min": 11.295900000000003,
+        "max": 20.588799999999935,
+        "projects": 6,
+        "mean_per_project_seconds": 15.52121666666668,
+        "share_of_model_pct": 5.426942541038915
+      },
+      "truncated_no_tool": {
+        "label": "출력 한도 도달·도구 호출 없음",
+        "n": 1,
+        "total": 190.05900000000003,
+        "mean": 190.05900000000003,
+        "median": 190.05900000000003,
+        "p90": 190.05900000000003,
+        "min": 190.05900000000003,
+        "max": 190.05900000000003,
+        "projects": 1,
+        "mean_per_project_seconds": 31.676500000000004,
+        "share_of_model_pct": 11.075584414101069
+      }
+    },
+    "tools": {
+      "apply_camera_presets": {
+        "n": 6,
+        "total": 0.283799999999907,
+        "mean": 0.0472999999999845,
+        "median": 0.03134999999996069,
+        "p90": 0.09109999999998664,
+        "min": 0.016799999999989268,
+        "max": 0.11009999999999565,
+        "projects": 2,
+        "mean_per_project_seconds": 0.0472999999999845
+      },
+      "create_objects": {
+        "n": 2,
+        "total": 0.1198000000001116,
+        "mean": 0.0599000000000558,
+        "median": 0.0599000000000558,
+        "p90": 0.0950200000000848,
+        "min": 0.016000000000019554,
+        "max": 0.10380000000009204,
+        "projects": 1,
+        "mean_per_project_seconds": 0.019966666666685267
+      },
+      "create_procedural": {
+        "n": 2,
+        "total": 0.06810000000001537,
+        "mean": 0.034050000000007685,
+        "median": 0.034050000000007685,
+        "p90": 0.04121000000000663,
+        "min": 0.025100000000009004,
+        "max": 0.043000000000006366,
+        "projects": 1,
+        "mean_per_project_seconds": 0.011350000000002561
+      },
+      "delete_cameras": {
+        "n": 1,
+        "total": 0.02470000000005257,
+        "mean": 0.02470000000005257,
+        "median": 0.02470000000005257,
+        "p90": 0.02470000000005257,
+        "min": 0.02470000000005257,
+        "max": 0.02470000000005257,
+        "projects": 1,
+        "mean_per_project_seconds": 0.004116666666675428
+      },
+      "get_cameras": {
+        "n": 6,
+        "total": 0.6883000000000017,
+        "mean": 0.11471666666666695,
+        "median": 0.1237499999999998,
+        "p90": 0.16420000000000035,
+        "min": 0.03130000000000166,
+        "max": 0.1731000000000007,
+        "projects": 5,
+        "mean_per_project_seconds": 0.11471666666666695
+      },
+      "get_guide": {
+        "n": 24,
+        "total": 0.0024000000000841126,
+        "mean": 0.00010000000000350469,
+        "median": 0.00010000000000021103,
+        "p90": 0.0001000000000672685,
+        "min": 0.0,
+        "max": 0.0002000000000030866,
+        "projects": 6,
+        "mean_per_project_seconds": 0.00040000000001401875
+      },
+      "get_objects": {
+        "n": 7,
+        "total": 0.5523000000000335,
+        "mean": 0.07890000000000479,
+        "median": 0.06930000000000103,
+        "p90": 0.13457999999999934,
+        "min": 0.02280000000007476,
+        "max": 0.1346999999999996,
+        "projects": 4,
+        "mean_per_project_seconds": 0.09205000000000559
+      },
+      "get_storyboard_images": {
+        "n": 2,
+        "total": 0.4692999999999916,
+        "mean": 0.2346499999999958,
+        "median": 0.2346499999999958,
+        "p90": 0.28660999999999903,
+        "min": 0.16969999999999175,
+        "max": 0.29959999999999987,
+        "projects": 2,
+        "mean_per_project_seconds": 0.07821666666666527
+      },
+      "get_timeline": {
+        "n": 14,
+        "total": 0.6470999999998033,
+        "mean": 0.04622142857141452,
+        "median": 0.043899999999908346,
+        "p90": 0.0698500000000001,
+        "min": 0.018000000000000682,
+        "max": 0.11789999999999168,
+        "projects": 5,
+        "mean_per_project_seconds": 0.10784999999996721
+      },
+      "preview_scene": {
+        "n": 8,
+        "total": 6.19720000000018,
+        "mean": 0.7746500000000225,
+        "median": 0.8642500000000055,
+        "p90": 1.2605999999999908,
+        "min": 0.1329000000000633,
+        "max": 1.3858999999999924,
+        "projects": 4,
+        "mean_per_project_seconds": 1.0328666666666966
+      },
+      "screenshot_scene": {
+        "n": 21,
+        "total": 114.36090000000017,
+        "mean": 5.445757142857151,
+        "median": 5.586400000000026,
+        "p90": 8.71889999999999,
+        "min": 1.2852999999998929,
+        "max": 8.896,
+        "projects": 6,
+        "mean_per_project_seconds": 19.06015000000003
+      },
+      "search_animations": {
+        "n": 14,
+        "total": 8.706300000000006,
+        "mean": 0.6218785714285718,
+        "median": 0.5529000000000011,
+        "p90": 0.6012499999999975,
+        "min": 0.5361000000000047,
+        "max": 1.4084999999999965,
+        "projects": 2,
+        "mean_per_project_seconds": 1.451050000000001
+      },
+      "search_assets": {
+        "n": 10,
+        "total": 7.2216999999999985,
+        "mean": 0.7221699999999999,
+        "median": 0.567800000000001,
+        "p90": 1.0847499999999992,
+        "min": 0.0013999999999985135,
+        "max": 2.2300000000000004,
+        "projects": 1,
+        "mean_per_project_seconds": 1.2036166666666663
+      },
+      "set_effect_spans": {
+        "n": 1,
+        "total": 0.03959999999995034,
+        "mean": 0.03959999999995034,
+        "median": 0.03959999999995034,
+        "p90": 0.03959999999995034,
+        "min": 0.03959999999995034,
+        "max": 0.03959999999995034,
+        "projects": 1,
+        "mean_per_project_seconds": 0.006599999999991724
+      },
+      "set_environment": {
+        "n": 1,
+        "total": 0.025199999999983902,
+        "mean": 0.025199999999983902,
+        "median": 0.025199999999983902,
+        "p90": 0.025199999999983902,
+        "min": 0.025199999999983902,
+        "max": 0.025199999999983902,
+        "projects": 1,
+        "mean_per_project_seconds": 0.004199999999997317
+      },
+      "set_object_anims": {
+        "n": 2,
+        "total": 0.07190000000002783,
+        "mean": 0.035950000000013915,
+        "median": 0.035950000000013915,
+        "p90": 0.04479000000000042,
+        "min": 0.024900000000030786,
+        "max": 0.046999999999997044,
+        "projects": 1,
+        "mean_per_project_seconds": 0.011983333333337972
+      },
+      "set_object_attach": {
+        "n": 2,
+        "total": 0.09240000000001203,
+        "mean": 0.046200000000006014,
+        "median": 0.046200000000006014,
+        "p90": 0.05131999999999977,
+        "min": 0.039800000000013824,
+        "max": 0.052599999999998204,
+        "projects": 2,
+        "mean_per_project_seconds": 0.015400000000002004
+      },
+      "set_object_motion": {
+        "n": 7,
+        "total": 0.328599999999895,
+        "mean": 0.04694285714284214,
+        "median": 0.028199999999998226,
+        "p90": 0.10034000000000562,
+        "min": 0.010400000000004184,
+        "max": 0.11809999999999832,
+        "projects": 2,
+        "mean_per_project_seconds": 0.054766666666649165
+      },
+      "update_camera_advanced": {
+        "n": 8,
+        "total": 0.3432000000000812,
+        "mean": 0.04290000000001015,
+        "median": 0.032899999999990825,
+        "p90": 0.09204000000000434,
+        "min": 0.015600000000176806,
+        "max": 0.09820000000001983,
+        "projects": 4,
+        "mean_per_project_seconds": 0.05720000000001354
+      },
+      "update_cameras": {
+        "n": 11,
+        "total": 0.6059999999998951,
+        "mean": 0.05509090909089955,
+        "median": 0.03209999999990032,
+        "p90": 0.12420000000003029,
+        "min": 0.018399999999928696,
+        "max": 0.12429999999999808,
+        "projects": 5,
+        "mean_per_project_seconds": 0.1009999999999825
+      },
+      "update_objects": {
+        "n": 6,
+        "total": 0.14620000000002165,
+        "mean": 0.024366666666670273,
+        "median": 0.024850000000014916,
+        "p90": 0.03444999999999254,
+        "min": 0.013199999999983447,
+        "max": 0.03890000000001237,
+        "projects": 2,
+        "mean_per_project_seconds": 0.024366666666670273
+      },
+      "update_procedural": {
+        "n": 6,
+        "total": 0.2125999999998811,
+        "mean": 0.03543333333331352,
+        "median": 0.03529999999999944,
+        "p90": 0.052249999999986585,
+        "min": 0.015399999999999636,
+        "max": 0.0654999999999859,
+        "projects": 3,
+        "mean_per_project_seconds": 0.03543333333331352
+      },
+      "upsert_object_motion": {
+        "n": 8,
+        "total": 0.23040000000011673,
+        "mean": 0.02880000000001459,
+        "median": 0.02594999999999459,
+        "p90": 0.03932999999999822,
+        "min": 0.016900000000077853,
+        "max": 0.05129999999999768,
+        "projects": 3,
+        "mean_per_project_seconds": 0.03840000000001945
+      }
+    },
+    "model_category_combinations": {
+      "search_guide": {
+        "n": 13,
+        "total": 316.2186,
+        "mean": 24.32450769230769,
+        "median": 5.6717,
+        "p90": 39.24714,
+        "min": 1.586400000000026,
+        "max": 166.5946
+      },
+      "truncated_no_tool": {
+        "n": 1,
+        "total": 190.05900000000003,
+        "mean": 190.05900000000003,
+        "median": 190.05900000000003,
+        "p90": 190.05900000000003,
+        "min": 190.05900000000003,
+        "max": 190.05900000000003
+      },
+      "objects_environment": {
+        "n": 8,
+        "total": 355.36080000000004,
+        "mean": 44.420100000000005,
+        "median": 24.629099999999966,
+        "p90": 113.65612999999996,
+        "min": 4.410300000000063,
+        "max": 156.9526
+      },
+      "motion_effects": {
+        "n": 10,
+        "total": 198.01129999999986,
+        "mean": 19.801129999999986,
+        "median": 16.072449999999932,
+        "p90": 36.70349000000001,
+        "min": 4.572300000000013,
+        "max": 40.037000000000006
+      },
+      "motion_effects + objects_environment": {
+        "n": 3,
+        "total": 61.56490000000004,
+        "mean": 20.521633333333344,
+        "median": 21.276599999999974,
+        "p90": 28.171640000000004,
+        "min": 10.392900000000054,
+        "max": 29.89540000000001
+      },
+      "cameras": {
+        "n": 17,
+        "total": 141.8860999999998,
+        "mean": 8.346241176470576,
+        "median": 6.222699999999918,
+        "p90": 19.390380000000015,
+        "min": 2.092800000000011,
+        "max": 25.56099999999998
+      },
+      "observation": {
+        "n": 41,
+        "total": 244.46349999999998,
+        "mean": 5.962524390243902,
+        "median": 4.924199999999999,
+        "p90": 10.708500000000072,
+        "min": 1.9064000000000192,
+        "max": 25.87869999999998
+      },
+      "cameras + objects_environment": {
+        "n": 2,
+        "total": 20.472499999999968,
+        "mean": 10.236249999999984,
+        "median": 10.236249999999984,
+        "p90": 11.546609999999976,
+        "min": 8.598299999999995,
+        "max": 11.874199999999973
+      },
+      "cameras + motion_effects + objects_environment": {
+        "n": 1,
+        "total": 13.24630000000002,
+        "mean": 13.24630000000002,
+        "median": 13.24630000000002,
+        "p90": 13.24630000000002,
+        "min": 13.24630000000002,
+        "max": 13.24630000000002
+      },
+      "cameras + motion_effects": {
+        "n": 2,
+        "total": 35.26739999999995,
+        "mean": 17.633699999999976,
+        "median": 17.633699999999976,
+        "p90": 18.815619999999967,
+        "min": 16.156299999999987,
+        "max": 19.111099999999965
+      },
+      "completion": {
+        "n": 6,
+        "total": 93.12730000000008,
+        "mean": 15.521216666666678,
+        "median": 15.09890000000006,
+        "p90": 19.958749999999966,
+        "min": 11.295900000000003,
+        "max": 20.588799999999935
+      },
+      "observation + search_guide": {
+        "n": 9,
+        "total": 43.09139999999999,
+        "mean": 4.787933333333333,
+        "median": 4.2247,
+        "p90": 7.27798,
+        "min": 2.3149000000000086,
+        "max": 11.233899999999998
+      },
+      "cameras + search_guide": {
+        "n": 1,
+        "total": 3.2486999999999995,
+        "mean": 3.2486999999999995,
+        "median": 3.2486999999999995,
+        "p90": 3.2486999999999995,
+        "min": 3.2486999999999995,
+        "max": 3.2486999999999995
+      }
+    },
+    "turn_model_response_seconds": {
+      "n": 114,
+      "total": 1716.0177999999999,
+      "mean": 15.052787719298243,
+      "median": 5.966000000000008,
+      "p90": 30.435800000000004,
+      "min": 1.586400000000026,
+      "max": 190.05900000000003
+    },
+    "top_model_turns": [
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 86.385,
+        "model_response_end_seconds": 276.444,
+        "model_response_interval_seconds": 190.05900000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 190.05900000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.377852
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "get_guide",
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 11.1814,
+        "model_response_end_seconds": 177.776,
+        "model_response_interval_seconds": 166.5946,
+        "tool_execution_interval_seconds": 0.00029999999998153726,
+        "turn_interval_seconds": 166.5949,
+        "input_chars": 62,
+        "output_tokens": 15376,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3847172
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 6,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "update_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 185.05010000000001,
+        "model_response_end_seconds": 342.0027,
+        "model_response_interval_seconds": 156.9526,
+        "tool_execution_interval_seconds": 0.0654999999999859,
+        "turn_interval_seconds": 157.01809999999998,
+        "input_chars": 2,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3719994
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 10,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 309.3115,
+        "model_response_end_seconds": 404.412,
+        "model_response_interval_seconds": 95.10049999999995,
+        "tool_execution_interval_seconds": 0.025100000000009004,
+        "turn_interval_seconds": 95.12559999999996,
+        "input_chars": 15751,
+        "output_tokens": 12049,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2945564
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 25.2785,
+        "model_response_end_seconds": 65.357,
+        "model_response_interval_seconds": 40.0785,
+        "tool_execution_interval_seconds": 3.9847000000000037,
+        "turn_interval_seconds": 44.0632,
+        "input_chars": 419,
+        "output_tokens": 3471,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1671828
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 11,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "upsert_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 136.98,
+        "model_response_end_seconds": 177.017,
+        "model_response_interval_seconds": 40.037000000000006,
+        "tool_execution_interval_seconds": 0.028200000000026648,
+        "turn_interval_seconds": 40.06520000000003,
+        "input_chars": 380,
+        "output_tokens": 3071,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.0968144
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 4,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_attach",
+          "set_object_anims"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 47.9085,
+        "model_response_end_seconds": 84.2416,
+        "model_response_interval_seconds": 36.33310000000001,
+        "tool_execution_interval_seconds": 0.09959999999999525,
+        "turn_interval_seconds": 36.432700000000004,
+        "input_chars": 484,
+        "output_tokens": 2754,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.140303
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 13,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 425.41490000000005,
+        "model_response_end_seconds": 461.47540000000004,
+        "model_response_interval_seconds": 36.06049999999999,
+        "tool_execution_interval_seconds": 0.08850000000001046,
+        "turn_interval_seconds": 36.149,
+        "input_chars": 3567,
+        "output_tokens": 3872,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.127941
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 3,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 10.0354,
+        "model_response_end_seconds": 45.9571,
+        "model_response_interval_seconds": 35.9217,
+        "tool_execution_interval_seconds": 1.9513999999999996,
+        "turn_interval_seconds": 37.873099999999994,
+        "input_chars": 225,
+        "output_tokens": 3014,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1031442
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 7,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "update_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 342.0682,
+        "model_response_end_seconds": 375.7165,
+        "model_response_interval_seconds": 33.648300000000006,
+        "tool_execution_interval_seconds": 0.03899999999998727,
+        "turn_interval_seconds": 33.68729999999999,
+        "input_chars": 9649,
+        "output_tokens": 5082,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.209401
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 9,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 276.444,
+        "model_response_end_seconds": 309.2685,
+        "model_response_interval_seconds": 32.8245,
+        "tool_execution_interval_seconds": 0.043000000000006366,
+        "turn_interval_seconds": 32.86750000000001,
+        "input_chars": 8128,
+        "output_tokens": 4385,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1934416
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012505_240fbafc",
+        "turn": 3,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 15.371,
+        "model_response_end_seconds": 46.0384,
+        "model_response_interval_seconds": 30.6674,
+        "tool_execution_interval_seconds": 0.00019999999999242846,
+        "turn_interval_seconds": 30.667599999999993,
+        "input_chars": 39,
+        "output_tokens": 2891,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.092904
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012505_240fbafc",
+        "turn": 6,
+        "category": "mixed",
+        "categories": [
+          "motion_effects",
+          "objects_environment"
+        ],
+        "tools": [
+          "set_object_motion",
+          "update_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 60.2101,
+        "model_response_end_seconds": 90.1055,
+        "model_response_interval_seconds": 29.89540000000001,
+        "tool_execution_interval_seconds": 0.07089999999999463,
+        "turn_interval_seconds": 29.966300000000004,
+        "input_chars": 4772,
+        "output_tokens": 3862,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.0972686
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 25,
+        "category": "observation",
+        "categories": [
+          "observation"
+        ],
+        "tools": [
+          "preview_scene"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 591.3273,
+        "model_response_end_seconds": 617.206,
+        "model_response_interval_seconds": 25.87869999999998,
+        "tool_execution_interval_seconds": 1.3858999999999924,
+        "turn_interval_seconds": 27.264599999999973,
+        "input_chars": 86,
+        "output_tokens": 1934,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1247594
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 14,
+        "category": "cameras",
+        "categories": [
+          "cameras"
+        ],
+        "tools": [
+          "update_camera_advanced"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 428.699,
+        "model_response_end_seconds": 454.26,
+        "model_response_interval_seconds": 25.56099999999998,
+        "tool_execution_interval_seconds": 0.03890000000001237,
+        "turn_interval_seconds": 25.59989999999999,
+        "input_chars": 354,
+        "output_tokens": 2056,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1268736
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 8,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "upsert_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 375.7555,
+        "model_response_end_seconds": 400.68859999999995,
+        "model_response_interval_seconds": 24.933099999999968,
+        "tool_execution_interval_seconds": 0.03350000000000364,
+        "turn_interval_seconds": 24.96659999999997,
+        "input_chars": 6257,
+        "output_tokens": 3721,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1294582
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 17,
+        "category": "cameras",
+        "categories": [
+          "cameras"
+        ],
+        "tools": [
+          "apply_camera_presets"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 491.5175,
+        "model_response_end_seconds": 515.0276,
+        "model_response_interval_seconds": 23.510100000000023,
+        "tool_execution_interval_seconds": 0.07209999999997763,
+        "turn_interval_seconds": 23.5822,
+        "input_chars": 1456,
+        "output_tokens": 2213,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1035962
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 14,
+        "category": "mixed",
+        "categories": [
+          "motion_effects",
+          "objects_environment"
+        ],
+        "tools": [
+          "set_object_motion",
+          "set_object_attach",
+          "set_environment",
+          "create_objects"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 461.56390000000005,
+        "model_response_end_seconds": 482.8405,
+        "model_response_interval_seconds": 21.276599999999974,
+        "tool_execution_interval_seconds": 0.10890000000000555,
+        "turn_interval_seconds": 21.38549999999998,
+        "input_chars": 1803,
+        "output_tokens": 2126,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.0959686
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 18,
+        "category": "completion",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "end",
+        "start_seconds": 493.2008,
+        "model_response_end_seconds": 513.7896,
+        "model_response_interval_seconds": 20.588799999999935,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 20.588799999999935,
+        "input_chars": 0,
+        "output_tokens": 1789,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.1009596
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 15,
+        "category": "completion",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "end",
+        "start_seconds": 215.5222,
+        "model_response_end_seconds": 234.8509,
+        "model_response_interval_seconds": 19.328699999999998,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 19.328699999999998,
+        "input_chars": 0,
+        "output_tokens": 1385,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.0909622
+      }
+    ],
+    "top_tool_calls": [
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012505_240fbafc",
+        "turn": 8,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 96.161,
+        "end_seconds": 105.057,
+        "execution_interval_seconds": 8.896,
+        "input_chars": 131,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 15,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 459.5092,
+        "end_seconds": 468.40229999999997,
+        "execution_interval_seconds": 8.893099999999947,
+        "input_chars": 140,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012310_75fe60c4",
+        "turn": 8,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 49.3128,
+        "end_seconds": 58.031699999999994,
+        "execution_interval_seconds": 8.71889999999999,
+        "input_chars": 136,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 13,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 420.01279999999997,
+        "end_seconds": 428.699,
+        "execution_interval_seconds": 8.686200000000042,
+        "input_chars": 179,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 24,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 583.5059,
+        "end_seconds": 591.3273,
+        "execution_interval_seconds": 7.82140000000004,
+        "input_chars": 119,
+        "input_list_sizes": {
+          "items": 7
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 36,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 723.5966999999999,
+        "end_seconds": 730.5068,
+        "execution_interval_seconds": 6.910100000000057,
+        "input_chars": 103,
+        "input_list_sizes": {
+          "items": 6
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 12,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 182.1509,
+        "end_seconds": 189.05620000000002,
+        "execution_interval_seconds": 6.905300000000011,
+        "input_chars": 104,
+        "input_list_sizes": {
+          "items": 6
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 14,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 208.7303,
+        "end_seconds": 215.5222,
+        "execution_interval_seconds": 6.791899999999998,
+        "input_chars": 105,
+        "input_list_sizes": {
+          "items": 6
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 7,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 102.1571,
+        "end_seconds": 108.9093,
+        "execution_interval_seconds": 6.752200000000002,
+        "input_chars": 104,
+        "input_list_sizes": {
+          "items": 6
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012505_240fbafc",
+        "turn": 9,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 109.9812,
+        "end_seconds": 115.6689,
+        "execution_interval_seconds": 5.687699999999992,
+        "input_chars": 87,
+        "input_list_sizes": {
+          "items": 5
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 30,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 653.3044,
+        "end_seconds": 658.8908,
+        "execution_interval_seconds": 5.586400000000026,
+        "input_chars": 87,
+        "input_list_sizes": {
+          "items": 5
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012837_2156cc50",
+        "turn": 8,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 42.999199999999995,
+        "end_seconds": 47.4801,
+        "execution_interval_seconds": 4.480900000000005,
+        "input_chars": 155,
+        "input_list_sizes": {
+          "items": 4
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 5,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 180.5729,
+        "end_seconds": 185.05010000000001,
+        "execution_interval_seconds": 4.4772000000000105,
+        "input_chars": 91,
+        "input_list_sizes": {
+          "items": 4
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261101_163956_9670ba86",
+        "turn": 17,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 488.7509,
+        "end_seconds": 493.2008,
+        "execution_interval_seconds": 4.449900000000014,
+        "input_chars": 99,
+        "input_list_sizes": {
+          "items": 4
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 524.9843000000001,
+        "end_seconds": 529.4311,
+        "execution_interval_seconds": 4.446799999999939,
+        "input_chars": 71,
+        "input_list_sizes": {
+          "items": 4
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 43,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 780.4,
+        "end_seconds": 783.7669000000001,
+        "execution_interval_seconds": 3.3669000000001006,
+        "input_chars": 55,
+        "input_list_sizes": {
+          "items": 3
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 38,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 750.314,
+        "end_seconds": 753.6493,
+        "execution_interval_seconds": 3.3353000000000748,
+        "input_chars": 59,
+        "input_list_sizes": {
+          "items": 3
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_012505_240fbafc",
+        "turn": 11,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 126.95989999999999,
+        "end_seconds": 129.31,
+        "execution_interval_seconds": 2.350100000000012,
+        "input_chars": 40,
+        "input_list_sizes": {
+          "items": 2
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 41,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 768.3149000000001,
+        "end_seconds": 770.5793000000001,
+        "execution_interval_seconds": 2.2644000000000233,
+        "input_chars": 41,
+        "input_list_sizes": {
+          "items": 2
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_125454_00c9ca60",
+        "turn": 10,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 134.7251,
+        "end_seconds": 136.98,
+        "execution_interval_seconds": 2.254899999999992,
+        "input_chars": 87,
+        "input_list_sizes": {
+          "items": 2
+        },
+        "is_error": false
+      }
+    ],
+    "after_first_visual_seconds": {
+      "n": 6,
+      "total": 847.1710999999999,
+      "mean": 141.19518333333332,
+      "median": 94.14224999999999,
+      "p90": 306.12289999999996,
+      "min": 13.116400000000006,
+      "max": 328.8169999999999
+    },
+    "retries": 0,
+    "rejection_events": 2,
+    "long_response_turns_over_60s": {
+      "n": 4,
+      "total_seconds": 608.7067,
+      "turn_share_pct": 3.508771929824561,
+      "model_time_share_pct": 35.472050464744605
+    },
+    "truncated_no_tool_turns": [
+      {
+        "cohort": "additional",
+        "project": "전독시",
+        "run_id": "scene_20261104_122704_b817245c",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 86.385,
+        "model_response_end_seconds": 276.444,
+        "model_response_interval_seconds": 190.05900000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 190.05900000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.377852
+      }
+    ]
+  },
+  "first_excluding_clock_anomaly": {
+    "runs": 17,
+    "totals": {
+      "client_seconds": {
+        "n": 17,
+        "total": 11502.470008078963,
+        "mean": 676.6158828281742,
+        "median": 636.568859167397,
+        "p90": 864.5394916020334,
+        "min": 339.45101237669587,
+        "max": 934.1853577494621
+      },
+      "server_seconds": {
+        "n": 17,
+        "total": 11500.746000000001,
+        "mean": 676.5144705882353,
+        "median": 636.5256999999999,
+        "p90": 864.4171800000001,
+        "min": 339.4173,
+        "max": 934.1458
+      },
+      "preload_seconds": {
+        "n": 17,
+        "total": 4.5439,
+        "mean": 0.26728823529411766,
+        "median": 0.0891,
+        "p90": 0.87704,
+        "min": 0.0506,
+        "max": 0.948
+      },
+      "model_response_seconds": {
+        "n": 17,
+        "total": 10694.0638,
+        "mean": 629.0625764705883,
+        "median": 592.7713999999999,
+        "p90": 811.7870400000002,
+        "min": 313.3181,
+        "max": 895.6568
+      },
+      "tool_execution_seconds": {
+        "n": 17,
+        "total": 801.4848000000001,
+        "mean": 47.146164705882356,
+        "median": 49.12899999999981,
+        "p90": 55.653660000000016,
+        "min": 26.016500000000047,
+        "max": 70.09029999999973
+      },
+      "tail_seconds": {
+        "n": 17,
+        "total": 0.6534999999996671,
+        "mean": 0.038441176470568654,
+        "median": 0.014599999999973079,
+        "p90": 0.11581999999996243,
+        "min": 0.007299999999872853,
+        "max": 0.12400000000002365
+      },
+      "turns": {
+        "n": 17,
+        "total": 499,
+        "mean": 29.352941176470587,
+        "median": 30,
+        "p90": 37.4,
+        "min": 17,
+        "max": 39
+      },
+      "tool_calls": {
+        "n": 17,
+        "total": 999,
+        "mean": 58.76470588235294,
+        "median": 61,
+        "p90": 70.4,
+        "min": 31,
+        "max": 73
+      },
+      "model_share_pct": 92.9858271802542
+    },
+    "model_categories": {
+      "search_guide": {
+        "label": "에셋·동작 검색 및 가이드",
+        "n": 130,
+        "total": 2577.7086,
+        "mean": 19.828527692307695,
+        "median": 7.479049999999997,
+        "p90": 63.892370000000085,
+        "min": 3.5137000000000285,
+        "max": 172.53060000000002,
+        "projects": 17,
+        "mean_per_project_seconds": 151.62991764705882,
+        "share_of_model_pct": 24.104107177666172
+      },
+      "objects_environment": {
+        "label": "오브젝트·배경 구성",
+        "n": 74,
+        "total": 2158.5805000000005,
+        "mean": 29.170006756756763,
+        "median": 17.44650000000007,
+        "p90": 62.64906,
+        "min": 3.774000000000001,
+        "max": 143.30830000000003,
+        "projects": 17,
+        "mean_per_project_seconds": 126.9753235294118,
+        "share_of_model_pct": 20.18484778443159
+      },
+      "motion_effects": {
+        "label": "동작·효과 구성",
+        "n": 39,
+        "total": 1114.4585,
+        "mean": 28.575858974358972,
+        "median": 11.869899999999973,
+        "p90": 57.93324000000004,
+        "min": 3.6462999999999965,
+        "max": 172.74100000000004,
+        "projects": 14,
+        "mean_per_project_seconds": 65.55638235294117,
+        "share_of_model_pct": 10.421281571183444
+      },
+      "cameras": {
+        "label": "카메라 구성",
+        "n": 30,
+        "total": 699.4887999999995,
+        "mean": 23.316293333333316,
+        "median": 14.854299999999967,
+        "p90": 59.47624000000001,
+        "min": 4.166499999999928,
+        "max": 87.20310000000006,
+        "projects": 15,
+        "mean_per_project_seconds": 41.14639999999997,
+        "share_of_model_pct": 6.540907302236214
+      },
+      "observation": {
+        "label": "화면·상태 확인 요청",
+        "n": 87,
+        "total": 653.7622000000001,
+        "mean": 7.514508045977013,
+        "median": 5.434100000000058,
+        "p90": 14.992659999999951,
+        "min": 2.4838000000000875,
+        "max": 32.49759999999998,
+        "projects": 16,
+        "mean_per_project_seconds": 38.45660000000001,
+        "share_of_model_pct": 6.113318680593622
+      },
+      "mixed": {
+        "label": "여러 종류를 함께 요청",
+        "n": 119,
+        "total": 2496.1872000000003,
+        "mean": 20.976363025210084,
+        "median": 13.761800000000108,
+        "p90": 39.951160000000044,
+        "min": 3.6154000000000224,
+        "max": 129.63469999999998,
+        "projects": 17,
+        "mean_per_project_seconds": 146.8345411764706,
+        "share_of_model_pct": 23.341802019172547
+      },
+      "completion": {
+        "label": "종료 응답",
+        "n": 17,
+        "total": 439.9944000000003,
+        "mean": 25.882023529411782,
+        "median": 26.47180000000003,
+        "p90": 29.731500000000008,
+        "min": 14.67710000000011,
+        "max": 35.59319999999991,
+        "projects": 17,
+        "mean_per_project_seconds": 25.882023529411782,
+        "share_of_model_pct": 4.11437979264721
+      },
+      "truncated_no_tool": {
+        "label": "출력 한도 도달·도구 호출 없음",
+        "n": 3,
+        "total": 553.8836,
+        "mean": 184.62786666666665,
+        "median": 185.22170000000003,
+        "p90": 185.24961999999996,
+        "min": 183.40529999999998,
+        "max": 185.25659999999996,
+        "projects": 3,
+        "mean_per_project_seconds": 32.58138823529412,
+        "share_of_model_pct": 5.179355672069209
+      }
+    },
+    "tools": {
+      "apply_camera_presets": {
+        "n": 25,
+        "total": 1.3286000000000229,
+        "mean": 0.05314400000000091,
+        "median": 0.03249999999997044,
+        "p90": 0.09520000000002256,
+        "min": 0.008500000000026375,
+        "max": 0.32970000000000255,
+        "projects": 17,
+        "mean_per_project_seconds": 0.07815294117647194
+      },
+      "create_along": {
+        "n": 11,
+        "total": 0.2929999999998927,
+        "mean": 0.02663636363635388,
+        "median": 0.021500000000003183,
+        "p90": 0.043299999999987904,
+        "min": 0.003399999999942338,
+        "max": 0.0684999999999718,
+        "projects": 4,
+        "mean_per_project_seconds": 0.017235294117640746
+      },
+      "create_objects": {
+        "n": 41,
+        "total": 2.480099999999794,
+        "mean": 0.060490243902434,
+        "median": 0.029799999999909232,
+        "p90": 0.12989999999999213,
+        "min": 0.0033999999999991815,
+        "max": 0.3680999999999699,
+        "projects": 17,
+        "mean_per_project_seconds": 0.14588823529410555
+      },
+      "create_procedural": {
+        "n": 38,
+        "total": 1.9028999999996188,
+        "mean": 0.05007631578946365,
+        "median": 0.026199999999960255,
+        "p90": 0.14570000000002784,
+        "min": 0.004000000000019099,
+        "max": 0.22010000000000218,
+        "projects": 17,
+        "mean_per_project_seconds": 0.11193529411762464
+      },
+      "delete_cameras": {
+        "n": 1,
+        "total": 0.019399999999961892,
+        "mean": 0.019399999999961892,
+        "median": 0.019399999999961892,
+        "p90": 0.019399999999961892,
+        "min": 0.019399999999961892,
+        "max": 0.019399999999961892,
+        "projects": 1,
+        "mean_per_project_seconds": 0.0011411764705859936
+      },
+      "delete_objects": {
+        "n": 4,
+        "total": 0.10819999999989705,
+        "mean": 0.02704999999997426,
+        "median": 0.020749999999935653,
+        "p90": 0.04542000000000713,
+        "min": 0.012400000000013733,
+        "max": 0.054300000000012005,
+        "projects": 4,
+        "mean_per_project_seconds": 0.006364705882346885
+      },
+      "duplicate_objects": {
+        "n": 11,
+        "total": 0.2848000000000468,
+        "mean": 0.025890909090913346,
+        "median": 0.015899999999987813,
+        "p90": 0.042699999999967986,
+        "min": 0.005999999999971806,
+        "max": 0.0745000000000573,
+        "projects": 8,
+        "mean_per_project_seconds": 0.01675294117647334
+      },
+      "get_guide": {
+        "n": 102,
+        "total": 0.02219999999977862,
+        "mean": 0.000217647058821359,
+        "median": 0.00019999999999953388,
+        "p90": 0.00039999999998201473,
+        "min": 0.0,
+        "max": 0.0006000000000199179,
+        "projects": 17,
+        "mean_per_project_seconds": 0.0013058823529281541
+      },
+      "get_objects": {
+        "n": 18,
+        "total": 0.938899999999947,
+        "mean": 0.05216111111110817,
+        "median": 0.02339999999998099,
+        "p90": 0.09318999999996436,
+        "min": 0.007500000000050022,
+        "max": 0.2979000000000269,
+        "projects": 11,
+        "mean_per_project_seconds": 0.055229411764702765
+      },
+      "get_timeline": {
+        "n": 3,
+        "total": 0.0545999999999367,
+        "mean": 0.0181999999999789,
+        "median": 0.017600000000015825,
+        "p90": 0.02103999999997086,
+        "min": 0.015099999999961256,
+        "max": 0.02189999999995962,
+        "projects": 3,
+        "mean_per_project_seconds": 0.003211764705878629
+      },
+      "preview_scene": {
+        "n": 15,
+        "total": 6.151200000000358,
+        "mean": 0.41008000000002387,
+        "median": 0.3309000000000424,
+        "p90": 1.003939999999977,
+        "min": 0.049900000000093314,
+        "max": 1.5745000000000573,
+        "projects": 11,
+        "mean_per_project_seconds": 0.3618352941176681
+      },
+      "screenshot_scene": {
+        "n": 94,
+        "total": 462.3358,
+        "mean": 4.918465957446808,
+        "median": 4.330700000000036,
+        "p90": 8.308950000000044,
+        "min": 0.01139999999986685,
+        "max": 10.075799999999845,
+        "projects": 17,
+        "mean_per_project_seconds": 27.196223529411764
+      },
+      "search_animations": {
+        "n": 115,
+        "total": 101.30150000000012,
+        "mean": 0.8808826086956533,
+        "median": 0.8645000000000209,
+        "p90": 1.069340000000011,
+        "min": 0.5273999999999859,
+        "max": 2.280300000000011,
+        "projects": 16,
+        "mean_per_project_seconds": 5.958911764705889
+      },
+      "search_assets": {
+        "n": 230,
+        "total": 198.27680000000004,
+        "mean": 0.8620730434782611,
+        "median": 0.8612999999999964,
+        "p90": 1.0561700000000003,
+        "min": 0.0007000000000019213,
+        "max": 3.9032999999999998,
+        "projects": 17,
+        "mean_per_project_seconds": 11.66334117647059
+      },
+      "search_effects": {
+        "n": 20,
+        "total": 15.86930000000001,
+        "mean": 0.7934650000000005,
+        "median": 0.8403500000000008,
+        "p90": 0.9286900000000003,
+        "min": 0.5339000000000027,
+        "max": 1.0448999999999842,
+        "projects": 9,
+        "mean_per_project_seconds": 0.9334882352941182
+      },
+      "set_effect_spans": {
+        "n": 11,
+        "total": 1.4784999999997979,
+        "mean": 0.13440909090907252,
+        "median": 0.1311999999999216,
+        "p90": 0.23779999999987922,
+        "min": 0.01490000000001146,
+        "max": 0.3046000000001641,
+        "projects": 9,
+        "mean_per_project_seconds": 0.08697058823528223
+      },
+      "set_environment": {
+        "n": 16,
+        "total": 0.37510000000020227,
+        "mean": 0.023443750000012642,
+        "median": 0.008499999999997954,
+        "p90": 0.06085000000007312,
+        "min": 0.004599999999982174,
+        "max": 0.1411000000000513,
+        "projects": 14,
+        "mean_per_project_seconds": 0.022064705882364838
+      },
+      "set_object_anims": {
+        "n": 4,
+        "total": 0.46609999999992624,
+        "mean": 0.11652499999998156,
+        "median": 0.029499999999956117,
+        "p90": 0.28176000000002555,
+        "min": 0.017399999999952342,
+        "max": 0.38970000000006166,
+        "projects": 4,
+        "mean_per_project_seconds": 0.02741764705881919
+      },
+      "set_object_attach": {
+        "n": 15,
+        "total": 0.520800000000122,
+        "mean": 0.03472000000000814,
+        "median": 0.019499999999993634,
+        "p90": 0.07837999999999282,
+        "min": 0.006600000000048567,
+        "max": 0.11930000000006658,
+        "projects": 12,
+        "mean_per_project_seconds": 0.030635294117654237
+      },
+      "set_object_motion": {
+        "n": 42,
+        "total": 3.039100000000019,
+        "mean": 0.07235952380952426,
+        "median": 0.0574500000000171,
+        "p90": 0.1645899999999983,
+        "min": 0.0049999999999954525,
+        "max": 0.2998999999999796,
+        "projects": 17,
+        "mean_per_project_seconds": 0.17877058823529524
+      },
+      "update_camera_advanced": {
+        "n": 4,
+        "total": 0.09680000000008704,
+        "mean": 0.02420000000002176,
+        "median": 0.0241500000000201,
+        "p90": 0.03911000000004492,
+        "min": 0.005699999999990268,
+        "max": 0.04280000000005657,
+        "projects": 2,
+        "mean_per_project_seconds": 0.0056941176470639435
+      },
+      "update_cameras": {
+        "n": 78,
+        "total": 1.822700000000225,
+        "mean": 0.0233679487179516,
+        "median": 0.012399999999985312,
+        "p90": 0.044819999999958754,
+        "min": 0.002299999999991087,
+        "max": 0.26959999999996853,
+        "projects": 17,
+        "mean_per_project_seconds": 0.10721764705883675
+      },
+      "update_objects": {
+        "n": 46,
+        "total": 1.3706000000001382,
+        "mean": 0.029795652173916047,
+        "median": 0.011899999999997135,
+        "p90": 0.07685000000000741,
+        "min": 0.0020999999999844476,
+        "max": 0.3018000000000143,
+        "projects": 15,
+        "mean_per_project_seconds": 0.08062352941177284
+      },
+      "update_procedural": {
+        "n": 15,
+        "total": 0.2729000000001065,
+        "mean": 0.018193333333340434,
+        "median": 0.015599999999949432,
+        "p90": 0.033179999999993014,
+        "min": 0.005200000000058935,
+        "max": 0.04339999999990596,
+        "projects": 9,
+        "mean_per_project_seconds": 0.01605294117647685
+      },
+      "upsert_object_motion": {
+        "n": 40,
+        "total": 0.6748999999999796,
+        "mean": 0.016872499999999492,
+        "median": 0.011899999999940292,
+        "p90": 0.028019999999969514,
+        "min": 0.004399999999918691,
+        "max": 0.13069999999999027,
+        "projects": 15,
+        "mean_per_project_seconds": 0.0396999999999988
+      }
+    },
+    "model_category_combinations": {
+      "search_guide": {
+        "n": 130,
+        "total": 2577.7086,
+        "mean": 19.828527692307695,
+        "median": 7.479049999999997,
+        "p90": 63.892370000000085,
+        "min": 3.5137000000000285,
+        "max": 172.53060000000002
+      },
+      "objects_environment + search_guide": {
+        "n": 11,
+        "total": 286.2184000000001,
+        "mean": 26.01985454545455,
+        "median": 8.488200000000006,
+        "p90": 65.32019999999997,
+        "min": 4.007100000000037,
+        "max": 129.63469999999998
+      },
+      "objects_environment": {
+        "n": 74,
+        "total": 2158.5805000000005,
+        "mean": 29.170006756756763,
+        "median": 17.44650000000007,
+        "p90": 62.64906,
+        "min": 3.774000000000001,
+        "max": 143.30830000000003
+      },
+      "motion_effects + objects_environment": {
+        "n": 25,
+        "total": 818.6361999999999,
+        "mean": 32.745447999999996,
+        "median": 20.93429999999995,
+        "p90": 75.26550000000005,
+        "min": 4.8163000000000125,
+        "max": 115.2802999999999
+      },
+      "motion_effects + objects_environment + search_guide": {
+        "n": 2,
+        "total": 13.540000000000077,
+        "mean": 6.770000000000039,
+        "median": 6.770000000000039,
+        "p90": 8.216400000000032,
+        "min": 4.962000000000046,
+        "max": 8.578000000000031
+      },
+      "cameras + motion_effects": {
+        "n": 13,
+        "total": 303.8681999999997,
+        "mean": 23.3744769230769,
+        "median": 21.976200000000006,
+        "p90": 35.321819999999946,
+        "min": 7.119899999999916,
+        "max": 51.97269999999992
+      },
+      "observation": {
+        "n": 87,
+        "total": 653.7622000000001,
+        "mean": 7.514508045977013,
+        "median": 5.434100000000058,
+        "p90": 14.992659999999951,
+        "min": 2.4838000000000875,
+        "max": 32.49759999999998
+      },
+      "cameras + observation": {
+        "n": 29,
+        "total": 336.7781999999999,
+        "mean": 11.613041379310342,
+        "median": 11.078700000000026,
+        "p90": 16.148159999999983,
+        "min": 4.85670000000016,
+        "max": 24.23730000000012
+      },
+      "cameras + motion_effects + objects_environment": {
+        "n": 10,
+        "total": 247.69440000000037,
+        "mean": 24.76944000000004,
+        "median": 24.76060000000001,
+        "p90": 34.36441000000004,
+        "min": 8.784099999999967,
+        "max": 39.634900000000016
+      },
+      "cameras + objects_environment + observation": {
+        "n": 1,
+        "total": 8.560900000000004,
+        "mean": 8.560900000000004,
+        "median": 8.560900000000004,
+        "p90": 8.560900000000004,
+        "min": 8.560900000000004,
+        "max": 8.560900000000004
+      },
+      "completion": {
+        "n": 17,
+        "total": 439.9944000000003,
+        "mean": 25.882023529411782,
+        "median": 26.47180000000003,
+        "p90": 29.731500000000008,
+        "min": 14.67710000000011,
+        "max": 35.59319999999991
+      },
+      "truncated_no_tool": {
+        "n": 3,
+        "total": 553.8836,
+        "mean": 184.62786666666665,
+        "median": 185.22170000000003,
+        "p90": 185.24961999999996,
+        "min": 183.40529999999998,
+        "max": 185.25659999999996
+      },
+      "motion_effects": {
+        "n": 39,
+        "total": 1114.4585,
+        "mean": 28.575858974358972,
+        "median": 11.869899999999973,
+        "p90": 57.93324000000004,
+        "min": 3.6462999999999965,
+        "max": 172.74100000000004
+      },
+      "cameras": {
+        "n": 30,
+        "total": 699.4887999999995,
+        "mean": 23.316293333333316,
+        "median": 14.854299999999967,
+        "p90": 59.47624000000001,
+        "min": 4.166499999999928,
+        "max": 87.20310000000006
+      },
+      "cameras + search_guide": {
+        "n": 3,
+        "total": 32.110199999999736,
+        "mean": 10.703399999999911,
+        "median": 11.02089999999987,
+        "p90": 13.641139999999883,
+        "min": 6.793099999999981,
+        "max": 14.296199999999885
+      },
+      "cameras + objects_environment": {
+        "n": 12,
+        "total": 298.19290000000007,
+        "mean": 24.84940833333334,
+        "median": 20.620550000000037,
+        "p90": 32.85432,
+        "min": 5.784899999999993,
+        "max": 80.19650000000001
+      },
+      "motion_effects + observation": {
+        "n": 6,
+        "total": 78.92640000000011,
+        "mean": 13.154400000000019,
+        "median": 11.861949999999979,
+        "p90": 20.78880000000001,
+        "min": 6.4657000000000835,
+        "max": 21.783699999999953
+      },
+      "objects_environment + observation": {
+        "n": 3,
+        "total": 17.783500000000004,
+        "mean": 5.927833333333335,
+        "median": 5.479799999999983,
+        "p90": 6.857160000000005,
+        "min": 5.1022000000000105,
+        "max": 7.20150000000001
+      },
+      "observation + search_guide": {
+        "n": 2,
+        "total": 10.527100000000019,
+        "mean": 5.263550000000009,
+        "median": 5.263550000000009,
+        "p90": 6.582069999999999,
+        "min": 3.6154000000000224,
+        "max": 6.911699999999996
+      },
+      "cameras + motion_effects + objects_environment + search_guide": {
+        "n": 1,
+        "total": 18.067800000000034,
+        "mean": 18.067800000000034,
+        "median": 18.067800000000034,
+        "p90": 18.067800000000034,
+        "min": 18.067800000000034,
+        "max": 18.067800000000034
+      },
+      "cameras + motion_effects + observation": {
+        "n": 1,
+        "total": 25.283000000000015,
+        "mean": 25.283000000000015,
+        "median": 25.283000000000015,
+        "p90": 25.283000000000015,
+        "min": 25.283000000000015,
+        "max": 25.283000000000015
+      }
+    },
+    "turn_model_response_seconds": {
+      "n": 499,
+      "total": 10694.0638,
+      "mean": 21.430989579158318,
+      "median": 9.996600000000004,
+      "p90": 50.46557999999995,
+      "min": 2.4838000000000875,
+      "max": 185.25659999999996
+    },
+    "top_model_turns": [
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 7,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 188.32520000000002,
+        "model_response_end_seconds": 373.5818,
+        "model_response_interval_seconds": 185.25659999999996,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.25659999999996,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.442489
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 187.9222,
+        "model_response_end_seconds": 373.14390000000003,
+        "model_response_interval_seconds": 185.22170000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.22170000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3671422
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 6,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 51.8681,
+        "model_response_end_seconds": 235.27339999999998,
+        "model_response_interval_seconds": 183.40529999999998,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 183.40529999999998,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3518796
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 14,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 440.3503,
+        "model_response_end_seconds": 613.0913,
+        "model_response_interval_seconds": 172.74100000000004,
+        "tool_execution_interval_seconds": 0.008600000000001273,
+        "turn_interval_seconds": 172.74960000000004,
+        "input_chars": 2,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3689266
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 6,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_assets",
+          "search_assets"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 86.85839999999999,
+        "model_response_end_seconds": 259.389,
+        "model_response_interval_seconds": 172.53060000000002,
+        "tool_execution_interval_seconds": 1.5815999999999804,
+        "turn_interval_seconds": 174.1122,
+        "input_chars": 174,
+        "output_tokens": 15198,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3844966
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 5,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 43.3459,
+        "model_response_end_seconds": 203.40460000000002,
+        "model_response_interval_seconds": 160.05870000000002,
+        "tool_execution_interval_seconds": 5.008299999999991,
+        "turn_interval_seconds": 165.067,
+        "input_chars": 262,
+        "output_tokens": 13376,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3251714
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 6,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 163.3501,
+        "model_response_end_seconds": 306.65840000000003,
+        "model_response_interval_seconds": 143.30830000000003,
+        "tool_execution_interval_seconds": 0.022099999999966258,
+        "turn_interval_seconds": 143.3304,
+        "input_chars": 5270,
+        "output_tokens": 13150,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3578756
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 11,
+        "category": "motion_effects",
+        "categories": [
+          "motion_effects"
+        ],
+        "tools": [
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 396.4162,
+        "model_response_end_seconds": 536.3887,
+        "model_response_interval_seconds": 139.97249999999997,
+        "tool_execution_interval_seconds": 0.21210000000007767,
+        "turn_interval_seconds": 140.18460000000005,
+        "input_chars": 8235,
+        "output_tokens": 14950,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3507918
+      },
+      {
+        "cohort": "first",
+        "project": "개미보다 작아진 남자",
+        "run_id": "scene_20261026_002101_61256c48",
+        "turn": 7,
+        "category": "mixed",
+        "categories": [
+          "objects_environment",
+          "search_guide"
+        ],
+        "tools": [
+          "create_objects",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 66.2673,
+        "model_response_end_seconds": 195.902,
+        "model_response_interval_seconds": 129.63469999999998,
+        "tool_execution_interval_seconds": 4.6066000000000145,
+        "turn_interval_seconds": 134.2413,
+        "input_chars": 1902,
+        "output_tokens": 11581,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2522282
+      },
+      {
+        "cohort": "first",
+        "project": "261020",
+        "run_id": "scene_20261026_001026_c12ffe0b",
+        "turn": 9,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_objects"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 100.7144,
+        "model_response_end_seconds": 227.08679999999998,
+        "model_response_interval_seconds": 126.37239999999998,
+        "tool_execution_interval_seconds": 0.0730000000000075,
+        "turn_interval_seconds": 126.44539999999999,
+        "input_chars": 3367,
+        "output_tokens": 11552,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2599146
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격",
+        "run_id": "scene_20261023_034249_db6f4629",
+        "turn": 8,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_effects",
+          "search_effects"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 142.4441,
+        "model_response_end_seconds": 266.3178,
+        "model_response_interval_seconds": 123.87369999999999,
+        "tool_execution_interval_seconds": 2.973100000000045,
+        "turn_interval_seconds": 126.84680000000003,
+        "input_chars": 267,
+        "output_tokens": 10796,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2457134
+      },
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 7,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_assets"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 91.5197,
+        "model_response_end_seconds": 211.8657,
+        "model_response_interval_seconds": 120.346,
+        "tool_execution_interval_seconds": 1.5730999999999824,
+        "turn_interval_seconds": 121.91909999999999,
+        "input_chars": 148,
+        "output_tokens": 10225,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2875878
+      },
+      {
+        "cohort": "first",
+        "project": "조하영",
+        "run_id": "scene_20261025_233823_5989c45c",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 26.361099999999997,
+        "model_response_end_seconds": 144.7721,
+        "model_response_interval_seconds": 118.411,
+        "tool_execution_interval_seconds": 0.00030000000000995897,
+        "turn_interval_seconds": 118.41130000000001,
+        "input_chars": 23,
+        "output_tokens": 10412,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3076496
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 5,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide",
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 53.0831,
+        "model_response_end_seconds": 170.5999,
+        "model_response_interval_seconds": 117.51679999999999,
+        "tool_execution_interval_seconds": 0.0005000000000165983,
+        "turn_interval_seconds": 117.5173,
+        "input_chars": 42,
+        "output_tokens": 9856,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2423606
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 19,
+        "category": "mixed",
+        "categories": [
+          "motion_effects",
+          "objects_environment"
+        ],
+        "tools": [
+          "update_procedural",
+          "upsert_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 697.5194,
+        "model_response_end_seconds": 812.7996999999999,
+        "model_response_interval_seconds": 115.2802999999999,
+        "tool_execution_interval_seconds": 0.020300000000133878,
+        "turn_interval_seconds": 115.30060000000003,
+        "input_chars": 5316,
+        "output_tokens": 11346,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3026262
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 8,
+        "category": "objects_environment",
+        "categories": [
+          "objects_environment"
+        ],
+        "tools": [
+          "create_procedural"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 229.6649,
+        "model_response_end_seconds": 341.46520000000004,
+        "model_response_interval_seconds": 111.80030000000005,
+        "tool_execution_interval_seconds": 0.01909999999992351,
+        "turn_interval_seconds": 111.81939999999997,
+        "input_chars": 9031,
+        "output_tokens": 9507,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2257722
+      },
+      {
+        "cohort": "first",
+        "project": "261019",
+        "run_id": "scene_20261026_000443_64a6122e",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 18.187099999999997,
+        "model_response_end_seconds": 122.7817,
+        "model_response_interval_seconds": 104.5946,
+        "tool_execution_interval_seconds": 5.537199999999984,
+        "turn_interval_seconds": 110.13179999999998,
+        "input_chars": 317,
+        "output_tokens": 9237,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2224482
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 6,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations",
+          "search_animations"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 76.875,
+        "model_response_end_seconds": 181.3035,
+        "model_response_interval_seconds": 104.42850000000001,
+        "tool_execution_interval_seconds": 7.02170000000001,
+        "turn_interval_seconds": 111.45020000000002,
+        "input_chars": 464,
+        "output_tokens": 8996,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2373168
+      },
+      {
+        "cohort": "first",
+        "project": "The Last Light - 마지막 빛",
+        "run_id": "scene_20261026_015711_a0f3c5aa",
+        "turn": 4,
+        "category": "search_guide",
+        "categories": [
+          "search_guide"
+        ],
+        "tools": [
+          "get_guide"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 39.4236,
+        "model_response_end_seconds": 143.57379999999998,
+        "model_response_interval_seconds": 104.15019999999998,
+        "tool_execution_interval_seconds": 0.00020000000003506102,
+        "turn_interval_seconds": 104.15040000000002,
+        "input_chars": 23,
+        "output_tokens": 8514,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.244759
+      },
+      {
+        "cohort": "first",
+        "project": "개미보다 작아진 남자",
+        "run_id": "scene_20261026_002101_61256c48",
+        "turn": 13,
+        "category": "mixed",
+        "categories": [
+          "motion_effects",
+          "objects_environment"
+        ],
+        "tools": [
+          "update_objects",
+          "set_object_motion"
+        ],
+        "stop_reason": "tool_calls",
+        "start_seconds": 320.7761,
+        "model_response_end_seconds": 419.3135,
+        "model_response_interval_seconds": 98.53739999999999,
+        "tool_execution_interval_seconds": 0.16030000000000655,
+        "turn_interval_seconds": 98.6977,
+        "input_chars": 4026,
+        "output_tokens": 9864,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.2367002
+      }
+    ],
+    "top_tool_calls": [
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 22,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 515.1044,
+        "end_seconds": 525.1801999999999,
+        "execution_interval_seconds": 10.075799999999845,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "카페 헌팅",
+        "run_id": "scene_20261031_011027_06a51b35",
+        "turn": 25,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 552.0835999999999,
+        "end_seconds": 561.7338000000001,
+        "execution_interval_seconds": 9.650200000000154,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "도심 추격 2",
+        "run_id": "scene_20261031_023844_c6cbcab9",
+        "turn": 21,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 715.5272,
+        "end_seconds": 724.9741,
+        "execution_interval_seconds": 9.446900000000028,
+        "input_chars": 116,
+        "input_list_sizes": {
+          "items": 7
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 27,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 646.3684000000001,
+        "end_seconds": 655.0151999999999,
+        "execution_interval_seconds": 8.646799999999871,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 25,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 726.7937,
+        "end_seconds": 735.2247,
+        "execution_interval_seconds": 8.43100000000004,
+        "input_chars": 299,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 23,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 684.2988,
+        "end_seconds": 692.7185999999999,
+        "execution_interval_seconds": 8.419799999999896,
+        "input_chars": 301,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "숲 속의 화재",
+        "run_id": "scene_20261029_031331_f3f3eb58",
+        "turn": 28,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 577.2451,
+        "end_seconds": 585.6137,
+        "execution_interval_seconds": 8.368600000000015,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "전독시",
+        "run_id": "scene_20261104_115336_d0ddc316",
+        "turn": 29,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 586.3951,
+        "end_seconds": 594.7463,
+        "execution_interval_seconds": 8.351200000000063,
+        "input_chars": 55,
+        "input_list_sizes": {
+          "items": 3
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 604.3298000000001,
+        "end_seconds": 612.6532,
+        "execution_interval_seconds": 8.323399999999879,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "조하영",
+        "run_id": "scene_20261025_233823_5989c45c",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 437.904,
+        "end_seconds": 446.21790000000004,
+        "execution_interval_seconds": 8.313900000000046,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "한밤의 물고기 인간",
+        "run_id": "scene_20261025_231414_9ec7959f",
+        "turn": 28,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 780.26,
+        "end_seconds": 788.5574,
+        "execution_interval_seconds": 8.297400000000039,
+        "input_chars": 130,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 15,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 550.4798000000001,
+        "end_seconds": 558.7656999999999,
+        "execution_interval_seconds": 8.285899999999856,
+        "input_chars": 132,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "261020",
+        "run_id": "scene_20261026_001026_c12ffe0b",
+        "turn": 20,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 462.57509999999996,
+        "end_seconds": 470.8592,
+        "execution_interval_seconds": 8.284100000000024,
+        "input_chars": 136,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 31,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 719.8915,
+        "end_seconds": 728.1683,
+        "execution_interval_seconds": 8.276800000000094,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "261019",
+        "run_id": "scene_20261026_000443_64a6122e",
+        "turn": 13,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 266.276,
+        "end_seconds": 274.5515,
+        "execution_interval_seconds": 8.275499999999965,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "The Last Light - 마지막 빛",
+        "run_id": "scene_20261026_015711_a0f3c5aa",
+        "turn": 13,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 408.3773,
+        "end_seconds": 416.6505,
+        "execution_interval_seconds": 8.273200000000031,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "바닷속 도시의 환영",
+        "run_id": "scene_20261025_232924_b1f31766",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 395.0869,
+        "end_seconds": 403.355,
+        "execution_interval_seconds": 8.268100000000004,
+        "input_chars": 129,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "터널 효과의 이론과 실제 사이",
+        "run_id": "scene_20261025_234903_8576fb0b",
+        "turn": 21,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 835.3638000000001,
+        "end_seconds": 843.6316999999999,
+        "execution_interval_seconds": 8.267899999999827,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 19,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 521.0462,
+        "end_seconds": 529.3124,
+        "execution_interval_seconds": 8.266200000000026,
+        "input_chars": 133,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      },
+      {
+        "cohort": "first",
+        "project": "The Last Light - 마지막 빛",
+        "run_id": "scene_20261026_015711_a0f3c5aa",
+        "turn": 15,
+        "tool": "screenshot_scene",
+        "category": "observation",
+        "start_seconds": 457.9516,
+        "end_seconds": 466.2161,
+        "execution_interval_seconds": 8.264499999999998,
+        "input_chars": 128,
+        "input_list_sizes": {
+          "items": 8
+        },
+        "is_error": false
+      }
+    ],
+    "after_first_visual_seconds": {
+      "n": 17,
+      "total": 2840.0216000000005,
+      "mean": 167.06009411764708,
+      "median": 161.53190000000006,
+      "p90": 235.50782000000004,
+      "min": 64.86580000000004,
+      "max": 375.19330000000014
+    },
+    "retries": 0,
+    "rejection_events": 16,
+    "long_response_turns_over_60s": {
+      "n": 41,
+      "total_seconds": 4191.2137999999995,
+      "turn_share_pct": 8.216432865731463,
+      "model_time_share_pct": 39.19196554634357
+    },
+    "truncated_no_tool_turns": [
+      {
+        "cohort": "first",
+        "project": "문 너머의 누나",
+        "run_id": "scene_20261025_225129_5b8c2fdb",
+        "turn": 7,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 188.32520000000002,
+        "model_response_end_seconds": 373.5818,
+        "model_response_interval_seconds": 185.25659999999996,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.25659999999996,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.442489
+      },
+      {
+        "cohort": "first",
+        "project": "행복아파트 브이로그",
+        "run_id": "scene_20261025_230334_cabc8bc8",
+        "turn": 6,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 51.8681,
+        "model_response_end_seconds": 235.27339999999998,
+        "model_response_interval_seconds": 183.40529999999998,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 183.40529999999998,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3518796
+      },
+      {
+        "cohort": "first",
+        "project": "커피에 빠진 행성",
+        "run_id": "scene_20261026_014320_236133cb",
+        "turn": 8,
+        "category": "truncated_no_tool",
+        "categories": [],
+        "tools": [],
+        "stop_reason": "max_tokens",
+        "start_seconds": 187.9222,
+        "model_response_end_seconds": 373.14390000000003,
+        "model_response_interval_seconds": 185.22170000000003,
+        "tool_execution_interval_seconds": 0.0,
+        "turn_interval_seconds": 185.22170000000003,
+        "input_chars": 0,
+        "output_tokens": 16000,
+        "retries": 0,
+        "retry_event_offsets_seconds": [],
+        "observed_turn_cost_usd": 0.3671422
+      }
+    ]
+  },
+  "storyboard": {
+    "total_seconds": {
+      "n": 18,
+      "total": 3897.975,
+      "mean": 216.55416666666667,
+      "median": 207.676,
+      "p90": 289.45300000000003,
+      "min": 144.407,
+      "max": 315.751
+    },
+    "draft_seconds": {
+      "n": 18,
+      "total": 2702.1701,
+      "mean": 150.1205611111111,
+      "median": 143.1243,
+      "p90": 210.05066,
+      "min": 108.79169999999999,
+      "max": 222.3704
+    },
+    "structure_seconds": {
+      "n": 18,
+      "total": 721.3702999999999,
+      "mean": 40.07612777777777,
+      "median": 42.41325000000002,
+      "p90": 55.999120000000005,
+      "min": 16.795100000000005,
+      "max": 66.92780000000002
+    },
+    "images_seconds": {
+      "n": 18,
+      "total": 474.4346000000001,
+      "mean": 26.357477777777785,
+      "median": 20.928750000000022,
+      "p90": 36.839849999999984,
+      "min": 17.414500000000004,
+      "max": 76.451
+    }
+  }
+}
